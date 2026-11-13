@@ -1,0 +1,31 @@
+{
+  "id": "voice-kokoro-bm-fable",
+  "kind": "voice",
+  "tags": [
+    "en-GB"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Fable (British English, male)",
+  "voice": {
+    "id": "bm_fable",
+    "name": "Fable",
+    "gender": "male",
+    "language": "en-GB",
+    "grade": "C",
+    "note": "The voice name is the model maker's, not Rutba's."
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/bm_fable.bin",
+      "sha256": "f889083196807b4adb15e9204252165f503b8d33d3982e681c52443c49d798f1",
+      "size": 522240
+    }
+  ]
+}

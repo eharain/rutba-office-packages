@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-if-sara",
+  "kind": "voice",
+  "tags": [
+    "it"
+  ],
+  "requires": [
+    "speech-it-kokoro"
+  ],
+  "name": "Sara (Italian, female)",
+  "voice": {
+    "id": "if_sara",
+    "name": "Sara",
+    "gender": "female",
+    "language": "it",
+    "grade": "C"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/if_sara.bin",
+      "sha256": "409b69248798fcdc2542330c76953d230710f19b057e59cb82fdc3c4cf71265c",
+      "size": 522240
+    }
+  ]
+}

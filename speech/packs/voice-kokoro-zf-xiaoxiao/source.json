@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-zf-xiaoxiao",
+  "kind": "voice",
+  "tags": [
+    "zh-Hans"
+  ],
+  "requires": [
+    "speech-zh-kokoro"
+  ],
+  "name": "Xiaoxiao (Mandarin Chinese, female)",
+  "voice": {
+    "id": "zf_xiaoxiao",
+    "name": "Xiaoxiao",
+    "gender": "female",
+    "language": "zh-Hans",
+    "grade": "D"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/zf_xiaoxiao.bin",
+      "sha256": "03adb5d5e3ddd88b047954e974e651cb0a4b524c985057e5d872e962c7be1169",
+      "size": 522240
+    }
+  ]
+}

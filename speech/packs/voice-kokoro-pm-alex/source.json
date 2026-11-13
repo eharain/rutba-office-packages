@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-pm-alex",
+  "kind": "voice",
+  "tags": [
+    "pt-BR"
+  ],
+  "requires": [
+    "speech-pt-kokoro"
+  ],
+  "name": "Alex (Brazilian Portuguese, male)",
+  "voice": {
+    "id": "pm_alex",
+    "name": "Alex",
+    "gender": "male",
+    "language": "pt-BR",
+    "grade": null
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/pm_alex.bin",
+      "sha256": "0175c753f59c54e7fd5a995bedef0c5ff2fb67e0043dd3dcb2ae74ec2acbeb2a",
+      "size": 522240
+    }
+  ]
+}

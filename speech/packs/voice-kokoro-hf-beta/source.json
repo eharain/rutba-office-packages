@@ -1,0 +1,34 @@
+{
+  "id": "voice-kokoro-hf-beta",
+  "kind": "voice",
+  "tags": [
+    "hi",
+    "ur"
+  ],
+  "requires": [
+    "speech-hi-kokoro"
+  ],
+  "name": "Beta (Hindi, female)",
+  "voice": {
+    "id": "hf_beta",
+    "name": "Beta",
+    "gender": "female",
+    "language": "hi",
+    "grade": "C",
+    "alsoReads": [
+      "ur"
+    ]
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/hf_beta.bin",
+      "sha256": "cd83ae0bb9b2e4e4fb92b4973bd8d1822ca0036d3c498bf4fc89aa8e33917cc7",
+      "size": 522240
+    }
+  ]
+}

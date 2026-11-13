@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-am-adam",
+  "kind": "voice",
+  "tags": [
+    "en-US"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Adam (American English, male)",
+  "voice": {
+    "id": "am_adam",
+    "name": "Adam",
+    "gender": "male",
+    "language": "en-US",
+    "grade": "F+"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/am_adam.bin",
+      "sha256": "162b035ed91cfc48b6046982184c645f72edcdd1b82843347f605d7bf7b15716",
+      "size": 522240
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-jf-gongitsune",
+  "kind": "voice",
+  "tags": [
+    "ja"
+  ],
+  "requires": [
+    "speech-ja-kokoro"
+  ],
+  "name": "Gongitsune (Japanese, female)",
+  "voice": {
+    "id": "jf_gongitsune",
+    "name": "Gongitsune",
+    "gender": "female",
+    "language": "ja",
+    "grade": "C"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0, made from audio under CC BY (as Kokoro's VOICES.md lists it); credited here as that licence asks."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/jf_gongitsune.bin",
+      "sha256": "0f1181f3772d27b7c12aaf4bcd71e31b186c4146e330d074a3dc64ee392af396",
+      "size": 522240
+    }
+  ]
+}

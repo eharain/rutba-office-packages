@@ -1,0 +1,31 @@
+{
+  "id": "voice-kokoro-am-onyx",
+  "kind": "voice",
+  "tags": [
+    "en-US"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Onyx (American English, male)",
+  "voice": {
+    "id": "am_onyx",
+    "name": "Onyx",
+    "gender": "male",
+    "language": "en-US",
+    "grade": "D",
+    "note": "The voice name is the model maker's, not Rutba's."
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/am_onyx.bin",
+      "sha256": "da5d135b424164916d75a68ffb4c2abce3d7d5ccc82dd1ee6cf447ce286145e6",
+      "size": 522240
+    }
+  ]
+}

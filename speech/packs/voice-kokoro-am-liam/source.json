@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-am-liam",
+  "kind": "voice",
+  "tags": [
+    "en-US"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Liam (American English, male)",
+  "voice": {
+    "id": "am_liam",
+    "name": "Liam",
+    "gender": "male",
+    "language": "en-US",
+    "grade": "D"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/am_liam.bin",
+      "sha256": "52403be32fd047c6a44517cb0bcd6b134f2a18baa73e70ef41651e0eab921ade",
+      "size": 522240
+    }
+  ]
+}

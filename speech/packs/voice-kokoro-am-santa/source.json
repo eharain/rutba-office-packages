@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-am-santa",
+  "kind": "voice",
+  "tags": [
+    "en-US"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Santa (American English, male)",
+  "voice": {
+    "id": "am_santa",
+    "name": "Santa",
+    "gender": "male",
+    "language": "en-US",
+    "grade": "D-"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/am_santa.bin",
+      "sha256": "61150cf726ab6c5ed7a99f90a304f91f5a72c00c592e89ec94e5df11c319227a",
+      "size": 522240
+    }
+  ]
+}

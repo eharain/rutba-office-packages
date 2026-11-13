@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-zm-yunyang",
+  "kind": "voice",
+  "tags": [
+    "zh-Hans"
+  ],
+  "requires": [
+    "speech-zh-kokoro"
+  ],
+  "name": "Yunyang (Mandarin Chinese, male)",
+  "voice": {
+    "id": "zm_yunyang",
+    "name": "Yunyang",
+    "gender": "male",
+    "language": "zh-Hans",
+    "grade": "D"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/zm_yunyang.bin",
+      "sha256": "261e2c89470534dbbcb8fd98b8fdc495ec94063d9bb6c8277f7be43cccba3f42",
+      "size": 522240
+    }
+  ]
+}

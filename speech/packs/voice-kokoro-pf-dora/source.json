@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-pf-dora",
+  "kind": "voice",
+  "tags": [
+    "pt-BR"
+  ],
+  "requires": [
+    "speech-pt-kokoro"
+  ],
+  "name": "Dora (Brazilian Portuguese, female)",
+  "voice": {
+    "id": "pf_dora",
+    "name": "Dora",
+    "gender": "female",
+    "language": "pt-BR",
+    "grade": null
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/pf_dora.bin",
+      "sha256": "3da7b5b2d91847ebf5646f57631af6ececae3c29a89cd300f06edf9aa6cfe9ee",
+      "size": 522240
+    }
+  ]
+}

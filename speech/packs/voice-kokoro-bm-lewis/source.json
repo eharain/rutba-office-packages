@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-bm-lewis",
+  "kind": "voice",
+  "tags": [
+    "en-GB"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Lewis (British English, male)",
+  "voice": {
+    "id": "bm_lewis",
+    "name": "Lewis",
+    "gender": "male",
+    "language": "en-GB",
+    "grade": "D+"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/bm_lewis.bin",
+      "sha256": "b8f671cef828c30e66fdf0b0756a76bba58f6bb3398cbbf27058642acbcedb97",
+      "size": 522240
+    }
+  ]
+}

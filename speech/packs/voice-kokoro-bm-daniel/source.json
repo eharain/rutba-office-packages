@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-bm-daniel",
+  "kind": "voice",
+  "tags": [
+    "en-GB"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Daniel (British English, male)",
+  "voice": {
+    "id": "bm_daniel",
+    "name": "Daniel",
+    "gender": "male",
+    "language": "en-GB",
+    "grade": "D"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/bm_daniel.bin",
+      "sha256": "6b3194bbceffb746733cbc22c8f593dd44e401a71d53895a2dca891bc595a1e8",
+      "size": 522240
+    }
+  ]
+}

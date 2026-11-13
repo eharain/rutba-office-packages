@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-am-fenrir",
+  "kind": "voice",
+  "tags": [
+    "en-US"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Fenrir (American English, male)",
+  "voice": {
+    "id": "am_fenrir",
+    "name": "Fenrir",
+    "gender": "male",
+    "language": "en-US",
+    "grade": "C+"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/am_fenrir.bin",
+      "sha256": "c27989f741f7ee34d273a39d8a595cc0837d35f5ced9a29b7cc162614616df43",
+      "size": 522240
+    }
+  ]
+}

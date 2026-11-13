@@ -14,6 +14,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { arpabetToKokoro } from '../engine/text/en.mjs';
+import { plan } from './build-packs.mjs';
 
 const SPEECH = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PACKS = path.join(SPEECH, 'packs');
@@ -47,8 +48,11 @@ for (const id of fs.readdirSync(PACKS)) {
   for (const f of src.local || []) if (!fs.existsSync(path.join(dir, f))) fault(id, `${f} is listed but missing`);
 }
 
+// A voice whose language has no pronunciation pack yet waits; anything else must have what it needs.
+const { waiting } = plan(packs);
+const waits = new Set(waiting.map((p) => p.id));
 const names = new Set(packs.flatMap((p) => [p.id, ...(p.provides || [])]).concat('speech-engine'));
-for (const p of packs) for (const r of p.requires || []) if (!names.has(r)) fault(p.id, `requires ${r}, which no pack is or provides`);
+for (const p of packs) for (const r of p.requires || []) if (!names.has(r) && !waits.has(p.id)) fault(p.id, `requires ${r}, which no pack is or provides`);
 
 // The Office word list.
 const words = path.join(PACKS, 'speech-en-kokoro', 'office-words.txt');
@@ -72,4 +76,4 @@ const BANNED = /espeak|phonemizer|us_gold|us_silver|gb_gold|gb_silver/i;
 for (const p of packs) for (const f of p.files || []) if (BANNED.test(f.url) || BANNED.test(f.name)) fault(p.id, `${f.name} comes from a source speech packs may not use`);
 
 if (faults) { console.error(`${faults} fault(s)`); process.exit(1); }
-console.log(`speech packs: ${packs.length} sources checked, no faults`);
+console.log(`speech packs: ${packs.length} sources checked, no faults; ${waits.size} voices wait for their language's pronunciation pack`);

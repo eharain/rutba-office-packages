@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-jf-alpha",
+  "kind": "voice",
+  "tags": [
+    "ja"
+  ],
+  "requires": [
+    "speech-ja-kokoro"
+  ],
+  "name": "Alpha (Japanese, female)",
+  "voice": {
+    "id": "jf_alpha",
+    "name": "Alpha",
+    "gender": "female",
+    "language": "ja",
+    "grade": "C+"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/jf_alpha.bin",
+      "sha256": "56b479360aad9f367aeb8cef908f9201cf48b4555e488c5f4590c9dfcd978bb6",
+      "size": 522240
+    }
+  ]
+}

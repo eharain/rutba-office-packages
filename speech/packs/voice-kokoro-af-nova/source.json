@@ -1,0 +1,31 @@
+{
+  "id": "voice-kokoro-af-nova",
+  "kind": "voice",
+  "tags": [
+    "en-US"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Nova (American English, female)",
+  "voice": {
+    "id": "af_nova",
+    "name": "Nova",
+    "gender": "female",
+    "language": "en-US",
+    "grade": "C",
+    "note": "The voice name is the model maker's, not Rutba's."
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/af_nova.bin",
+      "sha256": "18778272caa0d0eebaea251c35fd635f038434f9eee5e691d02a174bd328414f",
+      "size": 522240
+    }
+  ]
+}

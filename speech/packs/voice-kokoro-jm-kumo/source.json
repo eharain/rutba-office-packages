@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-jm-kumo",
+  "kind": "voice",
+  "tags": [
+    "ja"
+  ],
+  "requires": [
+    "speech-ja-kokoro"
+  ],
+  "name": "Kumo (Japanese, male)",
+  "voice": {
+    "id": "jm_kumo",
+    "name": "Kumo",
+    "gender": "male",
+    "language": "ja",
+    "grade": "C-"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0, made from audio under CC BY (as Kokoro's VOICES.md lists it); credited here as that licence asks."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/jm_kumo.bin",
+      "sha256": "09e959d239724c734d65661f06f14cdabcddfd476bfaaad905a937099ae9e64f",
+      "size": 522240
+    }
+  ]
+}

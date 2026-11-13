@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-im-nicola",
+  "kind": "voice",
+  "tags": [
+    "it"
+  ],
+  "requires": [
+    "speech-it-kokoro"
+  ],
+  "name": "Nicola (Italian, male)",
+  "voice": {
+    "id": "im_nicola",
+    "name": "Nicola",
+    "gender": "male",
+    "language": "it",
+    "grade": "C"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/im_nicola.bin",
+      "sha256": "bc578e510d52a96d6940d46f12e96d7b3df00905dbea075113226d100e6e1ab0",
+      "size": 522240
+    }
+  ]
+}

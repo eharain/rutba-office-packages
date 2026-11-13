@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-bf-isabella",
+  "kind": "voice",
+  "tags": [
+    "en-GB"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Isabella (British English, female)",
+  "voice": {
+    "id": "bf_isabella",
+    "name": "Isabella",
+    "gender": "female",
+    "language": "en-GB",
+    "grade": "C"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/bf_isabella.bin",
+      "sha256": "3754352c4aaa46d17f27654ab7518d65b62ad6163a0f55a5f4330c2da2c4e94f",
+      "size": 522240
+    }
+  ]
+}

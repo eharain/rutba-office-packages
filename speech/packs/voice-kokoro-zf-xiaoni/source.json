@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-zf-xiaoni",
+  "kind": "voice",
+  "tags": [
+    "zh-Hans"
+  ],
+  "requires": [
+    "speech-zh-kokoro"
+  ],
+  "name": "Xiaoni (Mandarin Chinese, female)",
+  "voice": {
+    "id": "zf_xiaoni",
+    "name": "Xiaoni",
+    "gender": "female",
+    "language": "zh-Hans",
+    "grade": "D"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/zf_xiaoni.bin",
+      "sha256": "08892b62a39af0a615cd0581238db7e19e44c578e8fa0bfd0e586e93327d9cba",
+      "size": 522240
+    }
+  ]
+}

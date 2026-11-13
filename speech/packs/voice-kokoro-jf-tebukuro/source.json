@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-jf-tebukuro",
+  "kind": "voice",
+  "tags": [
+    "ja"
+  ],
+  "requires": [
+    "speech-ja-kokoro"
+  ],
+  "name": "Tebukuro (Japanese, female)",
+  "voice": {
+    "id": "jf_tebukuro",
+    "name": "Tebukuro",
+    "gender": "female",
+    "language": "ja",
+    "grade": "C"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0, made from audio under CC BY (as Kokoro's VOICES.md lists it); credited here as that licence asks."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/jf_tebukuro.bin",
+      "sha256": "29c6c0561b4288d59639677bebe7533c919743d5ea68d0d2ae992644beea6696",
+      "size": 522240
+    }
+  ]
+}

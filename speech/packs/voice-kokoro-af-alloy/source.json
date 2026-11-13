@@ -1,0 +1,31 @@
+{
+  "id": "voice-kokoro-af-alloy",
+  "kind": "voice",
+  "tags": [
+    "en-US"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Alloy (American English, female)",
+  "voice": {
+    "id": "af_alloy",
+    "name": "Alloy",
+    "gender": "female",
+    "language": "en-US",
+    "grade": "C",
+    "note": "The voice name is the model maker's, not Rutba's."
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/af_alloy.bin",
+      "sha256": "c4a6b876047fd7fb472edf4ebd63cfac7c3b958a7cae7c106e8f038ca6308c45",
+      "size": 522240
+    }
+  ]
+}

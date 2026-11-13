@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-em-alex",
+  "kind": "voice",
+  "tags": [
+    "es"
+  ],
+  "requires": [
+    "speech-es-kokoro"
+  ],
+  "name": "Alex (Spanish, male)",
+  "voice": {
+    "id": "em_alex",
+    "name": "Alex",
+    "gender": "male",
+    "language": "es",
+    "grade": null
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/em_alex.bin",
+      "sha256": "27809e9eafdcbcfff90a3016c697568676531de2a2c39cee29c96c7bd6b83e95",
+      "size": 522240
+    }
+  ]
+}

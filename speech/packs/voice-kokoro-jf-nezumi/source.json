@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-jf-nezumi",
+  "kind": "voice",
+  "tags": [
+    "ja"
+  ],
+  "requires": [
+    "speech-ja-kokoro"
+  ],
+  "name": "Nezumi (Japanese, female)",
+  "voice": {
+    "id": "jf_nezumi",
+    "name": "Nezumi",
+    "gender": "female",
+    "language": "ja",
+    "grade": "C-"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0, made from audio under CC BY (as Kokoro's VOICES.md lists it); credited here as that licence asks."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/jf_nezumi.bin",
+      "sha256": "13cb71eebb0b48739d444558322aa35a8c9a489b80e1e631f14d2e6aea93026b",
+      "size": 522240
+    }
+  ]
+}

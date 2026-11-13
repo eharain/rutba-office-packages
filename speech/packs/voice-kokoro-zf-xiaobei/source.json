@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-zf-xiaobei",
+  "kind": "voice",
+  "tags": [
+    "zh-Hans"
+  ],
+  "requires": [
+    "speech-zh-kokoro"
+  ],
+  "name": "Xiaobei (Mandarin Chinese, female)",
+  "voice": {
+    "id": "zf_xiaobei",
+    "name": "Xiaobei",
+    "gender": "female",
+    "language": "zh-Hans",
+    "grade": "D"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/zf_xiaobei.bin",
+      "sha256": "5dde6e1c9c4f12c8b327bc29c0cee361a23b52b952c04636858ba637ec66e640",
+      "size": 522240
+    }
+  ]
+}

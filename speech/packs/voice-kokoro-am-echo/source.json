@@ -1,0 +1,31 @@
+{
+  "id": "voice-kokoro-am-echo",
+  "kind": "voice",
+  "tags": [
+    "en-US"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Echo (American English, male)",
+  "voice": {
+    "id": "am_echo",
+    "name": "Echo",
+    "gender": "male",
+    "language": "en-US",
+    "grade": "D",
+    "note": "The voice name is the model maker's, not Rutba's."
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/am_echo.bin",
+      "sha256": "3968b92c3c4cd1c4416dbded36c13eaa388a90d5788d02a13e4d781f5f8cf3c3",
+      "size": 522240
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-ff-siwis",
+  "kind": "voice",
+  "tags": [
+    "fr-FR"
+  ],
+  "requires": [
+    "speech-fr-kokoro"
+  ],
+  "name": "Siwis (French, female)",
+  "voice": {
+    "id": "ff_siwis",
+    "name": "Siwis",
+    "gender": "female",
+    "language": "fr-FR",
+    "grade": "B-"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0, made from audio under CC BY (as Kokoro's VOICES.md lists it); credited here as that licence asks."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/ff_siwis.bin",
+      "sha256": "a35f5675ad08948e326ae75fd0ea16ba5d0042e4f76b5f3d1df77d0a48c54861",
+      "size": 522240
+    }
+  ]
+}

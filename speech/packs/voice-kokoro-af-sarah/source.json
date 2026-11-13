@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-af-sarah",
+  "kind": "voice",
+  "tags": [
+    "en-US"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Sarah (American English, female)",
+  "voice": {
+    "id": "af_sarah",
+    "name": "Sarah",
+    "gender": "female",
+    "language": "en-US",
+    "grade": "C+"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/af_sarah.bin",
+      "sha256": "4409fbc125afabacc615d94db5398d847006a737b0247d6892b7a9a0007a2f0a",
+      "size": 522240
+    }
+  ]
+}

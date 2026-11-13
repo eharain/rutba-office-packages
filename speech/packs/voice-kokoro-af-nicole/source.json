@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-af-nicole",
+  "kind": "voice",
+  "tags": [
+    "en-US"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "Nicole (American English, female)",
+  "voice": {
+    "id": "af_nicole",
+    "name": "Nicole",
+    "gender": "female",
+    "language": "en-US",
+    "grade": "B-"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/af_nicole.bin",
+      "sha256": "cd2191ab31b914ed7b318416b0e4440fdf392ddad9106a060819aa600a64f59a",
+      "size": 522240
+    }
+  ]
+}

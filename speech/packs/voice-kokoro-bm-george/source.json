@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-bm-george",
+  "kind": "voice",
+  "tags": [
+    "en-GB"
+  ],
+  "requires": [
+    "speech-en-kokoro"
+  ],
+  "name": "George (British English, male)",
+  "voice": {
+    "id": "bm_george",
+    "name": "George",
+    "gender": "male",
+    "language": "en-GB",
+    "grade": "C"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/bm_george.bin",
+      "sha256": "c4b235a4c1f2cd3b939fed08b899ce9385638b763f7b73a59616c4fc9bd6c9bc",
+      "size": 522240
+    }
+  ]
+}

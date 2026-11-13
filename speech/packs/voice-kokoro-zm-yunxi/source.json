@@ -1,0 +1,30 @@
+{
+  "id": "voice-kokoro-zm-yunxi",
+  "kind": "voice",
+  "tags": [
+    "zh-Hans"
+  ],
+  "requires": [
+    "speech-zh-kokoro"
+  ],
+  "name": "Yunxi (Mandarin Chinese, male)",
+  "voice": {
+    "id": "zm_yunxi",
+    "name": "Yunxi",
+    "gender": "male",
+    "language": "zh-Hans",
+    "grade": "D"
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/zm_yunxi.bin",
+      "sha256": "7243892fb4e560d47014090ddf010f8b8b790f3c6b029ff82b2ac06aa4e27c8b",
+      "size": 522240
+    }
+  ]
+}

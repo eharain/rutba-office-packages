@@ -1,0 +1,34 @@
+{
+  "id": "voice-kokoro-hf-alpha",
+  "kind": "voice",
+  "tags": [
+    "hi",
+    "ur"
+  ],
+  "requires": [
+    "speech-hi-kokoro"
+  ],
+  "name": "Alpha (Hindi, female)",
+  "voice": {
+    "id": "hf_alpha",
+    "name": "Alpha",
+    "gender": "female",
+    "language": "hi",
+    "grade": "C",
+    "alsoReads": [
+      "ur"
+    ]
+  },
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "A Kokoro-82M voice by hexgrad, Apache-2.0."
+  },
+  "files": [
+    {
+      "name": "voice.bin",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/voices/hf_alpha.bin",
+      "sha256": "040be6a4425411cc01fda5fd06693c76bfa78572632852bc8cda9c99232ffb56",
+      "size": 522240
+    }
+  ]
+}
