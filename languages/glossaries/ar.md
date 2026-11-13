@@ -104,3 +104,23 @@ Each row shows the medium version.
 - Before an ellipsis, never after it: Save &As… → حفظ باسم(&A)….
 - The pack's menu labels today drop the & entirely (تحرير); every new version
   restores the (&X), the same in short, medium and complete.
+
+## Product names
+
+The owner, 13 Nov 2026: "Use local but the English names should stay".
+
+- In a sentence (a medium or a complete that is a sentence or a phrase), write the product's local name with its English name beside it in brackets, the first time the label names it: رتبة أوفيس (Rutba Office). A second mention in the same label takes the local name alone.
+- Where the name is a mark or a short label (a title bar, an app tile, a ribbon tab, any short version), write the English name alone.
+- The suite's generic app names (Documents, Mail, Calendar, Contacts, Pictures, and the like) are words of the language, not marks: write them as the glossary gives them, with no English beside them.
+- Other companies' products and marks (Windows, PDF, YouTube, LinkedIn, Microsoft, Google, WordArt, SmartArt, QR) stay in Latin letters, as written.
+
+| English | Arabic |
+| :-- | :-- |
+| Rutba | رتبة |
+| Rutba Office | رتبة أوفيس |
+| Talk, Rutba Talk | توك، رتبة توك |
+| Studio | استوديو |
+| Recorder | المسجّل |
+| Locker | الخزانة |
+| Data Files | ملفات البيانات |
+| Other Rutba apps | the word the pack already uses, with the English beside it |
