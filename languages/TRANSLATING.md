@@ -3,7 +3,10 @@
 Rutba Office is a free office suite: documents, worksheets, presentations,
 mail, calendar, contacts, pictures, image and video editors, PDF, a database
 and Talk calls. This folder holds every label it shows, one pack per
-language. This page is for anyone translating or reviewing a pack.
+language. This page is the guide the packs are drafted and reviewed by.
+Drafts are machine-translated; reviews are done by Rutba's own reviewers,
+staff or native speakers under contract to Rutba. The repository does not
+accept outside contributions.
 
 ## What a pack holds
 
@@ -88,8 +91,11 @@ are counted for a reviewer to judge.
 
 ## Review
 
-Packs other than English are drafts: made by machine translation from the
-English with each language's glossary, and not yet reviewed by a native
-speaker. A review goes label by label, weight 5 first (`labels.json` gives
-each label a weight from 1 to 5), and sets the pack's `status` to
-`reviewed` once it is done.
+Packs other than English are drafts: machine-translated from the English
+with each language's glossary. Each is reviewed by one of Rutba's own
+reviewers, a native speaker of the language who is on the staff or under
+contract to Rutba. A review goes label by label, weight 5 first
+(`labels.json` gives each label a weight from 1 to 5), and checks the
+glossary as it goes. Once it is done, the pack's `status` becomes
+`reviewed` and its `review` names how it was reviewed. Only reviewed packs
+are released.

@@ -22,6 +22,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { checkManifest, checkFiles, checkRequires, officePin } from '../../tools/pack-core.mjs';
+import { checkLicence } from './licence.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const registry = JSON.parse(fs.readFileSync(path.join(ROOT, 'ids.json'), 'utf8'));
@@ -113,6 +114,7 @@ for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
   // version rule (Office's version, a revision from 1), licence, and files.
   for (const f of checkManifest(manifest, { office: OFFICE })) fault(f);
   for (const f of checkFiles(dir, manifest, (file) => LANGUAGE_FILES.has(file))) fault(f);
+  for (const f of checkLicence(dir, manifest)) fault(f);
   manifests.push(manifest);
   // A language pack's own rules on top.
   for (const f of FIELDS) if (manifest[f] === undefined) fault(`manifest has no ${f}`);

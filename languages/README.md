@@ -3,10 +3,11 @@
 The words Rutba Office shows, one pack per language, released on their own and
 apart from Rutba Office itself.
 
-**Every pack except English is a draft**: made by machine translation from the
-English and not yet reviewed by a native speaker. Each says so in its manifest
-(`"status": "draft"`). `TRANSLATING.md` is the guide for translators and
-reviewers.
+**Every pack except English is a draft**: machine-translated from the English,
+and not yet checked by Rutba's own reviewers (staff, or native speakers under
+contract to Rutba). Each says so in its manifest (`"status": "draft"`), and
+only reviewed packs are released. `TRANSLATING.md` is the guide the drafts and
+the reviews follow.
 
 Every label the suite shows has an id here. English is a pack like any other:
 it is the source, and the id of each label is given when the English pack is
@@ -117,7 +118,7 @@ English words: `common.save`, `sheets.find.find-all`,
 | `labels` | how many labels it holds |
 | `tags` | `[tag]`: the core every pack kind shares lists tags |
 | `requires` | packs this one needs: a regional pack names its base |
-| `licence` | `{ spdx, files }`: `NOASSERTION` until the licence is chosen |
+| `licence` | `{ spdx, files }`: `LicenseRef-TechStyle-Proprietary`, with the repository's `LICENSE` carried as `LICENSE.txt` |
 | `status` | `source` (English), `draft` (not yet reviewed) or `reviewed` |
 | `review` | how far it has been reviewed, in words |
 | `versions` | format 2: `short`, `medium`, `complete` |
@@ -143,7 +144,9 @@ any other version.
   version keeps that version's packs and their revisions.
 
 A pack holds only `manifest.json`, `messages.json`, `versions.json`,
-`glossary.md` and its licence files: data, never code. A release wraps it in
+`glossary.md` and its licence files (`LICENSE.txt`, the same text as the
+repository's `LICENSE`, which `tools/check-packs.mjs` checks): data, never
+code. A release wraps it in
 Rutba Office's signed pack envelope, as the suite's own app packs are.
 
 `messages.json`, id to entry:
@@ -184,6 +187,13 @@ be reviewed again.
 The English, Urdu, Arabic and Hindi packs were taken out of Rutba Office 2.25.0
 (`packages/office-ui/src/catalogues` and the apps' own `*-translations.js`
 files). Their content is unchanged. The Urdu, Arabic and Hindi translations are
-machine drafts, not yet reviewed by native speakers, and their manifests say so.
-The other translations were drafted here by machine translation from the
-English, with a glossary per language, and are drafts in the same way.
+machine drafts, not yet reviewed, and their manifests say so. The other
+translations were drafted here by machine translation from the English, with a
+glossary per language, and are drafts in the same way. Each is reviewed by
+Rutba's own reviewers before it is released.
+
+## Licence
+
+Proprietary: Tech Style Ltd, all rights reserved. Anyone may download the
+released packs and use them with Rutba Office. See [`LICENSE`](../LICENSE).
+This repository does not accept outside contributions.

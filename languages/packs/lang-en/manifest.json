@@ -10,8 +10,10 @@
   ],
   "requires": [],
   "licence": {
-    "spdx": "NOASSERTION",
-    "files": []
+    "spdx": "LicenseRef-TechStyle-Proprietary",
+    "files": [
+      "LICENSE.txt"
+    ]
   },
   "name": "English",
   "nativeName": "English",

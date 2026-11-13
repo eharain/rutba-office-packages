@@ -12,10 +12,11 @@ People add the packs they want from Settings in Rutba Office. Nothing is
 downloaded until they choose it, and every pack is signed and checked before
 it is used.
 
-**The language packs other than English are drafts**: made by machine
-translation and not yet reviewed by native speakers. Each pack's manifest says
-so. See [`languages/TRANSLATING.md`](languages/TRANSLATING.md) to help
-translate or review one.
+**The language packs other than English are drafts**: machine-translated,
+and not yet checked by Rutba's own reviewers (staff, or native speakers under
+contract to Rutba). Each pack's manifest says so, and only reviewed packs are
+released. [`languages/TRANSLATING.md`](languages/TRANSLATING.md) is the guide
+the drafts and the reviews follow.
 
 ## Building and checking
 
@@ -44,3 +45,12 @@ repository, plus a revision from 1 for changes released between two Office
 releases (the speech engine, being code, has no revision). A pack names
 the packs it needs in `requires`, by id or by a name another pack lists in
 `provides`.
+
+## Licence
+
+Proprietary: Tech Style Ltd, all rights reserved. Anyone may download the
+released packs and use them with Rutba Office, free of charge; see
+[`LICENSE`](LICENSE). Parts made by others, such as a speech model or a
+runtime, keep their own licences and credits, named in each pack's manifest
+and carried in the pack. This repository does not accept outside
+contributions.

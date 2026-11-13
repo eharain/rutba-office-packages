@@ -19,6 +19,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { pathToFileURL, fileURLToPath } from 'node:url';
+import { ownLicence, writeLicence } from './licence.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 if (!process.argv[2]) { console.error('usage: node tools/extract-from-office.mjs <office copy> (tools/build.mjs gives it)'); process.exit(2); }
@@ -227,13 +228,14 @@ function writePack(tag, messages, extra) {
     version: officeVersion,
     revision: 1,
     tag,
-    tags: [tag], requires: [], licence: { spdx: 'NOASSERTION', files: [] }, 
+    tags: [tag], requires: [], licence: ownLicence(),
     ...info,
     pluralForms,
     labels: Object.keys(messages).length,
     ...extra,
   }, null, 2) + '\n');
   fs.writeFileSync(path.join(dir, 'messages.json'), JSON.stringify(messages, null, 2) + '\n');
+  writeLicence(dir);
   return dir;
 }
 
