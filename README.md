@@ -6,6 +6,11 @@ free office suite, released on their own and apart from the suite itself.
 | Folder | What it holds |
 | :-- | :-- |
 | [`languages/`](languages/) | The language packs: every label the suite shows, one pack per language, with each label's short, medium and complete versions. |
+| [`speech/`](speech/) | The speech packs: a speech model and voices for Read Aloud and narration. None is published yet. |
+
+People add the packs they want from Settings in Rutba Office. Nothing is
+downloaded until they choose it, and every pack is signed and checked before
+it is used.
 
 **The language packs other than English are drafts**: made by machine
 translation and not yet reviewed by native speakers. Each pack's manifest says
