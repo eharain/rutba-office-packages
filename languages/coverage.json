@@ -1,0 +1,56 @@
+{
+  "office": "work/office-src",
+  "places": {
+    "main process": {
+      "count": 467,
+      "examples": [
+        "apps/desktop/main/ai-tools.js:149  A connection needs its process.",
+        "apps/desktop/main/ai-tools.js:155  Rutba Office’s AI tools are off.",
+        "apps/desktop/main/ai-tools.js:275  That is no longer there.",
+        "apps/desktop/main/ai-tools.js:285  That account is no longer there.",
+        "apps/desktop/main/ai-tools.js:286  A mailbox brought in from a file has no server to send through.",
+        "apps/desktop/main/ai-tools.js:290  An archive opened in place is read only.",
+        "apps/desktop/main/ai-tools.js:293  That archive is no longer open.",
+        "apps/desktop/main/ai-tools.js:297  That calendar is no longer there.",
+        "apps/desktop/main/ai-tools.js:311  The AI tools read a folder and make new files in it; nothing in a folder is sent anywhere.",
+        "apps/desktop/main/ai-tools.js:314  The Recorder is Off, or records for the AI tools.",
+        "apps/desktop/main/ai-tools.js:345  Choose a folder for the AI tools first.",
+        "apps/desktop/main/ai-tools.js:361  A port is a whole number from 1 to 65535."
+      ]
+    },
+    "windows (renderer)": {
+      "count": 5,
+      "examples": [
+        "apps/desktop/renderer/apps/image.js:95  4:3",
+        "apps/desktop/renderer/apps/image.js:96  3:2",
+        "apps/desktop/renderer/apps/image.js:97  16:9",
+        "apps/desktop/renderer/apps/image.js:98  9:16",
+        "apps/desktop/renderer/apps/mail.js:1472  Please remove this address from the list."
+      ]
+    },
+    "shared packages": {
+      "count": 269,
+      "examples": [
+        "packages/database/src/access.js:41  A password has at least 4 characters.",
+        "packages/database/src/base.js:333  Two fields cannot have the same name.",
+        "packages/database/src/base.js:334  A table has one AutoNumber at most.",
+        "packages/database/src/base.js:393  An AutoNumber is made with the table.",
+        "packages/database/src/base.js:475  A table keeps its AutoNumber.",
+        "packages/database/src/base.js:581  A relationship joins two fields that are there.",
+        "packages/database/src/base.js:713  A value does not fit its field: too long, or not the kind the field takes.",
+        "packages/database/src/base.js:1056  A query here starts with SELECT.",
+        "packages/database/src/base.js:1057  One statement at a time.",
+        "packages/database/src/base.js:1083  Sign in to open this database.",
+        "packages/database/src/base.js:1090  Only someone whose role may change the design can do that.",
+        "packages/database/src/base.js:1177  This database is protected already."
+      ]
+    }
+  },
+  "outside": {
+    "release notes (docs/releases, shown in What's new)": {
+      "files": 96,
+      "words": 85529
+    },
+    "installer": "made from the catalogues by tools/make-installer-words.mjs, so its words are in the registry"
+  }
+}

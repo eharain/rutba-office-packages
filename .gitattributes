@@ -1,0 +1,2 @@
+# The tools write LF; check out LF so a build leaves the tree clean.
+* text=auto eol=lf

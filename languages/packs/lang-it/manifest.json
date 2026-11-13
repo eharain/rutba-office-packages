@@ -1,0 +1,24 @@
+{
+  "id": "lang-it",
+  "kind": "language",
+  "format": 1,
+  "version": "2026.11.12",
+  "tag": "it",
+  "name": "Italian",
+  "nativeName": "Italiano",
+  "script": "Latn",
+  "direction": "ltr",
+  "region": "it-IT",
+  "pluralForms": [
+    "many",
+    "one",
+    "other"
+  ],
+  "checkedAgainst": [
+    "2.25.0"
+  ],
+  "labels": 8998,
+  "status": "draft",
+  "review": "machine draft, not yet reviewed by a native speaker",
+  "madeFrom": "lang-en"
+}

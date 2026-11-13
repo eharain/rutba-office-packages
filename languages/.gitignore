@@ -1,0 +1,13 @@
+# Made by `node tools/build.mjs` from the pinned Rutba Office release; not
+# committed while the suite's English still carries em dashes (they come back
+# once the English loses them at source).
+/ids.json
+/labels.json
+/packs/lang-en/
+/packs/lang-ar/
+/packs/lang-hi/
+/packs/lang-ur/
+
+# Local working files: the copy of the Rutba Office code the build reads, and
+# drafts in progress.
+/work/

@@ -1,0 +1,24 @@
+{
+  "id": "lang-fr",
+  "kind": "language",
+  "format": 1,
+  "version": "2026.11.12",
+  "tag": "fr",
+  "name": "French",
+  "nativeName": "Français",
+  "script": "Latn",
+  "direction": "ltr",
+  "region": "fr-FR",
+  "pluralForms": [
+    "many",
+    "one",
+    "other"
+  ],
+  "checkedAgainst": [
+    "2.25.0"
+  ],
+  "labels": 8998,
+  "status": "draft",
+  "review": "machine draft, not yet reviewed by a native speaker",
+  "madeFrom": "lang-en"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "lang-de",
+  "kind": "language",
+  "format": 1,
+  "version": "2026.11.12",
+  "tag": "de",
+  "name": "German",
+  "nativeName": "Deutsch",
+  "script": "Latn",
+  "direction": "ltr",
+  "region": "de-DE",
+  "pluralForms": [
+    "one",
+    "other"
+  ],
+  "checkedAgainst": [
+    "2.25.0"
+  ],
+  "labels": 8998,
+  "status": "draft",
+  "review": "machine draft, not yet reviewed by a native speaker",
+  "madeFrom": "lang-en"
+}

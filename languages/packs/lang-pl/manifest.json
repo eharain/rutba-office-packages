@@ -1,0 +1,25 @@
+{
+  "id": "lang-pl",
+  "kind": "language",
+  "format": 1,
+  "version": "2026.11.12",
+  "tag": "pl",
+  "name": "Polish",
+  "nativeName": "Polski",
+  "script": "Latn",
+  "direction": "ltr",
+  "region": "pl-PL",
+  "pluralForms": [
+    "few",
+    "many",
+    "one",
+    "other"
+  ],
+  "checkedAgainst": [
+    "2.25.0"
+  ],
+  "labels": 8998,
+  "status": "draft",
+  "review": "machine draft, not yet reviewed by a native speaker",
+  "madeFrom": "lang-en"
+}
