@@ -1,0 +1,36 @@
+{
+  "id": "lang-nl",
+  "kind": "language",
+  "format": 2,
+  "version": "2.25.0",
+  "revision": 1,
+  "tag": "nl",
+  "tags": [
+    "nl"
+  ],
+  "requires": [],
+  "licence": {
+    "spdx": "LicenseRef-TechStyle-Proprietary",
+    "files": [
+      "LICENSE.txt"
+    ]
+  },
+  "name": "Dutch",
+  "nativeName": "Nederlands",
+  "script": "Latn",
+  "direction": "ltr",
+  "region": "nl-NL",
+  "pluralForms": [
+    "one",
+    "other"
+  ],
+  "labels": 8998,
+  "status": "draft",
+  "review": "machine draft, not yet reviewed by a native speaker",
+  "madeFrom": "lang-en",
+  "versions": [
+    "short",
+    "medium",
+    "complete"
+  ]
+}
