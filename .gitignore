@@ -1,0 +1,4 @@
+# Made by tools/carry.mjs: the clone of the pinned Rutba Office release, and
+# the gathered release folder (dist/v<version>/) that the release PC signs.
+/.cache/
+/dist/

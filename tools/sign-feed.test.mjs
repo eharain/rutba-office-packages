@@ -78,16 +78,48 @@ test('the feed refuses a wrong version, a broken signature, a missing need, and 
 
 test('the feed signature, and Office refusing an old feed served again', () => {
   const { publicKey, privateKey } = keys();
-  const feed = { format: 1, office: '2.25.1', sequence: 7, date: 'x', packs: [] };
+  const feed = { format: 1, readiness: 1, office: '2.25.1', sequence: 7, state: 'complete', retired: [], date: 'x', packs: [] };
   const sig = signFeed(feed, privateKey);
   assert.ok(verifyFeed(feed, sig, [publicKey]));
   assert.ok(!verifyFeed({ ...feed, sequence: 8 }, sig, [publicKey]));
+  assert.ok(!verifyFeed({ ...feed, state: 'partial' }, sig, [publicKey]), 'state is signed');
   // A pack-style signature over the same object does not verify as a feed.
   const packStyle = { signature: crypto.sign(null, Buffer.from(canonical(feed)), privateKey).toString('base64') };
   assert.ok(!verifyFeed(feed, packStyle, [publicKey]));
-  assert.deepEqual(acceptFeed(feed, { highestSeen: 6, office: '2.25.1' }), { ok: true });
-  assert.equal(acceptFeed(feed, { highestSeen: 7, office: '2.25.1' }).ok, false);
-  assert.equal(acceptFeed(feed, { highestSeen: 0, office: '2.25.0' }).ok, false);
+  assert.deepEqual(acceptFeed(feed, { seen: { '2.25.1': 6 }, office: '2.25.1' }), { ok: true, seen: { '2.25.1': 7 } });
+  assert.equal(acceptFeed(feed, { seen: { '2.25.1': 7 }, office: '2.25.1' }).ok, false);
+  assert.equal(acceptFeed(feed, { office: '2.25.0' }).ok, false, 'read for the version it names, not another');
+  assert.equal(acceptFeed({ ...feed, state: undefined }, { office: '2.25.1' }).ok, false);
+});
+
+test('highest sequence per Office version: the target feed read for the gate never makes a later withdrawal at home look old', () => {
+  const target = { format: 1, readiness: 1, office: '2.26.0', sequence: 12, state: 'partial', retired: [], packs: [] };
+  const home = { format: 1, readiness: 1, office: '2.25.1', sequence: 11, state: 'complete', retired: [], packs: [] };
+  let seen = { '2.25.1': 9 };
+  const a = acceptFeed(target, { office: '2.26.0', seen });
+  assert.equal(a.ok, true);
+  seen = a.seen;
+  const b = acceptFeed(home, { office: '2.25.1', seen });
+  assert.equal(b.ok, true, 'numbered before the target feed, still above the highest seen for home');
+  assert.deepEqual(b.seen, { '2.25.1': 11, '2.26.0': 12 });
+});
+
+test('the feed says partial or complete, and lists retired packs with their reasons', () => {
+  const { publicKey, privateKey } = keys();
+  const d = tmp();
+  signPack(pack(d, 'voice-kokoro-bf-emma', { version: '2.25.0' }), privateKey);
+  const partial = buildFeed(d, { version: '2.25.0', publicKeys: [publicKey] });
+  assert.equal(partial.feed.state, 'partial', 'partial unless declared complete');
+  assert.deepEqual(partial.feed.retired, []);
+  assert.equal(partial.feed.readiness, 1);
+  const done = buildFeed(d, { version: '2.25.0', state: 'complete', retired: [{ id: 'voice-kokoro-bf-old', reason: ' taken out for its licence ', replacedBy: 'voice-kokoro-bf-emma' }], publicKeys: [publicKey] });
+  assert.deepEqual(done.faults, []);
+  assert.deepEqual(done.feed.retired, [{ id: 'voice-kokoro-bf-old', reason: 'taken out for its licence', replacedBy: 'voice-kokoro-bf-emma' }]);
+  const bad = buildFeed(d, { version: '2.25.0', state: 'done', retired: [{ id: 'voice-kokoro-bf-emma', reason: '' }, { id: 'x-y', reason: 'r', replacedBy: 'nothing-here' }], publicKeys: [publicKey] });
+  assert.ok(bad.faults.some((f) => /state done/.test(f)));
+  assert.ok(bad.faults.some((f) => /bf-emma: give the reason/.test(f)));
+  assert.ok(bad.faults.some((f) => /also lists it; withdraw it instead/.test(f)));
+  assert.ok(bad.faults.some((f) => /replacement nothing-here/.test(f)));
 });
 
 test('a key is never made inside the repository', () => {
