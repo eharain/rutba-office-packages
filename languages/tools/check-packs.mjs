@@ -48,6 +48,8 @@ const NBSP = /[\u00a0\u202f\u2007\u2060\ufeff]/;
 /** Labels left word for word in English: at most this many in another script, this share in Latin. */
 const LEFT_OTHER_SCRIPT = 40;
 const LEFT_LATIN_SHARE = 0.04;
+/** A label that is only a Rutba product's name: by the owner's rule (13 Nov 2026) it stays in English as a mark, and is not counted. */
+const PRODUCT_NAME = /^(Rutba( (Office|Talk|Image|Video|Recorder|Data Files|Studio|Mail|Locker))?|Office|Talk|Locker|Data Files|Studio|Recorder)$/;
 /** The Office release every pack is checked against, and whose version it carries. */
 const OFFICE = officePin().version;
 
@@ -187,7 +189,7 @@ for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
       if (/\n/.test(label.english) && !/\n/.test(entry.text)) fault(`${id}: the English breaks the line, this does not`);
       texts.push(entry.text);
       const words = /[A-Za-z]{3,}/.test(label.english.replace(/\{\w+\}/g, ''));
-      if (!isEnglish && words && entry.text === label.english && !(script && script.test(entry.text))) english += 1;
+      if (!isEnglish && words && entry.text === label.english && !(script && script.test(entry.text)) && !PRODUCT_NAME.test(label.english)) english += 1;
     }
     if (texts.some((t) => DASH.test(t))) { dashes += 1; if (!carried && dashes <= 5) fault(`${id}: an em dash, or an en dash used as one`); }
     if (texts.some((t) => NBSP.test(t))) { spaces += 1; if (spaces <= 5) fault(`${id}: a no-break space`); }
