@@ -4476,7 +4476,7 @@
   "mail.older-than-a-year": {"short":"Mai vechi de un an","complete":"E-mail mai vechi de un an","source":"0b954771b079"},
   "common.oldest-first": {"short":"Vechi întâi","complete":"Cele mai vechi întâi","source":"6e2ebdab3c02"},
   "word.envelopes.omit": {"short":"Fără","complete":"Se omite","source":"d6f7415c1170"},
-  "common.on": {"short":"Pe","complete":"Pe","source":"130011756125"},
+  "common.on": {"short":"Activ","complete":"Activat","source":"130011756125"},
   "slides.ribbon.on-click": {"short":"La clic","complete":"La un clic de mouse","source":"79fe94fb717e"},
   "slides.ribbon.on-click-sequence": {"short":"Secvență clic","complete":"În secvența de clicuri a diapozitivului","source":"9aa8731dd04c"},
   "slides.ribbon.on-click-of-name": {"short":"Clic pe {name}","complete":"La un clic pe {name}","source":"b9735b033fd7"},
