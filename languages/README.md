@@ -3,11 +3,11 @@
 The words Rutba Office shows, one pack per language, released on their own and
 apart from Rutba Office itself.
 
-**Every pack except English is a draft**: machine-translated from the English,
-and not yet checked by Rutba's own reviewers (staff, or native speakers under
-contract to Rutba). Each says so in its manifest (`"status": "draft"`), and
-only reviewed packs are released. `TRANSLATING.md` is the guide the drafts and
-the reviews follow.
+**Every pack except English is a draft**: it starts as machine translation
+from the English, and says so in its manifest (`"status": "draft"`). The
+packs improve through suggestions from the people who use them, made on
+Rutba's own site once it exists, not through pull requests. Only packs marked
+as reviewed are released. `TRANSLATING.md` is the guide the drafts follow.
 
 Every label the suite shows has an id here. English is a pack like any other:
 it is the source, and the id of each label is given when the English pack is
@@ -199,8 +199,7 @@ The English, Urdu, Arabic and Hindi packs were taken out of Rutba Office 2.25.0
 files). Their content is unchanged. The Urdu, Arabic and Hindi translations are
 machine drafts, not yet reviewed, and their manifests say so. The other
 translations were drafted here by machine translation from the English, with a
-glossary per language, and are drafts in the same way. Each is reviewed by
-Rutba's own reviewers before it is released.
+glossary per language, and are drafts in the same way.
 
 ## Licence
 

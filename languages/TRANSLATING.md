@@ -3,10 +3,10 @@
 Rutba Office is a free office suite: documents, worksheets, presentations,
 mail, calendar, contacts, pictures, image and video editors, PDF, a database
 and Talk calls. This folder holds every label it shows, one pack per
-language. This page is the guide the packs are drafted and reviewed by.
-Drafts are machine-translated; reviews are done by Rutba's own reviewers,
-staff or native speakers under contract to Rutba. The repository does not
-accept outside contributions.
+language. This page is the guide the packs are drafted by. They start as
+machine translation and improve through suggestions from the people who use
+them, made on Rutba's own site once it exists. The repository does not
+accept pull requests or outside contributions.
 
 ## What a pack holds
 
@@ -17,8 +17,8 @@ accept outside contributions.
 - `glossary.md`: the words the language uses for the suite's recurring
   terms, and how it phrases each kind of label (see "Intents" below). The
   same thing is called the same everywhere.
-- `manifest.json`: what the pack is, and its `status`: `draft` until a
-  native speaker has reviewed it.
+- `manifest.json`: what the pack is, and its `status`: `draft` until its
+  wording has been settled.
 
 `labels.json` (made by `node tools/build.mjs`) tells you, for every label
 id, where it is shown: its role (button, tooltip, error, ...), its intent,
@@ -92,10 +92,9 @@ are counted for a reviewer to judge.
 ## Review
 
 Packs other than English are drafts: machine-translated from the English
-with each language's glossary. Each is reviewed by one of Rutba's own
-reviewers, a native speaker of the language who is on the staff or under
-contract to Rutba. A review goes label by label, weight 5 first
-(`labels.json` gives each label a weight from 1 to 5), and checks the
-glossary as it goes. Once it is done, the pack's `status` becomes
-`reviewed` and its `review` names how it was reviewed. Only reviewed packs
-are released.
+with each language's glossary. They improve through suggestions from the
+people who use them, made on Rutba's own site once it exists, where each
+label is shown with its context and where it is used. The labels that
+matter most come first (`labels.json` gives each a weight from 1 to 5). A
+pack's `status` becomes `reviewed` once its wording has been settled, and
+its `review` says how. Only reviewed packs are released.

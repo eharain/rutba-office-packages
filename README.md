@@ -12,11 +12,12 @@ People add the packs they want from Settings in Rutba Office. Nothing is
 downloaded until they choose it, and every pack is signed and checked before
 it is used.
 
-**The language packs other than English are drafts**: machine-translated,
-and not yet checked by Rutba's own reviewers (staff, or native speakers under
-contract to Rutba). Each pack's manifest says so, and only reviewed packs are
+**The language packs other than English are drafts**: they start as machine
+translation, and each pack's manifest says so. They improve through
+suggestions from the people who use them, made on Rutba's own site once it
+exists, not through pull requests. Only packs marked as reviewed are
 released. [`languages/TRANSLATING.md`](languages/TRANSLATING.md) is the guide
-the drafts and the reviews follow.
+the drafts follow.
 
 ## Building and checking
 
