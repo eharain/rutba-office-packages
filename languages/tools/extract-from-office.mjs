@@ -238,8 +238,10 @@ function writePack(tag, messages, extra) {
 }
 
 // English: the source pack. A counted label carries English's two forms.
+// Each entry holds the hash of its English (source), as every pack does: Rutba
+// Office names a label by its English and finds the id through this hash.
 const en = {};
-for (const l of ordered) en[l.id] = l.plural ? { forms: { one: l.english, other: l.plural } } : { text: l.english };
+for (const l of ordered) en[l.id] = l.plural ? { forms: { one: l.english, other: l.plural }, source: l.hash } : { text: l.english, source: l.hash };
 // A pack's short and complete versions are written here, not taken from the
 // code: versions/<tag>.json, committed. With them the pack is in format 2
 // (MODEL.md), and they go beside its messages as versions.json.

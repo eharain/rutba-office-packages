@@ -35,9 +35,18 @@ if ([path.join(ROOT, '..', 'office'), path.join(ROOT, '..', '..', 'office')].som
 const git = (...args) => execFileSync('git', args, { encoding: 'utf8' }).trim();
 if (!fs.existsSync(office)) {
   if (given) { console.error(`no office copy at ${office}`); process.exit(2); }
-  console.log(`cloning ${PIN.repo} at ${PIN.tag} into work/office-src`);
   fs.mkdirSync(path.dirname(office), { recursive: true });
-  git('clone', '--quiet', '--depth', '1', '--branch', PIN.tag, PIN.repo, office);
+  if (PIN.tag) {
+    console.log(`cloning ${PIN.repo} at ${PIN.tag} into work/office-src`);
+    git('clone', '--quiet', '--depth', '1', '--branch', PIN.tag, PIN.repo, office);
+  } else {
+    // Before the release is tagged, the pin names its gated commit, which a
+    // branch in the public repository must reach.
+    console.log(`cloning ${PIN.repo} at commit ${PIN.commit} (not yet tagged) into work/office-src`);
+    git('init', '--quiet', office);
+    git('-C', office, 'fetch', '--quiet', '--depth', '1', PIN.repo, PIN.commit);
+    git('-C', office, 'checkout', '--quiet', '--detach', 'FETCH_HEAD');
+  }
 }
 const head = git('-C', office, 'rev-parse', 'HEAD');
 if (head !== PIN.commit) {

@@ -141,6 +141,7 @@ for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
     if (manifest.source) {
       const ok = label.plural ? entry.forms?.one === label.english && entry.forms?.other === label.plural : entry.text === label.english;
       if (!ok) fault(`${id}: the English pack does not hold the registry's English`);
+      if (entry.source !== label.hash) fault(`${id}: the English pack's source is not the hash of its English`);
       continue;
     }
     if (entry.source !== label.hash) stale += 1;
