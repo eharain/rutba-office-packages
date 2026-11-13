@@ -18,7 +18,12 @@
 //      fails if it fails), then builds the speech packs and engine for X;
 //   5. gathers each kind's release folder (<kind>/dist/vX/<id>/) into one,
 //      dist/vX/, and checks every manifest there against the core and every
-//      `requires` against the others.
+//      `requires` against the others. English is the one exception: Office
+//      keeps a byte-for-byte copy of the released lang-en at
+//      resources/languages/lang-en/ (owner, D-2026-11-13-11; core row C15),
+//      built from the frozen candidate and signed before Office's record
+//      run. When Office's tag has that copy, vX publishes exactly it,
+//      envelope and all, in place of a rebuild, and it is never signed again.
 //
 // It never signs and needs no key. What it prints last is the release PC's
 // part: sign the data packs with the packages key, the engine with Office's
@@ -30,6 +35,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { execFileSync, execSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { OFFICE_FILE, officePin, compareVersions, checkManifest, checkRequires } from './pack-core.mjs';
@@ -94,22 +100,67 @@ export function officeClone(root, pin) {
   return dir;
 }
 
+/** Where Office keeps its copy of the released English pack (C15). */
+export const OFFICE_ENGLISH = ['resources', 'languages'];
+const sha512 = (file) => crypto.createHash('sha512').update(fs.readFileSync(file)).digest('base64');
+
+/**
+ * The signed packs Office's tag carries (today only lang-en), checked: an
+ * envelope beside or inside the folder, at this version, and every file it
+ * lists present with its size and SHA-512. The signature itself is checked
+ * by the feed step and the post-release check, with the public keys.
+ * Returns { packs: [{ id, dir, envelope, envelopeFile }], faults }.
+ */
+export function officeCopies(clone, version) {
+  const packs = [];
+  const faults = [];
+  if (!clone) return { packs, faults };
+  const id = 'lang-en';
+  const dir = path.join(clone, ...OFFICE_ENGLISH, id);
+  if (!fs.existsSync(dir)) return { packs, faults };
+  const envelopeFile = [path.join(dir, '..', `${id}.pack.json`), path.join(dir, `${id}.pack.json`)].find((f) => fs.existsSync(f));
+  if (!envelopeFile) return { packs, faults: [`${id}: Office's copy has no ${id}.pack.json beside or inside it`] };
+  const envelope = JSON.parse(fs.readFileSync(envelopeFile, 'utf8'));
+  const m = envelope.manifest || {};
+  if (m.id !== id) faults.push(`${id}: Office's envelope is for ${m.id}`);
+  if (m.version !== version) faults.push(`${id}: Office's copy is at ${m.version}, not ${version}`);
+  for (const [name, f] of Object.entries(m.files || {})) {
+    const local = path.join(dir, ...name.split('/'));
+    if (!fs.existsSync(local) || fs.statSync(local).size !== f.size || sha512(local) !== f.sha512) faults.push(`${id}/${name}: Office's copy is not the file its envelope lists`);
+  }
+  packs.push({ id, dir, envelope, envelopeFile });
+  return { packs, faults };
+}
+
 /**
  * Gathers every kind's release folder into dist/v<version>/ and checks it.
- * Returns { out, ids, faults, empty } where `empty` lists kinds that gave none.
+ *   office: a clone of Office's tag; a signed pack it carries (lang-en) is
+ *   published exactly as it is, in place of the one built here.
+ * Returns { out, ids, faults, empty, presigned }: `empty` lists the kinds
+ * that gave none, `presigned` the packs already signed.
  */
-export function gather(root, version) {
+export function gather(root, version, { office = null } = {}) {
   const out = path.join(root, 'dist', `v${version}`);
   fs.rmSync(out, { recursive: true, force: true });
   fs.mkdirSync(out, { recursive: true });
   const manifests = [];
-  const faults = [];
+  const copies = officeCopies(office, version);
+  const faults = [...copies.faults];
   const empty = [];
+  const presigned = [];
+  for (const c of copies.packs) {
+    fs.cpSync(c.dir, path.join(out, c.id), { recursive: true, filter: (f) => path.basename(f) !== `${c.id}.pack.json` });
+    fs.copyFileSync(c.envelopeFile, path.join(out, `${c.id}.pack.json`));
+    faults.push(...checkManifest(c.envelope.manifest, { office: version }).map((f) => `${c.id}: ${f}`));
+    manifests.push(c.envelope.manifest);
+    presigned.push(c.id);
+  }
   for (const kind of KIND_ROOTS) {
     const from = path.join(root, kind, 'dist', `v${version}`);
     const ids = fs.existsSync(from) ? fs.readdirSync(from).filter((d) => fs.existsSync(path.join(from, d, 'manifest.json'))).sort() : [];
     if (!ids.length) { empty.push(kind); continue; }
     for (const id of ids) {
+      if (presigned.includes(id)) continue;
       if (manifests.some((m) => m.id === id)) { faults.push(`${id}: made by more than one kind`); continue; }
       fs.cpSync(path.join(from, id), path.join(out, id), { recursive: true });
       const m = JSON.parse(fs.readFileSync(path.join(out, id, 'manifest.json'), 'utf8'));
@@ -119,7 +170,7 @@ export function gather(root, version) {
     }
   }
   for (const [id, f] of checkRequires(manifests)) faults.push(...f.map((x) => `${id}: ${x}`));
-  return { out, ids: manifests.map((m) => m.id), faults, empty };
+  return { out, ids: manifests.map((m) => m.id), faults, empty, presigned };
 }
 
 function main(args) {
@@ -146,12 +197,15 @@ function main(args) {
   node(path.join(ROOT, 'speech'), 'tools/fetch-sources.mjs');
   node(path.join(ROOT, 'speech'), 'tools/build-packs.mjs');
   node(path.join(ROOT, 'speech'), 'tools/build-engine.mjs');
-  const g = gather(ROOT, pin.version);
+  const g = gather(ROOT, pin.version, { office: clone });
   for (const k of g.empty) console.log(`${k}/dist/v${pin.version}/ holds no packs: nothing of that kind is in this release`);
   if (g.faults.length) { for (const f of g.faults) console.error(f); return 1; }
   const rel = path.relative(ROOT, g.out);
   console.log(`\n${g.ids.length} packs for Office ${pin.version} in ${rel}. On the release PC, with no key in this repository:`);
-  console.log(`  node tools/sign.mjs --key <packages key> ${rel}/<each data pack>`);
+  const toSign = g.ids.filter((id) => id !== 'speech-engine' && !g.presigned.includes(id));
+  if (g.presigned.length) console.log(`  ${g.presigned.join(', ')}: already signed, published as Office ${pin.tag} carries it; never signed again`);
+  else console.log(`  Office ${pin.tag} carries no copy of lang-en (core row C15), so any lang-en here is the one built from the clone`);
+  if (toSign.length) console.log(`  node tools/sign.mjs --key <packages key> ${toSign.map((id) => `${rel}/${id}`).join(' ')}`);
   console.log(`  sign ${rel}/speech-engine with Office's release key through Office's release tooling`);
   console.log(`  node tools/feed.mjs ${rel} --previous <the last feed published> [--complete]`);
   console.log(`  node tools/feed.mjs --sign ${rel}/feed.json --key <packages feed key>`);

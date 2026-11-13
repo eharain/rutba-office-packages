@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { nextPin, remoteTagCommit, carryCommitted, gather } from './carry.mjs';
 
 const made = [];
@@ -58,4 +59,31 @@ test('gathering: every kind\'s release folder into one, checked; a kind with non
   assert.ok(bad.faults.some((f) => /more than one kind/.test(f)));
   assert.ok(bad.faults.some((f) => /af-heart: version 2\.25\.0 is not the Office release 2\.26\.0/.test(f)));
   assert.ok(bad.faults.some((f) => /af-heart: requires speech-xx-kokoro/.test(f)));
+});
+
+test('English: the signed lang-en in Office\'s tag is published as it is, in place of the one built here', () => {
+  const root = tmp();
+  const office = tmp();
+  const en = manifest('lang-en', { kind: 'language', status: 'source' });
+  write(path.join(root, 'languages/dist/v2.26.0/lang-en/manifest.json'), { ...en, labels: 'rebuilt' });
+  write(path.join(root, 'languages/dist/v2.26.0/lang-en/messages.json'), '{"rebuilt":true}');
+  const copy = path.join(office, 'resources/languages/lang-en');
+  write(path.join(copy, 'manifest.json'), en);
+  write(path.join(copy, 'messages.json'), '{"frozen":true}');
+  const sha = (t) => crypto.createHash('sha512').update(t).digest('base64');
+  const text = JSON.stringify(en, null, 2);
+  const files = { 'manifest.json': { size: text.length, sha512: sha(text) }, 'messages.json': { size: 15, sha512: sha('{"frozen":true}') } };
+  const envelope = { format: 'rutba-office-pack', keyId: '0123456789abcdef', manifest: { ...en, files }, signature: 'c2lnbmVk' };
+  write(path.join(office, 'resources/languages/lang-en.pack.json'), envelope);
+  const g = gather(root, '2.26.0', { office });
+  assert.deepEqual(g.faults, []);
+  assert.deepEqual(g.presigned, ['lang-en']);
+  assert.equal(fs.readFileSync(path.join(root, 'dist/v2.26.0/lang-en/messages.json'), 'utf8'), '{"frozen":true}', 'the copy in Office, not the rebuild');
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root, 'dist/v2.26.0/lang-en.pack.json'), 'utf8')), envelope, 'its envelope, unchanged');
+
+  write(path.join(copy, 'messages.json'), '{"changed":1}');
+  assert.ok(gather(root, '2.26.0', { office }).faults.some((f) => /lang-en\/messages\.json: Office's copy is not the file/.test(f)));
+  write(path.join(office, 'resources/languages/lang-en.pack.json'), { ...envelope, manifest: { ...envelope.manifest, version: '2.25.0' } });
+  assert.ok(gather(root, '2.26.0', { office }).faults.some((f) => /at 2\.25\.0, not 2\.26\.0/.test(f)));
+  assert.deepEqual(gather(root, '2.26.0', { office: tmp() }).presigned, [], 'a tag with no copy: the one built here is used');
 });
