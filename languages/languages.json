@@ -17,7 +17,7 @@
     {"tag":"ru","pack":"lang-ru","name":"Russian","nativeName":"Русский","script":"Cyrl","direction":"ltr","region":"ru-RU","status":"draft"},
     {"tag":"ro","pack":"lang-ro","name":"Romanian","nativeName":"Română","script":"Latn","direction":"ltr","region":"ro-RO","status":"draft"},
     {"tag":"cs","pack":"lang-cs","name":"Czech","nativeName":"Čeština","script":"Latn","direction":"ltr","region":"cs-CZ","status":"draft"},
-    {"tag":"el","pack":"lang-el","name":"Greek","nativeName":"Ελληνικά","script":"Grek","direction":"ltr","region":"el-GR"},
+    {"tag":"el","pack":"lang-el","name":"Greek","nativeName":"Ελληνικά","script":"Grek","direction":"ltr","region":"el-GR","status":"draft"},
     {"tag":"hu","pack":"lang-hu","name":"Hungarian","nativeName":"Magyar","script":"Latn","direction":"ltr","region":"hu-HU"},
     {"tag":"sv","pack":"lang-sv","name":"Swedish","nativeName":"Svenska","script":"Latn","direction":"ltr","region":"sv-SE"},
     {"tag":"he","pack":"lang-he","name":"Hebrew","nativeName":"עברית","script":"Hebr","direction":"rtl","region":"he-IL"},
