@@ -1054,7 +1054,7 @@
     "source": "fd99634235a4"
   },
   "ai-tools-dialog.a-protected-database-is-reached-only": {
-    "text": "Een beveiligde database is alleen bereikbaar met een rol die een Beheerder in Data Files voor de AI-tools koos, nooit met een rol die het ontwerp mag wijzigen.",
+    "text": "Een beveiligde database is alleen bereikbaar met een rol die een Beheerder in Gegevensbestanden (Data Files) voor de AI-tools koos, nooit met een rol die het ontwerp mag wijzigen.",
     "source": "95c6d97202ea"
   },
   "base.ai-tools.a-protected-database-is-reached-only": {
@@ -2951,7 +2951,7 @@
     "source": "eb448ef89a67"
   },
   "locker.anyone-at-this-computer-can-read": {
-    "text": "Iedereen op deze computer leest die kopieën tot je de Locker weer ontgrendelt.",
+    "text": "Iedereen op deze computer leest die kopieën tot je de Kluis (Locker) weer ontgrendelt.",
     "source": "3109eadb508c"
   },
   "mail.dialogs.anything-not-from-a-safe-sender": {
@@ -10923,7 +10923,7 @@
     "source": "607e298f1b12"
   },
   "locker.give-the-password-a-different-way": {
-    "text": "Geef het wachtwoord op een andere manier door, zoals telefonisch of via een sms, en nooit in dezelfde e-mail. De ander opent het bestand met Een verzonden bestand openen in de eigen Locker.",
+    "text": "Geef het wachtwoord op een andere manier door, zoals telefonisch of via een sms, en nooit in dezelfde e-mail. De ander opent het bestand met Een verzonden bestand openen in de eigen Kluis (Locker).",
     "source": "1b7a08b8266b"
   },
   "locker.give-the-password-a-different-way-2": {
@@ -13144,7 +13144,7 @@
     "source": "4d08e86b0ba2"
   },
   "locker.it-becomes-an-ordinary-file-in": {
-    "text": "Het wordt een gewoon bestand op dezelfde plek, en de eerdere versies die de Locker ervan bewaarde, worden verwijderd. Je kunt het weer vergrendelen wanneer je maar wilt.",
+    "text": "Het wordt een gewoon bestand op dezelfde plek, en de eerdere versies die de Kluis (Locker) ervan bewaarde, worden verwijderd. Je kunt het weer vergrendelen wanneer je maar wilt.",
     "source": "edc5654cc244"
   },
   "mail.it-goes-to": {
@@ -13168,7 +13168,7 @@
     "source": "668b7b14f675"
   },
   "locker.it-is-removed-for-good-with": {
-    "text": "Het wordt definitief verwijderd, met de eerdere versies die de Locker bewaarde. Dit kan niet ongedaan worden gemaakt.",
+    "text": "Het wordt definitief verwijderd, met de eerdere versies die de Kluis (Locker) bewaarde. Dit kan niet ongedaan worden gemaakt.",
     "source": "0add2a7bb664"
   },
   "mail.smime.it-is-shown-as-plain-text": {
@@ -17624,7 +17624,7 @@
     "source": "a08f0f94673a"
   },
   "base.not-shown-as-data-files-cannot": {
-    "text": "Niet getoond, want Data Files kan ze niet tonen: {tables}.",
+    "text": "Niet getoond, want Gegevensbestanden (Data Files) kan ze niet tonen: {tables}.",
     "source": "ddfa2ced7beb"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
@@ -17708,7 +17708,7 @@
     "source": "9ec690affc17"
   },
   "profiles.nothing-else-is-lost-each-place": {
-    "text": "Verder gaat niets verloren. Elke plek vraagt zijn wachtwoord de volgende keer dat het nodig is: servers van E-mail, Agenda en Contactpersonen, Talk en Data Files.",
+    "text": "Verder gaat niets verloren. Elke plek vraagt zijn wachtwoord de volgende keer dat het nodig is: servers van E-mail, Agenda en Contactpersonen, Talk en Gegevensbestanden (Data Files).",
     "source": "81cc2adb98ca"
   },
   "locker.nothing-has-been-changed-if-you": {
@@ -27592,11 +27592,11 @@
     "source": "1d8c64ed765e"
   },
   "engine.the-data-files-copy-needs-a": {
-    "text": "De kopie in Data Files heeft een eigen bestand nodig. Kies een andere naam of map.",
+    "text": "De kopie in Gegevensbestanden (Data Files) heeft een eigen bestand nodig. Kies een andere naam of map.",
     "source": "b7ddf45551bf"
   },
   "home.the-office-apps-are-on-add": {
-    "text": "De Office-apps staan aan. Voeg Talk, Data Files en de Studio-apps toe wanneer je wilt, en zet altijd uit wat je niet gebruikt.",
+    "text": "De Office-apps staan aan. Voeg Talk, Gegevensbestanden (Data Files) en de Studio-apps toe wanneer je wilt, en zet altijd uit wat je niet gebruikt.",
     "source": "328297894902"
   },
   "pdf.the-pdf-could-not-be-saved": {
@@ -27897,7 +27897,7 @@
     "source": "5247422a086e"
   },
   "base.links.the-engine-keeps-the-records-data": {
-    "text": "De engine bewaart de records: Data Files leest ze daaruit en slaat elke wijziging er direct in op. Elke computer die aan dezelfde engine is gekoppeld, werkt met dezelfde records.",
+    "text": "De engine bewaart de records: Gegevensbestanden (Data Files) leest ze daaruit en slaat elke wijziging er direct in op. Elke computer die aan dezelfde engine is gekoppeld, werkt met dezelfde records.",
     "source": "e0207c80190a"
   },
   "base.links.the-engines": {
@@ -28778,7 +28778,7 @@
     "source": "46d46b934332"
   },
   "base.sources.the-source-keeps-the-records-data": {
-    "text": "De bron bewaart de records. Data Files leest ze in een tabel hier, alleen-lezen, en leest ze opnieuw volgens een schema en wanneer je vernieuwt.",
+    "text": "De bron bewaart de records. Gegevensbestanden (Data Files) leest ze in een tabel hier, alleen-lezen, en leest ze opnieuw volgens een schema en wanneer je vernieuwt.",
     "source": "79cee31b8e53"
   },
   "mail.archive.the-sources-were-opened-for-reading": {
@@ -29503,19 +29503,19 @@
     "source": "d16e6b944ce3"
   },
   "engine.this-database-was-made-by-another-2": {
-    "text": "Deze database is gemaakt door een ander programma, dus het ontwerp wordt hier niet gewijzigd. Maak er een kopie van in Data Files om het ontwerp te wijzigen.",
+    "text": "Deze database is gemaakt door een ander programma, dus het ontwerp wordt hier niet gewijzigd. Maak er een kopie van in Gegevensbestanden (Data Files) om het ontwerp te wijzigen.",
     "source": "bdea4ff9cd77"
   },
   "base.this-database-was-made-by-another": {
-    "text": "Deze database komt uit een ander programma. Recordwijzigingen gaan direct in het bestand; verder wijzigt er niets. Maak een Data Files-kopie om het ontwerp te wijzigen.",
+    "text": "Deze database komt uit een ander programma. Recordwijzigingen gaan direct in het bestand; verder wijzigt er niets. Maak een kopie in Gegevensbestanden (Data Files) om het ontwerp te wijzigen.",
     "source": "901fb7cbec72"
   },
   "base.this-database-was-made-by-another-2": {
-    "text": "Deze database komt uit een ander programma. Hij is alleen-lezen geopend en er wordt niets aan het bestand toegevoegd. Kies Wijzigingen toestaan om de records te wijzigen, of maak een Data Files-kopie om het ontwerp te wijzigen.",
+    "text": "Deze database komt uit een ander programma. Hij is alleen-lezen geopend en er wordt niets aan het bestand toegevoegd. Kies Wijzigingen toestaan om de records te wijzigen, of maak een kopie in Gegevensbestanden (Data Files) om het ontwerp te wijzigen.",
     "source": "ed77aa7838b8"
   },
   "engine.this-database-was-made-by-another-3": {
-    "text": "Deze database is gemaakt door een ander programma. Open hem om te lezen, of maak er een kopie van in Data Files om het ontwerp te wijzigen.",
+    "text": "Deze database is gemaakt door een ander programma. Open hem om te lezen, of maak er een kopie van in Gegevensbestanden (Data Files) om het ontwerp te wijzigen.",
     "source": "96bea0765327"
   },
   "slides.this-deck-has-no-layouts-of": {
@@ -29687,7 +29687,7 @@
     "source": "6a0eb9a7a97e"
   },
   "base.this-is-a-data-files-copy": {
-    "text": "Dit is een Data Files-kopie. Het bestand waaruit hij is gemaakt, is zoals het was.",
+    "text": "Dit is een kopie in Gegevensbestanden (Data Files). Het bestand waaruit hij is gemaakt, is zoals het was.",
     "source": "3f73aaaa990c"
   },
   "engine.this-is-a-gltf-version-file": {
@@ -29735,7 +29735,7 @@
     "source": "737a18f6eb07"
   },
   "locker.this-is-your-locker-folder": {
-    "text": "Dit is je Locker-map.",
+    "text": "Dit is je Kluis-map (Locker).",
     "source": "1218fd3ca5b3"
   },
   "word.mailings.this-letter-takes-its-recipients-from": {
@@ -32718,7 +32718,7 @@
     "source": "bf54ca280807"
   },
   "locker.your-locker-folder-is-ready-put": {
-    "text": "Je Locker-map is klaar. Zet er bestanden in en vergrendel ze hier.",
+    "text": "Je Kluis-map (Locker) is klaar. Zet er bestanden in en vergrendel ze hier.",
     "source": "631f0118426c"
   },
   "base.trust.your-answer-is-kept-for-this": {
@@ -36447,7 +36447,7 @@
     "source": "b9c70b357df5"
   },
   "locker.n-folders-could-not-be-reached": {
-    "text": "{n} mappen waren niet bereikbaar. Ze krijgen de nieuwe herstelsleutel zodra ze er weer zijn als de Locker opent.",
+    "text": "{n} mappen waren niet bereikbaar. Ze krijgen de nieuwe herstelsleutel zodra ze er weer zijn als de Kluis (Locker) opent.",
     "source": "8fe3cd166f97"
   },
   "studio.n-frames-a-second": {
