@@ -104,6 +104,12 @@ the pack, so the two stay in step.
 | Image (the editor) | Immagine |
 | Video | Video |
 | Home (the launcher) | Home |
+| Talk | Talk |
+| Locker | Cassaforte (proposed by the languages session, agreed by the PM 13 Nov) |
+| Data Files (the database's file app) | File di dati (proposed, agreed 13 Nov) |
+| Studio | Studio |
+| Recorder | Registratore (proposed, agreed 13 Nov) |
+| Broadcast | Trasmissione (proposed, agreed 13 Nov) |
 
 Pictures is "Foto", as the Windows app is called, so that it stays apart from
 the editor "Immagine".

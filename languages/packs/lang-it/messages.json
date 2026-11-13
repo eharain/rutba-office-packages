@@ -1056,7 +1056,7 @@
     "source": "fd99634235a4"
   },
   "ai-tools-dialog.a-protected-database-is-reached-only": {
-    "text": "Un database protetto è accessibile solo con un ruolo che un Admin ha scelto per gli strumenti IA in Data Files, mai con uno che possa modificarne la struttura.",
+    "text": "Un database protetto è accessibile solo con un ruolo che un Admin ha scelto per gli strumenti IA in File di dati (Data Files), mai con uno che possa modificarne la struttura.",
     "source": "95c6d97202ea"
   },
   "base.ai-tools.a-protected-database-is-reached-only": {
@@ -2960,7 +2960,7 @@
     "source": "eb448ef89a67"
   },
   "locker.anyone-at-this-computer-can-read": {
-    "text": "Chiunque usi questo computer può leggere quelle copie finché non sblocchi di nuovo il Locker.",
+    "text": "Chiunque usi questo computer può leggere quelle copie finché non sblocchi di nuovo la Cassaforte (Locker).",
     "source": "3109eadb508c"
   },
   "mail.dialogs.anything-not-from-a-safe-sender": {
@@ -8340,7 +8340,7 @@
     "source": "ba23d84777b1"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
-    "text": "Ogni account di posta, calendario, rubrica, database e cartella ha una propria impostazione, mostrata anche nella sua app, e lo stesso vale per Recorder. Tutto è disattivato finché non scegli. Nulla viene mai eliminato o spostato, e ogni invio attende prima la tua conferma qui.",
+    "text": "Ogni account di posta, calendario, rubrica, database e cartella ha una propria impostazione, mostrata anche nella sua app, e lo stesso vale per il Registratore (Recorder). Tutto è disattivato finché non scegli. Nulla viene mai eliminato o spostato, e ogni invio attende prima la tua conferma qui.",
     "source": "0fd0a5b12aaa"
   },
   "word.mailings.each-message-is-the-merged-letter": {
@@ -10948,7 +10948,7 @@
     "source": "607e298f1b12"
   },
   "locker.give-the-password-a-different-way": {
-    "text": "Comunica la password in un altro modo, ad esempio con una telefonata o un SMS, e mai nello stesso messaggio. L'altra persona apre il file con Apri un file inviato nel proprio Locker.",
+    "text": "Comunica la password in un altro modo, ad esempio con una telefonata o un SMS, e mai nello stesso messaggio. L'altra persona apre il file con Apri un file inviato nella propria Cassaforte (Locker).",
     "source": "1b7a08b8266b"
   },
   "locker.give-the-password-a-different-way-2": {
@@ -11012,7 +11012,7 @@
     "source": "a9f690169703"
   },
   "home.go-live-to-the-places-you": {
-    "text": "Vai in diretta: verso le destinazioni del tuo streaming, da Live Broadcast",
+    "text": "Vai in diretta: verso le destinazioni del tuo streaming, da Trasmissione in diretta (Live Broadcast)",
     "source": "77b987635721"
   },
   "locker.go-on": {
@@ -13176,7 +13176,7 @@
     "source": "4d08e86b0ba2"
   },
   "locker.it-becomes-an-ordinary-file-in": {
-    "text": "Diventa un file normale nella stessa posizione e le versioni precedenti conservate dal Locker vengono rimosse. Puoi bloccarlo di nuovo quando vuoi.",
+    "text": "Diventa un file normale nella stessa posizione e le versioni precedenti conservate dalla Cassaforte (Locker) vengono rimosse. Puoi bloccarlo di nuovo quando vuoi.",
     "source": "edc5654cc244"
   },
   "mail.it-goes-to": {
@@ -13200,7 +13200,7 @@
     "source": "668b7b14f675"
   },
   "locker.it-is-removed-for-good-with": {
-    "text": "Viene rimosso definitivamente, insieme alle versioni precedenti conservate dal Locker. L'operazione non può essere annullata.",
+    "text": "Viene rimosso definitivamente, insieme alle versioni precedenti conservate dalla Cassaforte (Locker). L'operazione non può essere annullata.",
     "source": "0add2a7bb664"
   },
   "mail.smime.it-is-shown-as-plain-text": {
@@ -17664,7 +17664,7 @@
     "source": "a08f0f94673a"
   },
   "base.not-shown-as-data-files-cannot": {
-    "text": "Non mostrate, perché Data Files non può visualizzarle: {tables}.",
+    "text": "Non mostrate, perché File di dati (Data Files) non può visualizzarle: {tables}.",
     "source": "ddfa2ced7beb"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
@@ -17748,7 +17748,7 @@
     "source": "9ec690affc17"
   },
   "profiles.nothing-else-is-lost-each-place": {
-    "text": "Non si perde nient'altro. Ogni servizio chiederà la sua password la prossima volta che ne avrà bisogno: server di Posta, Calendario e Contatti, Talk e Data Files.",
+    "text": "Non si perde nient'altro. Ogni servizio chiederà la sua password la prossima volta che ne avrà bisogno: server di Posta, Calendario e Contatti, Talk e File di dati (Data Files).",
     "source": "81cc2adb98ca"
   },
   "locker.nothing-has-been-changed-if-you": {
@@ -21080,7 +21080,7 @@
     "source": "bf53fb475896"
   },
   "home.record-a-screen-a-screen-a": {
-    "text": "Registra lo schermo: uno schermo, una finestra o la tua fotocamera, con l'audio, in Recorder",
+    "text": "Registra lo schermo: uno schermo, una finestra o la tua fotocamera, con l'audio, nel Registratore (Recorder)",
     "source": "537961d71048"
   },
   "common.record-again": {
@@ -26896,7 +26896,7 @@
     "source": "3975b6ba21ee"
   },
   "home.take-a-picture-the-recorder-opens": {
-    "text": "Scatta una foto: si apre Recorder e scatta una foto di ciò che mostra",
+    "text": "Scatta una foto: si apre il Registratore (Recorder) e scatta una foto di ciò che mostra",
     "source": "c8378bc06f24"
   },
   "base.people.take-it-away": {
@@ -27652,11 +27652,11 @@
     "source": "1d8c64ed765e"
   },
   "engine.the-data-files-copy-needs-a": {
-    "text": "La copia Data Files richiede un file a sé. Scegli un altro nome o un'altra cartella.",
+    "text": "La copia in File di dati (Data Files) richiede un file a sé. Scegli un altro nome o un'altra cartella.",
     "source": "b7ddf45551bf"
   },
   "home.the-office-apps-are-on-add": {
-    "text": "Le app di Office sono attive. Aggiungi Talk, Data Files e le app di Studio quando vuoi, e disattiva ciò che non usi, in qualsiasi momento.",
+    "text": "Le app di Office sono attive. Aggiungi Talk, File di dati (Data Files) e le app di Studio quando vuoi, e disattiva ciò che non usi, in qualsiasi momento.",
     "source": "328297894902"
   },
   "pdf.the-pdf-could-not-be-saved": {
@@ -27960,7 +27960,7 @@
     "source": "5247422a086e"
   },
   "base.links.the-engine-keeps-the-records-data": {
-    "text": "Il motore conserva i record: Data Files li legge da lì e salva ogni modifica direttamente nel motore. Ogni computer collegato allo stesso motore lavora sugli stessi record.",
+    "text": "Il motore conserva i record: File di dati (Data Files) li legge da lì e salva ogni modifica direttamente nel motore. Ogni computer collegato allo stesso motore lavora sugli stessi record.",
     "source": "e0207c80190a"
   },
   "base.links.the-engines": {
@@ -28844,7 +28844,7 @@
     "source": "46d46b934332"
   },
   "base.sources.the-source-keeps-the-records-data": {
-    "text": "L'origine conserva i record. Data Files li legge in una tabella qui, in sola lettura, e li rilegge a intervalli programmati e quando aggiorni.",
+    "text": "L'origine conserva i record. File di dati (Data Files) li legge in una tabella qui, in sola lettura, e li rilegge a intervalli programmati e quando aggiorni.",
     "source": "79cee31b8e53"
   },
   "mail.archive.the-sources-were-opened-for-reading": {
@@ -29572,19 +29572,19 @@
     "source": "d16e6b944ce3"
   },
   "engine.this-database-was-made-by-another-2": {
-    "text": "Questo database è stato creato da un altro programma, quindi la sua struttura non viene modificata qui. Creane una copia Data Files per modificarne la struttura.",
+    "text": "Questo database è stato creato da un altro programma, quindi la sua struttura non viene modificata qui. Creane una copia in File di dati (Data Files) per modificarne la struttura.",
     "source": "bdea4ff9cd77"
   },
   "base.this-database-was-made-by-another": {
-    "text": "Questo database è stato creato da un altro programma. Le modifiche ai suoi record vanno direttamente nel suo file, e nient'altro viene modificato. Crea una copia Data Files per modificarne la struttura.",
+    "text": "Questo database è stato creato da un altro programma. Le modifiche ai suoi record vanno direttamente nel suo file, e nient'altro viene modificato. Crea una copia in File di dati (Data Files) per modificarne la struttura.",
     "source": "901fb7cbec72"
   },
   "base.this-database-was-made-by-another-2": {
-    "text": "Questo database è stato creato da un altro programma. È aperto in sola lettura e al suo file non viene aggiunto nulla. Scegli Consenti modifiche per modificarne i record, oppure crea una copia Data Files per modificarne la struttura.",
+    "text": "Questo database è stato creato da un altro programma. È aperto in sola lettura e al suo file non viene aggiunto nulla. Scegli Consenti modifiche per modificarne i record, oppure crea una copia in File di dati (Data Files) per modificarne la struttura.",
     "source": "ed77aa7838b8"
   },
   "engine.this-database-was-made-by-another-3": {
-    "text": "Questo database è stato creato da un altro programma. Aprilo per leggerlo, oppure creane una copia Data Files per modificarne la struttura.",
+    "text": "Questo database è stato creato da un altro programma. Aprilo per leggerlo, oppure creane una copia in File di dati (Data Files) per modificarne la struttura.",
     "source": "96bea0765327"
   },
   "slides.this-deck-has-no-layouts-of": {
@@ -29756,7 +29756,7 @@
     "source": "6a0eb9a7a97e"
   },
   "base.this-is-a-data-files-copy": {
-    "text": "Questa è una copia Data Files. Il file da cui è stata creata è rimasto invariato.",
+    "text": "Questa è una copia in File di dati (Data Files). Il file da cui è stata creata è rimasto invariato.",
     "source": "3f73aaaa990c"
   },
   "engine.this-is-a-gltf-version-file": {
@@ -29804,7 +29804,7 @@
     "source": "737a18f6eb07"
   },
   "locker.this-is-your-locker-folder": {
-    "text": "Questa è la tua cartella Locker.",
+    "text": "Questa è la tua cartella della Cassaforte (Locker).",
     "source": "1218fd3ca5b3"
   },
   "word.mailings.this-letter-takes-its-recipients-from": {
@@ -32164,11 +32164,11 @@
     "source": "248094cdc460"
   },
   "locker.when-the-locker-locks-files-you": {
-    "text": "Quando il Locker si blocca, i file che hai sbloccato",
+    "text": "Quando la Cassaforte (Locker) si blocca, i file che hai sbloccato",
     "source": "fe3763febbff"
   },
   "locker.when-the-locker-locks-temporary-copies": {
-    "text": "Quando il Locker si blocca, le copie temporanee dei file che hai aperto",
+    "text": "Quando la Cassaforte (Locker) si blocca, le copie temporanee dei file che hai aperto",
     "source": "85eed2d2a061"
   },
   "word.mailings.when-this-holds-the-fields-after": {
@@ -32792,7 +32792,7 @@
     "source": "bf54ca280807"
   },
   "locker.your-locker-folder-is-ready-put": {
-    "text": "La tua cartella Locker è pronta. Inseriscici i file, poi bloccali qui.",
+    "text": "La tua cartella della Cassaforte (Locker) è pronta. Inseriscici i file, poi bloccali qui.",
     "source": "631f0118426c"
   },
   "base.trust.your-answer-is-kept-for-this": {
@@ -36708,7 +36708,7 @@
     "source": "b9c70b357df5"
   },
   "locker.n-folders-could-not-be-reached": {
-    "text": "Non è stato possibile raggiungere {n} cartelle. Riceveranno la nuova chiave di ripristino la prossima volta che saranno disponibili all'apertura del Locker.",
+    "text": "Non è stato possibile raggiungere {n} cartelle. Riceveranno la nuova chiave di ripristino la prossima volta che saranno disponibili all'apertura della Cassaforte (Locker).",
     "source": "8fe3cd166f97"
   },
   "studio.n-frames-a-second": {

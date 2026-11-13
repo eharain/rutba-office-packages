@@ -91,6 +91,12 @@ the pack, so the two stay in step.
 | Image (the editor) | Afbeelding |
 | Video | Video |
 | Home (the launcher) | Start |
+| Talk | Talk |
+| Locker | Kluis (proposed by the languages session, agreed by the PM 13 Nov) |
+| Data Files (the database's file app) | Gegevensbestanden (proposed by the languages session, agreed by the PM 13 Nov) |
+| Studio | Studio |
+| Recorder | Recorder |
+| Broadcast | Uitzending (proposed by the languages session, agreed by the PM 13 Nov) |
 
 ## Tabs and frame
 
