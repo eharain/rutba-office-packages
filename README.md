@@ -39,7 +39,8 @@ node --test tools/pack-core.test.mjs
 ```
 
 Every pack carries the version number of the Rutba Office release it is
-for, plus a revision from 1 for changes released between two Office
+for, the one release [`office.json`](office.json) names for the whole
+repository, plus a revision from 1 for changes released between two Office
 releases (the speech engine, being code, has no revision). A pack names
 the packs it needs in `requires`, by id or by a name another pack lists in
 `provides`.

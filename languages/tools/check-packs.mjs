@@ -21,7 +21,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { checkManifest, checkFiles, checkRequires } from '../../tools/pack-core.mjs';
+import { checkManifest, checkFiles, checkRequires, officePin } from '../../tools/pack-core.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const registry = JSON.parse(fs.readFileSync(path.join(ROOT, 'ids.json'), 'utf8'));
@@ -42,7 +42,7 @@ const NBSP = /[\u00a0\u202f\u2007\u2060\ufeff]/;
 const LEFT_OTHER_SCRIPT = 40;
 const LEFT_LATIN_SHARE = 0.04;
 /** The Office release every pack is checked against, and whose version it carries. */
-const OFFICE = JSON.parse(fs.readFileSync(path.join(ROOT, 'office.json'), 'utf8')).version;
+const OFFICE = officePin().version;
 
 let faults = 0;
 

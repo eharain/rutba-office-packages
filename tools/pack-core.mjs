@@ -16,6 +16,15 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+/**
+ * The Rutba Office release every pack in this repository is for, one pin for
+ * all kinds: { repo, tag, commit, version }, from office.json at the root.
+ * Moving it to a new release is one edit for the whole repository.
+ */
+export const OFFICE_FILE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'office.json');
+export const officePin = () => JSON.parse(fs.readFileSync(OFFICE_FILE, 'utf8'));
 
 /** Pack ids, as Rutba Office's pack loader accepts them. */
 export const ID = /^[a-z][a-z0-9-]{0,31}$/;

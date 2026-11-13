@@ -53,7 +53,7 @@ node tools/build.mjs
 
 That one command makes every file that comes from the Rutba Office code and
 then checks them all. It reads the code from `work/office-src` (not committed), a clone of the
-release pinned in `office.json` (now `v2.25.0`, commit `18a8407a`), and makes that clone first if
+release pinned in the repository's [`office.json`](../office.json) (now `v2.25.0`, commit `18a8407a`), and makes that clone first if
 it is missing. It never reads a working checkout of Rutba Office. It fails
 when an id goes missing or repeats, when a generated file's ids differ from
 the registry's, or when `tools/check-packs.mjs` finds a fault.
@@ -116,8 +116,8 @@ English words: `common.save`, `sheets.find.find-all`,
 
 Every pack, of every kind, carries the version number of the Rutba Office
 release it is for, so the packs and the suite stay in step. The version also
-says which release the pack was checked against. `office.json` names that
-release: the build reads its code from it and the checker fails a pack with
+says which release the pack was checked against. `office.json` at the repository's root names that
+release for every kind of pack: the build reads its code from it and the checker fails a pack with
 any other version.
 
 - Each Rutba Office release has a release of this repository tagged

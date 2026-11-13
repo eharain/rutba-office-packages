@@ -15,12 +15,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { officePin } from '../../tools/pack-core.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-// The Rutba Office release the packs are made and checked against. Every
-// pack carries its version (office.json); moving the pin is how the packs
-// move to a new Office release.
-const PIN = JSON.parse(fs.readFileSync(path.join(ROOT, 'office.json'), 'utf8'));
+// The Rutba Office release the packs are made and checked against: the one
+// pin for every pack kind, office.json at the repository's root. Every pack
+// carries its version; moving the pin is how the packs move to a new release.
+const PIN = officePin();
 
 const given = process.argv[2];
 const office = path.resolve(given || path.join(ROOT, 'work/office-src'));
@@ -40,7 +41,7 @@ if (!fs.existsSync(office)) {
 }
 const head = git('-C', office, 'rev-parse', 'HEAD');
 if (head !== PIN.commit) {
-  console.error(`the office copy is at ${head}, not the pinned ${PIN.tag} (${PIN.commit}). Check out the pin, or move the pin in office.json on a new release.`);
+  console.error(`the office copy is at ${head}, not the pinned ${PIN.tag} (${PIN.commit}). Check out the pin, or move the pin in the repository's office.json on a new release.`);
   process.exit(1);
 }
 
