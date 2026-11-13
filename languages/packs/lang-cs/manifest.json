@@ -1,0 +1,38 @@
+{
+  "id": "lang-cs",
+  "kind": "language",
+  "format": 2,
+  "version": "2.25.0",
+  "revision": 1,
+  "tag": "cs",
+  "tags": [
+    "cs"
+  ],
+  "requires": [],
+  "licence": {
+    "spdx": "LicenseRef-TechStyle-Proprietary",
+    "files": [
+      "LICENSE.txt"
+    ]
+  },
+  "name": "Czech",
+  "nativeName": "Čeština",
+  "script": "Latn",
+  "direction": "ltr",
+  "region": "cs-CZ",
+  "pluralForms": [
+    "few",
+    "many",
+    "one",
+    "other"
+  ],
+  "labels": 8998,
+  "status": "draft",
+  "review": "machine translation, offered as a draft until its wording is settled",
+  "madeFrom": "lang-en",
+  "versions": [
+    "short",
+    "medium",
+    "complete"
+  ]
+}
