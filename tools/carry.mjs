@@ -129,31 +129,43 @@ export const OFFICE_ENGLISH = ['resources', 'languages'];
 const sha512 = (file) => crypto.createHash('sha512').update(fs.readFileSync(file)).digest('base64');
 
 /**
- * The signed packs Office's tag carries (today only lang-en), checked: an
- * envelope beside or inside the folder, at this version, and every file it
- * lists present with its size and SHA-512. The signature itself is checked
- * by the feed step and the post-release check, with the public keys.
- * Returns { packs: [{ id, dir, envelope, envelopeFile }], faults }.
+ * The signed packs Office's tag carries (today only lang-en), checked: the
+ * envelope beside the folder (resources/languages/lang-en.pack.json, its one
+ * place, so a misplaced copy fails), and every file it lists present with
+ * its size and SHA-512. The signature itself is checked by the feed step and
+ * the post-release check, with the public keys.
+ *
+ * Only a copy at this version is published as it is. A copy at an earlier
+ * version is the fallback Office carried because lang-en X was not ready
+ * before its record run (design 1.4): it is reported, not published, and the
+ * lang-en the languages build made for X is kept.
+ * Returns { packs: [{ id, dir, envelope, envelopeFile }], faults, notes }.
  */
 export function officeCopies(clone, version) {
   const packs = [];
   const faults = [];
-  if (!clone) return { packs, faults };
+  const notes = [];
+  if (!clone) return { packs, faults, notes };
   const id = 'lang-en';
   const dir = path.join(clone, ...OFFICE_ENGLISH, id);
-  if (!fs.existsSync(dir)) return { packs, faults };
-  const envelopeFile = [path.join(dir, '..', `${id}.pack.json`), path.join(dir, `${id}.pack.json`)].find((f) => fs.existsSync(f));
-  if (!envelopeFile) return { packs, faults: [`${id}: Office's copy has no ${id}.pack.json beside or inside it`] };
+  const envelopeFile = path.join(clone, ...OFFICE_ENGLISH, `${id}.pack.json`);
+  if (!fs.existsSync(dir) && !fs.existsSync(envelopeFile)) return { packs, faults, notes };
+  if (!fs.existsSync(dir)) return { packs, faults: [`${id}: Office carries ${id}.pack.json but no ${id}/ folder beside it`], notes };
+  if (!fs.existsSync(envelopeFile)) return { packs, faults: [`${id}: Office's copy has no ${id}.pack.json beside its folder`], notes };
+  if (fs.existsSync(path.join(dir, `${id}.pack.json`))) faults.push(`${id}: an envelope inside Office's ${id}/ folder; its one place is beside it`);
   const envelope = JSON.parse(fs.readFileSync(envelopeFile, 'utf8'));
   const m = envelope.manifest || {};
-  if (m.id !== id) faults.push(`${id}: Office's envelope is for ${m.id}`);
-  if (m.version !== version) faults.push(`${id}: Office's copy is at ${m.version}, not ${version}`);
+  if (m.id !== id) return { packs, faults: [...faults, `${id}: Office's envelope is for ${m.id}`], notes };
+  if (m.version !== version) {
+    notes.push(`${id}: Office's tag carries ${m.version} revision ${m.revision}, the earlier fallback; the ${id} built here for ${version} is kept`);
+    return { packs, faults, notes };
+  }
   for (const [name, f] of Object.entries(m.files || {})) {
     const local = path.join(dir, ...name.split('/'));
     if (!fs.existsSync(local) || fs.statSync(local).size !== f.size || sha512(local) !== f.sha512) faults.push(`${id}/${name}: Office's copy is not the file its envelope lists`);
   }
   packs.push({ id, dir, envelope, envelopeFile });
-  return { packs, faults };
+  return { packs, faults, notes };
 }
 
 /**
@@ -173,7 +185,7 @@ export function gather(root, version, { office = null } = {}) {
   const empty = [];
   const presigned = [];
   for (const c of copies.packs) {
-    fs.cpSync(c.dir, path.join(out, c.id), { recursive: true, filter: (f) => path.basename(f) !== `${c.id}.pack.json` });
+    fs.cpSync(c.dir, path.join(out, c.id), { recursive: true });
     fs.copyFileSync(c.envelopeFile, path.join(out, `${c.id}.pack.json`));
     faults.push(...checkManifest(c.envelope.manifest, { office: version }).map((f) => `${c.id}: ${f}`));
     manifests.push(c.envelope.manifest);
@@ -194,7 +206,7 @@ export function gather(root, version, { office = null } = {}) {
     }
   }
   for (const [id, f] of checkRequires(manifests)) faults.push(...f.map((x) => `${id}: ${x}`));
-  return { out, ids: manifests.map((m) => m.id), faults, empty, presigned };
+  return { out, ids: manifests.map((m) => m.id), faults, empty, presigned, notes: copies.notes };
 }
 
 function main(args) {
@@ -231,6 +243,7 @@ function main(args) {
   node(path.join(ROOT, 'speech'), 'tools/build-packs.mjs');
   node(path.join(ROOT, 'speech'), 'tools/build-engine.mjs');
   const g = gather(ROOT, pin.version, { office: clone });
+  for (const n of g.notes) console.log(n);
   for (const k of g.empty) console.log(`${k}/dist/v${pin.version}/ holds no packs: nothing of that kind is in this release`);
   if (g.faults.length) { for (const f of g.faults) console.error(f); return 1; }
   const rel = path.relative(ROOT, g.out);

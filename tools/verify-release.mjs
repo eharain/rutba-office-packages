@@ -71,7 +71,16 @@ export async function verifyRelease({ version, base, keys, files = true, office 
   if (!Array.isArray(feed.retired) || feed.retired.some((r) => !r?.id || !r?.reason)) faults.push('retired is a list of { id, reason }');
 
   let checkedFiles = 0;
-  const english = office && path.join(office, ...OFFICE_ENGLISH, 'lang-en');
+  const notes = [];
+  // Office's copy of lang-en (C15), compared only when it is at this version:
+  // an earlier one is the fallback Office carried, which the release rightly
+  // does not publish, and is reported as lagging.
+  let english = office && path.join(office, ...OFFICE_ENGLISH, 'lang-en');
+  const englishEnvelope = english && path.join(office, ...OFFICE_ENGLISH, 'lang-en.pack.json');
+  if (english && fs.existsSync(englishEnvelope)) {
+    const at = JSON.parse(fs.readFileSync(englishEnvelope, 'utf8')).manifest || {};
+    if (at.version !== version) { notes.push(`lang-en: Office ${version} carries ${at.version} revision ${at.revision}, the earlier fallback; its copy lags this release`); english = null; }
+  } else if (english && fs.existsSync(english)) faults.push(`lang-en: Office ${version} carries the folder but no lang-en.pack.json beside it`);
   for (const p of feed.packs || []) {
     let envBytes;
     try { envBytes = await fetchBytes(p.envelope.url); } catch (e) { faults.push(`${p.id}: envelope: ${e.message}`); continue; }
@@ -97,14 +106,11 @@ export async function verifyRelease({ version, base, keys, files = true, office 
         if (p.id === 'lang-en' && english && fs.existsSync(path.join(english, ...name.split('/'))) && !fs.readFileSync(path.join(english, ...name.split('/'))).equals(bytes)) faults.push(`lang-en/${name}: not the copy Office ${version} carries`);
       } catch (e) { faults.push(`${p.id}/${name}: ${e.message}`); }
     }
-    if (p.id === 'lang-en' && english && fs.existsSync(english)) {
-      const copy = [path.join(english, '..', 'lang-en.pack.json'), path.join(english, 'lang-en.pack.json')].find((f) => fs.existsSync(f));
-      if (!copy || !fs.readFileSync(copy).equals(envBytes)) faults.push(`lang-en: the envelope is not the one Office ${version} carries`);
-    }
+    if (p.id === 'lang-en' && english && !fs.readFileSync(englishEnvelope).equals(envBytes)) faults.push(`lang-en: the envelope is not the one Office ${version} carries`);
   }
-  if (english && fs.existsSync(english) && !(feed.packs || []).some((p) => p.id === 'lang-en')) faults.push(`lang-en: Office ${version} carries it, the release does not list it`);
+  if (english && !(feed.packs || []).some((p) => p.id === 'lang-en')) faults.push(`lang-en: Office ${version} carries it, the release does not list it`);
   for (const r of feed.retired || []) if ((feed.packs || []).some((p) => p.id === r.id)) faults.push(`${r.id}: both listed and retired`);
-  return { faults, packs: (feed.packs || []).length, files: checkedFiles };
+  return { faults, notes, packs: (feed.packs || []).length, files: checkedFiles };
 }
 
 async function main(args) {
@@ -131,6 +137,7 @@ async function main(args) {
   }
   const r = await verifyRelease({ version, base, keys: readKeys(keysJson), files: !args.includes('--no-files'), office, contract, compat });
   faults.push(...r.faults);
+  for (const n of r.notes || []) console.log(n);
   for (const f of faults) console.error(f);
   console.log(`release for Office ${version}: ${r.packs} packs, ${r.files} files fetched, ${faults.length ? `${faults.length} faults` : 'all as published'}`);
   return faults.length ? 1 : 0;

@@ -83,9 +83,30 @@ test('English: the signed lang-en in Office\'s tag is published as it is, in pla
 
   write(path.join(copy, 'messages.json'), '{"changed":1}');
   assert.ok(gather(root, '2.26.0', { office }).faults.some((f) => /lang-en\/messages\.json: Office's copy is not the file/.test(f)));
-  write(path.join(office, 'resources/languages/lang-en.pack.json'), { ...envelope, manifest: { ...envelope.manifest, version: '2.25.0' } });
-  assert.ok(gather(root, '2.26.0', { office }).faults.some((f) => /at 2\.25\.0, not 2\.26\.0/.test(f)));
+  write(path.join(copy, 'messages.json'), '{"frozen":true}');
+  write(path.join(copy, 'lang-en.pack.json'), envelope);
+  assert.ok(gather(root, '2.26.0', { office }).faults.some((f) => /an envelope inside Office's lang-en\/ folder/.test(f)), 'its one place is beside the folder');
+  fs.rmSync(path.join(copy, 'lang-en.pack.json'));
+  fs.rmSync(path.join(office, 'resources/languages/lang-en.pack.json'));
+  assert.ok(gather(root, '2.26.0', { office }).faults.some((f) => /no lang-en\.pack\.json beside its folder/.test(f)));
   assert.deepEqual(gather(root, '2.26.0', { office: tmp() }).presigned, [], 'a tag with no copy: the one built here is used');
+});
+
+test('English: an earlier fallback copy in Office\'s tag is reported, never published as this version\'s', () => {
+  const root = tmp();
+  const office = tmp();
+  write(path.join(root, 'languages/dist/v2.26.0/lang-en/manifest.json'), manifest('lang-en', { kind: 'language', status: 'source' }));
+  write(path.join(root, 'languages/dist/v2.26.0/lang-en/messages.json'), '{"built":"for 2.26.0"}');
+  const old = manifest('lang-en', { kind: 'language', status: 'source', version: '2.25.0', revision: 2 });
+  write(path.join(office, 'resources/languages/lang-en/manifest.json'), old);
+  write(path.join(office, 'resources/languages/lang-en.pack.json'), { format: 'rutba-office-pack', keyId: '0123456789abcdef', manifest: { ...old, files: {} }, signature: 'c2lnbmVk' });
+  const g = gather(root, '2.26.0', { office });
+  assert.deepEqual(g.faults, [], 'not a fault');
+  assert.deepEqual(g.presigned, [], 'not published as it is');
+  assert.ok(g.ids.includes('lang-en'));
+  assert.equal(fs.readFileSync(path.join(root, 'dist/v2.26.0/lang-en/messages.json'), 'utf8'), '{"built":"for 2.26.0"}', 'the lang-en built for 2.26.0');
+  assert.ok(!fs.existsSync(path.join(root, 'dist/v2.26.0/lang-en.pack.json')), 'it is signed on the release PC with the rest');
+  assert.match(g.notes.join(), /carries 2\.25\.0 revision 2, the earlier fallback/);
 });
 
 test('before the tag: the gated commit with an empty tag, and the tag set only when it names that commit', () => {

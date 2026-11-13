@@ -70,4 +70,11 @@ test('lang-en must be byte for byte the copy Office\'s tag carries', async () =>
   fs.writeFileSync(path.join(copy, 'data.txt'), 'a different English');
   const bad = await verifyRelease({ version: V, base: releaseUrl(V), keys: r.keys, fetchBytes: r.fetchBytes, office });
   assert.match(bad.faults.join(), /lang-en\/data\.txt: not the copy Office 2\.26\.0 carries/);
+
+  // An earlier fallback copy in the tag: reported as lagging, not a fault.
+  const env = JSON.parse(fs.readFileSync(path.join(office, 'resources/languages/lang-en.pack.json'), 'utf8'));
+  fs.writeFileSync(path.join(office, 'resources/languages/lang-en.pack.json'), JSON.stringify({ ...env, manifest: { ...env.manifest, version: '2.25.0', revision: 3 } }));
+  const lag = await verifyRelease({ version: V, base: releaseUrl(V), keys: r.keys, fetchBytes: r.fetchBytes, office });
+  assert.deepEqual(lag.faults, []);
+  assert.match(lag.notes.join(), /carries 2\.25\.0 revision 3, the earlier fallback; its copy lags/);
 });

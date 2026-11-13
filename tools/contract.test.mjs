@@ -141,7 +141,11 @@ test('Office\'s own usable() agrees, for each pack signed with a key made here a
       const { envelope } = signPack(copy, code ? release.privateKey : packages.privateKey, { codeKey: code });
       const ours = checkContract(m, contract).length === 0;
       const theirs = compat.usable(envelope, { contract, office: pin.version, keys, engine: m.kind === 'engine' ? null : engineManifest });
-      if (theirs?.usable !== ours) disagree.push(`${m.id}: pack-core says ${ours ? 'usable' : 'not'}, Office says ${JSON.stringify(theirs)}`);
+      // With no engine built, a speech data pack answers `requires` (design 3.1): that is the expected answer, not a disagreement.
+      const speechData = ['model', 'pronunciation', 'voice'].includes(m.kind);
+      if (speechData && !engineManifest) {
+        if (!(theirs?.usable === false && theirs.code === 'requires')) disagree.push(`${m.id}: with no engine, Office should answer requires, not ${JSON.stringify(theirs)}`);
+      } else if (theirs?.usable !== ours) disagree.push(`${m.id}: pack-core says ${ours ? 'usable' : 'not'}, Office says ${JSON.stringify(theirs)}`);
     }
     assert.deepEqual(disagree, []);
   } finally {
