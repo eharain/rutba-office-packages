@@ -4,6 +4,15 @@
   "format": 1,
   "version": "2026.11.12",
   "tag": "pt-BR",
+  "tags": [
+    "pt-BR"
+  ],
+  "requires": [],
+  "licence": {
+    "spdx": "NOASSERTION",
+    "files": []
+  },
+  "minOffice": null,
   "name": "Portuguese (Brazil)",
   "nativeName": "Português (Brasil)",
   "script": "Latn",

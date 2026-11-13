@@ -30,7 +30,7 @@ const same = (a, b) => a.size === b.size && [...a].every((x) => b.has(x));
 
 /** The script each pack writes in, to tell a translation from English left in. */
 const SCRIPTS = { Arab: /[؀-ۿ]/, Deva: /[ऀ-ॿ]/, Hans: /[一-鿿]/, Hant: /[一-鿿]/, Cyrl: /[Ѐ-ӿ]/, Grek: /[Ͱ-Ͽ]/, Hebr: /[֐-׿]/ };
-const FIELDS = ['id', 'kind', 'format', 'version', 'tag', 'name', 'nativeName', 'script', 'direction', 'region', 'pluralForms', 'checkedAgainst', 'labels', 'status', 'review'];
+const FIELDS = ['id', 'kind', 'format', 'version', 'tag', 'tags', 'requires', 'licence', 'minOffice', 'name', 'nativeName', 'script', 'direction', 'region', 'pluralForms', 'checkedAgainst', 'labels', 'status', 'review'];
 const DASH = /[\u2014\u2015]| \u2013 |^\u2013 | \u2013$/;
 const NBSP = /[\u00a0\u202f\u2007\u2060\ufeff]/;
 /** Labels left word for word in English: at most this many in another script, this share in Latin. */
@@ -96,6 +96,17 @@ for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
   for (const f of FIELDS) if (manifest[f] === undefined) fault(`manifest has no ${f}`);
   if (![1, 2].includes(manifest.format)) fault(`format ${manifest.format} is not one this checks`);
   if (manifest.id !== name) fault(`manifest id ${manifest.id} is not the folder's name`);
+  // The core all pack kinds share (language, voice, speech-model, app).
+  if (manifest.kind !== 'language') fault(`kind ${manifest.kind} is not language`);
+  if (!Array.isArray(manifest.tags) || manifest.tags.length !== 1 || manifest.tags[0] !== manifest.tag) fault('tags must be exactly [tag]');
+  if (!Array.isArray(manifest.requires) || manifest.requires.some((r) => !fs.existsSync(path.join(ROOT, 'packs', r)))) fault('requires names a pack that is not here');
+  if (manifest.variantOf && !manifest.requires?.includes(manifest.variantOf)) fault('a regional pack requires its base');
+  if (typeof manifest.licence?.spdx !== 'string' || !Array.isArray(manifest.licence?.files)) fault('licence needs spdx and files');
+  for (const f of manifest.licence?.files || []) if (!fs.existsSync(path.join(dir, f))) fault(`licence file ${f} is not in the pack`);
+  if (manifest.minOffice !== null && !/^\d+\.\d+\.\d+$/.test(String(manifest.minOffice))) fault('minOffice is a version or null');
+  // Data only: a language pack holds these files and nothing else.
+  const allowed = new Set(['manifest.json', 'messages.json', 'versions.json', 'glossary.md', ...(manifest.licence?.files || [])]);
+  for (const f of fs.readdirSync(dir)) if (!allowed.has(f)) fault(`${f} is not a file a language pack may hold`);
   if (!['source', 'draft', 'reviewed'].includes(manifest.status)) fault(`status ${manifest.status} is not source, draft or reviewed`);
   if ((manifest.status === 'source') !== Boolean(manifest.source)) fault('only the source pack has status source');
   if (manifest.labels !== count) fault(`manifest says ${manifest.labels} labels, messages.json holds ${count}`);

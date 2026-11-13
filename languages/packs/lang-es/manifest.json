@@ -4,6 +4,15 @@
   "format": 1,
   "version": "2026.11.12",
   "tag": "es",
+  "tags": [
+    "es"
+  ],
+  "requires": [],
+  "licence": {
+    "spdx": "NOASSERTION",
+    "files": []
+  },
+  "minOffice": null,
   "name": "Spanish (Spain)",
   "nativeName": "Español (España)",
   "script": "Latn",

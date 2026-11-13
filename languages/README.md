@@ -104,10 +104,18 @@ English words: `common.save`, `sheets.find.find-all`,
 | `pluralForms` | the forms `Intl.PluralRules` gives the language |
 | `checkedAgainst` | the Rutba Office versions this pack was checked with |
 | `labels` | how many labels it holds |
+| `tags` | `[tag]`: the core every pack kind shares lists tags |
+| `requires` | packs this one needs: a regional pack names its base |
+| `licence` | `{ spdx, files }`: `NOASSERTION` until the licence is chosen |
+| `minOffice` | the lowest Rutba Office that reads this format; `null` until one does |
 | `status` | `source` (English), `draft` (not yet reviewed) or `reviewed` |
 | `review` | how far it has been reviewed, in words |
 | `versions` | format 2: `short`, `medium`, `complete` |
 | `source` | `true` for English only |
+
+A pack holds only `manifest.json`, `messages.json`, `versions.json`,
+`glossary.md` and its licence files: data, never code. A release wraps it in
+Rutba Office's signed pack envelope, as the suite's own app packs are.
 
 `messages.json`, id to entry:
 

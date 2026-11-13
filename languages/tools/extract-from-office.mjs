@@ -227,6 +227,7 @@ function writePack(tag, messages, extra) {
     format: PACK_FORMAT,
     version: today,
     tag,
+    tags: [tag], requires: [], licence: { spdx: 'NOASSERTION', files: [] }, minOffice: null,
     ...info,
     pluralForms,
     checkedAgainst: [officeVersion],

@@ -4,6 +4,15 @@
   "format": 1,
   "version": "2026.11.12",
   "tag": "fr",
+  "tags": [
+    "fr"
+  ],
+  "requires": [],
+  "licence": {
+    "spdx": "NOASSERTION",
+    "files": []
+  },
+  "minOffice": null,
   "name": "French",
   "nativeName": "Français",
   "script": "Latn",

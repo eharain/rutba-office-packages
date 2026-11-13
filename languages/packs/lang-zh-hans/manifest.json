@@ -4,6 +4,15 @@
   "format": 1,
   "version": "2026.11.12",
   "tag": "zh-Hans",
+  "tags": [
+    "zh-Hans"
+  ],
+  "requires": [],
+  "licence": {
+    "spdx": "NOASSERTION",
+    "files": []
+  },
+  "minOffice": null,
   "name": "Chinese, Simplified",
   "nativeName": "简体中文",
   "script": "Hans",
