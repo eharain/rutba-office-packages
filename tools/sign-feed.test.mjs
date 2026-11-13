@@ -86,6 +86,10 @@ test('the feed says which languages its Office no longer carries built in, for t
   assert.deepEqual(buildFeed(d, { version: '2.25.0', publicKeys: [publicKey] }).feed.leftCore, [], 'none, when none left');
   assert.deepEqual(buildFeed(d, { version: '2.25.0', publicKeys: [publicKey], leftCore: ['ur', 'ar', 'ur'] }).feed.leftCore, ['ar', 'ur']);
   assert.ok(buildFeed(d, { version: '2.25.0', publicKeys: [publicKey], leftCore: ['../x'] }).faults.some((f) => /leftCore: \.\.\/x is not a language tag/.test(f)));
+  // Complete only when every language it names there has its pack in the release.
+  assert.deepEqual(buildFeed(d, { version: '2.25.0', publicKeys: [publicKey], leftCore: ['ur'], state: 'complete' }).faults, []);
+  assert.ok(buildFeed(d, { version: '2.25.0', publicKeys: [publicKey], leftCore: ['ur', 'ar'], state: 'complete' }).faults.some((f) => /leftCore: ar has no lang-ar in this release, so the feed cannot be complete/.test(f)));
+  assert.deepEqual(buildFeed(d, { version: '2.25.0', publicKeys: [publicKey], leftCore: ['ur', 'ar'] }).faults, [], 'a partial feed may name one still to come');
 });
 
 test('the feed refuses a wrong version, a broken signature, a missing need, and a lower revision', () => {

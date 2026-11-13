@@ -44,7 +44,10 @@
 // Office whose window language is one of its built-in ones counts it as an
 // add-on for an update only when the update's feed lists it here; with no
 // `leftCore` the update drops none. verify-release checks it against the
-// contract at the tag.
+// contract at the tag. A complete feed must list the pack of every language
+// it names there: an older Office holds the update for that pack whatever
+// state the feed is in, so a complete feed without it would hold the update
+// for good.
 //
 //   node tools/feed.mjs <dist/v<version>> [--office <version>] [--previous <feed.json>]
 //       [--complete] [--withdraw <id> ...] [--retire <id>=<reason>[=><replacedBy>] ...]
@@ -166,6 +169,7 @@ export function buildFeed(dist, { version, previous = null, withdraw = [], state
   if (new Set(retiredOut.map((r) => r.id)).size !== retiredOut.length) faults.push('retired: an id is listed twice');
   const left = [...new Set(leftCore)].sort();
   for (const tag of left) if (!/^[a-z]{2,3}(-[a-z0-9]{2,8})*$/.test(String(tag))) faults.push(`leftCore: ${tag} is not a language tag`);
+  if (state === 'complete') for (const tag of left) if (!packs.some((p) => p.id === `lang-${tag}` && !p.withdrawn)) faults.push(`leftCore: ${tag} has no lang-${tag} in this release, so the feed cannot be complete`);
   const feed = { format: FEED_FORMAT, readiness: FEED_READINESS, office: version, sequence: (previous?.sequence || 0) + 1, state, retired: retiredOut, leftCore: left, date, packs };
   return { feed, assets, faults };
 }
