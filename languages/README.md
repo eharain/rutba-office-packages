@@ -67,7 +67,11 @@ the registry's, or when `tools/check-packs.mjs` finds a fault.
 - `dist/v<version>/`: the packs that may be released, written by
   `tools/dist.mjs` once every check passes: English, which is released like
   every language (Rutba Office keeps a copy of the released `lang-en`), and
-  each pack whose status is `reviewed`. Drafts never go there. The
+  each pack whose status is `reviewed`. Drafts never go there. Each released
+  manifest gains `coverage`: of this version's English labels, how many the
+  pack has made from the same English, per version
+  (`{ labels, short, medium, complete }`, a regional pack counted over its
+  base), so the list of packs can show it before a download. The
   repository's release step gathers each kind's `dist/v<version>/`.
 
 These carry the suite's keys and translations as they are, and about 628 of
@@ -81,6 +85,12 @@ an entry whose key has changed. A new key with a dash fails the build until
 it is given its own wording there. Everything else is committed too: the
 tools, `ids.lock.json`, `coverage.json`, `MODEL.md` and the other packs,
 which are made here and checked against the registry by the build.
+
+`languages.json` is the one list of languages: for each, its tag, pack id,
+English and native names, script, direction, region and, for a regional
+pack, its base. `tools/check-packs.mjs` holds every pack's manifest to its
+row, and Rutba Office's built-in list of languages is made from it at the
+release step.
 
 ## Ids
 

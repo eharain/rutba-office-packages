@@ -35,6 +35,7 @@ const SCRIPTS = { Arab: /[؀-ۿ]/, Deva: /[ऀ-ॿ]/, Hans: /[一-鿿]/, Hant: /
 /** Fields a language manifest has beyond the core every pack kind shares. */
 const FIELDS = ['revision', 'tag', 'nativeName', 'script', 'direction', 'region', 'pluralForms', 'labels', 'review'];
 /** Data only: the files a language pack may hold, beside its licences. */
+const LANGUAGE_LIST = JSON.parse(fs.readFileSync(path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'languages.json'), 'utf8')).languages;
 const LANGUAGE_FILES = new Set(['manifest.json', 'messages.json', 'versions.json', 'glossary.md']);
 const manifests = [];
 /** English's own wording for labels whose code key reads badly (versions/en.medium.json). */
@@ -115,6 +116,12 @@ for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
   for (const f of checkManifest(manifest, { office: OFFICE })) fault(f);
   for (const f of checkFiles(dir, manifest, (file) => LANGUAGE_FILES.has(file))) fault(f);
   for (const f of checkLicence(dir, manifest)) fault(f);
+  // Its row in languages.json, the one list of languages (Rutba Office's is made from it).
+  const row = LANGUAGE_LIST.find((r) => r.pack === name);
+  if (!row) fault('no row in languages.json');
+  else for (const k of ['tag', 'name', 'nativeName', 'script', 'direction', 'region', 'variantOf']) {
+    if (row[k] !== manifest[k]) fault(`${k} is ${JSON.stringify(manifest[k])}, languages.json says ${JSON.stringify(row[k])}`);
+  }
   manifests.push(manifest);
   // A language pack's own rules on top.
   for (const f of FIELDS) if (manifest[f] === undefined) fault(`manifest has no ${f}`);
