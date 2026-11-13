@@ -125,3 +125,51 @@ export function checkRequires(manifests) {
   }
   return faults;
 }
+
+/** The versions of Office's add-ons contract (addons-contract.json, C10) these tools read. */
+export const CONTRACT_VERSIONS = [1];
+
+/**
+ * A manifest checked against the compatibility contract of the Office
+ * release it is for: the contract file Office keeps at
+ * packages/office-shell/src/addons-contract.json, read from the pinned clone
+ * (private/office-pack-compatibility-design.md 2). Returns the faults, in
+ * words. Who signed the pack is not seen here: trustFor() says which key
+ * the contract wants for its kind.
+ *
+ *   - its kind is one that Office reads, at a format it reads;
+ *   - a kind the contract marks exactVersion (the engine) is exactly Office's version;
+ *   - the engine serves the contract's speech API (speechApi, and in ipc and
+ *     events the namespace's calls and events), needs the engine host API
+ *     Office offers (host, platform), and reads the format Office's packages
+ *     are written in for each speech data kind.
+ */
+export function checkContract(manifest, contract) {
+  if (!contract || !CONTRACT_VERSIONS.includes(contract.contract)) return [`contract ${contract?.contract} is not one these tools read`];
+  const faults = [];
+  const kind = contract.kinds?.[manifest.kind];
+  if (!kind) return [`Office ${contract.office} reads no ${manifest.kind} pack`];
+  if (!(kind.formats || []).includes(manifest.format)) faults.push(`format ${manifest.format} is not one Office ${contract.office} reads for a ${manifest.kind} (${(kind.formats || []).join(', ')})`);
+  if (kind.exactVersion && manifest.version !== contract.office) faults.push(`a ${manifest.kind} is exactly its Office version: ${manifest.version} is not ${contract.office}`);
+  if (manifest.kind === 'engine') {
+    const sp = contract.speech || {};
+    const host = contract.engineHost || {};
+    if (manifest.speechApi !== sp.api) faults.push(`speechApi ${manifest.speechApi} is not Office's speech API ${sp.api}`);
+    const same = (a, b) => JSON.stringify([...(a || [])].sort()) === JSON.stringify([...(b || [])].sort());
+    if (!same(manifest.ipc?.[sp.namespace], sp.calls)) faults.push(`ipc.${sp.namespace} is not the contract's calls (${(sp.calls || []).join(', ')})`);
+    if (!same(manifest.events, sp.events)) faults.push(`events are not the contract's (${(sp.events || []).join(', ') || 'none'})`);
+    if (manifest.host !== host.api) faults.push(`host ${manifest.host} is not Office's engine host API ${host.api}`);
+    if (!(host.platforms || []).includes(manifest.platform)) faults.push(`platform ${manifest.platform} is not one Office ${contract.office} hosts an engine on`);
+    for (const [k, formats] of Object.entries(manifest.reads || {})) {
+      const theirs = contract.kinds?.[k];
+      if (!theirs || !DATA_KINDS.includes(k)) { faults.push(`reads ${k}, which is not a data kind Office reads`); continue; }
+      const current = Math.max(...theirs.formats);
+      if (!formats.includes(current)) faults.push(`reads ${k} format ${formats.join(', ')}, not ${current}, the format Office ${contract.office}'s packs are written in`);
+    }
+    for (const k of ['model', 'pronunciation', 'voice']) if (contract.kinds?.[k] && !manifest.reads?.[k]) faults.push(`reads says nothing of ${k}`);
+  }
+  return faults;
+}
+
+/** The key the contract wants for a kind: 'packages' or 'release', or null for a kind it does not list. */
+export const trustFor = (manifest, contract) => contract?.kinds?.[manifest.kind]?.trust || null;

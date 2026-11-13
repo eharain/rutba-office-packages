@@ -8,12 +8,14 @@
 //      tag vX in Office's repository points at the commit given: packages for
 //      X are built only from X's final commit;
 //   2. moves the pin (office.json) to vX;
-//   3. puts every committed pack at X, revision 1: language manifests under
-//      languages/packs/ that carry W, and the `revision` of speech sources
-//      (a revision counts changes at one version, so it starts again);
+//   3. clears the `revision` of speech sources (a revision counts changes at
+//      one version, so at X it starts again from 1). Language manifests are
+//      left to the languages build, which stamps X at revision 1;
 //   4. unless --no-build, clones vX into .cache/office/vX (checked against
-//      the commit), builds the languages from that clone and the speech packs
-//      and engine for X;
+//      the commit), runs the languages' `npm test` against that clone (it
+//      regenerates the packs made from Office, gives X's new labels their ids
+//      and reports translations made from older English as stale; carry
+//      fails if it fails), then builds the speech packs and engine for X;
 //   5. gathers each kind's release folder (<kind>/dist/vX/<id>/) into one,
 //      dist/vX/, and checks every manifest there against the core and every
 //      `requires` against the others.
@@ -28,7 +30,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { execFileSync } from 'node:child_process';
+import { execFileSync, execSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { OFFICE_FILE, officePin, compareVersions, checkManifest, checkRequires } from './pack-core.mjs';
 
@@ -56,25 +58,12 @@ export function remoteTagCommit(repo, tag, git = (args) => execFileSync('git', a
 }
 
 /**
- * The committed files that move to the new version: language manifests
- * carrying the old version, and speech sources with a revision. Returns
- * [{ file, before, after }] and, unless dry, writes them.
+ * The committed speech sources that carry a revision, which starts again at
+ * the new version. Returns [{ file, before, after }] and, unless dry, writes
+ * them. Language manifests are the languages build's to stamp.
  */
-export function carryCommitted(root, from, to, { dry = false } = {}) {
+export function carryCommitted(root, { dry = false } = {}) {
   const changes = [];
-  const langs = path.join(root, 'languages', 'packs');
-  if (fs.existsSync(langs)) {
-    for (const id of fs.readdirSync(langs).sort()) {
-      const file = path.join(langs, id, 'manifest.json');
-      if (!fs.existsSync(file)) continue;
-      const text = fs.readFileSync(file, 'utf8');
-      const m = JSON.parse(text);
-      if (m.version !== from) continue;
-      m.version = to;
-      m.revision = 1;
-      changes.push({ file, before: text, after: `${JSON.stringify(m, null, 2)}\n` });
-    }
-  }
   const speech = path.join(root, 'speech', 'packs');
   if (fs.existsSync(speech)) {
     for (const id of fs.readdirSync(speech).sort()) {
@@ -84,7 +73,8 @@ export function carryCommitted(root, from, to, { dry = false } = {}) {
       const s = JSON.parse(text);
       if (s.revision === undefined) continue;
       delete s.revision;
-      changes.push({ file, before: text, after: `${JSON.stringify(s, null, 2)}\n` });
+      changes.push({ file, before: text, after: `${JSON.stringify(s, null, 2)}
+` });
     }
   }
   if (!dry) for (const c of changes) fs.writeFileSync(c.file, c.after);
@@ -143,15 +133,16 @@ function main(args) {
     const at = remoteTagCommit(pin.repo, pin.tag);
     if (at !== pin.commit) { console.error(`${pin.tag} in ${pin.repo} is ${at || 'not there'}, not ${pin.commit}: carry only from X's final commit`); return 1; }
   }
-  const changes = carryCommitted(ROOT, from.version, pin.version, { dry });
-  console.log(`${dry ? 'would move' : 'moved'} the pin ${from.tag} to ${pin.tag}, and ${changes.length} committed files to ${pin.version}, revision 1:`);
+  const changes = carryCommitted(ROOT, { dry });
+  console.log(`${dry ? 'would move' : 'moved'} the pin ${from.tag} to ${pin.tag}, and clear the revision of ${changes.length} speech sources:`);
   for (const c of changes) console.log(`  ${path.relative(ROOT, c.file)}`);
   if (dry) return 0;
   fs.writeFileSync(OFFICE_FILE, `${JSON.stringify(pin, null, 2)}\n`);
   if (args.includes('--no-build')) return 0;
   const node = (cwd, ...a) => execFileSync(process.execPath, a, { cwd, stdio: 'inherit' });
   const clone = officeClone(ROOT, pin);
-  node(path.join(ROOT, 'languages'), 'tools/build.mjs', clone);
+  // The languages' own test script, so what it runs stays theirs to change.
+  execSync(`npm test -- "${clone}"`, { cwd: path.join(ROOT, 'languages'), stdio: 'inherit' });
   node(path.join(ROOT, 'speech'), 'tools/fetch-sources.mjs');
   node(path.join(ROOT, 'speech'), 'tools/build-packs.mjs');
   node(path.join(ROOT, 'speech'), 'tools/build-engine.mjs');

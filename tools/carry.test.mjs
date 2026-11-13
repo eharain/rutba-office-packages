@@ -27,20 +27,18 @@ test('the tag is read peeled: an annotated tag gives its commit, not the tag obj
   assert.equal(remoteTagCommit('r', 'v2.26.0', () => ''), null);
 });
 
-test('committed packs move to the new version at revision 1, and a dry run changes nothing', () => {
+test('speech sources start their revision again; language manifests are left to the languages build; a dry run changes nothing', () => {
   const root = tmp();
-  write(path.join(root, 'languages/packs/lang-de/manifest.json'), manifest('lang-de', { kind: 'language', version: '2.25.0', revision: 3 }));
-  write(path.join(root, 'languages/packs/lang-fr/manifest.json'), manifest('lang-fr', { kind: 'language', version: '2.24.0' }));
+  const de = manifest('lang-de', { kind: 'language', version: '2.25.0', revision: 3 });
+  write(path.join(root, 'languages/packs/lang-de/manifest.json'), de);
   write(path.join(root, 'speech/packs/voice-kokoro-bf-emma/source.json'), { id: 'voice-kokoro-bf-emma', revision: 2 });
   write(path.join(root, 'speech/packs/voice-kokoro-af-heart/source.json'), { id: 'voice-kokoro-af-heart' });
-  const dry = carryCommitted(root, '2.25.0', '2.26.0', { dry: true });
-  assert.deepEqual(dry.map((c) => path.basename(path.dirname(c.file))), ['lang-de', 'voice-kokoro-bf-emma']);
-  assert.equal(JSON.parse(fs.readFileSync(path.join(root, 'languages/packs/lang-de/manifest.json'), 'utf8')).version, '2.25.0', 'dry run wrote nothing');
-  carryCommitted(root, '2.25.0', '2.26.0');
-  const de = JSON.parse(fs.readFileSync(path.join(root, 'languages/packs/lang-de/manifest.json'), 'utf8'));
-  assert.deepEqual([de.version, de.revision], ['2.26.0', 1]);
-  assert.equal(JSON.parse(fs.readFileSync(path.join(root, 'languages/packs/lang-fr/manifest.json'), 'utf8')).version, '2.24.0', 'a pack not at W is left alone');
+  const dry = carryCommitted(root, { dry: true });
+  assert.deepEqual(dry.map((c) => path.basename(path.dirname(c.file))), ['voice-kokoro-bf-emma']);
+  assert.equal(JSON.parse(fs.readFileSync(path.join(root, 'speech/packs/voice-kokoro-bf-emma/source.json'), 'utf8')).revision, 2, 'dry run wrote nothing');
+  carryCommitted(root);
   assert.ok(!('revision' in JSON.parse(fs.readFileSync(path.join(root, 'speech/packs/voice-kokoro-bf-emma/source.json'), 'utf8'))));
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root, 'languages/packs/lang-de/manifest.json'), 'utf8')), de, 'the language manifest is untouched');
 });
 
 test('gathering: every kind\'s release folder into one, checked; a kind with none is named', () => {

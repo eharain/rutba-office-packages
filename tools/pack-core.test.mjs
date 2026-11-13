@@ -1,7 +1,7 @@
 // node --test tools/pack-core.test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { canonical, compareVersions, checkManifest, checkRequires } from './pack-core.mjs';
+import { canonical, compareVersions, checkManifest, checkRequires, checkContract, trustFor } from './pack-core.mjs';
 
 const voice = {
   id: 'voice-kokoro-bf-emma', kind: 'voice', format: 1, version: '2.25.1', revision: 1, name: 'Emma',
@@ -40,4 +40,44 @@ test('order is version, then revision, by number', () => {
   assert.ok(compareVersions({ version: '2.25.1', revision: 2 }, { version: '2.26.0', revision: 1 }) < 0);
   assert.ok(compareVersions({ version: '2.25.10', revision: 1 }, { version: '2.25.9', revision: 3 }) > 0);
   assert.ok(compareVersions({ version: '2.25.1', revision: 3 }, { version: '2.25.1', revision: 2 }) > 0);
+});
+
+// The contract's first numbers, as private/office-pack-compatibility-design.md 2.2 gives them.
+const contract = {
+  contract: 1, office: '2.26.0', envelope: { formats: [1] }, feed: { formats: [1], readiness: 1 },
+  kinds: {
+    language: { formats: [1, 2], trust: 'packages' }, dictionary: { formats: [1], trust: 'packages' }, font: { formats: [1], trust: 'packages' },
+    model: { formats: [1], trust: 'packages' }, pronunciation: { formats: [1], trust: 'packages' }, voice: { formats: [1], trust: 'packages' },
+    engine: { formats: [1], trust: 'release', exactVersion: true },
+  },
+  speech: { api: 1, namespace: 'speech', calls: ['voices', 'say', 'cancel', 'status'], events: [] },
+  engineHost: { api: 1, context: ['addons.list', 'addons.find', 'electron.utilityProcess'], platforms: ['win32-x64'], napi: 3 },
+};
+const engine = {
+  id: 'speech-engine', kind: 'engine', format: 1, version: '2.26.0', name: 'Speech engine', status: 'draft', tags: [], requires: [], provides: ['speech-engine'],
+  licence: { spdx: 'MIT', files: [] }, ipc: { speech: ['say', 'voices', 'status', 'cancel'] }, events: [],
+  speechApi: 1, host: 1, reads: { model: [1], pronunciation: [1], voice: [1] }, platform: 'win32-x64',
+};
+
+test('the contract: a data pack of a kind and format Office reads, made for any version', () => {
+  assert.deepEqual(checkContract(voice, contract), [], 'a voice made for 2.25.1 loads in 2.26.0');
+  assert.match(checkContract({ ...voice, format: 2 }, contract).join(), /format 2 is not one Office 2\.26\.0 reads/);
+  assert.match(checkContract({ ...voice, kind: 'theme' }, contract).join(), /reads no theme pack/);
+  assert.match(checkContract(voice, { ...contract, contract: 2 }).join(), /contract 2 is not one/);
+  assert.equal(trustFor(voice, contract), 'packages');
+  assert.equal(trustFor(engine, contract), 'release');
+});
+
+test('the contract: the engine is exactly its Office version and speaks its APIs', () => {
+  assert.deepEqual(checkContract(engine, contract), []);
+  const f = (extra) => checkContract({ ...engine, ...extra }, contract).join(' | ');
+  assert.match(f({ version: '2.25.1' }), /exactly its Office version/);
+  assert.match(f({ speechApi: 2 }), /speechApi 2/);
+  assert.match(f({ host: 2 }), /host 2/);
+  assert.match(f({ platform: 'linux-x64' }), /platform linux-x64/);
+  assert.match(f({ ipc: { speech: ['say'] } }), /ipc\.speech/);
+  assert.match(f({ events: ['speech:status'] }), /events are not/);
+  assert.match(f({ reads: { model: [1], voice: [1] } }), /nothing of pronunciation/);
+  assert.match(f({ reads: { model: [1], pronunciation: [1], voice: [1], theme: [1] } }), /reads theme/);
+  assert.match(checkContract(engine, { ...contract, kinds: { ...contract.kinds, voice: { formats: [1, 2], trust: 'packages' } } }).join(), /voice format 1, not 2/);
 });

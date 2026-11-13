@@ -43,6 +43,18 @@ export const ORT = {
 /** The namespace and methods the engine serves, as the core's contract will list them (C6). */
 export const IPC = { speech: ['voices', 'say', 'cancel', 'status'] };
 
+/**
+ * What the engine says of itself for the compatibility contract
+ * (addons-contract.json in Office, C10): the speech API it serves (the
+ * contract's speech.api), the engine host API it needs (engineHost.api:
+ * context.addons.list and find, context.electron.utilityProcess, win32-x64,
+ * N-API 3 for the binding copied below), and the data formats it reads.
+ * The engine is usable in Office X only when these equal X's.
+ */
+export const SPEECH_API = 1;
+export const HOST_API = 1;
+export const READS = { model: [1], pronunciation: [1], voice: [1] };
+
 const OUR_FILES = ['main.mjs', 'worker.mjs', 'speaker.mjs', 'runner.mjs', 'vocab.json', 'text/en.mjs', 'text/en-numbers.mjs', 'text/segment.mjs'];
 
 /** An npm tarball checked by its integrity (sha512), fetched once into the cache. */
@@ -126,6 +138,9 @@ export async function buildEngine(out, version) {
     main: 'main.mjs',
     ipc: IPC,
     events: [],
+    speechApi: SPEECH_API,
+    host: HOST_API,
+    reads: READS,
     platform: 'win32-x64',
     licence: { spdx: 'NOASSERTION AND MIT', files: ['LICENSE-onnxruntime.txt', 'ThirdPartyNotices-onnxruntime.txt'] },
   };
