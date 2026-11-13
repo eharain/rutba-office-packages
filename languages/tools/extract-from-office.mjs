@@ -24,7 +24,6 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 if (!process.argv[2]) { console.error('usage: node tools/extract-from-office.mjs <office copy> (tools/build.mjs gives it)'); process.exit(2); }
 const office = path.resolve(process.argv[2]);
 const PACK_FORMAT = 1;
-const today = new Date().toISOString().slice(0, 10).replace(/-/g, '.');
 
 const read = (rel) => fs.readFileSync(path.join(office, rel), 'utf8');
 const load = async (rel) => import(pathToFileURL(path.join(office, rel)).href);
@@ -225,12 +224,12 @@ function writePack(tag, messages, extra) {
     id: `lang-${tag}`,
     kind: 'language',
     format: PACK_FORMAT,
-    version: today,
+    version: officeVersion,
+    revision: 1,
     tag,
-    tags: [tag], requires: [], licence: { spdx: 'NOASSERTION', files: [] }, minOffice: null,
+    tags: [tag], requires: [], licence: { spdx: 'NOASSERTION', files: [] }, 
     ...info,
     pluralForms,
-    checkedAgainst: [officeVersion],
     labels: Object.keys(messages).length,
     ...extra,
   }, null, 2) + '\n');

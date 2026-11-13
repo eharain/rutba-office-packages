@@ -2,7 +2,8 @@
   "id": "lang-pl",
   "kind": "language",
   "format": 1,
-  "version": "2026.11.12",
+  "version": "2.25.0",
+  "revision": 1,
   "tag": "pl",
   "tags": [
     "pl"
@@ -12,7 +13,6 @@
     "spdx": "NOASSERTION",
     "files": []
   },
-  "minOffice": null,
   "name": "Polish",
   "nativeName": "Polski",
   "script": "Latn",
@@ -23,9 +23,6 @@
     "many",
     "one",
     "other"
-  ],
-  "checkedAgainst": [
-    "2.25.0"
   ],
   "labels": 8998,
   "status": "draft",

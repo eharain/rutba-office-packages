@@ -2,7 +2,8 @@
   "id": "lang-zh-hans",
   "kind": "language",
   "format": 1,
-  "version": "2026.11.12",
+  "version": "2.25.0",
+  "revision": 1,
   "tag": "zh-Hans",
   "tags": [
     "zh-Hans"
@@ -12,7 +13,6 @@
     "spdx": "NOASSERTION",
     "files": []
   },
-  "minOffice": null,
   "name": "Chinese, Simplified",
   "nativeName": "简体中文",
   "script": "Hans",
@@ -20,9 +20,6 @@
   "region": "zh-CN",
   "pluralForms": [
     "other"
-  ],
-  "checkedAgainst": [
-    "2.25.0"
   ],
   "labels": 8998,
   "status": "draft",

@@ -2,7 +2,8 @@
   "id": "lang-fr",
   "kind": "language",
   "format": 1,
-  "version": "2026.11.12",
+  "version": "2.25.0",
+  "revision": 1,
   "tag": "fr",
   "tags": [
     "fr"
@@ -12,7 +13,6 @@
     "spdx": "NOASSERTION",
     "files": []
   },
-  "minOffice": null,
   "name": "French",
   "nativeName": "Français",
   "script": "Latn",
@@ -22,9 +22,6 @@
     "many",
     "one",
     "other"
-  ],
-  "checkedAgainst": [
-    "2.25.0"
   ],
   "labels": 8998,
   "status": "draft",

@@ -30,12 +30,14 @@ const same = (a, b) => a.size === b.size && [...a].every((x) => b.has(x));
 
 /** The script each pack writes in, to tell a translation from English left in. */
 const SCRIPTS = { Arab: /[؀-ۿ]/, Deva: /[ऀ-ॿ]/, Hans: /[一-鿿]/, Hant: /[一-鿿]/, Cyrl: /[Ѐ-ӿ]/, Grek: /[Ͱ-Ͽ]/, Hebr: /[֐-׿]/ };
-const FIELDS = ['id', 'kind', 'format', 'version', 'tag', 'tags', 'requires', 'licence', 'minOffice', 'name', 'nativeName', 'script', 'direction', 'region', 'pluralForms', 'checkedAgainst', 'labels', 'status', 'review'];
+const FIELDS = ['id', 'kind', 'format', 'version', 'revision', 'tag', 'tags', 'requires', 'licence', 'name', 'nativeName', 'script', 'direction', 'region', 'pluralForms', 'labels', 'status', 'review'];
 const DASH = /[\u2014\u2015]| \u2013 |^\u2013 | \u2013$/;
 const NBSP = /[\u00a0\u202f\u2007\u2060\ufeff]/;
 /** Labels left word for word in English: at most this many in another script, this share in Latin. */
 const LEFT_OTHER_SCRIPT = 40;
 const LEFT_LATIN_SHARE = 0.04;
+/** The Office release every pack is checked against, and whose version it carries. */
+const OFFICE = JSON.parse(fs.readFileSync(path.join(ROOT, 'office.json'), 'utf8')).version;
 
 let faults = 0;
 
@@ -103,7 +105,12 @@ for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
   if (manifest.variantOf && !manifest.requires?.includes(manifest.variantOf)) fault('a regional pack requires its base');
   if (typeof manifest.licence?.spdx !== 'string' || !Array.isArray(manifest.licence?.files)) fault('licence needs spdx and files');
   for (const f of manifest.licence?.files || []) if (!fs.existsSync(path.join(dir, f))) fault(`licence file ${f} is not in the pack`);
-  if (manifest.minOffice !== null && !/^\d+\.\d+\.\d+$/.test(String(manifest.minOffice))) fault('minOffice is a version or null');
+  // Every pack carries the version of the Office release it is for, which is
+  // the release it was checked against, and a revision from 1 for each text
+  // change released at that version.
+  if (manifest.version !== OFFICE) fault(`version ${manifest.version} is not the Office release ${OFFICE} (office.json)`);
+  if (!Number.isInteger(manifest.revision) || manifest.revision < 1) fault('revision is a whole number from 1');
+  for (const gone of ['minOffice', 'checkedAgainst']) if (gone in manifest) fault(`${gone} is not a field: the version says it`);
   // Data only: a language pack holds these files and nothing else.
   const allowed = new Set(['manifest.json', 'messages.json', 'versions.json', 'glossary.md', ...(manifest.licence?.files || [])]);
   for (const f of fs.readdirSync(dir)) if (!allowed.has(f)) fault(`${f} is not a file a language pack may hold`);

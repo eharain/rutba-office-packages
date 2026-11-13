@@ -53,7 +53,7 @@ node tools/build.mjs
 
 That one command makes every file that comes from the Rutba Office code and
 then checks them all. It reads the code from `work/office-src` (not committed), a clone of the
-pinned release (`v2.25.0`, commit `18a8407a`), and makes that clone first if
+release pinned in `office.json` (now `v2.25.0`, commit `18a8407a`), and makes that clone first if
 it is missing. It never reads a working checkout of Rutba Office. It fails
 when an id goes missing or repeats, when a generated file's ids differ from
 the registry's, or when `tools/check-packs.mjs` finds a fault.
@@ -96,22 +96,40 @@ English words: `common.save`, `sheets.find.find-all`,
 | `id` | `lang-<tag>`, the folder's name |
 | `kind` | `language` |
 | `format` | the shape of the pack's files: `1`, or `2` with `versions.json` |
-| `version` | the pack's own version, a date such as `2026.11.12` |
+| `version` | the Rutba Office release the pack belongs to, such as `2.25.0` |
+| `revision` | `1` when first released at that version, then one higher for each change to its text |
 | `tag` | BCP 47 language tag |
 | `name`, `nativeName` | the language's name in English and in itself |
 | `script`, `direction` | ISO 15924 script, `ltr` or `rtl` |
 | `region` | the region its facts default to |
 | `pluralForms` | the forms `Intl.PluralRules` gives the language |
-| `checkedAgainst` | the Rutba Office versions this pack was checked with |
 | `labels` | how many labels it holds |
 | `tags` | `[tag]`: the core every pack kind shares lists tags |
 | `requires` | packs this one needs: a regional pack names its base |
 | `licence` | `{ spdx, files }`: `NOASSERTION` until the licence is chosen |
-| `minOffice` | the lowest Rutba Office that reads this format; `null` until one does |
 | `status` | `source` (English), `draft` (not yet reviewed) or `reviewed` |
 | `review` | how far it has been reviewed, in words |
 | `versions` | format 2: `short`, `medium`, `complete` |
 | `source` | `true` for English only |
+
+### Version numbers
+
+Every pack, of every kind, carries the version number of the Rutba Office
+release it is for, so the packs and the suite stay in step. The version also
+says which release the pack was checked against. `office.json` names that
+release: the build reads its code from it and the checker fails a pack with
+any other version.
+
+- Each Rutba Office release has a release of this repository tagged
+  `v<version>`, published with it. Every pack is checked again and given the
+  new version, its text changed or not; an unchanged pack's files are not
+  uploaded again.
+- A change between two Office releases keeps the version and raises
+  `revision`: `2.25.1` revision 2 comes after revision 1 and before
+  `2.26.0` revision 1. A new language arrives at the current version,
+  revision 1.
+- Fixes go to the current version. A copy of Rutba Office on an earlier
+  version keeps that version's packs and their revisions.
 
 A pack holds only `manifest.json`, `messages.json`, `versions.json`,
 `glossary.md` and its licence files: data, never code. A release wraps it in
