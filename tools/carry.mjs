@@ -2,6 +2,13 @@
 // command: packages vW to vX (private/office-pack-compatibility-design.md 4.2).
 //
 //   node tools/carry.mjs --to <X> --commit <X's final commit> [--dry-run] [--no-remote] [--no-build]
+//   node tools/carry.mjs --to <X> --commit <X's gated commit> --before-tag   before X is tagged
+//   node tools/carry.mjs --set-tag                                            once Office's vX exists
+//
+// Before X is tagged (design 3.4), --before-tag pins X's gated commit with an
+// empty tag and builds from that commit, which must be reachable in Office's
+// public repository. The release is published only after --set-tag has found
+// that vX names the same commit; if it names another, carry again from vX.
 //
 // What it does, in order:
 //   1. checks X is above the pinned release and, unless --no-remote, that the
@@ -46,13 +53,25 @@ export const KIND_ROOTS = ['languages', 'speech'];
 const VERSION = /^\d+\.\d+\.\d+$/;
 const SHA = /^[0-9a-f]{40}$/;
 
-/** The new pin, or the reasons it cannot be. */
-export function nextPin(from, { to, commit }) {
+/**
+ * The new pin, or the reasons it cannot be. Before X is tagged (design 3.4)
+ * the pin holds X's gated commit and an empty tag, and --set-tag fills the
+ * tag once Office's vX names that same commit.
+ */
+export function nextPin(from, { to, commit, beforeTag = false }) {
   const faults = [];
   if (!VERSION.test(String(to))) faults.push(`--to ${to} is not a Rutba Office version`);
   else if (compareVersions({ version: to }, { version: from.version }) <= 0) faults.push(`${to} is not above the pinned ${from.version}`);
   if (!SHA.test(String(commit))) faults.push('--commit is the full 40-digit commit of the release tag');
-  return { pin: { repo: from.repo, tag: `v${to}`, commit, version: to }, faults };
+  return { pin: { repo: from.repo, tag: beforeTag ? '' : `v${to}`, commit, version: to }, faults };
+}
+
+/** The pin with its tag filled, once the tag names the pinned commit; or why not. */
+export function tagPin(pin, tagCommit) {
+  if (pin.tag) return { pin, faults: [`the pin already has its tag ${pin.tag}`] };
+  const tag = `v${pin.version}`;
+  if (tagCommit !== pin.commit) return { pin, faults: [`${tag} is ${tagCommit || 'not there yet'}, not the pinned ${pin.commit}: the packages were built from another commit, so carry again from ${tag}`] };
+  return { pin: { ...pin, tag }, faults: [] };
 }
 
 /** The commit a tag points at in a remote repository, peeled, or null. */
@@ -79,8 +98,7 @@ export function carryCommitted(root, { dry = false } = {}) {
       const s = JSON.parse(text);
       if (s.revision === undefined) continue;
       delete s.revision;
-      changes.push({ file, before: text, after: `${JSON.stringify(s, null, 2)}
-` });
+      changes.push({ file, before: text, after: `${JSON.stringify(s, null, 2)}\n` });
     }
   }
   if (!dry) for (const c of changes) fs.writeFileSync(c.file, c.after);
@@ -89,11 +107,17 @@ export function carryCommitted(root, { dry = false } = {}) {
 
 /** A clean clone of the pinned Office release, checked against its commit. */
 export function officeClone(root, pin) {
-  const dir = path.join(root, '.cache', 'office', pin.tag);
+  const dir = path.join(root, '.cache', 'office', pin.tag || pin.commit);
   const git = (...a) => execFileSync('git', a, { encoding: 'utf8' }).trim();
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(path.dirname(dir), { recursive: true });
-    git('clone', '--quiet', '--depth', '1', '--branch', pin.tag, pin.repo, dir);
+    if (pin.tag) git('clone', '--quiet', '--depth', '1', '--branch', pin.tag, pin.repo, dir);
+    else {
+      // Not tagged yet: the gated commit, which must be reachable in the public repository.
+      git('init', '--quiet', dir);
+      git('-C', dir, 'fetch', '--quiet', '--depth', '1', pin.repo, pin.commit);
+      git('-C', dir, 'checkout', '--quiet', 'FETCH_HEAD');
+    }
   }
   const head = git('-C', dir, 'rev-parse', 'HEAD');
   if (head !== pin.commit) throw new Error(`${dir} is at ${head}, not ${pin.tag}'s ${pin.commit}`);
@@ -177,9 +201,18 @@ function main(args) {
   const opt = (n) => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] : undefined; };
   const dry = args.includes('--dry-run');
   const from = officePin();
-  const { pin, faults } = nextPin(from, { to: opt('--to'), commit: opt('--commit') });
+  if (args.includes('--set-tag')) {
+    const t = tagPin(from, remoteTagCommit(from.repo, `v${from.version}`));
+    if (t.faults.length) { for (const f of t.faults) console.error(f); return 1; }
+    if (!dry) fs.writeFileSync(OFFICE_FILE, `${JSON.stringify(t.pin, null, 2)}\n`);
+    console.log(`${dry ? 'would set' : 'set'} the pin's tag to ${t.pin.tag}: ${t.pin.commit}, as built`);
+    return 0;
+  }
+  const beforeTag = args.includes('--before-tag');
+  const { pin, faults } = nextPin(from, { to: opt('--to'), commit: opt('--commit'), beforeTag });
   if (faults.length) { for (const f of faults) console.error(f); return 2; }
-  if (args.includes('--no-remote')) console.log(`not checked: that ${pin.tag} is ${pin.commit} in ${pin.repo}`);
+  if (beforeTag) console.log(`before the tag: building from ${pin.commit}; publish only after --set-tag finds v${pin.version} at that commit`);
+  else if (args.includes('--no-remote')) console.log(`not checked: that ${pin.tag} is ${pin.commit} in ${pin.repo}`);
   else {
     const at = remoteTagCommit(pin.repo, pin.tag);
     if (at !== pin.commit) { console.error(`${pin.tag} in ${pin.repo} is ${at || 'not there'}, not ${pin.commit}: carry only from X's final commit`); return 1; }

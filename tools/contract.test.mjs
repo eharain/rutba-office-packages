@@ -38,7 +38,7 @@ const CONTRACT = 'packages/office-shell/src/addons-contract.json';
 const COMPAT = 'packages/office-shell/src/electron/addons-compat.js';
 
 function pinnedClone() {
-  for (const dir of [path.join(ROOT, '.cache', 'office', pin.tag), path.join(ROOT, 'languages', 'work', 'office-src')]) {
+  for (const dir of [path.join(ROOT, '.cache', 'office', pin.tag || pin.commit), path.join(ROOT, 'languages', 'work', 'office-src')]) {
     if (!fs.existsSync(path.join(dir, '.git'))) continue;
     try { if (execFileSync('git', ['-C', dir, 'rev-parse', 'HEAD'], { encoding: 'utf8' }).trim() === pin.commit) return dir; } catch { /* not a clone */ }
   }

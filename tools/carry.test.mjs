@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import crypto from 'node:crypto';
-import { nextPin, remoteTagCommit, carryCommitted, gather } from './carry.mjs';
+import { nextPin, tagPin, remoteTagCommit, carryCommitted, gather } from './carry.mjs';
 
 const made = [];
 const tmp = () => { const d = fs.mkdtempSync(path.join(os.tmpdir(), 'rutba-carry-')); made.push(d); return d; };
@@ -86,4 +86,13 @@ test('English: the signed lang-en in Office\'s tag is published as it is, in pla
   write(path.join(office, 'resources/languages/lang-en.pack.json'), { ...envelope, manifest: { ...envelope.manifest, version: '2.25.0' } });
   assert.ok(gather(root, '2.26.0', { office }).faults.some((f) => /at 2\.25\.0, not 2\.26\.0/.test(f)));
   assert.deepEqual(gather(root, '2.26.0', { office: tmp() }).presigned, [], 'a tag with no copy: the one built here is used');
+});
+
+test('before the tag: the gated commit with an empty tag, and the tag set only when it names that commit', () => {
+  const { pin } = nextPin(W, { to: '2.26.0', commit: 'b'.repeat(40), beforeTag: true });
+  assert.equal(pin.tag, '');
+  assert.deepEqual(tagPin(pin, 'b'.repeat(40)), { pin: { ...pin, tag: 'v2.26.0' }, faults: [] });
+  assert.match(tagPin(pin, 'c'.repeat(40)).faults.join(), /built from another commit, so carry again/);
+  assert.match(tagPin(pin, null).faults.join(), /not there yet/);
+  assert.match(tagPin(W, W.commit).faults.join(), /already has its tag/);
 });
