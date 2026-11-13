@@ -1,0 +1,38 @@
+{
+  "id": "lang-ru",
+  "kind": "language",
+  "format": 2,
+  "version": "2.25.0",
+  "revision": 1,
+  "tag": "ru",
+  "tags": [
+    "ru"
+  ],
+  "requires": [],
+  "licence": {
+    "spdx": "LicenseRef-TechStyle-Proprietary",
+    "files": [
+      "LICENSE.txt"
+    ]
+  },
+  "name": "Russian",
+  "nativeName": "Русский",
+  "script": "Cyrl",
+  "direction": "ltr",
+  "region": "ru-RU",
+  "pluralForms": [
+    "few",
+    "many",
+    "one",
+    "other"
+  ],
+  "labels": 8998,
+  "status": "draft",
+  "review": "machine draft, not yet reviewed by a native speaker",
+  "madeFrom": "lang-en",
+  "versions": [
+    "short",
+    "medium",
+    "complete"
+  ]
+}
