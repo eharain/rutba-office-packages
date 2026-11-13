@@ -80,8 +80,11 @@ the registry's, or when `tools/check-packs.mjs` finds a fault.
   base), so the list of packs can show it before a download. The
   repository's release step gathers each kind's `dist/v<version>/`.
 
-These carry the suite's keys and translations as they are, and about 628 of
-those labels have em dashes, which this repository does not take.
+These carry the suite's keys, and the suite's translations except where a
+pack has its own medium. About 628 labels in the suite's text have em dashes,
+which this repository does not take: Urdu, Arabic and Hindi give each of them
+its own wording in `versions/<tag>.medium.json`, so the packs the build makes
+have none, and the checks fail a dash in them.
 
 `packs/lang-en` is made by the build too, but it is committed. The code's key
 is a label's English, and 628 keys carry em dashes. For those labels English
