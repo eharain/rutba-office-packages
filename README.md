@@ -28,3 +28,18 @@ npm test
 
 That clones the Rutba Office release the packs are checked against, makes
 the files that come from its code, and checks every pack.
+
+`tools/` at the top holds what every kind of pack shares: `pack-core.mjs`
+checks the manifest fields, the version rule, `requires` and `provides`, and
+the files a pack may hold, and gives the canonical form a manifest is signed
+in. Its tests:
+
+```
+node --test tools/pack-core.test.mjs
+```
+
+Every pack carries the version number of the Rutba Office release it is
+for, plus a revision from 1 for changes released between two Office
+releases (the speech engine, being code, has no revision). A pack names
+the packs it needs in `requires`, by id or by a name another pack lists in
+`provides`.

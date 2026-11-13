@@ -21,6 +21,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { checkManifest, checkFiles, checkRequires } from '../../tools/pack-core.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const registry = JSON.parse(fs.readFileSync(path.join(ROOT, 'ids.json'), 'utf8'));
@@ -30,7 +31,11 @@ const same = (a, b) => a.size === b.size && [...a].every((x) => b.has(x));
 
 /** The script each pack writes in, to tell a translation from English left in. */
 const SCRIPTS = { Arab: /[؀-ۿ]/, Deva: /[ऀ-ॿ]/, Hans: /[一-鿿]/, Hant: /[一-鿿]/, Cyrl: /[Ѐ-ӿ]/, Grek: /[Ͱ-Ͽ]/, Hebr: /[֐-׿]/ };
-const FIELDS = ['id', 'kind', 'format', 'version', 'revision', 'tag', 'tags', 'requires', 'licence', 'name', 'nativeName', 'script', 'direction', 'region', 'pluralForms', 'labels', 'status', 'review'];
+/** Fields a language manifest has beyond the core every pack kind shares. */
+const FIELDS = ['revision', 'tag', 'nativeName', 'script', 'direction', 'region', 'pluralForms', 'labels', 'review'];
+/** Data only: the files a language pack may hold, beside its licences. */
+const LANGUAGE_FILES = new Set(['manifest.json', 'messages.json', 'versions.json', 'glossary.md']);
+const manifests = [];
 const DASH = /[\u2014\u2015]| \u2013 |^\u2013 | \u2013$/;
 const NBSP = /[\u00a0\u202f\u2007\u2060\ufeff]/;
 /** Labels left word for word in English: at most this many in another script, this share in Latin. */
@@ -95,26 +100,19 @@ for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
   const count = Object.keys(messages).length;
   console.log(`${name}: ${count} labels${manifest.variantOf ? ` (changes to ${manifest.variantOf})` : ''}, ${manifest.status === 'draft' ? 'DRAFT: ' : ''}${manifest.review}`);
   const before = faults;
+  // The core every pack kind shares (../../tools/pack-core.mjs): fields, the
+  // version rule (Office's version, a revision from 1), licence, and files.
+  for (const f of checkManifest(manifest, { office: OFFICE })) fault(f);
+  for (const f of checkFiles(dir, manifest, (file) => LANGUAGE_FILES.has(file))) fault(f);
+  manifests.push(manifest);
+  // A language pack's own rules on top.
   for (const f of FIELDS) if (manifest[f] === undefined) fault(`manifest has no ${f}`);
   if (![1, 2].includes(manifest.format)) fault(`format ${manifest.format} is not one this checks`);
   if (manifest.id !== name) fault(`manifest id ${manifest.id} is not the folder's name`);
-  // The core all pack kinds share (language, voice, speech-model, app).
   if (manifest.kind !== 'language') fault(`kind ${manifest.kind} is not language`);
   if (!Array.isArray(manifest.tags) || manifest.tags.length !== 1 || manifest.tags[0] !== manifest.tag) fault('tags must be exactly [tag]');
-  if (!Array.isArray(manifest.requires) || manifest.requires.some((r) => !fs.existsSync(path.join(ROOT, 'packs', r)))) fault('requires names a pack that is not here');
+  if (manifest.provides !== undefined) fault('a language pack provides nothing: other packs name it by its id');
   if (manifest.variantOf && !manifest.requires?.includes(manifest.variantOf)) fault('a regional pack requires its base');
-  if (typeof manifest.licence?.spdx !== 'string' || !Array.isArray(manifest.licence?.files)) fault('licence needs spdx and files');
-  for (const f of manifest.licence?.files || []) if (!fs.existsSync(path.join(dir, f))) fault(`licence file ${f} is not in the pack`);
-  // Every pack carries the version of the Office release it is for, which is
-  // the release it was checked against, and a revision from 1 for each text
-  // change released at that version.
-  if (manifest.version !== OFFICE) fault(`version ${manifest.version} is not the Office release ${OFFICE} (office.json)`);
-  if (!Number.isInteger(manifest.revision) || manifest.revision < 1) fault('revision is a whole number from 1');
-  for (const gone of ['minOffice', 'checkedAgainst']) if (gone in manifest) fault(`${gone} is not a field: the version says it`);
-  // Data only: a language pack holds these files and nothing else.
-  const allowed = new Set(['manifest.json', 'messages.json', 'versions.json', 'glossary.md', ...(manifest.licence?.files || [])]);
-  for (const f of fs.readdirSync(dir)) if (!allowed.has(f)) fault(`${f} is not a file a language pack may hold`);
-  if (!['source', 'draft', 'reviewed'].includes(manifest.status)) fault(`status ${manifest.status} is not source, draft or reviewed`);
   if ((manifest.status === 'source') !== Boolean(manifest.source)) fault('only the source pack has status source');
   if (manifest.labels !== count) fault(`manifest says ${manifest.labels} labels, messages.json holds ${count}`);
   if (!fs.existsSync(path.join(dir, 'glossary.md')) && !manifest.source) fault('no glossary.md');
@@ -176,6 +174,8 @@ for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
   }
   rows.push({ pack: name, labels: count, faults: faults - before, dashes, stale });
 }
+// Every pack a language pack requires is here (a regional pack names its base).
+for (const [id, list] of checkRequires(manifests)) { console.log(`${id}:`); for (const f of list) fault(f); }
 
 console.log(faults ? `${faults} faults` : `every pack is whole: ${rows.length} packs`);
 process.exit(faults ? 1 : 0);
