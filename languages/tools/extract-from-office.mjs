@@ -297,7 +297,7 @@ for (const tag of tags) {
   const sharedKeys = new Set(shared.map((m) => m.message));
   const stale = Object.keys(catalogues[tag]).filter((k) => !sharedKeys.has(k) && !labels.has(k));
   const tagVersions = versionsOf(tag);
-  const dir = writePack(tag, out, { status: 'draft', review: 'machine draft, not yet reviewed by a native speaker', madeFrom: `office ${officeVersion}`, ...asFormat2(tagVersions) });
+  const dir = writePack(tag, out, { status: 'draft', review: 'machine translation, offered as a draft until its wording is settled', madeFrom: `office ${officeVersion}`, ...asFormat2(tagVersions) });
   writeVersions(dir, tagVersions);
   const glossary = `packages/office-ui/src/catalogues/GLOSSARY-${tag}.md`;
   // The suite's glossary, then this repository's section for the language

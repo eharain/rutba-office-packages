@@ -1,13 +1,15 @@
-// Writes the language packs that may be released into dist/v<version>/<id>/,
+// Writes the language packs to be released into dist/v<version>/<id>/,
 // where the repository's release step (tools/carry.mjs at the root) gathers
 // them. Run by tools/build.mjs after every check has passed.
 //
 //   node tools/dist.mjs
 //
-// What may be released: English (lang-en, status "source"), which is built,
-// signed and released like every language, with a copy kept in Rutba Office;
-// and a pack whose status is "reviewed", that is, read in full by a native
-// speaker and then by a second reviewer. Drafts never are.
+// Every pack that passes the checks is released: English (status "source"),
+// which Rutba Office also keeps a copy of, packs whose wording is settled
+// (status "reviewed"), and machine translations offered as drafts (status
+// "draft"), so people can use them and suggest better wording (owner,
+// D-2026-11-13-23). The status and the review line travel in the manifest and
+// the feed, so Office marks a draft wherever a language is chosen.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -41,12 +43,11 @@ const released = [], held = [];
 for (const id of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
   const dir = path.join(ROOT, 'packs', id);
   const manifest = JSON.parse(fs.readFileSync(path.join(dir, 'manifest.json'), 'utf8'));
-  const ok = manifest.status === 'reviewed' || manifest.status === 'source';
-  if (!ok) { held.push(`${id} (${manifest.status})`); continue; }
+  if (!['source', 'reviewed', 'draft'].includes(manifest.status)) { held.push(`${id} (${manifest.status})`); continue; }
   if (manifest.version !== version) throw new Error(`${id} is at ${manifest.version}, not ${version}: run the build`);
   fs.mkdirSync(path.join(out, id), { recursive: true });
   for (const f of fs.readdirSync(dir)) fs.copyFileSync(path.join(dir, f), path.join(out, id, f));
   fs.writeFileSync(path.join(out, id, 'manifest.json'), JSON.stringify({ ...manifest, coverage: coverageOf(dir, manifest) }, null, 2) + '\n');
-  released.push(id);
+  released.push(manifest.status === 'draft' ? `${id} (draft)` : id);
 }
 console.log(`dist/v${version}: ${released.length ? released.join(', ') : 'no pack is ready for release'}; held: ${held.join(', ') || 'none'}`);

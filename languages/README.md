@@ -6,8 +6,9 @@ apart from Rutba Office itself.
 **Every pack except English is a draft**: it starts as machine translation
 from the English, and says so in its manifest (`"status": "draft"`). The
 packs improve through suggestions from the people who use them, made on
-Rutba's own site once it exists, not through pull requests. Only packs marked
-as reviewed are released. `TRANSLATING.md` is the guide the drafts follow.
+Rutba's own site once it exists, not through pull requests. Drafts are
+offered for download all the same, marked as drafts wherever a language is
+chosen in Rutba Office, so people can use them and suggest better wording. `TRANSLATING.md` is the guide the drafts follow.
 
 Every label the suite shows has an id here. English is a pack like any other:
 it is the source, and the id of each label is given when the English pack is
@@ -64,10 +65,10 @@ the registry's, or when `tools/check-packs.mjs` finds a fault.
 - `ids.json` and `labels.json`, which hold the code's own keys;
 - `packs/lang-ar`, `packs/lang-hi` and `packs/lang-ur`, the three
   translations Rutba Office already carries;
-- `dist/v<version>/`: the packs that may be released, written by
-  `tools/dist.mjs` once every check passes: English, which is released like
-  every language (Rutba Office keeps a copy of the released `lang-en`), and
-  each pack whose status is `reviewed`. Drafts never go there. Each released
+- `dist/v<version>/`: the packs to be released, written by `tools/dist.mjs`
+  once every check passes: English, which is released like every language
+  (Rutba Office keeps a copy of the released `lang-en`), the packs whose status
+  is `reviewed`, and the drafts, marked by their `status`. Each released
   manifest gains `coverage`: of this version's English labels, how many the
   pack has made from the same English, per version
   (`{ labels, short, medium, complete }`, a regional pack counted over its

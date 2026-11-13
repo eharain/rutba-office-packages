@@ -97,4 +97,5 @@ people who use them, made on Rutba's own site once it exists, where each
 label is shown with its context and where it is used. The labels that
 matter most come first (`labels.json` gives each a weight from 1 to 5). A
 pack's `status` becomes `reviewed` once its wording has been settled, and
-its `review` says how. Only reviewed packs are released.
+its `review` says how. Drafts are released too, marked as drafts, so people
+can use them while their wording improves.

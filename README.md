@@ -15,9 +15,11 @@ it is used.
 **The language packs other than English are drafts**: they start as machine
 translation, and each pack's manifest says so. They improve through
 suggestions from the people who use them, made on Rutba's own site once it
-exists, not through pull requests. Only packs marked as reviewed are
-released. [`languages/TRANSLATING.md`](languages/TRANSLATING.md) is the guide
-the drafts follow.
+exists, not through pull requests. Drafts are offered for download all the
+same, marked as drafts wherever a language is chosen in Rutba Office and in
+each manifest, so people can use them and suggest better wording.
+[`languages/TRANSLATING.md`](languages/TRANSLATING.md) is the guide the drafts
+follow.
 
 ## Building and checking
 
