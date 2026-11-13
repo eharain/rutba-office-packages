@@ -22,6 +22,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { execFileSync } from 'node:child_process';
+import { builtinModules } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { checkManifest, checkFiles, officePin, ownLicence, writeLicence, checkLicence } from '../../tools/pack-core.mjs';
 import { fetchFile, CACHE } from './fetch-sources.mjs';
@@ -56,6 +57,54 @@ export const HOST_API = 1;
 export const READS = { model: [1], pronunciation: [1], voice: [1] };
 
 const OUR_FILES = ['main.mjs', 'worker.mjs', 'speaker.mjs', 'runner.mjs', 'vocab.json', 'text/en.mjs', 'text/en-numbers.mjs', 'text/segment.mjs'];
+
+/** Specifiers named by import, export from, import(), require() and createRequire(...)() with a plain string. */
+const SPECIFIERS = /(?:\bimport\s*(?:[\w*{}\s,$]+\s*from\s*)?|\bexport\s*[\w*{}\s,$]+\s*from\s*|\bimport\s*\(\s*|\brequire\s*\(\s*|\bcreateRequire\((?:[^()]|\([^()]*\))*\)\s*\(\s*)(['"])([^'"\n]+)\1/g;
+
+const isBare = (s) => !/^(\.{1,2}\/|\/|[a-zA-Z]:[\\/]|node:|file:|data:)/.test(s);
+const packageOf = (s) => (s.startsWith('@') ? s.split('/').slice(0, 2).join('/') : s.split('/')[0]);
+
+/**
+ * Every bare import in the engine resolves inside its own folder (Office's
+ * review, finding C): a Node built-in, or a package in a node_modules at or
+ * below the file's folder and no higher than the engine's. Office refuses
+ * an import that leaves the folder at run time; this refuses the build,
+ * so an optional require of a package the engine does not carry (one that
+ * would climb to C:\node_modules) is found before release. `electron` is not
+ * one: the engine is handed what it may have of Electron in its context.
+ * @param {string} dir  the built engine's folder
+ * @returns {string[]}  faults, each naming the file and the specifier
+ */
+export function bareImportFaults(dir) {
+  const root = path.resolve(dir);
+  const faults = [];
+  const builtIn = new Set(builtinModules.flatMap((m) => [m, m.split('/')[0]]));
+  const walk = (d) => {
+    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+      const full = path.join(d, e.name);
+      if (e.isDirectory()) { walk(full); continue; }
+      if (!/\.(m?js|cjs)$/.test(e.name)) continue;
+      const text = fs.readFileSync(full, 'utf8');
+      for (const m of text.matchAll(SPECIFIERS)) {
+        const spec = m[2];
+        if (!isBare(spec) || builtIn.has(spec) || builtIn.has(packageOf(spec))) continue;
+        const name = packageOf(spec);
+        let at = path.dirname(full);
+        let found = false;
+        for (;;) {
+          if (fs.existsSync(path.join(at, 'node_modules', ...name.split('/'), 'package.json'))) { found = true; break; }
+          if (at === root) break;
+          const up = path.dirname(at);
+          if (up === at || !up.startsWith(root)) break;
+          at = up;
+        }
+        if (!found) faults.push(`${path.relative(root, full).replace(/\\/g, '/')} imports ${spec}, which the engine does not carry`);
+      }
+    }
+  };
+  walk(root);
+  return faults;
+}
 
 /** An npm tarball checked by its integrity (sha512), fetched once into the cache. */
 async function fetchTarball(file) {
@@ -148,7 +197,7 @@ export async function buildEngine(out, version) {
   };
   fs.writeFileSync(path.join(dir, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
   const allowed = (f) => /\.(mjs|js|json|node|dll|txt)$/.test(f) && !/DirectML/i.test(f);
-  const faults = [...checkManifest(manifest, { office: version }), ...checkFiles(dir, manifest, allowed), ...checkLicence(dir, manifest)];
+  const faults = [...checkManifest(manifest, { office: version }), ...checkFiles(dir, manifest, allowed), ...checkLicence(dir, manifest), ...bareImportFaults(dir)];
   if (faults.length) throw new Error(`speech-engine: ${faults.join('; ')}`);
   return { dir, manifest };
 }
