@@ -386,6 +386,13 @@ needs it.
 | Banded Rows / Banded Columns | Raidalliset rivit / Raidalliset sarakkeet |
 | Blank document / presentation / worksheet | Tyhjä asiakirja / esitys / laskentataulukko |
 | Talk / Locker / Colour / Base / Broadcast / Recorder (apps) | Puhelut / Lokero / Väri / Tietokanta / Lähetys / Tallennin |
+| language pack | kielipaketti |
+| Voices and languages (the page) | Äänet ja kielet |
+| add-on | lisäosa |
+| speech engine | puhemoottori |
+| speech model | puhemalli |
+| voice | ääni |
+| Add from a file (command) | Lisää tiedostosta |
 
 ## Intents and versions
 

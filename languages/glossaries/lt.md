@@ -386,6 +386,18 @@ number, a name in `{braces}`, a key) exactly. Prefer "Šio failo atidaryti
 nepavyko" over a literal rendering, and "Neišsiųsta: {reason}" for a short
 status with a reason.
 
+### Pack terms
+
+| English | Lithuanian |
+| :-- | :-- |
+| language pack | kalbos paketas |
+| Voices and languages (the page) | Balsai ir kalbos |
+| add-on | papildinys |
+| speech engine | kalbos sintezės variklis |
+| speech model | kalbos sintezės modelis |
+| voice | balsas |
+| Add from a file (command) | Įtraukti iš failo |
+
 ## Intents and versions
 
 ### Voice

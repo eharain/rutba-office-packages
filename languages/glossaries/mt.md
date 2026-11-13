@@ -382,6 +382,18 @@ plain Maltese, not word for word. Keep a sentence's facts (a number, a name
 in `{braces}`, a key) exactly. Prefer "Dan il-fajl ma setax jinfetaħ." over
 a literal rendering, and "Ma ntbagħatx: {reason}" for a short status.
 
+### Pack terms
+
+| English | Maltese |
+| :-- | :-- |
+| language pack | pakkett tal-lingwa |
+| Voices and languages (the page) | Vuċijiet u lingwi |
+| add-on | żieda |
+| speech engine | magna tad-diskors |
+| speech model | mudell tad-diskors |
+| voice | vuċi |
+| Add from a file (command) | Żid minn fajl |
+
 ## Intents and versions
 
 ### Voice

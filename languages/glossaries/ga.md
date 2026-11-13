@@ -407,6 +407,13 @@ over a literal rendering of "This file could not be opened". "Not sent:
 | Clear formatting / Change case | Glan an formáidiú / Athraigh an cás |
 | Recent colours / Standard colours / More colours… | Dathanna le déanaí / Dathanna caighdeánacha / Tuilleadh dathanna… |
 | Add to Dictionary | Cuir leis an bhFoclóir |
+| language pack | pacáiste teanga |
+| Voices and languages (the page) | Guthanna agus teangacha |
+| add-on | breiseán |
+| speech engine | inneall urlabhra |
+| speech model | múnla urlabhra |
+| voice | guth |
+| Add from a file (command) | Cuir leis ó chomhad |
 
 ## Intents and versions
 

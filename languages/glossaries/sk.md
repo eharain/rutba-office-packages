@@ -390,6 +390,13 @@ form (sa uchová, sa odošle) where the English hides who acts.
 | Blank document / Blank presentation / Blank worksheet | Prázdny dokument / Prázdna prezentácia / Prázdny hárok |
 | Attach / Attachments | Priložiť / Prílohy |
 | Cc / Bcc | Kópia / Skrytá kópia |
+| language pack | jazykový balík |
+| Voices and languages (the page) | Hlasy a jazyky |
+| add-on | doplnok |
+| speech engine | rečový modul |
+| speech model | rečový model |
+| voice | hlas |
+| Add from a file (command) | Pridať zo súboru |
 
 ## Intents and versions
 

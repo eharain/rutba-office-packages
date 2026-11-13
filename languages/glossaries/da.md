@@ -381,6 +381,13 @@ English "Not sent: {reason}".
 | Password / Sign-in | Adgangskode / Logon |
 | Stream / Stream key / Go live | Stream / Streamnøgle / Gå live |
 | This computer | Denne computer |
+| language pack | sprogpakke |
+| Voices and languages (the page) | Stemmer og sprog |
+| add-on | tilføjelsesprogram |
+| speech engine | talemotor |
+| speech model | talemodel |
+| voice | stemme |
+| Add from a file (command) | Tilføj fra en fil |
 
 ## Intents and versions
 

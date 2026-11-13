@@ -400,6 +400,13 @@ starts with a word and a colon keeps that shape: "Nincs elküldve: {reason}".
 | More colours… / Recent colours / Standard colours | További színek… / Legutóbbi színek / Standard színek |
 | Cc / Bcc | Másolat / Titkos másolat |
 | Blank document / Blank presentation / Blank worksheet | Üres dokumentum / Üres bemutató / Üres munkalap |
+| language pack | nyelvi csomag |
+| Voices and languages (the page) | Hangok és nyelvek |
+| add-on | bővítmény |
+| speech engine | beszédmotor |
+| speech model | beszédmodell |
+| voice | hang |
+| Add from a file (command) | Hozzáadás fájlból |
 
 ## Intents and versions
 

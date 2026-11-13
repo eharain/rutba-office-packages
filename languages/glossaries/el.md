@@ -396,6 +396,13 @@ becomes `Δεν στάλθηκε: {reason}`.
 | Banded Rows / Banded Columns | Γραμμές με εναλλαγή σκίασης / Στήλες με εναλλαγή σκίασης |
 | Blank document / Blank presentation / Blank worksheet | Κενό έγγραφο / Κενή παρουσίαση / Κενό φύλλο εργασίας |
 | Author / Category | Συντάκτης / Κατηγορία |
+| language pack | πακέτο γλώσσας |
+| Voices and languages (the page) | Φωνές και γλώσσες |
+| add-on | πρόσθετο |
+| speech engine | μηχανή ομιλίας |
+| speech model | μοντέλο ομιλίας |
+| voice | φωνή |
+| Add from a file (command) | Προσθήκη από αρχείο |
 
 ## Intents and versions
 

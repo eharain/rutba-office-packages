@@ -378,6 +378,13 @@ over a literal rendering, and „Neodesláno: {reason}“ for a short status.
 | Clipboard | Schránka |
 | Clear formatting / Change case | Vymazat formátování / Velká a malá písmena |
 | Alt Text / Accessibility | Alternativní text / Přístupnost |
+| language pack | jazykový balíček |
+| Voices and languages (the page) | Hlasy a jazyky |
+| add-on | doplněk |
+| speech engine | řečový modul |
+| speech model | řečový model |
+| voice | hlas |
+| Add from a file (command) | Přidat ze souboru |
 
 ## Intents and versions
 

@@ -380,6 +380,13 @@ calque.
 | Borders | Граници |
 | Clipboard | Клипборд |
 | Blank document / Blank worksheet / Blank presentation | Празен документ / Празен работен лист / Празна презентация |
+| language pack | езиков пакет |
+| Voices and languages (the page) | Гласове и езици |
+| add-on | добавка |
+| speech engine | речев механизъм |
+| speech model | речев модел |
+| voice | глас |
+| Add from a file (command) | Добавяне от файл |
 
 ## Intents and versions
 

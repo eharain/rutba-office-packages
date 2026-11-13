@@ -403,6 +403,13 @@ inte”. Not sent: {reason} becomes Skickades inte: {reason}.
 | Blank document / Blank presentation / Blank worksheet | Tomt dokument / Tom presentation / Tomt kalkylblad |
 | Add to Dictionary | Lägg till i ordlista |
 | Cc / Bcc | Kopia / Hemlig kopia |
+| language pack | språkpaket |
+| Voices and languages (the page) | Röster och språk |
+| add-on | tillägg |
+| speech engine | talmotor |
+| speech model | talmodell |
+| voice | röst |
+| Add from a file (command) | Lägg till från fil |
 
 ## Intents and versions
 

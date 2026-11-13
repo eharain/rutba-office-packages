@@ -385,6 +385,13 @@ status line.
 | Clear formatting | Počisti oblikovanje |
 | Change case | Spremeni velike/male črke |
 | Recent colours / Standard colours / More colours… | Nedavne barve / Standardne barve / Več barv… |
+| language pack | jezikovni paket |
+| Voices and languages (the page) | Glasovi in jeziki |
+| add-on | dodatek |
+| speech engine | govorni pogon |
+| speech model | govorni model |
+| voice | glas |
+| Add from a file (command) | Dodajanje iz datoteke |
 
 ## Intents and versions
 

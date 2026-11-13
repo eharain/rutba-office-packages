@@ -374,6 +374,13 @@ olemas."
 | Blank document / Blank worksheet / Blank presentation | Tühi dokument / Tühi tööleht / Tühi esitlus |
 | Add to Dictionary | Lisa sõnastikku |
 | Actual Size | Tegelik suurus |
+| language pack | keelepakett |
+| Voices and languages (the page) | Hääled ja keeled |
+| add-on | lisandmoodul |
+| speech engine | kõnemootor |
+| speech model | kõnemudel |
+| voice | hääl |
+| Add from a file (command) | Lisa failist |
 
 ## Intents and versions
 

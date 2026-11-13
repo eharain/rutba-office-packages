@@ -405,6 +405,13 @@ status.
 | Change case | שינוי רישיות |
 | Blank document / Blank presentation / Blank worksheet | מסמך ריק / מצגת ריקה / גיליון ריק |
 | Choose… | בחירה… |
+| language pack | חבילת שפה |
+| Voices and languages (the page) | קולות ושפות |
+| add-on | תוסף |
+| speech engine | מנוע דיבור |
+| speech model | מודל דיבור |
+| voice | קול |
+| Add from a file (command) | הוספה מקובץ |
 
 ## Intents and versions
 

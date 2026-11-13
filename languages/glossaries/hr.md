@@ -376,6 +376,13 @@ sentence's facts (a number, a name in `{braces}`, a key) exactly. Prefer
 | Change case | Promjena veličine slova |
 | Accessibility / Check Accessibility | Pristupačnost / Provjera pristupačnosti |
 | Blank document / Blank presentation / Blank worksheet | Prazan dokument / Prazna prezentacija / Prazan radni list |
+| language pack | jezični paket |
+| Voices and languages (the page) | Glasovi i jezici |
+| add-on | dodatak |
+| speech engine | govorni modul |
+| speech model | govorni model |
+| voice | glas |
+| Add from a file (command) | Dodavanje iz datoteke |
 
 ## Intents and versions
 

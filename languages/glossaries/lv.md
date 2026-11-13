@@ -384,6 +384,13 @@ literal rendering, and "Nav nosūtīts: {reason}" for "Not sent: {reason}".
 | Bring Forward / Bring to Front | Pārvietot uz priekšu / Novietot priekšplānā |
 | Clipboard / Clear formatting / Change case | Starpliktuve / Notīrīt formatējumu / Mainīt reģistru |
 | Cc / Bcc | Kopija / Diskrētā kopija |
+| language pack | valodas pakotne |
+| Voices and languages (the page) | Balsis un valodas |
+| add-on | papildinājums |
+| speech engine | runas dzinējs |
+| speech model | runas modelis |
+| voice | balss |
+| Add from a file (command) | Pievienot no faila |
 
 ## Intents and versions
 
