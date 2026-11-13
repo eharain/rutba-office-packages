@@ -121,6 +121,8 @@ test('a draft language needs its review line, a language that left the core its 
   const left = (await run(r, { office, contract })).faults.join(' | ');
   assert.match(left, /lang-ur: Office 2\.26\.0 no longer carries ur, and the release does not list its pack/);
   assert.doesNotMatch(left, /lang-de/);
+  // The feed must say which left, for the gate of a version that still carries them.
+  assert.match(left, /feed: its leftCore \(none\) is not Office 2\.26\.0's \(de,ur\)/);
 
   // Office's list against this release's, through the tag's own take-languages.
   const languagesFile = path.join(tmp(), 'languages.json');

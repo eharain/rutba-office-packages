@@ -79,6 +79,15 @@ test('a language entry carries what Office shows before it is added: tag, direct
   assert.ok(!('direction' in feed.packs.find((p) => p.id === 'voice-kokoro-bf-emma')), 'other kinds carry none');
 });
 
+test('the feed says which languages its Office no longer carries built in, for the update gate of an older Office', () => {
+  const { publicKey, privateKey } = keys();
+  const d = tmp();
+  signPack(pack(d, 'lang-ur', { kind: 'language', format: 2, version: '2.25.0', tag: 'ur' }), privateKey);
+  assert.deepEqual(buildFeed(d, { version: '2.25.0', publicKeys: [publicKey] }).feed.leftCore, [], 'none, when none left');
+  assert.deepEqual(buildFeed(d, { version: '2.25.0', publicKeys: [publicKey], leftCore: ['ur', 'ar', 'ur'] }).feed.leftCore, ['ar', 'ur']);
+  assert.ok(buildFeed(d, { version: '2.25.0', publicKeys: [publicKey], leftCore: ['../x'] }).faults.some((f) => /leftCore: \.\.\/x is not a language tag/.test(f)));
+});
+
 test('the feed refuses a wrong version, a broken signature, a missing need, and a lower revision', () => {
   const { publicKey, privateKey } = keys();
   const d = tmp();

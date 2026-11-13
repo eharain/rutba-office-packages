@@ -157,6 +157,10 @@ export async function verifyRelease({ version, base, keys, files = true, office 
     // A language that left the core comes only as its pack: this release must have it.
     const listed = new Set((feed.packs || []).map((p) => p.id));
     for (const tag of contract.languages?.leftCore || []) if (!listed.has(`lang-${tag}`)) faults.push(`lang-${tag}: Office ${version} no longer carries ${tag}, and the release does not list its pack`);
+    // And the feed says so, for the update gate of a version that still carries it.
+    const want = [...new Set(contract.languages?.leftCore || [])].sort().join(',');
+    const said = [...new Set(feed.leftCore || [])].sort().join(',');
+    if (want !== said) faults.push(`feed: its leftCore (${said || 'none'}) is not Office ${version}'s (${want || 'none'}); build it with --left-core ${want || '""'}`);
   }
   if (office) {
     // Office's list of languages, as its own take-languages makes it from this repository's.

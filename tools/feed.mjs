@@ -39,6 +39,13 @@
 // format may add fields but never change or drop these, because an older
 // Office reads a newer one's feed to decide whether to offer it.
 //
+// Added for Office 2.26.0: `leftCore`, the languages this version of Office
+// no longer carries built in (its contract's languages.leftCore). An older
+// Office whose window language is one of its built-in ones counts it as an
+// add-on for an update only when the update's feed lists it here; with no
+// `leftCore` the update drops none. verify-release checks it against the
+// contract at the tag.
+//
 //   node tools/feed.mjs <dist/v<version>> [--office <version>] [--previous <feed.json>]
 //       [--complete] [--withdraw <id> ...] [--retire <id>=<reason>[=><replacedBy>] ...]
 //     writes feed.json, assets.json (which local file goes up under which
@@ -96,7 +103,7 @@ export function languageFields(m) {
  *   sequence is the repository's counter, and its files' URLs are reused.
  *   `state` is partial unless the release is declared complete.
  */
-export function buildFeed(dist, { version, previous = null, withdraw = [], state = 'partial', retired = [], date = new Date().toISOString(), publicKeys = null, zips = false }) {
+export function buildFeed(dist, { version, previous = null, withdraw = [], state = 'partial', retired = [], leftCore = [], date = new Date().toISOString(), publicKeys = null, zips = false }) {
   const base = releaseUrl(version);
   const before = new Map();
   for (const p of previous?.packs || []) for (const [name, f] of Object.entries(p.files || {})) before.set(`${p.id}/${name}`, f);
@@ -157,7 +164,9 @@ export function buildFeed(dist, { version, previous = null, withdraw = [], state
     retiredOut.push({ id: r.id, reason: String(r.reason || '').trim(), ...(r.replacedBy ? { replacedBy: r.replacedBy } : {}) });
   }
   if (new Set(retiredOut.map((r) => r.id)).size !== retiredOut.length) faults.push('retired: an id is listed twice');
-  const feed = { format: FEED_FORMAT, readiness: FEED_READINESS, office: version, sequence: (previous?.sequence || 0) + 1, state, retired: retiredOut, date, packs };
+  const left = [...new Set(leftCore)].sort();
+  for (const tag of left) if (!/^[a-z]{2,3}(-[a-z0-9]{2,8})*$/.test(String(tag))) faults.push(`leftCore: ${tag} is not a language tag`);
+  const feed = { format: FEED_FORMAT, readiness: FEED_READINESS, office: version, sequence: (previous?.sequence || 0) + 1, state, retired: retiredOut, leftCore: left, date, packs };
   return { feed, assets, faults };
 }
 
@@ -213,13 +222,14 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
       return { id, reason, ...(replacedBy ? { replacedBy } : {}) };
     });
     const state = args.includes('--complete') ? 'complete' : 'partial';
-    const { feed, assets, faults } = buildFeed(dist, { version, previous, withdraw, state, retired, zips: true });
+    const leftCore = many('--left-core').flatMap((s) => s.split(',')).map((s) => s.trim()).filter(Boolean);
+    const { feed, assets, faults } = buildFeed(dist, { version, previous, withdraw, state, retired, leftCore, zips: true });
     if (faults.length) { for (const f of faults) console.error(f); process.exit(1); }
     fs.writeFileSync(path.join(dist, 'feed.json'), `${JSON.stringify(feed, null, 2)}\n`);
     fs.writeFileSync(path.join(dist, 'assets.json'), `${JSON.stringify(assets, null, 2)}\n`);
     console.log(`feed for Office ${version}, sequence ${feed.sequence}, ${feed.state}: ${feed.packs.length} packs, ${feed.retired.length} retired, ${assets.length} files to publish`);
   } else {
-    console.error('node tools/feed.mjs <dist folder> [--office version] [--previous feed.json] [--complete] [--withdraw id ...] [--retire id=reason[=>replacedBy] ...]\nnode tools/feed.mjs --sign <feed.json> --key <private.pem>');
+    console.error('node tools/feed.mjs <dist folder> [--office version] [--previous feed.json] [--complete] [--withdraw id ...] [--retire id=reason[=>replacedBy] ...] [--left-core tag,tag]\nnode tools/feed.mjs --sign <feed.json> --key <private.pem>');
     process.exit(2);
   }
 }

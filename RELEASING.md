@@ -42,12 +42,16 @@ The steps, in order:
 5. **Make the feed and the zips.**
 
    ```
-   node tools/feed.mjs dist/vX --previous <the last feed published> [--complete] [--retire <id>=<reason> ...]
+   node tools/feed.mjs dist/vX --previous <the last feed published> [--complete] [--retire <id>=<reason> ...] [--left-core <tag>,<tag>]
    node tools/feed.mjs --sign dist/vX/feed.json --key <packages feed key>
    ```
 
    `--complete` once every pack for X is in; leave it out for a partial
-   release. This writes `feed.json`, `assets.json` and each pack's zip.
+   release. `--left-core` names the languages Office X no longer carries
+   built in, exactly its contract's `languages.leftCore`; leave it out when
+   none left. An older Office counts its built-in language for the update
+   only when X's feed names it there. This writes `feed.json`,
+   `assets.json` and each pack's zip.
 
 6. **Set the tag.** Once Office's vX exists:
 
