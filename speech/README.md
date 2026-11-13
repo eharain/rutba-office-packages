@@ -25,5 +25,10 @@ Every pack carries the version number of the Office release it belongs to,
 so the packs and the suite stay in step. Each pack is a folder of plain files
 beside a signed `<id>.pack.json`, the same format as the
 [language packs](../languages/). Office checks the signature and every file's
-hash before it uses a pack. Only the engine holds program code, and it is
-signed with the same key as Office itself.
+hash before it uses a pack. Only the engine holds program code. It is built
+from the Office sources of its version, released on Office's schedule and
+signed with the same key as Office itself. The feed lists it so Office can
+find it, but the feed's signature is not what Office trusts for it: Office
+checks the engine's own release-key signature before it runs anything. Model,
+pronunciation and voice packs are data only and are signed with the packages
+keys, which Office never trusts for code.
