@@ -1,0 +1,36 @@
+{
+  "id": "lang-hu",
+  "kind": "language",
+  "format": 2,
+  "version": "2.25.0",
+  "revision": 1,
+  "tag": "hu",
+  "tags": [
+    "hu"
+  ],
+  "requires": [],
+  "licence": {
+    "spdx": "LicenseRef-TechStyle-Proprietary",
+    "files": [
+      "LICENSE.txt"
+    ]
+  },
+  "name": "Hungarian",
+  "nativeName": "Magyar",
+  "script": "Latn",
+  "direction": "ltr",
+  "region": "hu-HU",
+  "pluralForms": [
+    "one",
+    "other"
+  ],
+  "labels": 8998,
+  "status": "draft",
+  "review": "machine translation, offered as a draft until its wording is settled",
+  "madeFrom": "lang-en",
+  "versions": [
+    "short",
+    "medium",
+    "complete"
+  ]
+}
