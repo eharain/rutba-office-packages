@@ -89,13 +89,14 @@ export function buildPack(src, out, version) {
 }
 
 /** Which sources can be built now, and which wait for a language's pronunciation pack. */
-export function plan(all) {
+export function plan(all, named = []) {
   const ids = new Set(all.map((s) => s.id));
   const ready = [];
   const waiting = [];
   for (const s of all) {
-    // A source with `hold` is kept for its record but not built (the reason is in it).
-    if (s.hold) continue;
+    // A source with `hold` is kept for its record but not built (the reason is
+    // in it), unless asked for by name, as a check of the held pack does.
+    if (s.hold && !named.includes(s.id)) continue;
     const missing = (s.requires || []).filter((r) => /^speech-[a-z-]+-kokoro$/.test(r) && !ids.has(r));
     (missing.length ? waiting : ready).push(s);
   }
@@ -105,7 +106,7 @@ export function plan(all) {
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const { version } = officePin();
   const out = path.join(SPEECH, 'dist', `v${version}`);
-  const { ready, waiting } = plan(sources(process.argv.slice(2)));
+  const { ready, waiting } = plan(sources(process.argv.slice(2)), process.argv.slice(2));
   const built = [];
   let failed = 0;
   for (const src of ready) {

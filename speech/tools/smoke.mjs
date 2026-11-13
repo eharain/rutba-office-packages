@@ -17,6 +17,7 @@
 // Speed is seconds of speech per second of model time, as in the design note.
 
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { createRequire } from 'node:module';
@@ -38,6 +39,24 @@ const dist = path.join(SPEECH, 'dist', `v${officePin().version}`);
 
 const sha = (file) => crypto.createHash('sha512').update(fs.readFileSync(file)).digest('base64');
 const mb = () => Math.round(process.memoryUsage().rss / 1048576);
+
+/** How busy the rest of the computer was while a pass ran: share of all CPU time not spent idle and not ours. */
+function busyMeter() {
+  const total = () => os.cpus().reduce((a, c) => { const t = c.times; a.all += t.user + t.nice + t.sys + t.irq + t.idle; a.idle += t.idle; return a; }, { all: 0, idle: 0 });
+  const t0 = total();
+  const u0 = process.cpuUsage();
+  return () => {
+    const t1 = total();
+    const u = process.cpuUsage(u0);
+    const all = t1.all - t0.all;
+    const ours = (u.user + u.system) / 1000;
+    const busy = all - (t1.idle - t0.idle);
+    return { pc_busy_pct: Math.round((100 * busy) / all), others_busy_pct: Math.max(0, Math.round((100 * (busy - ours)) / all)) };
+  };
+}
+
+/** The ONNX Runtime and DirectML libraries this process has loaded, by path. */
+const loadedLibraries = () => (process.report?.getReport()?.sharedObjects || []).filter((p) => /onnxruntime|directml/i.test(p));
 let failures = 0;
 const fail = (what) => { failures++; console.log(JSON.stringify({ fail: what })); };
 
@@ -78,6 +97,7 @@ for (const variant of models) {
   const modelDir = path.join(dist, `speech-kokoro-82m-${variant}`);
   const modelFile = path.join(modelDir, 'model.onnx');
   const rss0 = mb();
+  const meter = busyMeter();
   const handle = createHandler({ loadOrt });
   let n = 1;
   const ask = async (op, body) => { const a = await handle({ id: n++, op, ...body }); if (!a.ok) throw new Error(`${op}: ${a.error}`); return a.result; };
@@ -145,7 +165,8 @@ for (const variant of models) {
     }
   }
   console.log(JSON.stringify({
-    variant, threads, cpus: (await import('node:os')).cpus().length, platform: `${process.platform}-${process.arch}`,
+    variant, threads, cpus: os.cpus().length, cpu: os.cpus()[0]?.model?.trim(), platform: `${process.platform}-${process.arch}`,
+    ...meter(), libraries: loadedLibraries(),
     size_mb: +(fs.statSync(modelFile).size / 1048576).toFixed(1), load_ms: Math.round(loadMs),
     rss_before_mb: rss0, rss_loaded_mb: rssLoaded, rss_peak_mb: peakRss,
     first_sound_ms: Math.round(first.ms), speed_four_sentences: rows,
