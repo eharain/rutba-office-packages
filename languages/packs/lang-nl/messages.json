@@ -10987,7 +10987,7 @@
     "source": "a9f690169703"
   },
   "home.go-live-to-the-places-you": {
-    "text": "Live gaan: naar de plekken waar je naartoe streamt, vanuit Live Broadcast",
+    "text": "Live gaan: naar de plekken waar je naartoe streamt, vanuit Live-uitzending (Live Broadcast)",
     "source": "77b987635721"
   },
   "locker.go-on": {
@@ -14468,11 +14468,11 @@
     "source": "b64ac05f17e6"
   },
   "studio.live-broadcast": {
-    "text": "Live-uitzending",
+    "text": "Live Broadcast",
     "source": "22aa48cd867d"
   },
   "studio.window.live-broadcast-settings": {
-    "text": "Instellingen live-uitzending…",
+    "text": "Instellingen voor Live Broadcast…",
     "source": "4ca7342abbff"
   },
   "studio.window.live-destinations": {
@@ -14900,11 +14900,11 @@
     "source": "303b61d0481e"
   },
   "mail.make-office-mail-the-app-windows": {
-    "text": "Office Mail de app maken waarmee Windows e-mailkoppelingen en .eml-bestanden opent",
+    "text": "Office E-mail de app maken waarmee Windows e-mailkoppelingen en .eml-bestanden opent",
     "source": "0ee3f4579d31"
   },
   "mail.make-office-mail-your-mail-app": {
-    "text": "Office Mail je mail-app maken…",
+    "text": "Office E-mail je mail-app maken…",
     "source": "9135613456dc"
   },
   "profiles.make-profile": {
@@ -21110,11 +21110,11 @@
     "source": "b984d066f603"
   },
   "studio.settings-dialog.recorder-settings": {
-    "text": "Opname-instellingen",
+    "text": "Recorder-instellingen",
     "source": "da60bfaf87ff"
   },
   "studio.window.recorder-settings": {
-    "text": "Opname-instellingen…",
+    "text": "Recorder-instellingen…",
     "source": "60e15c2b27b8"
   },
   "common.recording": {
@@ -22789,7 +22789,7 @@
     "source": "e281b824c7ea"
   },
   "common.rutba-image-project-rimg": {
-    "text": "Rutba Afbeelding-project (.rimg)",
+    "text": "Rutba Image-project (.rimg)",
     "source": "35f85ae91ec9"
   },
   "registry.rutba-mail": {
@@ -22865,7 +22865,7 @@
     "source": "9ccbb7b0b457"
   },
   "common.rutba-recordings": {
-    "text": "Rutba Opnamen",
+    "text": "Rutba Recordings",
     "source": "325c751e9853"
   },
   "studio.setups-store.rutba-studio-setups": {
@@ -29703,11 +29703,11 @@
     "source": "c41957136902"
   },
   "engine.this-is-not-a-rutba-image": {
-    "text": "Dit is geen Rutba Afbeelding-project.",
+    "text": "Dit is geen Rutba Image-project.",
     "source": "4e8e7b6fecf6"
   },
   "engine.this-is-not-a-rutba-image-2": {
-    "text": "Dit is geen Rutba Afbeelding-project: het is geen zip.",
+    "text": "Dit is geen Rutba Image-project: het is geen zip.",
     "source": "9c3d32f19dd8"
   },
   "engine.this-is-not-a-binary-gltf": {
