@@ -44,6 +44,12 @@ in. Its tests:
 node --test tools/pack-core.test.mjs
 ```
 
+`tools/feed.mjs` makes a release's signed feed, and beside it each pack whole
+as `<id>-<version>-r<revision>.zip`: the signed envelope and the pack's
+folder, nothing else. A computer with no network adds one with Add from a file
+in Voices and languages, which checks it as it checks a fetched pack. The
+zips are what is handed out; the `dist` folder never is.
+
 Every pack carries the version number of the Rutba Office release it is
 for, the one release [`office.json`](office.json) names for the whole
 repository, plus a revision from 1 for changes released between two Office

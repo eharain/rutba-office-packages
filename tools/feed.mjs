@@ -28,6 +28,12 @@
 // counts as retired too. Office's update gate reads these to decide whether
 // to offer an update.
 //
+// Each pack is also published whole, as <id>-<version>-r<revision>.zip beside
+// the feed: the signed envelope and the pack's folder, for a computer with no
+// network, which adds it with Add from a file in Voices and languages and
+// checks it as it checks a fetched pack (L5). The feed names it in the pack's
+// `zip`. The dist folder itself is never handed out.
+//
 // Frozen (readiness 1): office, sequence, state, retired, and in each pack
 // id, kind, version, revision, withdrawn, requires, provides. A later feed
 // format may add fields but never change or drop these, because an older
@@ -35,8 +41,8 @@
 //
 //   node tools/feed.mjs <dist/v<version>> [--office <version>] [--previous <feed.json>]
 //       [--complete] [--withdraw <id> ...] [--retire <id>=<reason>[=><replacedBy>] ...]
-//     writes feed.json and assets.json (which local file goes up under which
-//     asset name) into the dist folder. --office defaults to office.json's
+//     writes feed.json, assets.json (which local file goes up under which
+//     asset name) and each pack's zip into the dist folder. --office defaults to office.json's
 //     version; give it to publish a withdrawal into the feed of the version
 //     before. Signing is a separate step:
 //   node tools/feed.mjs --sign <dist/v<version>/feed.json> --key <private.pem>
@@ -47,6 +53,7 @@ import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { canonical, compareVersions, checkManifest, checkRequires, officePin, ID } from './pack-core.mjs';
 import { verifyEnvelope, keyIdOf, sha512Of } from './sign.mjs';
+import { writeZip } from './zip.mjs';
 
 export const FEED_FORMAT = 1;
 /** The readiness fields' version: what an older Office reads in a newer feed. */
@@ -58,6 +65,20 @@ export const releaseUrl = (version) => `https://github.com/${REPO}/releases/down
 
 /** A release asset's name for one file of a pack: assets in a release are flat. */
 export const assetName = (id, file) => `${id}--${file.replace(/\//g, '--')}`;
+/** The file a pack is published whole in, for Add from a file (L5). */
+export const packZipName = (m) => `${m.id}-${m.version}-r${m.revision ?? 0}.zip`;
+
+/**
+ * A pack's zip: its envelope and the files its manifest lists, under <id>/,
+ * and nothing else.
+ * @returns {Buffer}
+ */
+export function packZip(dist, envelopeFile, m) {
+  return writeZip([
+    { name: `${m.id}.pack.json`, data: fs.readFileSync(path.join(dist, envelopeFile)) },
+    ...Object.keys(m.files || {}).map((name) => ({ name: `${m.id}/${name}`, data: fs.readFileSync(path.join(dist, m.id, ...name.split('/'))) })),
+  ]);
+}
 
 /** A language pack's own fields in its feed entry, those its manifest has: tag, script, direction, variantOf, review and coverage. */
 export function languageFields(m) {
@@ -75,7 +96,7 @@ export function languageFields(m) {
  *   sequence is the repository's counter, and its files' URLs are reused.
  *   `state` is partial unless the release is declared complete.
  */
-export function buildFeed(dist, { version, previous = null, withdraw = [], state = 'partial', retired = [], date = new Date().toISOString(), publicKeys = null }) {
+export function buildFeed(dist, { version, previous = null, withdraw = [], state = 'partial', retired = [], date = new Date().toISOString(), publicKeys = null, zips = false }) {
   const base = releaseUrl(version);
   const before = new Map();
   for (const p of previous?.packs || []) for (const [name, f] of Object.entries(p.files || {})) before.set(`${p.id}/${name}`, f);
@@ -103,6 +124,15 @@ export function buildFeed(dist, { version, previous = null, withdraw = [], state
     }
     const envBytes = fs.readFileSync(path.join(dist, file));
     assets.push({ local: path.join(dist, file), asset: file });
+    // The pack whole, written beside the feed, when every file is the one the envelope lists.
+    let zip;
+    if (zips && Object.keys(files).length === Object.keys(m.files || {}).length) {
+      const name = packZipName(m);
+      const bytes = packZip(dist, file, m);
+      fs.writeFileSync(path.join(dist, name), bytes);
+      assets.push({ local: path.join(dist, name), asset: name });
+      zip = { url: base + name, size: bytes.length, sha512: crypto.createHash('sha512').update(bytes).digest('base64') };
+    }
     packs.push({
       id: m.id, kind: m.kind, version: m.version, revision: m.revision, name: m.name, nativeName: m.nativeName,
       status: m.status, tags: m.tags, requires: m.requires, provides: m.provides, licence: { spdx: m.licence.spdx },
@@ -111,6 +141,7 @@ export function buildFeed(dist, { version, previous = null, withdraw = [], state
       size, withdrawn: withdraw.includes(m.id),
       envelope: { url: base + file, size: envBytes.length, sha512: crypto.createHash('sha512').update(envBytes).digest('base64') },
       files,
+      ...(zip ? { zip } : {}),
     });
   }
   for (const id of withdraw) if (!packs.some((p) => p.id === id)) faults.push(`${id}: asked to withdraw a pack this release does not have`);
@@ -182,7 +213,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
       return { id, reason, ...(replacedBy ? { replacedBy } : {}) };
     });
     const state = args.includes('--complete') ? 'complete' : 'partial';
-    const { feed, assets, faults } = buildFeed(dist, { version, previous, withdraw, state, retired });
+    const { feed, assets, faults } = buildFeed(dist, { version, previous, withdraw, state, retired, zips: true });
     if (faults.length) { for (const f of faults) console.error(f); process.exit(1); }
     fs.writeFileSync(path.join(dist, 'feed.json'), `${JSON.stringify(feed, null, 2)}\n`);
     fs.writeFileSync(path.join(dist, 'assets.json'), `${JSON.stringify(assets, null, 2)}\n`);

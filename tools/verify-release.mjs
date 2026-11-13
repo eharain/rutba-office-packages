@@ -15,6 +15,8 @@
 //     as the feed says;
 //   - each file the feed lists: the size and SHA-512 the envelope lists, and,
 //     unless --no-files, that its URL answers with exactly those bytes;
+//   - unless --no-files, each pack's zip (L5): the bytes the feed lists,
+//     holding the release's envelope and the files it lists, and nothing else;
 //   - unless --no-remote, that office.json's commit is the one Office's vX
 //     tag names (packages for X come only from X's final commit, 3.4);
 //   - with --office, that lang-en is byte for byte the copy Office's tag
@@ -32,6 +34,7 @@ import { fileURLToPath } from 'node:url';
 import { officePin, CODE_KINDS } from './pack-core.mjs';
 import { verifyEnvelope } from './sign.mjs';
 import { verifyFeed, releaseUrl, FEED_FORMAT, FEED_READINESS, FEED_STATES } from './feed.mjs';
+import { readZip } from './zip.mjs';
 import { remoteTagCommit, OFFICE_ENGLISH } from './carry.mjs';
 
 const sha512 = (bytes) => crypto.createHash('sha512').update(bytes).digest('base64');
@@ -107,6 +110,27 @@ export async function verifyRelease({ version, base, keys, files = true, office 
         if (bytes.length !== f.size || sha512(bytes) !== f.sha512) faults.push(`${p.id}/${name}: ${f.url} answers other bytes`);
         if (p.id === 'lang-en' && english && fs.existsSync(path.join(english, ...name.split('/'))) && !fs.readFileSync(path.join(english, ...name.split('/'))).equals(bytes)) faults.push(`lang-en/${name}: not the copy Office ${version} carries`);
       } catch (e) { faults.push(`${p.id}/${name}: ${e.message}`); }
+    }
+    // The pack whole, for Add from a file (L5).
+    if (p.zip && files) {
+      try {
+        const bytes = await fetchBytes(p.zip.url);
+        if (bytes.length !== p.zip.size || sha512(bytes) !== p.zip.sha512) {
+          faults.push(`${p.id}: ${p.zip.url} answers other bytes`);
+        } else {
+          const inside = new Map(readZip(bytes).map((e) => [e.name, e.data]));
+          const want = [`${p.id}.pack.json`, ...Object.keys(m.files || {}).map((n) => `${p.id}/${n}`)];
+          if (inside.size !== want.length || want.some((n) => !inside.has(n))) {
+            faults.push(`${p.id}: the zip does not hold exactly the envelope and its files`);
+          } else {
+            if (!inside.get(`${p.id}.pack.json`).equals(envBytes)) faults.push(`${p.id}: the zip's envelope is not the release's`);
+            for (const [n, f] of Object.entries(m.files || {})) {
+              const d = inside.get(`${p.id}/${n}`);
+              if (d.length !== f.size || sha512(d) !== f.sha512) faults.push(`${p.id}: the zip's ${n} is not the one the envelope lists`);
+            }
+          }
+        }
+      } catch (e) { faults.push(`${p.id}: zip: ${e.message}`); }
     }
     if (p.id === 'lang-en' && english && !fs.readFileSync(englishEnvelope).equals(envBytes)) faults.push(`lang-en: the envelope is not the one Office ${version} carries`);
   }

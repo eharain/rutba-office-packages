@@ -144,3 +144,31 @@ test('a key is never made inside the repository', () => {
   const id = makeKey(tmp());
   assert.match(id, /^[0-9a-f]{16}$/);
 });
+
+test('the feed writes each pack whole beside it, the same bytes every time, and lists it (L5)', async () => {
+  const { privateKey } = keys();
+  const { readZip } = await import('./zip.mjs');
+  const dist = tmp();
+  fs.mkdirSync(path.join(dist, 'voice-kokoro-bf-emma', 'deep'), { recursive: true });
+  signPack(pack(dist, 'voice-kokoro-bf-emma', {}, { 'data.txt': 'hello', 'deep/more.bin': Buffer.alloc(4000, 7) }), privateKey);
+  const one = buildFeed(dist, { version: '2.25.1', zips: true });
+  assert.deepEqual(one.faults, []);
+  const p = one.feed.packs[0];
+  const file = path.join(dist, 'voice-kokoro-bf-emma-2.25.1-r1.zip');
+  assert.equal(p.zip.url, `${releaseUrl('2.25.1')}voice-kokoro-bf-emma-2.25.1-r1.zip`);
+  assert.equal(p.zip.size, fs.statSync(file).size);
+  assert.ok(one.assets.some((a) => a.asset === 'voice-kokoro-bf-emma-2.25.1-r1.zip' && a.local === file));
+  const inside = readZip(fs.readFileSync(file));
+  assert.deepEqual(inside.map((e) => e.name), ['voice-kokoro-bf-emma.pack.json', 'voice-kokoro-bf-emma/data.txt', 'voice-kokoro-bf-emma/deep/more.bin', 'voice-kokoro-bf-emma/manifest.json']);
+  assert.ok(inside[0].data.equals(fs.readFileSync(path.join(dist, 'voice-kokoro-bf-emma.pack.json'))));
+  assert.ok(inside[2].data.equals(Buffer.alloc(4000, 7)));
+  const first = fs.readFileSync(file);
+  buildFeed(dist, { version: '2.25.1', zips: true });
+  assert.ok(fs.readFileSync(file).equals(first), 'made again, the same bytes');
+  // Without zips (a check run), nothing is written and nothing listed.
+  const plain = tmp();
+  signPack(pack(plain, 'voice-kokoro-bf-emma'), privateKey);
+  const two = buildFeed(plain, { version: '2.25.1' });
+  assert.equal(two.feed.packs[0].zip, undefined);
+  assert.ok(!fs.readdirSync(plain).some((f) => f.endsWith('.zip')));
+});

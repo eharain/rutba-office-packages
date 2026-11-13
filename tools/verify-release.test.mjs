@@ -7,6 +7,7 @@ import crypto from 'node:crypto';
 import { signPack } from './sign.mjs';
 import { buildFeed, signFeed, releaseUrl } from './feed.mjs';
 import { verifyRelease } from './verify-release.mjs';
+import { readZip, writeZip } from './zip.mjs';
 
 const made = [];
 const tmp = () => { const d = fs.mkdtempSync(path.join(os.tmpdir(), 'rutba-verify-')); made.push(d); return d; };
@@ -29,7 +30,7 @@ function release() {
   signPack(pack(dist, 'lang-en', { kind: 'language' }), packages.privateKey);
   signPack(pack(dist, 'voice-kokoro-bf-emma'), packages.privateKey);
   signPack(pack(dist, 'speech-engine', { kind: 'engine', revision: undefined }, { 'main.mjs': 'export {}' }), releaseKey.privateKey, { codeKey: true });
-  const { feed, assets, faults } = buildFeed(dist, { version: V, state: 'complete', retired: [{ id: 'voice-kokoro-bf-old', reason: 'licence' }] });
+  const { feed, assets, faults } = buildFeed(dist, { version: V, state: 'complete', retired: [{ id: 'voice-kokoro-bf-old', reason: 'licence' }], zips: true });
   assert.deepEqual(faults, []);
   const served = new Map(assets.map((a) => [releaseUrl(V) + a.asset, fs.readFileSync(a.local)]));
   served.set(`${releaseUrl(V)}feed.json`, Buffer.from(JSON.stringify(feed)));
@@ -77,4 +78,30 @@ test('lang-en must be byte for byte the copy Office\'s tag carries', async () =>
   const lag = await verifyRelease({ version: V, base: releaseUrl(V), keys: r.keys, fetchBytes: r.fetchBytes, office });
   assert.deepEqual(lag.faults, []);
   assert.match(lag.notes.join(), /carries 2\.25\.0 revision 3, the earlier fallback; its copy lags/);
+});
+
+test('each pack is published whole, and a zip that is not the release\'s envelope and files is caught (L5)', async () => {
+  const r = release();
+  const base = releaseUrl(V);
+  for (const p of r.feed.packs) assert.equal(p.zip.url, `${base}${p.id}-${p.version}-r${p.revision ?? 0}.zip`);
+  const zipUrl = `${base}voice-kokoro-bf-emma-${V}-r1.zip`;
+  const good = r.served.get(zipUrl);
+  assert.deepEqual(readZip(good).map((e) => e.name), ['voice-kokoro-bf-emma.pack.json', 'voice-kokoro-bf-emma/data.txt', 'voice-kokoro-bf-emma/manifest.json']);
+  const run = (bytes, feed = r.feed) => {
+    const served = new Map(r.served);
+    served.set(zipUrl, bytes);
+    const f = { ...feed, packs: feed.packs.map((p) => (p.id === 'voice-kokoro-bf-emma' ? { ...p, zip: { url: zipUrl, size: bytes.length, sha512: crypto.createHash('sha512').update(bytes).digest('base64') } } : p)) };
+    served.set(`${base}feed.json`, Buffer.from(JSON.stringify(f)));
+    served.set(`${base}feed.json.sig`, Buffer.from(JSON.stringify(signFeed(f, r.packages.privateKey))));
+    return verifyRelease({ version: V, base, keys: r.keys, fetchBytes: async (u) => { if (!served.has(u)) throw new Error('HTTP 404'); return served.get(u); } }).then((o) => o.faults.join(' | '));
+  };
+  assert.equal(await run(good), '');
+  const entries = readZip(good);
+  assert.match(await run(writeZip([...entries, { name: 'elsewhere.txt', data: Buffer.from('x') }])), /does not hold exactly the envelope and its files/);
+  assert.match(await run(writeZip(entries.map((e) => (e.name.endsWith('data.txt') ? { ...e, data: Buffer.from('other') } : e)))), /the zip's data\.txt is not the one/);
+  // The zip's bytes are not the ones the feed lists.
+  const served = new Map(r.served);
+  served.set(zipUrl, Buffer.from('other'));
+  const out = await verifyRelease({ version: V, base, keys: r.keys, fetchBytes: async (u) => served.get(u) ?? Promise.reject(new Error('HTTP 404')) });
+  assert.match(out.faults.join(), /answers other bytes/);
 });
