@@ -7472,7 +7472,7 @@
     "source": "568dda466927"
   },
   "locker.delete-this-version-of-name": {
-    "text": "Ștergeți această versiune din {name}?",
+    "text": "Ștergeți această versiune a fișierului {name}?",
     "source": "47675dc41f6e"
   },
   "locker.delete-this-version": {
@@ -11012,7 +11012,7 @@
     "source": "a9f690169703"
   },
   "home.go-live-to-the-places-you": {
-    "text": "Începere transmisiune live: către platformele unde transmiteți, din Live Broadcast",
+    "text": "Începere transmisiune live: către platformele unde transmiteți, din Transmisiune live (Live Broadcast)",
     "source": "77b987635721"
   },
   "locker.go-on": {
@@ -14504,11 +14504,11 @@
     "source": "b64ac05f17e6"
   },
   "studio.live-broadcast": {
-    "text": "Transmisiune live",
+    "text": "Live Broadcast",
     "source": "22aa48cd867d"
   },
   "studio.window.live-broadcast-settings": {
-    "text": "Setări transmisiune live…",
+    "text": "Setări Live Broadcast…",
     "source": "4ca7342abbff"
   },
   "studio.window.live-destinations": {
@@ -14936,11 +14936,11 @@
     "source": "303b61d0481e"
   },
   "mail.make-office-mail-the-app-windows": {
-    "text": "Setați Office Mail ca aplicația cu care Windows deschide linkurile de e-mail și fișierele .eml",
+    "text": "Setați Office E-mail ca aplicația cu care Windows deschide linkurile de e-mail și fișierele .eml",
     "source": "0ee3f4579d31"
   },
   "mail.make-office-mail-your-mail-app": {
-    "text": "Setare Office Mail ca aplicație e-mail…",
+    "text": "Setare Office E-mail ca aplicație e-mail…",
     "source": "9135613456dc"
   },
   "profiles.make-profile": {
@@ -22836,7 +22836,7 @@
     "source": "e281b824c7ea"
   },
   "common.rutba-image-project-rimg": {
-    "text": "Proiect Rutba Imagine (.rimg)",
+    "text": "Proiect Rutba Image (.rimg)",
     "source": "35f85ae91ec9"
   },
   "registry.rutba-mail": {
@@ -22912,7 +22912,7 @@
     "source": "9ccbb7b0b457"
   },
   "common.rutba-recordings": {
-    "text": "Înregistrări Rutba",
+    "text": "Rutba Recordings",
     "source": "325c751e9853"
   },
   "studio.setups-store.rutba-studio-setups": {
@@ -29772,11 +29772,11 @@
     "source": "c41957136902"
   },
   "engine.this-is-not-a-rutba-image": {
-    "text": "Acesta nu este un proiect Rutba Imagine.",
+    "text": "Acesta nu este un proiect Rutba Image.",
     "source": "4e8e7b6fecf6"
   },
   "engine.this-is-not-a-rutba-image-2": {
-    "text": "Acesta nu este un proiect Rutba Imagine: nu este o arhivă zip.",
+    "text": "Acesta nu este un proiect Rutba Image: nu este o arhivă zip.",
     "source": "9c3d32f19dd8"
   },
   "engine.this-is-not-a-binary-gltf": {
