@@ -23,11 +23,12 @@ function pack(dist, id, extra = {}, files = { 'data.txt': `data of ${id}` }) {
 }
 
 /** A release made, signed and "published": every asset served from a map. */
-function release() {
+function release({ more = null } = {}) {
   const dist = tmp();
   const packages = crypto.generateKeyPairSync('ed25519');
   const releaseKey = crypto.generateKeyPairSync('ed25519');
   signPack(pack(dist, 'lang-en', { kind: 'language' }), packages.privateKey);
+  if (more) more(dist, packages.privateKey);
   signPack(pack(dist, 'voice-kokoro-bf-emma'), packages.privateKey);
   signPack(pack(dist, 'speech-engine', { kind: 'engine', revision: undefined }, { 'main.mjs': 'export {}' }), releaseKey.privateKey, { codeKey: true });
   const { feed, assets, faults } = buildFeed(dist, { version: V, state: 'complete', retired: [{ id: 'voice-kokoro-bf-old', reason: 'licence' }], zips: true });
@@ -104,4 +105,35 @@ test('each pack is published whole, and a zip that is not the release\'s envelop
   served.set(zipUrl, Buffer.from('other'));
   const out = await verifyRelease({ version: V, base, keys: r.keys, fetchBytes: async (u) => served.get(u) ?? Promise.reject(new Error('HTTP 404')) });
   assert.match(out.faults.join(), /answers other bytes/);
+});
+
+test('a draft language needs its review line, a language that left the core its pack, and Office\'s list is this release\'s (L10)', async () => {
+  const review = 'machine translation, offered as a draft until its wording is settled';
+  const bare = release({ more: (dist, key) => signPack(pack(dist, 'lang-de', { kind: 'language', tag: 'de' }), key) });
+  const run = (r, more = {}) => verifyRelease({ version: V, base: releaseUrl(V), keys: r.keys, fetchBytes: r.fetchBytes, ...more });
+  assert.match((await run(bare)).faults.join(), /lang-de: a draft with no review line/);
+  const r = release({ more: (dist, key) => signPack(pack(dist, 'lang-de', { kind: 'language', tag: 'de', review }), key) });
+  assert.deepEqual((await run(r)).faults, []);
+
+  // The contract of Office's tag says German and Urdu left the core: only German's pack is in the release.
+  const office = tmp();
+  const contract = { languages: { builtIn: ['ar'], leftCore: ['de', 'ur'] } };
+  const left = (await run(r, { office, contract })).faults.join(' | ');
+  assert.match(left, /lang-ur: Office 2\.26\.0 no longer carries ur, and the release does not list its pack/);
+  assert.doesNotMatch(left, /lang-de/);
+
+  // Office's list against this release's, through the tag's own take-languages.
+  const languagesFile = path.join(tmp(), 'languages.json');
+  const rows = [{ tag: 'de', pack: 'lang-de', name: 'German', nativeName: 'Deutsch', direction: 'ltr', status: 'draft' }];
+  fs.writeFileSync(languagesFile, JSON.stringify({ languages: rows }));
+  fs.mkdirSync(path.join(office, 'tools'), { recursive: true });
+  fs.writeFileSync(path.join(office, 'tools', 'take-languages.mjs'), 'export const languageRows = (l) => l.languages;\nexport const render = (rows) => `${JSON.stringify({ languages: rows }, null, 2)}\\n`;\n');
+  const officeList = path.join(office, 'packages', 'office-shell', 'src', 'languages.json');
+  fs.mkdirSync(path.dirname(officeList), { recursive: true });
+  fs.writeFileSync(officeList, `${JSON.stringify({ languages: rows }, null, 2)}\r\n`.replace(/\n/g, '\r\n').replace(/\r\r/g, '\r'));
+  const same = await run(r, { office, contract: { languages: { leftCore: [] } }, languagesFile });
+  assert.deepEqual(same.faults, [], 'the same list, whatever its line ends');
+  fs.writeFileSync(officeList, `${JSON.stringify({ languages: [{ ...rows[0], status: 'reviewed' }] }, null, 2)}\n`);
+  const other = await run(r, { office, contract: { languages: { leftCore: [] } }, languagesFile });
+  assert.match(other.faults.join(), /languages\.json: Office 2\.26\.0 carries another list than this release's/);
 });

@@ -57,6 +57,9 @@ releases (the speech engine, being code, has no revision). A pack names
 the packs it needs in `requires`, by id or by a name another pack lists in
 `provides`.
 
+[`RELEASING.md`](RELEASING.md) gives the steps of a release, from moving the
+pin to checking what was published.
+
 ## Licence
 
 Proprietary: Tech Style Ltd, all rights reserved. Anyone may download the

@@ -19,8 +19,14 @@
 //     holding the release's envelope and the files it lists, and nothing else;
 //   - unless --no-remote, that office.json's commit is the one Office's vX
 //     tag names (packages for X come only from X's final commit, 3.4);
+//   - every draft language has a review line, for Voices and languages to
+//     show under its draft mark;
 //   - with --office, that lang-en is byte for byte the copy Office's tag
-//     carries (C15), and Office's own usable() takes every pack.
+//     carries (C15), and Office's own usable() takes every pack;
+//   - with --office, that every language the contract says left the core
+//     (languages.leftCore) has its pack in the release, and that Office's
+//     list of languages is the one languages/languages.json makes, through
+//     the tag's own tools/take-languages.mjs (L10).
 //
 // The public keys come from the contract in the Office clone (its `keys`: {
 // packages: [PEM], release: [PEM]}, the one place Office keeps them). --keys
@@ -30,7 +36,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { createRequire } from 'node:module';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { officePin, CODE_KINDS } from './pack-core.mjs';
 import { verifyEnvelope } from './sign.mjs';
 import { verifyFeed, releaseUrl, FEED_FORMAT, FEED_READINESS, FEED_STATES } from './feed.mjs';
@@ -38,6 +44,9 @@ import { readZip } from './zip.mjs';
 import { remoteTagCommit, OFFICE_ENGLISH } from './carry.mjs';
 
 const sha512 = (bytes) => crypto.createHash('sha512').update(bytes).digest('base64');
+
+/** The list of languages this repository releases with. */
+export const LANGUAGES_FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'languages', 'languages.json');
 
 /** Bytes at a URL; file: URLs are read from disk (for the tests and local runs). */
 export async function get(url) {
@@ -55,10 +64,11 @@ export function readKeys(json) {
 
 /**
  * @param {{ version: string, base: string, keys: { packages: crypto.KeyObject[], release: crypto.KeyObject[] },
- *   files?: boolean, office?: string|null, contract?: object|null, compat?: object|null, fetchBytes?: Function }} o
+ *   files?: boolean, office?: string|null, contract?: object|null, compat?: object|null, fetchBytes?: Function,
+ *   languagesFile?: string }} o
  * @returns {Promise<{ faults: string[], packs: number, files: number }>}
  */
-export async function verifyRelease({ version, base, keys, files = true, office = null, contract = null, compat = null, fetchBytes = get }) {
+export async function verifyRelease({ version, base, keys, files = true, office = null, contract = null, compat = null, fetchBytes = get, languagesFile = LANGUAGES_FILE }) {
   const faults = [];
   let feed;
   try {
@@ -85,7 +95,11 @@ export async function verifyRelease({ version, base, keys, files = true, office 
   if (english && fs.existsSync(englishEnvelope)) {
     const at = JSON.parse(fs.readFileSync(englishEnvelope, 'utf8')).manifest || {};
     if (at.version !== version) { notes.push(`lang-en: Office ${version} carries ${at.version} revision ${at.revision}, the earlier fallback; its copy lags this release`); english = null; }
-  } else if (english && fs.existsSync(english)) faults.push(`lang-en: Office ${version} carries the folder but no lang-en.pack.json beside it`);
+  } else if (english) {
+    if (fs.existsSync(english)) faults.push(`lang-en: Office ${version} carries the folder but no lang-en.pack.json beside it`);
+    // No copy to compare with.
+    english = null;
+  }
   for (const p of feed.packs || []) {
     let envBytes;
     try { envBytes = await fetchBytes(p.envelope.url); } catch (e) { faults.push(`${p.id}: envelope: ${e.message}`); continue; }
@@ -135,6 +149,29 @@ export async function verifyRelease({ version, base, keys, files = true, office 
     if (p.id === 'lang-en' && english && !fs.readFileSync(englishEnvelope).equals(envBytes)) faults.push(`lang-en: the envelope is not the one Office ${version} carries`);
   }
   if (english && !(feed.packs || []).some((p) => p.id === 'lang-en')) faults.push(`lang-en: Office ${version} carries it, the release does not list it`);
+  // A draft is marked in Office with its review line under the mark.
+  for (const p of feed.packs || []) {
+    if (p.kind === 'language' && p.id !== 'lang-en' && p.status === 'draft' && !(typeof p.review === 'string' && p.review.trim())) faults.push(`${p.id}: a draft with no review line for Voices and languages to show under its mark`);
+  }
+  if (office && contract) {
+    // A language that left the core comes only as its pack: this release must have it.
+    const listed = new Set((feed.packs || []).map((p) => p.id));
+    for (const tag of contract.languages?.leftCore || []) if (!listed.has(`lang-${tag}`)) faults.push(`lang-${tag}: Office ${version} no longer carries ${tag}, and the release does not list its pack`);
+  }
+  if (office) {
+    // Office's list of languages, as its own take-languages makes it from this repository's.
+    const officeList = path.join(office, 'packages', 'office-shell', 'src', 'languages.json');
+    const take = path.join(office, 'tools', 'take-languages.mjs');
+    if (fs.existsSync(officeList) && fs.existsSync(take) && fs.existsSync(languagesFile)) {
+      try {
+        const { languageRows, render } = await import(pathToFileURL(take).href);
+        const want = render(languageRows(JSON.parse(fs.readFileSync(languagesFile, 'utf8'))));
+        if (fs.readFileSync(officeList, 'utf8').replace(/\r\n/g, '\n') !== want) faults.push(`languages.json: Office ${version} carries another list than this release's; run tools/take-languages.mjs in Office`);
+      } catch (e) {
+        faults.push(`languages.json: ${e.message}`);
+      }
+    } else if (fs.existsSync(officeList)) notes.push(`languages.json: Office ${version} has no take-languages.mjs to compare its list with`);
+  }
   for (const r of feed.retired || []) if ((feed.packs || []).some((p) => p.id === r.id)) faults.push(`${r.id}: both listed and retired`);
   return { faults, notes, packs: (feed.packs || []).length, files: checkedFiles };
 }

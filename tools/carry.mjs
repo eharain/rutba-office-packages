@@ -4,6 +4,11 @@
 //   node tools/carry.mjs --to <X> --commit <X's final commit> [--dry-run] [--no-remote] [--no-build]
 //   node tools/carry.mjs --to <X> --commit <X's gated commit> --before-tag   before X is tagged
 //   node tools/carry.mjs --set-tag                                            once Office's vX exists
+//   node tools/carry.mjs --build                                              build at the pin already moved
+//
+// --no-build moves the pin alone, so the translations of the labels new in X
+// can be added before anything is built; --build then builds and gathers at
+// that pin (steps 4 and 5 below), with nothing moved.
 //
 // Before X is tagged (design 3.4), --before-tag pins X's gated commit with an
 // empty tag and builds from that commit, which must be reachable in Office's
@@ -220,6 +225,11 @@ function main(args) {
     console.log(`${dry ? 'would set' : 'set'} the pin's tag to ${t.pin.tag}: ${t.pin.commit}, as built`);
     return 0;
   }
+  if (args.includes('--build')) {
+    if (!from.commit) { console.error('the pin names no commit to build from'); return 2; }
+    console.log(`building at the pin: Office ${from.version}, ${from.commit}${from.tag ? '' : ' (before the tag)'}`);
+    return build(from);
+  }
   const beforeTag = args.includes('--before-tag');
   const { pin, faults } = nextPin(from, { to: opt('--to'), commit: opt('--commit'), beforeTag });
   if (faults.length) { for (const f of faults) console.error(f); return 2; }
@@ -235,6 +245,11 @@ function main(args) {
   if (dry) return 0;
   fs.writeFileSync(OFFICE_FILE, `${JSON.stringify(pin, null, 2)}\n`);
   if (args.includes('--no-build')) return 0;
+  return build(pin);
+}
+
+/** Steps 4 and 5 at a pin: the languages' test against X's clone, the speech packs and engine, then one release folder. */
+function build(pin) {
   const node = (cwd, ...a) => execFileSync(process.execPath, a, { cwd, stdio: 'inherit' });
   const clone = officeClone(ROOT, pin);
   // The languages' own test script, so what it runs stays theirs to change.
