@@ -1,0 +1,35 @@
+{
+  "id": "lang-zh-hant",
+  "kind": "language",
+  "format": 2,
+  "version": "2.25.0",
+  "revision": 1,
+  "tag": "zh-Hant",
+  "tags": [
+    "zh-Hant"
+  ],
+  "requires": [],
+  "licence": {
+    "spdx": "LicenseRef-TechStyle-Proprietary",
+    "files": [
+      "LICENSE.txt"
+    ]
+  },
+  "name": "Chinese, Traditional (Taiwan)",
+  "nativeName": "繁體中文（台灣）",
+  "script": "Hant",
+  "direction": "ltr",
+  "region": "zh-TW",
+  "pluralForms": [
+    "other"
+  ],
+  "labels": 8998,
+  "status": "draft",
+  "review": "machine draft, not yet reviewed by a native speaker",
+  "madeFrom": "lang-en",
+  "versions": [
+    "short",
+    "medium",
+    "complete"
+  ]
+}
