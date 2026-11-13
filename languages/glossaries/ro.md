@@ -382,6 +382,8 @@ sentence's facts (a number, a name in `{braces}`, a key) exactly. Prefer
 | Clear formatting | Golire formatare |
 | Change case | Modificare majuscule/minuscule |
 | Blank document / presentation / worksheet | Document necompletat / Prezentare necompletată / Foaie de lucru necompletată |
+| Redact | Anonimizare |
+| Redacted copy | Copie anonimizată |
 
 ## Intents and versions
 
