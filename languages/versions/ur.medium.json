@@ -521,6 +521,7 @@
   "engine.rutba-office-no-backend-for-ns": {"text":"رتبہ آفس (Rutba Office): {ns}:{name} کے لیے کوئی بیک اینڈ نہیں","source":"1b2669a5ca1b"},
   "engine.rutba-office-the-document-service-has": {"text":"رتبہ آفس (Rutba Office): دستاویزی سروس میں {name} موجود نہیں۔","source":"032a37d6f43a"},
   "registry.rutba-recorder": {"text":"Rutba Recorder","source":"9ccbb7b0b457"},
+  "common.rutba-recordings": {"text":"Rutba Recordings","source":"325c751e9853"},
   "registry.rutba-talk": {"text":"Rutba Talk","source":"88ae37f4323e"},
   "registry.rutba-video": {"text":"Rutba Video","source":"06f4a9181c8d"},
   "common.rutba-video-project-rvid": {"text":"Rutba Video پروجیکٹ (.rvid)","source":"7eab552ba957"},

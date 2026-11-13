@@ -1056,7 +1056,7 @@
     "source": "fd99634235a4"
   },
   "ai-tools-dialog.a-protected-database-is-reached-only": {
-    "text": "Um banco de dados protegido só é acessado com uma função que um Administrador escolheu para as ferramentas de IA no Data Files, nunca com uma que possa alterar o design dele.",
+    "text": "Um banco de dados protegido só é acessado com uma função que um Administrador escolheu para as ferramentas de IA nos Arquivos de Dados (Data Files), nunca com uma que possa alterar o design dele.",
     "source": "95c6d97202ea"
   },
   "base.ai-tools.a-protected-database-is-reached-only": {
@@ -2960,7 +2960,7 @@
     "source": "eb448ef89a67"
   },
   "locker.anyone-at-this-computer-can-read": {
-    "text": "Qualquer pessoa neste computador pode ler essas cópias até você desbloquear o Locker de novo.",
+    "text": "Qualquer pessoa neste computador pode ler essas cópias até você desbloquear o Cofre (Locker) de novo.",
     "source": "3109eadb508c"
   },
   "mail.dialogs.anything-not-from-a-safe-sender": {
@@ -8340,7 +8340,7 @@
     "source": "ba23d84777b1"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
-    "text": "Cada conta de email, calendário, catálogo de endereços, banco de dados e pasta tem a própria configuração, também exibida no próprio aplicativo, e o Recorder também. Tudo fica Desativado até você escolher. Nada é excluído nem movido, e tudo o que for enviado espera primeiro que você confirme aqui.",
+    "text": "Cada conta de email, calendário, catálogo de endereços, banco de dados e pasta tem a própria configuração, também exibida no próprio aplicativo, e o Gravador (Recorder) também. Tudo fica Desativado até você escolher. Nada é excluído nem movido, e tudo o que for enviado espera primeiro que você confirme aqui.",
     "source": "0fd0a5b12aaa"
   },
   "word.mailings.each-message-is-the-merged-letter": {
@@ -10948,7 +10948,7 @@
     "source": "607e298f1b12"
   },
   "locker.give-the-password-a-different-way": {
-    "text": "Passe a senha de outra forma, como uma ligação ou uma mensagem de texto, e nunca no mesmo email. A outra pessoa abre o arquivo com Abrir um arquivo enviado, no Locker dela.",
+    "text": "Passe a senha de outra forma, como uma ligação ou uma mensagem de texto, e nunca no mesmo email. A outra pessoa abre o arquivo com Abrir um arquivo enviado, no Cofre (Locker) dela.",
     "source": "1b7a08b8266b"
   },
   "locker.give-the-password-a-different-way-2": {
@@ -11012,7 +11012,7 @@
     "source": "a9f690169703"
   },
   "home.go-live-to-the-places-you": {
-    "text": "Entrar ao vivo: nos lugares para onde você transmite, pelo Live Broadcast",
+    "text": "Entrar ao vivo: nos lugares para onde você transmite, a partir da Transmissão (Live Broadcast)",
     "source": "77b987635721"
   },
   "locker.go-on": {
@@ -13176,7 +13176,7 @@
     "source": "4d08e86b0ba2"
   },
   "locker.it-becomes-an-ordinary-file-in": {
-    "text": "Ele se torna um arquivo comum no mesmo lugar, e as versões anteriores que o Locker guardou dele são removidas. Você pode bloqueá-lo de novo quando quiser.",
+    "text": "Ele se torna um arquivo comum no mesmo lugar, e as versões anteriores que o Cofre (Locker) guardou dele são removidas. Você pode bloqueá-lo de novo quando quiser.",
     "source": "edc5654cc244"
   },
   "mail.it-goes-to": {
@@ -13200,7 +13200,7 @@
     "source": "668b7b14f675"
   },
   "locker.it-is-removed-for-good-with": {
-    "text": "Ele é removido de vez, junto com as versões anteriores que o Locker guardou dele. Isso não pode ser desfeito.",
+    "text": "Ele é removido de vez, junto com as versões anteriores que o Cofre (Locker) guardou dele. Isso não pode ser desfeito.",
     "source": "0add2a7bb664"
   },
   "mail.smime.it-is-shown-as-plain-text": {
@@ -14504,11 +14504,11 @@
     "source": "b64ac05f17e6"
   },
   "studio.live-broadcast": {
-    "text": "Transmissão ao Vivo",
+    "text": "Live Broadcast",
     "source": "22aa48cd867d"
   },
   "studio.window.live-broadcast-settings": {
-    "text": "Configurações da Transmissão ao Vivo…",
+    "text": "Configurações do Live Broadcast…",
     "source": "4ca7342abbff"
   },
   "studio.window.live-destinations": {
@@ -17664,7 +17664,7 @@
     "source": "a08f0f94673a"
   },
   "base.not-shown-as-data-files-cannot": {
-    "text": "Não exibidas, pois o Data Files não pode exibi-las: {tables}.",
+    "text": "Não exibidas, pois os Arquivos de Dados (Data Files) não podem exibi-las: {tables}.",
     "source": "ddfa2ced7beb"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
@@ -17748,7 +17748,7 @@
     "source": "9ec690affc17"
   },
   "profiles.nothing-else-is-lost-each-place": {
-    "text": "Nada mais é perdido. Cada lugar pede a senha na próxima vez que precisar dela: servidores do Email, do Calendário e dos Contatos, o Talk e Data Files.",
+    "text": "Nada mais é perdido. Cada lugar pede a senha na próxima vez que precisar dela: servidores do Email, do Calendário e dos Contatos, o Talk e os Arquivos de Dados (Data Files).",
     "source": "81cc2adb98ca"
   },
   "locker.nothing-has-been-changed-if-you": {
@@ -21080,7 +21080,7 @@
     "source": "bf53fb475896"
   },
   "home.record-a-screen-a-screen-a": {
-    "text": "Gravar uma tela: uma tela, uma janela ou a sua câmera, com som, no Recorder",
+    "text": "Gravar uma tela: uma tela, uma janela ou a sua câmera, com som, no Gravador (Recorder)",
     "source": "537961d71048"
   },
   "common.record-again": {
@@ -21152,11 +21152,11 @@
     "source": "b984d066f603"
   },
   "studio.settings-dialog.recorder-settings": {
-    "text": "Configurações do gravador",
+    "text": "Configurações do Recorder",
     "source": "da60bfaf87ff"
   },
   "studio.window.recorder-settings": {
-    "text": "Configurações do gravador…",
+    "text": "Configurações do Recorder…",
     "source": "60e15c2b27b8"
   },
   "common.recording": {
@@ -22836,7 +22836,7 @@
     "source": "e281b824c7ea"
   },
   "common.rutba-image-project-rimg": {
-    "text": "Projeto de Imagem Rutba (.rimg)",
+    "text": "Projeto Rutba Image (.rimg)",
     "source": "35f85ae91ec9"
   },
   "registry.rutba-mail": {
@@ -22912,7 +22912,7 @@
     "source": "9ccbb7b0b457"
   },
   "common.rutba-recordings": {
-    "text": "Gravações Rutba",
+    "text": "Rutba Recordings",
     "source": "325c751e9853"
   },
   "studio.setups-store.rutba-studio-setups": {
@@ -22928,7 +22928,7 @@
     "source": "06f4a9181c8d"
   },
   "common.rutba-video-project-rvid": {
-    "text": "Projeto de Vídeo Rutba (.rvid)",
+    "text": "Projeto Rutba Video (.rvid)",
     "source": "7eab552ba957"
   },
   "registry.rutba-worksheets": {
@@ -26476,7 +26476,7 @@
     "source": "df119711ede3"
   },
   "common.studio": {
-    "text": "Estúdio",
+    "text": "Studio",
     "source": "0aa91af2ec4c"
   },
   "common.style": {
@@ -26896,7 +26896,7 @@
     "source": "3975b6ba21ee"
   },
   "home.take-a-picture-the-recorder-opens": {
-    "text": "Tirar uma foto: o Recorder abre e tira uma foto do que está mostrando",
+    "text": "Tirar uma foto: o Gravador (Recorder) abre e tira uma foto do que está mostrando",
     "source": "c8378bc06f24"
   },
   "base.people.take-it-away": {
@@ -27652,11 +27652,11 @@
     "source": "1d8c64ed765e"
   },
   "engine.the-data-files-copy-needs-a": {
-    "text": "A cópia do Data Files precisa de um arquivo próprio. Escolha outro nome ou pasta.",
+    "text": "A cópia nos Arquivos de Dados (Data Files) precisa de um arquivo próprio. Escolha outro nome ou pasta.",
     "source": "b7ddf45551bf"
   },
   "home.the-office-apps-are-on-add": {
-    "text": "Os aplicativos do Office estão ativados. Adicione o Talk, o Data Files e os aplicativos do Studio quando quiser, e desative o que não usar, a qualquer momento.",
+    "text": "Os aplicativos do Office estão ativados. Adicione o Talk, os Arquivos de Dados (Data Files) e os aplicativos do Studio quando quiser, e desative o que não usar, a qualquer momento.",
     "source": "328297894902"
   },
   "pdf.the-pdf-could-not-be-saved": {
@@ -27960,7 +27960,7 @@
     "source": "5247422a086e"
   },
   "base.links.the-engine-keeps-the-records-data": {
-    "text": "O mecanismo guarda os registros: o Data Files os lê dele e salva cada alteração diretamente nele. Todos os computadores vinculados ao mesmo mecanismo trabalham nos mesmos registros.",
+    "text": "O mecanismo guarda os registros: os Arquivos de Dados (Data Files) os leem dele e salvam cada alteração diretamente nele. Todos os computadores vinculados ao mesmo mecanismo trabalham nos mesmos registros.",
     "source": "e0207c80190a"
   },
   "base.links.the-engines": {
@@ -28844,7 +28844,7 @@
     "source": "46d46b934332"
   },
   "base.sources.the-source-keeps-the-records-data": {
-    "text": "A origem guarda os registros. O Data Files os lê para uma tabela aqui, somente leitura, e os lê novamente conforme um agendamento e quando você atualiza.",
+    "text": "A origem guarda os registros. Os Arquivos de Dados (Data Files) os leem para uma tabela aqui, somente leitura, e os leem novamente conforme um agendamento e quando você atualiza.",
     "source": "79cee31b8e53"
   },
   "mail.archive.the-sources-were-opened-for-reading": {
@@ -29572,19 +29572,19 @@
     "source": "d16e6b944ce3"
   },
   "engine.this-database-was-made-by-another-2": {
-    "text": "Este banco de dados foi criado por outro programa, então o design dele não é alterado aqui. Crie uma cópia do Data Files para alterar o design.",
+    "text": "Este banco de dados foi criado por outro programa, então o design dele não é alterado aqui. Crie uma cópia nos Arquivos de Dados (Data Files) para alterar o design.",
     "source": "bdea4ff9cd77"
   },
   "base.this-database-was-made-by-another": {
-    "text": "Este banco de dados foi criado por outro programa. As alterações nos registros vão direto para o arquivo dele, e nada mais nele é alterado. Crie uma cópia do Data Files para alterar o design.",
+    "text": "Este banco de dados foi criado por outro programa. As alterações nos registros vão direto para o arquivo dele, e nada mais nele é alterado. Crie uma cópia nos Arquivos de Dados (Data Files) para alterar o design.",
     "source": "901fb7cbec72"
   },
   "base.this-database-was-made-by-another-2": {
-    "text": "Este banco de dados foi criado por outro programa. Ele está aberto somente para leitura, e nada é adicionado ao arquivo dele. Clique em Permitir alterações para alterar os registros ou crie uma cópia do Data Files para alterar o design.",
+    "text": "Este banco de dados foi criado por outro programa. Ele está aberto somente para leitura, e nada é adicionado ao arquivo dele. Clique em Permitir alterações para alterar os registros ou crie uma cópia nos Arquivos de Dados (Data Files) para alterar o design.",
     "source": "ed77aa7838b8"
   },
   "engine.this-database-was-made-by-another-3": {
-    "text": "Este banco de dados foi criado por outro programa. Abra-o para leitura ou crie uma cópia do Data Files para alterar o design.",
+    "text": "Este banco de dados foi criado por outro programa. Abra-o para leitura ou crie uma cópia nos Arquivos de Dados (Data Files) para alterar o design.",
     "source": "96bea0765327"
   },
   "slides.this-deck-has-no-layouts-of": {
@@ -29756,7 +29756,7 @@
     "source": "6a0eb9a7a97e"
   },
   "base.this-is-a-data-files-copy": {
-    "text": "Esta é uma cópia do Data Files. O arquivo original continua como estava.",
+    "text": "Esta é uma cópia nos Arquivos de Dados (Data Files). O arquivo original continua como estava.",
     "source": "3f73aaaa990c"
   },
   "engine.this-is-a-gltf-version-file": {
@@ -29772,11 +29772,11 @@
     "source": "c41957136902"
   },
   "engine.this-is-not-a-rutba-image": {
-    "text": "Este não é um projeto de Imagem Rutba.",
+    "text": "Este não é um projeto Rutba Image.",
     "source": "4e8e7b6fecf6"
   },
   "engine.this-is-not-a-rutba-image-2": {
-    "text": "Este não é um projeto de Imagem Rutba: não é um zip.",
+    "text": "Este não é um projeto Rutba Image: não é um zip.",
     "source": "9c3d32f19dd8"
   },
   "engine.this-is-not-a-binary-gltf": {
@@ -29804,7 +29804,7 @@
     "source": "737a18f6eb07"
   },
   "locker.this-is-your-locker-folder": {
-    "text": "Esta é a sua pasta do Locker.",
+    "text": "Esta é a sua pasta do Cofre (Locker).",
     "source": "1218fd3ca5b3"
   },
   "word.mailings.this-letter-takes-its-recipients-from": {
@@ -32164,11 +32164,11 @@
     "source": "248094cdc460"
   },
   "locker.when-the-locker-locks-files-you": {
-    "text": "Quando o Locker bloquear, arquivos que você desbloqueou",
+    "text": "Quando o Cofre (Locker) bloquear, arquivos que você desbloqueou",
     "source": "fe3763febbff"
   },
   "locker.when-the-locker-locks-temporary-copies": {
-    "text": "Quando o Locker bloquear, cópias temporárias de arquivos que você abriu",
+    "text": "Quando o Cofre (Locker) bloquear, cópias temporárias de arquivos que você abriu",
     "source": "85eed2d2a061"
   },
   "word.mailings.when-this-holds-the-fields-after": {
@@ -32792,7 +32792,7 @@
     "source": "bf54ca280807"
   },
   "locker.your-locker-folder-is-ready-put": {
-    "text": "Sua pasta do Locker está pronta. Coloque arquivos nela e depois bloqueie-os aqui.",
+    "text": "Sua pasta do Cofre (Locker) está pronta. Coloque arquivos nela e depois bloqueie-os aqui.",
     "source": "631f0118426c"
   },
   "base.trust.your-answer-is-kept-for-this": {
@@ -36708,7 +36708,7 @@
     "source": "b9c70b357df5"
   },
   "locker.n-folders-could-not-be-reached": {
-    "text": "Não foi possível acessar {n} pastas. Elas recebem a nova chave de recuperação na próxima vez que estiverem disponíveis quando o Locker for aberto.",
+    "text": "Não foi possível acessar {n} pastas. Elas recebem a nova chave de recuperação na próxima vez que estiverem disponíveis quando o Cofre (Locker) for aberto.",
     "source": "8fe3cd166f97"
   },
   "studio.n-frames-a-second": {

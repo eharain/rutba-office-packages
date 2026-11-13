@@ -101,6 +101,12 @@ the pack, so the two stay in step.
 | Image (the editor) | Editor de Imagem |
 | Video | Vídeo |
 | Home (the launcher) | Início |
+| Talk | Talk |
+| Locker | Cofre |
+| Data Files (the database's file app) | Arquivos de Dados |
+| Studio | Studio |
+| Recorder | Gravador |
+| Broadcast | Transmissão |
 
 ## Tabs and frame
 

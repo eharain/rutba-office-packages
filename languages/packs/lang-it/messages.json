@@ -14504,11 +14504,11 @@
     "source": "b64ac05f17e6"
   },
   "studio.live-broadcast": {
-    "text": "Trasmissione in diretta",
+    "text": "Live Broadcast",
     "source": "22aa48cd867d"
   },
   "studio.window.live-broadcast-settings": {
-    "text": "Impostazioni trasmissione in diretta…",
+    "text": "Impostazioni Live Broadcast…",
     "source": "4ca7342abbff"
   },
   "studio.window.live-destinations": {
@@ -14632,11 +14632,11 @@
     "source": "5d37d431109d"
   },
   "locker.locker-password": {
-    "text": "Password del Locker",
+    "text": "Password Locker",
     "source": "8fd9b0535d18"
   },
   "locker.locker-settings": {
-    "text": "Impostazioni del Locker",
+    "text": "Impostazioni Locker",
     "source": "008357df3ff2"
   },
   "word.forms.locking": {
@@ -21152,11 +21152,11 @@
     "source": "b984d066f603"
   },
   "studio.settings-dialog.recorder-settings": {
-    "text": "Impostazioni di registrazione",
+    "text": "Impostazioni Recorder",
     "source": "da60bfaf87ff"
   },
   "studio.window.recorder-settings": {
-    "text": "Impostazioni di registrazione…",
+    "text": "Impostazioni Recorder…",
     "source": "60e15c2b27b8"
   },
   "common.recording": {
@@ -22824,7 +22824,7 @@
     "source": "6781f90c683b"
   },
   "base.rutba-database-rbase": {
-    "text": "Database Rutba (.rbase)",
+    "text": "Rutba Database (.rbase)",
     "source": "49f0daeaa611"
   },
   "registry.rutba-documents": {
@@ -22836,7 +22836,7 @@
     "source": "e281b824c7ea"
   },
   "common.rutba-image-project-rimg": {
-    "text": "Progetto Immagine Rutba (.rimg)",
+    "text": "Progetto Rutba Image (.rimg)",
     "source": "35f85ae91ec9"
   },
   "registry.rutba-mail": {
@@ -22912,7 +22912,7 @@
     "source": "9ccbb7b0b457"
   },
   "common.rutba-recordings": {
-    "text": "Registrazioni Rutba",
+    "text": "Rutba Recordings",
     "source": "325c751e9853"
   },
   "studio.setups-store.rutba-studio-setups": {
@@ -22928,7 +22928,7 @@
     "source": "06f4a9181c8d"
   },
   "common.rutba-video-project-rvid": {
-    "text": "Progetto Video Rutba (.rvid)",
+    "text": "Progetto Rutba Video (.rvid)",
     "source": "7eab552ba957"
   },
   "registry.rutba-worksheets": {
@@ -29772,11 +29772,11 @@
     "source": "c41957136902"
   },
   "engine.this-is-not-a-rutba-image": {
-    "text": "Questo non è un progetto Immagine Rutba.",
+    "text": "Questo non è un progetto Rutba Image.",
     "source": "4e8e7b6fecf6"
   },
   "engine.this-is-not-a-rutba-image-2": {
-    "text": "Questo non è un progetto Immagine Rutba: non è un file zip.",
+    "text": "Questo non è un progetto Rutba Image: non è un file zip.",
     "source": "9c3d32f19dd8"
   },
   "engine.this-is-not-a-binary-gltf": {

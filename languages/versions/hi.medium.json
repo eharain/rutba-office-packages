@@ -560,6 +560,7 @@
   "shell.rutba-office-version-is-downloaded-restart": {"text":"रुतबा ऑफ़िस (Rutba Office) {version} डाउनलोड हो गया है। अद्यतन करने के लिए पुनः आरंभ करें, या यह बाहर निकलने पर इंस्टॉल हो जाएगा","source":"ef28bb66ae1a"},
   "shell.rutba-office-version-is-ready-to": {"text":"रुतबा ऑफ़िस (Rutba Office) {version} इंस्टॉल करने के लिए तैयार है","source":"9f8e0a323b51"},
   "registry.rutba-recorder": {"text":"Rutba Recorder","source":"9ccbb7b0b457"},
+  "common.rutba-recordings": {"text":"Rutba Recordings","source":"325c751e9853"},
   "studio.setups-store.rutba-studio-setups": {"text":"रुतबा स्टूडियो (Rutba Studio) सेटअप","source":"5ff12d081fee"},
   "registry.rutba-talk": {"text":"Rutba Talk","source":"88ae37f4323e"},
   "registry.rutba-video": {"text":"Rutba Video","source":"06f4a9181c8d"},

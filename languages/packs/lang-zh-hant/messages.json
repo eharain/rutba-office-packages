@@ -1044,7 +1044,7 @@
     "source": "ffdd0baabe66"
   },
   "profiles.a-profile-can-ask-for-a": {
-    "text": "設定檔可以在開啟前要求輸入密碼。其儲存的密碼、最近使用的檔案、郵件、行事曆、連絡人與通話訊息，都會以此密碼密封。",
+    "text": "設定檔可以在開啟前要求輸入密碼。其儲存的密碼、最近使用的檔案、郵件、行事曆、連絡人與通話 (Talk) 訊息，都會以此密碼密封。",
     "source": "10ea9d3dbdec"
   },
   "template-gallery.a-proposal-with-a-summary-the": {
@@ -1052,7 +1052,7 @@
     "source": "fd99634235a4"
   },
   "ai-tools-dialog.a-protected-database-is-reached-only": {
-    "text": "受保護的資料庫只能以管理員在資料檔案中為 AI 工具選擇的角色存取，絕不會使用可變更其設計的角色。",
+    "text": "受保護的資料庫只能以管理員在資料檔案 (Data Files) 中為 AI 工具選擇的角色存取，絕不會使用可變更其設計的角色。",
     "source": "95c6d97202ea"
   },
   "base.ai-tools.a-protected-database-is-reached-only": {
@@ -1120,7 +1120,7 @@
     "source": "54c978a78192"
   },
   "contacts.a-room-or-a-resource-is": {
-    "text": "會議室或資源會被預約，而不是邀請加入通話",
+    "text": "會議室或資源會被預約，而不是邀請加入 Talk",
     "source": "ef8c449341cc"
   },
   "contacts.a-room-or-a-resource-needs": {
@@ -2894,7 +2894,7 @@
     "source": "f7e75b8ebc5e"
   },
   "base.sources.another-data-files-database": {
-    "text": "其他資料檔案資料庫",
+    "text": "其他 Data Files 資料庫",
     "source": "a3cc390853c1"
   },
   "talk.address.another-address-of-yours": {
@@ -2942,7 +2942,7 @@
     "source": "eb448ef89a67"
   },
   "locker.anyone-at-this-computer-can-read": {
-    "text": "在您再次解除鎖定保險箱之前，這部電腦上的任何人都能讀取這些複本。",
+    "text": "在您再次解除鎖定保險箱 (Locker) 之前，這部電腦上的任何人都能讀取這些複本。",
     "source": "3109eadb508c"
   },
   "mail.dialogs.anything-not-from-a-safe-sender": {
@@ -3278,7 +3278,7 @@
     "source": "a999a07704c8"
   },
   "talk.connect.ask-name-in-talk-now-with": {
-    "text": "立即在通話中邀請 {name}，不寄送電子郵件",
+    "text": "立即在通話 (Talk) 中邀請 {name}，不寄送電子郵件",
     "source": "c49711615630"
   },
   "word.mailings.ask-a-question-put-when-the": {
@@ -3294,7 +3294,7 @@
     "source": "75cef61d95af"
   },
   "talk.connect.asked-in-talk": {
-    "text": "已在通話中邀請",
+    "text": "已在通話 (Talk) 中邀請",
     "source": "128e4f15529d"
   },
   "talk.connect.asked-to-be-in-contact-with": {
@@ -3310,7 +3310,7 @@
     "source": "b398c3d5fa16"
   },
   "talk.connect.asked-name-in-talk-they-can": {
-    "text": "已在通話中邀請 {name}。對方可在那裡接受。",
+    "text": "已在通話 (Talk) 中邀請 {name}。對方可在那裡接受。",
     "source": "6c1ec46652f3"
   },
   "mail.safety.asking-the-server-for-the-message": {
@@ -3326,7 +3326,7 @@
     "source": "b78479f59b14"
   },
   "contacts.asks-name-to-connect-in-talk": {
-    "text": "透過電子郵件邀請 {name} 在通話中連線",
+    "text": "透過電子郵件邀請 {name} 在通話 (Talk) 中連線",
     "source": "e9dfca920a23"
   },
   "word.mailings.ask": {
@@ -6936,11 +6936,11 @@
     "source": "cec3a9b89b2e"
   },
   "common.data-files": {
-    "text": "資料檔案",
+    "text": "Data Files",
     "source": "20721a0c4bc7"
   },
   "word.mailings.data-files-databases": {
-    "text": "資料檔案資料庫",
+    "text": "Data Files 資料庫",
     "source": "24e8c9743f1a"
   },
   "sheets.ribbon.data-table": {
@@ -8302,7 +8302,7 @@
     "source": "ba23d84777b1"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
-    "text": "每個郵件帳戶、行事曆、通訊錄、資料庫與資料夾各有其設定，也會顯示在各自的應用程式中，錄製器亦同。在您選擇前，所有項目皆為「關閉」。不會刪除或移動任何內容，任何要傳送的內容都會先在此等候您按下按鈕。",
+    "text": "每個郵件帳戶、行事曆、通訊錄、資料庫與資料夾各有其設定，也會顯示在各自的應用程式中，錄製器 (Recorder) 亦同。在您選擇前，所有項目皆為「關閉」。不會刪除或移動任何內容，任何要傳送的內容都會先在此等候您按下按鈕。",
     "source": "0fd0a5b12aaa"
   },
   "word.mailings.each-message-is-the-merged-letter": {
@@ -8326,7 +8326,7 @@
     "source": "26ec3330f515"
   },
   "profiles.each-profile-keeps-its-own-settings": {
-    "text": "每個設定檔都保有自己的設定、儲存的密碼、最近使用的檔案、郵件、行事曆、連絡人、通話登入資訊與 AI 工具設定。設定檔可並排開啟，各自在專屬的視窗中執行，標題列會顯示其名稱與色彩。",
+    "text": "每個設定檔都保有自己的設定、儲存的密碼、最近使用的檔案、郵件、行事曆、連絡人、通話 (Talk) 登入資訊與 AI 工具設定。設定檔可並排開啟，各自在專屬的視窗中執行，標題列會顯示其名稱與色彩。",
     "source": "865fe870e5d0"
   },
   "mail.dialogs.each-sender-hears-from-this-once": {
@@ -10898,7 +10898,7 @@
     "source": "607e298f1b12"
   },
   "locker.give-the-password-a-different-way": {
-    "text": "請以其他方式提供密碼，例如打電話或傳簡訊，切勿放在同一封郵件中。對方可在其保險箱中使用「開啟收到的檔案」開啟檔案。",
+    "text": "請以其他方式提供密碼，例如打電話或傳簡訊，切勿放在同一封郵件中。對方可在其保險箱 (Locker) 中使用「開啟收到的檔案」開啟檔案。",
     "source": "1b7a08b8266b"
   },
   "locker.give-the-password-a-different-way-2": {
@@ -10962,7 +10962,7 @@
     "source": "a9f690169703"
   },
   "home.go-live-to-the-places-you": {
-    "text": "開始直播：從直播應用程式串流至您的平台",
+    "text": "開始直播：從直播 (Live Broadcast) 串流至您的平台",
     "source": "77b987635721"
   },
   "locker.go-on": {
@@ -11900,11 +11900,11 @@
     "source": "ea23c1944a54"
   },
   "talk.invite-email.i-would-like-to-talk-with": {
-    "text": "我想在 Rutba 通話上與您交談，我的通話和訊息都在那裡。",
+    "text": "我想在 Rutba 通話 (Talk) 上與您交談，我的通話和訊息都在那裡。",
     "source": "b99c4fd6cca9"
   },
   "talk.invite-email.i-would-like-to-talk-with-2": {
-    "text": "我想在 Rutba 通話上與您交談，我的通話和訊息都在那裡。這是免費的，您只需要下方的連結。",
+    "text": "我想在 Rutba 通話 (Talk) 上與您交談，我的通話和訊息都在那裡。這是免費的，您只需要下方的連結。",
     "source": "f8d8afa22179"
   },
   "mail.dialogs.im-away-until-and-will-answer": {
@@ -12232,7 +12232,7 @@
     "source": "580d491e7b78"
   },
   "talk.connect.in-your-talk-contacts": {
-    "text": "在您的通話連絡人中",
+    "text": "在您的通話 (Talk) 連絡人中",
     "source": "6d460ac05145"
   },
   "video.in-from-out-to": {
@@ -13024,7 +13024,7 @@
     "source": "95a6641d2f44"
   },
   "contacts.invite-to-talk": {
-    "text": "邀請加入通話",
+    "text": "邀請加入 Talk",
     "source": "9ba55d8c06b6"
   },
   "talk.invite.invite-with-a-link": {
@@ -13112,7 +13112,7 @@
     "source": "4d08e86b0ba2"
   },
   "locker.it-becomes-an-ordinary-file-in": {
-    "text": "它會在原處變成一般檔案，並移除保險箱為它保留的舊版本。您隨時可以再次鎖定它。",
+    "text": "它會在原處變成一般檔案，並移除保險箱 (Locker) 為它保留的舊版本。您隨時可以再次鎖定它。",
     "source": "edc5654cc244"
   },
   "mail.it-goes-to": {
@@ -13136,7 +13136,7 @@
     "source": "668b7b14f675"
   },
   "locker.it-is-removed-for-good-with": {
-    "text": "它會連同保險箱為它保留的舊版本一起永久移除。此動作無法復原。",
+    "text": "它會連同保險箱 (Locker) 為它保留的舊版本一起永久移除。此動作無法復原。",
     "source": "0add2a7bb664"
   },
   "mail.smime.it-is-shown-as-plain-text": {
@@ -13206,7 +13206,7 @@
     "source": "0a66fa7e26e5"
   },
   "profiles.its-settings-saved-passwords-recent-files": {
-    "text": "其設定、儲存的密碼、最近使用的檔案、郵件、行事曆、連絡人、通話訊息與 AI 工具設定（{size}）會移至資源回收筒。您儲存在其他位置（例如「文件」中）的文件會保留在原處。",
+    "text": "其設定、儲存的密碼、最近使用的檔案、郵件、行事曆、連絡人、通話 (Talk) 訊息與 AI 工具設定（{size}）會移至資源回收筒。您儲存在其他位置（例如「文件」中）的文件會保留在原處。",
     "source": "4d38b70d16d0"
   },
   "sheets.receipt-row.its-sums-agree-so-its-figures": {
@@ -14432,11 +14432,11 @@
     "source": "b64ac05f17e6"
   },
   "studio.live-broadcast": {
-    "text": "現場直播",
+    "text": "Live Broadcast",
     "source": "22aa48cd867d"
   },
   "studio.window.live-broadcast-settings": {
-    "text": "直播設定…",
+    "text": "Live Broadcast 設定…",
     "source": "4ca7342abbff"
   },
   "studio.window.live-destinations": {
@@ -14556,15 +14556,15 @@
     "source": "aa6f366ce2eb"
   },
   "locker.locker": {
-    "text": "保險箱",
+    "text": "Locker",
     "source": "5d37d431109d"
   },
   "locker.locker-password": {
-    "text": "保險箱密碼",
+    "text": "Locker 密碼",
     "source": "8fd9b0535d18"
   },
   "locker.locker-settings": {
-    "text": "保險箱設定",
+    "text": "Locker 設定",
     "source": "008357df3ff2"
   },
   "word.forms.locking": {
@@ -14876,7 +14876,7 @@
     "source": "93635481cdd7"
   },
   "base.make-a-data-files-copy": {
-    "text": "建立資料檔案副本",
+    "text": "建立 Data Files 副本",
     "source": "737f8932bf96"
   },
   "talk.invite.make-a-link": {
@@ -14920,7 +14920,7 @@
     "source": "6e8367277fb0"
   },
   "locker.make-my-locker-folder": {
-    "text": "建立我的保險箱資料夾",
+    "text": "建立我的 Locker 資料夾",
     "source": "25171aa5fd09"
   },
   "locker.make-the-locker": {
@@ -16046,7 +16046,7 @@
     "source": "2d4449bf2a58"
   },
   "talk.address.my-address-in-talk": {
-    "text": "我在通話中的地址",
+    "text": "我在 Talk 中的地址",
     "source": "c06c86b814f9"
   },
   "talk.address.my-address": {
@@ -16454,7 +16454,7 @@
     "source": "78f5975a5d70"
   },
   "mail.dialogs.new-messages-and-invitations-sent-from": {
-    "text": "新郵件，以及從行事曆與通話傳送的邀請，都會從此帳戶寄出。",
+    "text": "新郵件，以及從行事曆與通話 (Talk) 傳送的邀請，都會從此帳戶寄出。",
     "source": "2caa2079b2a6"
   },
   "sheets.queries.new-name": {
@@ -17498,7 +17498,7 @@
     "source": "c9a7c5601ef0"
   },
   "talk.invite-email.not-every-invitation-went-by-email": {
-    "text": "並非每封邀請都已透過電子郵件寄出。受邀者仍可在通話中接受，您也可以從已邀請的人員清單中，以其他方式傳送連結給對方。",
+    "text": "並非每封邀請都已透過電子郵件寄出。受邀者仍可在通話 (Talk) 中接受，您也可以從已邀請的人員清單中，以其他方式傳送連結給對方。",
     "source": "4336568dd105"
   },
   "studio.not-found": {
@@ -17584,7 +17584,7 @@
     "source": "a08f0f94673a"
   },
   "base.not-shown-as-data-files-cannot": {
-    "text": "未顯示，因為資料檔案無法顯示這些資料表：{tables}。",
+    "text": "未顯示，因為資料檔案 (Data Files) 無法顯示這些資料表：{tables}。",
     "source": "ddfa2ced7beb"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
@@ -17668,7 +17668,7 @@
     "source": "9ec690affc17"
   },
   "profiles.nothing-else-is-lost-each-place": {
-    "text": "不會遺失其他任何內容。各處會在下次需要時要求輸入其密碼：郵件、行事曆與連絡人伺服器、通話及資料檔案。",
+    "text": "不會遺失其他任何內容。各處會在下次需要時要求輸入其密碼：郵件、行事曆與連絡人伺服器、通話 (Talk) 及資料檔案 (Data Files)。",
     "source": "81cc2adb98ca"
   },
   "locker.nothing-has-been-changed-if-you": {
@@ -19306,7 +19306,7 @@
     "source": "f6326dd85de6"
   },
   "calendar.people-from-contacts-and-talk": {
-    "text": "連絡人與通話中的人員",
+    "text": "連絡人與通話 (Talk) 中的人員",
     "source": "5a0150461e0e"
   },
   "talk.invite-email.people-to-invite": {
@@ -20996,7 +20996,7 @@
     "source": "bf53fb475896"
   },
   "home.record-a-screen-a-screen-a": {
-    "text": "錄製螢幕：在錄製器中錄製螢幕、視窗或您的相機，並包含聲音",
+    "text": "錄製螢幕：在錄製器 (Recorder) 中錄製螢幕、視窗或您的相機，並包含聲音",
     "source": "537961d71048"
   },
   "common.record-again": {
@@ -21064,15 +21064,15 @@
     "source": "70c917f9e6a5"
   },
   "common.recorder": {
-    "text": "錄製器",
+    "text": "Recorder",
     "source": "b984d066f603"
   },
   "studio.settings-dialog.recorder-settings": {
-    "text": "錄製器設定",
+    "text": "Recorder 設定",
     "source": "da60bfaf87ff"
   },
   "studio.window.recorder-settings": {
-    "text": "錄製器設定…",
+    "text": "Recorder 設定…",
     "source": "60e15c2b27b8"
   },
   "common.recording": {
@@ -22726,7 +22726,7 @@
     "source": "15285c38951b"
   },
   "registry.rutba-data-files": {
-    "text": "Rutba 資料檔案",
+    "text": "Rutba Data Files",
     "source": "6781f90c683b"
   },
   "base.rutba-database-rbase": {
@@ -22814,11 +22814,11 @@
     "source": "5b8e1365b513"
   },
   "registry.rutba-recorder": {
-    "text": "Rutba 錄製器",
+    "text": "Rutba Recorder",
     "source": "9ccbb7b0b457"
   },
   "common.rutba-recordings": {
-    "text": "Rutba 錄製內容",
+    "text": "Rutba Recordings",
     "source": "325c751e9853"
   },
   "studio.setups-store.rutba-studio-setups": {
@@ -22826,7 +22826,7 @@
     "source": "5ff12d081fee"
   },
   "registry.rutba-talk": {
-    "text": "Rutba 通話",
+    "text": "Rutba Talk",
     "source": "88ae37f4323e"
   },
   "registry.rutba-video": {
@@ -24956,7 +24956,7 @@
     "source": "7c04fead2759"
   },
   "talk.invite.sign-in-to-talk-to-accept": {
-    "text": "請登入通話以接受您開啟的邀請。",
+    "text": "請登入通話 (Talk) 以接受您開啟的邀請。",
     "source": "6f7a07bbe2cf"
   },
   "base.people.sign-in-to-name": {
@@ -26784,7 +26784,7 @@
     "source": "3975b6ba21ee"
   },
   "home.take-a-picture-the-recorder-opens": {
-    "text": "拍攝相片：開啟錄製器，並拍下其顯示的畫面",
+    "text": "拍攝相片：開啟錄製器 (Recorder)，並拍下其顯示的畫面",
     "source": "c8378bc06f24"
   },
   "base.people.take-it-away": {
@@ -26876,23 +26876,23 @@
     "source": "6bc8b36c1214"
   },
   "common.talk": {
-    "text": "通話",
+    "text": "Talk",
     "source": "449f5a775762"
   },
   "talk.address.talk-could-not-do-that-now": {
-    "text": "通話目前無法執行此動作。請稍後再試。",
+    "text": "通話 (Talk) 目前無法執行此動作。請稍後再試。",
     "source": "724fa466cd0e"
   },
   "talk.invite.talk-could-not-do-that-try": {
-    "text": "通話無法執行此動作。請稍後再試。",
+    "text": "通話 (Talk) 無法執行此動作。請稍後再試。",
     "source": "dc5636efcd10"
   },
   "talk.invite.talk-is-not-connected-try-again": {
-    "text": "通話未連線。請稍後再試。",
+    "text": "通話 (Talk) 未連線。請稍後再試。",
     "source": "a4eca2b3e847"
   },
   "talk.invite.talk-with-me-on-rutba-talk": {
-    "text": "在 Rutba 通話上與我交談",
+    "text": "在 Rutba 通話 (Talk) 上與我交談",
     "source": "f42685801c91"
   },
   "talk.talk-with-your-contacts": {
@@ -26904,11 +26904,11 @@
     "source": "7c2773a79716"
   },
   "talk.address.talks-server-keeps-only-your-sign": {
-    "text": "通話伺服器目前只保存您的登入地址，因此其他人看到的、以及能找到您的，都是這個地址。日後的通話伺服器版本將可新增更多地址。",
+    "text": "通話 (Talk) 伺服器目前只保存您的登入地址，因此其他人看到的、以及能找到您的，都是這個地址。日後的通話伺服器版本將可新增更多地址。",
     "source": "78efb0be995e"
   },
   "talk.address.talks-server-keeps-only-your-sign-2": {
-    "text": "通話伺服器目前只保存您的登入地址。",
+    "text": "通話 (Talk) 伺服器目前只保存您的登入地址。",
     "source": "80760ca12627"
   },
   "common.tall": {
@@ -27250,7 +27250,7 @@
     "source": "1020211ad9ca"
   },
   "talk.address.that-address-is-proved-by-someone": {
-    "text": "該地址已由通話中的其他人驗證。",
+    "text": "該地址已由通話 (Talk) 中的其他人驗證。",
     "source": "b262ea97ff7b"
   },
   "mail.that-attachment-is-not-stored": {
@@ -27336,11 +27336,11 @@
     "source": "82dfdc22a75c"
   },
   "talk.address.that-is-as-many-addresses-as": {
-    "text": "已達通話為每個人保存的地址數量上限。",
+    "text": "已達通話 (Talk) 為每個人保存的地址數量上限。",
     "source": "87069f035bf5"
   },
   "talk.invite.that-is-as-many-as-talk": {
-    "text": "已達通話目前可接受的上限。請稍後再試。",
+    "text": "已達通話 (Talk) 目前可接受的上限。請稍後再試。",
     "source": "2ae2e212b65f"
   },
   "engine.that-is-more-cells-than-a": {
@@ -27532,11 +27532,11 @@
     "source": "1d8c64ed765e"
   },
   "engine.the-data-files-copy-needs-a": {
-    "text": "資料檔案複本需要自己的檔案。請選擇其他名稱或資料夾。",
+    "text": "資料檔案 (Data Files) 複本需要自己的檔案。請選擇其他名稱或資料夾。",
     "source": "b7ddf45551bf"
   },
   "home.the-office-apps-are-on-add": {
-    "text": "已開啟 Office 應用程式。您可以隨時新增通話、資料檔案和 Studio 應用程式，並關閉不使用的應用程式。",
+    "text": "已開啟 Office 應用程式。您可以隨時新增通話 (Talk)、資料檔案 (Data Files) 和 Studio 應用程式，並關閉不使用的應用程式。",
     "source": "328297894902"
   },
   "pdf.the-pdf-could-not-be-saved": {
@@ -27834,7 +27834,7 @@
     "source": "5247422a086e"
   },
   "base.links.the-engine-keeps-the-records-data": {
-    "text": "記錄由引擎保存：資料檔案從引擎讀取記錄，並將每個變更直接儲存到引擎。連結到同一個引擎的每部電腦都會處理相同的記錄。",
+    "text": "記錄由引擎保存：資料檔案 (Data Files) 從引擎讀取記錄，並將每個變更直接儲存到引擎。連結到同一個引擎的每部電腦都會處理相同的記錄。",
     "source": "e0207c80190a"
   },
   "base.links.the-engines": {
@@ -28712,7 +28712,7 @@
     "source": "46d46b934332"
   },
   "base.sources.the-source-keeps-the-records-data": {
-    "text": "記錄由來源保存。資料檔案會將其讀取到此處的資料表（唯讀），並依排程及在您重新整理時再次讀取。",
+    "text": "記錄由來源保存。資料檔案 (Data Files) 會將其讀取到此處的資料表（唯讀），並依排程及在您重新整理時再次讀取。",
     "source": "79cee31b8e53"
   },
   "mail.archive.the-sources-were-opened-for-reading": {
@@ -29202,7 +29202,7 @@
     "source": "2a1104df2724"
   },
   "talk.invite.they-see-it-in-talk-if": {
-    "text": "若對方使用通話，會在其中看到。之後您也可以自行傳送連結給對方。",
+    "text": "若對方使用通話 (Talk)，會在其中看到。之後您也可以自行傳送連結給對方。",
     "source": "36b885210dfa"
   },
   "talk.invite.they-see-your-name-and-your": {
@@ -29270,7 +29270,7 @@
     "source": "1050973fa0a2"
   },
   "talk.invite.this-talk-server-does-not-take": {
-    "text": "此通話伺服器尚不接受邀請。",
+    "text": "此通話 (Talk) 伺服器尚不接受邀請。",
     "source": "9b3cb2160f1c"
   },
   "mail.this-account": {
@@ -29434,19 +29434,19 @@
     "source": "d16e6b944ce3"
   },
   "engine.this-database-was-made-by-another-2": {
-    "text": "此資料庫是由其他程式建立，因此無法在此變更其設計。請建立它的資料檔案複本以變更其設計。",
+    "text": "此資料庫是由其他程式建立，因此無法在此變更其設計。請建立它的資料檔案 (Data Files) 複本以變更其設計。",
     "source": "bdea4ff9cd77"
   },
   "base.this-database-was-made-by-another": {
-    "text": "此資料庫由其他程式建立。對其記錄的變更會直接寫入其檔案，其中的其他內容都不會變更。若要變更其設計，請建立資料檔案副本。",
+    "text": "此資料庫由其他程式建立。對其記錄的變更會直接寫入其檔案，其中的其他內容都不會變更。若要變更其設計，請建立資料檔案 (Data Files) 副本。",
     "source": "901fb7cbec72"
   },
   "base.this-database-was-made-by-another-2": {
-    "text": "此資料庫由其他程式建立。它以唯讀方式開啟，不會在其檔案中加入任何內容。若要變更其記錄，請允許變更；若要變更其設計，請建立資料檔案副本。",
+    "text": "此資料庫由其他程式建立。它以唯讀方式開啟，不會在其檔案中加入任何內容。若要變更其記錄，請允許變更；若要變更其設計，請建立資料檔案 (Data Files) 副本。",
     "source": "ed77aa7838b8"
   },
   "engine.this-database-was-made-by-another-3": {
-    "text": "此資料庫是由其他程式建立。請開啟以讀取，或建立它的資料檔案複本以變更其設計。",
+    "text": "此資料庫是由其他程式建立。請開啟以讀取，或建立它的資料檔案 (Data Files) 複本以變更其設計。",
     "source": "96bea0765327"
   },
   "slides.this-deck-has-no-layouts-of": {
@@ -29606,7 +29606,7 @@
     "source": "6c3f9e7c0db4"
   },
   "talk.this-invitation-has-been-sent-again": {
-    "text": "此邀請已重新傳送，次數已達通話允許的上限。",
+    "text": "此邀請已重新傳送，次數已達通話 (Talk) 允許的上限。",
     "source": "2855dc393b9c"
   },
   "talk.invite.this-invitation-has-ended": {
@@ -29618,7 +29618,7 @@
     "source": "6a0eb9a7a97e"
   },
   "base.this-is-a-data-files-copy": {
-    "text": "這是資料檔案副本。用來建立它的檔案保持原樣。",
+    "text": "這是資料檔案 (Data Files) 副本。用來建立它的檔案保持原樣。",
     "source": "3f73aaaa990c"
   },
   "engine.this-is-a-gltf-version-file": {
@@ -29666,7 +29666,7 @@
     "source": "737a18f6eb07"
   },
   "locker.this-is-your-locker-folder": {
-    "text": "這是您的保險箱資料夾。",
+    "text": "這是您的保險箱 (Locker) 資料夾。",
     "source": "1218fd3ca5b3"
   },
   "word.mailings.this-letter-takes-its-recipients-from": {
@@ -30052,7 +30052,7 @@
     "source": "48cc5a933316"
   },
   "talk.invite-email.those-beyond-that-are-asked-in": {
-    "text": "超出的人只會在通話中收到邀請，不會寄送電子郵件。",
+    "text": "超出的人只會在通話 (Talk) 中收到邀請，不會寄送電子郵件。",
     "source": "4ac21ba884c2"
   },
   "home.those-two-requests-and-the-mail": {
@@ -31492,7 +31492,7 @@
     "source": "e3b89e9d33f8"
   },
   "talk.connect.uses-talk": {
-    "text": "使用通話",
+    "text": "使用通話 (Talk)",
     "source": "d441c073a1c4"
   },
   "sheets.uses-a-name-that-is-not": {
@@ -32020,11 +32020,11 @@
     "source": "248094cdc460"
   },
   "locker.when-the-locker-locks-files-you": {
-    "text": "保險箱鎖定時，您已解除鎖定的檔案",
+    "text": "保險箱 (Locker) 鎖定時，您已解除鎖定的檔案",
     "source": "fe3763febbff"
   },
   "locker.when-the-locker-locks-temporary-copies": {
-    "text": "保險箱鎖定時，您所開啟檔案的暫存複本",
+    "text": "保險箱 (Locker) 鎖定時，您所開啟檔案的暫存複本",
     "source": "85eed2d2a061"
   },
   "word.mailings.when-this-holds-the-fields-after": {
@@ -32644,7 +32644,7 @@
     "source": "bf54ca280807"
   },
   "locker.your-locker-folder-is-ready-put": {
-    "text": "您的保險箱資料夾已就緒。請將檔案放入其中，然後在此鎖定它們。",
+    "text": "您的保險箱 (Locker) 資料夾已就緒。請將檔案放入其中，然後在此鎖定它們。",
     "source": "631f0118426c"
   },
   "base.trust.your-answer-is-kept-for-this": {
@@ -35746,11 +35746,11 @@
     "source": "a0567cfcdaa6"
   },
   "talk.invite.name-address-asked-a-few-days": {
-    "text": "{name} ({address}) 數天前邀請您在 Rutba 通話（Rutba Office 的通話與訊息功能）上交談，現在再次邀請您。",
+    "text": "{name} ({address}) 數天前邀請您在 Rutba 通話 (Talk) 上交談，現在再次邀請您。Rutba 通話是 Rutba Office 的通話與訊息功能。",
     "source": "e548cdf3055d"
   },
   "talk.invite.name-address-would-like-to-talk": {
-    "text": "{name} ({address}) 想在 Rutba 通話（Rutba Office 的通話與訊息功能）上與您交談。",
+    "text": "{name} ({address}) 想在 Rutba 通話 (Talk) 上與您交談。Rutba 通話是 Rutba Office 的通話與訊息功能。",
     "source": "512215def427"
   },
   "qrcode.name-px-px": {
@@ -35836,7 +35836,7 @@
     "source": "187a14cba47e"
   },
   "talk.invite.name-invites-you-to-talk-on": {
-    "text": "{name} 邀請您在 Rutba 通話上交談。可在此使用 Rutba Office 或免費的 Rutba 帳戶接受：{url}",
+    "text": "{name} 邀請您在 Rutba 通話 (Talk) 上交談。可在此使用 Rutba Office 或免費的 Rutba 帳戶接受：{url}",
     "source": "5baaffabe5f1"
   },
   "talk.invite.name-is-a-contact-already": {
@@ -35942,7 +35942,7 @@
     "source": "39f7c8c30bf9"
   },
   "profiles.name-will-ask-for-this-password": {
-    "text": "{name} 開啟前會要求輸入此密碼。其儲存的密碼、最近使用的檔案、郵件、行事曆、連絡人與通話訊息都會以此密碼密封，因此使用此 Windows 帳戶的其他人無法讀取。",
+    "text": "{name} 開啟前會要求輸入此密碼。其儲存的密碼、最近使用的檔案、郵件、行事曆、連絡人與通話 (Talk) 訊息都會以此密碼密封，因此使用此 Windows 帳戶的其他人無法讀取。",
     "source": "e1f97d84bc62"
   },
   "profiles.name-will-open-without-asking-and": {
@@ -35950,11 +35950,11 @@
     "source": "bccde320f01d"
   },
   "talk.invite.name-would-like-to-talk-with": {
-    "text": "{name} 想在 Rutba 通話上與您交談",
+    "text": "{name} 想在 Rutba 通話 (Talk) 上與您交談",
     "source": "3ac329d3988a"
   },
   "talk.invite.name-would-still-like-to-talk": {
-    "text": "{name} 仍想在 Rutba 通話上與您交談",
+    "text": "{name} 仍想在 Rutba 通話 (Talk) 上與您交談",
     "source": "76ce5296a6bf"
   },
   "calendar.invite-card.name-answer": {
@@ -36186,7 +36186,7 @@
     "source": "b9c70b357df5"
   },
   "locker.n-folders-could-not-be-reached": {
-    "text": "{n} 個資料夾無法存取。下次保險箱開啟時，若這些資料夾在此處，就會套用新的修復金鑰。",
+    "text": "{n} 個資料夾無法存取。下次保險箱 (Locker) 開啟時，若這些資料夾在此處，就會套用新的修復金鑰。",
     "source": "8fe3cd166f97"
   },
   "studio.n-frames-a-second": {

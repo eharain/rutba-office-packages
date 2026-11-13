@@ -348,7 +348,7 @@ full clause where the English is a short status.
 | Record | Datensatz |
 | Field | Feld |
 | Design (of a table or database) | Entwurf |
-| Data Files (the database app's copy) | Data Files (name; reviewer to confirm whether it is translated) |
+| Data Files (the database app's copy) | Datendateien, with (Data Files) beside it in a sentence; Data Files alone in a short label |
 | Read only | Schreibgeschützt |
 | Source | Quelle |
 | Network share | Netzwerkfreigabe |

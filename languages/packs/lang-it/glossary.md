@@ -394,6 +394,17 @@ rendering, and "Non inviato: {reason}" for the short status form.
 | Accessibility / Check Accessibility | Accessibilità / Verifica accessibilità |
 | Cc / Bcc | Cc / Ccn |
 
+## Product names
+
+The owner, 13 Nov 2026: "Use local but the English names should stay".
+
+Rutba's named products (Rutba Office, Talk, Locker, Data Files, Studio, Recorder, and the other apps this glossary's app table names) take the word the app table gives them as their local name. Where the table keeps the English (Talk | Talk), the name is the same either way.
+
+- In a sentence (a medium or a complete that is a sentence or a phrase), write the local name with the English name beside it in brackets the first time the label names it, such as "Tresor (Locker)". A second mention in the same label takes the local name alone. Where the local name is the English, write it once.
+- Where the name is a mark or a short label (a title bar, an app tile, a ribbon tab, any short version), write the English name alone.
+- The suite's generic app names (Documents, Mail, Calendar, Contacts, Pictures, and the like) are words of the language, not marks: write them as the app table gives them, with no English beside them.
+- Other companies' products and marks (Windows, PDF, YouTube, LinkedIn, Microsoft, Google, WordArt, SmartArt, QR) stay as written.
+
 ## Intents and versions
 
 ### Voice
