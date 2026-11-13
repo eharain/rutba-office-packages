@@ -42,8 +42,13 @@ export function createHandler({ loadOrt = (dir) => createRequire(path.join(dir, 
     async load({ ortDir, model, threads = 2 }) {
       const ort = loadOrt(ortDir);
       const bytes = readChecked(model.path, model.sha512);
+      // No CPU memory arena and no memory pattern: over a 72-sentence read on
+      // paritas-lab (13 Nov 2026) they kept the peak, 1.76 GB, held after the
+      // read; without them the peak was 1.26 GB and 0.89 GB after, at the same
+      // speed (0.85x against 0.87x).
       const session = await ort.InferenceSession.create(bytes, {
         executionProviders: ['cpu'], intraOpNumThreads: threads, interOpNumThreads: 1, graphOptimizationLevel: 'all',
+        enableCpuMemArena: false, enableMemPattern: false,
       });
       speaker = createSpeaker({ ort, session, vocab });
       return { inputs: session.inputNames, outputs: session.outputNames };
