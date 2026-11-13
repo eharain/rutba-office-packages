@@ -86,4 +86,7 @@ try { checked = run('tools/check-packs.mjs'); } catch (e) { checked = e.stdout |
 console.log(checked.trim().split('\n').map((l) => `  ${l}`).join('\n'));
 
 if (faults.length) { console.log(`\nbuild failed:\n${faults.map((f) => `  ${f}`).join('\n')}`); process.exit(1); }
+// Only once everything passes: the packs that may be released, for the
+// repository's release step to gather.
+console.log(`\n${run('tools/dist.mjs').trim()}`);
 console.log('\nbuild passed');

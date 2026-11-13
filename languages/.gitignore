@@ -8,6 +8,9 @@
 /packs/lang-hi/
 /packs/lang-ur/
 
+# The packs that may be released, written by tools/dist.mjs at each build.
+/dist/
+
 # Local working files: the copy of the Rutba Office code the build reads, and
 # drafts in progress.
 /work/

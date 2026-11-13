@@ -62,7 +62,13 @@ the registry's, or when `tools/check-packs.mjs` finds a fault.
 
 - `ids.json` and `labels.json`;
 - `packs/lang-en`, `packs/lang-ar`, `packs/lang-hi` and `packs/lang-ur`, the
-  English source and the three translations Rutba Office already carries.
+  English source and the three translations Rutba Office already carries;
+- `dist/v<version>/`: the packs that may be released, written by
+  `tools/dist.mjs` once every check passes. Only a pack whose status is
+  `reviewed` goes there; drafts never do. English is left out unless
+  `--with-english` is given, until it is settled whether English is a pack
+  or part of Rutba Office itself. The repository's release step gathers each
+  kind's `dist/v<version>/`.
 
 They carry the suite's English as it is, and 628 of its labels still have em
 dashes, which this repository does not take. Once the English loses them at
