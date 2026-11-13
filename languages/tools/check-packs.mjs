@@ -15,8 +15,9 @@
 // A translation whose `source` hash no longer matches the registry was made
 // from older English: it is reported as stale, to be reviewed again.
 // The Urdu, Arabic and Hindi packs carry Rutba Office 2.25.0's text unchanged
-// (`madeFrom: "office 2.25.0"`): their em dashes are counted and reported, to
-// fix at their review, rather than failed.
+// (`madeFrom: "office 2.25.0"`): their em dashes are counted and reported
+// rather than failed, until the pack has its own medium for those labels
+// (versions/<tag>.medium.json); from then on a dash is a fault.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -151,7 +152,9 @@ for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
   const script = SCRIPTS[manifest.script];
   // Dashes the pack keeps from the suite's own text: the three 2.25.0 packs,
   // and American English, which changes only spelling and words.
-  const carried = manifest.madeFrom === 'office 2.25.0' || manifest.tag.startsWith('en');
+  // A pack from the suite that has its own medium (versions/<tag>.medium.json)
+  // has had its dashes rewritten, and is held to the rule like any other.
+  const carried = (manifest.madeFrom === 'office 2.25.0' && !OWN_MEDIUMS.some(([f]) => f === `${manifest.tag}.medium.json`)) || manifest.tag.startsWith('en');
   const isEnglish = manifest.tag.startsWith('en');
   for (const [id, entry] of Object.entries(messages)) {
     const label = labels.get(id);
