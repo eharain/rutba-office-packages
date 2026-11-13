@@ -1056,7 +1056,7 @@
     "source": "fd99634235a4"
   },
   "ai-tools-dialog.a-protected-database-is-reached-only": {
-    "text": "Une base de données protégée n'est accessible qu'avec un rôle qu'un administrateur a choisi pour les outils IA dans Fichiers de données, jamais avec un rôle autorisé à modifier sa structure.",
+    "text": "Une base de données protégée n'est accessible qu'avec un rôle qu'un administrateur a choisi pour les outils IA dans Fichiers de données (Data Files), jamais avec un rôle autorisé à modifier sa structure.",
     "source": "95c6d97202ea"
   },
   "base.ai-tools.a-protected-database-is-reached-only": {
@@ -2912,7 +2912,7 @@
     "source": "f7e75b8ebc5e"
   },
   "base.sources.another-data-files-database": {
-    "text": "Une autre base de données Fichiers de données",
+    "text": "Une autre base de données Data Files",
     "source": "a3cc390853c1"
   },
   "talk.address.another-address-of-yours": {
@@ -2960,7 +2960,7 @@
     "source": "eb448ef89a67"
   },
   "locker.anyone-at-this-computer-can-read": {
-    "text": "Toute personne utilisant cet ordinateur peut lire ces copies jusqu'à ce que vous déverrouilliez à nouveau le Coffre.",
+    "text": "Toute personne utilisant cet ordinateur peut lire ces copies jusqu'à ce que vous déverrouilliez à nouveau le Coffre (Locker).",
     "source": "3109eadb508c"
   },
   "mail.dialogs.anything-not-from-a-safe-sender": {
@@ -6968,11 +6968,11 @@
     "source": "cec3a9b89b2e"
   },
   "common.data-files": {
-    "text": "Fichiers de données",
+    "text": "Data Files",
     "source": "20721a0c4bc7"
   },
   "word.mailings.data-files-databases": {
-    "text": "Bases de données Fichiers de données",
+    "text": "Bases de données Data Files",
     "source": "24e8c9743f1a"
   },
   "sheets.ribbon.data-table": {
@@ -8340,7 +8340,7 @@
     "source": "ba23d84777b1"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
-    "text": "Chaque compte de messagerie, calendrier, carnet d'adresses, base de données et dossier a son propre paramètre, également affiché dans son application, de même que l'Enregistreur. Tout est désactivé tant que vous n'avez pas choisi. Rien n'est jamais supprimé ni déplacé, et tout envoi attend d'abord votre accord ici.",
+    "text": "Chaque compte de messagerie, calendrier, carnet d'adresses, base de données et dossier a son propre paramètre, également affiché dans son application, de même que l'Enregistreur (Recorder). Tout est désactivé tant que vous n'avez pas choisi. Rien n'est jamais supprimé ni déplacé, et tout envoi attend d'abord votre accord ici.",
     "source": "0fd0a5b12aaa"
   },
   "word.mailings.each-message-is-the-merged-letter": {
@@ -10948,7 +10948,7 @@
     "source": "607e298f1b12"
   },
   "locker.give-the-password-a-different-way": {
-    "text": "Communiquez le mot de passe par un autre moyen, par exemple un appel ou un SMS, et jamais dans le même e-mail. Le destinataire ouvre le fichier avec Ouvrir un fichier envoyé dans son Coffre.",
+    "text": "Communiquez le mot de passe par un autre moyen, par exemple un appel ou un SMS, et jamais dans le même e-mail. Le destinataire ouvre le fichier avec Ouvrir un fichier envoyé dans son Coffre (Locker).",
     "source": "1b7a08b8266b"
   },
   "locker.give-the-password-a-different-way-2": {
@@ -11012,7 +11012,7 @@
     "source": "a9f690169703"
   },
   "home.go-live-to-the-places-you": {
-    "text": "Passer en direct : vers les services où vous diffusez, depuis Diffusion",
+    "text": "Passer en direct : vers les services où vous diffusez, depuis Diffusion (Live Broadcast)",
     "source": "77b987635721"
   },
   "locker.go-on": {
@@ -13176,7 +13176,7 @@
     "source": "4d08e86b0ba2"
   },
   "locker.it-becomes-an-ordinary-file-in": {
-    "text": "Il devient un fichier ordinaire au même emplacement, et les versions antérieures conservées par le Coffre sont supprimées. Vous pouvez le verrouiller à nouveau quand vous le souhaitez.",
+    "text": "Il devient un fichier ordinaire au même emplacement, et les versions antérieures conservées par le Coffre (Locker) sont supprimées. Vous pouvez le verrouiller à nouveau quand vous le souhaitez.",
     "source": "edc5654cc244"
   },
   "mail.it-goes-to": {
@@ -13200,7 +13200,7 @@
     "source": "668b7b14f675"
   },
   "locker.it-is-removed-for-good-with": {
-    "text": "Il est supprimé définitivement, avec les versions antérieures conservées par le Coffre. Cette action est irréversible.",
+    "text": "Il est supprimé définitivement, avec les versions antérieures conservées par le Coffre (Locker). Cette action est irréversible.",
     "source": "0add2a7bb664"
   },
   "mail.smime.it-is-shown-as-plain-text": {
@@ -14504,11 +14504,11 @@
     "source": "b64ac05f17e6"
   },
   "studio.live-broadcast": {
-    "text": "Diffusion en direct",
+    "text": "Live Broadcast",
     "source": "22aa48cd867d"
   },
   "studio.window.live-broadcast-settings": {
-    "text": "Paramètres de diffusion en direct…",
+    "text": "Paramètres Live Broadcast…",
     "source": "4ca7342abbff"
   },
   "studio.window.live-destinations": {
@@ -14628,15 +14628,15 @@
     "source": "aa6f366ce2eb"
   },
   "locker.locker": {
-    "text": "Coffre",
+    "text": "Locker",
     "source": "5d37d431109d"
   },
   "locker.locker-password": {
-    "text": "Mot de passe du Coffre",
+    "text": "Mot de passe Locker",
     "source": "8fd9b0535d18"
   },
   "locker.locker-settings": {
-    "text": "Paramètres du Coffre",
+    "text": "Paramètres Locker",
     "source": "008357df3ff2"
   },
   "word.forms.locking": {
@@ -14948,7 +14948,7 @@
     "source": "93635481cdd7"
   },
   "base.make-a-data-files-copy": {
-    "text": "Créer une copie Fichiers de données",
+    "text": "Créer une copie Data Files",
     "source": "737f8932bf96"
   },
   "talk.invite.make-a-link": {
@@ -14992,7 +14992,7 @@
     "source": "6e8367277fb0"
   },
   "locker.make-my-locker-folder": {
-    "text": "Créer mon dossier Coffre",
+    "text": "Créer mon dossier Locker",
     "source": "25171aa5fd09"
   },
   "locker.make-the-locker": {
@@ -17664,7 +17664,7 @@
     "source": "a08f0f94673a"
   },
   "base.not-shown-as-data-files-cannot": {
-    "text": "Non affichées, car Fichiers de données ne peut pas les afficher : {tables}.",
+    "text": "Non affichées, car Fichiers de données (Data Files) ne peut pas les afficher : {tables}.",
     "source": "ddfa2ced7beb"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
@@ -17748,7 +17748,7 @@
     "source": "9ec690affc17"
   },
   "profiles.nothing-else-is-lost-each-place": {
-    "text": "Rien d'autre n'est perdu. Chaque service redemandera son mot de passe la prochaine fois qu'il en aura besoin : serveurs de Courrier, Calendrier et Contacts, Talk et Fichiers de données.",
+    "text": "Rien d'autre n'est perdu. Chaque service redemandera son mot de passe la prochaine fois qu'il en aura besoin : serveurs de Courrier, Calendrier et Contacts, Talk et Fichiers de données (Data Files).",
     "source": "81cc2adb98ca"
   },
   "locker.nothing-has-been-changed-if-you": {
@@ -21080,7 +21080,7 @@
     "source": "bf53fb475896"
   },
   "home.record-a-screen-a-screen-a": {
-    "text": "Enregistrer un écran : un écran, une fenêtre ou votre caméra, avec le son, dans l'Enregistreur",
+    "text": "Enregistrer un écran : un écran, une fenêtre ou votre caméra, avec le son, dans l'Enregistreur (Recorder)",
     "source": "537961d71048"
   },
   "common.record-again": {
@@ -21148,15 +21148,15 @@
     "source": "70c917f9e6a5"
   },
   "common.recorder": {
-    "text": "Enregistreur",
+    "text": "Recorder",
     "source": "b984d066f603"
   },
   "studio.settings-dialog.recorder-settings": {
-    "text": "Paramètres de l'enregistreur",
+    "text": "Paramètres Recorder",
     "source": "da60bfaf87ff"
   },
   "studio.window.recorder-settings": {
-    "text": "Paramètres de l'enregistreur…",
+    "text": "Paramètres Recorder…",
     "source": "60e15c2b27b8"
   },
   "common.recording": {
@@ -22820,7 +22820,7 @@
     "source": "15285c38951b"
   },
   "registry.rutba-data-files": {
-    "text": "Fichiers de données Rutba",
+    "text": "Rutba Data Files",
     "source": "6781f90c683b"
   },
   "base.rutba-database-rbase": {
@@ -22908,7 +22908,7 @@
     "source": "5b8e1365b513"
   },
   "registry.rutba-recorder": {
-    "text": "Enregistreur Rutba",
+    "text": "Rutba Recorder",
     "source": "9ccbb7b0b457"
   },
   "common.rutba-recordings": {
@@ -22928,7 +22928,7 @@
     "source": "06f4a9181c8d"
   },
   "common.rutba-video-project-rvid": {
-    "text": "Projet Rutba Vidéo (.rvid)",
+    "text": "Projet Rutba Video (.rvid)",
     "source": "7eab552ba957"
   },
   "registry.rutba-worksheets": {
@@ -26896,7 +26896,7 @@
     "source": "3975b6ba21ee"
   },
   "home.take-a-picture-the-recorder-opens": {
-    "text": "Prendre une photo : l'Enregistreur s'ouvre et capture ce qu'il affiche",
+    "text": "Prendre une photo : l'Enregistreur (Recorder) s'ouvre et capture ce qu'il affiche",
     "source": "c8378bc06f24"
   },
   "base.people.take-it-away": {
@@ -27652,11 +27652,11 @@
     "source": "1d8c64ed765e"
   },
   "engine.the-data-files-copy-needs-a": {
-    "text": "La copie Fichiers de données doit être un fichier distinct. Choisissez un autre nom ou un autre dossier.",
+    "text": "La copie Fichiers de données (Data Files) doit être un fichier distinct. Choisissez un autre nom ou un autre dossier.",
     "source": "b7ddf45551bf"
   },
   "home.the-office-apps-are-on-add": {
-    "text": "Les applications Office sont activées. Ajoutez Talk, Fichiers de données et les applications Studio quand vous le souhaitez, et désactivez ce que vous n'utilisez pas, à tout moment.",
+    "text": "Les applications Office sont activées. Ajoutez Talk, Fichiers de données (Data Files) et les applications Studio quand vous le souhaitez, et désactivez ce que vous n'utilisez pas, à tout moment.",
     "source": "328297894902"
   },
   "pdf.the-pdf-could-not-be-saved": {
@@ -27960,7 +27960,7 @@
     "source": "5247422a086e"
   },
   "base.links.the-engine-keeps-the-records-data": {
-    "text": "Le moteur conserve les enregistrements : Fichiers de données les lit depuis celui-ci et y enregistre directement chaque modification. Tous les ordinateurs liés au même moteur travaillent sur les mêmes enregistrements.",
+    "text": "Le moteur conserve les enregistrements : Fichiers de données (Data Files) les lit depuis celui-ci et y enregistre directement chaque modification. Tous les ordinateurs liés au même moteur travaillent sur les mêmes enregistrements.",
     "source": "e0207c80190a"
   },
   "base.links.the-engines": {
@@ -28844,7 +28844,7 @@
     "source": "46d46b934332"
   },
   "base.sources.the-source-keeps-the-records-data": {
-    "text": "La source conserve les enregistrements. Fichiers de données les lit dans une table ici, en lecture seule, et les relit selon une planification et lorsque vous actualisez.",
+    "text": "La source conserve les enregistrements. Fichiers de données (Data Files) les lit dans une table ici, en lecture seule, et les relit selon une planification et lorsque vous actualisez.",
     "source": "79cee31b8e53"
   },
   "mail.archive.the-sources-were-opened-for-reading": {
@@ -29572,19 +29572,19 @@
     "source": "d16e6b944ce3"
   },
   "engine.this-database-was-made-by-another-2": {
-    "text": "Cette base de données a été créée par un autre programme, et sa structure n'est donc pas modifiée ici. Créez-en une copie Fichiers de données pour modifier sa structure.",
+    "text": "Cette base de données a été créée par un autre programme, et sa structure n'est donc pas modifiée ici. Créez-en une copie Fichiers de données (Data Files) pour modifier sa structure.",
     "source": "bdea4ff9cd77"
   },
   "base.this-database-was-made-by-another": {
-    "text": "Cette base de données a été créée par un autre programme. Les modifications de ses enregistrements sont écrites directement dans son fichier, et rien d'autre n'y est modifié. Créez une copie Fichiers de données pour modifier sa structure.",
+    "text": "Cette base de données a été créée par un autre programme. Les modifications de ses enregistrements sont écrites directement dans son fichier, et rien d'autre n'y est modifié. Créez une copie Fichiers de données (Data Files) pour modifier sa structure.",
     "source": "901fb7cbec72"
   },
   "base.this-database-was-made-by-another-2": {
-    "text": "Cette base de données a été créée par un autre programme. Elle est ouverte en lecture seule, et rien n'est ajouté à son fichier. Choisissez Autoriser les modifications pour modifier ses enregistrements, ou créez une copie Fichiers de données pour modifier sa structure.",
+    "text": "Cette base de données a été créée par un autre programme. Elle est ouverte en lecture seule, et rien n'est ajouté à son fichier. Choisissez Autoriser les modifications pour modifier ses enregistrements, ou créez une copie Fichiers de données (Data Files) pour modifier sa structure.",
     "source": "ed77aa7838b8"
   },
   "engine.this-database-was-made-by-another-3": {
-    "text": "Cette base de données a été créée par un autre programme. Ouvrez-la pour la consulter, ou créez-en une copie Fichiers de données pour modifier sa structure.",
+    "text": "Cette base de données a été créée par un autre programme. Ouvrez-la pour la consulter, ou créez-en une copie Fichiers de données (Data Files) pour modifier sa structure.",
     "source": "96bea0765327"
   },
   "slides.this-deck-has-no-layouts-of": {
@@ -29756,7 +29756,7 @@
     "source": "6a0eb9a7a97e"
   },
   "base.this-is-a-data-files-copy": {
-    "text": "Ceci est une copie Fichiers de données. Le fichier d'origine est inchangé.",
+    "text": "Ceci est une copie Fichiers de données (Data Files). Le fichier d'origine est inchangé.",
     "source": "3f73aaaa990c"
   },
   "engine.this-is-a-gltf-version-file": {
@@ -29804,7 +29804,7 @@
     "source": "737a18f6eb07"
   },
   "locker.this-is-your-locker-folder": {
-    "text": "Voici votre dossier Coffre.",
+    "text": "Voici votre dossier Coffre (Locker).",
     "source": "1218fd3ca5b3"
   },
   "word.mailings.this-letter-takes-its-recipients-from": {
@@ -32164,11 +32164,11 @@
     "source": "248094cdc460"
   },
   "locker.when-the-locker-locks-files-you": {
-    "text": "Quand le Coffre se verrouille, les fichiers que vous avez déverrouillés",
+    "text": "Quand le Coffre (Locker) se verrouille, les fichiers que vous avez déverrouillés",
     "source": "fe3763febbff"
   },
   "locker.when-the-locker-locks-temporary-copies": {
-    "text": "Quand le Coffre se verrouille, les copies temporaires des fichiers que vous avez ouverts",
+    "text": "Quand le Coffre (Locker) se verrouille, les copies temporaires des fichiers que vous avez ouverts",
     "source": "85eed2d2a061"
   },
   "word.mailings.when-this-holds-the-fields-after": {
@@ -32792,7 +32792,7 @@
     "source": "bf54ca280807"
   },
   "locker.your-locker-folder-is-ready-put": {
-    "text": "Votre dossier Coffre est prêt. Placez-y des fichiers, puis verrouillez-les ici.",
+    "text": "Votre dossier Coffre (Locker) est prêt. Placez-y des fichiers, puis verrouillez-les ici.",
     "source": "631f0118426c"
   },
   "base.trust.your-answer-is-kept-for-this": {
@@ -36708,7 +36708,7 @@
     "source": "b9c70b357df5"
   },
   "locker.n-folders-could-not-be-reached": {
-    "text": "{n} dossiers sont inaccessibles. Ils recevront la nouvelle clé de récupération la prochaine fois qu'ils seront disponibles à l'ouverture du Coffre.",
+    "text": "{n} dossiers sont inaccessibles. Ils recevront la nouvelle clé de récupération la prochaine fois qu'ils seront disponibles à l'ouverture du Coffre (Locker).",
     "source": "8fe3cd166f97"
   },
   "studio.n-frames-a-second": {
