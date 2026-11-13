@@ -23,7 +23,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { checkManifest, checkFiles, officePin } from '../../tools/pack-core.mjs';
+import { checkManifest, checkFiles, officePin, ownLicence, writeLicence, checkLicence } from '../../tools/pack-core.mjs';
 import { fetchFile, CACHE } from './fetch-sources.mjs';
 
 const SPEECH = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -124,6 +124,8 @@ export async function buildEngine(out, version) {
     const { dest } = await fetchFile(ORT, f);
     copy(dest, path.join(dir, f.name === 'LICENSE' ? 'LICENSE-onnxruntime.txt' : 'ThirdPartyNotices-onnxruntime.txt'));
   }
+  // The engine's own code is Tech Style's (the repository's LICENSE); ONNX Runtime keeps its MIT licence and notices.
+  writeLicence(dir);
 
   const manifest = {
     id: 'speech-engine',
@@ -142,11 +144,11 @@ export async function buildEngine(out, version) {
     host: HOST_API,
     reads: READS,
     platform: 'win32-x64',
-    licence: { spdx: 'NOASSERTION AND MIT', files: ['LICENSE-onnxruntime.txt', 'ThirdPartyNotices-onnxruntime.txt'] },
+    licence: ownLicence({ spdx: 'MIT', files: ['LICENSE-onnxruntime.txt', 'ThirdPartyNotices-onnxruntime.txt'] }),
   };
   fs.writeFileSync(path.join(dir, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
   const allowed = (f) => /\.(mjs|js|json|node|dll|txt)$/.test(f) && !/DirectML/i.test(f);
-  const faults = [...checkManifest(manifest, { office: version }), ...checkFiles(dir, manifest, allowed)];
+  const faults = [...checkManifest(manifest, { office: version }), ...checkFiles(dir, manifest, allowed), ...checkLicence(dir, manifest)];
   if (faults.length) throw new Error(`speech-engine: ${faults.join('; ')}`);
   return { dir, manifest };
 }

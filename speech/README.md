@@ -21,6 +21,16 @@ Everything is added separately, by the person's choice.
 Adding a first voice offers the other packs it needs in one step, with the
 total size shown first.
 
+## Licences
+
+The speech engine's own code is Tech Style's, under this repository's
+[LICENSE](../LICENSE), which the engine pack carries as `LICENSE.txt`. ONNX
+Runtime, which it runs on, keeps its MIT licence and notices beside it. The
+models, voices and word lists are their authors' work and keep their own
+licences: Kokoro-82M and its voices under Apache-2.0
+(`LICENSE-apache-2.0.txt`), the CMU Pronouncing Dictionary under
+BSD-2-Clause, each with the credit it asks for in `NOTICE.txt`.
+
 Every pack carries the version number of the Office release it belongs to,
 so the packs and the suite stay in step. Each pack is a folder of plain files
 beside a signed `<id>.pack.json`, the same format as the

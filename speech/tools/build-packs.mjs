@@ -19,7 +19,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
-import { checkManifest, checkFiles, checkRequires, officePin } from '../../tools/pack-core.mjs';
+import { checkManifest, checkFiles, checkRequires, officePin, checkLicence } from '../../tools/pack-core.mjs';
 import { sources, cachedPath } from './fetch-sources.mjs';
 
 const SPEECH = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -74,8 +74,8 @@ export function buildPack(src, out, version) {
   }
   for (const f of src.local || []) fs.copyFileSync(path.join(SPEECH, 'packs', src.id, f), path.join(dir, f));
   if (src.licence.spdx === 'Apache-2.0') {
-    fs.copyFileSync(path.join(LICENCES, 'Apache-2.0.txt'), path.join(dir, 'LICENSE.txt'));
-    licenceFiles.push('LICENSE.txt');
+    fs.copyFileSync(path.join(LICENCES, 'Apache-2.0.txt'), path.join(dir, 'LICENSE-apache-2.0.txt'));
+    licenceFiles.push('LICENSE-apache-2.0.txt');
   }
   if (src.licence.credit) {
     fs.writeFileSync(path.join(dir, 'NOTICE.txt'), `${src.name}\n\n${src.licence.credit}\n`);
@@ -83,7 +83,7 @@ export function buildPack(src, out, version) {
   }
   const manifest = manifestFor(src, version, licenceFiles.sort());
   fs.writeFileSync(path.join(dir, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
-  const faults = [...checkManifest(manifest, { office: version }), ...checkFiles(dir, manifest, ALLOWED[src.kind] || (() => false))];
+  const faults = [...checkManifest(manifest, { office: version }), ...checkFiles(dir, manifest, ALLOWED[src.kind] || (() => false)), ...checkLicence(dir, manifest)];
   if (faults.length) throw new Error(`${src.id}: ${faults.join('; ')}`);
   return manifest;
 }
