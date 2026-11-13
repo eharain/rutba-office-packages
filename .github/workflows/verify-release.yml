@@ -34,7 +34,5 @@ jobs:
       - name: Check the release as published
         env:
           TAG: ${{ github.event.release.tag_name || inputs.tag }}
-        run: |
-          keys=""
-          if [ -f keys/public.json ]; then keys="--keys keys/public.json"; fi
-          node tools/verify-release.mjs --version "${TAG#v}" --office .cache/office $keys
+        # The public keys come only from the contract in Office's tag (its `keys`).
+        run: node tools/verify-release.mjs --version "${TAG#v}" --office .cache/office

@@ -20,7 +20,9 @@
 //   - with --office, that lang-en is byte for byte the copy Office's tag
 //     carries (C15), and Office's own usable() takes every pack.
 //
-// --keys is a JSON file { packages: [PEM], release: [PEM] } of public keys.
+// The public keys come from the contract in the Office clone (its `keys`: {
+// packages: [PEM], release: [PEM]}, the one place Office keeps them). --keys
+// is a local override only, a JSON file of the same shape.
 
 import fs from 'node:fs';
 import path from 'node:path';
