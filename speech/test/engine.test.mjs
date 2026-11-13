@@ -81,7 +81,8 @@ test('the main module: starts the process on first use, below normal priority, l
   const list = [
     add('speech-engine', 'engine', { provides: ['speech-engine'] }),
     add('speech-kokoro-82m-q8', 'model', { provides: ['speech-kokoro-82m'], files: { 'model.onnx': { sha512: sha(Buffer.from('q8')) } } }),
-    add('speech-kokoro-82m-fp16', 'model', { provides: ['speech-kokoro-82m'], files: { 'model.onnx': { sha512: sha(model) } } }),
+    add('speech-kokoro-82m-fp16', 'model', { provides: ['speech-kokoro-82m'], files: { 'model.onnx': { sha512: sha(Buffer.from('fp16')) } } }),
+    add('speech-kokoro-82m-fp32', 'model', { provides: ['speech-kokoro-82m'], files: { 'model.onnx': { sha512: sha(model) } } }),
     add('speech-en-kokoro', 'pronunciation', { requires: ['speech-kokoro-82m'], files: { 'cmudict.dict': { sha512: sha(Buffer.from(DICT)) }, 'LICENSE-cmudict.txt': { sha512: 'x' } } }),
     add('voice-kokoro-bf-emma', 'voice', { name: 'Emma (British English, female)', requires: ['speech-en-kokoro'], voice: { language: 'en-GB', gender: 'female', grade: 'B-' }, files: { 'voice.bin': { sha512: sha(voiceBytes()) } } }),
     add('voice-kokoro-ef-dora', 'voice', { name: 'Dora', requires: ['speech-es-kokoro'], voice: { language: 'es' }, files: {} }),
@@ -107,7 +108,7 @@ test('the main module: starts the process on first use, below normal priority, l
   const one = await svc.say({ text: 'Hello world.', voice: 'voice-kokoro-bf-emma' });
   assert.ok(one.samples.length > 0);
   assert.equal(priority, 4242);
-  assert.equal((await svc.status()).model, 'speech-kokoro-82m-fp16', 'fp16 is chosen before q8');
+  assert.equal((await svc.status()).model, 'speech-kokoro-82m-fp32', 'fp32 is chosen before q8 and fp16');
   await svc.say({ text: 'Hello again.', voice: 'voice-kokoro-bf-emma' });
   assert.deepEqual(seen, ['load', 'pronunciation', 'voice', 'say', 'say'], 'loaded once');
   assert.equal(forks.length, 1);

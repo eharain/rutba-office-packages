@@ -8,6 +8,7 @@
     "speech-engine"
   ],
   "name": "Kokoro speech model, balanced (16-bit)",
+  "hold": "Not built: on 13 Nov 2026 this build answered NaN for whole sentences with some voices (af_heart, af_river, af_sarah), at every graph optimisation level, where fp32 is clean on the same input. fp32 is offered first instead.",
   "licence": {
     "spdx": "Apache-2.0",
     "credit": "Kokoro-82M by hexgrad, Apache-2.0 (https://huggingface.co/hexgrad/Kokoro-82M). Its training audio includes Koniwa (CC BY 3.0) and SIWIS (CC BY 4.0), credited here as their licences ask."

@@ -21,7 +21,9 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 const IDLE_MS = 10 * 60 * 1000;
 const THREADS = 2;
 /** When more than one model is added, the one used (the person's choice comes first, C5). */
-const MODEL_ORDER = ['speech-kokoro-82m-fp16', 'speech-kokoro-82m-fp32', 'speech-kokoro-82m-q8'];
+// fp32 first: the 16-bit build answers NaN for some sentence and voice pairs
+// (paritas-lab smoke, 13 Nov 2026), so it comes last and is held from the feed.
+const MODEL_ORDER = ['speech-kokoro-82m-fp32', 'speech-kokoro-82m-q8', 'speech-kokoro-82m-fp16'];
 /** The languages this engine has a text step for, as voice packs name them. */
 const SPOKEN = new Set(['en-US', 'en-GB']);
 

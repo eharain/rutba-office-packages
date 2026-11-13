@@ -33,6 +33,12 @@ test('the runner pads with zero, sends speed, keeps order', async () => {
   assert.throws(() => r.say('a', voice, { speed: 3 }));
 });
 
+test('a model answer that is not a number is refused, never played', async () => {
+  const ort = { Tensor: class { constructor(type, data, dims) { Object.assign(this, { type, data, dims }); } } };
+  const session = { run: async () => ({ waveform: { data: Float32Array.from([0.1, NaN, 0.2]) } }) };
+  await assert.rejects(createRunner(ort, session, vocab).say('ab', voice), /no usable sound/);
+});
+
 test('WAV header', () => {
   const w = toWav(new Float32Array([0, 1, -1]));
   assert.equal(w.toString('ascii', 0, 4), 'RIFF');

@@ -94,6 +94,8 @@ export function plan(all) {
   const ready = [];
   const waiting = [];
   for (const s of all) {
+    // A source with `hold` is kept for its record but not built (the reason is in it).
+    if (s.hold) continue;
     const missing = (s.requires || []).filter((r) => /^speech-[a-z-]+-kokoro$/.test(r) && !ids.has(r));
     (missing.length ? waiting : ready).push(s);
   }

@@ -88,7 +88,14 @@ export function createRunner(ort, session, vocab) {
     // sentences were asked in.
     const run = busy.then(() => session.run(feeds));
     busy = run.catch(() => {});
-    return run.then((out) => ({ samples: out.waveform.data, unknown }));
+    // A model can answer NaN for a whole sentence (the 16-bit build does, for
+    // some sentence and voice pairs): that is never played, it is an error the
+    // reader shows and skips past.
+    return run.then((out) => {
+      const samples = out.waveform.data;
+      for (let i = 0; i < samples.length; i++) if (!Number.isFinite(samples[i])) throw new Error('the speech model gave no usable sound for this sentence');
+      return { samples, unknown };
+    });
   }
   return { say };
 }
