@@ -1054,7 +1054,7 @@
     "source": "fd99634235a4"
   },
   "ai-tools-dialog.a-protected-database-is-reached-only": {
-    "text": "Μια προστατευμένη βάση δεδομένων προσεγγίζεται μόνο με ρόλο που όρισε ένας Διαχειριστής για τα εργαλεία AI στα Αρχεία δεδομένων, ποτέ με ρόλο που αλλάζει τη σχεδίαση.",
+    "text": "Μια προστατευμένη βάση προσεγγίζεται μόνο με ρόλο που όρισε ένας Διαχειριστής για τα εργαλεία AI στα Αρχεία δεδομένων (Data Files), ποτέ με ρόλο που αλλάζει τη σχεδίαση.",
     "source": "95c6d97202ea"
   },
   "base.ai-tools.a-protected-database-is-reached-only": {
@@ -2903,7 +2903,7 @@
     "source": "f7e75b8ebc5e"
   },
   "base.sources.another-data-files-database": {
-    "text": "Άλλη βάση των Αρχείων δεδομένων",
+    "text": "Άλλη βάση Data Files",
     "source": "a3cc390853c1"
   },
   "talk.address.another-address-of-yours": {
@@ -3287,7 +3287,7 @@
     "source": "a999a07704c8"
   },
   "talk.connect.ask-name-in-talk-now-with": {
-    "text": "Ερώτηση στο Talk τώρα: {name}, χωρίς email",
+    "text": "Ερώτηση στις Κλήσεις (Talk) τώρα: {name}, χωρίς email",
     "source": "c49711615630"
   },
   "word.mailings.ask-a-question-put-when-the": {
@@ -3319,7 +3319,7 @@
     "source": "b398c3d5fa16"
   },
   "talk.connect.asked-name-in-talk-they-can": {
-    "text": "Ρωτήθηκε στο Talk: {name}. Η αποδοχή γίνεται εκεί.",
+    "text": "Ρωτήθηκε στις Κλήσεις (Talk): {name}. Η αποδοχή γίνεται εκεί.",
     "source": "6c1ec46652f3"
   },
   "mail.safety.asking-the-server-for-the-message": {
@@ -8321,7 +8321,7 @@
     "source": "ba23d84777b1"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
-    "text": "Κάθε λογαριασμός αλληλογραφίας, ημερολόγιο, βιβλίο διευθύνσεων, βάση δεδομένων και φάκελος έχει δική του ρύθμιση, που φαίνεται και στην εφαρμογή του, όπως και η Καταγραφή. Όλα είναι Ανενεργά μέχρι να επιλέξετε. Τίποτα δεν διαγράφεται ούτε μετακινείται, και ό,τι αποστέλλεται περιμένει πρώτα να το πατήσετε εδώ.",
+    "text": "Κάθε λογαριασμός αλληλογραφίας, ημερολόγιο, βιβλίο διευθύνσεων, βάση δεδομένων και φάκελος έχει δική του ρύθμιση, που φαίνεται και στην εφαρμογή του, όπως και η Καταγραφή (Recorder). Όλα είναι Ανενεργά μέχρι να επιλέξετε. Τίποτα δεν διαγράφεται ούτε μετακινείται, και ό,τι αποστέλλεται περιμένει πρώτα να το πατήσετε εδώ.",
     "source": "0fd0a5b12aaa"
   },
   "word.mailings.each-message-is-the-merged-letter": {
@@ -11926,11 +11926,11 @@
     "source": "ea23c1944a54"
   },
   "talk.invite-email.i-would-like-to-talk-with": {
-    "text": "Θα ήθελα να μιλάμε στο Rutba Talk, όπου κρατώ τις κλήσεις και τα μηνύματά μου.",
+    "text": "Θα ήθελα να μιλάμε στις Κλήσεις (Rutba Talk), όπου κρατώ τις κλήσεις και τα μηνύματά μου.",
     "source": "b99c4fd6cca9"
   },
   "talk.invite-email.i-would-like-to-talk-with-2": {
-    "text": "Θα ήθελα να μιλάμε στο Rutba Talk, όπου κρατώ τις κλήσεις και τα μηνύματά μου. Είναι δωρεάν, και αρκεί ο σύνδεσμος παρακάτω.",
+    "text": "Θα ήθελα να μιλάμε στις Κλήσεις (Rutba Talk), όπου κρατώ τις κλήσεις και τα μηνύματά μου. Είναι δωρεάν, και αρκεί ο σύνδεσμος παρακάτω.",
     "source": "f8d8afa22179"
   },
   "mail.dialogs.im-away-until-and-will-answer": {
@@ -12260,7 +12260,7 @@
     "source": "580d491e7b78"
   },
   "talk.connect.in-your-talk-contacts": {
-    "text": "Στις επαφές σας στο Talk",
+    "text": "Στις επαφές σας στις Κλήσεις (Talk)",
     "source": "6d460ac05145"
   },
   "video.in-from-out-to": {
@@ -14912,7 +14912,7 @@
     "source": "93635481cdd7"
   },
   "base.make-a-data-files-copy": {
-    "text": "Αντίγραφο Αρχείων δεδομένων",
+    "text": "Αντίγραφο Data Files",
     "source": "737f8932bf96"
   },
   "talk.invite.make-a-link": {
@@ -17537,7 +17537,7 @@
     "source": "c9a7c5601ef0"
   },
   "talk.invite-email.not-every-invitation-went-by-email": {
-    "text": "Δεν στάλθηκαν όλες οι προσκλήσεις με email. Όσοι ρωτήθηκαν μπορούν να αποδεχτούν στο Talk, και μπορείτε να τους στείλετε τον σύνδεσμο αλλιώς από τη λίστα.",
+    "text": "Δεν στάλθηκαν όλες οι προσκλήσεις με email. Όσοι ρωτήθηκαν μπορούν να αποδεχτούν στις Κλήσεις (Talk), και μπορείτε να τους στείλετε τον σύνδεσμο αλλιώς από τη λίστα.",
     "source": "4336568dd105"
   },
   "studio.not-found": {
@@ -17624,7 +17624,7 @@
     "source": "a08f0f94673a"
   },
   "base.not-shown-as-data-files-cannot": {
-    "text": "Δεν εμφανίζονται, αφού τα Αρχεία δεδομένων δεν τους δείχνουν: {tables}.",
+    "text": "Δεν εμφανίζονται, αφού τα Αρχεία δεδομένων (Data Files) δεν τους δείχνουν: {tables}.",
     "source": "ddfa2ced7beb"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
@@ -21106,7 +21106,7 @@
     "source": "70c917f9e6a5"
   },
   "common.recorder": {
-    "text": "Καταγραφή",
+    "text": "Recorder",
     "source": "b984d066f603"
   },
   "studio.settings-dialog.recorder-settings": {
@@ -22789,7 +22789,7 @@
     "source": "e281b824c7ea"
   },
   "common.rutba-image-project-rimg": {
-    "text": "Έργο Εικόνας Rutba (.rimg)",
+    "text": "Έργο Rutba Image (.rimg)",
     "source": "35f85ae91ec9"
   },
   "registry.rutba-mail": {
@@ -22865,7 +22865,7 @@
     "source": "9ccbb7b0b457"
   },
   "common.rutba-recordings": {
-    "text": "Εγγραφές Rutba",
+    "text": "Rutba Recordings",
     "source": "325c751e9853"
   },
   "studio.setups-store.rutba-studio-setups": {
@@ -22881,7 +22881,7 @@
     "source": "06f4a9181c8d"
   },
   "common.rutba-video-project-rvid": {
-    "text": "Έργο Βίντεο Rutba (.rvid)",
+    "text": "Έργο Rutba Video (.rvid)",
     "source": "7eab552ba957"
   },
   "registry.rutba-worksheets": {
@@ -25010,7 +25010,7 @@
     "source": "7c04fead2759"
   },
   "talk.invite.sign-in-to-talk-to-accept": {
-    "text": "Συνδεθείτε στο Talk για να αποδεχτείτε την πρόσκληση.",
+    "text": "Συνδεθείτε στις Κλήσεις (Talk) για να αποδεχτείτε την πρόσκληση.",
     "source": "6f7a07bbe2cf"
   },
   "base.people.sign-in-to-name": {
@@ -26932,7 +26932,7 @@
     "source": "6bc8b36c1214"
   },
   "common.talk": {
-    "text": "Κλήσεις",
+    "text": "Talk",
     "source": "449f5a775762"
   },
   "talk.address.talk-could-not-do-that-now": {
@@ -26944,11 +26944,11 @@
     "source": "dc5636efcd10"
   },
   "talk.invite.talk-is-not-connected-try-again": {
-    "text": "Το Talk δεν είναι συνδεδεμένο. Δοκιμάστε σε λίγο.",
+    "text": "Οι Κλήσεις (Talk) δεν είναι συνδεδεμένες. Δοκιμάστε σε λίγο.",
     "source": "a4eca2b3e847"
   },
   "talk.invite.talk-with-me-on-rutba-talk": {
-    "text": "Μιλήστε μαζί μου στο Rutba Talk",
+    "text": "Μιλήστε μαζί μου στις Κλήσεις (Rutba Talk)",
     "source": "f42685801c91"
   },
   "talk.talk-with-your-contacts": {
@@ -26964,7 +26964,7 @@
     "source": "78efb0be995e"
   },
   "talk.address.talks-server-keeps-only-your-sign-2": {
-    "text": "Ο διακομιστής κρατά προς το παρόν μόνο τη διεύθυνση σύνδεσης.",
+    "text": "Ο διακομιστής των Κλήσεων (Talk) κρατά προς το παρόν μόνο τη διεύθυνση σύνδεσης.",
     "source": "80760ca12627"
   },
   "common.tall": {
@@ -27309,7 +27309,7 @@
     "source": "1020211ad9ca"
   },
   "talk.address.that-address-is-proved-by-someone": {
-    "text": "Αυτή τη διεύθυνση την επιβεβαίωσε άλλος στο Talk.",
+    "text": "Αυτή τη διεύθυνση την επιβεβαίωσε άλλος στις Κλήσεις (Talk).",
     "source": "b262ea97ff7b"
   },
   "mail.that-attachment-is-not-stored": {
@@ -27396,11 +27396,11 @@
     "source": "82dfdc22a75c"
   },
   "talk.address.that-is-as-many-addresses-as": {
-    "text": "Αυτές είναι όσες διευθύνσεις κρατά το Talk για ένα άτομο.",
+    "text": "Αυτές είναι όσες διευθύνσεις κρατούν οι Κλήσεις (Talk) για ένα άτομο.",
     "source": "87069f035bf5"
   },
   "talk.invite.that-is-as-many-as-talk": {
-    "text": "Τόσα δέχεται το Talk προς το παρόν. Δοκιμάστε αργότερα.",
+    "text": "Τόσα δέχονται οι Κλήσεις (Talk) προς το παρόν. Δοκιμάστε αργότερα.",
     "source": "2ae2e212b65f"
   },
   "engine.that-is-more-cells-than-a": {
@@ -27897,7 +27897,7 @@
     "source": "5247422a086e"
   },
   "base.links.the-engine-keeps-the-records-data": {
-    "text": "Η μηχανή κρατά τις εγγραφές: τα Αρχεία δεδομένων τις διαβάζουν από αυτήν και αποθηκεύουν κάθε αλλαγή απευθείας σε αυτήν. Κάθε υπολογιστής συνδεδεμένος στην ίδια μηχανή εργάζεται στις ίδιες εγγραφές.",
+    "text": "Η μηχανή κρατά τις εγγραφές: τα Αρχεία δεδομένων (Data Files) τις διαβάζουν από αυτήν και αποθηκεύουν κάθε αλλαγή απευθείας σε αυτήν. Κάθε υπολογιστής συνδεδεμένος στην ίδια μηχανή εργάζεται στις ίδιες εγγραφές.",
     "source": "e0207c80190a"
   },
   "base.links.the-engines": {
@@ -29271,7 +29271,7 @@
     "source": "2a1104df2724"
   },
   "talk.invite.they-see-it-in-talk-if": {
-    "text": "Το βλέπουν στο Talk αν το χρησιμοποιούν. Μπορείτε να στείλετε και εσείς τον σύνδεσμο.",
+    "text": "Το βλέπουν στις Κλήσεις (Talk) αν τις χρησιμοποιούν. Μπορείτε να στείλετε και εσείς τον σύνδεσμο.",
     "source": "36b885210dfa"
   },
   "talk.invite.they-see-your-name-and-your": {
@@ -29339,7 +29339,7 @@
     "source": "1050973fa0a2"
   },
   "talk.invite.this-talk-server-does-not-take": {
-    "text": "Αυτός ο διακομιστής Talk δεν δέχεται ακόμη προσκλήσεις.",
+    "text": "Αυτός ο διακομιστής των Κλήσεων (Talk) δεν δέχεται ακόμη προσκλήσεις.",
     "source": "9b3cb2160f1c"
   },
   "mail.this-account": {
@@ -29675,7 +29675,7 @@
     "source": "6c3f9e7c0db4"
   },
   "talk.this-invitation-has-been-sent-again": {
-    "text": "Αυτή η πρόσκληση στάλθηκε ξανά όσες φορές επιτρέπει το Talk.",
+    "text": "Αυτή η πρόσκληση στάλθηκε ξανά όσες φορές επιτρέπουν οι Κλήσεις (Talk).",
     "source": "2855dc393b9c"
   },
   "talk.invite.this-invitation-has-ended": {
@@ -30122,7 +30122,7 @@
     "source": "48cc5a933316"
   },
   "talk.invite-email.those-beyond-that-are-asked-in": {
-    "text": "Οι υπόλοιποι ρωτιούνται μόνο στο Talk, χωρίς email.",
+    "text": "Οι υπόλοιποι ρωτιούνται μόνο στις Κλήσεις (Talk), χωρίς email.",
     "source": "4ac21ba884c2"
   },
   "home.those-two-requests-and-the-mail": {
@@ -36207,11 +36207,11 @@
     "source": "bccde320f01d"
   },
   "talk.invite.name-would-like-to-talk-with": {
-    "text": "{name} θα ήθελε να μιλάτε στο Rutba Talk",
+    "text": "{name} θα ήθελε να μιλάτε στις Κλήσεις (Rutba Talk)",
     "source": "3ac329d3988a"
   },
   "talk.invite.name-would-still-like-to-talk": {
-    "text": "{name} θα ήθελε ακόμη να μιλάτε στο Rutba Talk",
+    "text": "{name} θα ήθελε ακόμη να μιλάτε στις Κλήσεις (Rutba Talk)",
     "source": "76ce5296a6bf"
   },
   "calendar.invite-card.name-answer": {
