@@ -62,6 +62,23 @@ test('the feed: URLs in this release, unchanged files kept at their earlier URL,
   assert.ok(two.assets.some((a) => a.asset === 'voice-kokoro-bf-emma.pack.json'));
 });
 
+test('a language entry carries what Office shows before it is added: tag, direction, review and coverage', () => {
+  const { publicKey, privateKey } = keys();
+  const d = tmp();
+  const lang = { kind: 'language', format: 2, version: '2.25.0', tag: 'ur', script: 'Arab', direction: 'rtl', review: 'machine draft', coverage: { labels: 10, short: 9, medium: 10, complete: 8 }, nativeName: 'اردو' };
+  signPack(pack(d, 'lang-ur', lang), privateKey);
+  signPack(pack(d, 'voice-kokoro-bf-emma', { version: '2.25.0', direction: 'rtl' }), privateKey);
+  const { feed, faults } = buildFeed(d, { version: '2.25.0', publicKeys: [publicKey] });
+  assert.deepEqual(faults, []);
+  const ur = feed.packs.find((p) => p.id === 'lang-ur');
+  assert.equal(ur.tag, 'ur');
+  assert.equal(ur.direction, 'rtl');
+  assert.equal(ur.review, 'machine draft');
+  assert.deepEqual(ur.coverage, lang.coverage);
+  assert.ok(!('variantOf' in ur), 'only the fields the manifest has');
+  assert.ok(!('direction' in feed.packs.find((p) => p.id === 'voice-kokoro-bf-emma')), 'other kinds carry none');
+});
+
 test('the feed refuses a wrong version, a broken signature, a missing need, and a lower revision', () => {
   const { publicKey, privateKey } = keys();
   const d = tmp();

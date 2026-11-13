@@ -59,6 +59,13 @@ export const releaseUrl = (version) => `https://github.com/${REPO}/releases/down
 /** A release asset's name for one file of a pack: assets in a release are flat. */
 export const assetName = (id, file) => `${id}--${file.replace(/\//g, '--')}`;
 
+/** A language pack's own fields in its feed entry, those its manifest has: tag, script, direction, variantOf, review and coverage. */
+export function languageFields(m) {
+  const out = {};
+  for (const k of ['tag', 'script', 'direction', 'variantOf', 'review', 'coverage']) if (m[k] !== undefined) out[k] = m[k];
+  return out;
+}
+
 /**
  * The feed for a built release folder.
  * @param {string} dist  holds <id>/ folders and <id>.pack.json envelopes
@@ -99,6 +106,8 @@ export function buildFeed(dist, { version, previous = null, withdraw = [], state
     packs.push({
       id: m.id, kind: m.kind, version: m.version, revision: m.revision, name: m.name, nativeName: m.nativeName,
       status: m.status, tags: m.tags, requires: m.requires, provides: m.provides, licence: { spdx: m.licence.spdx },
+      // What Office's Voices and languages page shows of a language before it is added (L6).
+      ...(m.kind === 'language' ? languageFields(m) : {}),
       size, withdrawn: withdraw.includes(m.id),
       envelope: { url: base + file, size: envBytes.length, sha512: crypto.createHash('sha512').update(envBytes).digest('base64') },
       files,
