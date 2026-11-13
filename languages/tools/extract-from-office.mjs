@@ -246,8 +246,13 @@ function writePack(tag, messages, extra) {
 // labels whose code key reads badly, such as one with a long dash); the code
 // key's words otherwise. A wording made for an older key is not used, and
 // check-packs reports it.
-const enMediumFile = path.join(ROOT, 'versions', 'en.medium.json');
-const enMedium = fs.existsSync(enMediumFile) ? JSON.parse(fs.readFileSync(enMediumFile, 'utf8')) : {};
+// The packs taken from the code may have the same: versions/<tag>.medium.json,
+// a pack's own medium for labels whose words in the code read badly.
+const mediumOf = (tag) => {
+  const file = path.join(ROOT, 'versions', `${tag}.medium.json`);
+  return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : {};
+};
+const enMedium = mediumOf('en');
 const en = {};
 for (const l of ordered) {
   const own = enMedium[l.id]?.source === l.hash ? enMedium[l.id] : null;
@@ -278,11 +283,14 @@ for (const tag of tags) {
   const missing = [];
   const badPlaceholders = [];
   const forms = new Intl.PluralRules(tag).resolvedOptions().pluralCategories;
+  const tagMedium = mediumOf(tag);
   for (const l of ordered) {
     const whose = l.parts.includes('shared') ? catalogues[tag] : partWords[l.parts[0]][tag] || {};
     let v = whose[l.english];
     if (v === undefined) for (const p of l.parts) if (v === undefined && partWords[p]) v = partWords[p][tag]?.[l.english];
     if (v === undefined) { missing.push(l.id); continue; }
+    const own = tagMedium[l.id]?.source === l.hash ? tagMedium[l.id] : null;
+    if (own) v = own.forms || own.text;
     const want = placeholders(l.english + ' ' + (l.plural || ''));
     if (typeof v === 'string') {
       if (placeholders(v) !== placeholders(l.english) && !l.plural) badPlaceholders.push(l.id);

@@ -38,9 +38,10 @@ const FIELDS = ['revision', 'tag', 'nativeName', 'script', 'direction', 'region'
 const LANGUAGE_LIST = JSON.parse(fs.readFileSync(path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'languages.json'), 'utf8')).languages;
 const LANGUAGE_FILES = new Set(['manifest.json', 'messages.json', 'versions.json', 'glossary.md']);
 const manifests = [];
-/** English's own wording for labels whose code key reads badly (versions/en.medium.json). */
-const EN_MEDIUM_FILE = path.join(ROOT, 'versions', 'en.medium.json');
-const EN_MEDIUM = fs.existsSync(EN_MEDIUM_FILE) ? JSON.parse(fs.readFileSync(EN_MEDIUM_FILE, 'utf8')) : {};
+/** A pack's own medium for labels whose words in the code read badly (versions/<tag>.medium.json). */
+const OWN_MEDIUMS = fs.readdirSync(path.join(ROOT, 'versions')).filter((f) => f.endsWith('.medium.json'))
+  .map((f) => [f, JSON.parse(fs.readFileSync(path.join(ROOT, 'versions', f), 'utf8'))]);
+const EN_MEDIUM = Object.fromEntries(OWN_MEDIUMS)['en.medium.json'] || {};
 const DASH = /[\u2014\u2015]| \u2013 |^\u2013 | \u2013$/;
 const NBSP = /[\u00a0\u202f\u2007\u2060\ufeff]/;
 /** Labels left word for word in English: at most this many in another script, this share in Latin. */
@@ -96,11 +97,11 @@ function checkVersions(dir, manifest, messages) {
 const fault = (what) => { faults += 1; console.log(`  fault: ${what}`); };
 const ids = new Set(labels.keys());
 if (ids.size !== registry.labels.length) { console.log('ids.json: an id is used twice'); faults += 1; }
-// English's own wording is for a key as it is now: one made for an older key,
+// A pack's own wording is for a key as it is now: one made for an older key,
 // or for a label gone, is reported for review.
-{
-  const old = Object.entries(EN_MEDIUM).filter(([id, e]) => labels.get(id)?.hash !== e.source).map(([id]) => id);
-  if (old.length) { console.log(`versions/en.medium.json: ${old.length} wordings made for an older key or a label gone, such as ${old[0]}`); faults += 1; }
+for (const [file, own] of OWN_MEDIUMS) {
+  const old = Object.entries(own).filter(([id, e]) => labels.get(id)?.hash !== e.source).map(([id]) => id);
+  if (old.length) { console.log(`versions/${file}: ${old.length} wordings made for an older key or a label gone, such as ${old[0]}`); faults += 1; }
 }
 
 const rows = [];
@@ -119,7 +120,7 @@ for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
   // Its row in languages.json, the one list of languages (Rutba Office's is made from it).
   const row = LANGUAGE_LIST.find((r) => r.pack === name);
   if (!row) fault('no row in languages.json');
-  else for (const k of ['tag', 'name', 'nativeName', 'script', 'direction', 'region', 'variantOf']) {
+  else for (const k of ['tag', 'name', 'nativeName', 'script', 'direction', 'region', 'variantOf', 'status']) {
     if (row[k] !== manifest[k]) fault(`${k} is ${JSON.stringify(manifest[k])}, languages.json says ${JSON.stringify(row[k])}`);
   }
   manifests.push(manifest);
@@ -202,6 +203,9 @@ for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
 }
 // Every pack a language pack requires is here (a regional pack names its base).
 for (const [id, list] of checkRequires(manifests)) { console.log(`${id}:`); for (const f of list) fault(f); }
+// A row's status says its pack is here: Rutba Office's installer offers and
+// marks a language by it, before any feed exists.
+for (const r of LANGUAGE_LIST) if (r.status && !manifests.some((m) => m.id === r.pack)) { console.log(`languages.json ${r.tag}:`); fault(`status ${r.status}, but there is no ${r.pack}`); }
 
 console.log(faults ? `${faults} faults` : `every pack is whole: ${rows.length} packs`);
 process.exit(faults ? 1 : 0);

@@ -32,6 +32,11 @@ built. Every other pack uses the same ids.
   the pack's text from the code. The build puts them in the pack, which is
   then in format 2 (see `MODEL.md`). Packs made here keep their versions in
   their own folder, as `versions.json`.
+- `versions/<tag>.medium.json` gives one of those packs its own medium for
+  the labels whose words in the code read badly, such as one with a long
+  dash. Each entry is tied to its label's source hash: the build uses it in
+  place of the code's words, and the checks report one made for older
+  English.
 - `ids.lock.json` keeps every id given, with the hash of its English (and no
   English), so the registry gets the same ids on every build, a fresh clone
   included.
@@ -88,9 +93,11 @@ tools, `ids.lock.json`, `coverage.json`, `MODEL.md` and the other packs,
 which are made here and checked against the registry by the build.
 
 `languages.json` is the one list of languages: for each, its tag, pack id,
-English and native names, script, direction, region and, for a regional
-pack, its base. `tools/check-packs.mjs` holds every pack's manifest to its
-row, and Rutba Office's built-in list of languages is made from it at the
+English and native names, script, direction, region, for a regional
+pack its base, and the status of its pack (`source`, `draft` or `reviewed`;
+none while the pack is not made yet), so Rutba Office's installer can mark a
+draft before any feed exists. `tools/check-packs.mjs` holds every pack's
+manifest to its row, and Rutba Office's built-in list of languages is made from it at the
 release step.
 
 ## Ids
