@@ -1050,7 +1050,7 @@
     "source": "ffdd0baabe66"
   },
   "profiles.a-profile-can-ask-for-a": {
-    "text": "Profil může před otevřením vyžadovat heslo. Jeho uložená hesla, poslední soubory, pošta, kalendáře, kontakty a zprávy z aplikace Hovory se jím pak zapečetí.",
+    "text": "Profil může před otevřením vyžadovat heslo. Jeho uložená hesla, poslední soubory, pošta, kalendáře, kontakty a zprávy z aplikace Hovory (Talk) se jím pak zapečetí.",
     "source": "10ea9d3dbdec"
   },
   "template-gallery.a-proposal-with-a-summary-the": {
@@ -1058,7 +1058,7 @@
     "source": "fd99634235a4"
   },
   "ai-tools-dialog.a-protected-database-is-reached-only": {
-    "text": "K chráněné databázi se nástroje AI připojují jen v roli, kterou pro ně Správce zvolil v Datových souborech, nikdy v roli, která smí měnit její návrh.",
+    "text": "K chráněné databázi se nástroje AI připojují jen v roli, kterou pro ně Správce zvolil v Datových souborech (Data Files), nikdy v roli, která smí měnit její návrh.",
     "source": "95c6d97202ea"
   },
   "base.ai-tools.a-protected-database-is-reached-only": {
@@ -1126,7 +1126,7 @@
     "source": "54c978a78192"
   },
   "contacts.a-room-or-a-resource-is": {
-    "text": "Místnost se rezervuje, do Hovorů se nezve",
+    "text": "Místnost se rezervuje, do aplikace Talk se nezve",
     "source": "ef8c449341cc"
   },
   "contacts.a-room-or-a-resource-needs": {
@@ -2921,7 +2921,7 @@
     "source": "f7e75b8ebc5e"
   },
   "base.sources.another-data-files-database": {
-    "text": "Jiná databáze Datových souborů",
+    "text": "Jiná databáze Data Files",
     "source": "a3cc390853c1"
   },
   "talk.address.another-address-of-yours": {
@@ -2969,7 +2969,7 @@
     "source": "eb448ef89a67"
   },
   "locker.anyone-at-this-computer-can-read": {
-    "text": "Tyto kopie může na tomto počítači číst kdokoli, dokud Trezor znovu neodemknete.",
+    "text": "Tyto kopie zde přečte kdokoli, dokud Trezor (Locker) znovu neodemknete.",
     "source": "3109eadb508c"
   },
   "mail.dialogs.anything-not-from-a-safe-sender": {
@@ -3353,7 +3353,7 @@
     "source": "b78479f59b14"
   },
   "contacts.asks-name-to-connect-in-talk": {
-    "text": "Pozve {name} e-mailem ke spojení v Hovorech",
+    "text": "Pozve {name} e-mailem ke spojení v aplikaci Hovory (Talk)",
     "source": "e9dfca920a23"
   },
   "word.mailings.ask": {
@@ -6984,11 +6984,11 @@
     "source": "cec3a9b89b2e"
   },
   "common.data-files": {
-    "text": "Datové soubory",
+    "text": "Data Files",
     "source": "20721a0c4bc7"
   },
   "word.mailings.data-files-databases": {
-    "text": "Databáze (Datové soubory)",
+    "text": "Databáze Data Files",
     "source": "24e8c9743f1a"
   },
   "sheets.ribbon.data-table": {
@@ -8359,7 +8359,7 @@
     "source": "ba23d84777b1"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
-    "text": "Každý poštovní účet, kalendář, adresář, databáze a složka má vlastní nastavení, zobrazené také v jeho aplikaci, a stejně tak aplikace Nahrávání. Vše je vypnuto, dokud nerozhodnete. Nic se nikdy nemaže ani nepřesouvá a vše, co se má odeslat, nejprve čeká, až zde stisknete tlačítko.",
+    "text": "Každý poštovní účet, kalendář, adresář, databáze a složka má vlastní nastavení, zobrazené také v jeho aplikaci, a stejně tak aplikace Nahrávání (Recorder). Vše je vypnuto, dokud nerozhodnete. Nic se nikdy nemaže ani nepřesouvá a vše, co se má odeslat, nejprve čeká, až zde stisknete tlačítko.",
     "source": "0fd0a5b12aaa"
   },
   "word.mailings.each-message-is-the-merged-letter": {
@@ -8383,7 +8383,7 @@
     "source": "26ec3330f515"
   },
   "profiles.each-profile-keeps-its-own-settings": {
-    "text": "Každý profil má vlastní nastavení, uložená hesla, poslední soubory, poštu, kalendáře, kontakty, přihlášení do aplikace Hovory a nastavení Nástrojů AI. Profily se otevírají vedle sebe, každý ve vlastních oknech, s názvem a barvou v záhlaví okna.",
+    "text": "Každý profil má vlastní nastavení, uložená hesla, poslední soubory, poštu, kalendáře, kontakty, přihlášení do aplikace Hovory (Talk) a nastavení Nástrojů AI. Profily se otevírají vedle sebe, každý ve vlastních oknech, s názvem a barvou v záhlaví okna.",
     "source": "865fe870e5d0"
   },
   "mail.dialogs.each-sender-hears-from-this-once": {
@@ -10973,7 +10973,7 @@
     "source": "607e298f1b12"
   },
   "locker.give-the-password-a-different-way": {
-    "text": "Heslo předejte jinou cestou, například telefonicky nebo textovou zprávou, a nikdy ne ve stejném e-mailu. Druhá osoba soubor otevře ve svém Trezoru příkazem Otevřít poslaný soubor.",
+    "text": "Heslo předejte jinou cestou, například telefonicky nebo textovou zprávou, a nikdy ne ve stejném e-mailu. Druhá osoba soubor otevře ve svém Trezoru (Locker) příkazem Otevřít poslaný soubor.",
     "source": "1b7a08b8266b"
   },
   "locker.give-the-password-a-different-way-2": {
@@ -11037,7 +11037,7 @@
     "source": "a9f690169703"
   },
   "home.go-live-to-the-places-you": {
-    "text": "Spustit živé vysílání: tam, kam streamujete, z aplikace Vysílání",
+    "text": "Spustit živé vysílání: tam, kam streamujete, z aplikace Vysílání (Live Broadcast)",
     "source": "77b987635721"
   },
   "locker.go-on": {
@@ -13114,7 +13114,7 @@
     "source": "95a6641d2f44"
   },
   "contacts.invite-to-talk": {
-    "text": "Pozvat do Hovorů",
+    "text": "Pozvat do aplikace Talk",
     "source": "9ba55d8c06b6"
   },
   "talk.invite.invite-with-a-link": {
@@ -13208,7 +13208,7 @@
     "source": "4d08e86b0ba2"
   },
   "locker.it-becomes-an-ordinary-file-in": {
-    "text": "Stane se z něj běžný soubor na stejném místě a dřívější verze, které Trezor uchovával, se odeberou. Kdykoli ho můžete znovu zamknout.",
+    "text": "Stane se z něj běžný soubor na stejném místě a dřívější verze, které Trezor (Locker) uchovával, se odeberou. Kdykoli ho můžete znovu zamknout.",
     "source": "edc5654cc244"
   },
   "mail.it-goes-to": {
@@ -13232,7 +13232,7 @@
     "source": "668b7b14f675"
   },
   "locker.it-is-removed-for-good-with": {
-    "text": "Trvale se odebere i s dřívějšími verzemi, které Trezor uchovával. Tuto akci nelze vrátit zpět.",
+    "text": "Trvale se odebere i s dřívějšími verzemi, které Trezor (Locker) uchovával. Tuto akci nelze vrátit zpět.",
     "source": "0add2a7bb664"
   },
   "mail.smime.it-is-shown-as-plain-text": {
@@ -13305,7 +13305,7 @@
     "source": "0a66fa7e26e5"
   },
   "profiles.its-settings-saved-passwords-recent-files": {
-    "text": "Jeho nastavení, uložená hesla, poslední soubory, pošta, kalendáře, kontakty, zprávy z aplikace Hovory a nastavení Nástrojů AI ({size}) se přesunou do Koše. Dokumenty uložené jinde, například ve složce Dokumenty, zůstanou na svém místě.",
+    "text": "Jeho nastavení, uložená hesla, poslední soubory, pošta, kalendáře, kontakty, zprávy z aplikace Hovory (Talk) a nastavení Nástrojů AI ({size}) se přesunou do Koše. Dokumenty uložené jinde, například ve složce Dokumenty, zůstanou na svém místě.",
     "source": "4d38b70d16d0"
   },
   "sheets.receipt-row.its-sums-agree-so-its-figures": {
@@ -14540,11 +14540,11 @@
     "source": "b64ac05f17e6"
   },
   "studio.live-broadcast": {
-    "text": "Živé vysílání",
+    "text": "Live Broadcast",
     "source": "22aa48cd867d"
   },
   "studio.window.live-broadcast-settings": {
-    "text": "Nastavení živého vysílání…",
+    "text": "Nastavení aplikace Live Broadcast…",
     "source": "4ca7342abbff"
   },
   "studio.window.live-destinations": {
@@ -14664,15 +14664,15 @@
     "source": "aa6f366ce2eb"
   },
   "locker.locker": {
-    "text": "Trezor",
+    "text": "Locker",
     "source": "5d37d431109d"
   },
   "locker.locker-password": {
-    "text": "Heslo k Trezoru",
+    "text": "Heslo k Lockeru",
     "source": "8fd9b0535d18"
   },
   "locker.locker-settings": {
-    "text": "Nastavení Trezoru",
+    "text": "Nastavení Lockeru",
     "source": "008357df3ff2"
   },
   "word.forms.locking": {
@@ -14984,7 +14984,7 @@
     "source": "93635481cdd7"
   },
   "base.make-a-data-files-copy": {
-    "text": "Kopírovat do Datových souborů",
+    "text": "Kopírovat do Data Files",
     "source": "737f8932bf96"
   },
   "talk.invite.make-a-link": {
@@ -15028,7 +15028,7 @@
     "source": "6e8367277fb0"
   },
   "locker.make-my-locker-folder": {
-    "text": "Vytvořit složku Trezoru",
+    "text": "Vytvořit složku Lockeru",
     "source": "25171aa5fd09"
   },
   "locker.make-the-locker": {
@@ -16157,7 +16157,7 @@
     "source": "2d4449bf2a58"
   },
   "talk.address.my-address-in-talk": {
-    "text": "Moje adresa v aplikaci Hovory (Talk)",
+    "text": "Moje adresa v aplikaci Talk",
     "source": "c06c86b814f9"
   },
   "talk.address.my-address": {
@@ -16571,7 +16571,7 @@
     "source": "78f5975a5d70"
   },
   "mail.dialogs.new-messages-and-invitations-sent-from": {
-    "text": "Nové zprávy a pozvánky odeslané z aplikací Kalendář a Hovory se odesílají z tohoto účtu.",
+    "text": "Nové zprávy a pozvánky odeslané z aplikací Kalendář a Hovory (Talk) se odesílají z tohoto účtu.",
     "source": "2caa2079b2a6"
   },
   "sheets.queries.new-name": {
@@ -17704,7 +17704,7 @@
     "source": "a08f0f94673a"
   },
   "base.not-shown-as-data-files-cannot": {
-    "text": "Nezobrazeno, protože je Datové soubory nedokážou zobrazit: {tables}.",
+    "text": "Nezobrazeno, protože je Datové soubory (Data Files) nedokážou zobrazit: {tables}.",
     "source": "ddfa2ced7beb"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
@@ -17788,7 +17788,7 @@
     "source": "9ec690affc17"
   },
   "profiles.nothing-else-is-lost-each-place": {
-    "text": "Nic dalšího se neztratí. Každé místo si heslo vyžádá, až ho bude příště potřebovat: servery Pošty, Kalendáře a Kontaktů, Hovory a Datové soubory.",
+    "text": "Nic dalšího se neztratí. Každé místo si heslo vyžádá, až ho bude příště potřebovat: servery Pošty, Kalendáře a Kontaktů, Hovory (Talk) a Datové soubory (Data Files).",
     "source": "81cc2adb98ca"
   },
   "locker.nothing-has-been-changed-if-you": {
@@ -19429,7 +19429,7 @@
     "source": "f6326dd85de6"
   },
   "calendar.people-from-contacts-and-talk": {
-    "text": "Lidé z aplikací Kontakty a Hovory",
+    "text": "Lidé z aplikací Kontakty a Hovory (Talk)",
     "source": "5a0150461e0e"
   },
   "talk.invite-email.people-to-invite": {
@@ -21122,7 +21122,7 @@
     "source": "bf53fb475896"
   },
   "home.record-a-screen-a-screen-a": {
-    "text": "Nahrát obrazovku: celou obrazovku, okno nebo vaši kameru, se zvukem, v aplikaci Nahrávání",
+    "text": "Nahrát obrazovku: celou obrazovku, okno nebo vaši kameru, se zvukem, v aplikaci Nahrávání (Recorder)",
     "source": "537961d71048"
   },
   "common.record-again": {
@@ -21190,15 +21190,15 @@
     "source": "70c917f9e6a5"
   },
   "common.recorder": {
-    "text": "Nahrávání",
+    "text": "Recorder",
     "source": "b984d066f603"
   },
   "studio.settings-dialog.recorder-settings": {
-    "text": "Nastavení nahrávání",
+    "text": "Nastavení aplikace Recorder",
     "source": "da60bfaf87ff"
   },
   "studio.window.recorder-settings": {
-    "text": "Nastavení nahrávání…",
+    "text": "Nastavení aplikace Recorder…",
     "source": "60e15c2b27b8"
   },
   "common.recording": {
@@ -22867,11 +22867,11 @@
     "source": "15285c38951b"
   },
   "registry.rutba-data-files": {
-    "text": "Rutba Datové soubory",
+    "text": "Rutba Data Files",
     "source": "6781f90c683b"
   },
   "base.rutba-database-rbase": {
-    "text": "Databáze Rutba (.rbase)",
+    "text": "Rutba Database (.rbase)",
     "source": "49f0daeaa611"
   },
   "registry.rutba-documents": {
@@ -22883,7 +22883,7 @@
     "source": "e281b824c7ea"
   },
   "common.rutba-image-project-rimg": {
-    "text": "Projekt Rutba Grafika (.rimg)",
+    "text": "Projekt Rutba Image (.rimg)",
     "source": "35f85ae91ec9"
   },
   "registry.rutba-mail": {
@@ -22955,11 +22955,11 @@
     "source": "5b8e1365b513"
   },
   "registry.rutba-recorder": {
-    "text": "Rutba Nahrávání",
+    "text": "Rutba Recorder",
     "source": "9ccbb7b0b457"
   },
   "common.rutba-recordings": {
-    "text": "Nahrávky Rutba",
+    "text": "Rutba Recordings",
     "source": "325c751e9853"
   },
   "studio.setups-store.rutba-studio-setups": {
@@ -22967,7 +22967,7 @@
     "source": "5ff12d081fee"
   },
   "registry.rutba-talk": {
-    "text": "Rutba Hovory",
+    "text": "Rutba Talk",
     "source": "88ae37f4323e"
   },
   "registry.rutba-video": {
@@ -26952,7 +26952,7 @@
     "source": "3975b6ba21ee"
   },
   "home.take-a-picture-the-recorder-opens": {
-    "text": "Vyfotit: otevře se aplikace Nahrávání a vyfotí to, co zobrazuje",
+    "text": "Vyfotit: otevře se aplikace Nahrávání (Recorder) a vyfotí to, co zobrazuje",
     "source": "c8378bc06f24"
   },
   "base.people.take-it-away": {
@@ -27044,7 +27044,7 @@
     "source": "6bc8b36c1214"
   },
   "common.talk": {
-    "text": "Hovory",
+    "text": "Talk",
     "source": "449f5a775762"
   },
   "talk.address.talk-could-not-do-that-now": {
@@ -27712,11 +27712,11 @@
     "source": "1d8c64ed765e"
   },
   "engine.the-data-files-copy-needs-a": {
-    "text": "Kopie pro Datové soubory potřebuje vlastní soubor. Zvolte jiný název nebo složku.",
+    "text": "Kopie pro Datové soubory (Data Files) potřebuje vlastní soubor. Zvolte jiný název nebo složku.",
     "source": "b7ddf45551bf"
   },
   "home.the-office-apps-are-on-add": {
-    "text": "Aplikace Office jsou zapnuté. Hovory, Datové soubory a aplikace Studia přidejte, až je budete chtít, a nepoužívané kdykoli vypněte.",
+    "text": "Aplikace Office jsou zapnuté. Hovory (Talk), Datové soubory (Data Files) a Studio přidáte či nepoužívané vypnete, kdykoli chcete.",
     "source": "328297894902"
   },
   "pdf.the-pdf-could-not-be-saved": {
@@ -28023,7 +28023,7 @@
     "source": "5247422a086e"
   },
   "base.links.the-engine-keeps-the-records-data": {
-    "text": "Záznamy uchovává stroj: Datové soubory je z něj čtou a každou změnu do něj rovnou ukládají. Každý počítač propojený se stejným strojem pracuje se stejnými záznamy.",
+    "text": "Záznamy uchovává stroj: Datové soubory (Data Files) je z něj čtou a každou změnu do něj rovnou ukládají. Každý počítač propojený se stejným strojem pracuje se stejnými záznamy.",
     "source": "e0207c80190a"
   },
   "base.links.the-engines": {
@@ -28910,7 +28910,7 @@
     "source": "46d46b934332"
   },
   "base.sources.the-source-keeps-the-records-data": {
-    "text": "Záznamy uchovává zdroj. Datové soubory je načtou do zdejší tabulky, jen pro čtení, a znovu je načítají podle plánu a při aktualizaci.",
+    "text": "Záznamy uchovává zdroj. Datové soubory (Data Files) je načtou do zdejší tabulky, jen pro čtení, a znovu je načítají podle plánu a při aktualizaci.",
     "source": "79cee31b8e53"
   },
   "mail.archive.the-sources-were-opened-for-reading": {
@@ -29641,19 +29641,19 @@
     "source": "d16e6b944ce3"
   },
   "engine.this-database-was-made-by-another-2": {
-    "text": "Tuto databázi vytvořil jiný program, a proto se zde její návrh nemění. Chcete-li návrh změnit, vytvořte její kopii pro Datové soubory.",
+    "text": "Tuto databázi vytvořil jiný program, a proto se zde její návrh nemění. Chcete-li návrh změnit, vytvořte její kopii pro Datové soubory (Data Files).",
     "source": "bdea4ff9cd77"
   },
   "base.this-database-was-made-by-another": {
-    "text": "Tuto databázi vytvořil jiný program. Změny jejích záznamů jdou přímo do jeho souboru a nic jiného se v něm nemění. Pro změnu návrhu vytvořte kopii v Datových souborech.",
+    "text": "Tuto databázi vytvořil jiný program. Změny jejích záznamů jdou přímo do jeho souboru a nic jiného se v něm nemění. Návrh změníte v kopii v Datových souborech (Data Files).",
     "source": "901fb7cbec72"
   },
   "base.this-database-was-made-by-another-2": {
-    "text": "Tuto databázi vytvořil jiný program. Je otevřená jen pro čtení a do jejího souboru se nic nepřidává. Chcete-li měnit její záznamy, povolte změny; chcete-li změnit návrh, vytvořte kopii v Datových souborech.",
+    "text": "Tuto databázi vytvořil jiný program. Je otevřená jen pro čtení a do jejího souboru se nic nepřidává. Chcete-li měnit její záznamy, povolte změny; chcete-li změnit návrh, vytvořte kopii v Datových souborech (Data Files).",
     "source": "ed77aa7838b8"
   },
   "engine.this-database-was-made-by-another-3": {
-    "text": "Tuto databázi vytvořil jiný program. Otevřete ji ke čtení, nebo vytvořte kopii pro Datové soubory, ve které změníte její návrh.",
+    "text": "Tuto databázi vytvořil jiný program. Otevřete ji ke čtení, nebo vytvořte kopii pro Datové soubory (Data Files), ve které změníte její návrh.",
     "source": "96bea0765327"
   },
   "slides.this-deck-has-no-layouts-of": {
@@ -29825,7 +29825,7 @@
     "source": "6a0eb9a7a97e"
   },
   "base.this-is-a-data-files-copy": {
-    "text": "Toto je kopie v Datových souborech. Soubor, ze kterého vznikla, zůstal beze změny.",
+    "text": "Toto je kopie v Datových souborech (Data Files). Soubor, ze kterého vznikla, zůstal beze změny.",
     "source": "3f73aaaa990c"
   },
   "engine.this-is-a-gltf-version-file": {
@@ -29841,11 +29841,11 @@
     "source": "c41957136902"
   },
   "engine.this-is-not-a-rutba-image": {
-    "text": "Toto není projekt Rutba Grafika.",
+    "text": "Toto není projekt Rutba Image.",
     "source": "4e8e7b6fecf6"
   },
   "engine.this-is-not-a-rutba-image-2": {
-    "text": "Toto není projekt Rutba Grafika: není to soubor zip.",
+    "text": "Toto není projekt Rutba Image: není to soubor zip.",
     "source": "9c3d32f19dd8"
   },
   "engine.this-is-not-a-binary-gltf": {
@@ -29873,7 +29873,7 @@
     "source": "737a18f6eb07"
   },
   "locker.this-is-your-locker-folder": {
-    "text": "Toto je vaše složka Trezoru.",
+    "text": "Toto je vaše složka Trezoru (Locker).",
     "source": "1218fd3ca5b3"
   },
   "word.mailings.this-letter-takes-its-recipients-from": {
@@ -32236,11 +32236,11 @@
     "source": "248094cdc460"
   },
   "locker.when-the-locker-locks-files-you": {
-    "text": "Když se Trezor zamkne, vámi odemčené soubory",
+    "text": "Při zamčení Trezoru (Locker): odemčené soubory",
     "source": "fe3763febbff"
   },
   "locker.when-the-locker-locks-temporary-copies": {
-    "text": "Když se Trezor zamkne, dočasné kopie otevřených souborů",
+    "text": "Při zamčení Trezoru (Locker): dočasné kopie otevřených souborů",
     "source": "85eed2d2a061"
   },
   "word.mailings.when-this-holds-the-fields-after": {
@@ -32866,7 +32866,7 @@
     "source": "bf54ca280807"
   },
   "locker.your-locker-folder-is-ready-put": {
-    "text": "Vaše složka Trezoru je připravena. Vložte do ní soubory a pak je zde zamkněte.",
+    "text": "Vaše složka Trezoru (Locker) je připravena. Vložte do ní soubory a pak je zde zamkněte.",
     "source": "631f0118426c"
   },
   "base.trust.your-answer-is-kept-for-this": {
@@ -36713,7 +36713,7 @@
     "source": "39f7c8c30bf9"
   },
   "profiles.name-will-ask-for-this-password": {
-    "text": "{name} si před otevřením vyžádá toto heslo. Uložená hesla, poslední soubory, pošta, kalendáře, kontakty a zprávy z aplikace Hovory se jím zapečetí, takže je jiná osoba používající tento účet Windows nepřečte.",
+    "text": "{name} si před otevřením vyžádá toto heslo. Uložená hesla, poslední soubory, pošta, kalendáře, kontakty a zprávy z aplikace Hovory (Talk) se jím zapečetí, takže je jiná osoba používající tento účet Windows nepřečte.",
     "source": "e1f97d84bc62"
   },
   "profiles.name-will-open-without-asking-and": {
@@ -36969,7 +36969,7 @@
     "source": "b9c70b357df5"
   },
   "locker.n-folders-could-not-be-reached": {
-    "text": "Složky, které nebyly dostupné: {n}. Nový obnovovací klíč převezmou, až budou příště dostupné při otevření Trezoru.",
+    "text": "Složky, které nebyly dostupné: {n}. Nový obnovovací klíč převezmou, až budou příště dostupné při otevření Trezoru (Locker).",
     "source": "8fe3cd166f97"
   },
   "studio.n-frames-a-second": {
