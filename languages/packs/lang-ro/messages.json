@@ -1056,7 +1056,7 @@
     "source": "fd99634235a4"
   },
   "ai-tools-dialog.a-protected-database-is-reached-only": {
-    "text": "O bază de date protejată este accesată doar cu un rol ales de Administrator pentru instrumentele AI în Data Files, niciodată cu unul care îi poate modifica structura.",
+    "text": "O bază de date protejată este accesată doar cu un rol ales de Administrator pentru instrumentele AI în Fișiere de date (Data Files), niciodată cu unul care îi poate modifica structura.",
     "source": "95c6d97202ea"
   },
   "base.ai-tools.a-protected-database-is-reached-only": {
@@ -2960,7 +2960,7 @@
     "source": "eb448ef89a67"
   },
   "locker.anyone-at-this-computer-can-read": {
-    "text": "Oricine la acest computer poate citi copiile până deblocați din nou Locker.",
+    "text": "Oricine aici poate citi copiile până deblocați din nou Seiful (Locker).",
     "source": "3109eadb508c"
   },
   "mail.dialogs.anything-not-from-a-safe-sender": {
@@ -8340,7 +8340,7 @@
     "source": "ba23d84777b1"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
-    "text": "Fiecare cont de e-mail, calendar, agendă de adrese, bază de date și folder are setarea sa, afișată și în aplicația sa, la fel și Recorder. Totul este Dezactivat până alegeți. Nimic nu este niciodată șters sau mutat, iar orice trimitere așteaptă mai întâi apăsarea dvs. aici.",
+    "text": "Fiecare cont de e-mail, calendar, agendă de adrese, bază de date și folder are setarea sa, afișată și în aplicația sa, la fel și Înregistratorul (Recorder). Totul este Dezactivat până alegeți. Nimic nu este niciodată șters sau mutat, iar orice trimitere așteaptă mai întâi apăsarea dvs. aici.",
     "source": "0fd0a5b12aaa"
   },
   "word.mailings.each-message-is-the-merged-letter": {
@@ -10948,7 +10948,7 @@
     "source": "607e298f1b12"
   },
   "locker.give-the-password-a-different-way": {
-    "text": "Comunicați parola pe altă cale, de exemplu printr-un apel sau un SMS, și niciodată în același e-mail. Cealaltă persoană deschide fișierul cu Deschidere fișier trimis din Locker.",
+    "text": "Comunicați parola pe altă cale, de exemplu printr-un apel sau un SMS, și niciodată în același e-mail. Cealaltă persoană deschide fișierul cu Deschidere fișier trimis din Seif (Locker).",
     "source": "1b7a08b8266b"
   },
   "locker.give-the-password-a-different-way-2": {
@@ -13176,7 +13176,7 @@
     "source": "4d08e86b0ba2"
   },
   "locker.it-becomes-an-ordinary-file-in": {
-    "text": "Devine un fișier obișnuit în același loc, iar versiunile anterioare păstrate de Locker sunt eliminate. Îl puteți bloca din nou oricând doriți.",
+    "text": "Devine un fișier obișnuit în același loc, iar versiunile anterioare păstrate de Seif (Locker) sunt eliminate. Îl puteți bloca din nou oricând doriți.",
     "source": "edc5654cc244"
   },
   "mail.it-goes-to": {
@@ -13200,7 +13200,7 @@
     "source": "668b7b14f675"
   },
   "locker.it-is-removed-for-good-with": {
-    "text": "Este eliminat definitiv, împreună cu versiunile anterioare păstrate de Locker. Acțiunea nu poate fi anulată.",
+    "text": "Este eliminat definitiv, împreună cu versiunile anterioare păstrate de Seif (Locker). Acțiunea nu poate fi anulată.",
     "source": "0add2a7bb664"
   },
   "mail.smime.it-is-shown-as-plain-text": {
@@ -17664,7 +17664,7 @@
     "source": "a08f0f94673a"
   },
   "base.not-shown-as-data-files-cannot": {
-    "text": "Neafișate, pentru că Data Files nu le poate afișa: {tables}.",
+    "text": "Neafișate, pentru că aplicația Fișiere de date (Data Files) nu le poate afișa: {tables}.",
     "source": "ddfa2ced7beb"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
@@ -17748,7 +17748,7 @@
     "source": "9ec690affc17"
   },
   "profiles.nothing-else-is-lost-each-place": {
-    "text": "Nu se pierde nimic altceva. Fiecare loc vă cere parola data viitoare când are nevoie de ea: serverele E-mail, Calendar și Contacte, Talk și Data Files.",
+    "text": "Nu se pierde nimic altceva. Fiecare loc vă cere parola data viitoare când are nevoie de ea: serverele E-mail, Calendar și Contacte, Talk și Fișiere de date (Data Files).",
     "source": "81cc2adb98ca"
   },
   "locker.nothing-has-been-changed-if-you": {
@@ -21080,7 +21080,7 @@
     "source": "bf53fb475896"
   },
   "home.record-a-screen-a-screen-a": {
-    "text": "Înregistrare ecran: un ecran, o fereastră sau camera dvs., cu sunet, în Recorder",
+    "text": "Înregistrare ecran: un ecran, o fereastră sau camera dvs., cu sunet, în Înregistrator (Recorder)",
     "source": "537961d71048"
   },
   "common.record-again": {
@@ -26896,7 +26896,7 @@
     "source": "3975b6ba21ee"
   },
   "home.take-a-picture-the-recorder-opens": {
-    "text": "Realizare fotografie: se deschide Recorder și fotografiază ce afișează",
+    "text": "Realizare fotografie: se deschide Înregistratorul (Recorder) și fotografiază ce afișează",
     "source": "c8378bc06f24"
   },
   "base.people.take-it-away": {
@@ -27652,11 +27652,11 @@
     "source": "1d8c64ed765e"
   },
   "engine.the-data-files-copy-needs-a": {
-    "text": "Copia Data Files necesită un fișier propriu. Alegeți alt nume sau alt folder.",
+    "text": "Copia Fișiere de date (Data Files) necesită un fișier propriu. Alegeți alt nume sau alt folder.",
     "source": "b7ddf45551bf"
   },
   "home.the-office-apps-are-on-add": {
-    "text": "Aplicațiile Office sunt active. Adăugați Talk, Data Files și aplicațiile Studio când doriți și dezactivați oricând ce nu folosiți.",
+    "text": "Aplicațiile Office sunt active. Adăugați oricând Talk, Fișiere de date (Data Files) și aplicațiile Studio; opriți ce nu folosiți.",
     "source": "328297894902"
   },
   "pdf.the-pdf-could-not-be-saved": {
@@ -27960,7 +27960,7 @@
     "source": "5247422a086e"
   },
   "base.links.the-engine-keeps-the-records-data": {
-    "text": "Motorul păstrează înregistrările: Data Files le citește din el și salvează direct în el fiecare modificare. Fiecare computer legat la același motor lucrează cu aceleași înregistrări.",
+    "text": "Motorul păstrează înregistrările: aplicația Fișiere de date (Data Files) le citește din el și salvează direct în el fiecare modificare. Fiecare computer legat la același motor lucrează cu aceleași înregistrări.",
     "source": "e0207c80190a"
   },
   "base.links.the-engines": {
@@ -28844,7 +28844,7 @@
     "source": "46d46b934332"
   },
   "base.sources.the-source-keeps-the-records-data": {
-    "text": "Sursa păstrează înregistrările. Data Files le citește aici într-un tabel, doar în citire, și le citește din nou periodic și când reîmprospătați.",
+    "text": "Sursa păstrează înregistrările. Aplicația Fișiere de date (Data Files) le citește aici într-un tabel, doar în citire, și le citește din nou periodic și când reîmprospătați.",
     "source": "79cee31b8e53"
   },
   "mail.archive.the-sources-were-opened-for-reading": {
@@ -29572,19 +29572,19 @@
     "source": "d16e6b944ce3"
   },
   "engine.this-database-was-made-by-another-2": {
-    "text": "Această bază de date a fost creată de alt program, așa că structura ei nu se modifică aici. Faceți o copie Data Files a ei pentru a-i modifica structura.",
+    "text": "Această bază de date a fost creată de alt program, așa că structura ei nu se modifică aici. Faceți o copie Fișiere de date (Data Files) pentru a-i modifica structura.",
     "source": "bdea4ff9cd77"
   },
   "base.this-database-was-made-by-another": {
-    "text": "Baza de date a fost creată de alt program. Modificările înregistrărilor ajung direct în fișier; restul rămâne neschimbat. Modificați structura într-o copie Data Files.",
+    "text": "Bază de date creată de alt program. Înregistrările se modifică direct în fișier; restul rămâne neschimbat. Modificați structura într-o copie Fișiere de date (Data Files).",
     "source": "901fb7cbec72"
   },
   "base.this-database-was-made-by-another-2": {
-    "text": "Această bază de date a fost creată de alt program. Este deschisă doar în citire și nu se adaugă nimic în fișierul ei. Permiteți modificări pentru a-i modifica înregistrările sau creați o copie Data Files pentru a-i modifica structura.",
+    "text": "Această bază de date a fost creată de alt program. Este deschisă doar în citire și nu se adaugă nimic în fișierul ei. Permiteți modificări pentru a-i modifica înregistrările sau creați o copie Fișiere de date (Data Files) pentru a-i modifica structura.",
     "source": "ed77aa7838b8"
   },
   "engine.this-database-was-made-by-another-3": {
-    "text": "Această bază de date a fost creată de alt program. Deschideți-o pentru citire sau faceți o copie Data Files a ei pentru a-i modifica structura.",
+    "text": "Această bază de date a fost creată de alt program. Deschideți-o pentru citire sau faceți o copie Fișiere de date (Data Files) pentru a-i modifica structura.",
     "source": "96bea0765327"
   },
   "slides.this-deck-has-no-layouts-of": {
@@ -29756,7 +29756,7 @@
     "source": "6a0eb9a7a97e"
   },
   "base.this-is-a-data-files-copy": {
-    "text": "Aceasta este o copie Data Files. Fișierul din care a fost creată a rămas neschimbat.",
+    "text": "Aceasta este o copie Fișiere de date (Data Files). Fișierul din care a fost creată a rămas neschimbat.",
     "source": "3f73aaaa990c"
   },
   "engine.this-is-a-gltf-version-file": {
@@ -29804,7 +29804,7 @@
     "source": "737a18f6eb07"
   },
   "locker.this-is-your-locker-folder": {
-    "text": "Acesta este folderul dvs. Locker.",
+    "text": "Acesta este folderul dvs. pentru Seif (Locker).",
     "source": "1218fd3ca5b3"
   },
   "word.mailings.this-letter-takes-its-recipients-from": {
@@ -32792,7 +32792,7 @@
     "source": "bf54ca280807"
   },
   "locker.your-locker-folder-is-ready-put": {
-    "text": "Folderul dvs. Locker este gata. Puneți fișiere în el, apoi blocați-le aici.",
+    "text": "Folderul dvs. pentru Seif (Locker) este gata. Puneți fișiere în el, apoi blocați-le aici.",
     "source": "631f0118426c"
   },
   "base.trust.your-answer-is-kept-for-this": {
@@ -36708,7 +36708,7 @@
     "source": "b9c70b357df5"
   },
   "locker.n-folders-could-not-be-reached": {
-    "text": "Foldere la care nu s-a putut ajunge: {n}. Primesc noua cheie de recuperare data viitoare când sunt prezente la deschiderea Locker.",
+    "text": "Foldere la care nu s-a putut ajunge: {n}. Primesc noua cheie de recuperare data viitoare când sunt prezente la deschiderea Seifului (Locker).",
     "source": "8fe3cd166f97"
   },
   "studio.n-frames-a-second": {

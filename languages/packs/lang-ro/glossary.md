@@ -90,6 +90,12 @@ then in the pack, so the two stay in step.
 | Image (the editor) | Imagine |
 | Video | Video |
 | Home (the launcher) | Acasă |
+| Talk | Talk |
+| Locker | Seif (proposed by the languages session, agreed by the PM 13 Nov) |
+| Data Files (the database's file app) | Fișiere de date (proposed by the languages session, agreed by the PM 13 Nov) |
+| Studio | Studio |
+| Recorder | Înregistrator (proposed by the languages session, agreed by the PM 13 Nov) |
+| Broadcast | Transmisiune live (proposed by the languages session, agreed by the PM 13 Nov) |
 
 ## Tabs and frame
 
