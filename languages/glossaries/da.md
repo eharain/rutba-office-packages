@@ -94,6 +94,12 @@ the pack, so the two stay in step.
 | Image (the editor) | Billedredigering |
 | Video | Video |
 | Home (the launcher) | Start |
+| Talk | Talk |
+| Locker | Boks (proposed by the languages session under the PM's rule of 13 Nov) |
+| Data Files (the database's file app) | Datafiler (proposed by the languages session under the PM's rule of 13 Nov) |
+| Studio | Studio |
+| Recorder | Optager (proposed by the languages session under the PM's rule of 13 Nov) |
+| Broadcast | Udsendelse (proposed by the languages session under the PM's rule of 13 Nov) |
 
 ## Tabs and frame
 

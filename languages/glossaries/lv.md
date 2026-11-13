@@ -96,6 +96,7 @@ the pack, so the two stay in step.
 | Image (the editor) | Attēlu redaktors |
 | Video | Video |
 | Home (the launcher) | Sākums |
+| Data Files (the database's file app) | Datu faili (proposed by the languages session under the PM's rule of 13 Nov) |
 
 ## Tabs and frame
 

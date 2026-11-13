@@ -83,6 +83,11 @@ then in the pack, so the two stay in step.
 | Image (the editor) | Kujutis |
 | Video | Video |
 | Home (the launcher) | Avaleht |
+| Talk | Kõned (as the intents table below writes it) |
+| Locker | Seif (proposed by the languages session under the PM's rule of 13 Nov) |
+| Studio | Studio |
+| Recorder | Salvesti (proposed by the languages session under the PM's rule of 13 Nov) |
+| Broadcast | Ülekanne (proposed by the languages session under the PM's rule of 13 Nov) |
 
 The other apps, for reference: Talk = Kõned, Locker = Seif, Colour = Värv,
 Base = Andmebaas, Broadcast = Ülekanne, Recorder = Salvesti.

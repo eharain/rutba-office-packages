@@ -100,6 +100,7 @@ the pack, so the two stay in step.
 | Image (the editor) | עורך תמונה |
 | Video | וידאו |
 | Home (the launcher) | בית |
+| Data Files (the database's file app) | קובצי נתונים (proposed by the languages session under the PM's rule of 13 Nov) |
 | Talk | שיחות |
 | Locker | כספת |
 | Colour | צבע |

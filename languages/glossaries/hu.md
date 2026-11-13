@@ -102,6 +102,7 @@ the pack, so the two stay in step.
 | Image (the editor) | Képszerkesztő |
 | Video | Videó |
 | Home (the launcher) | Kezdőlap |
+| Data Files (the database's file app) | Adatfájlok (proposed by the languages session under the PM's rule of 13 Nov) |
 | Talk | Beszélgetés |
 | Locker | Széf |
 | Colour | Szín |

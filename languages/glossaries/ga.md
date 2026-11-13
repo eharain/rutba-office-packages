@@ -107,6 +107,7 @@ the pack, so the two stay in step.
 | Image (the editor) | Íomhá |
 | Video | Físeán |
 | Home (the launcher) | Baile |
+| Data Files (the database's file app) | Comhaid sonraí (proposed by the languages session under the PM's rule of 13 Nov) |
 | Talk | Caint |
 | Locker | Taisceadán |
 | Colour | Dath |

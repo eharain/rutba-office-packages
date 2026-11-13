@@ -96,6 +96,12 @@ the pack, so the two stay in step.
 | Image (the editor) | Immaġni |
 | Video | Vidjo |
 | Home (the launcher) | Dar |
+| Talk | Talk |
+| Locker | Kaxxaforti (proposed by the languages session under the PM's rule of 13 Nov) |
+| Data Files (the database's file app) | Fajls tad-data (proposed by the languages session under the PM's rule of 13 Nov) |
+| Studio | Studio |
+| Recorder | Reġistratur (proposed by the languages session under the PM's rule of 13 Nov) |
+| Broadcast | Xandir (proposed by the languages session under the PM's rule of 13 Nov) |
 
 ## Tabs and frame
 

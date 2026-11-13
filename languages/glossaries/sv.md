@@ -100,6 +100,7 @@ then in the pack, so the two stay in step.
 | Image (the editor) | Bildredigerare |
 | Video | Video |
 | Home (the launcher) | Start |
+| Data Files (the database's file app) | Datafiler (proposed by the languages session under the PM's rule of 13 Nov) |
 | Talk | Samtal |
 | Locker | Låsskåp |
 | Colour | Färg |

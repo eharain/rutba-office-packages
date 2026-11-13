@@ -90,6 +90,7 @@ then in the pack, so the two stay in step.
 | Image (the editor) | Kuvankäsittely |
 | Video | Video |
 | Home (the launcher) | Aloitus |
+| Data Files (the database's file app) | Tietotiedostot (proposed by the languages session under the PM's rule of 13 Nov) |
 
 ## Tabs and frame
 
