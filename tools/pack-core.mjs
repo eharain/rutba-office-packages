@@ -110,6 +110,51 @@ export function checkFiles(dir, manifest, allowed) {
 }
 
 /**
+ * The licence of what is made here: Tech Style's, all rights reserved (the
+ * repository's LICENSE). A pack holding anything of ours names PROPRIETARY in
+ * its spdx and carries the LICENSE, byte for byte, as LICENCE_FILE; with
+ * parts by others it joins their licences with AND and lists their files
+ * too. A pack whose contents are wholly others' names only their licences
+ * and needs no LICENCE_FILE.
+ */
+export const PROPRIETARY = 'LicenseRef-TechStyle-Proprietary';
+export const LICENCE_FILE = 'LICENSE.txt';
+export const REPO_LICENSE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'LICENSE');
+
+/** The ids an spdx expression names, without its operators and brackets. */
+const spdxIds = (spdx) => String(spdx || '').replace(/[()]/g, ' ').split(/\s+/).filter((w) => w && !['AND', 'OR', 'WITH'].includes(w));
+
+/** The licence field for a pack wholly made here; `others` adds third-party ids and files. */
+export function ownLicence(others = {}) {
+  const ids = [PROPRIETARY, ...(others.spdx ? [others.spdx] : [])];
+  return { spdx: ids.join(' AND '), files: [LICENCE_FILE, ...(others.files || [])] };
+}
+
+/** Put the repository's LICENSE into a pack folder as LICENCE_FILE. */
+export function writeLicence(dir) {
+  fs.copyFileSync(REPO_LICENSE, path.join(dir, LICENCE_FILE));
+}
+
+/**
+ * Faults in a pack's licence: NOASSERTION anywhere; and, when its spdx names
+ * PROPRIETARY, LICENCE_FILE listed in its files, present, and the same bytes
+ * as the repository's LICENSE.
+ */
+export function checkLicence(dir, manifest) {
+  const faults = [];
+  const ids = spdxIds(manifest.licence?.spdx);
+  if (!ids.length) faults.push('licence has no spdx');
+  if (ids.includes('NOASSERTION')) faults.push('licence says NOASSERTION');
+  if (ids.includes(PROPRIETARY)) {
+    const file = path.join(dir, LICENCE_FILE);
+    if (!(manifest.licence?.files || []).includes(LICENCE_FILE)) faults.push(`licence files do not list ${LICENCE_FILE}`);
+    if (!fs.existsSync(file)) faults.push(`${LICENCE_FILE} is not in the pack`);
+    else if (!fs.readFileSync(file).equals(fs.readFileSync(REPO_LICENSE))) faults.push(`${LICENCE_FILE} is not the same as the repository's LICENSE`);
+  }
+  return faults;
+}
+
+/**
  * Every requires entry met by some pack: by its id, or by a name it provides.
  *   manifests: every manifest that could meet one (the packs here, and any
  *   pack a kind's tools know of elsewhere in this repository).

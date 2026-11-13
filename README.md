@@ -32,7 +32,9 @@ the files that come from its code, and checks every pack.
 
 `tools/` at the top holds what every kind of pack shares: `pack-core.mjs`
 checks the manifest fields, the version rule, `requires` and `provides`, and
-the files a pack may hold, and gives the canonical form a manifest is signed
+the files a pack may hold, the licence (a pack with anything of ours names
+`LicenseRef-TechStyle-Proprietary` and carries the LICENSE as `LICENSE.txt`;
+NOASSERTION is never allowed), and gives the canonical form a manifest is signed
 in. Its tests:
 
 ```

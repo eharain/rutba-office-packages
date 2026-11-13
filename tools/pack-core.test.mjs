@@ -1,7 +1,10 @@
 // node --test tools/pack-core.test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { canonical, compareVersions, checkManifest, checkRequires, checkContract, trustFor } from './pack-core.mjs';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import { canonical, compareVersions, checkManifest, checkRequires, checkContract, trustFor, PROPRIETARY, LICENCE_FILE, ownLicence, writeLicence, checkLicence } from './pack-core.mjs';
 
 const voice = {
   id: 'voice-kokoro-bf-emma', kind: 'voice', format: 1, version: '2.25.1', revision: 1, name: 'Emma',
@@ -80,4 +83,25 @@ test('the contract: the engine is exactly its Office version and speaks its APIs
   assert.match(f({ reads: { model: [1], voice: [1] } }), /nothing of pronunciation/);
   assert.match(f({ reads: { model: [1], pronunciation: [1], voice: [1], theme: [1] } }), /reads theme/);
   assert.match(checkContract(engine, { ...contract, kinds: { ...contract.kinds, voice: { formats: [1, 2], trust: 'packages' } } }).join(), /voice format 1, not 2/);
+});
+
+test('licence: ours carries the LICENSE, others need none, NOASSERTION never', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'pack-licence-'));
+  try {
+    const own = { licence: ownLicence() };
+    assert.deepEqual(own.licence, { spdx: PROPRIETARY, files: [LICENCE_FILE] });
+    assert.match(checkLicence(dir, own).join(), /not in the pack/);
+    writeLicence(dir);
+    assert.deepEqual(checkLicence(dir, own), []);
+    const engine = { licence: ownLicence({ spdx: 'MIT', files: ['LICENSE-onnxruntime.txt'] }) };
+    assert.equal(engine.licence.spdx, PROPRIETARY + ' AND MIT');
+    assert.deepEqual(checkLicence(dir, engine), []);
+    fs.appendFileSync(path.join(dir, LICENCE_FILE), 'changed');
+    assert.match(checkLicence(dir, own).join(), /not the same/);
+    assert.deepEqual(checkLicence(dir, { licence: { spdx: 'Apache-2.0', files: ['Apache-2.0.txt'] } }), []);
+    assert.match(checkLicence(dir, { licence: { spdx: 'NOASSERTION AND MIT', files: [] } }).join(), /NOASSERTION/);
+    assert.match(checkLicence(dir, { licence: { spdx: PROPRIETARY, files: [] } }).join(), /do not list/);
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
 });
