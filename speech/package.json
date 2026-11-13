@@ -1,0 +1,12 @@
+{
+  "name": "rutba-office-speech",
+  "private": true,
+  "description": "Speech packs for Rutba Office: the engine's runner and text steps, and the model, pronunciation and voice packs",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "fetch": "node tools/fetch-sources.mjs",
+    "check": "node tools/check-speech.mjs"
+  }
+}

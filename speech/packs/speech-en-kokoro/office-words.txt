@@ -1,0 +1,27 @@
+;;; Words Rutba Office says that the CMU dictionary does not, or says another way.
+;;; One word per line: the word, one space, ARPAbet (as CMUdict writes it).
+;;; Kept by Rutba Office; checked by tools/check-speech.mjs.
+rutba R UH1 T B AH0
+gmail JH IY1 M EY2 L
+nastaliq N AH0 S T AH0 L IY1 K
+kokoro K OW0 K AO1 R OW0
+docx D AA1 K EH2 K S
+xlsx EH1 K S EH2 L EH2 S EH2 K S
+pptx P IY1 P IY1 T IY1 EH2 K S
+odt OW1 D IY1 T IY1
+ods OW1 D IY1 EH1 S
+odp OW1 D IY1 P IY1
+csv S IY1 EH1 S V IY1
+caldav K AE1 L D AE2 V
+carddav K AA1 R D D AE2 V
+webdav W EH1 B D AE2 V
+ocr OW1 S IY1 AA1 R
+rtmp AA1 R T IY1 EH1 M P IY1
+wifi W AY1 F AY2
+email IY1 M EY2 L
+emails IY1 M EY2 L Z
+online AA1 N L AY2 N
+offline AO1 F L AY2 N
+login L AO1 G IH2 N
+signup S AY1 N AH2 P
+setup S EH1 T AH2 P

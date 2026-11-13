@@ -1,0 +1,23 @@
+{
+  "id": "speech-kokoro-82m-fp32",
+  "kind": "model",
+  "provides": [
+    "speech-kokoro-82m"
+  ],
+  "requires": [
+    "speech-engine"
+  ],
+  "name": "Kokoro speech model, full size (32-bit)",
+  "licence": {
+    "spdx": "Apache-2.0",
+    "credit": "Kokoro-82M by hexgrad, Apache-2.0 (https://huggingface.co/hexgrad/Kokoro-82M). Its training audio includes Koniwa (CC BY 3.0) and SIWIS (CC BY 4.0), credited here as their licences ask."
+  },
+  "files": [
+    {
+      "name": "model.onnx",
+      "url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/1939ad2a8e416c0acfeecc08a694d14ef25f2231/onnx/model.onnx",
+      "sha256": "8fbea51ea711f2af382e88c833d9e288c6dc82ce5e98421ea61c058ce21a34cb",
+      "size": 325532232
+    }
+  ]
+}
