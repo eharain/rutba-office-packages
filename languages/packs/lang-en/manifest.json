@@ -1,0 +1,34 @@
+{
+  "id": "lang-en",
+  "kind": "language",
+  "format": 2,
+  "version": "2.25.0",
+  "revision": 1,
+  "tag": "en",
+  "tags": [
+    "en"
+  ],
+  "requires": [],
+  "licence": {
+    "spdx": "NOASSERTION",
+    "files": []
+  },
+  "name": "English",
+  "nativeName": "English",
+  "script": "Latn",
+  "direction": "ltr",
+  "region": "en-GB",
+  "pluralForms": [
+    "one",
+    "other"
+  ],
+  "labels": 8998,
+  "source": true,
+  "status": "source",
+  "review": "source text",
+  "versions": [
+    "short",
+    "medium",
+    "complete"
+  ]
+}

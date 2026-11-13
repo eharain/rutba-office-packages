@@ -1,9 +1,9 @@
 # Made by `node tools/build.mjs` from the pinned Rutba Office release; not
-# committed while the suite's English still carries em dashes (they come back
-# once the English loses them at source).
+# committed because they hold the code's keys or Office's translations as
+# they are, em dashes included. packs/lang-en is committed: its English has
+# its own wording in versions/en.medium.json.
 /ids.json
 /labels.json
-/packs/lang-en/
 /packs/lang-ar/
 /packs/lang-hi/
 /packs/lang-ur/

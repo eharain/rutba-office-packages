@@ -60,20 +60,26 @@ the registry's, or when `tools/check-packs.mjs` finds a fault.
 
 **Made by the build, not committed** (see `.gitignore`):
 
-- `ids.json` and `labels.json`;
-- `packs/lang-en`, `packs/lang-ar`, `packs/lang-hi` and `packs/lang-ur`, the
-  English source and the three translations Rutba Office already carries;
+- `ids.json` and `labels.json`, which hold the code's own keys;
+- `packs/lang-ar`, `packs/lang-hi` and `packs/lang-ur`, the three
+  translations Rutba Office already carries;
 - `dist/v<version>/`: the packs that may be released, written by
   `tools/dist.mjs` once every check passes: English, which is released like
   every language (Rutba Office keeps a copy of the released `lang-en`), and
   each pack whose status is `reviewed`. Drafts never go there. The
   repository's release step gathers each kind's `dist/v<version>/`.
 
-They carry the suite's English as it is, and 628 of its labels still have em
-dashes, which this repository does not take. Once the English loses them at
-source, they are committed again. Everything else is committed: the tools,
-`ids.lock.json`, `coverage.json`, `MODEL.md` and the other packs, which are
-made here and checked against the registry by the build.
+These carry the suite's keys and translations as they are, and about 628 of
+those labels have em dashes, which this repository does not take.
+
+`packs/lang-en` is made by the build too, but it is committed. The code's key
+is a label's English, and 628 keys carry em dashes. For those labels English
+has its own medium wording in `versions/en.medium.json`, each entry tied to
+its key's source hash. The build uses it for lang-en, and the checks report
+an entry whose key has changed. A new key with a dash fails the build until
+it is given its own wording there. Everything else is committed too: the
+tools, `ids.lock.json`, `coverage.json`, `MODEL.md` and the other packs,
+which are made here and checked against the registry by the build.
 
 ## Ids
 

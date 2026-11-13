@@ -36,6 +36,9 @@ const FIELDS = ['revision', 'tag', 'nativeName', 'script', 'direction', 'region'
 /** Data only: the files a language pack may hold, beside its licences. */
 const LANGUAGE_FILES = new Set(['manifest.json', 'messages.json', 'versions.json', 'glossary.md']);
 const manifests = [];
+/** English's own wording for labels whose code key reads badly (versions/en.medium.json). */
+const EN_MEDIUM_FILE = path.join(ROOT, 'versions', 'en.medium.json');
+const EN_MEDIUM = fs.existsSync(EN_MEDIUM_FILE) ? JSON.parse(fs.readFileSync(EN_MEDIUM_FILE, 'utf8')) : {};
 const DASH = /[\u2014\u2015]| \u2013 |^\u2013 | \u2013$/;
 const NBSP = /[\u00a0\u202f\u2007\u2060\ufeff]/;
 /** Labels left word for word in English: at most this many in another script, this share in Latin. */
@@ -66,7 +69,7 @@ function checkVersions(dir, manifest, messages) {
     const v = versions[id];
     if (!v) { missing += 1; continue; }
     if (v.source !== label.hash) stale += 1;
-    const medium = manifest.source ? (label.plural ? { one: label.english, other: label.plural } : label.english) : (label.plural ? msg.forms : msg.text);
+    const medium = label.plural ? msg.forms : msg.text;
     const counted = typeof medium === 'object';
     if (counted && (JSON.stringify(Object.keys(v.short || {}).sort()) !== JSON.stringify(Object.keys(medium).sort()) || JSON.stringify(Object.keys(v.complete || {}).sort()) !== JSON.stringify(Object.keys(medium).sort()))) { fault(`${id}: the versions' forms are not the medium's`); continue; }
     const space = SPACE?.[id]?.space;
@@ -91,6 +94,12 @@ function checkVersions(dir, manifest, messages) {
 const fault = (what) => { faults += 1; console.log(`  fault: ${what}`); };
 const ids = new Set(labels.keys());
 if (ids.size !== registry.labels.length) { console.log('ids.json: an id is used twice'); faults += 1; }
+// English's own wording is for a key as it is now: one made for an older key,
+// or for a label gone, is reported for review.
+{
+  const old = Object.entries(EN_MEDIUM).filter(([id, e]) => labels.get(id)?.hash !== e.source).map(([id]) => id);
+  if (old.length) { console.log(`versions/en.medium.json: ${old.length} wordings made for an older key or a label gone, such as ${old[0]}`); faults += 1; }
+}
 
 const rows = [];
 for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
@@ -139,8 +148,15 @@ for (const name of fs.readdirSync(path.join(ROOT, 'packs')).sort()) {
     if (!label) continue;
     const want = places(label.english + ' ' + (label.plural || ''));
     if (manifest.source) {
-      const ok = label.plural ? entry.forms?.one === label.english && entry.forms?.other === label.plural : entry.text === label.english;
-      if (!ok) fault(`${id}: the English pack does not hold the registry's English`);
+      // English's own wording where it has one, the code key's words otherwise.
+      const own = EN_MEDIUM[id]?.source === label.hash ? EN_MEDIUM[id] : null;
+      const one = own ? (label.plural ? own.forms?.one : own.text) : label.english;
+      const other = own ? own.forms?.other : label.plural;
+      const ok = label.plural ? entry.forms?.one === one && entry.forms?.other === other : entry.text === one;
+      if (!ok) fault(`${id}: the English pack does not hold ${own ? 'its own wording' : "the registry's English"}`);
+      if (own && !same(places(label.plural ? `${one} ${other}` : one), places(label.plural ? `${label.english} ${label.plural}` : label.english))) fault(`${id}: English's own wording changes the placeholders`);
+      // English carries no dash: a code key that has one needs its own wording.
+      if (DASH.test(label.plural ? `${one} ${other}` : one)) { dashes += 1; if (dashes <= 5) fault(`${id}: a dash in English; give it its own wording in versions/en.medium.json`); }
       if (entry.source !== label.hash) fault(`${id}: the English pack's source is not the hash of its English`);
       continue;
     }

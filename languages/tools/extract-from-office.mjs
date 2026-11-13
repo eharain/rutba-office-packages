@@ -240,8 +240,19 @@ function writePack(tag, messages, extra) {
 // English: the source pack. A counted label carries English's two forms.
 // Each entry holds the hash of its English (source), as every pack does: Rutba
 // Office names a label by its English and finds the id through this hash.
+// English's own wording comes first where it has one (versions/en.medium.json:
+// labels whose code key reads badly, such as one with a long dash); the code
+// key's words otherwise. A wording made for an older key is not used, and
+// check-packs reports it.
+const enMediumFile = path.join(ROOT, 'versions', 'en.medium.json');
+const enMedium = fs.existsSync(enMediumFile) ? JSON.parse(fs.readFileSync(enMediumFile, 'utf8')) : {};
 const en = {};
-for (const l of ordered) en[l.id] = l.plural ? { forms: { one: l.english, other: l.plural }, source: l.hash } : { text: l.english, source: l.hash };
+for (const l of ordered) {
+  const own = enMedium[l.id]?.source === l.hash ? enMedium[l.id] : null;
+  en[l.id] = l.plural
+    ? { forms: own?.forms || { one: l.english, other: l.plural }, source: l.hash }
+    : { text: own?.text ?? l.english, source: l.hash };
+}
 // A pack's short and complete versions are written here, not taken from the
 // code: versions/<tag>.json, committed. With them the pack is in format 2
 // (MODEL.md), and they go beside its messages as versions.json.
