@@ -9147,6 +9147,7 @@
   "defaults.ours-of-total-formats": {"short":"{total} 種格式中的 {ours} 種","complete":"{total} 種格式中的 {ours} 種","source":"57942947a511"},
   "mail.path-is-no-longer-there": {"short":"{path} 已不存在","complete":"{path} 已不在該處","source":"592e65bab5c5"},
   "voices-dialog.pct-translated-for-this-version": {"short":"已翻譯 {pct}%","complete":"此版本已翻譯 {pct}% 的內容","source":"692d9bafb1dc"},
+  "voices-dialog.rutba-office-version-does-not-have": {"short":"Rutba Office {version} 未內建{name}：套件就緒前顯示英文。","complete":"Rutba Office {version} 未內建{name}：在其語言套件準備好之前，視窗將以英文顯示。","source":"c954897db32a"},
   "sheets.ribbon.pen-click-again-for-its-colour": {"short":"{pen}：按一下選擇色彩","complete":"{pen}：再按一下即可選擇其色彩與粗細","source":"275d6dd78757"},
   "sheets.ribbon.pen-draw-over-the-cells": {"short":"{pen}：在儲存格上繪圖","complete":"{pen}：用它在儲存格上繪圖","source":"1a8fab3ce257"},
   "mail.dialogs.provider-does-not-let-other-programs": {"short":"{provider} 無法傳送其自動回覆；Rutba Office 可以。","complete":"{provider} 不允許其他程式傳送其自動回覆。Rutba Office 可以改為傳送。","source":"f108d04c4565"},

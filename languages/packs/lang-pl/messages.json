@@ -23378,6 +23378,10 @@
     "text": "Pobrano Rutba Office {version}: uruchom ponownie, aby zaktualizować, lub aktualizacja zostanie zainstalowana po zamknięciu programu",
     "source": "ef28bb66ae1a"
   },
+  "voices-dialog.rutba-office-version-does-not-have": {
+    "text": "Rutba Office {version} nie ma wbudowanego języka {name}: okna będą po angielsku, dopóki jego pakiet językowy nie będzie gotowy.",
+    "source": "c954897db32a"
+  },
   "voices-dialog.rutba-office-version-is-out-but": {
     "text": "Jest już Rutba Office {version}, ale nie udało się sprawdzić twoich głosów i języków dla tej wersji. Pytanie zostanie ponowione przy następnym sprawdzaniu.",
     "source": "1f9d9dab508d"

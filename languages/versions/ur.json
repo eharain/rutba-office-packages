@@ -9147,6 +9147,7 @@
   "defaults.ours-of-total-formats": {"short":"{total} میں سے {ours} فارمیٹس","complete":"{total} میں سے {ours} فارمیٹس","source":"57942947a511"},
   "mail.path-is-no-longer-there": {"short":"{path} نہیں رہا","complete":"{path} اب وہاں نہیں ہے","source":"592e65bab5c5"},
   "voices-dialog.pct-translated-for-this-version": {"short":"{pct}% ترجمہ شدہ","complete":"اس ورژن کے لیے {pct}% متن کا ترجمہ ہو چکا ہے","source":"692d9bafb1dc"},
+  "voices-dialog.rutba-office-version-does-not-have": {"short":"Rutba Office {version} میں {name} نہیں: پیک تیار ہونے تک انگریزی۔","complete":"Rutba Office {version} میں {name} پہلے سے موجود نہیں ہوتی: جب تک اس کا زبان پیک تیار نہ ہو جائے، ونڈوز انگریزی میں رہیں گی۔","source":"c954897db32a"},
   "sheets.ribbon.pen-click-again-for-its-colour": {"short":"{pen}: رنگ کے لیے کلک کریں","complete":"{pen}: اس کے رنگ اور موٹائی کے لیے اسے دوبارہ کلک کریں","source":"275d6dd78757"},
   "sheets.ribbon.pen-draw-over-the-cells": {"short":"{pen}: سیلز کے اوپر ڈرا کریں","complete":"{pen}: اس سے سیلز کے اوپر ڈرا کریں","source":"1a8fab3ce257"},
   "mail.dialogs.provider-does-not-let-other-programs": {"short":"{provider} اپنے خودکار جوابات نہیں بھیجنے دیتا؛ Rutba Office بھیج سکتا ہے۔","complete":"{provider} دوسرے پروگراموں کو اپنے خودکار جوابات بھیجنے نہیں دیتا۔ اس کے بجائے رتبہ آفس (Rutba Office) انہیں بھیج سکتا ہے۔","source":"f108d04c4565"},

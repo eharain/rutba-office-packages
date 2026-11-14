@@ -23237,6 +23237,10 @@
     "text": "Rutba Office {version} 已下载：重新启动即可更新，否则将在你退出时安装",
     "source": "ef28bb66ae1a"
   },
+  "voices-dialog.rutba-office-version-does-not-have": {
+    "text": "Rutba Office {version} 未内置{name}：在其语言包准备好之前，窗口将显示为英文。",
+    "source": "c954897db32a"
+  },
   "voices-dialog.rutba-office-version-is-out-but": {
     "text": "Rutba Office {version} 已发布，但无法检查你的语音和语言是否适用于该版本。将在下次检查时再次询问。",
     "source": "1f9d9dab508d"

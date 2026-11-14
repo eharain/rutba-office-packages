@@ -4,9 +4,9 @@
     "main process": {
       "count": 472,
       "examples": [
-        "apps/desktop/main/addons-service.js:200  The list of add-ons is not signed by Rutba.",
-        "apps/desktop/main/addons-service.js:433  This copy of Rutba Office has no add-ons folder.",
-        "apps/desktop/main/addons-service.js:614  English is part of Rutba Office.",
+        "apps/desktop/main/addons-service.js:203  The list of add-ons is not signed by Rutba.",
+        "apps/desktop/main/addons-service.js:440  This copy of Rutba Office has no add-ons folder.",
+        "apps/desktop/main/addons-service.js:621  English is part of Rutba Office.",
         "apps/desktop/main/ai-tools.js:149  A connection needs its process.",
         "apps/desktop/main/ai-tools.js:155  Rutba Office’s AI tools are off.",
         "apps/desktop/main/ai-tools.js:275  That is no longer there.",
@@ -25,7 +25,7 @@
         "apps/desktop/renderer/apps/image.js:96  3:2",
         "apps/desktop/renderer/apps/image.js:97  16:9",
         "apps/desktop/renderer/apps/image.js:98  9:16",
-        "apps/desktop/renderer/apps/mail.js:1604  Please remove this address from the list."
+        "apps/desktop/renderer/apps/mail.js:1663  Please remove this address from the list."
       ]
     },
     "shared packages": {

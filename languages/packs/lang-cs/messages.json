@@ -23378,6 +23378,10 @@
     "text": "Verze Rutba Office {version} je stažená. Restartujte a aktualizujte, nebo se nainstaluje při ukončení",
     "source": "ef28bb66ae1a"
   },
+  "voices-dialog.rutba-office-version-does-not-have": {
+    "text": "Rutba Office {version} nemá {name} vestavěnou: okna budou v angličtině, dokud nebude připraven její jazykový balíček.",
+    "source": "c954897db32a"
+  },
   "voices-dialog.rutba-office-version-is-out-but": {
     "text": "Vyšla verze Rutba Office {version}, ale vaše hlasy a jazyky se pro ni nepodařilo ověřit. Ověří se znovu při další kontrole.",
     "source": "1f9d9dab508d"

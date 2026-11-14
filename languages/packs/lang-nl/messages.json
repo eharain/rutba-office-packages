@@ -23284,6 +23284,10 @@
     "text": "Rutba Office {version} is gedownload. Start opnieuw om bij te werken, of het installeert bij afsluiten",
     "source": "ef28bb66ae1a"
   },
+  "voices-dialog.rutba-office-version-does-not-have": {
+    "text": "Rutba Office {version} heeft {name} niet ingebouwd: de vensters blijven in het Engels tot het taalpakket klaar is.",
+    "source": "c954897db32a"
+  },
   "voices-dialog.rutba-office-version-is-out-but": {
     "text": "Rutba Office {version} is uit, maar je stemmen en talen konden er niet voor worden gecontroleerd. Bij de volgende controle wordt het opnieuw gevraagd.",
     "source": "1f9d9dab508d"

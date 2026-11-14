@@ -9147,6 +9147,7 @@
   "defaults.ours-of-total-formats": {"short":"{ours} of {total} formats","complete":"{ours} of {total} formats","source":"57942947a511"},
   "mail.path-is-no-longer-there": {"short":"{path} is gone","complete":"{path} is no longer there","source":"592e65bab5c5"},
   "voices-dialog.pct-translated-for-this-version": {"short":"{pct}% translated","complete":"{pct}% of the labels translated for this version","source":"692d9bafb1dc"},
+  "voices-dialog.rutba-office-version-does-not-have": {"short":"Rutba Office {version} lacks {name}: English until its pack is ready.","complete":"Rutba Office {version} does not have {name} built in: the windows will be in English until its language pack is ready and installed.","source":"c954897db32a"},
   "sheets.ribbon.pen-click-again-for-its-colour": {"short":"{pen}: click for colour","complete":"{pen}: click it again for its colour and thickness","source":"275d6dd78757"},
   "sheets.ribbon.pen-draw-over-the-cells": {"short":"{pen}: draw over the cells","complete":"{pen}: draw with it over the cells","source":"1a8fab3ce257"},
   "mail.dialogs.provider-does-not-let-other-programs": {"short":"{provider} cannot send its automatic replies; Rutba Office can.","complete":"{provider} does not let other programs send its automatic replies. Rutba Office can send them instead.","source":"f108d04c4565"},

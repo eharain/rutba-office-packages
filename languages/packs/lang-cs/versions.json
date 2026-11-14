@@ -9147,6 +9147,7 @@
   "defaults.ours-of-total-formats": {"short":"{ours} z {total} formátů","complete":"{ours} z {total} formátů","source":"57942947a511"},
   "mail.path-is-no-longer-there": {"short":"{path} neexistuje","complete":"{path} už neexistuje","source":"592e65bab5c5"},
   "voices-dialog.pct-translated-for-this-version": {"short":"Přeloženo z {pct} %","complete":"Pro tuto verzi Rutba Office přeloženo z {pct} %","source":"692d9bafb1dc"},
+  "voices-dialog.rutba-office-version-does-not-have": {"short":"Rutba Office {version} nemá {name}: anglicky, dokud nebude balíček připraven.","complete":"Rutba Office {version} nemá {name} vestavěnou: okna budou v angličtině, dokud nebude připraven její jazykový balíček.","source":"c954897db32a"},
   "sheets.ribbon.pen-click-again-for-its-colour": {"short":"{pen}: klikněte pro barvu","complete":"{pen}: dalším kliknutím na pero zvolíte jeho barvu a tloušťku","source":"275d6dd78757"},
   "sheets.ribbon.pen-draw-over-the-cells": {"short":"{pen}: kreslit přes buňky","complete":"{pen}: kreslit perem přes buňky","source":"1a8fab3ce257"},
   "mail.dialogs.provider-does-not-let-other-programs": {"short":"{provider} neumí odesílat automatické odpovědi; Rutba Office ano.","complete":"{provider} nedovoluje jiným programům odesílat své automatické odpovědi. Rutba Office je může odesílat místo něj.","source":"f108d04c4565"},

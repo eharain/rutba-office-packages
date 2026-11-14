@@ -23378,6 +23378,10 @@
     "text": "Загружена версия Rutba Office {version}. Перезапустите для обновления, или оно установится при выходе",
     "source": "ef28bb66ae1a"
   },
+  "voices-dialog.rutba-office-version-does-not-have": {
+    "text": "В Rutba Office {version} нет встроенного языка {name}: окна будут на английском, пока не будет готов его языковой пакет.",
+    "source": "c954897db32a"
+  },
   "voices-dialog.rutba-office-version-is-out-but": {
     "text": "Вышла версия Rutba Office {version}, но не удалось проверить для нее ваши голоса и языки. Проверка повторится в следующий раз.",
     "source": "1f9d9dab508d"

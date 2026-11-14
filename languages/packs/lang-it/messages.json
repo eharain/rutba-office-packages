@@ -23331,6 +23331,10 @@
     "text": "Rutba Office {version} è stato scaricato: riavvia per aggiornare, oppure verrà installato alla chiusura",
     "source": "ef28bb66ae1a"
   },
+  "voices-dialog.rutba-office-version-does-not-have": {
+    "text": "Rutba Office {version} non include {name}: le finestre saranno in inglese finché il suo pacchetto di lingua non sarà pronto.",
+    "source": "c954897db32a"
+  },
   "voices-dialog.rutba-office-version-is-out-but": {
     "text": "È disponibile Rutba Office {version}, ma non è stato possibile verificare le tue voci e lingue per questa versione. Verrà chiesto di nuovo al prossimo controllo.",
     "source": "1f9d9dab508d"

@@ -9147,6 +9147,7 @@
   "defaults.ours-of-total-formats": {"short":"Форматов: {ours} из {total}","complete":"Форматов: {ours} из {total}","source":"57942947a511"},
   "mail.path-is-no-longer-there": {"short":"{path} отсутствует","complete":"{path} больше не существует","source":"592e65bab5c5"},
   "voices-dialog.pct-translated-for-this-version": {"short":"Переведено {pct}%","complete":"Переведено {pct}% надписей для этой версии","source":"692d9bafb1dc"},
+  "voices-dialog.rutba-office-version-does-not-have": {"short":"В Rutba Office {version} нет {name}: английский, пока не готов пакет.","complete":"В Rutba Office {version} нет встроенного языка {name}: окна будут на английском, пока не будет готов его языковой пакет.","source":"c954897db32a"},
   "sheets.ribbon.pen-click-again-for-its-colour": {"short":"{pen}: щелкните для цвета","complete":"{pen}: щелкните еще раз, чтобы выбрать цвет и толщину","source":"275d6dd78757"},
   "sheets.ribbon.pen-draw-over-the-cells": {"short":"{pen}: рисовать по ячейкам","complete":"{pen}: рисовать им поверх ячеек","source":"1a8fab3ce257"},
   "mail.dialogs.provider-does-not-let-other-programs": {"short":"{provider} не отправляет автоответы извне; Rutba Office может.","complete":"{provider} не позволяет другим программам отправлять автоответы. Rutba Office может отправлять их сам.","source":"f108d04c4565"},

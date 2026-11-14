@@ -9147,6 +9147,7 @@
   "defaults.ours-of-total-formats": {"short":"{ours} din {total} formate","complete":"{ours} din {total} formate","source":"57942947a511"},
   "mail.path-is-no-longer-there": {"short":"{path} a dispărut","complete":"{path} nu mai există","source":"592e65bab5c5"},
   "voices-dialog.pct-translated-for-this-version": {"short":"{pct}% tradus","complete":"{pct}% din etichete traduse pentru această versiune","source":"692d9bafb1dc"},
+  "voices-dialog.rutba-office-version-does-not-have": {"short":"Rutba Office {version} nu are {name}: engleză până e gata pachetul.","complete":"Rutba Office {version} nu are {name} integrată: ferestrele vor fi în engleză până când pachetul ei de limbă este gata.","source":"c954897db32a"},
   "sheets.ribbon.pen-click-again-for-its-colour": {"short":"{pen}: clic pentru culoare","complete":"{pen}: faceți clic din nou pe el pentru culoare și grosime","source":"275d6dd78757"},
   "sheets.ribbon.pen-draw-over-the-cells": {"short":"{pen}: desenați peste celule","complete":"{pen}: desenați cu el peste celule","source":"1a8fab3ce257"},
   "mail.dialogs.provider-does-not-let-other-programs": {"short":"{provider} nu trimite răspunsurile automate; Rutba Office le trimite.","complete":"{provider} nu permite altor programe să-i trimită răspunsurile automate. Rutba Office le poate trimite în schimb.","source":"f108d04c4565"},
