@@ -8,7 +8,8 @@
 // (the registry: every label's id, its English, where the code uses it, and a
 // hash of the English), ids.lock.json (every id given, with the hash of its
 // English and no English) and packs/lang-<tag>/ (manifest.json,
-// messages.json, glossary.md) for English and each translation the copy holds.
+// messages.json, glossary.md) for English and each translation the copy holds:
+// none from Office 2.26.0 on, which keeps no words of its own but English's.
 //
 // Ids are given once and kept. A label already in ids.json, or whose English
 // hash is in ids.lock.json, keeps its id on every later run; only labels new
@@ -90,8 +91,18 @@ const placeholders = (s) => [...new Set([...String(s).matchAll(/\{(\w+)\}/g)].ma
 
 // ── what the checkout holds ───────────────────────────────────────────────
 
-const shared = JSON.parse(read('packages/office-ui/src/catalogues/messages.json')).messages;
-const { CATALOGUES_FILES } = { CATALOGUES_FILES: { ur: 'ur.js', ar: 'ar.js', hi: 'hi.js' } };
+// An Office from 2.26.0 with stage 5 of the meaning keys (D-2026-11-14-16) carries no words of its
+// own for any language, and no messages.json: every label is defined in catalogues/labels.json, and
+// Office's own extractor (tools/extract-messages.mjs) gives the list messages.json was, byte for
+// byte, and each part's labels with the files that use them. Urdu, Arabic and Hindi are then packs
+// kept here like every other (packs/lang-ur, lang-ar and lang-hi, committed), and only English is
+// made from Office. An Office before stage 5 is read as before: its messages.json, its built-in
+// Urdu, Arabic and Hindi, and its parts' translations, which make those three packs.
+const ownWords = fs.existsSync(path.join(office, 'packages/office-ui/src/catalogues/messages.json'));
+const officeExtract = ownWords ? null : await load('tools/extract-messages.mjs');
+
+const shared = ownWords ? JSON.parse(read('packages/office-ui/src/catalogues/messages.json')).messages : officeExtract.extract(office);
+const { CATALOGUES_FILES } = { CATALOGUES_FILES: ownWords ? { ur: 'ur.js', ar: 'ar.js', hi: 'hi.js' } : {} };
 const tags = Object.keys(CATALOGUES_FILES);
 const catalogues = {};
 for (const tag of tags) catalogues[tag] = (await load(`packages/office-ui/src/catalogues/${CATALOGUES_FILES[tag]}`)).default;
@@ -104,7 +115,9 @@ const PARTS = [
   { part: 'sheets-find', file: 'apps/desktop/renderer/apps/sheets-translations.js', name: 'SHEETS_WORDS', words: 'sheets-words.js' },
 ];
 const partWords = {};
-for (const p of PARTS) partWords[p.part] = (await load(p.file))[p.name];
+if (ownWords) for (const p of PARTS) partWords[p.part] = (await load(p.file))[p.name];
+// Each part's labels, as Office's extractor lists them: { message, plural?, where }, by part.
+const partLists = ownWords ? null : officeExtract.extractParts(office);
 
 // Where each app's own words are used, and the English plural of each counted
 // one: read from the t() and tn() calls in the files that import that app's
@@ -168,6 +181,15 @@ const taken = new Set([...before.map((l) => l.id), ...idByHash.values()]);
 const labels = new Map();
 for (const m of shared) labels.set(m.message, { english: m.message, ...(m.plural ? { plural: m.plural } : {}), parts: ['shared'], where: m.where });
 for (const p of PARTS) {
+  if (partLists) {
+    // Stage 5: the part's labels and where they are used, from Office's extractor.
+    for (const m of partLists[p.part] || []) {
+      const known = labels.get(m.message);
+      if (known) { if (!known.parts.includes(p.part)) known.parts.push(p.part); continue; }
+      labels.set(m.message, { english: m.message, ...(m.plural ? { plural: m.plural } : {}), parts: [p.part], where: m.where });
+    }
+    continue;
+  }
   const english = new Set();
   for (const tag of tags) for (const k of Object.keys(partWords[p.part][tag] || {})) english.add(k);
   for (const e of [...english].sort()) {

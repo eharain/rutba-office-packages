@@ -1,12 +1,10 @@
 # Made by `node tools/build.mjs` from the pinned Rutba Office release; not
-# committed because they hold the code's keys or Office's translations as
-# they are, em dashes included. packs/lang-en is committed: its English has
-# its own wording in versions/en.medium.json.
+# committed because they hold the code's keys. packs/lang-en is committed:
+# its English has its own wording in versions/en.medium.json. From Office
+# 2.26.0, which keeps no Urdu, Arabic or Hindi words of its own, packs/lang-ar,
+# lang-hi and lang-ur are committed like every other pack.
 /ids.json
 /labels.json
-/packs/lang-ar/
-/packs/lang-hi/
-/packs/lang-ur/
 
 # The packs that may be released, written by tools/dist.mjs at each build.
 /dist/
