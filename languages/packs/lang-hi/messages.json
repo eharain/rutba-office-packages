@@ -4757,7 +4757,7 @@
     "source": "b28037e918b6"
   },
   "mail.compose.cc-bcc": {
-    "text": "प्रतिलिपि / गुप्त प्रतिलिपि",
+    "text": "Cc / Bcc",
     "source": "3c10f851ee25"
   },
   "equations.ceiling": {
@@ -8597,7 +8597,7 @@
     "source": "ef2a3e0c1c01"
   },
   "qrcode.edit-qr-code": {
-    "text": "क्यूआर कोड संपादित करें",
+    "text": "QR कोड संपादित करें",
     "source": "a5f1a40cd7fb"
   },
   "word.mailings.edit-recipient-list-tick-who-the": {
@@ -11003,7 +11003,7 @@
     "source": "8fdac69c6fe9"
   },
   "slides.export-video.full-hd-1080p": {
-    "text": "पूर्ण HD (1080p)",
+    "text": "Full HD (1080p)",
     "source": "3020ca0499cf"
   },
   "common.full-outer-all-rows-from-both": {
@@ -12732,7 +12732,7 @@
     "source": "147bfd206b3e"
   },
   "qrcode.insert-qr-code": {
-    "text": "क्यूआर कोड डालें",
+    "text": "QR कोड डालें",
     "source": "49295980d416"
   },
   "word.ribbon.insert-right": {
@@ -20902,7 +20902,7 @@
     "source": "37bbe12dd312"
   },
   "common.qr-code": {
-    "text": "क्यूआर कोड",
+    "text": "QR कोड",
     "source": "5a779155eada"
   },
   "word.ribbon.qr-code-a-code-a-phone": {
@@ -20914,7 +20914,7 @@
     "source": "2f4f9ecb0c13"
   },
   "slides.ribbon.qr-code-a-code-a-phone": {
-    "text": "क्यूआर कोड: ऐसा कोड जिसे फ़ोन स्कैन कर सके, किसी वेब पते या किन्हीं भी शब्दों के लिए, इस स्लाइड पर चित्र के रूप में डाला गया; बदलने के लिए उस पर डबल-क्लिक करें",
+    "text": "QR कोड: ऐसा कोड जिसे फ़ोन स्कैन कर सके, किसी वेब पते या किन्हीं भी शब्दों के लिए, इस स्लाइड पर चित्र के रूप में डाला गया; बदलने के लिए उस पर डबल-क्लिक करें",
     "source": "70ec2ee67e54"
   },
   "common.quadratic-formula": {
@@ -27976,7 +27976,7 @@
     "source": "09b145221fad"
   },
   "qrcode.that-is-too-much-for-a": {
-    "text": "त्रुटि सुधार के इस स्तर पर यह क्यूआर कोड के लिए बहुत अधिक है। कम स्तर चुनें, या पाठ छोटा करें।",
+    "text": "त्रुटि सुधार के इस स्तर पर यह QR कोड के लिए बहुत अधिक है। कम स्तर चुनें, या पाठ छोटा करें।",
     "source": "fba3deaee4e5"
   },
   "talk.invite.that-is-your-own-address": {
@@ -33923,7 +33923,7 @@
     "source": "c9616cb59d02"
   },
   "mail.reader.cc-recipients": {
-    "text": "प्रतिलिपि {recipients}",
+    "text": "cc {recipients}",
     "source": "88386fab6a31"
   },
   "word.ruler.center": {

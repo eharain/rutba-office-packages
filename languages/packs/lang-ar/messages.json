@@ -400,7 +400,7 @@
     "source": "7e845aceadbf"
   },
   "studio.settings-dialog.1280-720-hd": {
-    "text": "1280 × 720 (دقة عالية)",
+    "text": "1280 × 720 (HD)",
     "source": "472a3a6faa95"
   },
   "calendar.15-minutes-before": {
@@ -412,7 +412,7 @@
     "source": "6fc2579e6aec"
   },
   "studio.settings-dialog.1920-1080-full-hd": {
-    "text": "1920 × 1080 (دقة كاملة عالية)",
+    "text": "1920 × 1080 (Full HD)",
     "source": "ee51c60f39f2"
   },
   "word.ribbon.11-2-pt": {
@@ -3939,7 +3939,7 @@
     "source": "f03684b76e9c"
   },
   "common.bcc": {
-    "text": "نسخة مخفية",
+    "text": "Bcc",
     "source": "8f38aab1bbb6"
   },
   "video.library.beep": {
@@ -4797,11 +4797,11 @@
     "source": "97285015dc28"
   },
   "common.cc": {
-    "text": "نسخة",
+    "text": "Cc",
     "source": "b28037e918b6"
   },
   "mail.compose.cc-bcc": {
-    "text": "نسخة / نسخة مخفية",
+    "text": "Cc / Bcc",
     "source": "3c10f851ee25"
   },
   "equations.ceiling": {
@@ -23525,7 +23525,7 @@
     "source": "88ae37f4323e"
   },
   "registry.rutba-video": {
-    "text": "فيديو Rutba",
+    "text": "Rutba Video",
     "source": "06f4a9181c8d"
   },
   "common.rutba-video-project-rvid": {
@@ -34247,7 +34247,7 @@
     "source": "c9616cb59d02"
   },
   "mail.reader.cc-recipients": {
-    "text": "نسخة إلى {recipients}",
+    "text": "cc {recipients}",
     "source": "88386fab6a31"
   },
   "word.ruler.center": {

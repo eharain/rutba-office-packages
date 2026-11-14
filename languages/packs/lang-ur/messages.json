@@ -400,7 +400,7 @@
     "source": "7e845aceadbf"
   },
   "studio.settings-dialog.1280-720-hd": {
-    "text": "1280 × 720 (ایچ ڈی)",
+    "text": "1280 × 720 (HD)",
     "source": "472a3a6faa95"
   },
   "calendar.15-minutes-before": {
@@ -412,7 +412,7 @@
     "source": "6fc2579e6aec"
   },
   "studio.settings-dialog.1920-1080-full-hd": {
-    "text": "1920 × 1080 (فل ایچ ڈی)",
+    "text": "1920 × 1080 (Full HD)",
     "source": "ee51c60f39f2"
   },
   "word.ribbon.11-2-pt": {
@@ -536,11 +536,11 @@
     "source": "53a9d1d04494"
   },
   "engine.a-pdf-needs-at-least-one": {
-    "text": "پی ڈی ایف میں کم از کم ایک صفحہ ہونا ضروری ہے۔",
+    "text": "PDF میں کم از کم ایک صفحہ ہونا ضروری ہے۔",
     "source": "81f51729a7e6"
   },
   "pdf.a-pdf-needs-at-least-one": {
-    "text": "پی ڈی ایف میں کم از کم ایک صفحہ ہونا ضروری ہے۔ حذف کرنے کے لیے کم صفحات منتخب کریں۔",
+    "text": "PDF میں کم از کم ایک صفحہ ہونا ضروری ہے۔ حذف کرنے کے لیے کم صفحات منتخب کریں۔",
     "source": "e2dd2692c9ac"
   },
   "engine.a-pdf-with-no-pages-is": {
@@ -1304,7 +1304,7 @@
     "source": "1888ee0da74e"
   },
   "engine.a-text-layer-cannot-be-added": {
-    "text": "پاس ورڈ سے محفوظ پی ڈی ایف میں متن کی تہہ شامل نہیں کی جا سکتی۔",
+    "text": "پاس ورڈ سے محفوظ PDF میں متن کی تہہ شامل نہیں کی جا سکتی۔",
     "source": "aab2cd5ee3b2"
   },
   "word.ribbon.a-title-page-at-the-front": {
@@ -5214,7 +5214,7 @@
     "source": "ab72ea9f1ba7"
   },
   "pdf.choose-pdfs": {
-    "text": "پی ڈی ایف فائلیں منتخب کریں",
+    "text": "PDF فائلیں منتخب کریں",
     "source": "92b741211dd2"
   },
   "pdf.fields.choose-a-picture": {
@@ -6018,7 +6018,7 @@
     "source": "0d2a89b5ee8f"
   },
   "pdf.combined-pdf": {
-    "text": "یکجا پی ڈی ایف",
+    "text": "یکجا PDF",
     "source": "1735d8ccc0a9"
   },
   "word.forms.combo-box-content-control": {
@@ -8597,7 +8597,7 @@
     "source": "ef2a3e0c1c01"
   },
   "qrcode.edit-qr-code": {
-    "text": "کیو آر کوڈ میں ترمیم کریں",
+    "text": "QR کوڈ میں ترمیم کریں",
     "source": "a5f1a40cd7fb"
   },
   "word.mailings.edit-recipient-list-tick-who-the": {
@@ -9628,7 +9628,7 @@
     "source": "48243ec14935"
   },
   "pdf.extract-the-selected-pages-as-a": {
-    "text": "نکالیں: منتخب صفحات ایک نئی پی ڈی ایف کے طور پر، یہ فائل جیسی ہے ویسی رہتی ہے",
+    "text": "نکالیں: منتخب صفحات ایک نئی PDF کے طور پر، یہ فائل جیسی ہے ویسی رہتی ہے",
     "source": "1816f0595d70"
   },
   "common.eye": {
@@ -11003,7 +11003,7 @@
     "source": "8fdac69c6fe9"
   },
   "slides.export-video.full-hd-1080p": {
-    "text": "فل HD (1080p)",
+    "text": "Full HD (1080p)",
     "source": "3020ca0499cf"
   },
   "common.full-outer-all-rows-from-both": {
@@ -12360,11 +12360,11 @@
     "source": "697e90888b07"
   },
   "pictures.in-pdf": {
-    "text": "پی ڈی ایف میں",
+    "text": "PDF میں",
     "source": "b42b6ea9844d"
   },
   "pictures.in-pdf-open-this-pdf-in": {
-    "text": "پی ڈی ایف میں: یہ پی ڈی ایف، پی ڈی ایف ایپ میں کھولیں تاکہ اس کے صفحات گھمائے، منتقل کیے، نکالے اور داخل کیے جا سکیں",
+    "text": "PDF میں: یہ PDF، PDF ایپ میں کھولیں تاکہ اس کے صفحات گھمائے، منتقل کیے، نکالے اور داخل کیے جا سکیں",
     "source": "037be23f6f77"
   },
   "slides.in-slide-master-view-the-font": {
@@ -12732,7 +12732,7 @@
     "source": "147bfd206b3e"
   },
   "qrcode.insert-qr-code": {
-    "text": "کیو آر کوڈ داخل کریں",
+    "text": "QR کوڈ داخل کریں",
     "source": "49295980d416"
   },
   "word.ribbon.insert-right": {
@@ -12876,7 +12876,7 @@
     "source": "cd9e693cfc17"
   },
   "pdf.insert-from-file-the-pages-of": {
-    "text": "فائل سے داخل کریں: دوسری پی ڈی ایف فائلوں کے صفحات، منتخب صفحے کے بعد",
+    "text": "فائل سے داخل کریں: دوسری PDF فائلوں کے صفحات، منتخب صفحے کے بعد",
     "source": "f167bdb577e7"
   },
   "pdf.insert-from-file-2": {
@@ -15707,11 +15707,11 @@
     "source": "79c310b9ba96"
   },
   "pdf.merge-files-other-pdfs-added-at": {
-    "text": "فائلیں یکجا کریں: دوسری پی ڈی ایف فائلیں آخر میں شامل، یا ایک نئی فائل میں یکجا",
+    "text": "فائلیں یکجا کریں: دوسری PDF فائلیں آخر میں شامل، یا ایک نئی فائل میں یکجا",
     "source": "586cbbe86453"
   },
   "pdf.merge-files-several-pdfs-combined-into": {
-    "text": "فائلیں یکجا کریں: کئی پی ڈی ایف فائلیں ایک میں",
+    "text": "فائلیں یکجا کریں: کئی PDF فائلیں ایک میں",
     "source": "072b37d518aa"
   },
   "pdf.merge-files-2": {
@@ -17049,7 +17049,7 @@
     "source": "b0fc9c1c1a36"
   },
   "pdf.no-pdf-open": {
-    "text": "کوئی پی ڈی ایف کھلی نہیں",
+    "text": "کوئی PDF کھلی نہیں",
     "source": "72489190d82f"
   },
   "slides.no-reflection": {
@@ -18667,11 +18667,11 @@
     "source": "70a97db8d75a"
   },
   "pdf.open-a-pdf": {
-    "text": "پی ڈی ایف کھولیں",
+    "text": "PDF کھولیں",
     "source": "90eb5be6f998"
   },
   "pdf.open-a-pdf-to-read-it": {
-    "text": "پی ڈی ایف کھولیں اسے پڑھنے کے لیے، یا صفحات گھمانے، منتقل کرنے، حذف کرنے، نکالنے اور داخل کرنے کے لیے۔ فائلیں یکجا کریں کئی فائلوں کو ایک میں جوڑتا ہے۔ آپ کی فائل تبھی بدلتی ہے جب آپ اس پر محفوظ کریں۔",
+    "text": "PDF کھولیں اسے پڑھنے کے لیے، یا صفحات گھمانے، منتقل کرنے، حذف کرنے، نکالنے اور داخل کرنے کے لیے۔ فائلیں یکجا کریں کئی فائلوں کو ایک میں جوڑتا ہے۔ آپ کی فائل تبھی بدلتی ہے جب آپ اس پر محفوظ کریں۔",
     "source": "c317c53b448b"
   },
   "common.open-a-file": {
@@ -18771,11 +18771,11 @@
     "source": "32f8dcaafb6c"
   },
   "pictures.open-in-pdf": {
-    "text": "پی ڈی ایف میں کھولیں",
+    "text": "PDF میں کھولیں",
     "source": "4d0c059fc5c0"
   },
   "pictures.open-in-pdf-this-pdf-in": {
-    "text": "پی ڈی ایف میں کھولیں: یہ پی ڈی ایف، پی ڈی ایف ایپ میں، اس کے صفحات گھمانے، منتقل کرنے، نکالنے اور داخل کرنے کے لیے",
+    "text": "PDF میں کھولیں: یہ PDF، PDF ایپ میں، اس کے صفحات گھمانے، منتقل کرنے، نکالنے اور داخل کرنے کے لیے",
     "source": "b7adb162d73a"
   },
   "common.open-in-video": {
@@ -18859,7 +18859,7 @@
     "source": "1af4e5083fcf"
   },
   "pdf.open-a-pdf-in-this-window": {
-    "text": "کھولیں: پی ڈی ایف اس ونڈو میں، یا نئی ونڈو میں جب اس میں دستاویز کھلی ہو (Ctrl+O)",
+    "text": "کھولیں: PDF اس ونڈو میں، یا نئی ونڈو میں جب اس میں دستاویز کھلی ہو (Ctrl+O)",
     "source": "63cb0a232355"
   },
   "registry.opendocument-presentation-odp": {
@@ -19199,7 +19199,7 @@
     "source": "2af93aeb435d"
   },
   "mail.archive.pdf": {
-    "text": "پی ڈی ایف",
+    "text": "PDF",
     "source": "1d393b0081b6"
   },
   "base.pdf-pdf": {
@@ -20902,7 +20902,7 @@
     "source": "37bbe12dd312"
   },
   "common.qr-code": {
-    "text": "کیو آر کوڈ",
+    "text": "QR کوڈ",
     "source": "5a779155eada"
   },
   "word.ribbon.qr-code-a-code-a-phone": {
@@ -20910,7 +20910,7 @@
     "source": "57a24262d3be"
   },
   "sheets.ribbon.qr-code-a-code-a-phone": {
-    "text": "کیو آر کوڈ: ایسا کوڈ جسے فون اسکین کر سکے، کسی ویب پتے یا کسی بھی الفاظ کے لیے، سیل پر تصویر کی صورت میں داخل؛ بدلنے کے لیے اس پر ڈبل کلک کریں",
+    "text": "QR کوڈ: ایسا کوڈ جسے فون اسکین کر سکے، کسی ویب پتے یا کسی بھی الفاظ کے لیے، سیل پر تصویر کی صورت میں داخل؛ بدلنے کے لیے اس پر ڈبل کلک کریں",
     "source": "2f4f9ecb0c13"
   },
   "slides.ribbon.qr-code-a-code-a-phone": {
@@ -21550,7 +21550,7 @@
     "source": "37ce0a91ee27"
   },
   "pdf.recovered-pdf": {
-    "text": "بازیافت شدہ پی ڈی ایف",
+    "text": "بازیافت شدہ PDF",
     "source": "b2b348eb4f43"
   },
   "image.recovered-picture": {
@@ -23485,7 +23485,7 @@
     "source": "088203b4cd88"
   },
   "pdf.save-as-the-pages-as-a": {
-    "text": "بطور محفوظ کریں: صفحات ایک نئی پی ڈی ایف کے طور پر (Ctrl+Shift+S)",
+    "text": "بطور محفوظ کریں: صفحات ایک نئی PDF کے طور پر (Ctrl+Shift+S)",
     "source": "5dc18c686bdd"
   },
   "common.save-as-2": {
@@ -26453,7 +26453,7 @@
     "source": "b2207b3dc463"
   },
   "pdf.split-this-pdf-into-several-files": {
-    "text": "تقسیم کریں: یہ پی ڈی ایف کئی فائلوں میں، صفحات کی تعداد کے حساب سے یا منتخب صفحات پر",
+    "text": "تقسیم کریں: یہ PDF کئی فائلوں میں، صفحات کی تعداد کے حساب سے یا منتخب صفحات پر",
     "source": "ed6df15df737"
   },
   "video.spoken.spoken-lines": {
@@ -27821,7 +27821,7 @@
     "source": "2596e8cfa408"
   },
   "engine.that-pdf-is-no-longer-open": {
-    "text": "وہ پی ڈی ایف اب کھلی نہیں ہے۔",
+    "text": "وہ PDF اب کھلی نہیں ہے۔",
     "source": "18d530240a9e"
   },
   "engine.that-account-does-not-use-a": {
@@ -27976,7 +27976,7 @@
     "source": "09b145221fad"
   },
   "qrcode.that-is-too-much-for-a": {
-    "text": "غلطی کی درستگی کی اس سطح پر یہ کیو آر کوڈ کے لیے بہت زیادہ ہے۔ کم سطح منتخب کریں، یا متن مختصر کریں۔",
+    "text": "غلطی کی درستگی کی اس سطح پر یہ QR کوڈ کے لیے بہت زیادہ ہے۔ کم سطح منتخب کریں، یا متن مختصر کریں۔",
     "source": "fba3deaee4e5"
   },
   "talk.invite.that-is-your-own-address": {
@@ -28132,11 +28132,11 @@
     "source": "328297894902"
   },
   "pdf.the-pdf-could-not-be-saved": {
-    "text": "پی ڈی ایف محفوظ نہیں ہو سکی: {reason}",
+    "text": "PDF محفوظ نہیں ہو سکی: {reason}",
     "source": "19a2dc86d302"
   },
   "pdf.the-pdf-could-not-be-split": {
-    "text": "پی ڈی ایف تقسیم نہیں ہو سکی: {reason}",
+    "text": "PDF تقسیم نہیں ہو سکی: {reason}",
     "source": "483b815b3a85"
   },
   "slides.ribbon.the-presentation-guide-on-office-rutba": {
@@ -29743,7 +29743,7 @@
     "source": "266093c69940"
   },
   "engine.there-is-no-page-page-in-2": {
-    "text": "اس پی ڈی ایف میں صفحہ {page} نہیں ہے۔",
+    "text": "اس PDF میں صفحہ {page} نہیں ہے۔",
     "source": "0bf4198d7010"
   },
   "engine.there-is-no-paragraph-style-style": {
@@ -29959,11 +29959,11 @@
     "source": "8286f5fba5b0"
   },
   "engine.this-pdf-is-damaged-no-part": {
-    "text": "یہ پی ڈی ایف خراب ہے: اس کا کوئی حصہ نہیں بتاتا کہ اس کے صفحات کہاں سے شروع ہوتے ہیں۔",
+    "text": "یہ PDF خراب ہے: اس کا کوئی حصہ نہیں بتاتا کہ اس کے صفحات کہاں سے شروع ہوتے ہیں۔",
     "source": "c3c5f976b7dc"
   },
   "pdf.this-pdf-is-protected": {
-    "text": "یہ پی ڈی ایف محفوظ شدہ ہے",
+    "text": "یہ PDF محفوظ شدہ ہے",
     "source": "a791e150498a"
   },
   "pdf.this-pdf-is-protected-in-a": {
@@ -29971,11 +29971,11 @@
     "source": "41d654e71da4"
   },
   "engine.this-pdf-is-protected-with-a": {
-    "text": "یہ پی ڈی ایف پاس ورڈ سے محفوظ ہے، اور محفوظ پی ڈی ایف کے صفحات بدلنا ابھی تیار نہیں ہوا۔",
+    "text": "یہ PDF پاس ورڈ سے محفوظ ہے، اور محفوظ PDF کے صفحات بدلنا ابھی تیار نہیں ہوا۔",
     "source": "7e213e15313c"
   },
   "engine.this-pdfs-cross-references-are-damaged": {
-    "text": "اس پی ڈی ایف کے حوالہ جاتی جدول خراب ہیں، اس لیے اس میں جیسا ہے ویسا متن کی تہہ شامل نہیں کی جا سکتی۔ پہلے ایک نقل محفوظ کریں، پھر اس نقل کا متن پہچانیں۔",
+    "text": "اس PDF کے حوالہ جاتی جدول خراب ہیں، اس لیے اس میں جیسا ہے ویسا متن کی تہہ شامل نہیں کی جا سکتی۔ پہلے ایک نقل محفوظ کریں، پھر اس نقل کا متن پہچانیں۔",
     "source": "1050973fa0a2"
   },
   "talk.invite.this-talk-server-does-not-take": {
@@ -30273,7 +30273,7 @@
     "source": "2ab12ae59091"
   },
   "engine.this-file-has-no-objects-a": {
-    "text": "اس فائل میں کوئی ایسا حصہ نہیں جسے پی ڈی ایف ریڈر ڈھونڈ سکے۔",
+    "text": "اس فائل میں کوئی ایسا حصہ نہیں جسے PDF ریڈر ڈھونڈ سکے۔",
     "source": "f617f38c26b0"
   },
   "voices-dialog.this-file-is-not-an-add": {
@@ -30369,7 +30369,7 @@
     "source": "c3f745c78c62"
   },
   "engine.this-is-not-a-pdf-it": {
-    "text": "یہ پی ڈی ایف نہیں ہے: یہ پی ڈی ایف کی طرح شروع نہیں ہوتی۔",
+    "text": "یہ PDF نہیں ہے: یہ PDF کی طرح شروع نہیں ہوتی۔",
     "source": "c41957136902"
   },
   "engine.this-is-not-a-rutba-image": {
@@ -36877,7 +36877,7 @@
     "source": "dae0790a804d"
   },
   "engine.name-could-not-be-read-as": {
-    "text": "{name} کو پی ڈی ایف کے طور پر پڑھا نہیں جا سکا: {reason}",
+    "text": "{name} کو PDF کے طور پر پڑھا نہیں جا سکا: {reason}",
     "source": "f3a8d21b67d9"
   },
   "studio.media.name-could-not-be-recorded-reason": {
@@ -36953,7 +36953,7 @@
     "source": "7df0180fc4ef"
   },
   "engine.name-is-not-a-pdf": {
-    "text": "{name} پی ڈی ایف نہیں ہے۔",
+    "text": "{name} PDF نہیں ہے۔",
     "source": "9733398feccf"
   },
   "pictures.name-is-not-a-video-or": {

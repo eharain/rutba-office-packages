@@ -571,6 +571,7 @@
   "common.rutba-recordings": {"text":"Rutba Recordings","source":"325c751e9853"},
   "studio.setups-store.rutba-studio-setups": {"text":"إعدادات رتبة استوديو (Rutba Studio)","source":"5ff12d081fee"},
   "registry.rutba-talk": {"text":"Rutba Talk","source":"88ae37f4323e"},
+  "registry.rutba-video": {"text":"Rutba Video","source":"06f4a9181c8d"},
   "common.rutba-video-project-rvid": {"text":"مشروع Rutba Video (.rvid)","source":"7eab552ba957"},
   "talk.invite-email.rutba-sends-at-most-daymax-a": {"text":"ترسل رتبة (Rutba) نيابة عنك ما لا يزيد على {dayMax} في اليوم وما لا يزيد على {weekMax} في الأسبوع: بقي {day} اليوم، وبقي {week} هذا الأسبوع.","source":"ee740888883e"},
   "talk.invite-email.rutba-sends-only-a-few-a": {"text":"ترسل رتبة (Rutba) القليل فقط في اليوم والأسبوع.","source":"ae479c30b406"},

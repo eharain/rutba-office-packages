@@ -20,6 +20,9 @@ then in `ar.js`, so the two stay in step.
 - **Keys and shortcuts** stay as they are: Ctrl+S, F7, Shift+F2.
 - **File extensions, formats and codes** stay as they are: .docx, PDF, CSV,
   `=SUM(ABOVE)`, `dd/mm/yyyy`.
+- **Cc, Bcc, HD and Full HD** stay in Latin letters, as PDF and 1080p do: Cc
+  and Bcc on a mail's header and its toggle, HD and Full HD beside a size or
+  a quality. A complete version may say what they mean in Arabic around them.
 - **Brand and product names** stay in Latin letters: Rutba Office, Word,
   Excel, PowerPoint, Office, Windows, Google, Microsoft, iCloud, SmartArt,
   WordArt, PivotTable, Power Query.
