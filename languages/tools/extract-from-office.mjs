@@ -120,6 +120,13 @@ function filesUnder(dir, out = []) {
   return out;
 }
 const rendererApps = filesUnder('apps/desktop/renderer/apps');
+// Office from 2.26.0 names a label by its meaning key (D-2026-11-14-16): t('talk.invite-email'),
+// tn(count, 'talk.count-invited', values). Its definitions (catalogues/labels.json) give each key's
+// English and plural, so a call by key counts as a use of that English. An Office without the file
+// names its labels by their English, read as before.
+const labelsFile = path.join(office, 'packages/office-ui/src/catalogues/labels.json');
+const KEYS = fs.existsSync(labelsFile) ? JSON.parse(fs.readFileSync(labelsFile, 'utf8')).labels : {};
+const keyed = (s) => (Object.prototype.hasOwnProperty.call(KEYS, s) ? KEYS[s] : null);
 const partUse = {};
 for (const p of PARTS) {
   const use = { where: new Map(), plural: new Map() };
@@ -128,7 +135,17 @@ for (const p of PARTS) {
     const text = read(rel);
     if (!importRe.test(text)) continue;
     const note = (e) => { if (!use.where.has(e)) use.where.set(e, new Set()); use.where.get(e).add(rel); };
-    for (const m of text.matchAll(new RegExp(String.raw`(?<![\w.$])t\(\s*(?:${STR})`, 'g'))) note(unescape(m[1] ?? m[2]));
+    for (const m of text.matchAll(new RegExp(String.raw`(?<![\w.$])t\(\s*(?:${STR})`, 'g'))) {
+      const s = unescape(m[1] ?? m[2]);
+      note(keyed(s)?.english ?? s);
+    }
+    // A counted label named by its key: tn(count, key, values), its plural from the key's definition.
+    for (const m of text.matchAll(new RegExp(String.raw`(?<![\w.$])tn\([^'"]*?,\s*(?:${STR})`, 'g'))) {
+      const def = keyed(unescape(m[1] ?? m[2]));
+      if (!def) continue;
+      note(def.english);
+      if (def.plural) use.plural.set(def.english, def.plural);
+    }
     for (const m of text.matchAll(new RegExp(String.raw`(?<![\w.$])tn\([^'"]*?,\s*(?:${STR})\s*,\s*(?:${STR})`, 'g'))) {
       const one = unescape(m[1] ?? m[2]);
       note(one);

@@ -26,6 +26,31 @@ const PARTS = { locker: 'locker-words.js', talk: 'talk-words.js', colour: 'colou
 const STR = String.raw`'((?:[^'\\\n]|\\.)*)'|"((?:[^"\\\n]|\\.)*)"`;
 const unescape = (s) => s.replace(/\\(n|.)/g, (m, c) => (c === 'n' ? '\n' : c));
 
+// Office from 2.26.0 names a label by its meaning key (D-2026-11-14-16): t('common.close'),
+// tn(count, 'common.count-file', values). Each file is read with its calls by key written back as
+// the calls by English they were, line for line (Office's tests/label-english.js asEnglish), so
+// every use, its role and its space come out as they did when the code wrote the English. The
+// definitions are Office's catalogues/labels.json; an Office without it is read as it is.
+const labelsFile = path.join(office, 'packages/office-ui/src/catalogues/labels.json');
+const KEYS = fs.existsSync(labelsFile) ? JSON.parse(fs.readFileSync(labelsFile, 'utf8')).labels : {};
+const isKey = (k) => Object.prototype.hasOwnProperty.call(KEYS, k);
+const KEY_STR = String.raw`'((?:[^'\\\n]|\\.)*)'`;
+const quoted = (w) => `'${w.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\n/g, '\\n')}'`;
+const unkey = (k) => k.replace(/\\(n|.)/g, (m, c) => (c === 'n' ? '\n' : c));
+function asEnglish(text) {
+  if (!Object.keys(KEYS).length) return text;
+  return text
+    .replace(new RegExp(String.raw`(?<![\w.$])tn\(([^'"]*?),\s*${KEY_STR}`, 'g'), (whole, count, k) => {
+      const key = unkey(k);
+      if (!isKey(key) || !KEYS[key].plural) return whole;
+      return `tn(${count}, ${quoted(KEYS[key].english)}, ${quoted(KEYS[key].plural)}`;
+    })
+    .replace(new RegExp(String.raw`(?<![\w.$])(t|msg)\((\s*)${KEY_STR}`, 'g'), (whole, fn, space, k) => {
+      const key = unkey(k);
+      return isKey(key) ? `${fn}(${space}${quoted(KEYS[key].english)}` : whole;
+    });
+}
+
 const byKey = new Map();
 for (const l of registry.labels) for (const p of l.parts) byKey.set(`${p}\u0000${l.english}`, l);
 
@@ -56,7 +81,7 @@ function argsAfter(text, from) {
 const uses = new Map(); // id -> [{ file, line, before, args, after }]
 for (const dir of SOURCES) {
   for (const abs of files(path.join(office, dir))) {
-    const text = fs.readFileSync(abs, 'utf8');
+    const text = asEnglish(fs.readFileSync(abs, 'utf8'));
     const file = path.relative(office, abs).split(path.sep).join('/');
     const part = Object.entries(PARTS).find(([, w]) => new RegExp(String.raw`from\s*['"](?:\./|\.\./)${w.replace('.', '\\.')}['"]`).test(text))?.[0];
     if (!part && !SHARED_IMPORT.test(text)) continue;
@@ -101,7 +126,7 @@ for (const dir of SOURCES) {
   for (const r of roots) for (const abs of files(path.join(office, r))) {
     const file = path.relative(office, abs).split(path.sep).join('/');
     if (/catalogues\/|-translations\.js$|-words\.js$|\/test|\.test\.js$/.test(file)) continue;
-    const text = fs.readFileSync(abs, 'utf8');
+    const text = asEnglish(fs.readFileSync(abs, 'utf8'));
     let line = 1;
     let last = 0;
     for (const m of text.matchAll(new RegExp(STR, 'g'))) {
