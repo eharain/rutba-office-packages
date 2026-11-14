@@ -630,6 +630,22 @@
     "text": "Een voorwaardelijke kolom heeft een regel nodig",
     "source": "aed8bfd618e7"
   },
+  "locker.a-copy-of-these-files-as": {
+    "text": "Een kopie van deze bestanden zoals ze nu zijn, bewaard in de eigen map van Office op deze Mac, zodat er niets verloren gaat terwijl je de Kluis (Locker) leert kennen. Deze kopie is niet vergrendeld met je wachtwoord voor de Kluis: iedereen die zich aanmeldt bij dit Mac-account, kan hem herstellen.",
+    "source": "6e2bd717daa8"
+  },
+  "locker.a-copy-of-these-files-as-2": {
+    "text": "Een kopie van deze bestanden zoals ze nu zijn, bewaard in de eigen map van Office op deze computer, zodat er niets verloren gaat terwijl je de Kluis (Locker) leert kennen. Deze kopie is niet vergrendeld met je wachtwoord voor de Kluis: iedereen die dit Office-profiel kan openen, kan hem herstellen.",
+    "source": "2094b4f4f038"
+  },
+  "locker.a-copy-of-these-files-as-3": {
+    "text": "Een kopie van deze bestanden zoals ze nu zijn, bewaard in de eigen map van Office op deze computer, zodat er niets verloren gaat terwijl je de Kluis (Locker) leert kennen. Deze kopie is niet vergrendeld met je wachtwoord voor de Kluis: iedereen die zich aanmeldt bij dit Windows-account, kan hem herstellen.",
+    "source": "9ee82c902b7b"
+  },
+  "locker.a-copy-of-these-files-as-4": {
+    "text": "Een kopie van deze bestanden zoals ze nu zijn, bewaard in de eigen map van Office op deze computer, zodat er niets verloren gaat terwijl je de Kluis (Locker) leert kennen. Deze kopie is niet vergrendeld met je wachtwoord voor de Kluis: iedereen die zich aanmeldt bij dit gebruikersaccount, kan hem herstellen.",
+    "source": "2f36db57f352"
+  },
   "template-gallery.a-course-session-objectives-the-agenda": {
     "text": "Een cursussessie: doelen, de agenda, de lessen, een korte toets en een samenvatting",
     "source": "70cd3e33cd84"
@@ -949,6 +965,10 @@
     },
     "source": "50e0f90aa379"
   },
+  "voices-dialog.a-newer-revision-is-ready": {
+    "text": "Er is een nieuwere revisie klaar",
+    "source": "6c0971aff110"
+  },
   "template-gallery.a-newsletter-with-a-masthead-two": {
     "text": "Een nieuwsbrief met een kop, twee kolommen met verhalen en een vak met data",
     "source": "d481579262f8"
@@ -1144,6 +1164,18 @@
     "text": "Een lopend saldo van",
     "source": "f223d22c6094"
   },
+  "locker.a-safety-copy-of-this-folder": {
+    "text": "Veiligheidskopie van deze map bewaard",
+    "source": "bde8bd957ac6"
+  },
+  "locker.a-safety-copy-of-this-folder-2": {
+    "text": "Veiligheidskopie van deze map vóór de eerste vergrendeling.",
+    "source": "e7490abc7847"
+  },
+  "locker.a-safety-copy-of-your-files": {
+    "text": "Veiligheidskopie van je bestanden op deze computer.",
+    "source": "812ca6b18f66"
+  },
   "engine.a-scatter-chart-here-plots-up": {
     "text": "Een spreidingsdiagram toont hier maximaal drie reeksen. Selecteer een blok met een X-kolom en maximaal drie Y-kolommen.",
     "source": "1161906fee38"
@@ -1227,6 +1259,10 @@
   "word.references.a-source-is-already-tagged-tag": {
     "text": "Er is al een bron met label {tag}.",
     "source": "70fd6a155c46"
+  },
+  "video.timeline.a-spoken-line": {
+    "text": "Een gesproken regel",
+    "source": "29b4895d436f"
   },
   "video.inspector.a-still-lasts": {
     "text": "Duur stilstaand beeld",
@@ -1330,6 +1366,10 @@
   "studio.window.a-window": {
     "text": "Een venster",
     "source": "9b1f7eb460ff"
+  },
+  "voices-dialog.a-window-is-open-in-this": {
+    "text": "Een venster gebruikt deze taal. Sluit het of open de vensters in een andere taal voor je hem verwijdert.",
+    "source": "3ae5879eef89"
   },
   "studio.sources-column.a-window-not-chosen-yet": {
     "text": "Een venster, nog niet gekozen",
@@ -1875,6 +1915,14 @@
     "text": "Een totaal toevoegen",
     "source": "c78ecc1fa62c"
   },
+  "spoken.voices.add-a-voice-to-have-these": {
+    "text": "Voeg een stem toe om deze regels te laten voorlezen",
+    "source": "b2afe4eb368b"
+  },
+  "read-aloud.voice-offer.add-a-voice-more-natural-voices": {
+    "text": "Voeg een stem toe: natuurlijkere stemmen voor Voorlezen, uit Stemmen en talen",
+    "source": "bfbf7111b5c5"
+  },
   "studio.flip-strip.add-a-web-page": {
     "text": "Webpagina toevoegen",
     "source": "301fb6179868"
@@ -1942,6 +1990,14 @@
   "locker.add-folder": {
     "text": "Map toevoegen…",
     "source": "fb227b5ff513"
+  },
+  "voices-dialog.add-from-a-file": {
+    "text": "Toevoegen uit bestand",
+    "source": "68655ccf7b75"
+  },
+  "voices-dialog.add-from-a-file-2": {
+    "text": "Toevoegen uit bestand…",
+    "source": "ca82b661b3c0"
   },
   "packs-dialog.add-it-with-add-or-remove": {
     "text": "Voeg het toe via Apps toevoegen of verwijderen; actief na de volgende start.",
@@ -2063,6 +2119,10 @@
     "text": "Voeg video's, geluid en afbeeldingen toe, of sleep ze naar dit venster. Ze komen na elkaar op de tijdlijn.",
     "source": "79fc33dd6094"
   },
+  "voices-dialog.add-when-online": {
+    "text": "Toevoegen zodra online",
+    "source": "971ac51b33f5"
+  },
   "mail.accounts-bulk.add-count-account": {
     "forms": {
       "one": "{count} toevoegen",
@@ -2081,6 +2141,10 @@
     "text": "Toevoegen: het woord in de woordenlijst zetten",
     "source": "f696718081b5"
   },
+  "voices-dialog.add-on-files": {
+    "text": "Add-on-bestanden",
+    "source": "4d65ebdbe444"
+  },
   "apps-choice.add-ons": {
     "text": "Invoegtoepassingen",
     "source": "ccfc53fcbd49"
@@ -2092,6 +2156,14 @@
   "common.added": {
     "text": "Toegevoegd",
     "source": "6b02e0d363a4"
+  },
+  "voices-dialog.added-here": {
+    "text": "Hier toegevoegd",
+    "source": "9851c5fac6c6"
+  },
+  "voices-dialog.added-here-not-on-the-list": {
+    "text": "Hier toegevoegd, niet in de lijst voor deze versie",
+    "source": "fdd61e2094ac"
   },
   "mail.dialogs.added-to-the-end-of-new": {
     "text": "Onderaan nieuwe berichten, en boven het citaat bij antwoorden en doorsturen",
@@ -2116,9 +2188,29 @@
     },
     "source": "93ca61fcc584"
   },
+  "voices-dialog.added-but-not-used": {
+    "text": "Toegevoegd, maar niet gebruikt",
+    "source": "1aa13e5c4cd6"
+  },
+  "voices-dialog.added-waiting-for-what-it-needs": {
+    "text": "Toegevoegd, wacht op wat nodig is",
+    "source": "41a27014ef99"
+  },
   "packs-dialog.added-here-from-the-next-start": {
     "text": "Toegevoegd: hier vanaf de volgende start",
     "source": "81c2b338bb02"
+  },
+  "voices-dialog.added-moved-in-at-restart": {
+    "text": "Toegevoegd: wordt bij opnieuw starten geplaatst",
+    "source": "23bb225cbdb4"
+  },
+  "voices-dialog.added-not-ready-in-time-at": {
+    "text": "Toegevoegd: niet op tijd klaar bij deze start",
+    "source": "6d386eb3b0d7"
+  },
+  "voices-dialog.added-used-from-the-next-start": {
+    "text": "Toegevoegd: gebruikt vanaf de volgende start",
+    "source": "e0e14a83e684"
   },
   "mail.accounts-bulk.added-provider": {
     "text": "Toegevoegd: {provider}",
@@ -2515,6 +2607,10 @@
     "text": "Alle bestanden",
     "source": "866956901fd1"
   },
+  "locker.all-good-remove-the-safety-copy": {
+    "text": "Alles goed, kopie verwijderen…",
+    "source": "018e0096608e"
+  },
   "inspect.all-items-were-removed": {
     "text": "Alle items zijn verwijderd.",
     "source": "fc6c610af91d"
@@ -2746,6 +2842,10 @@
     "text": "Een actie gaat naar een webadres (http:// of https://) of een e-mailadres (mailto:).",
     "source": "192eebf7ad62"
   },
+  "voices-dialog.an-added-voice-or-language-is": {
+    "text": "Een toegevoegde stem of taal wordt vanaf de volgende start gebruikt. Verwijderen laat je documenten en instellingen staan.",
+    "source": "a5c16bfef61e"
+  },
   "sheets.dialogs.an-address-such-as-rutba-io": {
     "text": "Een adres zoals rutba.io of hello@rutba.io, of een plek in deze werkmap zoals C12, Blad2!B4 of een naam.",
     "source": "257b9cd3f57d"
@@ -2905,6 +3005,22 @@
   "base.sources.another-data-files-database": {
     "text": "Een andere Data Files-database",
     "source": "a3cc390853c1"
+  },
+  "locker.another-office-profile-on-this-mac": {
+    "text": "Een ander Office-profiel op dit Mac-account kan het ook openen. Geef dit profiel een wachtwoord om dat te voorkomen.",
+    "source": "dd51602f9f1c"
+  },
+  "locker.another-office-profile-on-this-windows": {
+    "text": "Een ander Office-profiel op dit Windows-account kan het ook openen. Geef dit profiel een wachtwoord om dat te voorkomen.",
+    "source": "e7908aa680a5"
+  },
+  "locker.another-office-profile-on-this-user": {
+    "text": "Een ander Office-profiel op dit gebruikersaccount kan het ook openen. Geef dit profiel een wachtwoord om dat te voorkomen.",
+    "source": "5e249dc1af3c"
+  },
+  "voices-dialog.another-rutba-office-is-changing-the": {
+    "text": "Een andere kopie van Rutba Office wijzigt op dit moment de stemmen en talen. Probeer het zo meteen opnieuw.",
+    "source": "8b3c41c56b48"
   },
   "talk.address.another-address-of-yours": {
     "text": "Nog een adres van jou",
@@ -3641,6 +3757,10 @@
   "video.back-a-second": {
     "text": "Seconde terug",
     "source": "6edb45cb368b"
+  },
+  "read-aloud.bar.back-a-sentence": {
+    "text": "Een zin terug",
+    "source": "4505738dcaa5"
   },
   "studio.back-soon": {
     "text": "Binnenkort terug",
@@ -4492,6 +4612,10 @@
     "text": "Camera {n}",
     "source": "76ef0b65d44f"
   },
+  "voices-dialog.can-be-added-when-this-computer": {
+    "text": "Kan worden toegevoegd als deze computer online is",
+    "source": "030abf4e9f18"
+  },
   "common.can-down": {
     "text": "Blik: omlaag",
     "source": "4bbecf421c24"
@@ -4808,6 +4932,10 @@
     "text": "Gewijzigd",
     "source": "2a6141e43be0"
   },
+  "locker.changed-since-the-copy-was-made": {
+    "text": "Gewijzigd sinds de kopie is gemaakt: {files}",
+    "source": "876fd443e1df"
+  },
   "review.changed-count-time": {
     "forms": {
       "one": "{count} keer gewijzigd.",
@@ -4943,6 +5071,10 @@
     "text": "Opnieuw controleren: het document helemaal opnieuw lezen",
     "source": "dbd3a19ef2f5"
   },
+  "locker.check-and-remove": {
+    "text": "Controleren en verwijderen",
+    "source": "f27f294e584c"
+  },
   "calendar.check-availability": {
     "text": "Beschikbaarheid bekijken",
     "source": "2071664a583f"
@@ -5024,6 +5156,10 @@
   "ui.proofing.checking-in-language": {
     "text": "Controle in {language}",
     "source": "35352cdad1d4"
+  },
+  "locker.checking-the-folder-against-its-safety": {
+    "text": "Map vergelijken met de veiligheidskopie…",
+    "source": "d0208c82b534"
   },
   "mail.rules.checking-this-folder": {
     "text": "Deze map controleren…",
@@ -5112,6 +5248,10 @@
   "mail.archive.choose-a-folder": {
     "text": "Een map kiezen",
     "source": "5c71b8cd7822"
+  },
+  "locker.choose-a-folder-and-restore": {
+    "text": "Map kiezen en herstellen…",
+    "source": "ab7346bbfb2a"
   },
   "pdf.choose-a-folder-for-the-files": {
     "text": "Een map voor de bestanden kiezen",
@@ -5256,6 +5396,10 @@
   "studio.sources-column.choose-what-to-show": {
     "text": "Kiezen wat er getoond wordt",
     "source": "baee168f9101"
+  },
+  "locker.choose-where-to-restore-the-files": {
+    "text": "Kiezen waar de bestanden worden hersteld",
+    "source": "6de9b186eb7a"
   },
   "mail.choose-which-account-to-send-from": {
     "text": "Kies vanaf welk account je wilt verzenden.",
@@ -6442,6 +6586,10 @@
   "slides.costs": {
     "text": "Kosten",
     "source": "b88fc5fc4765"
+  },
+  "voices-dialog.could-not-be-added": {
+    "text": "Kon niet worden toegevoegd",
+    "source": "1bf82610aa3d"
   },
   "mail.accounts-bulk.could-not-be-set-up": {
     "text": "Kon niet worden ingesteld",
@@ -8040,6 +8188,10 @@
     "text": "Concept, In controle, Goedgekeurd",
     "source": "52ebfbb3ae76"
   },
+  "voices-dialog.draft-not-yet-reviewed": {
+    "text": "Concept, nog niet gecontroleerd",
+    "source": "887d99cb2ec9"
+  },
   "mail.drafts": {
     "text": "Concepten",
     "source": "f592e6a4db3c"
@@ -8319,6 +8471,18 @@
   "sheets.words.each-line-is-a-paragraph-of": {
     "text": "Elke regel is een eigen alinea. Ctrl+Enter zet de woorden erin.",
     "source": "ba23d84777b1"
+  },
+  "video.spoken.each-line-made-again-from-its": {
+    "text": "Elke regel nu opnieuw gemaakt uit de woorden, met deze stem en snelheid",
+    "source": "19a9307c0464"
+  },
+  "studio.spoken-run.each-line-read-aloud-in-turn": {
+    "text": "Elke regel om de beurt voorgelezen, in de titel getoond terwijl de stem klinkt",
+    "source": "82ccf6599ff7"
+  },
+  "video.spoken.each-line-read-aloud-its-words": {
+    "text": "Elke regel na elkaar voorgelezen, met de woorden in beeld terwijl de stem klinkt",
+    "source": "282adc866b4a"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "Elk e-mailaccount, elke agenda, elk adresboek, elke database en elke map heeft een eigen instelling, die ook in de eigen app wordt getoond, en de Recorder ook. Alles staat op Uit totdat je kiest. Er wordt nooit iets verwijderd of verplaatst, en alles wat wordt verzonden wacht eerst tot je hier op de knop drukt.",
@@ -9091,6 +9255,10 @@
   "locker.every-file-in-this-folder-is": {
     "text": "Elk bestand in deze map wordt vergrendeld waar het staat. Later toegevoegde bestanden blijven ontgrendeld tot je ze vergrendelt.",
     "source": "bf46961f6e33"
+  },
+  "locker.every-file-matched-the-safety-copy": {
+    "text": "Elk bestand kwam overeen. De veiligheidskopie is verwijderd.",
+    "source": "641b821fb375"
   },
   "mail.every-message-waits-this-long-before": {
     "text": "Elk bericht wacht zo lang voordat het vertrekt, en kan tot dan worden teruggehaald.",
@@ -10286,6 +10454,10 @@
     "text": "Lettertypen",
     "source": "3680fcad01f4"
   },
+  "voices-dialog.fonts-and-dictionaries": {
+    "text": "Lettertypen en woordenboeken",
+    "source": "e7aff9e0d28b"
+  },
   "sheets.ribbon.fonts-the-heading-and-body-faces": {
     "text": "Lettertypen: voor koppen en hoofdtekst; nu {major} en {minor}",
     "source": "8048e40f3f6f"
@@ -10533,6 +10705,10 @@
   "video.forward-a-second": {
     "text": "Seconde vooruit",
     "source": "8c492f4ddac3"
+  },
+  "read-aloud.bar.forward-a-sentence": {
+    "text": "Een zin verder",
+    "source": "b7b09fb5bf3f"
   },
   "studio.setups-menu.found": {
     "text": "Gevonden",
@@ -10793,6 +10969,10 @@
   "calendar.from-address": {
     "text": "Van {address}",
     "source": "6d066bb09cc4"
+  },
+  "mail.read-aloud.from-name": {
+    "text": "Van {name}",
+    "source": "2f4ab5d74ae4"
   },
   "contacts.from-name-not-yet-in-your": {
     "text": "Van {name}, nog niet bij je contacten.",
@@ -13147,9 +13327,17 @@
     "text": "Het wordt een gewoon bestand op dezelfde plek, en de eerdere versies die de Kluis (Locker) ervan bewaarde, worden verwijderd. Je kunt het weer vergrendelen wanneer je maar wilt.",
     "source": "edc5654cc244"
   },
+  "locker.it-cannot-be-checked-or-restored": {
+    "text": "Het kan niet worden gecontroleerd of hersteld. Verwijderen?",
+    "source": "e9d50f1e317d"
+  },
   "mail.it-goes-to": {
     "text": "Het gaat naar:",
     "source": "f7cf347abe06"
+  },
+  "locker.it-has-been-kept-for-n": {
+    "text": "Hij wordt al {n} dagen bewaard. Verwijder hem zodra je zeker weet dat de map goed opent.",
+    "source": "e9de9f7945ab"
   },
   "calendar.words.it-has-no-free-time-left": {
     "text": "Er is die dag geen vrije tijd meer.",
@@ -13163,6 +13351,30 @@
     "text": "Het staat niet in je eigen mappen: het kan van iemand anders zijn of van de computer zelf. Wat wordt gelezen, komt in deze database, en gaat mee als die wordt doorgestuurd.",
     "source": "852e5b1f2f73"
   },
+  "locker.it-is-not-locked-with-your": {
+    "text": "De kopie is niet vergrendeld met je wachtwoord voor de Kluis (Locker): iedereen die dit Office-profiel kan openen, kan hem herstellen. Je Mac-wachtwoord en het wachtwoord van dit profiel beschermen hem als de schijf wordt gestolen. Verwijder hem zodra de map opent zoals je verwacht.",
+    "source": "49ed3008b51b"
+  },
+  "locker.it-is-not-locked-with-your-2": {
+    "text": "De kopie is niet vergrendeld met je wachtwoord voor de Kluis (Locker): iedereen die dit Office-profiel kan openen, kan hem herstellen. Je Windows-wachtwoord en het wachtwoord van dit profiel beschermen hem als de schijf wordt gestolen. Verwijder hem zodra de map opent zoals je verwacht.",
+    "source": "42aaf12f0836"
+  },
+  "locker.it-is-not-locked-with-your-3": {
+    "text": "De kopie is niet vergrendeld met je wachtwoord voor de Kluis (Locker): iedereen die dit Office-profiel kan openen, kan hem herstellen. Het wachtwoord van je sleutelbos en dat van dit profiel beschermen hem als de schijf wordt gestolen. Verwijder hem zodra de map opent zoals je verwacht.",
+    "source": "a1d96fbb286c"
+  },
+  "locker.it-is-not-locked-with-your-4": {
+    "text": "De kopie is niet vergrendeld met je wachtwoord voor de Kluis (Locker): iedereen die zich aanmeldt bij dit Mac-account, kan hem herstellen. Als de schijf wordt gestolen, beschermt je Mac-wachtwoord hem via de Sleutelhanger. Verwijder hem zodra de map opent zoals je verwacht.",
+    "source": "3479d47ec7b8"
+  },
+  "locker.it-is-not-locked-with-your-5": {
+    "text": "De kopie is niet vergrendeld met je wachtwoord voor de Kluis (Locker): iedereen die zich aanmeldt bij dit Windows-account, kan hem herstellen. Als de schijf wordt gestolen, beschermt je Windows-wachtwoord hem. Verwijder hem zodra de map opent zoals je verwacht.",
+    "source": "94813052ad1f"
+  },
+  "locker.it-is-not-locked-with-your-6": {
+    "text": "De kopie is niet vergrendeld met je wachtwoord voor de Kluis (Locker): iedereen die zich aanmeldt bij dit gebruikersaccount, kan hem herstellen. Bij diefstal van de schijf beschermt het wachtwoord van je sleutelbos hem. Op de meeste computers is dat je aanmeldwachtwoord. Heeft je sleutelbos geen wachtwoord, dan beschermt niets hem. Verwijder hem zodra de map opent zoals je verwacht.",
+    "source": "179e9ee04965"
+  },
   "studio.sources-column.it-is-on-air": {
     "text": "Het is live",
     "source": "668b7b14f675"
@@ -13174,6 +13386,10 @@
   "mail.smime.it-is-shown-as-plain-text": {
     "text": "Het wordt getoond als platte tekst, zonder koppelingen en afbeeldingen: een versleuteld bericht dat niet door iemand die je vertrouwt is ondertekend, kan onderweg zijn gewijzigd om de tekst ergens anders heen te sturen.",
     "source": "a923da16888c"
+  },
+  "locker.it-needs-about-size-and-free": {
+    "text": "Er is ongeveer {size} nodig en er is {free} vrij.",
+    "source": "4b6dd24db2d1"
   },
   "base.people.it-starts-reading-every-table-choose": {
     "text": "De rol leest eerst elke tabel; kies wat hij met elke tabel mag doen.",
@@ -13229,6 +13445,10 @@
   "mail.accounts-bulk.its-mail-servers-are-not-at": {
     "text": "De mailservers staan niet op {domain}: {hosts}. Het wachtwoord gaat er alleen heen als je akkoord gaat.",
     "source": "3fde2d743d72"
+  },
+  "slides.ribbon.its-notes": {
+    "text": "De notities",
+    "source": "a316f96e4b04"
   },
   "mail.smime.its-password": {
     "text": "Het wachtwoord",
@@ -13380,6 +13600,10 @@
   "base.links.keep-a-copy-in-this-file": {
     "text": "Een kopie in dit bestand bewaren",
     "source": "fe129705434e"
+  },
+  "locker.keep-a-safety-copy-until-i": {
+    "text": "Kopie bewaren tot ik zeg dat alles goed is",
+    "source": "ce86e4bea08e"
   },
   "ui.proofing.keep-accessibility-checker-running-while-i": {
     "text": "Toegankelijkheid controleren terwijl ik werk",
@@ -13936,6 +14160,14 @@
     "text": "Voorstelling verlaten",
     "source": "fdc22af2a38d"
   },
+  "locker.leave-them-closed": {
+    "text": "Gesloten laten",
+    "source": "e4aee34bbd47"
+  },
+  "locker.leave-them-closed-2": {
+    "text": "Ze gesloten laten?",
+    "source": "d56f15ff14e6"
+  },
   "locker.leave-them-unlocked-suggested": {
     "text": "Ontgrendeld laten (aanbevolen)",
     "source": "0afd256556ff"
@@ -14331,6 +14563,10 @@
     "text": "Regels geven aan wat wordt vergrendeld; een regel die met ! begint, maakt een uitzondering. Zonder regels wordt alles vergrendeld.",
     "source": "97f258a60d21"
   },
+  "studio.spoken-run.lines-to-read": {
+    "text": "Regels om voor te lezen",
+    "source": "29f993ec4aae"
+  },
   "common.link": {
     "text": "Koppelen",
     "source": "a6a32dbc5618"
@@ -14547,6 +14783,10 @@
     "text": "De laag vergrendelen",
     "source": "7dbd5ea70c86"
   },
+  "locker.lock-the-rest-leave-this-one": {
+    "text": "Rest vergrendelen, deze niet",
+    "source": "63dac83b4051"
+  },
   "locker.lock-them-again": {
     "text": "Weer vergrendelen",
     "source": "902997963217"
@@ -14558,6 +14798,10 @@
   "video.timeline.lock-this-track": {
     "text": "Dit spoor vergrendelen",
     "source": "383db16dbbe6"
+  },
+  "locker.lock-without-a-safety-copy": {
+    "text": "Vergrendelen zonder kopie",
+    "source": "e0af1dba19b1"
   },
   "locker.lock-n-here": {
     "text": "{n} hier op slot",
@@ -14803,6 +15047,10 @@
     "text": "Gemaakt in een oudere versie van PowerPoint: je kunt het lezen en verwijderen, niet beantwoorden.",
     "source": "149c944bbf20"
   },
+  "locker.made-when-of-n-files-size": {
+    "text": "Gemaakt {when}, van {n} bestanden ({size}) zoals ze waren vóór het vergrendelen.",
+    "source": "cc7c3e840df2"
+  },
   "image.tools.magic-wand": {
     "text": "Toverstaf",
     "source": "4f4839aa83e6"
@@ -14975,9 +15223,17 @@
     "text": "Je locker maken",
     "source": "5928f42234d2"
   },
+  "studio.spoken-run.making-line-n-of-count": {
+    "text": "Regel {n} van {count} maken…",
+    "source": "26fa6bf092a6"
+  },
   "pdf.making-the-file-smaller": {
     "text": "Het bestand verkleinen…",
     "source": "01e0d2e35672"
+  },
+  "locker.making-the-safety-copy-then-locking": {
+    "text": "Kopie maken, dan vergrendelen…",
+    "source": "17b3586a056e"
   },
   "slides.export-video.making-the-video-slide-at-of": {
     "text": "Video maken: dia {at} van {of}. De presentatie wordt afgespeeld, dus het duurt even lang als de voorstelling.",
@@ -15554,6 +15810,10 @@
     "text": "Bericht als de cel is geselecteerd",
     "source": "bb3d160623af"
   },
+  "mail.message-n-of-count": {
+    "text": "Bericht {n} van {count}",
+    "source": "496bec00a82a"
+  },
   "mail.archive.message-id": {
     "text": "Message-ID",
     "source": "06a95f89cb88"
@@ -15577,6 +15837,10 @@
   "registry.messages-and-calls-with-your-contacts": {
     "text": "Berichten en gesprekken met je contactpersonen",
     "source": "0f1f0c41222b"
+  },
+  "mail.messages-being-read": {
+    "text": "Berichten die worden voorgelezen",
+    "source": "aa86112f1d32"
   },
   "mail.messages-now-send-immediately": {
     "text": "Berichten worden nu direct verzonden",
@@ -16267,6 +16531,10 @@
   "locker.needs-you": {
     "text": "Heeft je nodig",
     "source": "74b6abdf5969"
+  },
+  "spoken.voices.neither-is-on-the-lines-keep": {
+    "text": "Geen van beide staat aan: de regels houden hun tijd, maar er is niets te zien of te horen.",
+    "source": "e83016a7cfaf"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "Geen van jullie kan de ander schrijven of bellen tot jullie weer contactpersonen zijn. Je berichten hier worden verwijderd.",
@@ -17068,6 +17336,10 @@
     "text": "Geen limiet",
     "source": "f7fcff0d8fea"
   },
+  "spoken.voices.no-lines-yet-each-line-of": {
+    "text": "Nog geen regels: elke regel van de tekst wordt om de beurt voorgelezen.",
+    "source": "6c66185b20fc"
+  },
   "talk.invite.no-links-yet": {
     "text": "Nog geen links.",
     "source": "8bfd6e671367"
@@ -17352,6 +17624,10 @@
     "text": "Nog geen weergaven. Toevoegen… bewaart hoe de werkmap er nu uitziet.",
     "source": "233d8dca900a"
   },
+  "common.no-voice-has-been-added": {
+    "text": "Er is geen stem toegevoegd.",
+    "source": "c163f326bf4d"
+  },
   "shell.no-window-of-this-app-is": {
     "text": "Er is geen venster van deze app verborgen.",
     "source": "b5a7641a8630"
@@ -17480,6 +17756,10 @@
     "text": "Normaal: het blad als raster",
     "source": "7d6eedd7f7a3"
   },
+  "voices-dialog.not-added": {
+    "text": "Niet toegevoegd",
+    "source": "2460c620beba"
+  },
   "sheets.dialogs.not-an-address-and-not-a": {
     "text": "Geen adres en geen plek die deze werkmap kent.",
     "source": "7f162b5c3025"
@@ -17540,6 +17820,10 @@
     "text": "Niet elke uitnodiging ging per e-mail. Wie gevraagd is, kan nog steeds in Talk accepteren, en je kunt hun link op een andere manier sturen vanuit de lijst met mensen die je hebt gevraagd.",
     "source": "4336568dd105"
   },
+  "locker.not-everything-matches-the-safety-copy": {
+    "text": "Niet alles komt overeen met de veiligheidskopie.",
+    "source": "0511c2c86d34"
+  },
   "studio.not-found": {
     "text": "Niet gevonden",
     "source": "e3ebaa16dd9d"
@@ -17572,6 +17856,10 @@
     "text": "Niet vergrendeld",
     "source": "0e9f70fca7bf"
   },
+  "locker.not-locked-in-this-folder-files": {
+    "text": "Niet vergrendeld in deze map: {files}",
+    "source": "da7fd13c706e"
+  },
   "common.not-now": {
     "text": "Niet nu",
     "source": "a0e63d7c7125"
@@ -17590,6 +17878,10 @@
   "base.links.not-read-source-waits-for-you-2": {
     "text": "Niet gelezen: {source} wacht tot je de bronnen van deze database hier toestaat. De kopie hier is van {time}.",
     "source": "b6dbe9bb7b1b"
+  },
+  "voices-dialog.not-ready-for-this-version-yet": {
+    "text": "Nog niet klaar voor deze versie",
+    "source": "02f5f74fdc12"
   },
   "common.not-recorded-yet": {
     "text": "Nog niet opgenomen",
@@ -17771,6 +18063,10 @@
     "text": "Er is nog niets gemarkeerd.",
     "source": "5c3dd15a98d2"
   },
+  "voices-dialog.nothing-is-removed-each-comes-back": {
+    "text": "Er wordt niets verwijderd. Elk onderdeel komt vanzelf terug zodra de versie ervan voor {version} klaar is.",
+    "source": "48739878031b"
+  },
   "mail.dialogs.nothing-is-sent-anywhere-the-import": {
     "text": "Er wordt nergens iets heen gestuurd. De import leest het bestand en schrijft alleen naar deze computer.",
     "source": "911c731459ea"
@@ -17838,6 +18134,10 @@
   "word.nothing-to-read-from-here": {
     "text": "Vanaf hier niets te lezen.",
     "source": "3ccd7688183d"
+  },
+  "slides.nothing-to-read-on-this-slide": {
+    "text": "Niets om voor te lezen op deze dia.",
+    "source": "44401bddb9d8"
   },
   "word.mailings.nothing-to-show-for-this-record": {
     "text": "Niets weer te geven voor dit record.",
@@ -18007,9 +18307,21 @@
     "text": "Office-documenten",
     "source": "dc7d0a6b33ff"
   },
+  "locker.offices-profile-is-on-a-drive": {
+    "text": "Het profiel van Office staat op een station met exFAT of FAT, dat geen machtigingen bijhoudt. Een bestand dat vanuit een tijdelijke onvergrendelde kopie opent, wat de Kluis (Locker) dan meldt, heeft die kopie daar staan zolang het open is, en iedereen met dit station kan hem lezen. De vergrendelde bestanden blijven vergrendeld.",
+    "source": "7b0eaf19f91c"
+  },
+  "locker.offices-profile-is-on-a-network": {
+    "text": "Het profiel van Office staat op een netwerkshare. Een bestand dat vanuit een tijdelijke onvergrendelde kopie opent, wat de Kluis (Locker) dan meldt, heeft die kopie daar staan zolang het open is, en de machtigingen van de server, niet Windows, bepalen wie hem kan lezen. De vergrendelde bestanden blijven vergrendeld.",
+    "source": "8540bcff8ead"
+  },
   "talk.offline": {
     "text": "Offline",
     "source": "a1794783aab7"
+  },
+  "voices-dialog.offline-this-is-the-list-that": {
+    "text": "Offline: dit is de lijst die bij deze versie is meegeleverd.",
+    "source": "29f1cab6ba4d"
   },
   "mail.archive.older-or-newer-than-so-many": {
     "text": "Ouder of nieuwer dan zoveel dagen (d), weken (w), maanden (m) of jaren (y)",
@@ -18099,6 +18411,10 @@
     "text": "Op de tijdlijn",
     "source": "f62c6abeb937"
   },
+  "locker.on-this-mac-only-touch-id": {
+    "text": "Alleen op deze Mac. Eerst Touch ID; de sleutel die het beschermt, staat in de Sleutelhanger. Het wachtwoord blijft leidend.",
+    "source": "3633db8bfba6"
+  },
   "ai-tools.on-this-computer": {
     "text": "Op deze computer",
     "source": "e6af7ee2bde2"
@@ -18158,6 +18474,10 @@
   "word.one-flow-on-screen-for-a": {
     "text": "Eén stroom op het scherm voor een gewone cursor; de afdruk- en PDF-indeling splitst hem echt in kolommen",
     "source": "33bd0e1b78c3"
+  },
+  "studio.spoken-run.one-line-each-each-is-read": {
+    "text": "Eén per regel: ze worden om de beurt voorgelezen",
+    "source": "f1c64f2624f8"
   },
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "Eén regel per regel. Een tab gaat naar het midden, een tweede naar rechts.",
@@ -19818,6 +20138,10 @@
     "text": "Geluid van een clip afspelen in de voorstelling",
     "source": "97953b6cbcb8"
   },
+  "mail.play-all": {
+    "text": "Alles afspelen",
+    "source": "12e7b8220dc7"
+  },
   "pictures.play-automatically": {
     "text": "Automatisch afspelen",
     "source": "210dd780da5e"
@@ -19830,9 +20154,21 @@
     "text": "Vooruit afspelen",
     "source": "18d1c1674140"
   },
+  "spoken.voices.play-the-voice": {
+    "text": "Stem afspelen",
+    "source": "df7413e04bae"
+  },
+  "spoken.voices.play-the-voice-of-this-line": {
+    "text": "Stem van deze regel afspelen",
+    "source": "8e0d9567a55d"
+  },
   "video.timeline.play-this-track-alone-solo-the": {
     "text": "Dit spoor alleen afspelen (solo): de andere sporen van dit type zwijgen tot je dit uitzet",
     "source": "734250a377a1"
+  },
+  "mail.play-unread": {
+    "text": "Ongelezen afspelen",
+    "source": "ce50e3196418"
   },
   "video.playback": {
     "text": "Afspelen",
@@ -20713,6 +21049,18 @@
     "text": "Voorlezen",
     "source": "38e07b2a0ca5"
   },
+  "voices-dialog.read-aloud-uses-the-windows-voice": {
+    "text": "Voorlezen gebruikt de Windows-stem.",
+    "source": "7a16d7891be8"
+  },
+  "pdf.read-aloud-the-words-of-the": {
+    "text": "Voorlezen: de tekst van de pagina's, vanaf deze, zin voor zin",
+    "source": "3e998b88dc26"
+  },
+  "slides.ribbon.read-aloud-the-words-on-this": {
+    "text": "Voorlezen: de tekst op deze dia, de notities of beide, zin voor zin",
+    "source": "0bb5b920c262"
+  },
   "word.ribbon.read-mode": {
     "text": "Leesmodus",
     "source": "b717f7f3eb53"
@@ -20757,6 +21105,10 @@
     "text": "Handmatig lezen",
     "source": "c1b4b3d1e6f2"
   },
+  "mail.read-every-message-in-the-list": {
+    "text": "Alle berichten in de lijst op volgorde voorlezen. Een filter of een zoekopdracht bepaalt welke. Elk bericht wordt als gelezen gemarkeerd zodra het helemaal is voorgelezen.",
+    "source": "4a502a868214"
+  },
   "base.sources.read-from": {
     "text": "Lezen uit",
     "source": "26da1ae26f48"
@@ -20793,13 +21145,37 @@
     "text": "Gelezen of niet, met ster of niet",
     "source": "24569a47b7d9"
   },
+  "video.spoken.read-the-lines-aloud": {
+    "text": "Regels voorlezen",
+    "source": "1a13c198d37e"
+  },
   "word.ribbon.read-the-document-aloud-from-the": {
     "text": "Het document voorlezen, vanaf de cursor",
     "source": "4ac22f8793e2"
   },
+  "studio.spoken-run.read-the-lines": {
+    "text": "Regels voorlezen",
+    "source": "458b26677813"
+  },
+  "video.spoken.read-the-lines-onto-the-timeline": {
+    "text": "Regels op de tijdlijn voorlezen",
+    "source": "544b9d825bea"
+  },
+  "mail.read-the-open-message-aloud-who": {
+    "text": "Het geopende bericht voorlezen: wie het heeft verzonden, het onderwerp en dan de tekst",
+    "source": "74364f657863"
+  },
+  "mail.read-the-unread-messages-in-the": {
+    "text": "De ongelezen berichten in de lijst op volgorde voorlezen. Elk bericht wordt als gelezen gemarkeerd zodra het helemaal is voorgelezen.",
+    "source": "dff6be303eab"
+  },
   "base.links.read-what-changed-by-field": {
     "text": "Wijzigingen lezen via {field}",
     "source": "2280ed08e4c6"
+  },
+  "video.spoken.read-while-recording-the-voice-is": {
+    "text": "Voorgelezen tijdens de opname: de stem zit in het geluid van de opname zelf.",
+    "source": "18def8f54c5b"
   },
   "base.links.read-every": {
     "text": "{every} lezen",
@@ -20829,6 +21205,10 @@
     "text": "Bij het lezen weet {host} dat deze database is geopend, en vanaf waar.",
     "source": "40c581613d93"
   },
+  "common.reading-line-n-of-count": {
+    "text": "Regel {n} van {count} voorlezen",
+    "source": "0bdc94419bf9"
+  },
   "pdf.ocr.reading-page-page-of-count": {
     "text": "Pagina {page} van {count} lezen…",
     "source": "98a0e1804ad8"
@@ -20836,6 +21216,10 @@
   "mail.reading-pane": {
     "text": "Leesvenster",
     "source": "dde5ae89d4de"
+  },
+  "mail.reading-stopped-the-voice-did-not": {
+    "text": "Voorlezen gestopt: de stem heeft dit bericht niet voorgelezen.",
+    "source": "edb70b11e6c0"
   },
   "word.envelopes.reading-the-address-book": {
     "text": "Het adresboek lezen…",
@@ -21563,6 +21947,10 @@
     "text": "Account verwijderen…",
     "source": "f6c7b21aa0c2"
   },
+  "locker.remove-anyway": {
+    "text": "Toch verwijderen",
+    "source": "ec52bdc0ffac"
+  },
   "word.mailings.remove-duplicates-untick-count-record-that": {
     "forms": {
       "one": "Duplicaten verwijderen: {count} record uitvinken dat veld voor veld een eerder record herhaalt",
@@ -21657,6 +22045,22 @@
   "base.remove-the-relationship": {
     "text": "De relatie verwijderen",
     "source": "7f945c0384ab"
+  },
+  "locker.remove-the-safety-copy-now": {
+    "text": "Veiligheidskopie nu verwijderen?",
+    "source": "e026c125fde8"
+  },
+  "locker.remove-the-safety-copy-of-name": {
+    "text": "Veiligheidskopie van {name} verwijderen?",
+    "source": "25b045f799d0"
+  },
+  "locker.remove-the-safety-copy": {
+    "text": "Kopie verwijderen…",
+    "source": "6474685cf9bd"
+  },
+  "voices-dialog.remove-the-voices-and-languages-added": {
+    "text": "Ook de stemmen en talen verwijderen die aan Rutba Office zijn toegevoegd?",
+    "source": "95f84db40a88"
   },
   "locker.remove-them-suggested": {
     "text": "Ze verwijderen (aanbevolen)",
@@ -21832,6 +22236,14 @@
   "sheets.reopen": {
     "text": "Heropenen",
     "source": "a886d1dc4f12"
+  },
+  "locker.reopen-the-files-that-were-open": {
+    "text": "Geopende bestanden opnieuw openen",
+    "source": "e072693459a5"
+  },
+  "locker.reopen-them": {
+    "text": "Opnieuw openen",
+    "source": "0c8ec1c4dc3d"
   },
   "slides.comments.reopen-this-thread": {
     "text": "Dit gesprek heropenen",
@@ -22168,9 +22580,29 @@
     "text": "Start opnieuw om nu bij te werken. Als je doorwerkt, wordt het geïnstalleerd als je afsluit.",
     "source": "6dceb7683e70"
   },
+  "voices-dialog.restarting-closes-every-window-and-these": {
+    "text": "Opnieuw starten sluit alle vensters, en deze hebben wijzigingen die nog niet zijn opgeslagen. Sla ze op of sluit ze en start daarna nog een keer opnieuw. Er is niets gesloten.",
+    "source": "b8d3a411d920"
+  },
   "ui.restore": {
     "text": "Vorige grootte",
     "source": "a76e13b98392"
+  },
+  "locker.restore-a-copy": {
+    "text": "Kopie herstellen…",
+    "source": "0b791c6c1552"
+  },
+  "locker.restore-from-the-safety-copy": {
+    "text": "Herstellen uit de veiligheidskopie",
+    "source": "2ba736545122"
+  },
+  "locker.restore-from-the-safety-copy-2": {
+    "text": "Uit de kopie herstellen…",
+    "source": "53572e4e1540"
+  },
+  "locker.restoring": {
+    "text": "Herstellen…",
+    "source": "5a4918e0201c"
   },
   "word.restrict-editing": {
     "text": "Bewerking beperken",
@@ -22271,6 +22703,10 @@
   "sheets.review-show-comments-lists-them": {
     "text": "Controleren → Opmerkingen weergeven toont ze",
     "source": "3a019cace7ae"
+  },
+  "voices-dialog.reviewed": {
+    "text": "Gecontroleerd",
+    "source": "fad6057bb540"
   },
   "common.reviewing-pane": {
     "text": "Revisievenster",
@@ -22812,6 +23248,14 @@
     "text": "Rutba Office kan {v1}-bestanden nog niet openen.",
     "source": "cecfdddc878c"
   },
+  "voices-dialog.rutba-office-in-the-languages-this": {
+    "text": "Rutba Office in de talen die deze computer gebruikt.",
+    "source": "f639c2bab1a0"
+  },
+  "voices-dialog.rutba-office-in-your-languages": {
+    "text": "Rutba Office in je talen",
+    "source": "92aee8ac863e"
+  },
   "shell.rutba-office-is-now-version": {
     "text": "Rutba Office is nu versie {version}",
     "source": "8b27b11cf0c8"
@@ -22840,9 +23284,21 @@
     "text": "Rutba Office {version} is gedownload. Start opnieuw om bij te werken, of het installeert bij afsluiten",
     "source": "ef28bb66ae1a"
   },
+  "voices-dialog.rutba-office-version-is-out-but": {
+    "text": "Rutba Office {version} is uit, maar je stemmen en talen konden er niet voor worden gecontroleerd. Bij de volgende controle wordt het opnieuw gevraagd.",
+    "source": "1f9d9dab508d"
+  },
+  "voices-dialog.rutba-office-version-is-out-it": {
+    "text": "Rutba Office {version} is uit. De update wordt aangeboden zodra deze onderdelen er klaar voor zijn: {list}.",
+    "source": "2e1d40855fff"
+  },
   "shell.rutba-office-version-is-ready-to": {
     "text": "Rutba Office {version} is klaar om te installeren",
     "source": "9f8e0a323b51"
+  },
+  "voices-dialog.rutba-office-version-no-longer-has": {
+    "text": "Rutba Office {version} bevat {name} ({kind}) niet meer. Het blijft ongebruikt op deze computer staan tot je het verwijdert.",
+    "source": "ca36731ad5da"
   },
   "engine.rutba-office-no-backend-for-ns": {
     "text": "Rutba Office: geen backend voor {ns}:{name}",
@@ -22935,6 +23391,18 @@
   "talk.safety-code-code-if-name-sees": {
     "text": "Veiligheidscode {code}: als {name} dezelfde ziet, luistert niemand mee.",
     "source": "b70afef2b0dd"
+  },
+  "locker.safety-copies": {
+    "text": "Veiligheidskopieën",
+    "source": "7735ad244a59"
+  },
+  "locker.safety-copies-are-not-offered-on": {
+    "text": "Veiligheidskopieën zijn niet beschikbaar op deze computer, omdat er geen sleutelbos is om hun sleutel in te bewaren. De map wordt nog steeds gewoon vergrendeld.",
+    "source": "1b386c96ddee"
+  },
+  "locker.safety-copy": {
+    "text": "Veiligheidskopie",
+    "source": "966a48379b73"
   },
   "mail.safety.safety-is-off-for-this-message": {
     "text": "Beveiliging staat uit voor dit bericht: koppelingen en afbeeldingen kunnen worden gekopieerd en bijlagen opgeslagen. Een volgend bericht opent beveiligd.",
@@ -23247,6 +23715,14 @@
   "studio.scene-strip.save-what-the-frame-shows-as": {
     "text": "Opslaan wat het beeld toont als nieuwe scène",
     "source": "04d539ee1ba5"
+  },
+  "english-switch.save-your-changes-first-this-window": {
+    "text": "Sla eerst je wijzigingen op: dit venster wordt in het Engels weergegeven zodra het opnieuw wordt geopend. De vensters die je vanaf nu opent, zijn in het Engels.",
+    "source": "158d4e0c44ec"
+  },
+  "voices-dialog.save-your-work-before-restarting": {
+    "text": "Sla je werk op voordat je opnieuw start",
+    "source": "9f0e25526a5b"
   },
   "update-restart.save-your-work-before-updating": {
     "text": "Sla je werk op voordat je bijwerkt",
@@ -24250,6 +24726,10 @@
     "text": "Zoals in een zin.",
     "source": "e3033f08f2d4"
   },
+  "read-aloud.bar.sentence-n-of-count": {
+    "text": "Zin {n} van {count}",
+    "source": "31e0c4c7d350"
+  },
   "word.ribbon.separated-by-commas": {
     "text": "Komma als scheiding",
     "source": "1d7e4e1cdf8b"
@@ -24877,6 +25357,10 @@
     "text": "De rij- en kolomkoppen weergeven",
     "source": "4f7b9dcce409"
   },
+  "spoken.voices.show-the-text": {
+    "text": "Tekst weergeven",
+    "source": "0766a87f94ec"
+  },
   "sheets.dialogs.show-them-as": {
     "text": "Weergeven als",
     "source": "6380dba9f992"
@@ -24892,6 +25376,10 @@
   "video.timeline.show-this-track": {
     "text": "Dit spoor weergeven",
     "source": "f562671c6f31"
+  },
+  "english-switch.show-this-window-in-english": {
+    "text": "Dit venster in het Engels weergeven",
+    "source": "966d8fef25b8"
   },
   "slides.setup.show-type": {
     "text": "Type voorstelling",
@@ -25713,6 +26201,10 @@
     "text": "Geluidsclip",
     "source": "556f55adc8bd"
   },
+  "studio.spoken-run.sound-is-not-on-so-the": {
+    "text": "Het geluid staat niet aan, dus de stem zit niet in de opname en niet in de stream.",
+    "source": "73e5029c4133"
+  },
   "video.meter.sound-level": {
     "text": "Geluidsniveau",
     "source": "03f228955745"
@@ -25817,9 +26309,21 @@
     "text": "Tekstballon",
     "source": "210563626614"
   },
+  "voices-dialog.speech-engine-and-models": {
+    "text": "Spraakengine en -modellen",
+    "source": "023dc910442d"
+  },
+  "voices-dialog.speech-is-made-on-this-computer": {
+    "text": "Spraak wordt op deze computer gemaakt. Wat wordt voorgelezen, verlaat deze computer nooit.",
+    "source": "020d7947bc15"
+  },
   "word.speech-is-not-available-on-this": {
     "text": "Spraak is niet beschikbaar op dit systeem.",
     "source": "52e87276a561"
+  },
+  "voices-dialog.speech-will-use-the-windows-voice": {
+    "text": "Spraak gebruikt de Windows-stem tot de spraakengine voor {version} klaar is.",
+    "source": "7f1dd8870ffa"
   },
   "video.speed": {
     "text": "Snelheid",
@@ -25947,6 +26451,14 @@
   "pdf.split-this-pdf-into-several-files": {
     "text": "Splitsen: deze PDF in meerdere bestanden, per aantal pagina's of bij de geselecteerde pagina's",
     "source": "ed6df15df737"
+  },
+  "video.spoken.spoken-lines": {
+    "text": "Gesproken regels",
+    "source": "9b4ca87c5e21"
+  },
+  "common.spoken-lines": {
+    "text": "Gesproken regels",
+    "source": "b6fcaf71e96b"
   },
   "slides.spring-2026": {
     "text": "Voorjaar 2026",
@@ -26292,6 +26804,10 @@
     "text": "Niet meer alleen afspelen",
     "source": "0a0cba583153"
   },
+  "common.stop-reading": {
+    "text": "Voorlezen stoppen",
+    "source": "78be99f18a5c"
+  },
   "shell.ipc.stop-recording": {
     "text": "Opname stoppen",
     "source": "3d591e826d54"
@@ -26463,6 +26979,10 @@
   "mail.subject-a-word-in-the-subject": {
     "text": "Onderwerp: een woord in het onderwerp",
     "source": "ffb836da7f7a"
+  },
+  "mail.read-aloud.subject-subject": {
+    "text": "Onderwerp: {subject}",
+    "source": "71de3761a2b3"
   },
   "common.subscript": {
     "text": "Subscript",
@@ -26647,6 +27167,10 @@
   "dav-accounts.syncing": {
     "text": "Synchroniseren…",
     "source": "8a046cc90ab0"
+  },
+  "read-aloud.bar.system-voice": {
+    "text": "Systeemstem",
+    "source": "2d3d23392b00"
   },
   "image.formats.tiff-keeps-every-pixel-for-print": {
     "text": "TIFF bewaart elke pixel, voor drukwerk en scans.",
@@ -27595,6 +28119,10 @@
     "text": "De kopie in Gegevensbestanden (Data Files) heeft een eigen bestand nodig. Kies een andere naam of map.",
     "source": "b7ddf45551bf"
   },
+  "locker.the-locker-first-reads-back-every": {
+    "text": "De Kluis (Locker) leest eerst elk bestand van de kopie in deze map terug en controleert of het overeenkomt. Als iets niet overeenkomt, meldt hij dat voordat er iets wordt verwijderd.",
+    "source": "158bfd3254fc"
+  },
   "home.the-office-apps-are-on-add": {
     "text": "De Office-apps staan aan. Voeg Talk, Gegevensbestanden (Data Files) en de Studio-apps toe wanneer je wilt, en zet altijd uit wat je niet gebruikt.",
     "source": "328297894902"
@@ -27614,6 +28142,10 @@
   "sheets.ribbon.the-worksheets-guide-on-office-rutba": {
     "text": "De handleiding voor Werkbladen op office.rutba.io",
     "source": "de05c2d52be3"
+  },
+  "read-aloud.reader.the-added-voice-stopped-working-so": {
+    "text": "De toegevoegde stem werkt niet meer, dus de rest wordt met de systeemstem voorgelezen.",
+    "source": "f0f998b2a82a"
   },
   "word.mailings.the-address-book-is-empty-add": {
     "text": "Het adresboek is leeg. Voeg mensen toe in Contactpersonen of typ een lijst.",
@@ -27940,6 +28472,10 @@
     "text": "Het bestand is niet versleuteld: de rollen gelden in Rutba Office, maar wie het kopieert, kan het met een ander programma lezen.",
     "source": "76fbda0ec679"
   },
+  "locker.the-files-are-restored": {
+    "text": "De bestanden zijn hersteld",
+    "source": "f7002961aa52"
+  },
   "mail.dialogs.the-filter-has-learned-from-junk": {
     "text": "Het filter heeft geleerd van {junk} ongewenste en {good} goede berichten, en beoordeelt niets voordat het {minimum} van elk heeft gezien. Markeer berichten als Ongewenst en Niet ongewenst, of leer van wat hier al staat.",
     "source": "1a734aca4f49"
@@ -27951,6 +28487,14 @@
   "sheets.queries.the-first-characters-of-column": {
     "text": "De eerste tekens van “{column}”",
     "source": "b944f22738f2"
+  },
+  "video.the-first-try-came-out-with": {
+    "text": "De eerste poging leverde geen beeld op, dus de export is opnieuw gestart.",
+    "source": "af1e9fb70b7f"
+  },
+  "slides.export-video.the-first-try-came-out-with": {
+    "text": "De eerste poging leverde geen beeld op, dus de video wordt opnieuw gemaakt: dia {at} van {of}.",
+    "source": "7132b0853b65"
   },
   "pictures.batch.the-first-will-be-example": {
     "text": "De eerste wordt {example}",
@@ -28024,6 +28568,10 @@
     "text": "De sleutel staat in de beveiligde opslag van deze computer, nooit in het bestand, en alleen voor dit adres.",
     "source": "73f082cb751d"
   },
+  "read-aloud.bar.the-language-being-read": {
+    "text": "De taal die wordt voorgelezen",
+    "source": "a6d60dec8ea7"
+  },
   "engine.the-last-calendar-stays-delete-its": {
     "text": "De laatste agenda blijft; verwijder in plaats daarvan de gebeurtenissen.",
     "source": "d68b7964c865"
@@ -28048,9 +28596,17 @@
     "text": "De woorden van de laag",
     "source": "f53bac890188"
   },
+  "common.the-line-could-not-be-read": {
+    "text": "De regel kon niet worden voorgelezen: {reason}",
+    "source": "1ef63f69f2ff"
+  },
   "base.forms.the-line-is-deleted-from-table": {
     "text": "De regel wordt verwijderd uit {table} en kan niet worden teruggezet.",
     "source": "9d1b5f1408ba"
+  },
+  "common.the-lines-could-not-be-read": {
+    "text": "De regels konden niet worden voorgelezen: {reason}",
+    "source": "80512771ce16"
   },
   "mail.the-link-could-not-be-opened": {
     "text": "De koppeling kon niet worden geopend: {reason}",
@@ -28083,6 +28639,10 @@
   "sheets.dialogs.the-list-has-a-heading-row": {
     "text": "De lijst heeft een kopregel: die blijft bovenaan en de koppen benoemen de kolommen.",
     "source": "6e64ba31d8bb"
+  },
+  "voices-dialog.the-list-of-voices-and-languages": {
+    "text": "De lijst met stemmen en talen kan niet worden gelezen. Wat hieronder is toegevoegd, werkt nog steeds; probeer het opnieuw als deze computer online is.",
+    "source": "1395fe37df4d"
   },
   "engine.the-list-range-needs-a-header": {
     "text": "Het lijstbereik heeft een koprij nodig en minstens één rij eronder",
@@ -28191,6 +28751,10 @@
     "text": "Het bericht",
     "source": "3f7b4597bf02"
   },
+  "mail.the-message-before": {
+    "text": "Het vorige bericht",
+    "source": "8c3f352f34a9"
+  },
   "mail.safety.the-message-exactly-as-it-came": {
     "text": "Het bericht precies zoals het van de server kwam, {size}.",
     "source": "d6fe543dcfc3"
@@ -28282,6 +28846,10 @@
   "slides.slide-size.the-new-size-is-smaller-one": {
     "text": "Het nieuwe formaat is in één richting kleiner. Maximaliseren houdt de inhoud even groot, dus een deel kan buiten de randen vallen; Passend maken verkleint hem zodat alles op de dia blijft.",
     "source": "484d93d5e8bd"
+  },
+  "mail.the-next-message": {
+    "text": "Het volgende bericht",
+    "source": "698b6714b353"
   },
   "sheets.dialogs.the-note-on-cell": {
     "text": "De notitie op {cell}",
@@ -28594,6 +29162,26 @@
     "text": "De rijen beginnen bij de gekozen cel, {cell}: datums als datum, bedragen als getal.",
     "source": "968e3afd6474"
   },
+  "locker.the-safety-copy-holds-them-as": {
+    "text": "De veiligheidskopie bevat ze zoals ze eerst waren. Toch verwijderen?",
+    "source": "160f184b5815"
+  },
+  "locker.the-safety-copy-is-kept-restore": {
+    "text": "De veiligheidskopie is bewaard. Herstel er een kopie van om deze bestanden terug te krijgen: {files}",
+    "source": "71e4b43c7ac5"
+  },
+  "locker.the-safety-copy-is-removed": {
+    "text": "De veiligheidskopie is verwijderd.",
+    "source": "3dac7e4034fb"
+  },
+  "locker.the-safety-copy-of-name-has": {
+    "text": "De veiligheidskopie van {name} wordt al {n} dagen bewaard. Hij is niet vergrendeld met je wachtwoord voor de Kluis (Locker). Als de map opent zoals je verwacht, vergelijkt de Kluis de map met de kopie en verwijdert daarna de kopie.",
+    "source": "889c6b02d3a9"
+  },
+  "locker.the-safety-copy-of-name-was": {
+    "text": "De veiligheidskopie van {name} is {when} gemaakt. De {n} bestanden ervan worden onvergrendeld weggeschreven in een nieuwe map binnen de map die je kiest. Wat er al staat, blijft ongewijzigd.",
+    "source": "a34f0ed2f93a"
+  },
   "locker.the-same-password-again": {
     "text": "Hetzelfde wachtwoord nogmaals",
     "source": "cfd750367fe1"
@@ -28765,6 +29353,10 @@
     "text": "De vormen van de dia als lagen: selecteren, herschikken, verbergen, naam wijzigen",
     "source": "e96347e19582"
   },
+  "slides.ribbon.the-slide-then-its-notes": {
+    "text": "Dia, daarna de notities",
+    "source": "ae28e25489b7"
+  },
   "pdf.export.the-smaller-pdf-is-saved-as": {
     "text": "De kleinere PDF wordt als nieuw bestand opgeslagen; deze blijft ongewijzigd. Hij is nu {size}.",
     "source": "6442a2655dcc"
@@ -28865,6 +29457,10 @@
     "text": "De titel in het midden, de tekst eronder",
     "source": "036bb5d5a882"
   },
+  "studio.spoken-run.the-title-is-not-on-the": {
+    "text": "De titel staat niet in beeld: geef hem weer en de regels verschijnen erin terwijl ze worden voorgelezen.",
+    "source": "e190969a20ad"
+  },
   "review.the-title-of-slide-number": {
     "text": "De titel van dia {number}:",
     "source": "7f83a0913d67"
@@ -28885,6 +29481,10 @@
     "text": "De twee wachtwoorden zijn niet hetzelfde.",
     "source": "bb612d83804d"
   },
+  "locker.the-unsaved-changes-in-files-are": {
+    "text": "Niet-opgeslagen wijzigingen in {files} gaan voorgoed verloren. Dit is niet terug te draaien.",
+    "source": "90213c3ea342"
+  },
   "slides.export-video.the-video-could-not-be-made": {
     "text": "De video kon niet worden gemaakt: {reason}",
     "source": "a10d92beb052"
@@ -28896,6 +29496,14 @@
   "video.library.the-videos-sound-and-pictures-in": {
     "text": "Video's, geluid en afbeeldingen uit dit project staan hier, om opnieuw toe te voegen.",
     "source": "4075715096b2"
+  },
+  "spoken.voices.the-voice-gave-no-sound-for": {
+    "text": "De stem gaf geen geluid voor deze regel.",
+    "source": "53613e120fbf"
+  },
+  "spoken.voices.the-voice-was-stopped-before-this": {
+    "text": "De stem werd gestopt voordat deze regel gemaakt was.",
+    "source": "72955eafea09"
   },
   "video.export.the-whole-project": {
     "text": "Het hele project",
@@ -29058,6 +29666,14 @@
     "text": "Er zijn geen dia's om naar te zoomen.",
     "source": "f7a8b80bbbe3"
   },
+  "mail.there-are-no-unread-messages-in": {
+    "text": "Er zijn geen ongelezen berichten in de lijst om voor te lezen.",
+    "source": "16ae6324c70a"
+  },
+  "pdf.there-are-no-words-to-read": {
+    "text": "Geen woorden om voor te lezen op deze pagina. Een gescande pagina kan na Tekst herkennen worden voorgelezen.",
+    "source": "e6a37e9e16ec"
+  },
   "mail.there-is-a-folder-called-name": {
     "text": "Er staat hier al een map met de naam {name}.",
     "source": "a6b783d2a832"
@@ -29105,6 +29721,10 @@
   "engine.there-is-no-mail-account-to": {
     "text": "Er is geen e-mailaccount om vanaf te verzenden. Voeg er een toe in E-mail, Accounts.",
     "source": "4ac6eb1ff640"
+  },
+  "mail.there-is-no-message-to-read": {
+    "text": "Er is geen bericht om voor te lezen.",
+    "source": "1688457587f5"
   },
   "sheets.queries.there-is-no-other-table-or": {
     "text": "Er is geen andere tabel of query in deze werkmap om toe te voegen.",
@@ -29178,6 +29798,10 @@
     "text": "Er is geen werkblad met de naam “{name}”",
     "source": "6c1e04a0ddb0"
   },
+  "locker.there-is-not-enough-room-for": {
+    "text": "Te weinig ruimte voor de veiligheidskopie op het station met de map van Office. Maak ruimte of vergrendel zonder.",
+    "source": "2cc98cc7e17b"
+  },
   "studio.window.there-is-not-enough-space-on": {
     "text": "Er is niet genoeg ruimte op de schijf om op te nemen.",
     "source": "31dd575ea898"
@@ -29238,6 +29862,14 @@
     "text": "Deze cellen horen bij een verticale samenvoeging. Door één rij ervan breder te maken, zou het bereik scheuren.",
     "source": "75122648d3df"
   },
+  "voices-dialog.these-come-by-themselves-with-the": {
+    "text": "Deze komen vanzelf mee met de eerste stem die je toevoegt.",
+    "source": "12cf80348807"
+  },
+  "locker.these-files-are-not-locked-the": {
+    "text": "Deze bestanden zijn niet vergrendeld. De veiligheidskopie blijft tot je hem verwijdert.",
+    "source": "f75acf6c6eae"
+  },
   "mail.dialogs.these-settings-came-from-source-on": {
     "text": "Deze instellingen komen uit {source} op deze computer en worden getest als het adres compleet is.",
     "source": "22565709a102"
@@ -29277,6 +29909,10 @@
   "talk.invite.they-see-your-name-and-your": {
     "text": "Ze zien je naam en je bericht, en worden een contactpersoon als ze accepteren. Niemand hoort of een adres een account heeft.",
     "source": "7d8559a730ab"
+  },
+  "voices-dialog.they-take-size-on-this-computer": {
+    "text": "Ze nemen {size} in beslag op deze computer. Bewaar ze als je Rutba Office opnieuw gaat installeren.",
+    "source": "d55522046f72"
   },
   "profiles.they-were-saved-in-another-profile": {
     "text": "Ze zijn in een ander profiel opgeslagen en hierheen gekopieerd, dus ze kunnen in dit profiel niet worden gelezen.",
@@ -29466,9 +30102,23 @@
     "text": "Deze computer heeft geen beveiligde opslag voor opgeslagen wachtwoorden en dit profiel heeft geen wachtwoord, dus konden ze niet veilig worden bewaard.",
     "source": "423cb156a6ae"
   },
+  "voices-dialog.this-computer-is-offline-the-language": {
+    "forms": {
+      "one": "Deze computer is offline: de taal komt erbij zodra hij online is. Of voeg hem toe uit een bestand, in Stemmen en talen.",
+      "other": "Deze computer is offline: de talen komen erbij zodra hij online is. Of voeg er een toe uit een bestand, in Stemmen en talen."
+    },
+    "source": "c87bafdc6eef"
+  },
   "common.this-computer-only": {
     "text": "Alleen deze computer",
     "source": "601b7ae9d3a9"
+  },
+  "voices-dialog.this-computer-uses-languages-add-it": {
+    "forms": {
+      "one": "Deze computer gebruikt {languages}. Voeg de taal toe en kies hem na herstart in het taalmenu.",
+      "other": "Deze computer gebruikt {languages}. Voeg ze toe en kies er na herstart een in het taalmenu."
+    },
+    "source": "ecb007a426ac"
   },
   "common.this-content-control-cannot-be-edited": {
     "text": "Dit inhoudsbesturingselement kan niet worden bewerkt: de inhoud is vergrendeld.",
@@ -29477,6 +30127,10 @@
   "packs-dialog.this-copy-is-installed-for-everyone": {
     "text": "Dit exemplaar is voor iedereen op deze computer geïnstalleerd, dus Windows vraagt bij het herstarten om toestemming.",
     "source": "c2546a3ab80f"
+  },
+  "voices-dialog.this-copy-of-rutba-office-has": {
+    "text": "Deze kopie van Rutba Office heeft geen map voor invoegtoepassingen: stemmen en talen worden aan een geïnstalleerde kopie toegevoegd.",
+    "source": "e81b8c5038b2"
   },
   "base.links.this-database-has-no-tables-this": {
     "text": "Deze database heeft geen tabellen die dit account kan zien.",
@@ -29618,6 +30272,14 @@
     "text": "Dit bestand bevat geen objecten die een PDF-lezer kan vinden.",
     "source": "f617f38c26b0"
   },
+  "voices-dialog.this-file-is-not-an-add": {
+    "text": "Dit bestand is geen invoegtoepassing: het moet één invoegtoepassing en de bijbehorende map bevatten.",
+    "source": "162cbe64b392"
+  },
+  "voices-dialog.this-file-is-not-an-add-2": {
+    "text": "Dit bestand is geen invoegtoepassing: open een .zip uit de invoegtoepassingen van Rutba Office.",
+    "source": "5341e30294dc"
+  },
   "mail.this-file-was-imported-before-into": {
     "text": "Dit bestand is eerder geïmporteerd in hetzelfde postvak: {messages} toegevoegd",
     "source": "ce0670a06a68"
@@ -29653,6 +30315,10 @@
   "locker.this-folder-is-in-cloud-which": {
     "text": "Deze map staat in {cloud}, dat eerdere versies van elk bestand bewaart. Die gewone versies blijven na vergrendelen; wis ze in de versiegeschiedenis van {cloud}.",
     "source": "aa002b0574ae"
+  },
+  "locker.this-folder-is-no-longer-in": {
+    "text": "Deze map staat niet meer in de Kluis (Locker), dus er is niets om de kopie mee te vergelijken. De kopie wordt overschreven en verwijderd. Dit kan niet ongedaan worden gemaakt.",
+    "source": "016e4d7f2c7a"
   },
   "mail.this-folder-search-only-the-folder": {
     "text": "Deze map: alleen de geopende map doorzoeken",
@@ -29780,6 +30446,10 @@
   "calendar.words.this-meeting-is-cancelled-a-calendar": {
     "text": "Deze vergadering is geannuleerd. Een agendaprogramma haalt hem met het bijgevoegde bestand uit de agenda.",
     "source": "6e9c1888a881"
+  },
+  "mail.this-message-could-not-be-opened": {
+    "text": "Dit bericht kon niet worden geopend",
+    "source": "b127fbc71257"
   },
   "mail.this-message-does-not-offer-one": {
     "text": "Dit bericht biedt geen afmelden met één klik.",
@@ -29953,6 +30623,10 @@
     "text": "Hoogte van deze rij (cm, minimaal)",
     "source": "319ca80981b6"
   },
+  "locker.this-safety-copy-cannot-be-opened": {
+    "text": "Deze veiligheidskopie kan niet meer worden geopend.",
+    "source": "ed6f50924749"
+  },
   "studio.prompter.this-scene-has-no-script-write": {
     "text": "Deze scène heeft geen script. Schrijf er een op de kaart en het scrolt hier terwijl je opneemt.",
     "source": "90458537f0d7"
@@ -29997,6 +30671,10 @@
     "text": "Deze slicer kan niet filteren: {reason}.",
     "source": "470dd67603bd"
   },
+  "slides.ribbon.this-slide": {
+    "text": "Deze dia",
+    "source": "fd792ae48d11"
+  },
   "slides.this-slide-has-a-transition": {
     "text": "Deze dia heeft een overgang",
     "source": "8dfb23fea55e"
@@ -30016,6 +30694,10 @@
   "slides.this-slide-has-no-narration-to-2": {
     "text": "Deze dia heeft geen gesproken tekst om af te spelen.",
     "source": "d3b95fdaa7a3"
+  },
+  "slides.this-slide-has-no-notes-to": {
+    "text": "Deze dia heeft geen notities om voor te lezen.",
+    "source": "fbc4abc343b4"
   },
   "slides.this-slide-is-in-no-section": {
     "text": "Deze dia staat in geen sectie.",
@@ -30113,6 +30795,10 @@
     "text": "Dit werkt alleen zolang dit exemplaar van Office op deze computer open is. Zolang het gesloten is, wacht de e-mail in het Postvak IN van de ruimte en wordt die beantwoord zodra Office weer opent.",
     "source": "396d5e19ba5f"
   },
+  "locker.this-works-without-your-password-because": {
+    "text": "Dit werkt zonder je wachtwoord, omdat de veiligheidskopie er niet mee is vergrendeld.",
+    "source": "8c1c3f8ccd58"
+  },
   "mail.this-year": {
     "text": "Dit jaar",
     "source": "98597183c8c6"
@@ -30188,6 +30874,10 @@
   "apps-choice.tick-the-apps-to-install-an": {
     "text": "Vink de te installeren apps aan. Een niet-aangevinkte app staat helemaal niet op deze computer; voeg hem later toe via Apps toevoegen of verwijderen in Rutba Office.",
     "source": "b2f0ee1b966a"
+  },
+  "voices-dialog.tick-the-languages-to-add-they": {
+    "text": "Vink de talen aan die je wilt toevoegen. Ze worden toegevoegd de eerste keer dat Rutba Office start terwijl deze computer online is. Je kunt elke taal later toevoegen of verwijderen in Stemmen en talen.",
+    "source": "78199a576b7f"
   },
   "base.people.ticked-ones-are-shown-any-that": {
     "text": "Aangevinkte worden getoond. Alles op een tabel die de rol niet ziet, valt voor die rol hoe dan ook weg.",
@@ -30752,6 +31442,10 @@
     "text": "Probeer een andere zoekopdracht.",
     "source": "2e6d79de50dc"
   },
+  "voices-dialog.try-again": {
+    "text": "Opnieuw proberen",
+    "source": "d8b8392e2c54"
+  },
   "template-gallery.try-other-words": {
     "text": "Probeer andere woorden.",
     "source": "2a5ed12cfe24"
@@ -30808,9 +31502,17 @@
     "text": "Uitschakelen",
     "source": "06f0e210b27d"
   },
+  "locker.turn-off-touch-id": {
+    "text": "Touch ID uitschakelen",
+    "source": "d94fb9a255da"
+  },
   "locker.turn-off-windows-hello": {
     "text": "Windows Hello uitzetten",
     "source": "52ba933205f0"
+  },
+  "locker.turn-on-touch-id": {
+    "text": "Touch ID inschakelen",
+    "source": "0269040c7172"
   },
   "locker.turn-on-windows-hello": {
     "text": "Windows Hello aanzetten",
@@ -30843,6 +31545,10 @@
   "pictures.turned-and-saved": {
     "text": "Gedraaid en opgeslagen.",
     "source": "0901e7acee0c"
+  },
+  "voices-dialog.turned-off-withdrawn-by-its-makers": {
+    "text": "Uitgeschakeld: ingetrokken door de makers",
+    "source": "14e4c1da3583"
   },
   "colour.names.turquoise": {
     "text": "Turkoois",
@@ -31376,6 +32082,14 @@
     "text": "Formules bijwerken",
     "source": "f703ab807d7f"
   },
+  "voices-dialog.update-anyway": {
+    "text": "Toch bijwerken",
+    "source": "d94343f8f050"
+  },
+  "voices-dialog.update-anyway-2": {
+    "text": "Toch bijwerken…",
+    "source": "04def120ea4d"
+  },
   "slides.update-automatically": {
     "text": "Automatisch bijwerken",
     "source": "9e946306e543"
@@ -31391,6 +32105,10 @@
   "base.update-the-design": {
     "text": "Ontwerp bijwerken",
     "source": "884bcfa32789"
+  },
+  "voices-dialog.update-to-version-anyway": {
+    "text": "Toch bijwerken naar {version}?",
+    "source": "469633528dc3"
   },
   "word.ribbon.update-style-to-match-selection": {
     "text": "{style} bijwerken naar selectie",
@@ -31474,6 +32192,10 @@
   "slides.ribbon.use-timings-slides-with-a-timing": {
     "text": "Tijden gebruiken: dia's met een tijd gaan vanzelf verder; uit gaat de voorstelling alleen verder als jij dat doet",
     "source": "f5f90fd03124"
+  },
+  "locker.use-touch-id": {
+    "text": "Touch ID gebruiken",
+    "source": "8d8ec25a6ea8"
   },
   "locker.use-windows-hello-pin-fingerprint-or": {
     "text": "Windows Hello (pin, vingerafdruk of gezicht)",
@@ -31803,6 +32525,18 @@
     "text": "Stem",
     "source": "87bf2bc08589"
   },
+  "voices-dialog.voices": {
+    "text": "Stemmen",
+    "source": "8ead6df9cd69"
+  },
+  "voices-dialog.voices-and-languages": {
+    "text": "Stemmen en talen",
+    "source": "75f270b3eb94"
+  },
+  "common.voices-and-languages": {
+    "text": "Stemmen en talen…",
+    "source": "14395bf4d3f9"
+  },
   "common.volume": {
     "text": "Volume",
     "source": "b10fb966d720"
@@ -32002,6 +32736,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "Wat de AI-tools met elk mogen doen. Alles staat op Uit totdat je kiest. Dezelfde instellingen staan in AI-tools.",
     "source": "14310670b45f"
+  },
+  "spoken.voices.what-the-lines-do": {
+    "text": "Wat de regels doen",
+    "source": "573064e5a609"
   },
   "word.dialogs.what-the-table-is": {
     "text": "Waar de tabel over gaat",
@@ -32371,6 +33109,10 @@
     "text": "Zonder account in E-mail om vanaf te verzenden, stuurt Rutba je uitnodigingen per e-mail vanaf no-reply@rutba.io.",
     "source": "12232a9ce3d1"
   },
+  "voices-dialog.with-no-network-a-voice-or": {
+    "text": "Zonder netwerk kun je een stem of taal toevoegen vanuit het bestand ervan: een .zip die is gepubliceerd bij de invoegtoepassingen voor Rutba Office, meegenomen van een andere computer. Kies Toevoegen uit bestand.",
+    "source": "83a90cbad906"
+  },
   "base.links.with-no-primary-key-there-they": {
     "text": "Zonder primaire sleutel daar kunnen ze worden gelezen, niet gewijzigd.",
     "source": "040d7d3b40f5"
@@ -32394,6 +33136,10 @@
   "talk.withdraw-the-invitation-to-email": {
     "text": "De uitnodiging aan {email} intrekken",
     "source": "8af78191a599"
+  },
+  "voices-dialog.withdrawn-by-its-makers": {
+    "text": "Ingetrokken door de makers.",
+    "source": "9ff368476fae"
   },
   "sheets.find.within": {
     "text": "Binnen",
@@ -33046,6 +33792,10 @@
     "text": "geaccepteerd",
     "source": "070c160a6299"
   },
+  "voices-dialog.add-on": {
+    "text": "invoegtoepassing",
+    "source": "a33a54a73112"
+  },
   "base.links.added-fields": {
     "text": "toegevoegd: {fields}",
     "source": "30cea32e2a11"
@@ -33284,6 +34034,10 @@
     "text": "ontwikkelversie",
     "source": "030dcbc3b708"
   },
+  "voices-dialog.dictionary": {
+    "text": "woordenboek",
+    "source": "177ca70f42de"
+  },
   "word.mailings.directory": {
     "text": "adreslijst",
     "source": "333178788eae"
@@ -33379,6 +34133,10 @@
   "mail.folder": {
     "text": "map",
     "source": "034a00624882"
+  },
+  "voices-dialog.font": {
+    "text": "lettertype",
+    "source": "795ea3efa43d"
   },
   "word.footnote-n": {
     "text": "voetnoot {n}",
@@ -33558,6 +34316,10 @@
   "common.landscape-2": {
     "text": "liggend",
     "source": "acb955df82b8"
+  },
+  "voices-dialog.language": {
+    "text": "taal",
+    "source": "a4ef304ba42a"
   },
   "mail.last-try-failed-error-trying-again": {
     "text": "laatste poging mislukt ({error}), nieuwe poging",
@@ -33806,6 +34568,10 @@
     "text": "afdrukinstellingen",
     "source": "9198cbaeac3c"
   },
+  "voices-dialog.pronunciation": {
+    "text": "uitspraak",
+    "source": "ce978dc7829d"
+  },
   "common.px": {
     "text": "px",
     "source": "6ee2cc105a67"
@@ -33944,6 +34710,14 @@
   "slides.action.something": {
     "text": "iets",
     "source": "3fc9b689459d"
+  },
+  "voices-dialog.speech-engine": {
+    "text": "spraakengine",
+    "source": "69f0063d7151"
+  },
+  "voices-dialog.speech-model": {
+    "text": "spraakmodel",
+    "source": "14a7ccd64b8c"
   },
   "video.export.square": {
     "text": "vierkant",
@@ -34213,6 +34987,10 @@
     "text": "de video-encoder gaf geen gegevens, dus er is niets opgeslagen. Probeer het opnieuw.",
     "source": "4c38cc475e8b"
   },
+  "common.the-video-encoder-gave-the-sound": {
+    "text": "de video-encoder leverde wel geluid maar geen beeld, dus er is niets opgeslagen. Probeer het opnieuw.",
+    "source": "4a861b2049e1"
+  },
   "video.the-whole-picture-on-black-bars": {
     "text": "het hele beeld, op zwarte balken",
     "source": "415c8c2f50c4"
@@ -34300,6 +35078,10 @@
   "video.videos-sound-and-pictures-one-after": {
     "text": "video's, geluid en afbeeldingen, na elkaar achter de clips op het gekozen spoor",
     "source": "6f8e30fdb3c2"
+  },
+  "voices-dialog.voice": {
+    "text": "stem",
+    "source": "c57d7e920197"
   },
   "contacts.web": {
     "text": "web",
@@ -35830,6 +36612,14 @@
     "text": "{files}, {folders}",
     "source": "91829f4187ac"
   },
+  "locker.file-is-left-plain-and-shows": {
+    "text": "{file} blijft onvergrendeld en wordt getoond als niet vergrendeld.",
+    "source": "ab60c99e1907"
+  },
+  "locker.file-kept-changing-or-was-in": {
+    "text": "{file} bleef veranderen of was in gebruik terwijl de veiligheidskopie werd gemaakt, dus er is niets vergrendeld.",
+    "source": "36607f9c5145"
+  },
   "mail.folder-is-deleted": {
     "text": "{folder} is verwijderd.",
     "source": "20926d429662"
@@ -35953,6 +36743,21 @@
     "text": "{label}: {blurb}; het vervangt het geselecteerde effect",
     "source": "a8e919e7d5f9"
   },
+  "voices-dialog.languages-will-be-added-when-this": {
+    "forms": {
+      "one": "{languages} wordt toegevoegd zodra deze computer online is. Of voeg een taal toe uit een bestand, in Stemmen en talen.",
+      "other": "{languages} worden toegevoegd zodra deze computer online is. Of voeg een taal toe uit een bestand, in Stemmen en talen."
+    },
+    "source": "fa0e4abdce47"
+  },
+  "voices-dialog.language-is-no-longer-built-into": {
+    "text": "{language} is niet meer ingebouwd in Rutba Office. Voeg het taalpakket toe in Stemmen en talen.",
+    "source": "c5cd1a83525c"
+  },
+  "voices-dialog.language-now-comes-as-a-language": {
+    "text": "{language} komt nu als taalpakket en is met deze update toegevoegd.",
+    "source": "97a36bd5a08c"
+  },
   "video.inspector.level-times": {
     "text": "{level} keer",
     "source": "8092db25eeb5"
@@ -35988,6 +36793,10 @@
     "text": "{names} niet geopend: geen video, geluid of afbeelding die dit systeem kan afspelen.",
     "source": "40ec26e4b663"
   },
+  "read-aloud.bar.name-added": {
+    "text": "{name} (toegevoegd)",
+    "source": "5e0a009f158f"
+  },
   "base.links.name-coming": {
     "text": "{name} (komt eraan)",
     "source": "c5bfe2423325"
@@ -35995,6 +36804,10 @@
   "design.name-dark": {
     "text": "{name} (donker)",
     "source": "de9e429833c5"
+  },
+  "common.name-draft": {
+    "text": "{name} (concept)",
+    "source": "5afe5a4a59c2"
   },
   "redact.name-redacted": {
     "text": "{name} (weggelakt)",
@@ -36051,6 +36864,10 @@
     "text": "{name} kon niet worden weergegeven: {reason}",
     "source": "65bcb558f48b"
   },
+  "locker.name-could-not-be-opened-again": {
+    "text": "{name} kon niet opnieuw worden geopend: {why}",
+    "source": "20ca380f0559"
+  },
   "common.name-could-not-be-opened-reason": {
     "text": "{name} kon niet worden geopend: {reason}",
     "source": "dae0790a804d"
@@ -36099,9 +36916,21 @@
     "text": "{name} is al een contactpersoon.",
     "source": "5bf61d9afecd"
   },
+  "locker.name-is-a-kind-of-file": {
+    "text": "{name} is een bestandstype dat van schijf wordt gelezen, dus is het geopend vanuit een tijdelijke kopie, niet in het geheugen. Die kopie is niet vergrendeld.",
+    "source": "8c3ca214b1be"
+  },
+  "locker.name-is-already-open-so-these": {
+    "text": "{name} is al geopend, dus deze niet-opgeslagen wijzigingen openen als {saved}, een nieuw bestand ernaast in dezelfde vergrendelde map.",
+    "source": "f866dc2fc7b7"
+  },
   "talk.name-is-blocked": {
     "text": "{name} is geblokkeerd.",
     "source": "896ccbbaeef1"
+  },
+  "locker.name-is-in-an-older-format": {
+    "text": "{name} heeft een oudere bestandsindeling. Bij opslaan wordt {saved} ernaast gemaakt, in dezelfde vergrendelde map.",
+    "source": "25f899dbe396"
   },
   "locker.name-is-locked-in-folder": {
     "text": "{name} is vergrendeld in {folder}.",
@@ -36110,6 +36939,10 @@
   "talk.name-is-no-longer-a-contact": {
     "text": "{name} is geen contactpersoon meer.",
     "source": "f2f97457bba2"
+  },
+  "locker.name-is-no-longer-in-the": {
+    "text": "{name} staat niet meer in de Kluis (Locker). De kopie staat hier nog.",
+    "source": "4af6541725f0"
   },
   "image.name-is-no-longer-open-so": {
     "text": "{name} is niet meer open; de afbeelding kan er niet terug in. Exporteer hem.",
@@ -36127,6 +36960,10 @@
     "text": "{name} is niet beschikbaar.",
     "source": "aca30d15fc29"
   },
+  "voices-dialog.name-is-not-used-until-its": {
+    "text": "{name} wordt pas gebruikt als de versie voor {version} klaar is.",
+    "source": "2f267730bc10"
+  },
   "common.name-is-not-wired-yet": {
     "text": "{name} is nog niet aangesloten.",
     "source": "88e2be5594ad"
@@ -36142,6 +36979,10 @@
   "mail.name-is-open-where-it-lies": {
     "text": "{name} is geopend waar het staat, alleen-lezen. Indexeren voor zoeken loopt.",
     "source": "749ec97c4e3a"
+  },
+  "locker.name-is-over-1-gb-so": {
+    "text": "{name} is groter dan 1 GB, dus is het geopend vanuit een tijdelijke kopie, niet in het geheugen. Die kopie is niet vergrendeld.",
+    "source": "950f4db86aed"
   },
   "common.name-is-protected-with-a-password": {
     "text": "{name} is beveiligd met een wachtwoord en blijft gesloten tot het wachtwoord is opgegeven.",
@@ -36182,6 +37023,10 @@
     "text": "{name} niet gevonden",
     "source": "11fabb5fa0c9"
   },
+  "locker.name-opened-from-a-temporary-plain": {
+    "text": "{name} is geopend vanuit een tijdelijke kopie, niet in het geheugen. Die kopie is niet vergrendeld.",
+    "source": "01b4847cdddb"
+  },
   "sheets.name-refreshed": {
     "text": "{name} vernieuwd",
     "source": "7b63595ee10b"
@@ -36205,6 +37050,10 @@
   "profiles.name-will-open-without-asking-and": {
     "text": "{name} opent zonder te vragen, en wat het wachtwoord verzegelde, blijft bewaard zoals voorheen, beschermd door Windows voor alleen jouw account.",
     "source": "bccde320f01d"
+  },
+  "voices-dialog.name-will-show-new-labels-in": {
+    "text": "{name} toont nieuwe labels in het Engels tot de versie voor {version} klaar is.",
+    "source": "070ebd66c642"
   },
   "talk.invite.name-would-like-to-talk-with": {
     "text": "{name} wil graag met je praten op Rutba Talk",
@@ -36325,6 +37174,10 @@
     "text": "{name}, pagina {page} van {count}",
     "source": "0f8439d610e0"
   },
+  "locker.name-with-unsaved-changes": {
+    "text": "{name}, met niet-opgeslagen wijzigingen",
+    "source": "d3fccb2b063d"
+  },
   "slides.motion.name-option": {
     "text": "{name}, {option}",
     "source": "769e8e2405cf"
@@ -36434,6 +37287,14 @@
     "text": "{n} bestanden konden niet worden ontgrendeld, dus de map is niet verwijderd.",
     "source": "189a2a0888a7"
   },
+  "locker.n-files-did-not-match-the": {
+    "text": "{n} bestanden kwamen niet overeen met de veiligheidskopie en zijn niet hersteld.",
+    "source": "9ffb4b5699f4"
+  },
+  "locker.n-files-in-this-folder-do": {
+    "text": "{n} bestanden in deze map worden niet ontgrendeld zoals het hoort.",
+    "source": "a0e568b53b1f"
+  },
   "locker.n-files-in-this-folder-have": {
     "text": "{n} bestanden in deze map hebben twee versies. Kies eerst tussen beide. Er is niets gewijzigd.",
     "source": "0054192545bb"
@@ -36441,6 +37302,10 @@
   "locker.n-files-in-name-cannot-be": {
     "text": "{n} bestanden in {name} kunnen niet worden gelezen.",
     "source": "e60e71803e18"
+  },
+  "locker.n-files-restored-to-dest": {
+    "text": "{n} bestanden hersteld naar {dest}.",
+    "source": "0fe8b13fee6a"
   },
   "studio.setups-menu.n-files-all-in-the-setup": {
     "text": "{n} bestanden, alle in de opstelling",
@@ -36513,6 +37378,10 @@
   "mail.path-is-no-longer-there": {
     "text": "{path} is er niet meer",
     "source": "592e65bab5c5"
+  },
+  "voices-dialog.pct-translated-for-this-version": {
+    "text": "{pct}% vertaald voor deze versie",
+    "source": "692d9bafb1dc"
   },
   "sheets.ribbon.pen-click-again-for-its-colour": {
     "text": "{pen}: klik nog eens voor kleur en dikte",

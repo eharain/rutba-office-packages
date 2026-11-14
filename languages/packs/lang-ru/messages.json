@@ -632,6 +632,22 @@
     "text": "Условному столбцу нужно правило",
     "source": "aed8bfd618e7"
   },
+  "locker.a-copy-of-these-files-as": {
+    "text": "Копия этих файлов в их текущем виде, хранящаяся в собственной папке Office на этом Mac, чтобы ничего не потерялось, пока вы осваиваете «Сейф» (Locker). Она не защищена вашим паролем «Сейфа»: любой, кто входит в эту учетную запись Mac, может ее восстановить.",
+    "source": "6e2bd717daa8"
+  },
+  "locker.a-copy-of-these-files-as-2": {
+    "text": "Копия этих файлов в их текущем виде, хранящаяся в собственной папке Office на этом компьютере, чтобы ничего не потерялось, пока вы осваиваете «Сейф» (Locker). Она не защищена вашим паролем «Сейфа»: любой, кто может открыть этот профиль Office, может ее восстановить.",
+    "source": "2094b4f4f038"
+  },
+  "locker.a-copy-of-these-files-as-3": {
+    "text": "Копия этих файлов в их текущем виде, хранящаяся в собственной папке Office на этом компьютере, чтобы ничего не потерялось, пока вы осваиваете «Сейф» (Locker). Она не защищена вашим паролем «Сейфа»: любой, кто входит в эту учетную запись Windows, может ее восстановить.",
+    "source": "9ee82c902b7b"
+  },
+  "locker.a-copy-of-these-files-as-4": {
+    "text": "Копия этих файлов в их текущем виде, хранящаяся в собственной папке Office на этом компьютере, чтобы ничего не потерялось, пока вы осваиваете «Сейф» (Locker). Она не защищена вашим паролем «Сейфа»: любой, кто входит в эту учетную запись пользователя, может ее восстановить.",
+    "source": "2f36db57f352"
+  },
   "template-gallery.a-course-session-objectives-the-agenda": {
     "text": "Занятие курса: цели, план, уроки, быстрая проверка и итоги",
     "source": "70cd3e33cd84"
@@ -953,6 +969,10 @@
     },
     "source": "50e0f90aa379"
   },
+  "voices-dialog.a-newer-revision-is-ready": {
+    "text": "Готова более новая редакция",
+    "source": "6c0971aff110"
+  },
   "template-gallery.a-newsletter-with-a-masthead-two": {
     "text": "Бюллетень с шапкой, двумя колонками статей и панелью дат",
     "source": "d481579262f8"
@@ -1150,6 +1170,18 @@
     "text": "Текущий остаток по полю",
     "source": "f223d22c6094"
   },
+  "locker.a-safety-copy-of-this-folder": {
+    "text": "Страховочная копия этой папки хранится",
+    "source": "bde8bd957ac6"
+  },
+  "locker.a-safety-copy-of-this-folder-2": {
+    "text": "Перед блокировкой первых файлов создается страховочная копия этой папки.",
+    "source": "e7490abc7847"
+  },
+  "locker.a-safety-copy-of-your-files": {
+    "text": "Страховочная копия ваших файлов хранится на этом компьютере.",
+    "source": "812ca6b18f66"
+  },
   "engine.a-scatter-chart-here-plots-up": {
     "text": "Точечная диаграмма здесь строит до трех рядов. Выделите блок из столбца X и до трех столбцов Y.",
     "source": "1161906fee38"
@@ -1233,6 +1265,10 @@
   "word.references.a-source-is-already-tagged-tag": {
     "text": "Источник с тегом {tag} уже есть.",
     "source": "70fd6a155c46"
+  },
+  "video.timeline.a-spoken-line": {
+    "text": "Озвученная строка",
+    "source": "29b4895d436f"
   },
   "video.inspector.a-still-lasts": {
     "text": "Длительность стоп-кадра",
@@ -1338,6 +1374,10 @@
   "studio.window.a-window": {
     "text": "Окно",
     "source": "9b1f7eb460ff"
+  },
+  "voices-dialog.a-window-is-open-in-this": {
+    "text": "Окно открыто на этом языке. Закройте его или откройте окна на другом языке, прежде чем удалять этот язык.",
+    "source": "3ae5879eef89"
   },
   "studio.sources-column.a-window-not-chosen-yet": {
     "text": "Окно, еще не выбранное",
@@ -1883,6 +1923,14 @@
     "text": "Добавить итог",
     "source": "c78ecc1fa62c"
   },
+  "spoken.voices.add-a-voice-to-have-these": {
+    "text": "Добавьте голос, чтобы эти строки читались вслух",
+    "source": "b2afe4eb368b"
+  },
+  "read-aloud.voice-offer.add-a-voice-more-natural-voices": {
+    "text": "Добавьте голос: более естественные голоса для «Прочесть вслух» в разделе «Голоса и языки»",
+    "source": "bfbf7111b5c5"
+  },
   "studio.flip-strip.add-a-web-page": {
     "text": "Добавить веб-страницу",
     "source": "301fb6179868"
@@ -1950,6 +1998,14 @@
   "locker.add-folder": {
     "text": "Добавить папку…",
     "source": "fb227b5ff513"
+  },
+  "voices-dialog.add-from-a-file": {
+    "text": "Добавить из файла",
+    "source": "68655ccf7b75"
+  },
+  "voices-dialog.add-from-a-file-2": {
+    "text": "Добавить из файла…",
+    "source": "ca82b661b3c0"
   },
   "packs-dialog.add-it-with-add-or-remove": {
     "text": "Добавьте его в «Добавить или удалить приложения»; работает после перезапуска.",
@@ -2071,6 +2127,10 @@
     "text": "Добавьте видео, звук и рисунки или перетащите их в это окно. Они ложатся на временную шкалу друг за другом.",
     "source": "79fc33dd6094"
   },
+  "voices-dialog.add-when-online": {
+    "text": "Добавить при подключении",
+    "source": "971ac51b33f5"
+  },
   "mail.accounts-bulk.add-count-account": {
     "forms": {
       "few": "Внести {count} записи",
@@ -2093,6 +2153,10 @@
     "text": "Добавить: внести слово в словарь",
     "source": "f696718081b5"
   },
+  "voices-dialog.add-on-files": {
+    "text": "Файлы надстроек",
+    "source": "4d65ebdbe444"
+  },
   "apps-choice.add-ons": {
     "text": "Надстройки",
     "source": "ccfc53fcbd49"
@@ -2104,6 +2168,14 @@
   "common.added": {
     "text": "Добавлено",
     "source": "6b02e0d363a4"
+  },
+  "voices-dialog.added-here": {
+    "text": "Добавлено здесь",
+    "source": "9851c5fac6c6"
+  },
+  "voices-dialog.added-here-not-on-the-list": {
+    "text": "Добавлено здесь, нет в списке для этой версии",
+    "source": "fdd61e2094ac"
   },
   "mail.dialogs.added-to-the-end-of-new": {
     "text": "Добавляется в конец новых сообщений и над цитатой при ответе или пересылке",
@@ -2130,9 +2202,29 @@
     },
     "source": "93ca61fcc584"
   },
+  "voices-dialog.added-but-not-used": {
+    "text": "Добавлено, но не используется",
+    "source": "1aa13e5c4cd6"
+  },
+  "voices-dialog.added-waiting-for-what-it-needs": {
+    "text": "Добавлено, ожидает нужных компонентов",
+    "source": "41a27014ef99"
+  },
   "packs-dialog.added-here-from-the-next-start": {
     "text": "Добавлено: появится здесь после перезапуска",
     "source": "81c2b338bb02"
+  },
+  "voices-dialog.added-moved-in-at-restart": {
+    "text": "Добавлено: будет установлено при перезапуске",
+    "source": "23bb225cbdb4"
+  },
+  "voices-dialog.added-not-ready-in-time-at": {
+    "text": "Добавлено: не успело подготовиться к этому запуску",
+    "source": "6d386eb3b0d7"
+  },
+  "voices-dialog.added-used-from-the-next-start": {
+    "text": "Добавлено: используется со следующего запуска",
+    "source": "e0e14a83e684"
   },
   "mail.accounts-bulk.added-provider": {
     "text": "Добавлено: {provider}",
@@ -2531,6 +2623,10 @@
     "text": "Все файлы",
     "source": "866956901fd1"
   },
+  "locker.all-good-remove-the-safety-copy": {
+    "text": "Все в порядке, удалить страховочную копию…",
+    "source": "018e0096608e"
+  },
   "inspect.all-items-were-removed": {
     "text": "Все элементы удалены.",
     "source": "fc6c610af91d"
@@ -2764,6 +2860,10 @@
     "text": "Действие ведет на веб-адрес (http:// или https://) или адрес электронной почты (mailto:).",
     "source": "192eebf7ad62"
   },
+  "voices-dialog.an-added-voice-or-language-is": {
+    "text": "Добавленный голос или язык используется со следующего запуска. При удалении ваши документы и параметры сохраняются.",
+    "source": "a5c16bfef61e"
+  },
   "sheets.dialogs.an-address-such-as-rutba-io": {
     "text": "Адрес, например rutba.io или hello@rutba.io, или место в этой книге, например C12, Sheet2!B4 или имя.",
     "source": "257b9cd3f57d"
@@ -2923,6 +3023,22 @@
   "base.sources.another-data-files-database": {
     "text": "Другая база Data Files",
     "source": "a3cc390853c1"
+  },
+  "locker.another-office-profile-on-this-mac": {
+    "text": "Ее также может открыть другой профиль Office в этой учетной записи Mac. Чтобы это предотвратить, задайте пароль для этого профиля.",
+    "source": "dd51602f9f1c"
+  },
+  "locker.another-office-profile-on-this-windows": {
+    "text": "Ее также может открыть другой профиль Office в этой учетной записи Windows. Чтобы это предотвратить, задайте пароль для этого профиля.",
+    "source": "e7908aa680a5"
+  },
+  "locker.another-office-profile-on-this-user": {
+    "text": "Ее также может открыть другой профиль Office в этой учетной записи пользователя. Чтобы это предотвратить, задайте пароль для этого профиля.",
+    "source": "5e249dc1af3c"
+  },
+  "voices-dialog.another-rutba-office-is-changing-the": {
+    "text": "Другая копия Rutba Office сейчас изменяет голоса и языки. Повторите попытку чуть позже.",
+    "source": "8b3c41c56b48"
   },
   "talk.address.another-address-of-yours": {
     "text": "Другой ваш адрес",
@@ -3659,6 +3775,10 @@
   "video.back-a-second": {
     "text": "Назад на секунду",
     "source": "6edb45cb368b"
+  },
+  "read-aloud.bar.back-a-sentence": {
+    "text": "Предложение назад",
+    "source": "4505738dcaa5"
   },
   "studio.back-soon": {
     "text": "Скоро вернется",
@@ -4514,6 +4634,10 @@
     "text": "Камера {n}",
     "source": "76ef0b65d44f"
   },
+  "voices-dialog.can-be-added-when-this-computer": {
+    "text": "Можно добавить, когда компьютер будет в сети",
+    "source": "030abf4e9f18"
+  },
   "common.can-down": {
     "text": "Банка: вниз",
     "source": "4bbecf421c24"
@@ -4830,6 +4954,10 @@
     "text": "Изменено",
     "source": "2a6141e43be0"
   },
+  "locker.changed-since-the-copy-was-made": {
+    "text": "Изменено после создания копии: {files}",
+    "source": "876fd443e1df"
+  },
   "review.changed-count-time": {
     "forms": {
       "few": "Изменено {count} раза.",
@@ -4967,6 +5095,10 @@
     "text": "Проверить снова: прочитать документ заново",
     "source": "dbd3a19ef2f5"
   },
+  "locker.check-and-remove": {
+    "text": "Проверить и удалить",
+    "source": "f27f294e584c"
+  },
   "calendar.check-availability": {
     "text": "Проверить занятость",
     "source": "2071664a583f"
@@ -5052,6 +5184,10 @@
   "ui.proofing.checking-in-language": {
     "text": "Проверка на языке: {language}",
     "source": "35352cdad1d4"
+  },
+  "locker.checking-the-folder-against-its-safety": {
+    "text": "Проверка папки по страховочной копии…",
+    "source": "d0208c82b534"
   },
   "mail.rules.checking-this-folder": {
     "text": "Проверка этой папки…",
@@ -5140,6 +5276,10 @@
   "mail.archive.choose-a-folder": {
     "text": "Выберите папку",
     "source": "5c71b8cd7822"
+  },
+  "locker.choose-a-folder-and-restore": {
+    "text": "Выбрать папку и восстановить…",
+    "source": "ab7346bbfb2a"
   },
   "pdf.choose-a-folder-for-the-files": {
     "text": "Выбрать папку для файлов",
@@ -5284,6 +5424,10 @@
   "studio.sources-column.choose-what-to-show": {
     "text": "Выбрать, что показывать",
     "source": "baee168f9101"
+  },
+  "locker.choose-where-to-restore-the-files": {
+    "text": "Выбрать, куда восстановить файлы",
+    "source": "6de9b186eb7a"
   },
   "mail.choose-which-account-to-send-from": {
     "text": "Выберите учетную запись для отправки.",
@@ -6474,6 +6618,10 @@
   "slides.costs": {
     "text": "Затраты",
     "source": "b88fc5fc4765"
+  },
+  "voices-dialog.could-not-be-added": {
+    "text": "Не удалось добавить",
+    "source": "1bf82610aa3d"
   },
   "mail.accounts-bulk.could-not-be-set-up": {
     "text": "Не удалось настроить",
@@ -8078,6 +8226,10 @@
     "text": "Черновик, На проверке, Утверждено",
     "source": "52ebfbb3ae76"
   },
+  "voices-dialog.draft-not-yet-reviewed": {
+    "text": "Черновик, еще не проверен",
+    "source": "887d99cb2ec9"
+  },
   "mail.drafts": {
     "text": "Черновики",
     "source": "f592e6a4db3c"
@@ -8357,6 +8509,18 @@
   "sheets.words.each-line-is-a-paragraph-of": {
     "text": "Каждая строка становится отдельным абзацем. Ctrl+Enter вставляет текст.",
     "source": "ba23d84777b1"
+  },
+  "video.spoken.each-line-made-again-from-its": {
+    "text": "Каждая строка создается заново из ее текста с этим голосом и этой скоростью",
+    "source": "19a9307c0464"
+  },
+  "studio.spoken-run.each-line-read-aloud-in-turn": {
+    "text": "Строки читаются вслух по очереди и показываются в титре, пока звучит их голос",
+    "source": "82ccf6599ff7"
+  },
+  "video.spoken.each-line-read-aloud-its-words": {
+    "text": "Строки читаются вслух одна за другой, текст каждой показывается, пока звучит ее голос",
+    "source": "282adc866b4a"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "У каждой учетной записи почты, календаря, адресной книги, базы данных и папки свой параметр, который показан и в ее приложении; он есть и у «Средства записи» (Recorder). Все выключено, пока вы не выберете. Ничего никогда не удаляется и не перемещается, а все отправляемое сначала ждет, пока вы нажмете кнопку здесь.",
@@ -9129,6 +9293,10 @@
   "locker.every-file-in-this-folder-is": {
     "text": "Все файлы этой папки блокируются на месте. Файлы, добавленные позже, не блокируются, пока вы их не заблокируете.",
     "source": "bf46961f6e33"
+  },
+  "locker.every-file-matched-the-safety-copy": {
+    "text": "Все файлы совпали. Страховочная копия удалена.",
+    "source": "641b821fb375"
   },
   "mail.every-message-waits-this-long-before": {
     "text": "Каждое сообщение ждет столько времени перед отправкой, и до этого его можно отозвать.",
@@ -10336,6 +10504,10 @@
     "text": "Шрифты",
     "source": "3680fcad01f4"
   },
+  "voices-dialog.fonts-and-dictionaries": {
+    "text": "Шрифты и словари",
+    "source": "e7aff9e0d28b"
+  },
   "sheets.ribbon.fonts-the-heading-and-body-faces": {
     "text": "Шрифты: заголовков и основного текста; сейчас {major} и {minor}",
     "source": "8048e40f3f6f"
@@ -10583,6 +10755,10 @@
   "video.forward-a-second": {
     "text": "Вперед на секунду",
     "source": "8c492f4ddac3"
+  },
+  "read-aloud.bar.forward-a-sentence": {
+    "text": "Предложение вперед",
+    "source": "b7b09fb5bf3f"
   },
   "studio.setups-menu.found": {
     "text": "Найдено",
@@ -10843,6 +11019,10 @@
   "calendar.from-address": {
     "text": "От {address}",
     "source": "6d066bb09cc4"
+  },
+  "mail.read-aloud.from-name": {
+    "text": "Отправитель: {name}",
+    "source": "2f4ab5d74ae4"
   },
   "contacts.from-name-not-yet-in-your": {
     "text": "От: {name}, пока нет в контактах.",
@@ -13211,9 +13391,17 @@
     "text": "Файл станет обычным файлом в том же месте, а сохраненные «Сейфом» (Locker) ранее версии будут удалены. Вы можете снова заблокировать его в любое время.",
     "source": "edc5654cc244"
   },
+  "locker.it-cannot-be-checked-or-restored": {
+    "text": "Ее нельзя проверить или восстановить. Удалить ее?",
+    "source": "e9d50f1e317d"
+  },
   "mail.it-goes-to": {
     "text": "Попадет в:",
     "source": "f7cf347abe06"
+  },
+  "locker.it-has-been-kept-for-n": {
+    "text": "Копия хранится уже {n} дн. Удалите ее, когда убедитесь, что папка открывается как надо.",
+    "source": "e9de9f7945ab"
   },
   "calendar.words.it-has-no-free-time-left": {
     "text": "В этот день свободного времени больше нет.",
@@ -13227,6 +13415,30 @@
     "text": "Она не в ваших папках: это может быть чужой файл или системный файл компьютера. Прочитанное попадает в эту базу данных и передается вместе с ней, если ее отправят дальше.",
     "source": "852e5b1f2f73"
   },
+  "locker.it-is-not-locked-with-your": {
+    "text": "Она не защищена вашим паролем «Сейфа» (Locker): любой, кто может открыть этот профиль Office, может ее восстановить. Если диск окажется в чужих руках, ее защитят пароль Mac и пароль этого профиля. Удалите ее, когда папка будет открываться так, как вы ожидаете.",
+    "source": "49ed3008b51b"
+  },
+  "locker.it-is-not-locked-with-your-2": {
+    "text": "Она не защищена вашим паролем «Сейфа» (Locker): любой, кто может открыть этот профиль Office, может ее восстановить. Если диск окажется в чужих руках, ее защитят пароль Windows и пароль этого профиля. Удалите ее, когда папка будет открываться так, как вы ожидаете.",
+    "source": "42aaf12f0836"
+  },
+  "locker.it-is-not-locked-with-your-3": {
+    "text": "Она не защищена вашим паролем «Сейфа» (Locker): любой, кто может открыть этот профиль Office, может ее восстановить. Если диск окажется в чужих руках, ее защитят пароль хранилища ключей и пароль этого профиля. Удалите ее, когда папка будет открываться так, как вы ожидаете.",
+    "source": "a1d96fbb286c"
+  },
+  "locker.it-is-not-locked-with-your-4": {
+    "text": "Она не защищена вашим паролем «Сейфа» (Locker): любой, кто входит в эту учетную запись Mac, может ее восстановить. Если диск окажется в чужих руках, ее защитит пароль Mac через связку ключей. Удалите ее, когда папка будет открываться так, как вы ожидаете.",
+    "source": "3479d47ec7b8"
+  },
+  "locker.it-is-not-locked-with-your-5": {
+    "text": "Она не защищена вашим паролем «Сейфа» (Locker): любой, кто входит в эту учетную запись Windows, может ее восстановить. Если диск окажется в чужих руках, ее защитит пароль Windows. Удалите ее, когда папка будет открываться так, как вы ожидаете.",
+    "source": "94813052ad1f"
+  },
+  "locker.it-is-not-locked-with-your-6": {
+    "text": "Она не защищена вашим паролем «Сейфа» (Locker): любой, кто входит в эту учетную запись пользователя, может ее восстановить. Если диск окажется в чужих руках, ее защитит пароль хранилища ключей. На большинстве компьютеров это пароль, с которым вы входите в систему. Если у хранилища ключей нет пароля, ее ничто не защищает. Удалите ее, когда папка будет открываться так, как вы ожидаете.",
+    "source": "179e9ee04965"
+  },
   "studio.sources-column.it-is-on-air": {
     "text": "В эфире",
     "source": "668b7b14f675"
@@ -13238,6 +13450,10 @@
   "mail.smime.it-is-shown-as-plain-text": {
     "text": "Показано как простой текст без ссылок и рисунков: зашифрованное сообщение без подписи доверенного лица могли изменить по пути, чтобы отправить его текст куда-то еще.",
     "source": "a923da16888c"
+  },
+  "locker.it-needs-about-size-and-free": {
+    "text": "Для нее нужно около {size}, а свободно {free}.",
+    "source": "4b6dd24db2d1"
   },
   "base.people.it-starts-reading-every-table-choose": {
     "text": "Сначала роль может читать все таблицы; выберите, что ей можно делать с каждой.",
@@ -13295,6 +13511,10 @@
   "mail.accounts-bulk.its-mail-servers-are-not-at": {
     "text": "Почтовые серверы не в домене {domain}: {hosts}. Пароль передается им только с вашего согласия.",
     "source": "3fde2d743d72"
+  },
+  "slides.ribbon.its-notes": {
+    "text": "Его заметки",
+    "source": "a316f96e4b04"
   },
   "mail.smime.its-password": {
     "text": "Его пароль",
@@ -13448,6 +13668,10 @@
   "base.links.keep-a-copy-in-this-file": {
     "text": "Хранить копию в этом файле",
     "source": "fe129705434e"
+  },
+  "locker.keep-a-safety-copy-until-i": {
+    "text": "Хранить страховочную копию до моего подтверждения",
+    "source": "ce86e4bea08e"
   },
   "ui.proofing.keep-accessibility-checker-running-while-i": {
     "text": "Продолжать проверку во время работы",
@@ -14006,6 +14230,14 @@
     "text": "Выйти из показа",
     "source": "fdc22af2a38d"
   },
+  "locker.leave-them-closed": {
+    "text": "Оставить закрытыми",
+    "source": "e4aee34bbd47"
+  },
+  "locker.leave-them-closed-2": {
+    "text": "Оставить закрытыми?",
+    "source": "d56f15ff14e6"
+  },
   "locker.leave-them-unlocked-suggested": {
     "text": "Не блокировать (рекомендуется)",
     "source": "0afd256556ff"
@@ -14403,6 +14635,10 @@
     "text": "Строки задают, что блокировать; строка, начинающаяся с !, задает исключение. Если строк нет, блокируются все файлы.",
     "source": "97f258a60d21"
   },
+  "studio.spoken-run.lines-to-read": {
+    "text": "Строки для чтения",
+    "source": "29f993ec4aae"
+  },
   "common.link": {
     "text": "Ссылка",
     "source": "a6a32dbc5618"
@@ -14619,6 +14855,10 @@
     "text": "Заблокировать слой",
     "source": "7dbd5ea70c86"
   },
+  "locker.lock-the-rest-leave-this-one": {
+    "text": "Заблокировать остальные, а этот оставить как есть",
+    "source": "63dac83b4051"
+  },
   "locker.lock-them-again": {
     "text": "Снова заблокировать их",
     "source": "902997963217"
@@ -14630,6 +14870,10 @@
   "video.timeline.lock-this-track": {
     "text": "Заблокировать дорожку",
     "source": "383db16dbbe6"
+  },
+  "locker.lock-without-a-safety-copy": {
+    "text": "Заблокировать без страховочной копии",
+    "source": "e0af1dba19b1"
   },
   "locker.lock-n-here": {
     "text": "Заблокировать: {n}",
@@ -14875,6 +15119,10 @@
     "text": "Создано в старой версии PowerPoint: его можно прочитать и удалить, но не ответить на него.",
     "source": "149c944bbf20"
   },
+  "locker.made-when-of-n-files-size": {
+    "text": "Создана: {when}. Файлов: {n} ({size}), в том виде, в каком они были до блокировки.",
+    "source": "cc7c3e840df2"
+  },
   "image.tools.magic-wand": {
     "text": "Волшебная палочка",
     "source": "4f4839aa83e6"
@@ -15047,9 +15295,17 @@
     "text": "Создание сейфа",
     "source": "5928f42234d2"
   },
+  "studio.spoken-run.making-line-n-of-count": {
+    "text": "Создание строки {n} из {count}…",
+    "source": "26fa6bf092a6"
+  },
   "pdf.making-the-file-smaller": {
     "text": "Уменьшение размера файла…",
     "source": "01e0d2e35672"
+  },
+  "locker.making-the-safety-copy-then-locking": {
+    "text": "Создание страховочной копии, затем блокировка…",
+    "source": "17b3586a056e"
   },
   "slides.export-video.making-the-video-slide-at-of": {
     "text": "Создание видео: слайд {at} из {of}. Презентация проигрывается полностью, поэтому это займет столько же времени, сколько показ.",
@@ -15628,6 +15884,10 @@
     "text": "Сообщение при выборе ячейки",
     "source": "bb3d160623af"
   },
+  "mail.message-n-of-count": {
+    "text": "Сообщение {n} из {count}",
+    "source": "496bec00a82a"
+  },
   "mail.archive.message-id": {
     "text": "Message-ID",
     "source": "06a95f89cb88"
@@ -15651,6 +15911,10 @@
   "registry.messages-and-calls-with-your-contacts": {
     "text": "Сообщения и звонки с вашими контактами",
     "source": "0f1f0c41222b"
+  },
+  "mail.messages-being-read": {
+    "text": "Читаемые сообщения",
+    "source": "aa86112f1d32"
   },
   "mail.messages-now-send-immediately": {
     "text": "Теперь сообщения отправляются сразу",
@@ -16345,6 +16609,10 @@
   "locker.needs-you": {
     "text": "Требует внимания",
     "source": "74b6abdf5969"
+  },
+  "spoken.voices.neither-is-on-the-lines-keep": {
+    "text": "Ни один из параметров не включен: строки сохраняют свое время, но ничего не видно и не слышно.",
+    "source": "e83016a7cfaf"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "Никто из вас не сможет писать или звонить другому, пока вы снова не станете контактами. Ваши сообщения здесь удалены.",
@@ -17146,6 +17414,10 @@
     "text": "Без ограничений",
     "source": "f7fcff0d8fea"
   },
+  "spoken.voices.no-lines-yet-each-line-of": {
+    "text": "Строк пока нет: каждая строка текста читается по очереди.",
+    "source": "6c66185b20fc"
+  },
   "talk.invite.no-links-yet": {
     "text": "Ссылок пока нет.",
     "source": "8bfd6e671367"
@@ -17430,6 +17702,10 @@
     "text": "Представлений пока нет. «Добавить…» сохранит текущий вид книги.",
     "source": "233d8dca900a"
   },
+  "common.no-voice-has-been-added": {
+    "text": "Голос не добавлен.",
+    "source": "c163f326bf4d"
+  },
   "shell.no-window-of-this-app-is": {
     "text": "Нет скрытых окон этого приложения.",
     "source": "b5a7641a8630"
@@ -17558,6 +17834,10 @@
     "text": "Обычный: лист в виде сетки",
     "source": "7d6eedd7f7a3"
   },
+  "voices-dialog.not-added": {
+    "text": "Не добавлено",
+    "source": "2460c620beba"
+  },
   "sheets.dialogs.not-an-address-and-not-a": {
     "text": "Это не адрес и не место, известное этой книге.",
     "source": "7f162b5c3025"
@@ -17618,6 +17898,10 @@
     "text": "Не все приглашения ушли по почте. Приглашенные всё равно могут принять их в «Разговорах» (Talk), а вы можете отправить им ссылку другим способом из списка приглашенных.",
     "source": "4336568dd105"
   },
+  "locker.not-everything-matches-the-safety-copy": {
+    "text": "Не все совпадает со страховочной копией.",
+    "source": "0511c2c86d34"
+  },
   "studio.not-found": {
     "text": "Не найдено",
     "source": "e3ebaa16dd9d"
@@ -17650,6 +17934,10 @@
     "text": "Не заблокирован",
     "source": "0e9f70fca7bf"
   },
+  "locker.not-locked-in-this-folder-files": {
+    "text": "Не заблокированы в этой папке: {files}",
+    "source": "da7fd13c706e"
+  },
   "common.not-now": {
     "text": "Не сейчас",
     "source": "a0e63d7c7125"
@@ -17670,6 +17958,10 @@
   "base.links.not-read-source-waits-for-you-2": {
     "text": "Не прочитано: {source} ждет, пока вы разрешите источники этой базы данных на этом компьютере. Копия здесь от {time}.",
     "source": "b6dbe9bb7b1b"
+  },
+  "voices-dialog.not-ready-for-this-version-yet": {
+    "text": "Еще не готово для этой версии",
+    "source": "02f5f74fdc12"
   },
   "common.not-recorded-yet": {
     "text": "Еще не записано",
@@ -17851,6 +18143,10 @@
     "text": "Пока ничего не отмечено.",
     "source": "5c3dd15a98d2"
   },
+  "voices-dialog.nothing-is-removed-each-comes-back": {
+    "text": "Ничего не удаляется. Каждый компонент вернется сам, как только будет готова его версия для {version}.",
+    "source": "48739878031b"
+  },
   "mail.dialogs.nothing-is-sent-anywhere-the-import": {
     "text": "Ничего никуда не отправляется. Импорт читает файл и записывает данные только на этот компьютер.",
     "source": "911c731459ea"
@@ -17918,6 +18214,10 @@
   "word.nothing-to-read-from-here": {
     "text": "Отсюда нечего читать.",
     "source": "3ccd7688183d"
+  },
+  "slides.nothing-to-read-on-this-slide": {
+    "text": "На этом слайде нечего читать.",
+    "source": "44401bddb9d8"
   },
   "word.mailings.nothing-to-show-for-this-record": {
     "text": "Для этой записи нечего показать.",
@@ -18087,9 +18387,21 @@
     "text": "Документы Office",
     "source": "dc7d0a6b33ff"
   },
+  "locker.offices-profile-is-on-a-drive": {
+    "text": "Профиль Office находится на диске с файловой системой exFAT или FAT, которая не хранит разрешения. Если файл открывается из временной незаблокированной копии («Сейф» (Locker) сообщает об этом), копия лежит там, пока файл открыт, и ее может прочитать любой, у кого есть этот диск. Заблокированные файлы остаются заблокированными.",
+    "source": "7b0eaf19f91c"
+  },
+  "locker.offices-profile-is-on-a-network": {
+    "text": "Профиль Office находится в сетевой папке. Если файл открывается из временной незаблокированной копии («Сейф» (Locker) сообщает об этом), копия лежит там, пока файл открыт, и кто может ее прочитать, определяют разрешения сервера, а не Windows. Заблокированные файлы остаются заблокированными.",
+    "source": "8540bcff8ead"
+  },
   "talk.offline": {
     "text": "Не в сети",
     "source": "a1794783aab7"
+  },
+  "voices-dialog.offline-this-is-the-list-that": {
+    "text": "Нет сети: это список, поставляемый с этой версией.",
+    "source": "29f1cab6ba4d"
   },
   "mail.archive.older-or-newer-than-so-many": {
     "text": "Старше или новее заданного числа дней (d), недель (w), месяцев (m) или лет (y)",
@@ -18179,6 +18491,10 @@
     "text": "На временной шкале",
     "source": "f62c6abeb937"
   },
+  "locker.on-this-mac-only-touch-id": {
+    "text": "Только на этом Mac. Сначала запрашивается Touch ID, а защищенный им ключ хранится в связке ключей Mac. Главным остается пароль.",
+    "source": "3633db8bfba6"
+  },
   "ai-tools.on-this-computer": {
     "text": "На этом компьютере",
     "source": "e6af7ee2bde2"
@@ -18238,6 +18554,10 @@
   "word.one-flow-on-screen-for-a": {
     "text": "На экране один поток для обычного курсора; при печати и в PDF текст действительно делится на колонки",
     "source": "33bd0e1b78c3"
+  },
+  "studio.spoken-run.one-line-each-each-is-read": {
+    "text": "По фразе на строку: читаются вслух по очереди",
+    "source": "f1c64f2624f8"
   },
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "Каждая строка отдельно. Табуляция ведет к центру, вторая к правому краю.",
@@ -19900,6 +20220,10 @@
     "text": "Воспроизводить звук клипов в показе",
     "source": "97953b6cbcb8"
   },
+  "mail.play-all": {
+    "text": "Воспроизвести все",
+    "source": "12e7b8220dc7"
+  },
   "pictures.play-automatically": {
     "text": "Автоматический показ",
     "source": "210dd780da5e"
@@ -19912,9 +20236,21 @@
     "text": "Воспроизвести вперед",
     "source": "18d1c1674140"
   },
+  "spoken.voices.play-the-voice": {
+    "text": "Воспроизводить голос",
+    "source": "df7413e04bae"
+  },
+  "spoken.voices.play-the-voice-of-this-line": {
+    "text": "Воспроизвести голос этой строки",
+    "source": "8e0d9567a55d"
+  },
   "video.timeline.play-this-track-alone-solo-the": {
     "text": "Только эта дорожка (соло): другие дорожки того же типа исключены, пока режим не выключен",
     "source": "734250a377a1"
+  },
+  "mail.play-unread": {
+    "text": "Воспроизвести непрочитанные",
+    "source": "ce50e3196418"
   },
   "video.playback": {
     "text": "Воспроизведение",
@@ -20797,6 +21133,18 @@
     "text": "Прочесть вслух",
     "source": "38e07b2a0ca5"
   },
+  "voices-dialog.read-aloud-uses-the-windows-voice": {
+    "text": "«Прочесть вслух» использует голос Windows.",
+    "source": "7a16d7891be8"
+  },
+  "pdf.read-aloud-the-words-of-the": {
+    "text": "Прочесть вслух: текст страниц, начиная с этой, по одному предложению",
+    "source": "3e998b88dc26"
+  },
+  "slides.ribbon.read-aloud-the-words-on-this": {
+    "text": "Прочесть вслух: текст этого слайда, его заметки или и то и другое, по одному предложению",
+    "source": "0bb5b920c262"
+  },
   "word.ribbon.read-mode": {
     "text": "Режим чтения",
     "source": "b717f7f3eb53"
@@ -20841,6 +21189,10 @@
     "text": "Читать вручную",
     "source": "c1b4b3d1e6f2"
   },
+  "mail.read-every-message-in-the-list": {
+    "text": "Прочитать вслух все сообщения списка по порядку. Какие именно, определяет фильтр или поиск. Каждое сообщение отмечается прочитанным, когда оно дочитано до конца.",
+    "source": "4a502a868214"
+  },
   "base.sources.read-from": {
     "text": "Читать из",
     "source": "26da1ae26f48"
@@ -20877,13 +21229,37 @@
     "text": "Прочитано или нет, со звездочкой или нет",
     "source": "24569a47b7d9"
   },
+  "video.spoken.read-the-lines-aloud": {
+    "text": "Чтение строк вслух",
+    "source": "1a13c198d37e"
+  },
   "word.ribbon.read-the-document-aloud-from-the": {
     "text": "Прочесть документ вслух, начиная с курсора",
     "source": "4ac22f8793e2"
   },
+  "studio.spoken-run.read-the-lines": {
+    "text": "Прочитать строки",
+    "source": "458b26677813"
+  },
+  "video.spoken.read-the-lines-onto-the-timeline": {
+    "text": "Озвучить строки на временной шкале",
+    "source": "544b9d825bea"
+  },
+  "mail.read-the-open-message-aloud-who": {
+    "text": "Прочитать открытое сообщение вслух: отправителя, тему, затем текст",
+    "source": "74364f657863"
+  },
+  "mail.read-the-unread-messages-in-the": {
+    "text": "Прочитать вслух непрочитанные сообщения списка по порядку. Каждое сообщение отмечается прочитанным, когда оно дочитано до конца.",
+    "source": "dff6be303eab"
+  },
   "base.links.read-what-changed-by-field": {
     "text": "Читать изменения по полю {field}",
     "source": "2280ed08e4c6"
+  },
+  "video.spoken.read-while-recording-the-voice-is": {
+    "text": "Прочитано во время записи: голос уже есть в звуке самой записи.",
+    "source": "18def8f54c5b"
   },
   "base.links.read-every": {
     "text": "Читать {every}",
@@ -20913,6 +21289,10 @@
     "text": "При чтении {host} узнает, что эта база данных открыта и откуда.",
     "source": "40c581613d93"
   },
+  "common.reading-line-n-of-count": {
+    "text": "Чтение строки {n} из {count}",
+    "source": "0bdc94419bf9"
+  },
   "pdf.ocr.reading-page-page-of-count": {
     "text": "Чтение страницы {page} из {count}…",
     "source": "98a0e1804ad8"
@@ -20920,6 +21300,10 @@
   "mail.reading-pane": {
     "text": "Область чтения",
     "source": "dde5ae89d4de"
+  },
+  "mail.reading-stopped-the-voice-did-not": {
+    "text": "Чтение остановлено: голос не прочитал это сообщение.",
+    "source": "edb70b11e6c0"
   },
   "word.envelopes.reading-the-address-book": {
     "text": "Чтение адресной книги…",
@@ -21651,6 +22035,10 @@
     "text": "Удалить учетную запись…",
     "source": "f6c7b21aa0c2"
   },
+  "locker.remove-anyway": {
+    "text": "Все равно удалить",
+    "source": "ec52bdc0ffac"
+  },
   "word.mailings.remove-duplicates-untick-count-record-that": {
     "forms": {
       "few": "Удалить дубликаты: снять отметку с {count} записей, которые повторяют предыдущую поле в поле",
@@ -21747,6 +22135,22 @@
   "base.remove-the-relationship": {
     "text": "Удалить связь",
     "source": "7f945c0384ab"
+  },
+  "locker.remove-the-safety-copy-now": {
+    "text": "Удалить страховочную копию сейчас?",
+    "source": "e026c125fde8"
+  },
+  "locker.remove-the-safety-copy-of-name": {
+    "text": "Удалить страховочную копию папки {name}?",
+    "source": "25b045f799d0"
+  },
+  "locker.remove-the-safety-copy": {
+    "text": "Удалить страховочную копию…",
+    "source": "6474685cf9bd"
+  },
+  "voices-dialog.remove-the-voices-and-languages-added": {
+    "text": "Удалить также голоса и языки, добавленные в Rutba Office?",
+    "source": "95f84db40a88"
   },
   "locker.remove-them-suggested": {
     "text": "Удалить их (рекомендуется)",
@@ -21924,6 +22328,14 @@
   "sheets.reopen": {
     "text": "Открыть снова",
     "source": "a886d1dc4f12"
+  },
+  "locker.reopen-the-files-that-were-open": {
+    "text": "Снова открыть ранее открытые файлы",
+    "source": "e072693459a5"
+  },
+  "locker.reopen-them": {
+    "text": "Открыть снова",
+    "source": "0c8ec1c4dc3d"
   },
   "slides.comments.reopen-this-thread": {
     "text": "Открыть цепочку снова",
@@ -22262,9 +22674,29 @@
     "text": "Перезапустите, чтобы обновить сейчас. Если продолжите работу, обновление установится при выходе.",
     "source": "6dceb7683e70"
   },
+  "voices-dialog.restarting-closes-every-window-and-these": {
+    "text": "При перезапуске закрываются все окна, а в этих окнах есть несохраненные изменения. Сохраните или закройте их, а затем повторите перезапуск. Ничего не закрыто.",
+    "source": "b8d3a411d920"
+  },
   "ui.restore": {
     "text": "Восстановить",
     "source": "a76e13b98392"
+  },
+  "locker.restore-a-copy": {
+    "text": "Восстановить копию…",
+    "source": "0b791c6c1552"
+  },
+  "locker.restore-from-the-safety-copy": {
+    "text": "Восстановление из страховочной копии",
+    "source": "2ba736545122"
+  },
+  "locker.restore-from-the-safety-copy-2": {
+    "text": "Восстановить из страховочной копии…",
+    "source": "53572e4e1540"
+  },
+  "locker.restoring": {
+    "text": "Восстановление…",
+    "source": "5a4918e0201c"
   },
   "word.restrict-editing": {
     "text": "Ограничить правку",
@@ -22365,6 +22797,10 @@
   "sheets.review-show-comments-lists-them": {
     "text": "Рецензирование → Показать комментарии выводит их список",
     "source": "3a019cace7ae"
+  },
+  "voices-dialog.reviewed": {
+    "text": "Проверено",
+    "source": "fad6057bb540"
   },
   "common.reviewing-pane": {
     "text": "Область проверки",
@@ -22906,6 +23342,14 @@
     "text": "Rutba Office пока не может открывать файлы {v1}.",
     "source": "cecfdddc878c"
   },
+  "voices-dialog.rutba-office-in-the-languages-this": {
+    "text": "Rutba Office на языках, используемых на этом компьютере.",
+    "source": "f639c2bab1a0"
+  },
+  "voices-dialog.rutba-office-in-your-languages": {
+    "text": "Rutba Office на ваших языках",
+    "source": "92aee8ac863e"
+  },
   "shell.rutba-office-is-now-version": {
     "text": "Теперь у вас Rutba Office {version}",
     "source": "8b27b11cf0c8"
@@ -22934,9 +23378,21 @@
     "text": "Загружена версия Rutba Office {version}. Перезапустите для обновления, или оно установится при выходе",
     "source": "ef28bb66ae1a"
   },
+  "voices-dialog.rutba-office-version-is-out-but": {
+    "text": "Вышла версия Rutba Office {version}, но не удалось проверить для нее ваши голоса и языки. Проверка повторится в следующий раз.",
+    "source": "1f9d9dab508d"
+  },
+  "voices-dialog.rutba-office-version-is-out-it": {
+    "text": "Вышла версия Rutba Office {version}. Она будет предложена, когда для нее будут готовы: {list}.",
+    "source": "2e1d40855fff"
+  },
   "shell.rutba-office-version-is-ready-to": {
     "text": "Версия Rutba Office {version} готова к установке",
     "source": "9f8e0a323b51"
+  },
+  "voices-dialog.rutba-office-version-no-longer-has": {
+    "text": "В Rutba Office {version} больше нет компонента {name} ({kind}). Он остается на этом компьютере и не используется, пока вы его не удалите.",
+    "source": "ca36731ad5da"
   },
   "engine.rutba-office-no-backend-for-ns": {
     "text": "Rutba Office: нет обработчика для {ns}:{name}",
@@ -23029,6 +23485,18 @@
   "talk.safety-code-code-if-name-sees": {
     "text": "Код безопасности {code}: если у {name} такой же, вас никто не подслушивает.",
     "source": "b70afef2b0dd"
+  },
+  "locker.safety-copies": {
+    "text": "Страховочные копии",
+    "source": "7735ad244a59"
+  },
+  "locker.safety-copies-are-not-offered-on": {
+    "text": "На этом компьютере страховочные копии недоступны: в нем нет хранилища ключей, где можно хранить их ключ. Папка блокируется как обычно.",
+    "source": "1b386c96ddee"
+  },
+  "locker.safety-copy": {
+    "text": "Страховочная копия",
+    "source": "966a48379b73"
   },
   "mail.safety.safety-is-off-for-this-message": {
     "text": "Защита для этого сообщения отключена: ссылки и рисунки можно копировать, а вложения сохранять. Следующее сообщение откроется с включенной защитой.",
@@ -23341,6 +23809,14 @@
   "studio.scene-strip.save-what-the-frame-shows-as": {
     "text": "Сохранить то, что показывает кадр, как новую сцену",
     "source": "04d539ee1ba5"
+  },
+  "english-switch.save-your-changes-first-this-window": {
+    "text": "Сначала сохраните изменения: при следующем открытии это окно будет на английском. Окна, которые вы откроете с этого момента, будут на английском.",
+    "source": "158d4e0c44ec"
+  },
+  "voices-dialog.save-your-work-before-restarting": {
+    "text": "Сохраните работу перед перезапуском",
+    "source": "9f0e25526a5b"
   },
   "update-restart.save-your-work-before-updating": {
     "text": "Сохраните работу перед обновлением",
@@ -24356,6 +24832,10 @@
     "text": "Как в предложениях.",
     "source": "e3033f08f2d4"
   },
+  "read-aloud.bar.sentence-n-of-count": {
+    "text": "Предложение {n} из {count}",
+    "source": "31e0c4c7d350"
+  },
   "word.ribbon.separated-by-commas": {
     "text": "Разделить запятыми",
     "source": "1d7e4e1cdf8b"
@@ -24985,6 +25465,10 @@
     "text": "Показывать заголовки строк и столбцов",
     "source": "4f7b9dcce409"
   },
+  "spoken.voices.show-the-text": {
+    "text": "Показывать текст",
+    "source": "0766a87f94ec"
+  },
   "sheets.dialogs.show-them-as": {
     "text": "Показывать их как",
     "source": "6380dba9f992"
@@ -25000,6 +25484,10 @@
   "video.timeline.show-this-track": {
     "text": "Показать дорожку",
     "source": "f562671c6f31"
+  },
+  "english-switch.show-this-window-in-english": {
+    "text": "Показать это окно на английском",
+    "source": "966d8fef25b8"
   },
   "slides.setup.show-type": {
     "text": "Тип показа",
@@ -25821,6 +26309,10 @@
     "text": "Звуковой клип",
     "source": "556f55adc8bd"
   },
+  "studio.spoken-run.sound-is-not-on-so-the": {
+    "text": "Звук не включен, поэтому голоса нет ни в записи, ни в трансляции.",
+    "source": "73e5029c4133"
+  },
   "video.meter.sound-level": {
     "text": "Уровень звука",
     "source": "03f228955745"
@@ -25925,9 +26417,21 @@
     "text": "Выноска",
     "source": "210563626614"
   },
+  "voices-dialog.speech-engine-and-models": {
+    "text": "Модуль синтеза речи и модели",
+    "source": "023dc910442d"
+  },
+  "voices-dialog.speech-is-made-on-this-computer": {
+    "text": "Речь синтезируется на этом компьютере. Читаемый текст никуда с него не передается.",
+    "source": "020d7947bc15"
+  },
   "word.speech-is-not-available-on-this": {
     "text": "Синтез речи недоступен в этой системе.",
     "source": "52e87276a561"
+  },
+  "voices-dialog.speech-will-use-the-windows-voice": {
+    "text": "Пока модуль синтеза речи для {version} не готов, используется голос Windows.",
+    "source": "7f1dd8870ffa"
   },
   "video.speed": {
     "text": "Скорость",
@@ -26057,6 +26561,14 @@
   "pdf.split-this-pdf-into-several-files": {
     "text": "Разделить: этот PDF на несколько файлов по числу страниц или по выбранным страницам",
     "source": "ed6df15df737"
+  },
+  "video.spoken.spoken-lines": {
+    "text": "Озвучиваемые строки",
+    "source": "9b4ca87c5e21"
+  },
+  "common.spoken-lines": {
+    "text": "Озвучиваемые строки",
+    "source": "b6fcaf71e96b"
   },
   "slides.spring-2026": {
     "text": "Весна 2026",
@@ -26402,6 +26914,10 @@
     "text": "Выключить соло этой дорожки",
     "source": "0a0cba583153"
   },
+  "common.stop-reading": {
+    "text": "Остановить чтение",
+    "source": "78be99f18a5c"
+  },
   "shell.ipc.stop-recording": {
     "text": "Остановить запись",
     "source": "3d591e826d54"
@@ -26573,6 +27089,10 @@
   "mail.subject-a-word-in-the-subject": {
     "text": "Тема: слово в теме",
     "source": "ffb836da7f7a"
+  },
+  "mail.read-aloud.subject-subject": {
+    "text": "Тема: {subject}",
+    "source": "71de3761a2b3"
   },
   "common.subscript": {
     "text": "Подстрочный знак",
@@ -26757,6 +27277,10 @@
   "dav-accounts.syncing": {
     "text": "Синхронизация…",
     "source": "8a046cc90ab0"
+  },
+  "read-aloud.bar.system-voice": {
+    "text": "Системный голос",
+    "source": "2d3d23392b00"
   },
   "image.formats.tiff-keeps-every-pixel-for-print": {
     "text": "TIFF сохраняет все пиксели, для печати и сканов.",
@@ -27715,6 +28239,10 @@
     "text": "Копии в «Файлах данных» (Data Files) нужен отдельный файл. Выберите другое имя или папку.",
     "source": "b7ddf45551bf"
   },
+  "locker.the-locker-first-reads-back-every": {
+    "text": "«Сейф» (Locker) сначала считывает каждый файл копии в этой папке и проверяет совпадение. Если что-то не совпадает, вы узнаете об этом до того, как что-либо будет удалено.",
+    "source": "158bfd3254fc"
+  },
   "home.the-office-apps-are-on-add": {
     "text": "Приложения Office включены. Добавляйте «Разговоры» (Talk), «Файлы данных» (Data Files) и «Студию» (Studio), когда нужно, и отключайте ненужное в любой момент.",
     "source": "328297894902"
@@ -27734,6 +28262,10 @@
   "sheets.ribbon.the-worksheets-guide-on-office-rutba": {
     "text": "Руководство по «Таблицам» на office.rutba.io",
     "source": "de05c2d52be3"
+  },
+  "read-aloud.reader.the-added-voice-stopped-working-so": {
+    "text": "Добавленный голос перестал работать, поэтому остальное читается системным голосом.",
+    "source": "f0f998b2a82a"
   },
   "word.mailings.the-address-book-is-empty-add": {
     "text": "Адресная книга пуста. Добавьте людей в «Контакты» или введите новый список.",
@@ -28066,6 +28598,10 @@
     "text": "Сам файл не зашифрован: роли действуют в Rutba Office, но любой, кто скопирует файл, сможет прочитать его другой программой.",
     "source": "76fbda0ec679"
   },
+  "locker.the-files-are-restored": {
+    "text": "Файлы восстановлены",
+    "source": "f7002961aa52"
+  },
   "mail.dialogs.the-filter-has-learned-from-junk": {
     "text": "Фильтр обучен на {junk} нежелательных и {good} хороших сообщениях и ничего не оценивает, пока не увидит по {minimum} каждого вида. Отмечайте сообщения как «Нежелательная» и «Не нежелательная» или обучите фильтр на уже имеющейся почте.",
     "source": "1a734aca4f49"
@@ -28077,6 +28613,14 @@
   "sheets.queries.the-first-characters-of-column": {
     "text": "Первые символы «{column}»",
     "source": "b944f22738f2"
+  },
+  "video.the-first-try-came-out-with": {
+    "text": "Первая попытка дала видео без изображения, поэтому экспорт начат заново.",
+    "source": "af1e9fb70b7f"
+  },
+  "slides.export-video.the-first-try-came-out-with": {
+    "text": "Первая попытка дала видео без изображения, поэтому видео создается заново: слайд {at} из {of}.",
+    "source": "7132b0853b65"
   },
   "pictures.batch.the-first-will-be-example": {
     "text": "Первым будет {example}",
@@ -28150,6 +28694,10 @@
     "text": "Ключ хранится в защищенном хранилище этого компьютера, а не в файле, и только для этого адреса.",
     "source": "73f082cb751d"
   },
+  "read-aloud.bar.the-language-being-read": {
+    "text": "Язык чтения",
+    "source": "a6d60dec8ea7"
+  },
   "engine.the-last-calendar-stays-delete-its": {
     "text": "Последний календарь удалить нельзя; вместо этого удалите его события.",
     "source": "d68b7964c865"
@@ -28174,9 +28722,17 @@
     "text": "Текст слоя",
     "source": "f53bac890188"
   },
+  "common.the-line-could-not-be-read": {
+    "text": "Не удалось прочитать строку: {reason}",
+    "source": "1ef63f69f2ff"
+  },
   "base.forms.the-line-is-deleted-from-table": {
     "text": "Строка удалена из таблицы {table}, и ее нельзя восстановить.",
     "source": "9d1b5f1408ba"
+  },
+  "common.the-lines-could-not-be-read": {
+    "text": "Не удалось прочитать строки вслух: {reason}",
+    "source": "80512771ce16"
   },
   "mail.the-link-could-not-be-opened": {
     "text": "Не удалось открыть ссылку: {reason}",
@@ -28209,6 +28765,10 @@
   "sheets.dialogs.the-list-has-a-heading-row": {
     "text": "В списке есть строка заголовков: она остается вверху, а ее заголовки называют столбцы.",
     "source": "6e64ba31d8bb"
+  },
+  "voices-dialog.the-list-of-voices-and-languages": {
+    "text": "Не удалось прочитать список голосов и языков. Добавленное ниже по-прежнему работает; повторите попытку, когда компьютер будет подключен к сети.",
+    "source": "1395fe37df4d"
   },
   "engine.the-list-range-needs-a-header": {
     "text": "В диапазоне списка нужна строка заголовков и хотя бы одна строка под ней",
@@ -28319,6 +28879,10 @@
     "text": "Сообщение",
     "source": "3f7b4597bf02"
   },
+  "mail.the-message-before": {
+    "text": "Предыдущее сообщение",
+    "source": "8c3f352f34a9"
+  },
   "mail.safety.the-message-exactly-as-it-came": {
     "text": "Сообщение в точности так, как пришло с сервера, {size}.",
     "source": "d6fe543dcfc3"
@@ -28410,6 +28974,10 @@
   "slides.slide-size.the-new-size-is-smaller-one": {
     "text": "Новый размер меньше по одной стороне. «Максимизировать» сохраняет размер содержимого, поэтому часть может выйти за края; «Подбор размера» уменьшает его, чтобы все поместилось на слайде.",
     "source": "484d93d5e8bd"
+  },
+  "mail.the-next-message": {
+    "text": "Следующее сообщение",
+    "source": "698b6714b353"
   },
   "sheets.dialogs.the-note-on-cell": {
     "text": "Примечание к ячейке {cell}",
@@ -28724,6 +29292,26 @@
     "text": "Строки вставляются с выделенной ячейки {cell}: дата как дата, суммы как числа.",
     "source": "968e3afd6474"
   },
+  "locker.the-safety-copy-holds-them-as": {
+    "text": "В страховочной копии они хранятся в прежнем виде. Все равно удалить ее?",
+    "source": "160f184b5815"
+  },
+  "locker.the-safety-copy-is-kept-restore": {
+    "text": "Страховочная копия сохранена. Чтобы вернуть эти файлы, восстановите ее копию: {files}",
+    "source": "71e4b43c7ac5"
+  },
+  "locker.the-safety-copy-is-removed": {
+    "text": "Страховочная копия удалена.",
+    "source": "3dac7e4034fb"
+  },
+  "locker.the-safety-copy-of-name-has": {
+    "text": "Страховочная копия папки {name} хранится уже {n} дн. Она не защищена вашим паролем «Сейфа» (Locker). Если папка открывается так, как вы ожидаете, «Сейф» сверит ее с копией, а затем удалит копию.",
+    "source": "889c6b02d3a9"
+  },
+  "locker.the-safety-copy-of-name-was": {
+    "text": "Страховочная копия папки {name} создана: {when}. Ее файлы ({n}) записываются без блокировки в новую папку внутри выбранной вами. То, что уже есть там, не изменяется.",
+    "source": "a34f0ed2f93a"
+  },
   "locker.the-same-password-again": {
     "text": "Тот же пароль еще раз",
     "source": "cfd750367fe1"
@@ -28897,6 +29485,10 @@
     "text": "Фигуры слайда как слои: выделить, переставить, скрыть, переименовать",
     "source": "e96347e19582"
   },
+  "slides.ribbon.the-slide-then-its-notes": {
+    "text": "Слайд, затем его заметки",
+    "source": "ae28e25489b7"
+  },
   "pdf.export.the-smaller-pdf-is-saved-as": {
     "text": "Уменьшенный PDF сохранен как новый файл; этот не изменен. Теперь его размер {size}.",
     "source": "6442a2655dcc"
@@ -28997,6 +29589,10 @@
     "text": "Заголовок в центре, текст под ним",
     "source": "036bb5d5a882"
   },
+  "studio.spoken-run.the-title-is-not-on-the": {
+    "text": "Титр не в кадре: покажите его, и строки будут появляться в нем по мере чтения.",
+    "source": "e190969a20ad"
+  },
   "review.the-title-of-slide-number": {
     "text": "Заголовок слайда {number}:",
     "source": "7f83a0913d67"
@@ -29017,6 +29613,10 @@
     "text": "Введенные пароли не совпадают.",
     "source": "bb612d83804d"
   },
+  "locker.the-unsaved-changes-in-files-are": {
+    "text": "Несохраненные изменения в {files} будут удалены навсегда. Это действие нельзя отменить.",
+    "source": "90213c3ea342"
+  },
   "slides.export-video.the-video-could-not-be-made": {
     "text": "Не удалось создать видео: {reason}",
     "source": "a10d92beb052"
@@ -29028,6 +29628,14 @@
   "video.library.the-videos-sound-and-pictures-in": {
     "text": "Видео, звук и рисунки этого проекта хранятся здесь, чтобы их можно было добавить снова.",
     "source": "4075715096b2"
+  },
+  "spoken.voices.the-voice-gave-no-sound-for": {
+    "text": "Для этой строки голос не дал звука.",
+    "source": "53613e120fbf"
+  },
+  "spoken.voices.the-voice-was-stopped-before-this": {
+    "text": "Голос был остановлен до того, как эта строка была создана.",
+    "source": "72955eafea09"
   },
   "video.export.the-whole-project": {
     "text": "Весь проект",
@@ -29196,6 +29804,14 @@
     "text": "Нет слайдов, к которым можно перейти.",
     "source": "f7a8b80bbbe3"
   },
+  "mail.there-are-no-unread-messages-in": {
+    "text": "В списке нет непрочитанных сообщений для чтения.",
+    "source": "16ae6324c70a"
+  },
+  "pdf.there-are-no-words-to-read": {
+    "text": "На этой странице нет текста для чтения. Отсканированную страницу можно прочесть после того, как «Распознать текст» найдет на ней слова.",
+    "source": "e6a37e9e16ec"
+  },
   "mail.there-is-a-folder-called-name": {
     "text": "Здесь уже есть папка с именем {name}.",
     "source": "a6b783d2a832"
@@ -29243,6 +29859,10 @@
   "engine.there-is-no-mail-account-to": {
     "text": "Нет учетной записи почты для отправки. Добавьте ее в разделе «Почта», «Учетные записи».",
     "source": "4ac6eb1ff640"
+  },
+  "mail.there-is-no-message-to-read": {
+    "text": "Нет сообщения для чтения.",
+    "source": "1688457587f5"
   },
   "sheets.queries.there-is-no-other-table-or": {
     "text": "В этой книге нет другой таблицы или запроса для добавления.",
@@ -29316,6 +29936,10 @@
     "text": "Листа с именем «{name}» нет",
     "source": "6c1e04a0ddb0"
   },
+  "locker.there-is-not-enough-room-for": {
+    "text": "На диске с папкой Office недостаточно места для страховочной копии. Освободите место или заблокируйте без нее.",
+    "source": "2cc98cc7e17b"
+  },
   "studio.window.there-is-not-enough-space-on": {
     "text": "Недостаточно места на диске для записи.",
     "source": "31dd575ea898"
@@ -29376,6 +30000,14 @@
     "text": "Эти ячейки входят в вертикальное объединение. Расширение одной его строки разорвет диапазон.",
     "source": "75122648d3df"
   },
+  "voices-dialog.these-come-by-themselves-with-the": {
+    "text": "Они добавляются сами вместе с первым добавленным голосом.",
+    "source": "12cf80348807"
+  },
+  "locker.these-files-are-not-locked-the": {
+    "text": "Эти файлы не заблокированы. Страховочная копия хранится, пока вы ее не удалите.",
+    "source": "f75acf6c6eae"
+  },
   "mail.dialogs.these-settings-came-from-source-on": {
     "text": "Эти параметры взяты из {source} на этом компьютере; они проверяются, когда адрес введен полностью.",
     "source": "22565709a102"
@@ -29415,6 +30047,10 @@
   "talk.invite.they-see-your-name-and-your": {
     "text": "Они видят ваше имя и вашу записку и становятся контактом, когда примут приглашение. Никому не сообщается, есть ли у адреса учетная запись.",
     "source": "7d8559a730ab"
+  },
+  "voices-dialog.they-take-size-on-this-computer": {
+    "text": "Они занимают {size} на этом компьютере. Сохраните их, если снова будете устанавливать Rutba Office.",
+    "source": "d55522046f72"
   },
   "profiles.they-were-saved-in-another-profile": {
     "text": "Они были сохранены в другом профиле и скопированы сюда, поэтому в этом профиле их не прочитать.",
@@ -29604,9 +30240,27 @@
     "text": "На этом компьютере нет защищенного хранилища для паролей, а у профиля нет пароля, поэтому их нельзя было надежно сохранить.",
     "source": "423cb156a6ae"
   },
+  "voices-dialog.this-computer-is-offline-the-language": {
+    "forms": {
+      "one": "Компьютер не в сети: язык добавится после подключения. Его также можно добавить из файла в разделе «Голоса и языки».",
+      "few": "Компьютер не в сети: языки добавятся после подключения. Язык также можно добавить из файла в разделе «Голоса и языки».",
+      "many": "Компьютер не в сети: языки добавятся после подключения. Язык также можно добавить из файла в разделе «Голоса и языки».",
+      "other": "Компьютер не в сети: языки добавятся после подключения. Язык также можно добавить из файла в разделе «Голоса и языки»."
+    },
+    "source": "c87bafdc6eef"
+  },
   "common.this-computer-only": {
     "text": "Только этот компьютер",
     "source": "601b7ae9d3a9"
+  },
+  "voices-dialog.this-computer-uses-languages-add-it": {
+    "forms": {
+      "one": "Язык этого компьютера: {languages}. Добавьте его и выберите в меню языков после перезапуска Rutba Office.",
+      "few": "Языки этого компьютера: {languages}. Добавьте их и выберите один в меню языков после перезапуска Rutba Office.",
+      "many": "Языки этого компьютера: {languages}. Добавьте их и выберите один в меню языков после перезапуска Rutba Office.",
+      "other": "Языки этого компьютера: {languages}. Добавьте их и выберите один в меню языков после перезапуска Rutba Office."
+    },
+    "source": "ecb007a426ac"
   },
   "common.this-content-control-cannot-be-edited": {
     "text": "Этот элемент управления содержимым нельзя изменить: содержимое заблокировано.",
@@ -29615,6 +30269,10 @@
   "packs-dialog.this-copy-is-installed-for-everyone": {
     "text": "Эта копия установлена для всех пользователей компьютера, поэтому при перезапуске Windows запросит разрешение.",
     "source": "c2546a3ab80f"
+  },
+  "voices-dialog.this-copy-of-rutba-office-has": {
+    "text": "В этой копии Rutba Office нет папки надстроек: голоса и языки добавляются в установленную копию.",
+    "source": "e81b8c5038b2"
   },
   "base.links.this-database-has-no-tables-this": {
     "text": "В этой базе данных нет таблиц, которые видит эта учетная запись.",
@@ -29756,6 +30414,14 @@
     "text": "В этом файле нет объектов, которые может найти средство чтения PDF.",
     "source": "f617f38c26b0"
   },
+  "voices-dialog.this-file-is-not-an-add": {
+    "text": "Этот файл не является надстройкой: в нем должна быть одна надстройка и ее папка.",
+    "source": "162cbe64b392"
+  },
+  "voices-dialog.this-file-is-not-an-add-2": {
+    "text": "Этот файл не является надстройкой: откройте архив .zip, опубликованный вместе с надстройками Rutba Office.",
+    "source": "5341e30294dc"
+  },
   "mail.this-file-was-imported-before-into": {
     "text": "Этот файл уже импортировался в тот же ящик: добавлено {messages}",
     "source": "ce0670a06a68"
@@ -29791,6 +30457,10 @@
   "locker.this-folder-is-in-cloud-which": {
     "text": "Эта папка в облаке {cloud}, где хранятся прежние версии файлов. Эти обычные версии останутся там после блокировки; удалите их в журнале версий {cloud}.",
     "source": "aa002b0574ae"
+  },
+  "locker.this-folder-is-no-longer-in": {
+    "text": "Этой папки больше нет в «Сейфе» (Locker), поэтому копию не с чем сверить. Она будет перезаписана и удалена. Это действие нельзя отменить.",
+    "source": "016e4d7f2c7a"
   },
   "mail.this-folder-search-only-the-folder": {
     "text": "Эта папка: искать только в открытой папке",
@@ -29920,6 +30590,10 @@
   "calendar.words.this-meeting-is-cancelled-a-calendar": {
     "text": "Это собрание отменено. Календарная программа уберет его из календаря с помощью вложенного файла.",
     "source": "6e9c1888a881"
+  },
+  "mail.this-message-could-not-be-opened": {
+    "text": "Не удалось открыть это сообщение",
+    "source": "b127fbc71257"
   },
   "mail.this-message-does-not-offer-one": {
     "text": "Это сообщение не поддерживает отписку в один щелчок.",
@@ -30093,6 +30767,10 @@
     "text": "Высота этой строки (см, не менее)",
     "source": "319ca80981b6"
   },
+  "locker.this-safety-copy-cannot-be-opened": {
+    "text": "Эту страховочную копию больше нельзя открыть.",
+    "source": "ed6f50924749"
+  },
   "studio.prompter.this-scene-has-no-script-write": {
     "text": "У этой сцены нет сценария. Напишите его в ее карточке, и он будет прокручиваться здесь во время записи.",
     "source": "90458537f0d7"
@@ -30137,6 +30815,10 @@
     "text": "Этот срез не может фильтровать: {reason}.",
     "source": "470dd67603bd"
   },
+  "slides.ribbon.this-slide": {
+    "text": "Этот слайд",
+    "source": "fd792ae48d11"
+  },
   "slides.this-slide-has-a-transition": {
     "text": "У этого слайда есть переход",
     "source": "8dfb23fea55e"
@@ -30156,6 +30838,10 @@
   "slides.this-slide-has-no-narration-to-2": {
     "text": "На слайде нет речи для воспроизведения.",
     "source": "d3b95fdaa7a3"
+  },
+  "slides.this-slide-has-no-notes-to": {
+    "text": "На этом слайде нет заметок для чтения.",
+    "source": "fbc4abc343b4"
   },
   "slides.this-slide-is-in-no-section": {
     "text": "Этот слайд не входит в раздел.",
@@ -30253,6 +30939,10 @@
     "text": "Это работает, только пока эта копия Office открыта на этом компьютере. Пока она закрыта, почта ждет во «Входящих» помещения, и ответ уходит при следующем открытии Office.",
     "source": "396d5e19ba5f"
   },
+  "locker.this-works-without-your-password-because": {
+    "text": "Это работает без вашего пароля, потому что страховочная копия им не защищена.",
+    "source": "8c1c3f8ccd58"
+  },
   "mail.this-year": {
     "text": "Этот год",
     "source": "98597183c8c6"
@@ -30328,6 +31018,10 @@
   "apps-choice.tick-the-apps-to-install-an": {
     "text": "Отметьте приложения для установки. Неотмеченное приложение не устанавливается совсем; добавьте его позже в разделе «Добавить или удалить приложения» в Rutba Office.",
     "source": "b2f0ee1b966a"
+  },
+  "voices-dialog.tick-the-languages-to-add-they": {
+    "text": "Отметьте языки, которые нужно добавить. Они добавляются при первом запуске Rutba Office, когда компьютер подключен к сети. Любой язык можно добавить или удалить позже в разделе «Голоса и языки».",
+    "source": "78199a576b7f"
   },
   "base.people.ticked-ones-are-shown-any-that": {
     "text": "Отмеченные показываются. Те, что построены на таблице, которую роль не видит, для нее скрываются в любом случае.",
@@ -30894,6 +31588,10 @@
     "text": "Попробуйте другой запрос.",
     "source": "2e6d79de50dc"
   },
+  "voices-dialog.try-again": {
+    "text": "Повторить",
+    "source": "d8b8392e2c54"
+  },
   "template-gallery.try-other-words": {
     "text": "Попробуйте другие слова.",
     "source": "2a5ed12cfe24"
@@ -30950,9 +31648,17 @@
     "text": "Выключить",
     "source": "06f0e210b27d"
   },
+  "locker.turn-off-touch-id": {
+    "text": "Отключить Touch ID",
+    "source": "d94fb9a255da"
+  },
   "locker.turn-off-windows-hello": {
     "text": "Отключить Windows Hello",
     "source": "52ba933205f0"
+  },
+  "locker.turn-on-touch-id": {
+    "text": "Включить Touch ID",
+    "source": "0269040c7172"
   },
   "locker.turn-on-windows-hello": {
     "text": "Включить Windows Hello",
@@ -30985,6 +31691,10 @@
   "pictures.turned-and-saved": {
     "text": "Повернуто и сохранено.",
     "source": "0901e7acee0c"
+  },
+  "voices-dialog.turned-off-withdrawn-by-its-makers": {
+    "text": "Отключено: отозвано разработчиками",
+    "source": "14e4c1da3583"
   },
   "colour.names.turquoise": {
     "text": "Бирюзовый",
@@ -31518,6 +32228,14 @@
     "text": "Обновить формулы",
     "source": "f703ab807d7f"
   },
+  "voices-dialog.update-anyway": {
+    "text": "Все равно обновить",
+    "source": "d94343f8f050"
+  },
+  "voices-dialog.update-anyway-2": {
+    "text": "Все равно обновить…",
+    "source": "04def120ea4d"
+  },
   "slides.update-automatically": {
     "text": "Обновлять автоматически",
     "source": "9e946306e543"
@@ -31533,6 +32251,10 @@
   "base.update-the-design": {
     "text": "Обновить структуру",
     "source": "884bcfa32789"
+  },
+  "voices-dialog.update-to-version-anyway": {
+    "text": "Все равно обновить до версии {version}?",
+    "source": "469633528dc3"
   },
   "word.ribbon.update-style-to-match-selection": {
     "text": "Обновить {style} по выделенному",
@@ -31618,6 +32340,10 @@
   "slides.ribbon.use-timings-slides-with-a-timing": {
     "text": "Использовать время: слайды с заданным временем сменяются сами; если выключено, показ идет только по вашей команде",
     "source": "f5f90fd03124"
+  },
+  "locker.use-touch-id": {
+    "text": "Использовать Touch ID",
+    "source": "8d8ec25a6ea8"
   },
   "locker.use-windows-hello-pin-fingerprint-or": {
     "text": "Через Windows Hello (ПИН, отпечаток, лицо)",
@@ -31947,6 +32673,18 @@
     "text": "Голос",
     "source": "87bf2bc08589"
   },
+  "voices-dialog.voices": {
+    "text": "Голоса",
+    "source": "8ead6df9cd69"
+  },
+  "voices-dialog.voices-and-languages": {
+    "text": "Голоса и языки",
+    "source": "75f270b3eb94"
+  },
+  "common.voices-and-languages": {
+    "text": "Голоса и языки…",
+    "source": "14395bf4d3f9"
+  },
   "common.volume": {
     "text": "Громкость",
     "source": "b10fb966d720"
@@ -32146,6 +32884,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "Что инструменты ИИ могут делать с каждым из них. Все выключено, пока вы не выберете. Те же параметры есть в разделе «Инструменты ИИ».",
     "source": "14310670b45f"
+  },
+  "spoken.voices.what-the-lines-do": {
+    "text": "Что делают строки",
+    "source": "573064e5a609"
   },
   "word.dialogs.what-the-table-is": {
     "text": "Описание таблицы",
@@ -32515,6 +33257,10 @@
     "text": "Если нет учетной записи «Почты» для отправки, Rutba отправляет ваши приглашения с адреса no-reply@rutba.io.",
     "source": "12232a9ce3d1"
   },
+  "voices-dialog.with-no-network-a-voice-or": {
+    "text": "Без сети голос или язык можно добавить из его файла: архива .zip, опубликованного вместе с надстройками Rutba Office и принесенного с другого компьютера. Выберите «Добавить из файла».",
+    "source": "83a90cbad906"
+  },
   "base.links.with-no-primary-key-there-they": {
     "text": "Без первичного ключа там их можно читать, но не изменять.",
     "source": "040d7d3b40f5"
@@ -32538,6 +33284,10 @@
   "talk.withdraw-the-invitation-to-email": {
     "text": "Отозвать приглашение для {email}",
     "source": "8af78191a599"
+  },
+  "voices-dialog.withdrawn-by-its-makers": {
+    "text": "Отозвано разработчиками.",
+    "source": "9ff368476fae"
   },
   "sheets.find.within": {
     "text": "Искать",
@@ -33200,6 +33950,10 @@
     "text": "принято",
     "source": "070c160a6299"
   },
+  "voices-dialog.add-on": {
+    "text": "надстройка",
+    "source": "a33a54a73112"
+  },
   "base.links.added-fields": {
     "text": "добавлено: {fields}",
     "source": "30cea32e2a11"
@@ -33442,6 +34196,10 @@
     "text": "сборка для разработки",
     "source": "030dcbc3b708"
   },
+  "voices-dialog.dictionary": {
+    "text": "словарь",
+    "source": "177ca70f42de"
+  },
   "word.mailings.directory": {
     "text": "каталог",
     "source": "333178788eae"
@@ -33537,6 +34295,10 @@
   "mail.folder": {
     "text": "папка",
     "source": "034a00624882"
+  },
+  "voices-dialog.font": {
+    "text": "шрифт",
+    "source": "795ea3efa43d"
   },
   "word.footnote-n": {
     "text": "сноска {n}",
@@ -33718,6 +34480,10 @@
   "common.landscape-2": {
     "text": "альбомная",
     "source": "acb955df82b8"
+  },
+  "voices-dialog.language": {
+    "text": "язык",
+    "source": "a4ef304ba42a"
   },
   "mail.last-try-failed-error-trying-again": {
     "text": "последняя попытка не удалась ({error}), повтор",
@@ -33968,6 +34734,10 @@
     "text": "параметры печати",
     "source": "9198cbaeac3c"
   },
+  "voices-dialog.pronunciation": {
+    "text": "произношение",
+    "source": "ce978dc7829d"
+  },
   "common.px": {
     "text": "пкс",
     "source": "6ee2cc105a67"
@@ -34108,6 +34878,14 @@
   "slides.action.something": {
     "text": "что-то",
     "source": "3fc9b689459d"
+  },
+  "voices-dialog.speech-engine": {
+    "text": "модуль синтеза речи",
+    "source": "69f0063d7151"
+  },
+  "voices-dialog.speech-model": {
+    "text": "модель речи",
+    "source": "14a7ccd64b8c"
   },
   "video.export.square": {
     "text": "квадрат",
@@ -34377,6 +35155,10 @@
     "text": "видеокодер не вернул данных, поэтому ничего не сохранено. Повторите попытку.",
     "source": "4c38cc475e8b"
   },
+  "common.the-video-encoder-gave-the-sound": {
+    "text": "кодировщик видео выдал звук без изображения, поэтому ничего не сохранено. Повторите попытку.",
+    "source": "4a861b2049e1"
+  },
   "video.the-whole-picture-on-black-bars": {
     "text": "все изображение на черных полях",
     "source": "415c8c2f50c4"
@@ -34464,6 +35246,10 @@
   "video.videos-sound-and-pictures-one-after": {
     "text": "видео, звук и рисунки один за другим после клипов на выбранной дорожке",
     "source": "6f8e30fdb3c2"
+  },
+  "voices-dialog.voice": {
+    "text": "голос",
+    "source": "c57d7e920197"
   },
   "contacts.web": {
     "text": "веб",
@@ -36336,6 +37122,14 @@
     "text": "{files}, {folders}",
     "source": "91829f4187ac"
   },
+  "locker.file-is-left-plain-and-shows": {
+    "text": "Файл {file} остается незаблокированным и отмечен как незаблокированный.",
+    "source": "ab60c99e1907"
+  },
+  "locker.file-kept-changing-or-was-in": {
+    "text": "Файл {file} изменялся или использовался во время создания страховочной копии, поэтому ничего не заблокировано.",
+    "source": "36607f9c5145"
+  },
   "mail.folder-is-deleted": {
     "text": "Папка {folder} удалена.",
     "source": "20926d429662"
@@ -36461,6 +37255,23 @@
     "text": "{label}: {blurb}; заменяет выбранный эффект",
     "source": "a8e919e7d5f9"
   },
+  "voices-dialog.languages-will-be-added-when-this": {
+    "forms": {
+      "one": "Язык {languages} добавится при подключении к сети. Его можно добавить и из файла в разделе «Голоса и языки».",
+      "few": "Языки {languages} добавятся при подключении к сети. Язык можно добавить и из файла в разделе «Голоса и языки».",
+      "many": "Языки {languages} добавятся при подключении к сети. Язык можно добавить и из файла в разделе «Голоса и языки».",
+      "other": "Языки {languages} добавятся при подключении к сети. Язык можно добавить и из файла в разделе «Голоса и языки»."
+    },
+    "source": "fa0e4abdce47"
+  },
+  "voices-dialog.language-is-no-longer-built-into": {
+    "text": "Язык {language} больше не встроен в Rutba Office. Добавьте его языковой пакет в разделе «Голоса и языки».",
+    "source": "c5cd1a83525c"
+  },
+  "voices-dialog.language-now-comes-as-a-language": {
+    "text": "Язык {language} теперь поставляется как языковой пакет и добавлен с обновлением.",
+    "source": "97a36bd5a08c"
+  },
   "video.inspector.level-times": {
     "text": "Увеличение {level}×",
     "source": "8092db25eeb5"
@@ -36498,6 +37309,10 @@
     "text": "Не удалось открыть: {names}: это не видео, звук или рисунок для этой системы.",
     "source": "40ec26e4b663"
   },
+  "read-aloud.bar.name-added": {
+    "text": "{name} (добавлено)",
+    "source": "5e0a009f158f"
+  },
   "base.links.name-coming": {
     "text": "{name} (скоро)",
     "source": "c5bfe2423325"
@@ -36505,6 +37320,10 @@
   "design.name-dark": {
     "text": "{name} (темная)",
     "source": "de9e429833c5"
+  },
+  "common.name-draft": {
+    "text": "{name} (черновик)",
+    "source": "5afe5a4a59c2"
   },
   "redact.name-redacted": {
     "text": "{name} (скрыто)",
@@ -36563,6 +37382,10 @@
     "text": "Не удалось отрисовать {name}: {reason}",
     "source": "65bcb558f48b"
   },
+  "locker.name-could-not-be-opened-again": {
+    "text": "Не удалось снова открыть {name}: {why}",
+    "source": "20ca380f0559"
+  },
   "common.name-could-not-be-opened-reason": {
     "text": "Не удалось открыть {name}: {reason}",
     "source": "dae0790a804d"
@@ -36611,9 +37434,21 @@
     "text": "{name} уже есть в контактах.",
     "source": "5bf61d9afecd"
   },
+  "locker.name-is-a-kind-of-file": {
+    "text": "Файл {name} относится к типу, который читается с диска, поэтому он открыт из временной незаблокированной копии, а не в памяти. Эта копия не заблокирована.",
+    "source": "8c3ca214b1be"
+  },
+  "locker.name-is-already-open-so-these": {
+    "text": "Файл {name} уже открыт, поэтому эти несохраненные изменения откроются как {saved}: новый файл рядом с ним в той же заблокированной папке.",
+    "source": "f866dc2fc7b7"
+  },
   "talk.name-is-blocked": {
     "text": "{name}: заблокировано.",
     "source": "896ccbbaeef1"
+  },
+  "locker.name-is-in-an-older-format": {
+    "text": "Файл {name} в старом формате. При сохранении рядом с ним в той же заблокированной папке появится {saved}.",
+    "source": "25f899dbe396"
   },
   "locker.name-is-locked-in-folder": {
     "text": "Файл {name} заблокирован в папке {folder}.",
@@ -36622,6 +37457,10 @@
   "talk.name-is-no-longer-a-contact": {
     "text": "{name} больше не в контактах.",
     "source": "f2f97457bba2"
+  },
+  "locker.name-is-no-longer-in-the": {
+    "text": "Папки {name} больше нет в «Сейфе» (Locker). Ее страховочная копия по-прежнему хранится здесь.",
+    "source": "4af6541725f0"
   },
   "image.name-is-no-longer-open-so": {
     "text": "Файл {name} закрыт, и рисунок нельзя вернуть в него. Экспортируйте рисунок.",
@@ -36639,6 +37478,10 @@
     "text": "Контакт {name} недоступен.",
     "source": "aca30d15fc29"
   },
+  "voices-dialog.name-is-not-used-until-its": {
+    "text": "Компонент {name} не используется, пока не будет готова его версия для {version}.",
+    "source": "2f267730bc10"
+  },
   "common.name-is-not-wired-yet": {
     "text": "{name}: пока не подключено.",
     "source": "88e2be5594ad"
@@ -36654,6 +37497,10 @@
   "mail.name-is-open-where-it-lies": {
     "text": "{name} открыт на месте, только для чтения. Идет индексация для поиска.",
     "source": "749ec97c4e3a"
+  },
+  "locker.name-is-over-1-gb-so": {
+    "text": "Файл {name} больше 1 ГБ, поэтому он открыт из временной незаблокированной копии, а не в памяти. Эта копия не заблокирована.",
+    "source": "950f4db86aed"
   },
   "common.name-is-protected-with-a-password": {
     "text": "{name}: файл защищен паролем и останется закрытым, пока не будет введен пароль.",
@@ -36696,6 +37543,10 @@
     "text": "{name}: не найдено",
     "source": "11fabb5fa0c9"
   },
+  "locker.name-opened-from-a-temporary-plain": {
+    "text": "Файл {name} открыт из временной незаблокированной копии, а не в памяти. Эта копия не заблокирована.",
+    "source": "01b4847cdddb"
+  },
   "sheets.name-refreshed": {
     "text": "{name}: обновлено",
     "source": "7b63595ee10b"
@@ -36719,6 +37570,10 @@
   "profiles.name-will-open-without-asking-and": {
     "text": "Профиль {name} будет открываться без запроса, а защищенное паролем сохранится, как прежде, под защитой Windows только для вашей учетной записи.",
     "source": "bccde320f01d"
+  },
+  "voices-dialog.name-will-show-new-labels-in": {
+    "text": "Для языка {name} новые надписи показываются на английском, пока не будет готова его версия для {version}.",
+    "source": "070ebd66c642"
   },
   "talk.invite.name-would-like-to-talk-with": {
     "text": "{name} хочет пообщаться с вами в Rutba Talk",
@@ -36841,6 +37696,10 @@
     "text": "{name}, страница {page} из {count}",
     "source": "0f8439d610e0"
   },
+  "locker.name-with-unsaved-changes": {
+    "text": "{name}, есть несохраненные изменения",
+    "source": "d3fccb2b063d"
+  },
   "slides.motion.name-option": {
     "text": "{name}, {option}",
     "source": "769e8e2405cf"
@@ -36956,6 +37815,14 @@
     "text": "Не удалось разблокировать файлы: {n}, поэтому папка не удалена.",
     "source": "189a2a0888a7"
   },
+  "locker.n-files-did-not-match-the": {
+    "text": "Файлы, которые не совпали со страховочной копией и не восстановлены: {n}.",
+    "source": "9ffb4b5699f4"
+  },
+  "locker.n-files-in-this-folder-do": {
+    "text": "Файлы в этой папке, которые не разблокируются как следует: {n}.",
+    "source": "a0e568b53b1f"
+  },
   "locker.n-files-in-this-folder-have": {
     "text": "Файлов с двумя версиями в этой папке: {n}. Сначала выберите одну из версий. Ничего не изменено.",
     "source": "0054192545bb"
@@ -36963,6 +37830,10 @@
   "locker.n-files-in-name-cannot-be": {
     "text": "Файлы в {name}, которые нельзя прочитать: {n}.",
     "source": "e60e71803e18"
+  },
+  "locker.n-files-restored-to-dest": {
+    "text": "Восстановлено файлов: {n}. Место: {dest}.",
+    "source": "0fe8b13fee6a"
   },
   "studio.setups-menu.n-files-all-in-the-setup": {
     "text": "Файлов: {n}, все в файле набора",
@@ -37035,6 +37906,10 @@
   "mail.path-is-no-longer-there": {
     "text": "{path} больше не существует",
     "source": "592e65bab5c5"
+  },
+  "voices-dialog.pct-translated-for-this-version": {
+    "text": "Переведено {pct}% для этой версии",
+    "source": "692d9bafb1dc"
   },
   "sheets.ribbon.pen-click-again-for-its-colour": {
     "text": "{pen}: щелкните снова для цвета и толщины",

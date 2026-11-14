@@ -2,7 +2,7 @@
   "id": "lang-ro",
   "kind": "language",
   "format": 2,
-  "version": "2.25.0",
+  "version": "2.26.0",
   "revision": 1,
   "tag": "ro",
   "tags": [
@@ -25,7 +25,7 @@
     "one",
     "other"
   ],
-  "labels": 8998,
+  "labels": 9213,
   "status": "draft",
   "review": "machine translation, offered as a draft until its wording is settled",
   "madeFrom": "lang-en",

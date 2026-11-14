@@ -629,6 +629,22 @@
     "text": "條件式欄需要規則",
     "source": "aed8bfd618e7"
   },
+  "locker.a-copy-of-these-files-as": {
+    "text": "這些檔案目前狀態的複本，保存在 Office 於這部 Mac 上的專屬資料夾中，讓您在熟悉保險箱 (Locker) 期間不會遺失任何內容。它並未以您的保險箱密碼鎖定：任何登入這個 Mac 帳戶的人都能還原它。",
+    "source": "6e2bd717daa8"
+  },
+  "locker.a-copy-of-these-files-as-2": {
+    "text": "這些檔案目前狀態的複本，保存在 Office 於這部電腦上的專屬資料夾中，讓您在熟悉保險箱 (Locker) 期間不會遺失任何內容。它並未以您的保險箱密碼鎖定：任何能開啟這個 Office 設定檔的人都能還原它。",
+    "source": "2094b4f4f038"
+  },
+  "locker.a-copy-of-these-files-as-3": {
+    "text": "這些檔案目前狀態的複本，保存在 Office 於這部電腦上的專屬資料夾中，讓您在熟悉保險箱 (Locker) 期間不會遺失任何內容。它並未以您的保險箱密碼鎖定：任何登入這個 Windows 帳戶的人都能還原它。",
+    "source": "9ee82c902b7b"
+  },
+  "locker.a-copy-of-these-files-as-4": {
+    "text": "這些檔案目前狀態的複本，保存在 Office 於這部電腦上的專屬資料夾中，讓您在熟悉保險箱 (Locker) 期間不會遺失任何內容。它並未以您的保險箱密碼鎖定：任何登入這個使用者帳戶的人都能還原它。",
+    "source": "2f36db57f352"
+  },
   "template-gallery.a-course-session-objectives-the-agenda": {
     "text": "課程單元：目標、議程、課程內容、快速測驗與摘要",
     "source": "70cd3e33cd84"
@@ -947,6 +963,10 @@
     },
     "source": "50e0f90aa379"
   },
+  "voices-dialog.a-newer-revision-is-ready": {
+    "text": "較新的修訂版已就緒",
+    "source": "6c0971aff110"
+  },
   "template-gallery.a-newsletter-with-a-masthead-two": {
     "text": "電子報，含刊頭、兩欄報導與日期面板",
     "source": "d481579262f8"
@@ -1141,6 +1161,18 @@
     "text": "累計餘額，依據：",
     "source": "f223d22c6094"
   },
+  "locker.a-safety-copy-of-this-folder": {
+    "text": "會保留這個資料夾的安全複本",
+    "source": "bde8bd957ac6"
+  },
+  "locker.a-safety-copy-of-this-folder-2": {
+    "text": "在這個資料夾的檔案首次鎖定前，會先建立其安全複本。",
+    "source": "e7490abc7847"
+  },
+  "locker.a-safety-copy-of-your-files": {
+    "text": "您檔案的安全複本會保存在這部電腦上。",
+    "source": "812ca6b18f66"
+  },
   "engine.a-scatter-chart-here-plots-up": {
     "text": "此處的散佈圖最多可繪製三個數列。請選取由一個 X 欄及最多三個 Y 欄組成的區塊。",
     "source": "1161906fee38"
@@ -1224,6 +1256,10 @@
   "word.references.a-source-is-already-tagged-tag": {
     "text": "已有來源使用標記 {tag}。",
     "source": "70fd6a155c46"
+  },
+  "video.timeline.a-spoken-line": {
+    "text": "一行朗讀文字",
+    "source": "29b4895d436f"
   },
   "video.inspector.a-still-lasts": {
     "text": "靜態圖片時長",
@@ -1326,6 +1362,10 @@
   "studio.window.a-window": {
     "text": "視窗",
     "source": "9b1f7eb460ff"
+  },
+  "voices-dialog.a-window-is-open-in-this": {
+    "text": "有視窗正以這種語言開啟。請先關閉該視窗，或以其他語言開啟視窗，再移除這種語言。",
+    "source": "3ae5879eef89"
   },
   "studio.sources-column.a-window-not-chosen-yet": {
     "text": "視窗，尚未選擇",
@@ -1871,6 +1911,14 @@
     "text": "新增總計",
     "source": "c78ecc1fa62c"
   },
+  "spoken.voices.add-a-voice-to-have-these": {
+    "text": "新增語音即可大聲朗讀這些行",
+    "source": "b2afe4eb368b"
+  },
+  "read-aloud.voice-offer.add-a-voice-more-natural-voices": {
+    "text": "新增語音：從「語音和語言」為大聲朗讀新增更自然的語音",
+    "source": "bfbf7111b5c5"
+  },
   "studio.flip-strip.add-a-web-page": {
     "text": "新增網頁",
     "source": "301fb6179868"
@@ -1938,6 +1986,14 @@
   "locker.add-folder": {
     "text": "新增資料夾…",
     "source": "fb227b5ff513"
+  },
+  "voices-dialog.add-from-a-file": {
+    "text": "從檔案新增",
+    "source": "68655ccf7b75"
+  },
+  "voices-dialog.add-from-a-file-2": {
+    "text": "從檔案新增…",
+    "source": "ca82b661b3c0"
   },
   "packs-dialog.add-it-with-add-or-remove": {
     "text": "請使用「新增或移除應用程式」新增它，從下次啟動起，它就會開啟其可開啟的檔案。",
@@ -2059,6 +2115,10 @@
     "text": "新增影片、聲音與圖片，或將其拖放到此視窗。它們會依序放到時間軸上。",
     "source": "79fc33dd6094"
   },
+  "voices-dialog.add-when-online": {
+    "text": "連線後新增",
+    "source": "971ac51b33f5"
+  },
   "mail.accounts-bulk.add-count-account": {
     "forms": {
       "other": "新增 {count} 個帳戶"
@@ -2075,6 +2135,10 @@
     "text": "新增：將字詞加入字典",
     "source": "f696718081b5"
   },
+  "voices-dialog.add-on-files": {
+    "text": "附加元件檔案",
+    "source": "4d65ebdbe444"
+  },
   "apps-choice.add-ons": {
     "text": "附加元件",
     "source": "ccfc53fcbd49"
@@ -2086,6 +2150,14 @@
   "common.added": {
     "text": "已新增",
     "source": "6b02e0d363a4"
+  },
+  "voices-dialog.added-here": {
+    "text": "已在此處新增",
+    "source": "9851c5fac6c6"
+  },
+  "voices-dialog.added-here-not-on-the-list": {
+    "text": "已在此處新增，不在此版本的清單中",
+    "source": "fdd61e2094ac"
   },
   "mail.dialogs.added-to-the-end-of-new": {
     "text": "加在新郵件的結尾，回覆或轉寄時則加在引文上方",
@@ -2109,9 +2181,29 @@
     },
     "source": "93ca61fcc584"
   },
+  "voices-dialog.added-but-not-used": {
+    "text": "已新增，但未使用",
+    "source": "1aa13e5c4cd6"
+  },
+  "voices-dialog.added-waiting-for-what-it-needs": {
+    "text": "已新增，正在等待所需項目",
+    "source": "41a27014ef99"
+  },
   "packs-dialog.added-here-from-the-next-start": {
     "text": "已新增：從下次啟動起出現在這裡",
     "source": "81c2b338bb02"
+  },
+  "voices-dialog.added-moved-in-at-restart": {
+    "text": "已新增：將在重新啟動時移入",
+    "source": "23bb225cbdb4"
+  },
+  "voices-dialog.added-not-ready-in-time-at": {
+    "text": "已新增：本次啟動時未能及時就緒",
+    "source": "6d386eb3b0d7"
+  },
+  "voices-dialog.added-used-from-the-next-start": {
+    "text": "已新增：從下次啟動起使用",
+    "source": "e0e14a83e684"
   },
   "mail.accounts-bulk.added-provider": {
     "text": "已新增：{provider}",
@@ -2507,6 +2599,10 @@
     "text": "所有檔案",
     "source": "866956901fd1"
   },
+  "locker.all-good-remove-the-safety-copy": {
+    "text": "一切正常，移除安全複本…",
+    "source": "018e0096608e"
+  },
   "inspect.all-items-were-removed": {
     "text": "已移除所有項目。",
     "source": "fc6c610af91d"
@@ -2737,6 +2833,10 @@
     "text": "動作可前往網址（http:// 或 https://）或電子郵件地址 (mailto:)。",
     "source": "192eebf7ad62"
   },
+  "voices-dialog.an-added-voice-or-language-is": {
+    "text": "新增的語音或語言會從下次啟動起使用。移除後，您的文件和設定都會保留。",
+    "source": "a5c16bfef61e"
+  },
   "sheets.dialogs.an-address-such-as-rutba-io": {
     "text": "網址，例如 rutba.io 或 hello@rutba.io，或此活頁簿中的位置，例如 C12、Sheet2!B4 或名稱。",
     "source": "257b9cd3f57d"
@@ -2896,6 +2996,22 @@
   "base.sources.another-data-files-database": {
     "text": "其他 Data Files 資料庫",
     "source": "a3cc390853c1"
+  },
+  "locker.another-office-profile-on-this-mac": {
+    "text": "這個 Mac 帳戶上的其他 Office 設定檔也可能開啟它。為這個設定檔設定密碼即可防止這種情況。",
+    "source": "dd51602f9f1c"
+  },
+  "locker.another-office-profile-on-this-windows": {
+    "text": "這個 Windows 帳戶上的其他 Office 設定檔也可能開啟它。為這個設定檔設定密碼即可防止這種情況。",
+    "source": "e7908aa680a5"
+  },
+  "locker.another-office-profile-on-this-user": {
+    "text": "這個使用者帳戶上的其他 Office 設定檔也可能開啟它。為這個設定檔設定密碼即可防止這種情況。",
+    "source": "5e249dc1af3c"
+  },
+  "voices-dialog.another-rutba-office-is-changing-the": {
+    "text": "另一份 Rutba Office 複本正在變更語音和語言。請稍後再試一次。",
+    "source": "8b3c41c56b48"
   },
   "talk.address.another-address-of-yours": {
     "text": "您的其他地址",
@@ -3632,6 +3748,10 @@
   "video.back-a-second": {
     "text": "倒退一秒",
     "source": "6edb45cb368b"
+  },
+  "read-aloud.bar.back-a-sentence": {
+    "text": "上一句",
+    "source": "4505738dcaa5"
   },
   "studio.back-soon": {
     "text": "即將回來",
@@ -4481,6 +4601,10 @@
     "text": "相機 {n}",
     "source": "76ef0b65d44f"
   },
+  "voices-dialog.can-be-added-when-this-computer": {
+    "text": "可在這部電腦連上網路後新增",
+    "source": "030abf4e9f18"
+  },
   "common.can-down": {
     "text": "圓柱：向下",
     "source": "4bbecf421c24"
@@ -4797,6 +4921,10 @@
     "text": "已變更",
     "source": "2a6141e43be0"
   },
+  "locker.changed-since-the-copy-was-made": {
+    "text": "建立複本後已變更的檔案：{files}",
+    "source": "876fd443e1df"
+  },
   "review.changed-count-time": {
     "forms": {
       "other": "已變更 {count} 次。"
@@ -4931,6 +5059,10 @@
     "text": "重新檢查：重新讀取文件",
     "source": "dbd3a19ef2f5"
   },
+  "locker.check-and-remove": {
+    "text": "檢查並移除",
+    "source": "f27f294e584c"
+  },
   "calendar.check-availability": {
     "text": "檢查空閒時間",
     "source": "2071664a583f"
@@ -5010,6 +5142,10 @@
   "ui.proofing.checking-in-language": {
     "text": "正在以 {language} 檢查",
     "source": "35352cdad1d4"
+  },
+  "locker.checking-the-folder-against-its-safety": {
+    "text": "正在將資料夾與其安全複本比對…",
+    "source": "d0208c82b534"
   },
   "mail.rules.checking-this-folder": {
     "text": "正在檢查此資料夾…",
@@ -5098,6 +5234,10 @@
   "mail.archive.choose-a-folder": {
     "text": "選擇資料夾",
     "source": "5c71b8cd7822"
+  },
+  "locker.choose-a-folder-and-restore": {
+    "text": "選擇資料夾並還原…",
+    "source": "ab7346bbfb2a"
   },
   "pdf.choose-a-folder-for-the-files": {
     "text": "選擇存放檔案的資料夾",
@@ -5242,6 +5382,10 @@
   "studio.sources-column.choose-what-to-show": {
     "text": "選擇要顯示的內容",
     "source": "baee168f9101"
+  },
+  "locker.choose-where-to-restore-the-files": {
+    "text": "選擇要還原檔案的位置",
+    "source": "6de9b186eb7a"
   },
   "mail.choose-which-account-to-send-from": {
     "text": "選擇要從哪個帳戶傳送。",
@@ -6426,6 +6570,10 @@
   "slides.costs": {
     "text": "成本",
     "source": "b88fc5fc4765"
+  },
+  "voices-dialog.could-not-be-added": {
+    "text": "無法新增",
+    "source": "1bf82610aa3d"
   },
   "mail.accounts-bulk.could-not-be-set-up": {
     "text": "無法設定",
@@ -8021,6 +8169,10 @@
     "text": "草稿、審核中、已核准",
     "source": "52ebfbb3ae76"
   },
+  "voices-dialog.draft-not-yet-reviewed": {
+    "text": "草稿，尚未校閱",
+    "source": "887d99cb2ec9"
+  },
   "mail.drafts": {
     "text": "草稿",
     "source": "f592e6a4db3c"
@@ -8300,6 +8452,18 @@
   "sheets.words.each-line-is-a-paragraph-of": {
     "text": "每一行都是獨立的段落。按 Ctrl+Enter 即可插入文字。",
     "source": "ba23d84777b1"
+  },
+  "video.spoken.each-line-made-again-from-its": {
+    "text": "立即以此語音和速度，根據文字重新產生每一行",
+    "source": "19a9307c0464"
+  },
+  "studio.spoken-run.each-line-read-aloud-in-turn": {
+    "text": "依序大聲朗讀每一行，播放其語音時顯示在標題中",
+    "source": "82ccf6599ff7"
+  },
+  "video.spoken.each-line-read-aloud-its-words": {
+    "text": "依序大聲朗讀每一行，播放其語音時顯示其文字",
+    "source": "282adc866b4a"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "每個郵件帳戶、行事曆、通訊錄、資料庫與資料夾各有其設定，也會顯示在各自的應用程式中，錄製器 (Recorder) 亦同。在您選擇前，所有項目皆為「關閉」。不會刪除或移動任何內容，任何要傳送的內容都會先在此等候您按下按鈕。",
@@ -9072,6 +9236,10 @@
   "locker.every-file-in-this-folder-is": {
     "text": "此資料夾中的每個檔案都會在原處鎖定。您之後新增的檔案在您鎖定之前都會保持未鎖定。",
     "source": "bf46961f6e33"
+  },
+  "locker.every-file-matched-the-safety-copy": {
+    "text": "所有檔案都相符。已移除安全複本。",
+    "source": "641b821fb375"
   },
   "mail.every-message-waits-this-long-before": {
     "text": "每封郵件在寄出前會等待這段時間，在此之前都可以收回。",
@@ -10261,6 +10429,10 @@
     "text": "字型",
     "source": "3680fcad01f4"
   },
+  "voices-dialog.fonts-and-dictionaries": {
+    "text": "字型和字典",
+    "source": "e7aff9e0d28b"
+  },
   "sheets.ribbon.fonts-the-heading-and-body-faces": {
     "text": "字型：標題與本文字型；目前為 {major} 與 {minor}",
     "source": "8048e40f3f6f"
@@ -10508,6 +10680,10 @@
   "video.forward-a-second": {
     "text": "前進一秒",
     "source": "8c492f4ddac3"
+  },
+  "read-aloud.bar.forward-a-sentence": {
+    "text": "下一句",
+    "source": "b7b09fb5bf3f"
   },
   "studio.setups-menu.found": {
     "text": "已找到",
@@ -10768,6 +10944,10 @@
   "calendar.from-address": {
     "text": "來自 {address}",
     "source": "6d066bb09cc4"
+  },
+  "mail.read-aloud.from-name": {
+    "text": "來自 {name}",
+    "source": "2f4ab5d74ae4"
   },
   "contacts.from-name-not-yet-in-your": {
     "text": "來自 {name}，尚未在您的連絡人中。",
@@ -13115,9 +13295,17 @@
     "text": "它會在原處變成一般檔案，並移除保險箱 (Locker) 為它保留的舊版本。您隨時可以再次鎖定它。",
     "source": "edc5654cc244"
   },
+  "locker.it-cannot-be-checked-or-restored": {
+    "text": "無法檢查或還原它。要移除嗎？",
+    "source": "e9d50f1e317d"
+  },
   "mail.it-goes-to": {
     "text": "將送往：",
     "source": "f7cf347abe06"
+  },
+  "locker.it-has-been-kept-for-n": {
+    "text": "它已保留 {n} 天。確定資料夾能如預期開啟後，再將它移除。",
+    "source": "e9de9f7945ab"
   },
   "calendar.words.it-has-no-free-time-left": {
     "text": "它當天已沒有空閒時間。",
@@ -13131,6 +13319,30 @@
     "text": "它不在您自己的資料夾中：可能是其他人的檔案，或電腦本身的檔案。讀取的內容會進入此資料庫，若此資料庫被轉寄，也會隨之一起傳送。",
     "source": "852e5b1f2f73"
   },
+  "locker.it-is-not-locked-with-your": {
+    "text": "它並未以您的保險箱 (Locker) 密碼鎖定：任何能開啟這個 Office 設定檔的人都能還原它。如果磁碟被拿走，您的 Mac 密碼和這個設定檔的密碼會保護它。確定資料夾能如預期開啟後，請將它移除。",
+    "source": "49ed3008b51b"
+  },
+  "locker.it-is-not-locked-with-your-2": {
+    "text": "它並未以您的保險箱 (Locker) 密碼鎖定：任何能開啟這個 Office 設定檔的人都能還原它。如果磁碟被拿走，您的 Windows 密碼和這個設定檔的密碼會保護它。確定資料夾能如預期開啟後，請將它移除。",
+    "source": "42aaf12f0836"
+  },
+  "locker.it-is-not-locked-with-your-3": {
+    "text": "它並未以您的保險箱 (Locker) 密碼鎖定：任何能開啟這個 Office 設定檔的人都能還原它。如果磁碟被拿走，您金鑰圈的密碼和這個設定檔的密碼會保護它。確定資料夾能如預期開啟後，請將它移除。",
+    "source": "a1d96fbb286c"
+  },
+  "locker.it-is-not-locked-with-your-4": {
+    "text": "它並未以您的保險箱 (Locker) 密碼鎖定：任何登入這個 Mac 帳戶的人都能還原它。如果磁碟被拿走，您的 Mac 密碼會透過鑰匙圈保護它。確定資料夾能如預期開啟後，請將它移除。",
+    "source": "3479d47ec7b8"
+  },
+  "locker.it-is-not-locked-with-your-5": {
+    "text": "它並未以您的保險箱 (Locker) 密碼鎖定：任何登入這個 Windows 帳戶的人都能還原它。如果磁碟被拿走，您的 Windows 密碼會保護它。確定資料夾能如預期開啟後，請將它移除。",
+    "source": "94813052ad1f"
+  },
+  "locker.it-is-not-locked-with-your-6": {
+    "text": "它並未以您的保險箱 (Locker) 密碼鎖定：任何登入這個使用者帳戶的人都能還原它。如果磁碟被拿走，您金鑰圈的密碼會保護它。在大多數電腦上，這就是您登入時使用的密碼。如果您的金鑰圈沒有密碼，就沒有任何保護。確定資料夾能如預期開啟後，請將它移除。",
+    "source": "179e9ee04965"
+  },
   "studio.sources-column.it-is-on-air": {
     "text": "正在播出",
     "source": "668b7b14f675"
@@ -13142,6 +13354,10 @@
   "mail.smime.it-is-shown-as-plain-text": {
     "text": "此郵件以純文字顯示，並略過其中的連結與圖片：未經受信任者簽署的加密郵件，可能在傳送途中遭到竄改，將其內容傳送到其他地方。",
     "source": "a923da16888c"
+  },
+  "locker.it-needs-about-size-and-free": {
+    "text": "需要約 {size}，目前有 {free} 可用空間。",
+    "source": "4b6dd24db2d1"
   },
   "base.people.it-starts-reading-every-table-choose": {
     "text": "一開始可讀取每個資料表；請選擇它可對每個資料表執行的動作。",
@@ -13196,6 +13412,10 @@
   "mail.accounts-bulk.its-mail-servers-are-not-at": {
     "text": "其郵件伺服器不在 {domain}：{hosts}。只有在您同意時，密碼才會傳送給它們。",
     "source": "3fde2d743d72"
+  },
+  "slides.ribbon.its-notes": {
+    "text": "其備忘稿",
+    "source": "a316f96e4b04"
   },
   "mail.smime.its-password": {
     "text": "其密碼",
@@ -13346,6 +13566,10 @@
   "base.links.keep-a-copy-in-this-file": {
     "text": "在此檔案中保留副本",
     "source": "fe129705434e"
+  },
+  "locker.keep-a-safety-copy-until-i": {
+    "text": "保留安全複本，直到我確認一切正常",
+    "source": "ce86e4bea08e"
   },
   "ui.proofing.keep-accessibility-checker-running-while-i": {
     "text": "在我工作時持續執行協助工具檢查程式",
@@ -13901,6 +14125,14 @@
     "text": "離開放映",
     "source": "fdc22af2a38d"
   },
+  "locker.leave-them-closed": {
+    "text": "保持關閉",
+    "source": "e4aee34bbd47"
+  },
+  "locker.leave-them-closed-2": {
+    "text": "要讓它們保持關閉嗎？",
+    "source": "d56f15ff14e6"
+  },
   "locker.leave-them-unlocked-suggested": {
     "text": "保持未鎖定（建議）",
     "source": "0afd256556ff"
@@ -14295,6 +14527,10 @@
     "text": "每行指定要鎖定的內容；以 ! 開頭的行表示例外。沒有任何行時，會鎖定每個檔案。",
     "source": "97f258a60d21"
   },
+  "studio.spoken-run.lines-to-read": {
+    "text": "要朗讀的行",
+    "source": "29f993ec4aae"
+  },
   "common.link": {
     "text": "連結",
     "source": "a6a32dbc5618"
@@ -14511,6 +14747,10 @@
     "text": "鎖定圖層",
     "source": "7dbd5ea70c86"
   },
+  "locker.lock-the-rest-leave-this-one": {
+    "text": "鎖定其餘檔案，此檔案保持未鎖定",
+    "source": "63dac83b4051"
+  },
   "locker.lock-them-again": {
     "text": "再次鎖定",
     "source": "902997963217"
@@ -14522,6 +14762,10 @@
   "video.timeline.lock-this-track": {
     "text": "鎖定此軌道",
     "source": "383db16dbbe6"
+  },
+  "locker.lock-without-a-safety-copy": {
+    "text": "不建立安全複本就鎖定",
+    "source": "e0af1dba19b1"
   },
   "locker.lock-n-here": {
     "text": "在此鎖定 {n} 個",
@@ -14767,6 +15011,10 @@
     "text": "以舊版 PowerPoint 建立：可以閱讀和刪除，但無法回覆。",
     "source": "149c944bbf20"
   },
+  "locker.made-when-of-n-files-size": {
+    "text": "建立於 {when}，包含鎖定前的 {n} 個檔案（{size}）。",
+    "source": "cc7c3e840df2"
+  },
   "image.tools.magic-wand": {
     "text": "魔術棒",
     "source": "4f4839aa83e6"
@@ -14939,9 +15187,17 @@
     "text": "建立您的保險箱",
     "source": "5928f42234d2"
   },
+  "studio.spoken-run.making-line-n-of-count": {
+    "text": "正在產生第 {n} 行，共 {count} 行…",
+    "source": "26fa6bf092a6"
+  },
   "pdf.making-the-file-smaller": {
     "text": "正在讓檔案變小…",
     "source": "01e0d2e35672"
+  },
+  "locker.making-the-safety-copy-then-locking": {
+    "text": "正在建立安全複本，然後鎖定…",
+    "source": "17b3586a056e"
   },
   "slides.export-video.making-the-video-slide-at-of": {
     "text": "正在製作影片：第 {at} 張投影片，共 {of} 張。影片會完整播放整份簡報，因此所需時間與放映時間相同。",
@@ -15517,6 +15773,10 @@
     "text": "選取儲存格時顯示的訊息",
     "source": "bb3d160623af"
   },
+  "mail.message-n-of-count": {
+    "text": "第 {n} 封郵件，共 {count} 封",
+    "source": "496bec00a82a"
+  },
   "mail.archive.message-id": {
     "text": "Message-ID",
     "source": "06a95f89cb88"
@@ -15540,6 +15800,10 @@
   "registry.messages-and-calls-with-your-contacts": {
     "text": "與連絡人之間的訊息與通話",
     "source": "0f1f0c41222b"
+  },
+  "mail.messages-being-read": {
+    "text": "正在朗讀的郵件",
+    "source": "aa86112f1d32"
   },
   "mail.messages-now-send-immediately": {
     "text": "郵件現在會立即寄出",
@@ -16228,6 +16492,10 @@
   "locker.needs-you": {
     "text": "需要您處理",
     "source": "74b6abdf5969"
+  },
+  "spoken.voices.neither-is-on-the-lines-keep": {
+    "text": "兩者皆未開啟：這些行會保留其時間，但看不到也聽不到任何內容。",
+    "source": "e83016a7cfaf"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "在再次成為連絡人之前，雙方都無法傳送訊息給對方或與對方通話。您在此處的訊息已刪除。",
@@ -17029,6 +17297,10 @@
     "text": "無限制",
     "source": "f7fcff0d8fea"
   },
+  "spoken.voices.no-lines-yet-each-line-of": {
+    "text": "尚無文字行：文字的每一行會依序朗讀。",
+    "source": "6c66185b20fc"
+  },
   "talk.invite.no-links-yet": {
     "text": "尚無連結。",
     "source": "8bfd6e671367"
@@ -17313,6 +17585,10 @@
     "text": "尚無檢視。「新增…」可保存活頁簿目前的外觀。",
     "source": "233d8dca900a"
   },
+  "common.no-voice-has-been-added": {
+    "text": "尚未新增語音。",
+    "source": "c163f326bf4d"
+  },
   "shell.no-window-of-this-app-is": {
     "text": "此應用程式沒有隱藏的視窗。",
     "source": "b5a7641a8630"
@@ -17441,6 +17717,10 @@
     "text": "標準模式：以格線顯示工作表",
     "source": "7d6eedd7f7a3"
   },
+  "voices-dialog.not-added": {
+    "text": "未新增",
+    "source": "2460c620beba"
+  },
   "sheets.dialogs.not-an-address-and-not-a": {
     "text": "不是網址，也不是此活頁簿已知的位置。",
     "source": "7f162b5c3025"
@@ -17501,6 +17781,10 @@
     "text": "並非每封邀請都已透過電子郵件寄出。受邀者仍可在通話 (Talk) 中接受，您也可以從已邀請的人員清單中，以其他方式傳送連結給對方。",
     "source": "4336568dd105"
   },
+  "locker.not-everything-matches-the-safety-copy": {
+    "text": "並非所有內容都與安全複本相符。",
+    "source": "0511c2c86d34"
+  },
   "studio.not-found": {
     "text": "找不到",
     "source": "e3ebaa16dd9d"
@@ -17533,6 +17817,10 @@
     "text": "未鎖定",
     "source": "0e9f70fca7bf"
   },
+  "locker.not-locked-in-this-folder-files": {
+    "text": "這個資料夾中未鎖定的檔案：{files}",
+    "source": "da7fd13c706e"
+  },
   "common.not-now": {
     "text": "暫時不要",
     "source": "a0e63d7c7125"
@@ -17550,6 +17838,10 @@
   "base.links.not-read-source-waits-for-you-2": {
     "text": "未讀取：{source} 等候您在這部電腦上允許此資料庫的來源。此處的副本為 {time} 時的狀態。",
     "source": "b6dbe9bb7b1b"
+  },
+  "voices-dialog.not-ready-for-this-version-yet": {
+    "text": "尚未適用於此版本",
+    "source": "02f5f74fdc12"
   },
   "common.not-recorded-yet": {
     "text": "尚未錄製",
@@ -17731,6 +18023,10 @@
     "text": "尚未標記任何內容。",
     "source": "5c3dd15a98d2"
   },
+  "voices-dialog.nothing-is-removed-each-comes-back": {
+    "text": "不會移除任何項目。每一項在其適用於 {version} 的版本就緒後，都會自動恢復。",
+    "source": "48739878031b"
+  },
   "mail.dialogs.nothing-is-sent-anywhere-the-import": {
     "text": "不會將任何內容傳送到任何地方。匯入只會讀取檔案，並只寫入這部電腦。",
     "source": "911c731459ea"
@@ -17798,6 +18094,10 @@
   "word.nothing-to-read-from-here": {
     "text": "從這裡開始沒有可讀取的內容。",
     "source": "3ccd7688183d"
+  },
+  "slides.nothing-to-read-on-this-slide": {
+    "text": "這張投影片上沒有可朗讀的內容。",
+    "source": "44401bddb9d8"
   },
   "word.mailings.nothing-to-show-for-this-record": {
     "text": "此記錄沒有可顯示的內容。",
@@ -17967,9 +18267,21 @@
     "text": "Office 文件",
     "source": "dc7d0a6b33ff"
   },
+  "locker.offices-profile-is-on-a-drive": {
+    "text": "Office 的設定檔位於格式化為 exFAT 或 FAT 的磁碟機上，這種格式不保留權限。如果檔案是從未鎖定的暫存複本開啟（保險箱 (Locker) 會告知您），檔案開啟期間該複本就存放在那裡，任何取得這部磁碟機的人都能讀取。已鎖定的檔案仍會保持鎖定。",
+    "source": "7b0eaf19f91c"
+  },
+  "locker.offices-profile-is-on-a-network": {
+    "text": "Office 的設定檔位於網路共用資料夾上。如果檔案是從未鎖定的暫存複本開啟（保險箱 (Locker) 會告知您），檔案開啟期間該複本就存放在那裡，由伺服器的權限而非 Windows 決定誰能讀取它。已鎖定的檔案仍會保持鎖定。",
+    "source": "8540bcff8ead"
+  },
   "talk.offline": {
     "text": "離線",
     "source": "a1794783aab7"
+  },
+  "voices-dialog.offline-this-is-the-list-that": {
+    "text": "離線：這是此版本隨附的清單。",
+    "source": "29f1cab6ba4d"
   },
   "mail.archive.older-or-newer-than-so-many": {
     "text": "早於或晚於指定的天數 (d)、週數 (w)、月數 (m) 或年數 (y)",
@@ -18059,6 +18371,10 @@
     "text": "在時間軸上",
     "source": "f62c6abeb937"
   },
+  "locker.on-this-mac-only-touch-id": {
+    "text": "僅限這部 Mac。會先要求 Touch ID，其保護的金鑰存放在 Mac 的鑰匙圈中。密碼仍是主要憑證。",
+    "source": "3633db8bfba6"
+  },
   "ai-tools.on-this-computer": {
     "text": "在這部電腦上",
     "source": "e6af7ee2bde2"
@@ -18118,6 +18434,10 @@
   "word.one-flow-on-screen-for-a": {
     "text": "螢幕上以單欄排列，以便使用原生插入點；列印與 PDF 版面則實際分成多欄",
     "source": "33bd0e1b78c3"
+  },
+  "studio.spoken-run.one-line-each-each-is-read": {
+    "text": "每行一句：每一行會依序大聲朗讀",
+    "source": "f1c64f2624f8"
   },
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "每行輸入一行文字。Tab 鍵移至中央，再按一次移至右側。",
@@ -19777,6 +20097,10 @@
     "text": "在放映中播放短片的聲音",
     "source": "97953b6cbcb8"
   },
+  "mail.play-all": {
+    "text": "全部播放",
+    "source": "12e7b8220dc7"
+  },
   "pictures.play-automatically": {
     "text": "自動播放",
     "source": "210dd780da5e"
@@ -19789,9 +20113,21 @@
     "text": "向前播放",
     "source": "18d1c1674140"
   },
+  "spoken.voices.play-the-voice": {
+    "text": "播放語音",
+    "source": "df7413e04bae"
+  },
+  "spoken.voices.play-the-voice-of-this-line": {
+    "text": "播放這一行的語音",
+    "source": "8e0d9567a55d"
+  },
   "video.timeline.play-this-track-alone-solo-the": {
     "text": "單獨播放此軌道（獨奏）：關閉前，同類型的其他軌道都不會播放",
     "source": "734250a377a1"
+  },
+  "mail.play-unread": {
+    "text": "播放未讀取",
+    "source": "ce50e3196418"
   },
   "video.playback": {
     "text": "播放",
@@ -20671,6 +21007,18 @@
     "text": "大聲朗讀",
     "source": "38e07b2a0ca5"
   },
+  "voices-dialog.read-aloud-uses-the-windows-voice": {
+    "text": "大聲朗讀使用 Windows 語音。",
+    "source": "7a16d7891be8"
+  },
+  "pdf.read-aloud-the-words-of-the": {
+    "text": "大聲朗讀：從這一頁開始朗讀頁面中的文字，一次一句",
+    "source": "3e998b88dc26"
+  },
+  "slides.ribbon.read-aloud-the-words-on-this": {
+    "text": "大聲朗讀：朗讀這張投影片上的文字、其備忘稿或兩者，一次一句",
+    "source": "0bb5b920c262"
+  },
   "word.ribbon.read-mode": {
     "text": "閱讀模式",
     "source": "b717f7f3eb53"
@@ -20715,6 +21063,10 @@
     "text": "手動讀取",
     "source": "c1b4b3d1e6f2"
   },
+  "mail.read-every-message-in-the-list": {
+    "text": "依清單順序大聲朗讀清單中的每封郵件。由篩選或搜尋決定朗讀哪些郵件。每封郵件朗讀到結尾後，會標示為已讀取。",
+    "source": "4a502a868214"
+  },
   "base.sources.read-from": {
     "text": "讀取來源",
     "source": "26da1ae26f48"
@@ -20751,13 +21103,37 @@
     "text": "已讀或未讀、加星號與否",
     "source": "24569a47b7d9"
   },
+  "video.spoken.read-the-lines-aloud": {
+    "text": "大聲朗讀文字行",
+    "source": "1a13c198d37e"
+  },
   "word.ribbon.read-the-document-aloud-from-the": {
     "text": "從插入點開始大聲朗讀文件",
     "source": "4ac22f8793e2"
   },
+  "studio.spoken-run.read-the-lines": {
+    "text": "朗讀各行",
+    "source": "458b26677813"
+  },
+  "video.spoken.read-the-lines-onto-the-timeline": {
+    "text": "將各行朗讀到時間軸上",
+    "source": "544b9d825bea"
+  },
+  "mail.read-the-open-message-aloud-who": {
+    "text": "大聲朗讀開啟的郵件：寄件者、主旨，然後是內文",
+    "source": "74364f657863"
+  },
+  "mail.read-the-unread-messages-in-the": {
+    "text": "依清單順序大聲朗讀清單中的未讀取郵件。每封郵件朗讀到結尾後，會標示為已讀取。",
+    "source": "dff6be303eab"
+  },
   "base.links.read-what-changed-by-field": {
     "text": "依 {field} 讀取有變更的部分",
     "source": "2280ed08e4c6"
+  },
+  "video.spoken.read-while-recording-the-voice-is": {
+    "text": "錄製時朗讀：語音已包含在錄製內容本身的聲音中。",
+    "source": "18def8f54c5b"
   },
   "base.links.read-every": {
     "text": "{every} 讀取",
@@ -20787,6 +21163,10 @@
     "text": "讀取會讓 {host} 知道此資料庫已開啟，以及從何處開啟。",
     "source": "40c581613d93"
   },
+  "common.reading-line-n-of-count": {
+    "text": "正在朗讀第 {n} 行，共 {count} 行",
+    "source": "0bdc94419bf9"
+  },
   "pdf.ocr.reading-page-page-of-count": {
     "text": "正在讀取第 {page} 頁，共 {count} 頁…",
     "source": "98a0e1804ad8"
@@ -20794,6 +21174,10 @@
   "mail.reading-pane": {
     "text": "讀取窗格",
     "source": "dde5ae89d4de"
+  },
+  "mail.reading-stopped-the-voice-did-not": {
+    "text": "朗讀已停止：語音未朗讀這封郵件。",
+    "source": "edb70b11e6c0"
   },
   "word.envelopes.reading-the-address-book": {
     "text": "正在讀取通訊錄…",
@@ -21519,6 +21903,10 @@
     "text": "移除帳戶…",
     "source": "f6c7b21aa0c2"
   },
+  "locker.remove-anyway": {
+    "text": "仍要移除",
+    "source": "ec52bdc0ffac"
+  },
   "word.mailings.remove-duplicates-untick-count-record-that": {
     "forms": {
       "other": "移除重複項：取消勾選 {count} 筆與先前記錄逐欄相同的記錄"
@@ -21612,6 +22000,22 @@
   "base.remove-the-relationship": {
     "text": "移除關聯",
     "source": "7f945c0384ab"
+  },
+  "locker.remove-the-safety-copy-now": {
+    "text": "要立即移除安全複本嗎？",
+    "source": "e026c125fde8"
+  },
+  "locker.remove-the-safety-copy-of-name": {
+    "text": "要移除 {name} 的安全複本嗎？",
+    "source": "25b045f799d0"
+  },
+  "locker.remove-the-safety-copy": {
+    "text": "移除安全複本…",
+    "source": "6474685cf9bd"
+  },
+  "voices-dialog.remove-the-voices-and-languages-added": {
+    "text": "也要移除新增到 Rutba Office 的語音和語言嗎？",
+    "source": "95f84db40a88"
   },
   "locker.remove-them-suggested": {
     "text": "移除它們（建議）",
@@ -21786,6 +22190,14 @@
   "sheets.reopen": {
     "text": "重新開啟",
     "source": "a886d1dc4f12"
+  },
+  "locker.reopen-the-files-that-were-open": {
+    "text": "重新開啟先前開啟的檔案",
+    "source": "e072693459a5"
+  },
+  "locker.reopen-them": {
+    "text": "重新開啟",
+    "source": "0c8ec1c4dc3d"
   },
   "slides.comments.reopen-this-thread": {
     "text": "重新開啟此對話串",
@@ -22121,9 +22533,29 @@
     "text": "重新啟動即可立即更新。若繼續工作，更新會在您結束時安裝。",
     "source": "6dceb7683e70"
   },
+  "voices-dialog.restarting-closes-every-window-and-these": {
+    "text": "重新啟動會關閉所有視窗，而這些視窗有尚未儲存的變更。請儲存或關閉這些視窗，然後再重新啟動一次。目前未關閉任何視窗。",
+    "source": "b8d3a411d920"
+  },
   "ui.restore": {
     "text": "還原",
     "source": "a76e13b98392"
+  },
+  "locker.restore-a-copy": {
+    "text": "還原複本…",
+    "source": "0b791c6c1552"
+  },
+  "locker.restore-from-the-safety-copy": {
+    "text": "從安全複本還原",
+    "source": "2ba736545122"
+  },
+  "locker.restore-from-the-safety-copy-2": {
+    "text": "從安全複本還原…",
+    "source": "53572e4e1540"
+  },
+  "locker.restoring": {
+    "text": "正在還原…",
+    "source": "5a4918e0201c"
   },
   "word.restrict-editing": {
     "text": "限制編輯",
@@ -22224,6 +22656,10 @@
   "sheets.review-show-comments-lists-them": {
     "text": "「校閱 → 顯示註解」會列出這些註解",
     "source": "3a019cace7ae"
+  },
+  "voices-dialog.reviewed": {
+    "text": "已校閱",
+    "source": "fad6057bb540"
   },
   "common.reviewing-pane": {
     "text": "校閱窗格",
@@ -22765,6 +23201,14 @@
     "text": "Rutba Office 目前無法開啟 {v1} 檔案。",
     "source": "cecfdddc878c"
   },
+  "voices-dialog.rutba-office-in-the-languages-this": {
+    "text": "以這部電腦使用的語言顯示 Rutba Office。",
+    "source": "f639c2bab1a0"
+  },
+  "voices-dialog.rutba-office-in-your-languages": {
+    "text": "以您的語言使用 Rutba Office",
+    "source": "92aee8ac863e"
+  },
   "shell.rutba-office-is-now-version": {
     "text": "Rutba Office 已更新為 {version}",
     "source": "8b27b11cf0c8"
@@ -22793,9 +23237,21 @@
     "text": "Rutba Office {version} 已下載。重新啟動即可更新，否則會在您結束時安裝",
     "source": "ef28bb66ae1a"
   },
+  "voices-dialog.rutba-office-version-is-out-but": {
+    "text": "Rutba Office {version} 已推出，但無法檢查您的語音和語言是否適用於該版本。將在下次檢查時再次詢問。",
+    "source": "1f9d9dab508d"
+  },
+  "voices-dialog.rutba-office-version-is-out-it": {
+    "text": "Rutba Office {version} 已推出。以下項目就緒後即會提供：{list}。",
+    "source": "2e1d40855fff"
+  },
   "shell.rutba-office-version-is-ready-to": {
     "text": "Rutba Office {version} 已可安裝",
     "source": "9f8e0a323b51"
+  },
+  "voices-dialog.rutba-office-version-no-longer-has": {
+    "text": "Rutba Office {version} 不再包含 {name}（{kind}）。它會留在這部電腦上且不會使用，直到您將其移除。",
+    "source": "ca36731ad5da"
   },
   "engine.rutba-office-no-backend-for-ns": {
     "text": "Rutba Office：{ns}:{name} 沒有後端",
@@ -22888,6 +23344,18 @@
   "talk.safety-code-code-if-name-sees": {
     "text": "安全碼 {code}：如果 {name} 看到的也一樣，就表示沒有人在竊聽。",
     "source": "b70afef2b0dd"
+  },
+  "locker.safety-copies": {
+    "text": "安全複本",
+    "source": "7735ad244a59"
+  },
+  "locker.safety-copies-are-not-offered-on": {
+    "text": "這部電腦不提供安全複本，因為沒有可存放其金鑰的金鑰圈。資料夾仍會照常鎖定。",
+    "source": "1b386c96ddee"
+  },
+  "locker.safety-copy": {
+    "text": "安全複本",
+    "source": "966a48379b73"
   },
   "mail.safety.safety-is-off-for-this-message": {
     "text": "此郵件的安全防護已關閉：可複製連結與圖片，並儲存附件。下一封郵件開啟時會重新開啟安全防護。",
@@ -23200,6 +23668,14 @@
   "studio.scene-strip.save-what-the-frame-shows-as": {
     "text": "將畫面目前顯示的內容另存為新場景",
     "source": "04d539ee1ba5"
+  },
+  "english-switch.save-your-changes-first-this-window": {
+    "text": "請先儲存您的變更：這個視窗再次開啟時會以英文顯示。從現在起開啟的視窗都會以英文顯示。",
+    "source": "158d4e0c44ec"
+  },
+  "voices-dialog.save-your-work-before-restarting": {
+    "text": "重新啟動前請先儲存您的工作",
+    "source": "9f0e25526a5b"
   },
   "update-restart.save-your-work-before-updating": {
     "text": "更新前請先儲存您的工作",
@@ -24197,6 +24673,10 @@
     "text": "句首字母大寫。",
     "source": "e3033f08f2d4"
   },
+  "read-aloud.bar.sentence-n-of-count": {
+    "text": "第 {n} 句，共 {count} 句",
+    "source": "31e0c4c7d350"
+  },
   "word.ribbon.separated-by-commas": {
     "text": "以逗號分隔",
     "source": "1d7e4e1cdf8b"
@@ -24823,6 +25303,10 @@
     "text": "顯示列與欄標題",
     "source": "4f7b9dcce409"
   },
+  "spoken.voices.show-the-text": {
+    "text": "顯示文字",
+    "source": "0766a87f94ec"
+  },
   "sheets.dialogs.show-them-as": {
     "text": "顯示為",
     "source": "6380dba9f992"
@@ -24838,6 +25322,10 @@
   "video.timeline.show-this-track": {
     "text": "顯示此軌道",
     "source": "f562671c6f31"
+  },
+  "english-switch.show-this-window-in-english": {
+    "text": "以英文顯示這個視窗",
+    "source": "966d8fef25b8"
   },
   "slides.setup.show-type": {
     "text": "放映類型",
@@ -25659,6 +26147,10 @@
     "text": "音訊片段",
     "source": "556f55adc8bd"
   },
+  "studio.spoken-run.sound-is-not-on-so-the": {
+    "text": "音訊未開啟，因此錄製內容和串流中都沒有語音。",
+    "source": "73e5029c4133"
+  },
   "video.meter.sound-level": {
     "text": "音量",
     "source": "03f228955745"
@@ -25763,9 +26255,21 @@
     "text": "對話泡泡",
     "source": "210563626614"
   },
+  "voices-dialog.speech-engine-and-models": {
+    "text": "語音引擎和模型",
+    "source": "023dc910442d"
+  },
+  "voices-dialog.speech-is-made-on-this-computer": {
+    "text": "語音在這部電腦上產生。朗讀的內容絕不會離開這部電腦。",
+    "source": "020d7947bc15"
+  },
   "word.speech-is-not-available-on-this": {
     "text": "此系統無法使用語音功能。",
     "source": "52e87276a561"
+  },
+  "voices-dialog.speech-will-use-the-windows-voice": {
+    "text": "在適用於 {version} 的語音引擎就緒之前，語音會使用 Windows 語音。",
+    "source": "7f1dd8870ffa"
   },
   "video.speed": {
     "text": "速度",
@@ -25892,6 +26396,14 @@
   "pdf.split-this-pdf-into-several-files": {
     "text": "分割：依頁數或在所選頁面處，將此 PDF 分割為多個檔案",
     "source": "ed6df15df737"
+  },
+  "video.spoken.spoken-lines": {
+    "text": "朗讀文字行",
+    "source": "9b4ca87c5e21"
+  },
+  "common.spoken-lines": {
+    "text": "朗讀文字行",
+    "source": "b6fcaf71e96b"
   },
   "slides.spring-2026": {
     "text": "2026 年春季",
@@ -26237,6 +26749,10 @@
     "text": "停止單獨播放此軌道",
     "source": "0a0cba583153"
   },
+  "common.stop-reading": {
+    "text": "停止朗讀",
+    "source": "78be99f18a5c"
+  },
   "shell.ipc.stop-recording": {
     "text": "停止錄製",
     "source": "3d591e826d54"
@@ -26408,6 +26924,10 @@
   "mail.subject-a-word-in-the-subject": {
     "text": "主旨：主旨中的某個字",
     "source": "ffb836da7f7a"
+  },
+  "mail.read-aloud.subject-subject": {
+    "text": "主旨：{subject}",
+    "source": "71de3761a2b3"
   },
   "common.subscript": {
     "text": "下標",
@@ -26592,6 +27112,10 @@
   "dav-accounts.syncing": {
     "text": "正在同步…",
     "source": "8a046cc90ab0"
+  },
+  "read-aloud.bar.system-voice": {
+    "text": "系統語音",
+    "source": "2d3d23392b00"
   },
   "image.formats.tiff-keeps-every-pixel-for-print": {
     "text": "TIFF 會保留每個像素，適合列印和掃描。",
@@ -27535,6 +28059,10 @@
     "text": "資料檔案 (Data Files) 複本需要自己的檔案。請選擇其他名稱或資料夾。",
     "source": "b7ddf45551bf"
   },
+  "locker.the-locker-first-reads-back-every": {
+    "text": "保險箱 (Locker) 會先讀回此資料夾中複本的每個檔案，並檢查是否相符。如有任何不符，會在移除任何項目前先告知您。",
+    "source": "158bfd3254fc"
+  },
   "home.the-office-apps-are-on-add": {
     "text": "已開啟 Office 應用程式。您可以隨時新增通話 (Talk)、資料檔案 (Data Files) 和 Studio 應用程式，並關閉不使用的應用程式。",
     "source": "328297894902"
@@ -27554,6 +28082,10 @@
   "sheets.ribbon.the-worksheets-guide-on-office-rutba": {
     "text": "office.rutba.io 上的工作表指南",
     "source": "de05c2d52be3"
+  },
+  "read-aloud.reader.the-added-voice-stopped-working-so": {
+    "text": "新增的語音已停止運作，因此其餘內容會以系統語音朗讀。",
+    "source": "f0f998b2a82a"
   },
   "word.mailings.the-address-book-is-empty-add": {
     "text": "通訊錄是空的。請先在連絡人中新增人員，或輸入新清單。",
@@ -27877,6 +28409,10 @@
     "text": "檔案本身未加密：角色在 Rutba Office 中有效，但任何複製此檔案的人都能用其他程式讀取它。",
     "source": "76fbda0ec679"
   },
+  "locker.the-files-are-restored": {
+    "text": "檔案已還原",
+    "source": "f7002961aa52"
+  },
   "mail.dialogs.the-filter-has-learned-from-junk": {
     "text": "篩選器已從 {junk} 封垃圾郵件與 {good} 封正常郵件學習，在每種各看過 {minimum} 封之前不會進行任何判斷。請將郵件標示為「垃圾郵件」與「非垃圾郵件」，或從現有的郵件學習。",
     "source": "1a734aca4f49"
@@ -27888,6 +28424,14 @@
   "sheets.queries.the-first-characters-of-column": {
     "text": "「{column}」的前幾個字元",
     "source": "b944f22738f2"
+  },
+  "video.the-first-try-came-out-with": {
+    "text": "第一次嘗試產生的結果沒有畫面，因此已重新開始匯出。",
+    "source": "af1e9fb70b7f"
+  },
+  "slides.export-video.the-first-try-came-out-with": {
+    "text": "第一次嘗試產生的結果沒有畫面，因此正在重新製作影片：第 {at} 張投影片，共 {of} 張。",
+    "source": "7132b0853b65"
   },
   "pictures.batch.the-first-will-be-example": {
     "text": "第一個將是 {example}",
@@ -27961,6 +28505,10 @@
     "text": "金鑰保存在這部電腦受保護的存放區，絕不會存於檔案中，且僅用於此網址。",
     "source": "73f082cb751d"
   },
+  "read-aloud.bar.the-language-being-read": {
+    "text": "正在朗讀的語言",
+    "source": "a6d60dec8ea7"
+  },
   "engine.the-last-calendar-stays-delete-its": {
     "text": "最後一個行事曆必須保留；請改為刪除其活動。",
     "source": "d68b7964c865"
@@ -27985,9 +28533,17 @@
     "text": "圖層的文字",
     "source": "f53bac890188"
   },
+  "common.the-line-could-not-be-read": {
+    "text": "無法朗讀這一行：{reason}",
+    "source": "1ef63f69f2ff"
+  },
   "base.forms.the-line-is-deleted-from-table": {
     "text": "將從 {table} 刪除此明細，且無法復原。",
     "source": "9d1b5f1408ba"
+  },
+  "common.the-lines-could-not-be-read": {
+    "text": "無法大聲朗讀這些行：{reason}",
+    "source": "80512771ce16"
   },
   "mail.the-link-could-not-be-opened": {
     "text": "無法開啟連結：{reason}",
@@ -28020,6 +28576,10 @@
   "sheets.dialogs.the-list-has-a-heading-row": {
     "text": "清單有標題列：標題列固定在頂端，其標題即為各欄的名稱。",
     "source": "6e64ba31d8bb"
+  },
+  "voices-dialog.the-list-of-voices-and-languages": {
+    "text": "無法讀取語音和語言清單。下方已新增的項目仍可使用；請在這部電腦連上網路後再試一次。",
+    "source": "1395fe37df4d"
   },
   "engine.the-list-range-needs-a-header": {
     "text": "清單範圍需要標題列，且其下方至少有一列",
@@ -28127,6 +28687,10 @@
     "text": "該郵件",
     "source": "3f7b4597bf02"
   },
+  "mail.the-message-before": {
+    "text": "上一封郵件",
+    "source": "8c3f352f34a9"
+  },
   "mail.safety.the-message-exactly-as-it-came": {
     "text": "與從伺服器收到時完全相同的郵件，{size}。",
     "source": "d6fe543dcfc3"
@@ -28218,6 +28782,10 @@
   "slides.slide-size.the-new-size-is-smaller-one": {
     "text": "新的大小在其中一個方向上較小。「最大化」會讓內容保持原本大小，因此部分內容可能超出邊緣；「確保最適大小」則會縮小內容，讓所有內容都留在投影片上。",
     "source": "484d93d5e8bd"
+  },
+  "mail.the-next-message": {
+    "text": "下一封郵件",
+    "source": "698b6714b353"
   },
   "sheets.dialogs.the-note-on-cell": {
     "text": "{cell} 上的附註",
@@ -28529,6 +29097,26 @@
     "text": "這些列會從選取的儲存格 {cell} 開始插入，日期以日期、金額以數字格式插入。",
     "source": "968e3afd6474"
   },
+  "locker.the-safety-copy-holds-them-as": {
+    "text": "安全複本保存著這些檔案先前的狀態。仍要移除嗎？",
+    "source": "160f184b5815"
+  },
+  "locker.the-safety-copy-is-kept-restore": {
+    "text": "已保留安全複本。還原其複本即可取回這些檔案：{files}",
+    "source": "71e4b43c7ac5"
+  },
+  "locker.the-safety-copy-is-removed": {
+    "text": "安全複本已移除。",
+    "source": "3dac7e4034fb"
+  },
+  "locker.the-safety-copy-of-name-has": {
+    "text": "{name} 的安全複本已保留 {n} 天。它並未以您的保險箱 (Locker) 密碼鎖定。如果資料夾能如預期開啟，保險箱會將它與複本比對，然後移除複本。",
+    "source": "889c6b02d3a9"
+  },
+  "locker.the-safety-copy-of-name-was": {
+    "text": "{name} 的安全複本建立於 {when}。其 {n} 個檔案會以未鎖定的形式寫入您所選資料夾內的新資料夾中。不會變更其中原有的任何內容。",
+    "source": "a34f0ed2f93a"
+  },
   "locker.the-same-password-again": {
     "text": "再次輸入相同的密碼",
     "source": "cfd750367fe1"
@@ -28699,6 +29287,10 @@
     "text": "以圖層顯示投影片的圖案：選取、重新排序、隱藏、重新命名",
     "source": "e96347e19582"
   },
+  "slides.ribbon.the-slide-then-its-notes": {
+    "text": "先投影片，再備忘稿",
+    "source": "ae28e25489b7"
+  },
   "pdf.export.the-smaller-pdf-is-saved-as": {
     "text": "較小的 PDF 已另存為新檔案；此檔案不會變更。它現在為 {size}。",
     "source": "6442a2655dcc"
@@ -28799,6 +29391,10 @@
     "text": "標題位於中間，文字在其下方",
     "source": "036bb5d5a882"
   },
+  "studio.spoken-run.the-title-is-not-on-the": {
+    "text": "標題不在畫面中：顯示標題後，朗讀時各行會出現在其中。",
+    "source": "e190969a20ad"
+  },
   "review.the-title-of-slide-number": {
     "text": "投影片 {number} 的標題：",
     "source": "7f83a0913d67"
@@ -28819,6 +29415,10 @@
     "text": "兩次輸入的密碼不一致。",
     "source": "bb612d83804d"
   },
+  "locker.the-unsaved-changes-in-files-are": {
+    "text": "{files} 中未儲存的變更會被永久移除。此動作無法復原。",
+    "source": "90213c3ea342"
+  },
   "slides.export-video.the-video-could-not-be-made": {
     "text": "無法製作影片：{reason}",
     "source": "a10d92beb052"
@@ -28830,6 +29430,14 @@
   "video.library.the-videos-sound-and-pictures-in": {
     "text": "此專案中的影片、聲音與圖片都保存在這裡，以便再次新增。",
     "source": "4075715096b2"
+  },
+  "spoken.voices.the-voice-gave-no-sound-for": {
+    "text": "這一行的語音沒有發出聲音。",
+    "source": "53613e120fbf"
+  },
+  "spoken.voices.the-voice-was-stopped-before-this": {
+    "text": "語音在這一行產生前已被停止。",
+    "source": "72955eafea09"
   },
   "video.export.the-whole-project": {
     "text": "整個專案",
@@ -28989,6 +29597,14 @@
     "text": "沒有可縮放的投影片。",
     "source": "f7a8b80bbbe3"
   },
+  "mail.there-are-no-unread-messages-in": {
+    "text": "清單中沒有可朗讀的未讀取郵件。",
+    "source": "16ae6324c70a"
+  },
+  "pdf.there-are-no-words-to-read": {
+    "text": "無法從這一頁讀取任何文字。掃描的頁面在「辨識文字」找出其文字後即可朗讀。",
+    "source": "e6a37e9e16ec"
+  },
   "mail.there-is-a-folder-called-name": {
     "text": "那裡已有名為 {name} 的資料夾。",
     "source": "a6b783d2a832"
@@ -29036,6 +29652,10 @@
   "engine.there-is-no-mail-account-to": {
     "text": "沒有可用來傳送的郵件帳戶。請在郵件的「帳戶」中新增。",
     "source": "4ac6eb1ff640"
+  },
+  "mail.there-is-no-message-to-read": {
+    "text": "沒有可朗讀的郵件。",
+    "source": "1688457587f5"
   },
   "sheets.queries.there-is-no-other-table-or": {
     "text": "此活頁簿中沒有其他可附加的表格或查詢。",
@@ -29109,6 +29729,10 @@
     "text": "沒有名為「{name}」的工作表",
     "source": "6c1e04a0ddb0"
   },
+  "locker.there-is-not-enough-room-for": {
+    "text": "存放 Office 資料夾的磁碟機空間不足，無法建立安全複本。請騰出空間，或不建立複本直接鎖定。",
+    "source": "2cc98cc7e17b"
+  },
   "studio.window.there-is-not-enough-space-on": {
     "text": "磁碟空間不足，無法錄製。",
     "source": "31dd575ea898"
@@ -29169,6 +29793,14 @@
     "text": "這些儲存格屬於垂直合併的一部分。加寬其中一列會破壞該範圍。",
     "source": "75122648d3df"
   },
+  "voices-dialog.these-come-by-themselves-with-the": {
+    "text": "新增第一個語音時，這些項目會自動隨附。",
+    "source": "12cf80348807"
+  },
+  "locker.these-files-are-not-locked-the": {
+    "text": "這些檔案未鎖定。安全複本會一直保留，直到您將其移除。",
+    "source": "f75acf6c6eae"
+  },
   "mail.dialogs.these-settings-came-from-source-on": {
     "text": "這些設定來自這部電腦上的 {source}；地址輸入完整時會檢查這些設定。",
     "source": "22565709a102"
@@ -29208,6 +29840,10 @@
   "talk.invite.they-see-your-name-and-your": {
     "text": "對方會看到您的名稱與附註，接受後即成為連絡人。不會告知任何人某個地址是否有帳戶。",
     "source": "7d8559a730ab"
+  },
+  "voices-dialog.they-take-size-on-this-computer": {
+    "text": "它們在這部電腦上佔用 {size}。如果您還會再次安裝 Rutba Office，請保留它們。",
+    "source": "d55522046f72"
   },
   "profiles.they-were-saved-in-another-profile": {
     "text": "這些密碼儲存在其他設定檔中並複製到此處，因此無法在此設定檔中讀取。",
@@ -29397,9 +30033,21 @@
     "text": "這部電腦沒有用於儲存密碼的受保護存放區，而此設定檔也沒有密碼，因此無法安全地保存這些密碼。",
     "source": "423cb156a6ae"
   },
+  "voices-dialog.this-computer-is-offline-the-language": {
+    "forms": {
+      "other": "這部電腦目前離線：連上網路後就會新增語言。也可以在「語音和語言」中從檔案新增語言。"
+    },
+    "source": "c87bafdc6eef"
+  },
   "common.this-computer-only": {
     "text": "僅限這部電腦",
     "source": "601b7ae9d3a9"
+  },
+  "voices-dialog.this-computer-uses-languages-add-it": {
+    "forms": {
+      "other": "這部電腦使用 {languages}。新增後，請在 Rutba Office 重新啟動後從語言功能表中選擇。"
+    },
+    "source": "ecb007a426ac"
   },
   "common.this-content-control-cannot-be-edited": {
     "text": "無法編輯此內容控制項：其內容已鎖定。",
@@ -29408,6 +30056,10 @@
   "packs-dialog.this-copy-is-installed-for-everyone": {
     "text": "此複本已為這部電腦上的所有人安裝，因此重新啟動時，Windows 會要求權限。",
     "source": "c2546a3ab80f"
+  },
+  "voices-dialog.this-copy-of-rutba-office-has": {
+    "text": "這份 Rutba Office 複本沒有附加元件資料夾：語音和語言須新增到已安裝的複本。",
+    "source": "e81b8c5038b2"
   },
   "base.links.this-database-has-no-tables-this": {
     "text": "此資料庫沒有此帳戶可看到的資料表。",
@@ -29549,6 +30201,14 @@
     "text": "此檔案沒有 PDF 閱讀程式可找到的物件。",
     "source": "f617f38c26b0"
   },
+  "voices-dialog.this-file-is-not-an-add": {
+    "text": "這個檔案不是附加元件：其中應包含一個附加元件及其資料夾。",
+    "source": "162cbe64b392"
+  },
+  "voices-dialog.this-file-is-not-an-add-2": {
+    "text": "這個檔案不是附加元件：請開啟隨 Rutba Office 附加元件發佈的 .zip 檔案。",
+    "source": "5341e30294dc"
+  },
   "mail.this-file-was-imported-before-into": {
     "text": "此檔案之前已匯入同一個信箱：已新增 {messages}",
     "source": "ce0670a06a68"
@@ -29584,6 +30244,10 @@
   "locker.this-folder-is-in-cloud-which": {
     "text": "此資料夾位於 {cloud} 中，它會保留每個檔案的舊版本。鎖定後，這些舊的一般版本仍會留在那裡；請在 {cloud} 的版本歷程記錄中清除它們。",
     "source": "aa002b0574ae"
+  },
+  "locker.this-folder-is-no-longer-in": {
+    "text": "這個資料夾已不在保險箱 (Locker) 中，因此沒有可與複本比對的內容。複本會被覆寫並移除。此動作無法復原。",
+    "source": "016e4d7f2c7a"
   },
   "mail.this-folder-search-only-the-folder": {
     "text": "此資料夾：僅搜尋目前開啟的資料夾",
@@ -29710,6 +30374,10 @@
   "calendar.words.this-meeting-is-cancelled-a-calendar": {
     "text": "此會議已取消。行事曆程式會依附件將其從行事曆中移除。",
     "source": "6e9c1888a881"
+  },
+  "mail.this-message-could-not-be-opened": {
+    "text": "無法開啟這封郵件",
+    "source": "b127fbc71257"
   },
   "mail.this-message-does-not-offer-one": {
     "text": "此郵件未提供一鍵取消訂閱。",
@@ -29883,6 +30551,10 @@
     "text": "此列的高度（公分，最小值）",
     "source": "319ca80981b6"
   },
+  "locker.this-safety-copy-cannot-be-opened": {
+    "text": "這份安全複本已無法再開啟。",
+    "source": "ed6f50924749"
+  },
   "studio.prompter.this-scene-has-no-script-write": {
     "text": "此場景沒有腳本。在其卡片中撰寫腳本後，錄製時就會在此捲動顯示。",
     "source": "90458537f0d7"
@@ -29927,6 +30599,10 @@
     "text": "此交叉分析篩選器無法篩選：{reason}。",
     "source": "470dd67603bd"
   },
+  "slides.ribbon.this-slide": {
+    "text": "這張投影片",
+    "source": "fd792ae48d11"
+  },
   "slides.this-slide-has-a-transition": {
     "text": "此投影片有轉換",
     "source": "8dfb23fea55e"
@@ -29946,6 +30622,10 @@
   "slides.this-slide-has-no-narration-to-2": {
     "text": "此投影片沒有可播放的旁白。",
     "source": "d3b95fdaa7a3"
+  },
+  "slides.this-slide-has-no-notes-to": {
+    "text": "這張投影片沒有可朗讀的備忘稿。",
+    "source": "fbc4abc343b4"
   },
   "slides.this-slide-is-in-no-section": {
     "text": "此投影片不在任何章節中。",
@@ -30043,6 +30723,10 @@
     "text": "僅在這部電腦上的此 Office 開啟時有效。關閉期間，郵件會留在會議室的收件匣中，並在 Office 下次開啟時回覆。",
     "source": "396d5e19ba5f"
   },
+  "locker.this-works-without-your-password-because": {
+    "text": "不需要您的密碼也能執行，因為安全複本並未以密碼鎖定。",
+    "source": "8c1c3f8ccd58"
+  },
   "mail.this-year": {
     "text": "今年",
     "source": "98597183c8c6"
@@ -30118,6 +30802,10 @@
   "apps-choice.tick-the-apps-to-install-an": {
     "text": "勾選要安裝的應用程式。未勾選的應用程式完全不會安裝到這部電腦上；之後可從 Rutba Office 的「新增或移除應用程式」新增。",
     "source": "b2f0ee1b966a"
+  },
+  "voices-dialog.tick-the-languages-to-add-they": {
+    "text": "勾選要新增的語言。Rutba Office 在這部電腦連上網路時首次啟動，就會新增這些語言。之後可隨時在「語音和語言」中新增或移除任何語言。",
+    "source": "78199a576b7f"
   },
   "base.people.ticked-ones-are-shown-any-that": {
     "text": "會顯示勾選的項目。位於該角色無法查看之資料表上的項目，無論如何都會對其隱藏。",
@@ -30681,6 +31369,10 @@
     "text": "請嘗試其他搜尋。",
     "source": "2e6d79de50dc"
   },
+  "voices-dialog.try-again": {
+    "text": "再試一次",
+    "source": "d8b8392e2c54"
+  },
   "template-gallery.try-other-words": {
     "text": "請試試其他字詞。",
     "source": "2a5ed12cfe24"
@@ -30737,9 +31429,17 @@
     "text": "關閉",
     "source": "06f0e210b27d"
   },
+  "locker.turn-off-touch-id": {
+    "text": "關閉 Touch ID",
+    "source": "d94fb9a255da"
+  },
   "locker.turn-off-windows-hello": {
     "text": "關閉 Windows Hello",
     "source": "52ba933205f0"
+  },
+  "locker.turn-on-touch-id": {
+    "text": "開啟 Touch ID",
+    "source": "0269040c7172"
   },
   "locker.turn-on-windows-hello": {
     "text": "開啟 Windows Hello",
@@ -30772,6 +31472,10 @@
   "pictures.turned-and-saved": {
     "text": "已旋轉並儲存。",
     "source": "0901e7acee0c"
+  },
+  "voices-dialog.turned-off-withdrawn-by-its-makers": {
+    "text": "已關閉：已被製作者撤回",
+    "source": "14e4c1da3583"
   },
   "colour.names.turquoise": {
     "text": "青綠色",
@@ -31305,6 +32009,14 @@
     "text": "更新所有公式",
     "source": "f703ab807d7f"
   },
+  "voices-dialog.update-anyway": {
+    "text": "仍要更新",
+    "source": "d94343f8f050"
+  },
+  "voices-dialog.update-anyway-2": {
+    "text": "仍要更新…",
+    "source": "04def120ea4d"
+  },
   "slides.update-automatically": {
     "text": "自動更新",
     "source": "9e946306e543"
@@ -31320,6 +32032,10 @@
   "base.update-the-design": {
     "text": "更新設計",
     "source": "884bcfa32789"
+  },
+  "voices-dialog.update-to-version-anyway": {
+    "text": "仍要更新至 {version} 嗎？",
+    "source": "469633528dc3"
   },
   "word.ribbon.update-style-to-match-selection": {
     "text": "更新 {style} 以符合選取範圍",
@@ -31402,6 +32118,10 @@
   "slides.ribbon.use-timings-slides-with-a-timing": {
     "text": "使用計時：有計時的投影片會自動換頁；關閉時，只有在您操作時放映才會換頁",
     "source": "f5f90fd03124"
+  },
+  "locker.use-touch-id": {
+    "text": "使用 Touch ID",
+    "source": "8d8ec25a6ea8"
   },
   "locker.use-windows-hello-pin-fingerprint-or": {
     "text": "使用 Windows Hello（PIN、指紋或臉部）",
@@ -31731,6 +32451,18 @@
     "text": "語音",
     "source": "87bf2bc08589"
   },
+  "voices-dialog.voices": {
+    "text": "語音",
+    "source": "8ead6df9cd69"
+  },
+  "voices-dialog.voices-and-languages": {
+    "text": "語音和語言",
+    "source": "75f270b3eb94"
+  },
+  "common.voices-and-languages": {
+    "text": "語音和語言…",
+    "source": "14395bf4d3f9"
+  },
   "common.volume": {
     "text": "音量",
     "source": "b10fb966d720"
@@ -31930,6 +32662,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "AI 工具可對每一項執行的動作。在您選擇前，所有項目皆為「關閉」。相同的設定也位於「AI 工具」中。",
     "source": "14310670b45f"
+  },
+  "spoken.voices.what-the-lines-do": {
+    "text": "文字行的作用",
+    "source": "573064e5a609"
   },
   "word.dialogs.what-the-table-is": {
     "text": "表格的內容",
@@ -32299,6 +33035,10 @@
     "text": "沒有可用來寄件的郵件帳戶時，Rutba 會從 no-reply@rutba.io 以電子郵件寄出您的邀請。",
     "source": "12232a9ce3d1"
   },
+  "voices-dialog.with-no-network-a-voice-or": {
+    "text": "沒有網路時，可以從語音或語言的檔案新增：也就是隨 Rutba Office 附加元件發佈、從另一部電腦帶來的 .zip 檔案。請選擇「從檔案新增」。",
+    "source": "83a90cbad906"
+  },
   "base.links.with-no-primary-key-there-they": {
     "text": "由於該處沒有主索引鍵，只能讀取，無法變更。",
     "source": "040d7d3b40f5"
@@ -32322,6 +33062,10 @@
   "talk.withdraw-the-invitation-to-email": {
     "text": "撤回給 {email} 的邀請",
     "source": "8af78191a599"
+  },
+  "voices-dialog.withdrawn-by-its-makers": {
+    "text": "已被製作者撤回。",
+    "source": "9ff368476fae"
   },
   "sheets.find.within": {
     "text": "搜尋範圍",
@@ -32969,6 +33713,10 @@
     "text": "已接受",
     "source": "070c160a6299"
   },
+  "voices-dialog.add-on": {
+    "text": "附加元件",
+    "source": "a33a54a73112"
+  },
   "base.links.added-fields": {
     "text": "已新增 {fields}",
     "source": "30cea32e2a11"
@@ -33205,6 +33953,10 @@
     "text": "開發版本",
     "source": "030dcbc3b708"
   },
+  "voices-dialog.dictionary": {
+    "text": "字典",
+    "source": "177ca70f42de"
+  },
   "word.mailings.directory": {
     "text": "目錄",
     "source": "333178788eae"
@@ -33300,6 +34052,10 @@
   "mail.folder": {
     "text": "資料夾",
     "source": "034a00624882"
+  },
+  "voices-dialog.font": {
+    "text": "字型",
+    "source": "795ea3efa43d"
   },
   "word.footnote-n": {
     "text": "註腳 {n}",
@@ -33478,6 +34234,10 @@
   "common.landscape-2": {
     "text": "橫向",
     "source": "acb955df82b8"
+  },
+  "voices-dialog.language": {
+    "text": "語言",
+    "source": "a4ef304ba42a"
   },
   "mail.last-try-failed-error-trying-again": {
     "text": "上次嘗試失敗（{error}），正在重試",
@@ -33725,6 +34485,10 @@
     "text": "列印設定",
     "source": "9198cbaeac3c"
   },
+  "voices-dialog.pronunciation": {
+    "text": "發音",
+    "source": "ce978dc7829d"
+  },
   "common.px": {
     "text": "px",
     "source": "6ee2cc105a67"
@@ -33862,6 +34626,14 @@
   "slides.action.something": {
     "text": "某個項目",
     "source": "3fc9b689459d"
+  },
+  "voices-dialog.speech-engine": {
+    "text": "語音引擎",
+    "source": "69f0063d7151"
+  },
+  "voices-dialog.speech-model": {
+    "text": "語音模型",
+    "source": "14a7ccd64b8c"
   },
   "video.export.square": {
     "text": "方形",
@@ -34131,6 +34903,10 @@
     "text": "影片編碼器未輸出任何資料，因此未儲存任何內容。請再試一次。",
     "source": "4c38cc475e8b"
   },
+  "common.the-video-encoder-gave-the-sound": {
+    "text": "影片編碼器只產生了聲音而沒有畫面，因此未儲存任何內容。請再試一次。",
+    "source": "4a861b2049e1"
+  },
   "video.the-whole-picture-on-black-bars": {
     "text": "完整畫面，置於黑邊上",
     "source": "415c8c2f50c4"
@@ -34218,6 +34994,10 @@
   "video.videos-sound-and-pictures-one-after": {
     "text": "影片、聲音與圖片，依序接在選取軌道上的片段之後",
     "source": "6f8e30fdb3c2"
+  },
+  "voices-dialog.voice": {
+    "text": "語音",
+    "source": "c57d7e920197"
   },
   "contacts.web": {
     "text": "網站",
@@ -35577,6 +36357,14 @@
     "text": "{files}，{folders}",
     "source": "91829f4187ac"
   },
+  "locker.file-is-left-plain-and-shows": {
+    "text": "{file} 會保留為一般檔案，並顯示為未鎖定。",
+    "source": "ab60c99e1907"
+  },
+  "locker.file-kept-changing-or-was-in": {
+    "text": "{file} 在建立安全複本期間持續變更或正在使用中，因此沒有鎖定任何檔案。",
+    "source": "36607f9c5145"
+  },
   "mail.folder-is-deleted": {
     "text": "已刪除 {folder}。",
     "source": "20926d429662"
@@ -35699,6 +36487,20 @@
     "text": "{label}：{blurb}；會取代選取的效果",
     "source": "a8e919e7d5f9"
   },
+  "voices-dialog.languages-will-be-added-when-this": {
+    "forms": {
+      "other": "這部電腦連上網路後，將會新增 {languages}。也可以在「語音和語言」中從檔案新增語言。"
+    },
+    "source": "fa0e4abdce47"
+  },
+  "voices-dialog.language-is-no-longer-built-into": {
+    "text": "{language} 已不再內建於 Rutba Office。請在「語音和語言」中新增其語言套件。",
+    "source": "c5cd1a83525c"
+  },
+  "voices-dialog.language-now-comes-as-a-language": {
+    "text": "{language} 現在以語言套件形式提供，並已隨這次更新新增。",
+    "source": "97a36bd5a08c"
+  },
   "video.inspector.level-times": {
     "text": "{level} 倍",
     "source": "8092db25eeb5"
@@ -35733,6 +36535,10 @@
     "text": "無法開啟 {names}：這不是此系統可播放的影片、聲音或圖片。",
     "source": "40ec26e4b663"
   },
+  "read-aloud.bar.name-added": {
+    "text": "{name}（已新增）",
+    "source": "5e0a009f158f"
+  },
   "base.links.name-coming": {
     "text": "{name}（即將推出）",
     "source": "c5bfe2423325"
@@ -35740,6 +36546,10 @@
   "design.name-dark": {
     "text": "{name}（深色）",
     "source": "de9e429833c5"
+  },
+  "common.name-draft": {
+    "text": "{name}（草稿）",
+    "source": "5afe5a4a59c2"
   },
   "redact.name-redacted": {
     "text": "{name}（已遮蔽）",
@@ -35795,6 +36605,10 @@
     "text": "無法繪製 {name}：{reason}",
     "source": "65bcb558f48b"
   },
+  "locker.name-could-not-be-opened-again": {
+    "text": "無法重新開啟 {name}：{why}",
+    "source": "20ca380f0559"
+  },
   "common.name-could-not-be-opened-reason": {
     "text": "無法開啟 {name}：{reason}",
     "source": "dae0790a804d"
@@ -35843,9 +36657,21 @@
     "text": "{name} 已經是連絡人。",
     "source": "5bf61d9afecd"
   },
+  "locker.name-is-a-kind-of-file": {
+    "text": "{name} 這類檔案須從磁碟讀取，因此是從未鎖定的暫存複本開啟，而不是在記憶體中開啟。該複本並未鎖定。",
+    "source": "8c3ca214b1be"
+  },
+  "locker.name-is-already-open-so-these": {
+    "text": "{name} 已開啟，因此這些未儲存的變更會以 {saved} 開啟，也就是同一個已鎖定資料夾中，位於其旁邊的新檔案。",
+    "source": "f866dc2fc7b7"
+  },
   "talk.name-is-blocked": {
     "text": "{name} 已被封鎖。",
     "source": "896ccbbaeef1"
+  },
+  "locker.name-is-in-an-older-format": {
+    "text": "{name} 是較舊的格式。儲存後會在同一個已鎖定資料夾中，於其旁邊建立 {saved}。",
+    "source": "25f899dbe396"
   },
   "locker.name-is-locked-in-folder": {
     "text": "{name} 已鎖定於 {folder}。",
@@ -35854,6 +36680,10 @@
   "talk.name-is-no-longer-a-contact": {
     "text": "{name} 已不再是連絡人。",
     "source": "f2f97457bba2"
+  },
+  "locker.name-is-no-longer-in-the": {
+    "text": "{name} 已不在保險箱 (Locker) 中。其安全複本仍保留在這裡。",
+    "source": "4af6541725f0"
   },
   "image.name-is-no-longer-open-so": {
     "text": "{name} 已不再開啟，因此圖片無法放回其中。請改為匯出。",
@@ -35871,6 +36701,10 @@
     "text": "目前無法聯絡 {name}。",
     "source": "aca30d15fc29"
   },
+  "voices-dialog.name-is-not-used-until-its": {
+    "text": "在 {name} 適用於 {version} 的版本就緒之前，不會使用它。",
+    "source": "2f267730bc10"
+  },
   "common.name-is-not-wired-yet": {
     "text": "{name} 尚未接通。",
     "source": "88e2be5594ad"
@@ -35886,6 +36720,10 @@
   "mail.name-is-open-where-it-lies": {
     "text": "{name} 已在原處開啟，唯讀。正在為其建立搜尋索引。",
     "source": "749ec97c4e3a"
+  },
+  "locker.name-is-over-1-gb-so": {
+    "text": "{name} 超過 1 GB，因此是從未鎖定的暫存複本開啟，而不是在記憶體中開啟。該複本並未鎖定。",
+    "source": "950f4db86aed"
   },
   "common.name-is-protected-with-a-password": {
     "text": "{name} 受密碼保護，在提供密碼之前會保持關閉。",
@@ -35925,6 +36763,10 @@
     "text": "找不到 {name}",
     "source": "11fabb5fa0c9"
   },
+  "locker.name-opened-from-a-temporary-plain": {
+    "text": "{name} 是從未鎖定的暫存複本開啟，而不是在記憶體中開啟。該複本並未鎖定。",
+    "source": "01b4847cdddb"
+  },
   "sheets.name-refreshed": {
     "text": "已重新整理 {name}",
     "source": "7b63595ee10b"
@@ -35948,6 +36790,10 @@
   "profiles.name-will-open-without-asking-and": {
     "text": "{name} 會直接開啟而不詢問，原本由密碼密封的內容仍會保留，並由 Windows 保護，僅限您的帳戶使用。",
     "source": "bccde320f01d"
+  },
+  "voices-dialog.name-will-show-new-labels-in": {
+    "text": "在 {name} 適用於 {version} 的版本就緒之前，新標籤會以英文顯示。",
+    "source": "070ebd66c642"
   },
   "talk.invite.name-would-like-to-talk-with": {
     "text": "{name} 想在 Rutba 通話 (Talk) 上與您交談",
@@ -36067,6 +36913,10 @@
     "text": "{name}，第 {page} 頁，共 {count} 頁",
     "source": "0f8439d610e0"
   },
+  "locker.name-with-unsaved-changes": {
+    "text": "{name}，含有未儲存的變更",
+    "source": "d3fccb2b063d"
+  },
   "slides.motion.name-option": {
     "text": "{name}，{option}",
     "source": "769e8e2405cf"
@@ -36173,6 +37023,14 @@
     "text": "{n} 個檔案無法解除鎖定，因此未移除資料夾。",
     "source": "189a2a0888a7"
   },
+  "locker.n-files-did-not-match-the": {
+    "text": "{n} 個檔案與安全複本不符，因此未還原。",
+    "source": "9ffb4b5699f4"
+  },
+  "locker.n-files-in-this-folder-do": {
+    "text": "這個資料夾中有 {n} 個檔案無法正常解除鎖定。",
+    "source": "a0e568b53b1f"
+  },
   "locker.n-files-in-this-folder-have": {
     "text": "此資料夾中有 {n} 個檔案有兩個版本。請先在兩者之間選擇。未變更任何內容。",
     "source": "0054192545bb"
@@ -36180,6 +37038,10 @@
   "locker.n-files-in-name-cannot-be": {
     "text": "{name} 中有 {n} 個檔案無法讀取。",
     "source": "e60e71803e18"
+  },
+  "locker.n-files-restored-to-dest": {
+    "text": "已將 {n} 個檔案還原至 {dest}。",
+    "source": "0fe8b13fee6a"
   },
   "studio.setups-menu.n-files-all-in-the-setup": {
     "text": "{n} 個檔案，全在配置檔中",
@@ -36252,6 +37114,10 @@
   "mail.path-is-no-longer-there": {
     "text": "{path} 已不在該處",
     "source": "592e65bab5c5"
+  },
+  "voices-dialog.pct-translated-for-this-version": {
+    "text": "此版本已翻譯 {pct}%",
+    "source": "692d9bafb1dc"
   },
   "sheets.ribbon.pen-click-again-for-its-colour": {
     "text": "{pen}：再按一下可選擇色彩與粗細",

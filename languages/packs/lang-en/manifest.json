@@ -2,7 +2,7 @@
   "id": "lang-en",
   "kind": "language",
   "format": 2,
-  "version": "2.25.0",
+  "version": "2.26.0",
   "revision": 1,
   "tag": "en",
   "tags": [
@@ -24,7 +24,7 @@
     "one",
     "other"
   ],
-  "labels": 8998,
+  "labels": 9213,
   "source": true,
   "status": "source",
   "review": "source text",

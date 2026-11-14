@@ -631,6 +631,22 @@
     "text": "O coloană condițională are nevoie de o regulă.",
     "source": "aed8bfd618e7"
   },
+  "locker.a-copy-of-these-files-as": {
+    "text": "O copie a acestor fișiere așa cum sunt acum, păstrată în folderul propriu Office pe acest Mac, ca să nu se piardă nimic cât timp vă familiarizați cu Seif (Locker). Nu este blocată cu parola pentru Seif: oricine se conectează la acest cont Mac o poate restaura.",
+    "source": "6e2bd717daa8"
+  },
+  "locker.a-copy-of-these-files-as-2": {
+    "text": "O copie a acestor fișiere așa cum sunt acum, păstrată în folderul propriu Office pe acest computer, ca să nu se piardă nimic cât timp vă familiarizați cu Seif (Locker). Nu este blocată cu parola pentru Seif: oricine poate deschide acest profil Office o poate restaura.",
+    "source": "2094b4f4f038"
+  },
+  "locker.a-copy-of-these-files-as-3": {
+    "text": "O copie a acestor fișiere așa cum sunt acum, păstrată în folderul propriu Office pe acest computer, ca să nu se piardă nimic cât timp vă familiarizați cu Seif (Locker). Nu este blocată cu parola pentru Seif: oricine se conectează la acest cont Windows o poate restaura.",
+    "source": "9ee82c902b7b"
+  },
+  "locker.a-copy-of-these-files-as-4": {
+    "text": "O copie a acestor fișiere așa cum sunt acum, păstrată în folderul propriu Office pe acest computer, ca să nu se piardă nimic cât timp vă familiarizați cu Seif (Locker). Nu este blocată cu parola pentru Seif: oricine se conectează la acest cont de utilizator o poate restaura.",
+    "source": "2f36db57f352"
+  },
   "template-gallery.a-course-session-objectives-the-agenda": {
     "text": "O sesiune de curs: obiective, agenda, lecțiile, o verificare rapidă și un rezumat",
     "source": "70cd3e33cd84"
@@ -951,6 +967,10 @@
     },
     "source": "50e0f90aa379"
   },
+  "voices-dialog.a-newer-revision-is-ready": {
+    "text": "Este gata o revizie mai nouă",
+    "source": "6c0971aff110"
+  },
   "template-gallery.a-newsletter-with-a-masthead-two": {
     "text": "Un buletin informativ cu antet, două coloane de articole și un panou de date",
     "source": "d481579262f8"
@@ -1147,6 +1167,18 @@
     "text": "Un sold cumulat pentru",
     "source": "f223d22c6094"
   },
+  "locker.a-safety-copy-of-this-folder": {
+    "text": "Se păstrează o copie de siguranță a acestui folder",
+    "source": "bde8bd957ac6"
+  },
+  "locker.a-safety-copy-of-this-folder-2": {
+    "text": "Înainte ca primele fișiere să fie blocate, se face o copie de siguranță a acestui folder.",
+    "source": "e7490abc7847"
+  },
+  "locker.a-safety-copy-of-your-files": {
+    "text": "Pe acest computer se păstrează o copie de siguranță a fișierelor dvs.",
+    "source": "812ca6b18f66"
+  },
   "engine.a-scatter-chart-here-plots-up": {
     "text": "O diagramă prin puncte reprezintă aici până la trei serii. Selectați o zonă cu o coloană X și până la trei coloane Y.",
     "source": "1161906fee38"
@@ -1230,6 +1262,10 @@
   "word.references.a-source-is-already-tagged-tag": {
     "text": "O sursă are deja eticheta {tag}.",
     "source": "70fd6a155c46"
+  },
+  "video.timeline.a-spoken-line": {
+    "text": "Un rând rostit",
+    "source": "29b4895d436f"
   },
   "video.inspector.a-still-lasts": {
     "text": "Durată imagine fixă",
@@ -1334,6 +1370,10 @@
   "studio.window.a-window": {
     "text": "O fereastră",
     "source": "9b1f7eb460ff"
+  },
+  "voices-dialog.a-window-is-open-in-this": {
+    "text": "O fereastră este deschisă în această limbă. Închideți-o sau deschideți ferestrele în altă limbă înainte de a elimina limba.",
+    "source": "3ae5879eef89"
   },
   "studio.sources-column.a-window-not-chosen-yet": {
     "text": "O fereastră, încă nealeasă",
@@ -1879,6 +1919,14 @@
     "text": "Adăugare total",
     "source": "c78ecc1fa62c"
   },
+  "spoken.voices.add-a-voice-to-have-these": {
+    "text": "Adăugați o voce pentru ca aceste rânduri să fie citite cu voce tare",
+    "source": "b2afe4eb368b"
+  },
+  "read-aloud.voice-offer.add-a-voice-more-natural-voices": {
+    "text": "Adăugați o voce: voci mai naturale pentru Citire cu voce tare, din Voci și limbi",
+    "source": "bfbf7111b5c5"
+  },
   "studio.flip-strip.add-a-web-page": {
     "text": "Adăugare pagină web",
     "source": "301fb6179868"
@@ -1946,6 +1994,14 @@
   "locker.add-folder": {
     "text": "Adăugare folder…",
     "source": "fb227b5ff513"
+  },
+  "voices-dialog.add-from-a-file": {
+    "text": "Adăugare dintr-un fișier",
+    "source": "68655ccf7b75"
+  },
+  "voices-dialog.add-from-a-file-2": {
+    "text": "Adăugare dintr-un fișier…",
+    "source": "ca82b661b3c0"
   },
   "packs-dialog.add-it-with-add-or-remove": {
     "text": "Adăugați-o cu Adăugare/eliminare aplicații; se activează la următoarea pornire.",
@@ -2067,6 +2123,10 @@
     "text": "Adăugați videoclipuri, sunet și imagini sau plasați-le în această fereastră. Ajung pe cronologie unul după altul.",
     "source": "79fc33dd6094"
   },
+  "voices-dialog.add-when-online": {
+    "text": "Adăugare când este online",
+    "source": "971ac51b33f5"
+  },
   "mail.accounts-bulk.add-count-account": {
     "forms": {
       "few": "Adăugare {count} conturi",
@@ -2087,6 +2147,10 @@
     "text": "Adăugare: puneți cuvântul în dicționar",
     "source": "f696718081b5"
   },
+  "voices-dialog.add-on-files": {
+    "text": "Fișiere de suplimente",
+    "source": "4d65ebdbe444"
+  },
   "apps-choice.add-ons": {
     "text": "Suplimente",
     "source": "ccfc53fcbd49"
@@ -2098,6 +2162,14 @@
   "common.added": {
     "text": "Adăugat",
     "source": "6b02e0d363a4"
+  },
+  "voices-dialog.added-here": {
+    "text": "Adăugat aici",
+    "source": "9851c5fac6c6"
+  },
+  "voices-dialog.added-here-not-on-the-list": {
+    "text": "Adăugat aici, nu este în lista pentru această versiune",
+    "source": "fdd61e2094ac"
   },
   "mail.dialogs.added-to-the-end-of-new": {
     "text": "La finalul mesajelor noi și deasupra citatului la răspuns sau redirecționare",
@@ -2123,9 +2195,29 @@
     },
     "source": "93ca61fcc584"
   },
+  "voices-dialog.added-but-not-used": {
+    "text": "Adăugat, dar neutilizat",
+    "source": "1aa13e5c4cd6"
+  },
+  "voices-dialog.added-waiting-for-what-it-needs": {
+    "text": "Adăugat, așteaptă componentele necesare",
+    "source": "41a27014ef99"
+  },
   "packs-dialog.added-here-from-the-next-start": {
     "text": "Adăugată: aici de la următoarea pornire",
     "source": "81c2b338bb02"
+  },
+  "voices-dialog.added-moved-in-at-restart": {
+    "text": "Adăugat: se instalează la repornire",
+    "source": "23bb225cbdb4"
+  },
+  "voices-dialog.added-not-ready-in-time-at": {
+    "text": "Adăugat: nu a fost gata la timp la această pornire",
+    "source": "6d386eb3b0d7"
+  },
+  "voices-dialog.added-used-from-the-next-start": {
+    "text": "Adăugat: se folosește de la următoarea pornire",
+    "source": "e0e14a83e684"
   },
   "mail.accounts-bulk.added-provider": {
     "text": "Adăugat: {provider}",
@@ -2523,6 +2615,10 @@
     "text": "Toate fișierele",
     "source": "866956901fd1"
   },
+  "locker.all-good-remove-the-safety-copy": {
+    "text": "Totul este în regulă, eliminați copia de siguranță…",
+    "source": "018e0096608e"
+  },
   "inspect.all-items-were-removed": {
     "text": "Toate elementele au fost eliminate.",
     "source": "fc6c610af91d"
@@ -2755,6 +2851,10 @@
     "text": "O acțiune duce la o adresă web (http:// sau https://) sau la o adresă de e-mail (mailto:).",
     "source": "192eebf7ad62"
   },
+  "voices-dialog.an-added-voice-or-language-is": {
+    "text": "O voce sau o limbă adăugată se folosește de la următoarea pornire. Eliminarea uneia păstrează documentele și setările dvs.",
+    "source": "a5c16bfef61e"
+  },
   "sheets.dialogs.an-address-such-as-rutba-io": {
     "text": "O adresă cum ar fi rutba.io sau hello@rutba.io, ori un loc din acest registru de lucru, cum ar fi C12, Foaie2!B4 sau un nume.",
     "source": "257b9cd3f57d"
@@ -2914,6 +3014,22 @@
   "base.sources.another-data-files-database": {
     "text": "Altă bază de date Data Files",
     "source": "a3cc390853c1"
+  },
+  "locker.another-office-profile-on-this-mac": {
+    "text": "Un alt profil Office din acest cont Mac ar putea avea și el acces. O parolă pentru acest profil împiedică acest lucru.",
+    "source": "dd51602f9f1c"
+  },
+  "locker.another-office-profile-on-this-windows": {
+    "text": "Un alt profil Office din acest cont Windows ar putea avea și el acces. O parolă pentru acest profil împiedică acest lucru.",
+    "source": "e7908aa680a5"
+  },
+  "locker.another-office-profile-on-this-user": {
+    "text": "Un alt profil Office din acest cont de utilizator ar putea avea și el acces. O parolă pentru acest profil împiedică acest lucru.",
+    "source": "5e249dc1af3c"
+  },
+  "voices-dialog.another-rutba-office-is-changing-the": {
+    "text": "O altă copie a Rutba Office modifică chiar acum vocile și limbile. Încercați din nou peste câteva momente.",
+    "source": "8b3c41c56b48"
   },
   "talk.address.another-address-of-yours": {
     "text": "O altă adresă a dvs.",
@@ -3650,6 +3766,10 @@
   "video.back-a-second": {
     "text": "Înapoi o secundă",
     "source": "6edb45cb368b"
+  },
+  "read-aloud.bar.back-a-sentence": {
+    "text": "Înapoi o propoziție",
+    "source": "4505738dcaa5"
   },
   "studio.back-soon": {
     "text": "Revine curând",
@@ -4503,6 +4623,10 @@
     "text": "Camera {n}",
     "source": "76ef0b65d44f"
   },
+  "voices-dialog.can-be-added-when-this-computer": {
+    "text": "Se poate adăuga când acest computer este online",
+    "source": "030abf4e9f18"
+  },
   "common.can-down": {
     "text": "Cilindru: în jos",
     "source": "4bbecf421c24"
@@ -4819,6 +4943,10 @@
     "text": "Modificat",
     "source": "2a6141e43be0"
   },
+  "locker.changed-since-the-copy-was-made": {
+    "text": "Modificate după realizarea copiei: {files}",
+    "source": "876fd443e1df"
+  },
   "review.changed-count-time": {
     "forms": {
       "few": "Modificat de {count} ori.",
@@ -4955,6 +5083,10 @@
     "text": "Verificare din nou: citiți documentul de la capăt",
     "source": "dbd3a19ef2f5"
   },
+  "locker.check-and-remove": {
+    "text": "Verificare și eliminare",
+    "source": "f27f294e584c"
+  },
   "calendar.check-availability": {
     "text": "Verificare ore libere",
     "source": "2071664a583f"
@@ -5038,6 +5170,10 @@
   "ui.proofing.checking-in-language": {
     "text": "Verificare în {language}",
     "source": "35352cdad1d4"
+  },
+  "locker.checking-the-folder-against-its-safety": {
+    "text": "Se verifică folderul cu copia de siguranță…",
+    "source": "d0208c82b534"
   },
   "mail.rules.checking-this-folder": {
     "text": "Se verifică acest folder…",
@@ -5126,6 +5262,10 @@
   "mail.archive.choose-a-folder": {
     "text": "Alegeți un folder",
     "source": "5c71b8cd7822"
+  },
+  "locker.choose-a-folder-and-restore": {
+    "text": "Alegere folder și restaurare…",
+    "source": "ab7346bbfb2a"
   },
   "pdf.choose-a-folder-for-the-files": {
     "text": "Alegeți un folder pentru fișiere",
@@ -5270,6 +5410,10 @@
   "studio.sources-column.choose-what-to-show": {
     "text": "Alegeți ce afișați",
     "source": "baee168f9101"
+  },
+  "locker.choose-where-to-restore-the-files": {
+    "text": "Alegeți unde să fie restaurate fișierele",
+    "source": "6de9b186eb7a"
   },
   "mail.choose-which-account-to-send-from": {
     "text": "Alegeți contul din care trimiteți.",
@@ -6458,6 +6602,10 @@
   "slides.costs": {
     "text": "Costuri",
     "source": "b88fc5fc4765"
+  },
+  "voices-dialog.could-not-be-added": {
+    "text": "Nu s-a putut adăuga",
+    "source": "1bf82610aa3d"
   },
   "mail.accounts-bulk.could-not-be-set-up": {
     "text": "Nu s-a putut configura",
@@ -8059,6 +8207,10 @@
     "text": "Ciornă, În revizuire, Aprobat",
     "source": "52ebfbb3ae76"
   },
+  "voices-dialog.draft-not-yet-reviewed": {
+    "text": "Ciornă, încă nerevizuită",
+    "source": "887d99cb2ec9"
+  },
   "mail.drafts": {
     "text": "Ciorne",
     "source": "f592e6a4db3c"
@@ -8338,6 +8490,18 @@
   "sheets.words.each-line-is-a-paragraph-of": {
     "text": "Fiecare rând este un paragraf separat. Ctrl+Enter inserează cuvintele.",
     "source": "ba23d84777b1"
+  },
+  "video.spoken.each-line-made-again-from-its": {
+    "text": "Fiecare rând refăcut acum din textul său, cu această voce și această viteză",
+    "source": "19a9307c0464"
+  },
+  "studio.spoken-run.each-line-read-aloud-in-turn": {
+    "text": "Fiecare rând citit cu voce tare, în ordine, afișat în titlu cât timp se aude vocea",
+    "source": "82ccf6599ff7"
+  },
+  "video.spoken.each-line-read-aloud-its-words": {
+    "text": "Fiecare rând citit cu voce tare, cu textul afișat cât timp se aude vocea, unul după altul",
+    "source": "282adc866b4a"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "Fiecare cont de e-mail, calendar, agendă de adrese, bază de date și folder are setarea sa, afișată și în aplicația sa, la fel și Înregistratorul (Recorder). Totul este Dezactivat până alegeți. Nimic nu este niciodată șters sau mutat, iar orice trimitere așteaptă mai întâi apăsarea dvs. aici.",
@@ -9110,6 +9274,10 @@
   "locker.every-file-in-this-folder-is": {
     "text": "Fiecare fișier din acest folder este blocat acolo unde se află. Fișierele adăugate ulterior rămân neblocate până când le blocați.",
     "source": "bf46961f6e33"
+  },
+  "locker.every-file-matched-the-safety-copy": {
+    "text": "Fiecare fișier corespunde. Copia de siguranță a fost eliminată.",
+    "source": "641b821fb375"
   },
   "mail.every-message-waits-this-long-before": {
     "text": "Fiecare mesaj așteaptă atât înainte de a pleca și poate fi retras până atunci.",
@@ -10311,6 +10479,10 @@
     "text": "Fonturi",
     "source": "3680fcad01f4"
   },
+  "voices-dialog.fonts-and-dictionaries": {
+    "text": "Fonturi și dicționare",
+    "source": "e7aff9e0d28b"
+  },
   "sheets.ribbon.fonts-the-heading-and-body-faces": {
     "text": "Fonturi: cele pentru titluri și corp; acum {major} și {minor}",
     "source": "8048e40f3f6f"
@@ -10558,6 +10730,10 @@
   "video.forward-a-second": {
     "text": "Înainte o secundă",
     "source": "8c492f4ddac3"
+  },
+  "read-aloud.bar.forward-a-sentence": {
+    "text": "Înainte o propoziție",
+    "source": "b7b09fb5bf3f"
   },
   "studio.setups-menu.found": {
     "text": "Găsit",
@@ -10818,6 +10994,10 @@
   "calendar.from-address": {
     "text": "De la {address}",
     "source": "6d066bb09cc4"
+  },
+  "mail.read-aloud.from-name": {
+    "text": "De la {name}",
+    "source": "2f4ab5d74ae4"
   },
   "contacts.from-name-not-yet-in-your": {
     "text": "De la {name}, nu este în Contacte.",
@@ -13179,9 +13359,17 @@
     "text": "Devine un fișier obișnuit în același loc, iar versiunile anterioare păstrate de Seif (Locker) sunt eliminate. Îl puteți bloca din nou oricând doriți.",
     "source": "edc5654cc244"
   },
+  "locker.it-cannot-be-checked-or-restored": {
+    "text": "Copia nu poate fi verificată sau restaurată. Eliminați-o?",
+    "source": "e9d50f1e317d"
+  },
   "mail.it-goes-to": {
     "text": "Ajunge la:",
     "source": "f7cf347abe06"
+  },
+  "locker.it-has-been-kept-for-n": {
+    "text": "Copia este păstrată de {n} zile. Eliminați-o după ce v-ați asigurat că folderul se deschide cum vă așteptați.",
+    "source": "e9de9f7945ab"
   },
   "calendar.words.it-has-no-free-time-left": {
     "text": "Nu mai are nicio oră liberă în acea zi.",
@@ -13195,6 +13383,30 @@
     "text": "Nu este în folderele dvs.: poate fi fișierul altei persoane sau unul al computerului. Ce se citește intră în această bază de date și pleacă odată cu ea dacă este trimisă mai departe.",
     "source": "852e5b1f2f73"
   },
+  "locker.it-is-not-locked-with-your": {
+    "text": "Nu este blocată cu parola pentru Seif (Locker): oricine poate deschide acest profil Office o poate restaura. Parola Mac și parola acestui profil o protejează dacă discul este luat de altcineva. Eliminați-o după ce folderul se deschide cum vă așteptați.",
+    "source": "49ed3008b51b"
+  },
+  "locker.it-is-not-locked-with-your-2": {
+    "text": "Nu este blocată cu parola pentru Seif (Locker): oricine poate deschide acest profil Office o poate restaura. Parola Windows și parola acestui profil o protejează dacă discul este luat de altcineva. Eliminați-o după ce folderul se deschide cum vă așteptați.",
+    "source": "42aaf12f0836"
+  },
+  "locker.it-is-not-locked-with-your-3": {
+    "text": "Nu este blocată cu parola pentru Seif (Locker): oricine poate deschide acest profil Office o poate restaura. Parola inelului de chei și parola acestui profil o protejează dacă discul este luat de altcineva. Eliminați-o după ce folderul se deschide cum vă așteptați.",
+    "source": "a1d96fbb286c"
+  },
+  "locker.it-is-not-locked-with-your-4": {
+    "text": "Nu este blocată cu parola pentru Seif (Locker): oricine se conectează la acest cont Mac o poate restaura. Parola Mac o protejează dacă discul este luat de altcineva, prin Keychain. Eliminați-o după ce folderul se deschide cum vă așteptați.",
+    "source": "3479d47ec7b8"
+  },
+  "locker.it-is-not-locked-with-your-5": {
+    "text": "Nu este blocată cu parola pentru Seif (Locker): oricine se conectează la acest cont Windows o poate restaura. Parola Windows o protejează dacă discul este luat de altcineva. Eliminați-o după ce folderul se deschide cum vă așteptați.",
+    "source": "94813052ad1f"
+  },
+  "locker.it-is-not-locked-with-your-6": {
+    "text": "Nu este blocată cu parola pentru Seif (Locker): oricine se conectează la acest cont de utilizator o poate restaura. Parola inelului de chei o protejează dacă discul este luat de altcineva. Pe majoritatea computerelor, aceasta este parola cu care vă conectați. Dacă inelul de chei nu are parolă, nimic nu o protejează. Eliminați-o după ce folderul se deschide cum vă așteptați.",
+    "source": "179e9ee04965"
+  },
   "studio.sources-column.it-is-on-air": {
     "text": "Este în emisie",
     "source": "668b7b14f675"
@@ -13206,6 +13418,10 @@
   "mail.smime.it-is-shown-as-plain-text": {
     "text": "Este afișat ca text simplu, fără linkuri și imagini: un mesaj criptat care nu este semnat de cineva de încredere ar fi putut fi modificat pe drum pentru a-i trimite cuvintele în altă parte.",
     "source": "a923da16888c"
+  },
+  "locker.it-needs-about-size-and-free": {
+    "text": "Necesită aproximativ {size}, iar spațiul liber este {free}.",
+    "source": "4b6dd24db2d1"
   },
   "base.people.it-starts-reading-every-table-choose": {
     "text": "Pornește cu citirea fiecărui tabel; alegeți ce poate face cu fiecare.",
@@ -13262,6 +13478,10 @@
   "mail.accounts-bulk.its-mail-servers-are-not-at": {
     "text": "Serverele sale de e-mail nu sunt la {domain}: {hosts}. Parola ajunge la ele doar dacă sunteți de acord.",
     "source": "3fde2d743d72"
+  },
+  "slides.ribbon.its-notes": {
+    "text": "Notele sale",
+    "source": "a316f96e4b04"
   },
   "mail.smime.its-password": {
     "text": "Parola sa",
@@ -13414,6 +13634,10 @@
   "base.links.keep-a-copy-in-this-file": {
     "text": "Păstrare copie în acest fișier",
     "source": "fe129705434e"
+  },
+  "locker.keep-a-safety-copy-until-i": {
+    "text": "Păstrare copie de siguranță până confirm că totul este în regulă",
+    "source": "ce86e4bea08e"
   },
   "ui.proofing.keep-accessibility-checker-running-while-i": {
     "text": "Verificator de accesibilitate activ în timp ce lucrez",
@@ -13971,6 +14195,14 @@
     "text": "Ieșire din expunere",
     "source": "fdc22af2a38d"
   },
+  "locker.leave-them-closed": {
+    "text": "Lăsați-le închise",
+    "source": "e4aee34bbd47"
+  },
+  "locker.leave-them-closed-2": {
+    "text": "Le lăsați închise?",
+    "source": "d56f15ff14e6"
+  },
   "locker.leave-them-unlocked-suggested": {
     "text": "Lăsare deblocate (recomandat)",
     "source": "0afd256556ff"
@@ -14367,6 +14599,10 @@
     "text": "Rândurile spun ce se blochează; un rând care începe cu ! creează o excepție. Fără rânduri, se blochează fiecare fișier.",
     "source": "97f258a60d21"
   },
+  "studio.spoken-run.lines-to-read": {
+    "text": "Rânduri de citit",
+    "source": "29f993ec4aae"
+  },
   "common.link": {
     "text": "Link",
     "source": "a6a32dbc5618"
@@ -14583,6 +14819,10 @@
     "text": "Blocare strat",
     "source": "7dbd5ea70c86"
   },
+  "locker.lock-the-rest-leave-this-one": {
+    "text": "Blocați restul, lăsați-l pe acesta neblocat",
+    "source": "63dac83b4051"
+  },
   "locker.lock-them-again": {
     "text": "Blocare din nou",
     "source": "902997963217"
@@ -14594,6 +14834,10 @@
   "video.timeline.lock-this-track": {
     "text": "Blocare pistă",
     "source": "383db16dbbe6"
+  },
+  "locker.lock-without-a-safety-copy": {
+    "text": "Blocare fără copie de siguranță",
+    "source": "e0af1dba19b1"
   },
   "locker.lock-n-here": {
     "text": "Blocare {n} aici",
@@ -14839,6 +15083,10 @@
     "text": "Creat într-o versiune mai veche de PowerPoint: poate fi citit și șters, dar nu i se poate răspunde.",
     "source": "149c944bbf20"
   },
+  "locker.made-when-of-n-files-size": {
+    "text": "Creată {when}. Fișiere: {n} ({size}), așa cum erau înainte de blocare.",
+    "source": "cc7c3e840df2"
+  },
   "image.tools.magic-wand": {
     "text": "Baghetă magică",
     "source": "4f4839aa83e6"
@@ -15011,9 +15259,17 @@
     "text": "Creare Locker propriu",
     "source": "5928f42234d2"
   },
+  "studio.spoken-run.making-line-n-of-count": {
+    "text": "Se generează rândul {n} din {count}…",
+    "source": "26fa6bf092a6"
+  },
   "pdf.making-the-file-smaller": {
     "text": "Se reduce dimensiunea fișierului…",
     "source": "01e0d2e35672"
+  },
+  "locker.making-the-safety-copy-then-locking": {
+    "text": "Se face copia de siguranță, apoi blocarea…",
+    "source": "17b3586a056e"
   },
   "slides.export-video.making-the-video-slide-at-of": {
     "text": "Se creează videoclipul: diapozitivul {at} din {of}. Prezentarea este redată integral, deci durează cât expunerea.",
@@ -15591,6 +15847,10 @@
     "text": "Mesaj când celula este selectată",
     "source": "bb3d160623af"
   },
+  "mail.message-n-of-count": {
+    "text": "Mesajul {n} din {count}",
+    "source": "496bec00a82a"
+  },
   "mail.archive.message-id": {
     "text": "Message-ID",
     "source": "06a95f89cb88"
@@ -15614,6 +15874,10 @@
   "registry.messages-and-calls-with-your-contacts": {
     "text": "Mesaje și apeluri cu persoanele de contact",
     "source": "0f1f0c41222b"
+  },
+  "mail.messages-being-read": {
+    "text": "Mesaje în curs de citire",
+    "source": "aa86112f1d32"
   },
   "mail.messages-now-send-immediately": {
     "text": "Mesajele se trimit acum imediat",
@@ -16306,6 +16570,10 @@
   "locker.needs-you": {
     "text": "Vă așteaptă",
     "source": "74b6abdf5969"
+  },
+  "spoken.voices.neither-is-on-the-lines-keep": {
+    "text": "Nicio opțiune nu este activată: rândurile își păstrează timpul, dar nu se vede și nu se aude nimic.",
+    "source": "e83016a7cfaf"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "Niciunul dintre dvs. nu îi poate scrie sau apela pe celălalt până nu redeveniți contacte. Mesajele de aici se șterg.",
@@ -17107,6 +17375,10 @@
     "text": "Fără limită",
     "source": "f7fcff0d8fea"
   },
+  "spoken.voices.no-lines-yet-each-line-of": {
+    "text": "Încă nu există rânduri: fiecare rând de text este citit în ordine.",
+    "source": "6c66185b20fc"
+  },
   "talk.invite.no-links-yet": {
     "text": "Niciun link încă.",
     "source": "8bfd6e671367"
@@ -17391,6 +17663,10 @@
     "text": "Nicio vizualizare încă. Adăugare… păstrează aspectul actual al registrului de lucru.",
     "source": "233d8dca900a"
   },
+  "common.no-voice-has-been-added": {
+    "text": "Nu a fost adăugată nicio voce.",
+    "source": "c163f326bf4d"
+  },
   "shell.no-window-of-this-app-is": {
     "text": "Nicio fereastră a acestei aplicații nu este ascunsă.",
     "source": "b5a7641a8630"
@@ -17519,6 +17795,10 @@
     "text": "Normal: foaia afișată ca grilă",
     "source": "7d6eedd7f7a3"
   },
+  "voices-dialog.not-added": {
+    "text": "Neadăugat",
+    "source": "2460c620beba"
+  },
   "sheets.dialogs.not-an-address-and-not-a": {
     "text": "Nu este o adresă și nici un loc cunoscut în acest registru de lucru.",
     "source": "7f162b5c3025"
@@ -17579,6 +17859,10 @@
     "text": "Nu toate invitațiile au plecat prin e-mail. Cei invitați pot accepta totuși în Talk, iar dvs. le puteți trimite linkul altfel, din lista persoanelor invitate.",
     "source": "4336568dd105"
   },
+  "locker.not-everything-matches-the-safety-copy": {
+    "text": "Nu totul corespunde copiei de siguranță.",
+    "source": "0511c2c86d34"
+  },
   "studio.not-found": {
     "text": "Nu a fost găsit",
     "source": "e3ebaa16dd9d"
@@ -17611,6 +17895,10 @@
     "text": "Neblocat",
     "source": "0e9f70fca7bf"
   },
+  "locker.not-locked-in-this-folder-files": {
+    "text": "Neblocate în acest folder: {files}",
+    "source": "da7fd13c706e"
+  },
   "common.not-now": {
     "text": "Nu acum",
     "source": "a0e63d7c7125"
@@ -17630,6 +17918,10 @@
   "base.links.not-read-source-waits-for-you-2": {
     "text": "Nu s-a citit: {source} așteaptă să permiteți sursele bazei de date pe acest computer. Copia de aici este din {time}.",
     "source": "b6dbe9bb7b1b"
+  },
+  "voices-dialog.not-ready-for-this-version-yet": {
+    "text": "Nu este încă gata pentru această versiune",
+    "source": "02f5f74fdc12"
   },
   "common.not-recorded-yet": {
     "text": "Încă neînregistrat",
@@ -17811,6 +18103,10 @@
     "text": "Nu este marcat nimic încă.",
     "source": "5c3dd15a98d2"
   },
+  "voices-dialog.nothing-is-removed-each-comes-back": {
+    "text": "Nu se elimină nimic. Fiecare revine singur când versiunea sa pentru {version} este gata.",
+    "source": "48739878031b"
+  },
   "mail.dialogs.nothing-is-sent-anywhere-the-import": {
     "text": "Nu se trimite nimic nicăieri. Importul citește fișierul și scrie doar pe acest computer.",
     "source": "911c731459ea"
@@ -17878,6 +18174,10 @@
   "word.nothing-to-read-from-here": {
     "text": "Nimic de citit de aici.",
     "source": "3ccd7688183d"
+  },
+  "slides.nothing-to-read-on-this-slide": {
+    "text": "Nu există nimic de citit pe acest diapozitiv.",
+    "source": "44401bddb9d8"
   },
   "word.mailings.nothing-to-show-for-this-record": {
     "text": "Nimic de afișat pentru înregistrare.",
@@ -18047,9 +18347,21 @@
     "text": "Documente Office",
     "source": "dc7d0a6b33ff"
   },
+  "locker.offices-profile-is-on-a-drive": {
+    "text": "Profilul Office se află pe o unitate formatată exFAT sau FAT, care nu păstrează permisiuni. Un fișier care se deschide dintr-o copie temporară neblocată are acea copie acolo cât timp este deschis, iar oricine are această unitate o poate citi; Seif (Locker) vă anunță când se întâmplă acest lucru. Fișierele blocate rămân blocate.",
+    "source": "7b0eaf19f91c"
+  },
+  "locker.offices-profile-is-on-a-network": {
+    "text": "Profilul Office se află pe o resursă partajată în rețea. Un fișier care se deschide dintr-o copie temporară neblocată are acea copie acolo cât timp este deschis, iar permisiunile serverului, nu sistemul Windows, decid cine o poate citi; Seif (Locker) vă anunță când se întâmplă acest lucru. Fișierele blocate rămân blocate.",
+    "source": "8540bcff8ead"
+  },
   "talk.offline": {
     "text": "Offline",
     "source": "a1794783aab7"
+  },
+  "voices-dialog.offline-this-is-the-list-that": {
+    "text": "Offline: aceasta este lista livrată cu această versiune.",
+    "source": "29f1cab6ba4d"
   },
   "mail.archive.older-or-newer-than-so-many": {
     "text": "Mai vechi sau mai noi de atâtea zile (d), săptămâni (w), luni (m) sau ani (y)",
@@ -18139,6 +18451,10 @@
     "text": "Pe cronologie",
     "source": "f62c6abeb937"
   },
+  "locker.on-this-mac-only-touch-id": {
+    "text": "Doar pe acest Mac. Touch ID se cere mai întâi, iar cheia protejată de el este păstrată în Keychain pe Mac. Parola rămâne cea principală.",
+    "source": "3633db8bfba6"
+  },
   "ai-tools.on-this-computer": {
     "text": "Pe acest computer",
     "source": "e6af7ee2bde2"
@@ -18198,6 +18514,10 @@
   "word.one-flow-on-screen-for-a": {
     "text": "Un singur flux pe ecran pentru un cursor nativ; aspectul de imprimare și PDF îl împarte efectiv în coloane",
     "source": "33bd0e1b78c3"
+  },
+  "studio.spoken-run.one-line-each-each-is-read": {
+    "text": "Câte un text pe fiecare rând: fiecare este citit cu voce tare, în ordine",
+    "source": "f1c64f2624f8"
   },
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "Un rând pentru fiecare rând. Un Tab duce la centru, al doilea la dreapta.",
@@ -19859,6 +20179,10 @@
     "text": "Redarea sunetului clipurilor în expunere",
     "source": "97953b6cbcb8"
   },
+  "mail.play-all": {
+    "text": "Redare toate",
+    "source": "12e7b8220dc7"
+  },
   "pictures.play-automatically": {
     "text": "Redare automată",
     "source": "210dd780da5e"
@@ -19871,9 +20195,21 @@
     "text": "Redare înainte",
     "source": "18d1c1674140"
   },
+  "spoken.voices.play-the-voice": {
+    "text": "Redare voce",
+    "source": "df7413e04bae"
+  },
+  "spoken.voices.play-the-voice-of-this-line": {
+    "text": "Redare voce pentru acest rând",
+    "source": "8e0d9567a55d"
+  },
   "video.timeline.play-this-track-alone-solo-the": {
     "text": "Redare doar a acestei piste (solo): celelalte piste de același tip sunt omise până la oprire",
     "source": "734250a377a1"
+  },
+  "mail.play-unread": {
+    "text": "Redare necitite",
+    "source": "ce50e3196418"
   },
   "video.playback": {
     "text": "Redare",
@@ -20755,6 +21091,18 @@
     "text": "Citire cu voce tare",
     "source": "38e07b2a0ca5"
   },
+  "voices-dialog.read-aloud-uses-the-windows-voice": {
+    "text": "Citire cu voce tare folosește vocea Windows.",
+    "source": "7a16d7891be8"
+  },
+  "pdf.read-aloud-the-words-of-the": {
+    "text": "Citire cu voce tare: textul paginilor, de la aceasta înainte, câte o propoziție",
+    "source": "3e998b88dc26"
+  },
+  "slides.ribbon.read-aloud-the-words-on-this": {
+    "text": "Citire cu voce tare: textul de pe acest diapozitiv, notele sale sau ambele, câte o propoziție",
+    "source": "0bb5b920c262"
+  },
   "word.ribbon.read-mode": {
     "text": "Mod citire",
     "source": "b717f7f3eb53"
@@ -20799,6 +21147,10 @@
     "text": "Citire manuală",
     "source": "c1b4b3d1e6f2"
   },
+  "mail.read-every-message-in-the-list": {
+    "text": "Citire cu voce tare a tuturor mesajelor din listă, în ordinea din listă. Un filtru sau o căutare decide care. Fiecare mesaj este marcat ca citit după ce a fost citit până la capăt.",
+    "source": "4a502a868214"
+  },
   "base.sources.read-from": {
     "text": "Citire din",
     "source": "26da1ae26f48"
@@ -20835,13 +21187,37 @@
     "text": "Citit sau nu, cu stea sau nu",
     "source": "24569a47b7d9"
   },
+  "video.spoken.read-the-lines-aloud": {
+    "text": "Citire cu voce tare a rândurilor",
+    "source": "1a13c198d37e"
+  },
   "word.ribbon.read-the-document-aloud-from-the": {
     "text": "Citirea documentului cu voce tare, de la punctul de inserare",
     "source": "4ac22f8793e2"
   },
+  "studio.spoken-run.read-the-lines": {
+    "text": "Citire rânduri",
+    "source": "458b26677813"
+  },
+  "video.spoken.read-the-lines-onto-the-timeline": {
+    "text": "Citire rânduri în cronologie",
+    "source": "544b9d825bea"
+  },
+  "mail.read-the-open-message-aloud-who": {
+    "text": "Citire cu voce tare a mesajului deschis: expeditorul, subiectul, apoi textul",
+    "source": "74364f657863"
+  },
+  "mail.read-the-unread-messages-in-the": {
+    "text": "Citire cu voce tare a mesajelor necitite din listă, în ordinea din listă. Fiecare mesaj este marcat ca citit după ce a fost citit până la capăt.",
+    "source": "dff6be303eab"
+  },
   "base.links.read-what-changed-by-field": {
     "text": "Citire modificări după {field}",
     "source": "2280ed08e4c6"
+  },
+  "video.spoken.read-while-recording-the-voice-is": {
+    "text": "Citite în timpul înregistrării: vocea face parte din sunetul înregistrării.",
+    "source": "18def8f54c5b"
   },
   "base.links.read-every": {
     "text": "Citire {every}",
@@ -20871,6 +21247,10 @@
     "text": "Citirea anunță {host} că această bază de date a fost deschisă și de unde.",
     "source": "40c581613d93"
   },
+  "common.reading-line-n-of-count": {
+    "text": "Se citește rândul {n} din {count}",
+    "source": "0bdc94419bf9"
+  },
   "pdf.ocr.reading-page-page-of-count": {
     "text": "Se citește pagina {page} din {count}…",
     "source": "98a0e1804ad8"
@@ -20878,6 +21258,10 @@
   "mail.reading-pane": {
     "text": "Panou de citire",
     "source": "dde5ae89d4de"
+  },
+  "mail.reading-stopped-the-voice-did-not": {
+    "text": "Citirea s-a oprit: vocea nu a citit acest mesaj.",
+    "source": "edb70b11e6c0"
   },
   "word.envelopes.reading-the-address-book": {
     "text": "Se citește agenda de adrese…",
@@ -21607,6 +21991,10 @@
     "text": "Eliminare cont…",
     "source": "f6c7b21aa0c2"
   },
+  "locker.remove-anyway": {
+    "text": "Eliminare oricum",
+    "source": "ec52bdc0ffac"
+  },
   "word.mailings.remove-duplicates-untick-count-record-that": {
     "forms": {
       "few": "Eliminare dubluri: debifați {count} înregistrări care repetă una anterioară câmp cu câmp",
@@ -21702,6 +22090,22 @@
   "base.remove-the-relationship": {
     "text": "Eliminați relația",
     "source": "7f945c0384ab"
+  },
+  "locker.remove-the-safety-copy-now": {
+    "text": "Eliminați copia de siguranță acum?",
+    "source": "e026c125fde8"
+  },
+  "locker.remove-the-safety-copy-of-name": {
+    "text": "Eliminați copia de siguranță pentru {name}?",
+    "source": "25b045f799d0"
+  },
+  "locker.remove-the-safety-copy": {
+    "text": "Eliminare copie de siguranță…",
+    "source": "6474685cf9bd"
+  },
+  "voices-dialog.remove-the-voices-and-languages-added": {
+    "text": "Eliminați și vocile și limbile adăugate în Rutba Office?",
+    "source": "95f84db40a88"
   },
   "locker.remove-them-suggested": {
     "text": "Eliminare (recomandat)",
@@ -21878,6 +22282,14 @@
   "sheets.reopen": {
     "text": "Redeschidere",
     "source": "a886d1dc4f12"
+  },
+  "locker.reopen-the-files-that-were-open": {
+    "text": "Redeschidere fișiere care erau deschise",
+    "source": "e072693459a5"
+  },
+  "locker.reopen-them": {
+    "text": "Redeschideți-le",
+    "source": "0c8ec1c4dc3d"
   },
   "slides.comments.reopen-this-thread": {
     "text": "Redeschidere fir",
@@ -22215,9 +22627,29 @@
     "text": "Reporniți pentru a actualiza acum. Dacă lucrați în continuare, se instalează la ieșire.",
     "source": "6dceb7683e70"
   },
+  "voices-dialog.restarting-closes-every-window-and-these": {
+    "text": "Repornirea închide toate ferestrele, iar acestea au modificări încă nesalvate. Salvați-le sau închideți-le, apoi reporniți din nou. Nu s-a închis nimic.",
+    "source": "b8d3a411d920"
+  },
   "ui.restore": {
     "text": "Restabilire",
     "source": "a76e13b98392"
+  },
+  "locker.restore-a-copy": {
+    "text": "Restaurare copie…",
+    "source": "0b791c6c1552"
+  },
+  "locker.restore-from-the-safety-copy": {
+    "text": "Restaurare din copia de siguranță",
+    "source": "2ba736545122"
+  },
+  "locker.restore-from-the-safety-copy-2": {
+    "text": "Restaurare din copia de siguranță…",
+    "source": "53572e4e1540"
+  },
+  "locker.restoring": {
+    "text": "Se restaurează…",
+    "source": "5a4918e0201c"
   },
   "word.restrict-editing": {
     "text": "Restricționare editare",
@@ -22318,6 +22750,10 @@
   "sheets.review-show-comments-lists-them": {
     "text": "Revizuire → Afișare comentarii le listează",
     "source": "3a019cace7ae"
+  },
+  "voices-dialog.reviewed": {
+    "text": "Revizuit",
+    "source": "fad6057bb540"
   },
   "common.reviewing-pane": {
     "text": "Panou de revizuire",
@@ -22859,6 +23295,14 @@
     "text": "Rutba Office nu poate deschide încă fișiere {v1}.",
     "source": "cecfdddc878c"
   },
+  "voices-dialog.rutba-office-in-the-languages-this": {
+    "text": "Rutba Office în limbile folosite de acest computer.",
+    "source": "f639c2bab1a0"
+  },
+  "voices-dialog.rutba-office-in-your-languages": {
+    "text": "Rutba Office în limbile dvs.",
+    "source": "92aee8ac863e"
+  },
   "shell.rutba-office-is-now-version": {
     "text": "Rutba Office este acum la {version}",
     "source": "8b27b11cf0c8"
@@ -22887,9 +23331,21 @@
     "text": "Rutba Office {version} este descărcat. Reporniți pentru actualizare sau se instalează la ieșire",
     "source": "ef28bb66ae1a"
   },
+  "voices-dialog.rutba-office-version-is-out-but": {
+    "text": "A apărut Rutba Office {version}, dar vocile și limbile dvs. nu au putut fi verificate pentru această versiune. Se încearcă din nou la următoarea verificare.",
+    "source": "1f9d9dab508d"
+  },
+  "voices-dialog.rutba-office-version-is-out-it": {
+    "text": "A apărut Rutba Office {version}. Va fi oferită când acestea sunt gata pentru ea: {list}.",
+    "source": "2e1d40855fff"
+  },
   "shell.rutba-office-version-is-ready-to": {
     "text": "Rutba Office {version} este gata de instalare",
     "source": "9f8e0a323b51"
+  },
+  "voices-dialog.rutba-office-version-no-longer-has": {
+    "text": "Rutba Office {version} nu mai include componenta {name} ({kind}). Aceasta rămâne pe acest computer, fără a fi folosită, până când o eliminați.",
+    "source": "ca36731ad5da"
   },
   "engine.rutba-office-no-backend-for-ns": {
     "text": "Rutba Office: niciun serviciu pentru {ns}:{name}",
@@ -22982,6 +23438,18 @@
   "talk.safety-code-code-if-name-sees": {
     "text": "Cod de siguranță {code}: dacă {name} vede același cod, nu ascultă nimeni.",
     "source": "b70afef2b0dd"
+  },
+  "locker.safety-copies": {
+    "text": "Copii de siguranță",
+    "source": "7735ad244a59"
+  },
+  "locker.safety-copies-are-not-offered-on": {
+    "text": "Copiile de siguranță nu sunt oferite pe acest computer, deoarece nu are un inel de chei în care să le păstreze cheia. Folderul se blochează în continuare ca de obicei.",
+    "source": "1b386c96ddee"
+  },
+  "locker.safety-copy": {
+    "text": "Copie de siguranță",
+    "source": "966a48379b73"
   },
   "mail.safety.safety-is-off-for-this-message": {
     "text": "Siguranța este dezactivată pentru acest mesaj: linkurile și imaginile pot fi copiate, iar atașamentele salvate. Următorul mesaj se deschide cu ea activată.",
@@ -23294,6 +23762,14 @@
   "studio.scene-strip.save-what-the-frame-shows-as": {
     "text": "Salvați ce arată cadrul ca scenă nouă",
     "source": "04d539ee1ba5"
+  },
+  "english-switch.save-your-changes-first-this-window": {
+    "text": "Salvați mai întâi modificările: această fereastră se va afișa în engleză când va fi redeschisă. Ferestrele pe care le deschideți de acum înainte vor fi în engleză.",
+    "source": "158d4e0c44ec"
+  },
+  "voices-dialog.save-your-work-before-restarting": {
+    "text": "Salvați lucrul înainte de repornire",
+    "source": "9f0e25526a5b"
   },
   "update-restart.save-your-work-before-updating": {
     "text": "Salvați lucrul înainte de actualizare",
@@ -24303,6 +24779,10 @@
     "text": "Tip propoziție.",
     "source": "e3033f08f2d4"
   },
+  "read-aloud.bar.sentence-n-of-count": {
+    "text": "Propoziția {n} din {count}",
+    "source": "31e0c4c7d350"
+  },
   "word.ribbon.separated-by-commas": {
     "text": "Separare cu virgule",
     "source": "1d7e4e1cdf8b"
@@ -24931,6 +25411,10 @@
     "text": "Afișare titluri de rânduri și coloane",
     "source": "4f7b9dcce409"
   },
+  "spoken.voices.show-the-text": {
+    "text": "Afișare text",
+    "source": "0766a87f94ec"
+  },
   "sheets.dialogs.show-them-as": {
     "text": "Afișarea lor ca",
     "source": "6380dba9f992"
@@ -24946,6 +25430,10 @@
   "video.timeline.show-this-track": {
     "text": "Afișare pistă",
     "source": "f562671c6f31"
+  },
+  "english-switch.show-this-window-in-english": {
+    "text": "Afișarea acestei ferestre în engleză",
+    "source": "966d8fef25b8"
   },
   "slides.setup.show-type": {
     "text": "Tip expunere",
@@ -25767,6 +26255,10 @@
     "text": "Clip de sunet",
     "source": "556f55adc8bd"
   },
+  "studio.spoken-run.sound-is-not-on-so-the": {
+    "text": "Sunetul nu este activat, așa că vocea nu apare nici în înregistrare, nici în flux.",
+    "source": "73e5029c4133"
+  },
   "video.meter.sound-level": {
     "text": "Nivel sunet",
     "source": "03f228955745"
@@ -25871,9 +26363,21 @@
     "text": "Balon de dialog",
     "source": "210563626614"
   },
+  "voices-dialog.speech-engine-and-models": {
+    "text": "Motor de vorbire și modele",
+    "source": "023dc910442d"
+  },
+  "voices-dialog.speech-is-made-on-this-computer": {
+    "text": "Vorbirea este generată pe acest computer. Textul citit nu părăsește niciodată computerul.",
+    "source": "020d7947bc15"
+  },
   "word.speech-is-not-available-on-this": {
     "text": "Funcția de vorbire nu este disponibilă în acest sistem.",
     "source": "52e87276a561"
+  },
+  "voices-dialog.speech-will-use-the-windows-voice": {
+    "text": "Vorbirea va folosi vocea Windows până când motorul de vorbire pentru {version} este gata.",
+    "source": "7f1dd8870ffa"
   },
   "video.speed": {
     "text": "Viteză",
@@ -26002,6 +26506,14 @@
   "pdf.split-this-pdf-into-several-files": {
     "text": "Scindare: acest PDF în mai multe fișiere, după un număr de pagini sau la paginile selectate",
     "source": "ed6df15df737"
+  },
+  "video.spoken.spoken-lines": {
+    "text": "Rânduri rostite",
+    "source": "9b4ca87c5e21"
+  },
+  "common.spoken-lines": {
+    "text": "Rânduri rostite",
+    "source": "b6fcaf71e96b"
   },
   "slides.spring-2026": {
     "text": "Primăvara 2026",
@@ -26347,6 +26859,10 @@
     "text": "Oprire redare solo a pistei",
     "source": "0a0cba583153"
   },
+  "common.stop-reading": {
+    "text": "Oprire citire",
+    "source": "78be99f18a5c"
+  },
   "shell.ipc.stop-recording": {
     "text": "Oprire înregistrare",
     "source": "3d591e826d54"
@@ -26518,6 +27034,10 @@
   "mail.subject-a-word-in-the-subject": {
     "text": "Subiect: un cuvânt din subiect",
     "source": "ffb836da7f7a"
+  },
+  "mail.read-aloud.subject-subject": {
+    "text": "Subiect: {subject}",
+    "source": "71de3761a2b3"
   },
   "common.subscript": {
     "text": "Indice",
@@ -26702,6 +27222,10 @@
   "dav-accounts.syncing": {
     "text": "Se sincronizează…",
     "source": "8a046cc90ab0"
+  },
+  "read-aloud.bar.system-voice": {
+    "text": "Voce de sistem",
+    "source": "2d3d23392b00"
   },
   "image.formats.tiff-keeps-every-pixel-for-print": {
     "text": "TIFF păstrează fiecare pixel, pentru tipar și scanări.",
@@ -27655,6 +28179,10 @@
     "text": "Copia Fișiere de date (Data Files) necesită un fișier propriu. Alegeți alt nume sau alt folder.",
     "source": "b7ddf45551bf"
   },
+  "locker.the-locker-first-reads-back-every": {
+    "text": "Seif (Locker) citește mai întâi fiecare fișier al copiei din acest folder și verifică dacă se potrivește. Dacă ceva nu se potrivește, vă anunță înainte de a elimina ceva.",
+    "source": "158bfd3254fc"
+  },
   "home.the-office-apps-are-on-add": {
     "text": "Aplicațiile Office sunt active. Adăugați oricând Talk, Fișiere de date (Data Files) și aplicațiile Studio; opriți ce nu folosiți.",
     "source": "328297894902"
@@ -27674,6 +28202,10 @@
   "sheets.ribbon.the-worksheets-guide-on-office-rutba": {
     "text": "Ghidul Foi de calcul pe office.rutba.io",
     "source": "de05c2d52be3"
+  },
+  "read-aloud.reader.the-added-voice-stopped-working-so": {
+    "text": "Vocea adăugată nu mai funcționează, așa că restul se citește cu vocea sistemului.",
+    "source": "f0f998b2a82a"
   },
   "word.mailings.the-address-book-is-empty-add": {
     "text": "Agenda este goală. Adăugați întâi persoane în Contacte sau tastați o listă nouă.",
@@ -28003,6 +28535,10 @@
     "text": "Fișierul în sine nu este criptat: rolurile funcționează în Rutba Office, dar oricine copiază fișierul îl poate citi cu alt program.",
     "source": "76fbda0ec679"
   },
+  "locker.the-files-are-restored": {
+    "text": "Fișierele au fost restaurate",
+    "source": "f7002961aa52"
+  },
   "mail.dialogs.the-filter-has-learned-from-junk": {
     "text": "Filtrul a învățat din {junk} mesaje nedorite și {good} mesaje bune și nu decide nimic până nu vede câte {minimum} din fiecare. Marcați mesajele ca Nedorit și Nu este nedorit sau învățați din ce există deja aici.",
     "source": "1a734aca4f49"
@@ -28014,6 +28550,14 @@
   "sheets.queries.the-first-characters-of-column": {
     "text": "Primele caractere din „{column}”",
     "source": "b944f22738f2"
+  },
+  "video.the-first-try-came-out-with": {
+    "text": "Prima încercare a ieșit fără imagine, așa că exportul a pornit din nou.",
+    "source": "af1e9fb70b7f"
+  },
+  "slides.export-video.the-first-try-came-out-with": {
+    "text": "Prima încercare a ieșit fără imagine, așa că videoclipul se creează din nou: diapozitivul {at} din {of}.",
+    "source": "7132b0853b65"
   },
   "pictures.batch.the-first-will-be-example": {
     "text": "Primul va fi {example}",
@@ -28087,6 +28631,10 @@
     "text": "Cheia se păstrează în spațiul de stocare protejat al acestui computer, niciodată în fișier, și doar pentru această adresă.",
     "source": "73f082cb751d"
   },
+  "read-aloud.bar.the-language-being-read": {
+    "text": "Limba citită",
+    "source": "a6d60dec8ea7"
+  },
   "engine.the-last-calendar-stays-delete-its": {
     "text": "Ultimul calendar rămâne; ștergeți în schimb evenimentele sale.",
     "source": "d68b7964c865"
@@ -28111,9 +28659,17 @@
     "text": "Textul stratului",
     "source": "f53bac890188"
   },
+  "common.the-line-could-not-be-read": {
+    "text": "Nu s-a putut citi rândul: {reason}",
+    "source": "1ef63f69f2ff"
+  },
   "base.forms.the-line-is-deleted-from-table": {
     "text": "Rândul se șterge din {table} și nu mai poate fi recuperat.",
     "source": "9d1b5f1408ba"
+  },
+  "common.the-lines-could-not-be-read": {
+    "text": "Nu s-au putut citi rândurile cu voce tare: {reason}",
+    "source": "80512771ce16"
   },
   "mail.the-link-could-not-be-opened": {
     "text": "Linkul nu a putut fi deschis: {reason}",
@@ -28146,6 +28702,10 @@
   "sheets.dialogs.the-list-has-a-heading-row": {
     "text": "Lista are un rând de titluri: rămâne sus, iar titlurile sale numesc coloanele.",
     "source": "6e64ba31d8bb"
+  },
+  "voices-dialog.the-list-of-voices-and-languages": {
+    "text": "Lista de voci și limbi nu a putut fi citită. Ce este adăugat mai jos funcționează în continuare; încercați din nou când acest computer este online.",
+    "source": "1395fe37df4d"
   },
   "engine.the-list-range-needs-a-header": {
     "text": "Zona listei necesită un rând antet și cel puțin un rând sub el.",
@@ -28255,6 +28815,10 @@
     "text": "Mesajul",
     "source": "3f7b4597bf02"
   },
+  "mail.the-message-before": {
+    "text": "Mesajul anterior",
+    "source": "8c3f352f34a9"
+  },
   "mail.safety.the-message-exactly-as-it-came": {
     "text": "Mesajul exact așa cum a sosit de la server, {size}.",
     "source": "d6fe543dcfc3"
@@ -28346,6 +28910,10 @@
   "slides.slide-size.the-new-size-is-smaller-one": {
     "text": "Noua dimensiune este mai mică pe o latură. Maximizare păstrează conținutul la fel de mare, deci o parte poate depăși marginile; Asigurare potrivire îl micșorează astfel încât să rămână tot pe diapozitiv.",
     "source": "484d93d5e8bd"
+  },
+  "mail.the-next-message": {
+    "text": "Mesajul următor",
+    "source": "698b6714b353"
   },
   "sheets.dialogs.the-note-on-cell": {
     "text": "Nota din {cell}",
@@ -28659,6 +29227,26 @@
     "text": "Rândurile se inserează din celula selectată, {cell}, cu data ca dată și sumele ca numere.",
     "source": "968e3afd6474"
   },
+  "locker.the-safety-copy-holds-them-as": {
+    "text": "Copia de siguranță le păstrează așa cum erau înainte. O eliminați oricum?",
+    "source": "160f184b5815"
+  },
+  "locker.the-safety-copy-is-kept-restore": {
+    "text": "Copia de siguranță este păstrată. Restaurați o copie a ei pentru a recupera aceste fișiere: {files}",
+    "source": "71e4b43c7ac5"
+  },
+  "locker.the-safety-copy-is-removed": {
+    "text": "Copia de siguranță a fost eliminată.",
+    "source": "3dac7e4034fb"
+  },
+  "locker.the-safety-copy-of-name-has": {
+    "text": "Copia de siguranță pentru {name} este păstrată de {n} zile. Nu este blocată cu parola pentru Seif (Locker). Dacă folderul se deschide cum vă așteptați, Seif verifică folderul față de copie, apoi elimină copia.",
+    "source": "889c6b02d3a9"
+  },
+  "locker.the-safety-copy-of-name-was": {
+    "text": "Copia de siguranță pentru {name} a fost creată {when}. Fișierele sale ({n}) sunt scrise, neblocate, într-un folder nou din interiorul celui ales de dvs. Nimic din ce există deja acolo nu se modifică.",
+    "source": "a34f0ed2f93a"
+  },
   "locker.the-same-password-again": {
     "text": "Aceeași parolă din nou",
     "source": "cfd750367fe1"
@@ -28831,6 +29419,10 @@
     "text": "Formele diapozitivului ca straturi: selectare, reordonare, ascundere, redenumire",
     "source": "e96347e19582"
   },
+  "slides.ribbon.the-slide-then-its-notes": {
+    "text": "Diapozitivul, apoi notele sale",
+    "source": "ae28e25489b7"
+  },
   "pdf.export.the-smaller-pdf-is-saved-as": {
     "text": "Fișierul PDF mai mic este salvat ca fișier nou; acesta nu se modifică. Are acum {size}.",
     "source": "6442a2655dcc"
@@ -28931,6 +29523,10 @@
     "text": "Titlul la mijloc, textul sub el",
     "source": "036bb5d5a882"
   },
+  "studio.spoken-run.the-title-is-not-on-the": {
+    "text": "Titlul nu este în cadru: afișați-l, iar rândurile vor apărea în el pe măsură ce sunt citite.",
+    "source": "e190969a20ad"
+  },
   "review.the-title-of-slide-number": {
     "text": "Titlul diapozitivului {number}:",
     "source": "7f83a0913d67"
@@ -28951,6 +29547,10 @@
     "text": "Cele două parole nu coincid.",
     "source": "bb612d83804d"
   },
+  "locker.the-unsaved-changes-in-files-are": {
+    "text": "Modificările nesalvate din {files} vor fi eliminate definitiv. Această acțiune nu poate fi anulată.",
+    "source": "90213c3ea342"
+  },
   "slides.export-video.the-video-could-not-be-made": {
     "text": "Videoclipul nu a putut fi creat: {reason}",
     "source": "a10d92beb052"
@@ -28962,6 +29562,14 @@
   "video.library.the-videos-sound-and-pictures-in": {
     "text": "Videoclipurile, sunetele și imaginile din proiect sunt păstrate aici, de adăugat din nou.",
     "source": "4075715096b2"
+  },
+  "spoken.voices.the-voice-gave-no-sound-for": {
+    "text": "Vocea nu a produs niciun sunet pentru acest rând.",
+    "source": "53613e120fbf"
+  },
+  "spoken.voices.the-voice-was-stopped-before-this": {
+    "text": "Vocea a fost oprită înainte ca acest rând să fie generat.",
+    "source": "72955eafea09"
   },
   "video.export.the-whole-project": {
     "text": "Tot proiectul",
@@ -29127,6 +29735,14 @@
     "text": "Nu există diapozitive spre care să faceți zoom.",
     "source": "f7a8b80bbbe3"
   },
+  "mail.there-are-no-unread-messages-in": {
+    "text": "Nu există mesaje necitite de citit în listă.",
+    "source": "16ae6324c70a"
+  },
+  "pdf.there-are-no-words-to-read": {
+    "text": "Nu există cuvinte de citit pe această pagină. O pagină scanată poate fi citită după ce Recunoaștere text i-a găsit cuvintele.",
+    "source": "e6a37e9e16ec"
+  },
   "mail.there-is-a-folder-called-name": {
     "text": "Există deja acolo un folder numit {name}.",
     "source": "a6b783d2a832"
@@ -29174,6 +29790,10 @@
   "engine.there-is-no-mail-account-to": {
     "text": "Nu există niciun cont de e-mail de pe care să trimiteți. Adăugați unul în E-mail, Conturi.",
     "source": "4ac6eb1ff640"
+  },
+  "mail.there-is-no-message-to-read": {
+    "text": "Nu există niciun mesaj de citit.",
+    "source": "1688457587f5"
   },
   "sheets.queries.there-is-no-other-table-or": {
     "text": "Nu există în acest registru de lucru niciun alt tabel sau interogare de adăugat.",
@@ -29247,6 +29867,10 @@
     "text": "Nu există nicio foaie de lucru numită „{name}”",
     "source": "6c1e04a0ddb0"
   },
+  "locker.there-is-not-enough-room-for": {
+    "text": "Nu există suficient spațiu pentru copia de siguranță pe unitatea care conține folderul Office. Eliberați spațiu sau blocați fără copie.",
+    "source": "2cc98cc7e17b"
+  },
   "studio.window.there-is-not-enough-space-on": {
     "text": "Nu există suficient spațiu pe disc pentru înregistrare.",
     "source": "31dd575ea898"
@@ -29307,6 +29931,14 @@
     "text": "Aceste celule fac parte dintr-o îmbinare verticală. Lărgirea unui rând al ei ar rupe zona.",
     "source": "75122648d3df"
   },
+  "voices-dialog.these-come-by-themselves-with-the": {
+    "text": "Acestea vin singure cu prima voce pe care o adăugați.",
+    "source": "12cf80348807"
+  },
+  "locker.these-files-are-not-locked-the": {
+    "text": "Aceste fișiere nu sunt blocate. Copia de siguranță rămâne până când o eliminați.",
+    "source": "f75acf6c6eae"
+  },
   "mail.dialogs.these-settings-came-from-source-on": {
     "text": "Aceste setări provin din {source} de pe acest computer; sunt verificate când adresa este completă.",
     "source": "22565709a102"
@@ -29346,6 +29978,10 @@
   "talk.invite.they-see-your-name-and-your": {
     "text": "Văd numele și nota dvs. și devin contacte când acceptă. Nimeni nu află dacă o adresă are cont.",
     "source": "7d8559a730ab"
+  },
+  "voices-dialog.they-take-size-on-this-computer": {
+    "text": "Ocupă {size} pe acest computer. Păstrați-le dacă veți instala din nou Rutba Office.",
+    "source": "d55522046f72"
   },
   "profiles.they-were-saved-in-another-profile": {
     "text": "Au fost salvate în alt profil și copiate aici, deci nu pot fi citite în acesta.",
@@ -29535,9 +30171,25 @@
     "text": "Acest computer nu are spațiu de stocare protejat pentru parole salvate, iar acest profil nu are parolă, deci nu au putut fi păstrate în siguranță.",
     "source": "423cb156a6ae"
   },
+  "voices-dialog.this-computer-is-offline-the-language": {
+    "forms": {
+      "one": "Acest computer este offline: limba se adaugă când va fi online. Poate fi adăugată și dintr-un fișier, în Voci și limbi.",
+      "few": "Acest computer este offline: limbile se adaugă când va fi online. O limbă poate fi adăugată și dintr-un fișier, în Voci și limbi.",
+      "other": "Acest computer este offline: limbile se adaugă când va fi online. O limbă poate fi adăugată și dintr-un fișier, în Voci și limbi."
+    },
+    "source": "c87bafdc6eef"
+  },
   "common.this-computer-only": {
     "text": "Doar acest computer",
     "source": "601b7ae9d3a9"
+  },
+  "voices-dialog.this-computer-uses-languages-add-it": {
+    "forms": {
+      "one": "Acest computer folosește limba {languages}. Adăugați-o și alegeți-o din meniul de limbi după ce Rutba Office repornește.",
+      "few": "Acest computer folosește limbile {languages}. Adăugați-le și alegeți una din meniul de limbi după ce Rutba Office repornește.",
+      "other": "Acest computer folosește limbile {languages}. Adăugați-le și alegeți una din meniul de limbi după ce Rutba Office repornește."
+    },
+    "source": "ecb007a426ac"
   },
   "common.this-content-control-cannot-be-edited": {
     "text": "Acest control de conținut nu poate fi editat: conținutul său este blocat.",
@@ -29546,6 +30198,10 @@
   "packs-dialog.this-copy-is-installed-for-everyone": {
     "text": "Această copie este instalată pentru toți utilizatorii acestui computer, deci Windows cere permisiunea la repornire.",
     "source": "c2546a3ab80f"
+  },
+  "voices-dialog.this-copy-of-rutba-office-has": {
+    "text": "Această copie a Rutba Office nu are folder de suplimente: vocile și limbile se adaugă la o copie instalată.",
+    "source": "e81b8c5038b2"
   },
   "base.links.this-database-has-no-tables-this": {
     "text": "Această bază de date nu are tabele pe care acest cont le poate vedea.",
@@ -29687,6 +30343,14 @@
     "text": "Fișierul nu are obiecte pe care un cititor PDF să le poată găsi.",
     "source": "f617f38c26b0"
   },
+  "voices-dialog.this-file-is-not-an-add": {
+    "text": "Acest fișier nu este un supliment: trebuie să conțină un singur supliment și folderul acestuia.",
+    "source": "162cbe64b392"
+  },
+  "voices-dialog.this-file-is-not-an-add-2": {
+    "text": "Acest fișier nu este un supliment: deschideți un .zip publicat împreună cu suplimentele Rutba Office.",
+    "source": "5341e30294dc"
+  },
   "mail.this-file-was-imported-before-into": {
     "text": "Fișierul a fost importat anterior, în aceeași cutie poștală; adăugate: {messages}",
     "source": "ce0670a06a68"
@@ -29722,6 +30386,10 @@
   "locker.this-folder-is-in-cloud-which": {
     "text": "Acest folder este în {cloud}, care păstrează versiuni anterioare ale fișierelor. Versiunile simple rămân acolo după blocare; ștergeți-le în istoricul din {cloud}.",
     "source": "aa002b0574ae"
+  },
+  "locker.this-folder-is-no-longer-in": {
+    "text": "Acest folder nu mai este în Seif (Locker), deci nu există nimic cu care să fie comparată copia. Copia va fi suprascrisă și eliminată. Această acțiune nu poate fi anulată.",
+    "source": "016e4d7f2c7a"
   },
   "mail.this-folder-search-only-the-folder": {
     "text": "Acest folder: căutare doar în folderul deschis",
@@ -29850,6 +30518,10 @@
   "calendar.words.this-meeting-is-cancelled-a-calendar": {
     "text": "Această întâlnire este anulată. Un program de calendar o elimină din calendar cu fișierul atașat.",
     "source": "6e9c1888a881"
+  },
+  "mail.this-message-could-not-be-opened": {
+    "text": "Acest mesaj nu a putut fi deschis",
+    "source": "b127fbc71257"
   },
   "mail.this-message-does-not-offer-one": {
     "text": "Acest mesaj nu oferă dezabonare cu un clic.",
@@ -30023,6 +30695,10 @@
     "text": "Înălțimea acestui rând (cm, minimum)",
     "source": "319ca80981b6"
   },
+  "locker.this-safety-copy-cannot-be-opened": {
+    "text": "Această copie de siguranță nu mai poate fi deschisă.",
+    "source": "ed6f50924749"
+  },
   "studio.prompter.this-scene-has-no-script-write": {
     "text": "Această scenă nu are script. Scrieți unul în cardul ei și va derula aici în timp ce înregistrați.",
     "source": "90458537f0d7"
@@ -30067,6 +30743,10 @@
     "text": "Acest slicer nu poate filtra: {reason}.",
     "source": "470dd67603bd"
   },
+  "slides.ribbon.this-slide": {
+    "text": "Acest diapozitiv",
+    "source": "fd792ae48d11"
+  },
   "slides.this-slide-has-a-transition": {
     "text": "Acest diapozitiv are o tranziție",
     "source": "8dfb23fea55e"
@@ -30086,6 +30766,10 @@
   "slides.this-slide-has-no-narration-to-2": {
     "text": "Acest diapozitiv nu are narațiune de redat.",
     "source": "d3b95fdaa7a3"
+  },
+  "slides.this-slide-has-no-notes-to": {
+    "text": "Acest diapozitiv nu are note de citit.",
+    "source": "fbc4abc343b4"
   },
   "slides.this-slide-is-in-no-section": {
     "text": "Acest diapozitiv nu este în nicio secțiune.",
@@ -30183,6 +30867,10 @@
     "text": "Funcționează doar cât timp această copie Office este deschisă pe acest computer. Cât este închisă, mesajele așteaptă în folderul Inbox al sălii și primesc răspuns la următoarea deschidere a Office.",
     "source": "396d5e19ba5f"
   },
+  "locker.this-works-without-your-password-because": {
+    "text": "Funcționează fără parola dvs., deoarece copia de siguranță nu este blocată cu ea.",
+    "source": "8c1c3f8ccd58"
+  },
   "mail.this-year": {
     "text": "Anul acesta",
     "source": "98597183c8c6"
@@ -30258,6 +30946,10 @@
   "apps-choice.tick-the-apps-to-install-an": {
     "text": "Bifați aplicațiile de instalat. O aplicație nebifată nu este deloc pe acest computer; o puteți adăuga ulterior din Adăugare sau eliminare aplicații în Rutba Office.",
     "source": "b2f0ee1b966a"
+  },
+  "voices-dialog.tick-the-languages-to-add-they": {
+    "text": "Bifați limbile de adăugat. Se adaugă la prima pornire a Rutba Office în care acest computer este online. Orice limbă poate fi adăugată sau eliminată ulterior, în Voci și limbi.",
+    "source": "78199a576b7f"
   },
   "base.people.ticked-ones-are-shown-any-that": {
     "text": "Cele bifate se afișează. Cele aflate pe un tabel pe care rolul nu îl poate vedea sunt omise oricum pentru el.",
@@ -30823,6 +31515,10 @@
     "text": "Încercați o altă căutare.",
     "source": "2e6d79de50dc"
   },
+  "voices-dialog.try-again": {
+    "text": "Reîncercare",
+    "source": "d8b8392e2c54"
+  },
   "template-gallery.try-other-words": {
     "text": "Încercați alte cuvinte.",
     "source": "2a5ed12cfe24"
@@ -30879,9 +31575,17 @@
     "text": "Dezactivare",
     "source": "06f0e210b27d"
   },
+  "locker.turn-off-touch-id": {
+    "text": "Dezactivare Touch ID",
+    "source": "d94fb9a255da"
+  },
   "locker.turn-off-windows-hello": {
     "text": "Dezactivare Windows Hello",
     "source": "52ba933205f0"
+  },
+  "locker.turn-on-touch-id": {
+    "text": "Activare Touch ID",
+    "source": "0269040c7172"
   },
   "locker.turn-on-windows-hello": {
     "text": "Activare Windows Hello",
@@ -30914,6 +31618,10 @@
   "pictures.turned-and-saved": {
     "text": "Rotită și salvată.",
     "source": "0901e7acee0c"
+  },
+  "voices-dialog.turned-off-withdrawn-by-its-makers": {
+    "text": "Dezactivat: retras de creatorii săi",
+    "source": "14e4c1da3583"
   },
   "colour.names.turquoise": {
     "text": "Turcoaz",
@@ -31447,6 +32155,14 @@
     "text": "Actualizare formule",
     "source": "f703ab807d7f"
   },
+  "voices-dialog.update-anyway": {
+    "text": "Actualizare oricum",
+    "source": "d94343f8f050"
+  },
+  "voices-dialog.update-anyway-2": {
+    "text": "Actualizare oricum…",
+    "source": "04def120ea4d"
+  },
   "slides.update-automatically": {
     "text": "Actualizare automată",
     "source": "9e946306e543"
@@ -31462,6 +32178,10 @@
   "base.update-the-design": {
     "text": "Actualizare structură",
     "source": "884bcfa32789"
+  },
+  "voices-dialog.update-to-version-anyway": {
+    "text": "Actualizați oricum la {version}?",
+    "source": "469633528dc3"
   },
   "word.ribbon.update-style-to-match-selection": {
     "text": "Actualizare {style} după selecție",
@@ -31546,6 +32266,10 @@
   "slides.ribbon.use-timings-slides-with-a-timing": {
     "text": "Utilizare temporizări: diapozitivele cu temporizare avansează singure; dezactivat, expunerea avansează doar când o avansați dvs.",
     "source": "f5f90fd03124"
+  },
+  "locker.use-touch-id": {
+    "text": "Utilizare Touch ID",
+    "source": "8d8ec25a6ea8"
   },
   "locker.use-windows-hello-pin-fingerprint-or": {
     "text": "Utilizare Windows Hello (PIN, amprentă, față)",
@@ -31875,6 +32599,18 @@
     "text": "Voce",
     "source": "87bf2bc08589"
   },
+  "voices-dialog.voices": {
+    "text": "Voci",
+    "source": "8ead6df9cd69"
+  },
+  "voices-dialog.voices-and-languages": {
+    "text": "Voci și limbi",
+    "source": "75f270b3eb94"
+  },
+  "common.voices-and-languages": {
+    "text": "Voci și limbi…",
+    "source": "14395bf4d3f9"
+  },
   "common.volume": {
     "text": "Volum",
     "source": "b10fb966d720"
@@ -32074,6 +32810,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "Ce pot face instrumentele AI cu fiecare. Totul este Dezactivat până alegeți. Aceleași setări sunt în Instrumente AI.",
     "source": "14310670b45f"
+  },
+  "spoken.voices.what-the-lines-do": {
+    "text": "Ce fac rândurile",
+    "source": "573064e5a609"
   },
   "word.dialogs.what-the-table-is": {
     "text": "Ce este tabelul",
@@ -32443,6 +33183,10 @@
     "text": "Fără un cont E-mail de trimitere, Rutba trimite invitațiile prin e-mail de la no-reply@rutba.io.",
     "source": "12232a9ce3d1"
   },
+  "voices-dialog.with-no-network-a-voice-or": {
+    "text": "Fără rețea, o voce sau o limbă poate fi adăugată din fișierul ei: un .zip publicat împreună cu suplimentele Rutba Office, adus de pe alt computer. Alegeți Adăugare dintr-un fișier.",
+    "source": "83a90cbad906"
+  },
   "base.links.with-no-primary-key-there-they": {
     "text": "Fără cheie primară acolo, pot fi citite, dar nu modificate.",
     "source": "040d7d3b40f5"
@@ -32466,6 +33210,10 @@
   "talk.withdraw-the-invitation-to-email": {
     "text": "Retragere invitație către {email}",
     "source": "8af78191a599"
+  },
+  "voices-dialog.withdrawn-by-its-makers": {
+    "text": "Retras de creatorii săi.",
+    "source": "9ff368476fae"
   },
   "sheets.find.within": {
     "text": "În",
@@ -33123,6 +33871,10 @@
     "text": "acceptat",
     "source": "070c160a6299"
   },
+  "voices-dialog.add-on": {
+    "text": "supliment",
+    "source": "a33a54a73112"
+  },
   "base.links.added-fields": {
     "text": "adăugate: {fields}",
     "source": "30cea32e2a11"
@@ -33363,6 +34115,10 @@
     "text": "versiune de dezvoltare",
     "source": "030dcbc3b708"
   },
+  "voices-dialog.dictionary": {
+    "text": "dicționar",
+    "source": "177ca70f42de"
+  },
   "word.mailings.directory": {
     "text": "director",
     "source": "333178788eae"
@@ -33458,6 +34214,10 @@
   "mail.folder": {
     "text": "folder",
     "source": "034a00624882"
+  },
+  "voices-dialog.font": {
+    "text": "font",
+    "source": "795ea3efa43d"
   },
   "word.footnote-n": {
     "text": "nota de subsol {n}",
@@ -33638,6 +34398,10 @@
   "common.landscape-2": {
     "text": "vedere",
     "source": "acb955df82b8"
+  },
+  "voices-dialog.language": {
+    "text": "limbă",
+    "source": "a4ef304ba42a"
   },
   "mail.last-try-failed-error-trying-again": {
     "text": "ultima încercare nu a reușit ({error}), se reîncearcă",
@@ -33887,6 +34651,10 @@
     "text": "setări imprimare",
     "source": "9198cbaeac3c"
   },
+  "voices-dialog.pronunciation": {
+    "text": "pronunție",
+    "source": "ce978dc7829d"
+  },
   "common.px": {
     "text": "px",
     "source": "6ee2cc105a67"
@@ -34026,6 +34794,14 @@
   "slides.action.something": {
     "text": "ceva",
     "source": "3fc9b689459d"
+  },
+  "voices-dialog.speech-engine": {
+    "text": "motor de vorbire",
+    "source": "69f0063d7151"
+  },
+  "voices-dialog.speech-model": {
+    "text": "model de vorbire",
+    "source": "14a7ccd64b8c"
   },
   "video.export.square": {
     "text": "pătrat",
@@ -34295,6 +35071,10 @@
     "text": "codificatorul video nu a furnizat date, deci nu s-a salvat nimic. Încercați din nou.",
     "source": "4c38cc475e8b"
   },
+  "common.the-video-encoder-gave-the-sound": {
+    "text": "codificatorul video a produs sunetul, dar nu și imaginea, așa că nu s-a salvat nimic. Încercați din nou.",
+    "source": "4a861b2049e1"
+  },
   "video.the-whole-picture-on-black-bars": {
     "text": "toată imaginea, cu bare negre",
     "source": "415c8c2f50c4"
@@ -34382,6 +35162,10 @@
   "video.videos-sound-and-pictures-one-after": {
     "text": "videoclipuri, sunete și imagini, unul după altul, după clipurile de pe pista selectată",
     "source": "6f8e30fdb3c2"
+  },
+  "voices-dialog.voice": {
+    "text": "voce",
+    "source": "c57d7e920197"
   },
   "contacts.web": {
     "text": "web",
@@ -36083,6 +36867,14 @@
     "text": "{files}, {folders}",
     "source": "91829f4187ac"
   },
+  "locker.file-is-left-plain-and-shows": {
+    "text": "Fișierul {file} rămâne neblocat și este afișat ca neblocat.",
+    "source": "ab60c99e1907"
+  },
+  "locker.file-kept-changing-or-was-in": {
+    "text": "Fișierul {file} s-a tot modificat sau era în uz în timp ce se făcea copia de siguranță, așa că nu s-a blocat nimic.",
+    "source": "36607f9c5145"
+  },
   "mail.folder-is-deleted": {
     "text": "S-a șters {folder}.",
     "source": "20926d429662"
@@ -36207,6 +36999,22 @@
     "text": "{label}: {blurb}; înlocuiește efectul selectat",
     "source": "a8e919e7d5f9"
   },
+  "voices-dialog.languages-will-be-added-when-this": {
+    "forms": {
+      "one": "Limba {languages} va fi adăugată când acest computer este online. O limbă poate fi adăugată și dintr-un fișier, în Voci și limbi.",
+      "few": "Limbile {languages} vor fi adăugate când acest computer este online. O limbă poate fi adăugată și dintr-un fișier, în Voci și limbi.",
+      "other": "Limbile {languages} vor fi adăugate când acest computer este online. O limbă poate fi adăugată și dintr-un fișier, în Voci și limbi."
+    },
+    "source": "fa0e4abdce47"
+  },
+  "voices-dialog.language-is-no-longer-built-into": {
+    "text": "Limba {language} nu mai este inclusă în Rutba Office. Adăugați pachetul ei de limbă în Voci și limbi.",
+    "source": "c5cd1a83525c"
+  },
+  "voices-dialog.language-now-comes-as-a-language": {
+    "text": "Limba {language} vine acum ca pachet de limbă și a fost adăugată cu această actualizare.",
+    "source": "97a36bd5a08c"
+  },
   "video.inspector.level-times": {
     "text": "De {level} ori",
     "source": "8092db25eeb5"
@@ -36243,6 +37051,10 @@
     "text": "Nu s-a putut deschide: {names}. Formatul nu poate fi redat în acest sistem.",
     "source": "40ec26e4b663"
   },
+  "read-aloud.bar.name-added": {
+    "text": "{name} (supliment)",
+    "source": "5e0a009f158f"
+  },
   "base.links.name-coming": {
     "text": "{name} (în curând)",
     "source": "c5bfe2423325"
@@ -36250,6 +37062,10 @@
   "design.name-dark": {
     "text": "{name} (întunecat)",
     "source": "de9e429833c5"
+  },
+  "common.name-draft": {
+    "text": "{name} (ciornă)",
+    "source": "5afe5a4a59c2"
   },
   "redact.name-redacted": {
     "text": "{name} (anonimizare)",
@@ -36307,6 +37123,10 @@
     "text": "Nu s-a putut desena {name}: {reason}",
     "source": "65bcb558f48b"
   },
+  "locker.name-could-not-be-opened-again": {
+    "text": "Nu s-a putut redeschide {name}: {why}",
+    "source": "20ca380f0559"
+  },
   "common.name-could-not-be-opened-reason": {
     "text": "Nu s-a putut deschide {name}: {reason}",
     "source": "dae0790a804d"
@@ -36355,9 +37175,21 @@
     "text": "Este deja persoană de contact: {name}.",
     "source": "5bf61d9afecd"
   },
+  "locker.name-is-a-kind-of-file": {
+    "text": "{name} este un tip de fișier care se citește de pe disc, așa că s-a deschis dintr-o copie temporară neblocată, nu în memorie. Acea copie nu este blocată.",
+    "source": "8c3ca214b1be"
+  },
+  "locker.name-is-already-open-so-these": {
+    "text": "Fișierul {name} este deja deschis, așa că aceste modificări nesalvate se deschid ca {saved}, un fișier nou alături, în același folder blocat.",
+    "source": "f866dc2fc7b7"
+  },
   "talk.name-is-blocked": {
     "text": "Persoană blocată: {name}.",
     "source": "896ccbbaeef1"
+  },
+  "locker.name-is-in-an-older-format": {
+    "text": "Fișierul {name} are un format mai vechi. Salvarea lui creează {saved} alături, în același folder blocat.",
+    "source": "25f899dbe396"
   },
   "locker.name-is-locked-in-folder": {
     "text": "Fișierul {name} este blocat în {folder}.",
@@ -36366,6 +37198,10 @@
   "talk.name-is-no-longer-a-contact": {
     "text": "Nu mai este persoană de contact: {name}.",
     "source": "f2f97457bba2"
+  },
+  "locker.name-is-no-longer-in-the": {
+    "text": "{name} nu mai este în Seif (Locker). Copia sa de siguranță este încă păstrată aici.",
+    "source": "4af6541725f0"
   },
   "image.name-is-no-longer-open-so": {
     "text": "{name} s-a închis, deci imaginea nu poate reveni în document. Exportați-o în schimb.",
@@ -36383,6 +37219,10 @@
     "text": "{name} nu este disponibil.",
     "source": "aca30d15fc29"
   },
+  "voices-dialog.name-is-not-used-until-its": {
+    "text": "{name} nu se folosește până când versiunea pentru {version} este gata.",
+    "source": "2f267730bc10"
+  },
   "common.name-is-not-wired-yet": {
     "text": "Încă nu funcționează: {name}.",
     "source": "88e2be5594ad"
@@ -36398,6 +37238,10 @@
   "mail.name-is-open-where-it-lies": {
     "text": "Deschis pe loc: {name}, doar în citire. Se indexează pentru căutare.",
     "source": "749ec97c4e3a"
+  },
+  "locker.name-is-over-1-gb-so": {
+    "text": "{name} depășește 1 GB, așa că s-a deschis dintr-o copie temporară neblocată, nu în memorie. Acea copie nu este blocată.",
+    "source": "950f4db86aed"
   },
   "common.name-is-protected-with-a-password": {
     "text": "Fișierul {name} este protejat cu parolă și rămâne închis până când se introduce parola.",
@@ -36439,6 +37283,10 @@
     "text": "Nu s-a găsit {name}",
     "source": "11fabb5fa0c9"
   },
+  "locker.name-opened-from-a-temporary-plain": {
+    "text": "{name} s-a deschis dintr-o copie temporară neblocată, nu în memorie. Acea copie nu este blocată.",
+    "source": "01b4847cdddb"
+  },
   "sheets.name-refreshed": {
     "text": "Reîmprospătat: {name}",
     "source": "7b63595ee10b"
@@ -36462,6 +37310,10 @@
   "profiles.name-will-open-without-asking-and": {
     "text": "{name} se va deschide fără să întrebe, iar ce a sigilat parola se păstrează ca înainte, protejat de Windows doar pentru contul dvs.",
     "source": "bccde320f01d"
+  },
+  "voices-dialog.name-will-show-new-labels-in": {
+    "text": "{name} va afișa etichetele noi în engleză până când versiunea pentru {version} este gata.",
+    "source": "070ebd66c642"
   },
   "talk.invite.name-would-like-to-talk-with": {
     "text": "{name} ar dori să vorbească cu dvs. pe Rutba Talk",
@@ -36583,6 +37435,10 @@
     "text": "{name}, pagina {page} din {count}",
     "source": "0f8439d610e0"
   },
+  "locker.name-with-unsaved-changes": {
+    "text": "{name}, cu modificări nesalvate",
+    "source": "d3fccb2b063d"
+  },
   "slides.motion.name-option": {
     "text": "{name}, {option}",
     "source": "769e8e2405cf"
@@ -36695,6 +37551,14 @@
     "text": "Fișiere care nu s-au putut debloca: {n}, deci folderul nu a fost eliminat.",
     "source": "189a2a0888a7"
   },
+  "locker.n-files-did-not-match-the": {
+    "text": "Fișiere care nu corespundeau copiei de siguranță și nu au fost restaurate: {n}",
+    "source": "9ffb4b5699f4"
+  },
+  "locker.n-files-in-this-folder-do": {
+    "text": "Fișiere din acest folder care nu se deblochează cum ar trebui: {n}",
+    "source": "a0e568b53b1f"
+  },
   "locker.n-files-in-this-folder-have": {
     "text": "Fișiere din acest folder cu două versiuni: {n}. Alegeți mai întâi între ele. Nu s-a modificat nimic.",
     "source": "0054192545bb"
@@ -36702,6 +37566,10 @@
   "locker.n-files-in-name-cannot-be": {
     "text": "Fișiere din {name} care nu pot fi citite: {n}.",
     "source": "e60e71803e18"
+  },
+  "locker.n-files-restored-to-dest": {
+    "text": "Fișiere restaurate în {dest}: {n}",
+    "source": "0fe8b13fee6a"
   },
   "studio.setups-menu.n-files-all-in-the-setup": {
     "text": "Fișiere, toate în configurație: {n}",
@@ -36774,6 +37642,10 @@
   "mail.path-is-no-longer-there": {
     "text": "{path} nu mai există",
     "source": "592e65bab5c5"
+  },
+  "voices-dialog.pct-translated-for-this-version": {
+    "text": "{pct}% tradus pentru această versiune",
+    "source": "692d9bafb1dc"
   },
   "sheets.ribbon.pen-click-again-for-its-colour": {
     "text": "{pen}: clic din nou pentru culoare și grosime",

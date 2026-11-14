@@ -631,6 +631,22 @@
     "text": "Una columna condicional necesita una regla",
     "source": "aed8bfd618e7"
   },
+  "locker.a-copy-of-these-files-as": {
+    "text": "Una copia de estos archivos tal como están ahora, guardada en la carpeta de Office de este Mac, para que no se pierda nada mientras te familiarizas con la Caja fuerte (Locker). No está bloqueada con tu contraseña de la Caja fuerte: cualquiera que inicie sesión en esta cuenta del Mac puede restaurarla.",
+    "source": "6e2bd717daa8"
+  },
+  "locker.a-copy-of-these-files-as-2": {
+    "text": "Una copia de estos archivos tal como están ahora, guardada en la carpeta de Office de este ordenador, para que no se pierda nada mientras te familiarizas con la Caja fuerte (Locker). No está bloqueada con tu contraseña de la Caja fuerte: cualquiera que pueda abrir este perfil de Office puede restaurarla.",
+    "source": "2094b4f4f038"
+  },
+  "locker.a-copy-of-these-files-as-3": {
+    "text": "Una copia de estos archivos tal como están ahora, guardada en la carpeta de Office de este ordenador, para que no se pierda nada mientras te familiarizas con la Caja fuerte (Locker). No está bloqueada con tu contraseña de la Caja fuerte: cualquiera que inicie sesión en esta cuenta de Windows puede restaurarla.",
+    "source": "9ee82c902b7b"
+  },
+  "locker.a-copy-of-these-files-as-4": {
+    "text": "Una copia de estos archivos tal como están ahora, guardada en la carpeta de Office de este ordenador, para que no se pierda nada mientras te familiarizas con la Caja fuerte (Locker). No está bloqueada con tu contraseña de la Caja fuerte: cualquiera que inicie sesión en esta cuenta de usuario puede restaurarla.",
+    "source": "2f36db57f352"
+  },
   "template-gallery.a-course-session-objectives-the-agenda": {
     "text": "Una sesión de un curso: objetivos, el orden del día, las lecciones, una comprobación rápida y un resumen",
     "source": "70cd3e33cd84"
@@ -951,6 +967,10 @@
     },
     "source": "50e0f90aa379"
   },
+  "voices-dialog.a-newer-revision-is-ready": {
+    "text": "Revisión más reciente disponible",
+    "source": "6c0971aff110"
+  },
   "template-gallery.a-newsletter-with-a-masthead-two": {
     "text": "Un boletín con cabecera, dos columnas de artículos y un panel de fechas",
     "source": "d481579262f8"
@@ -1147,6 +1167,18 @@
     "text": "Un saldo acumulado de",
     "source": "f223d22c6094"
   },
+  "locker.a-safety-copy-of-this-folder": {
+    "text": "Se conserva una copia de seguridad",
+    "source": "bde8bd957ac6"
+  },
+  "locker.a-safety-copy-of-this-folder-2": {
+    "text": "Se hace una copia de seguridad antes de bloquear los primeros archivos.",
+    "source": "e7490abc7847"
+  },
+  "locker.a-safety-copy-of-your-files": {
+    "text": "Se guarda una copia de seguridad en este ordenador.",
+    "source": "812ca6b18f66"
+  },
   "engine.a-scatter-chart-here-plots-up": {
     "text": "Aquí un gráfico de dispersión representa hasta tres series: selecciona un bloque con una columna X y hasta tres columnas Y.",
     "source": "1161906fee38"
@@ -1230,6 +1262,10 @@
   "word.references.a-source-is-already-tagged-tag": {
     "text": "Ya hay una fuente con la etiqueta {tag}.",
     "source": "70fd6a155c46"
+  },
+  "video.timeline.a-spoken-line": {
+    "text": "Una línea hablada",
+    "source": "29b4895d436f"
   },
   "video.inspector.a-still-lasts": {
     "text": "Una imagen fija dura",
@@ -1334,6 +1370,10 @@
   "studio.window.a-window": {
     "text": "Una ventana",
     "source": "9b1f7eb460ff"
+  },
+  "voices-dialog.a-window-is-open-in-this": {
+    "text": "Hay una ventana abierta en este idioma. Ciérrala, o abre las ventanas en otro idioma, antes de quitarlo.",
+    "source": "3ae5879eef89"
   },
   "studio.sources-column.a-window-not-chosen-yet": {
     "text": "Una ventana, aún sin elegir",
@@ -1879,6 +1919,14 @@
     "text": "Agregar un total",
     "source": "c78ecc1fa62c"
   },
+  "spoken.voices.add-a-voice-to-have-these": {
+    "text": "Agregar una voz para que estas líneas se lean en voz alta",
+    "source": "b2afe4eb368b"
+  },
+  "read-aloud.voice-offer.add-a-voice-more-natural-voices": {
+    "text": "Agregar una voz: voces más naturales para Leer en voz alta, en Voces e idiomas",
+    "source": "bfbf7111b5c5"
+  },
   "studio.flip-strip.add-a-web-page": {
     "text": "Agregar una página web",
     "source": "301fb6179868"
@@ -1946,6 +1994,14 @@
   "locker.add-folder": {
     "text": "Agregar carpeta…",
     "source": "fb227b5ff513"
+  },
+  "voices-dialog.add-from-a-file": {
+    "text": "Agregar desde un archivo",
+    "source": "68655ccf7b75"
+  },
+  "voices-dialog.add-from-a-file-2": {
+    "text": "Agregar desde archivo…",
+    "source": "ca82b661b3c0"
   },
   "packs-dialog.add-it-with-add-or-remove": {
     "text": "Agrégala con Agregar o quitar aplicaciones y abrirá lo que le corresponde a partir del próximo inicio.",
@@ -2067,6 +2123,10 @@
     "text": "Agrega vídeos, sonidos e imágenes, o suéltalos en esta ventana. Se colocan en la escala de tiempo uno tras otro.",
     "source": "79fc33dd6094"
   },
+  "voices-dialog.add-when-online": {
+    "text": "Agregar con conexión",
+    "source": "971ac51b33f5"
+  },
   "mail.accounts-bulk.add-count-account": {
     "forms": {
       "many": "Agregar {count} de cuentas",
@@ -2087,6 +2147,10 @@
     "text": "Agregar: pone la palabra en el diccionario",
     "source": "f696718081b5"
   },
+  "voices-dialog.add-on-files": {
+    "text": "Archivos de complemento",
+    "source": "4d65ebdbe444"
+  },
   "apps-choice.add-ons": {
     "text": "Complementos",
     "source": "ccfc53fcbd49"
@@ -2098,6 +2162,14 @@
   "common.added": {
     "text": "Agregado",
     "source": "6b02e0d363a4"
+  },
+  "voices-dialog.added-here": {
+    "text": "Agregado aquí",
+    "source": "9851c5fac6c6"
+  },
+  "voices-dialog.added-here-not-on-the-list": {
+    "text": "Agregado aquí, no está en la lista de esta versión",
+    "source": "fdd61e2094ac"
   },
   "mail.dialogs.added-to-the-end-of-new": {
     "text": "Se agrega al final de los mensajes nuevos, y encima de la cita al responder o reenviar",
@@ -2123,9 +2195,29 @@
     },
     "source": "93ca61fcc584"
   },
+  "voices-dialog.added-but-not-used": {
+    "text": "Agregado, pero no se usa",
+    "source": "1aa13e5c4cd6"
+  },
+  "voices-dialog.added-waiting-for-what-it-needs": {
+    "text": "Agregado, a la espera de lo que necesita",
+    "source": "41a27014ef99"
+  },
   "packs-dialog.added-here-from-the-next-start": {
     "text": "Agregada: disponible a partir del próximo inicio",
     "source": "81c2b338bb02"
+  },
+  "voices-dialog.added-moved-in-at-restart": {
+    "text": "Agregado: se instala al reiniciar",
+    "source": "23bb225cbdb4"
+  },
+  "voices-dialog.added-not-ready-in-time-at": {
+    "text": "Agregado: no estuvo listo a tiempo en este inicio",
+    "source": "6d386eb3b0d7"
+  },
+  "voices-dialog.added-used-from-the-next-start": {
+    "text": "Agregado: se usa desde el próximo inicio",
+    "source": "e0e14a83e684"
   },
   "mail.accounts-bulk.added-provider": {
     "text": "Agregada: {provider}",
@@ -2523,6 +2615,10 @@
     "text": "Todos los archivos",
     "source": "866956901fd1"
   },
+  "locker.all-good-remove-the-safety-copy": {
+    "text": "Todo bien, quitar la copia…",
+    "source": "018e0096608e"
+  },
   "inspect.all-items-were-removed": {
     "text": "Se quitaron todos los elementos.",
     "source": "fc6c610af91d"
@@ -2755,6 +2851,10 @@
     "text": "Una acción va a una dirección web (http:// o https://) o a una dirección de correo electrónico (mailto:).",
     "source": "192eebf7ad62"
   },
+  "voices-dialog.an-added-voice-or-language-is": {
+    "text": "Una voz o un idioma agregado se usa desde el próximo inicio. Si quitas uno, se conservan tus documentos y tu configuración.",
+    "source": "a5c16bfef61e"
+  },
   "sheets.dialogs.an-address-such-as-rutba-io": {
     "text": "Una dirección, como rutba.io o hello@rutba.io, o un lugar de este libro, como C12, Hoja2!B4 o un nombre.",
     "source": "257b9cd3f57d"
@@ -2914,6 +3014,22 @@
   "base.sources.another-data-files-database": {
     "text": "Otra base de datos de Data Files",
     "source": "a3cc390853c1"
+  },
+  "locker.another-office-profile-on-this-mac": {
+    "text": "Otro perfil de Office en esta cuenta del Mac también tendría acceso. Si pones una contraseña a este perfil, eso no ocurre.",
+    "source": "dd51602f9f1c"
+  },
+  "locker.another-office-profile-on-this-windows": {
+    "text": "Otro perfil de Office en esta cuenta de Windows también tendría acceso. Si pones una contraseña a este perfil, eso no ocurre.",
+    "source": "e7908aa680a5"
+  },
+  "locker.another-office-profile-on-this-user": {
+    "text": "Otro perfil de Office en esta cuenta de usuario también tendría acceso. Si pones una contraseña a este perfil, eso no ocurre.",
+    "source": "5e249dc1af3c"
+  },
+  "voices-dialog.another-rutba-office-is-changing-the": {
+    "text": "Otra copia de Rutba Office está cambiando las voces y los idiomas ahora. Vuelve a intentarlo en un momento.",
+    "source": "8b3c41c56b48"
   },
   "talk.address.another-address-of-yours": {
     "text": "Otra dirección tuya",
@@ -3650,6 +3766,10 @@
   "video.back-a-second": {
     "text": "Retroceder un segundo",
     "source": "6edb45cb368b"
+  },
+  "read-aloud.bar.back-a-sentence": {
+    "text": "Retroceder una frase",
+    "source": "4505738dcaa5"
   },
   "studio.back-soon": {
     "text": "Vuelvo enseguida",
@@ -4503,6 +4623,10 @@
     "text": "Cámara {n}",
     "source": "76ef0b65d44f"
   },
+  "voices-dialog.can-be-added-when-this-computer": {
+    "text": "Se puede agregar cuando este ordenador tenga conexión",
+    "source": "030abf4e9f18"
+  },
   "common.can-down": {
     "text": "Lata: hacia abajo",
     "source": "4bbecf421c24"
@@ -4819,6 +4943,10 @@
     "text": "Cambiado",
     "source": "2a6141e43be0"
   },
+  "locker.changed-since-the-copy-was-made": {
+    "text": "Cambiado desde que se hizo la copia: {files}",
+    "source": "876fd443e1df"
+  },
   "review.changed-count-time": {
     "forms": {
       "many": "Cambiado {count} de veces.",
@@ -4955,6 +5083,10 @@
     "text": "Volver a revisar: vuelve a leer el documento desde cero",
     "source": "dbd3a19ef2f5"
   },
+  "locker.check-and-remove": {
+    "text": "Comprobar y quitar",
+    "source": "f27f294e584c"
+  },
   "calendar.check-availability": {
     "text": "Comprobar disponibilidad",
     "source": "2071664a583f"
@@ -5038,6 +5170,10 @@
   "ui.proofing.checking-in-language": {
     "text": "Revisando en {language}",
     "source": "35352cdad1d4"
+  },
+  "locker.checking-the-folder-against-its-safety": {
+    "text": "Comprobando la carpeta con su copia de seguridad…",
+    "source": "d0208c82b534"
   },
   "mail.rules.checking-this-folder": {
     "text": "Comprobando esta carpeta…",
@@ -5126,6 +5262,10 @@
   "mail.archive.choose-a-folder": {
     "text": "Elegir una carpeta",
     "source": "5c71b8cd7822"
+  },
+  "locker.choose-a-folder-and-restore": {
+    "text": "Elegir carpeta y restaurar…",
+    "source": "ab7346bbfb2a"
   },
   "pdf.choose-a-folder-for-the-files": {
     "text": "Elegir una carpeta para los archivos",
@@ -5270,6 +5410,10 @@
   "studio.sources-column.choose-what-to-show": {
     "text": "Elige qué mostrar",
     "source": "baee168f9101"
+  },
+  "locker.choose-where-to-restore-the-files": {
+    "text": "Elegir dónde restaurar los archivos",
+    "source": "6de9b186eb7a"
   },
   "mail.choose-which-account-to-send-from": {
     "text": "Elige desde qué cuenta enviar.",
@@ -6458,6 +6602,10 @@
   "slides.costs": {
     "text": "Costes",
     "source": "b88fc5fc4765"
+  },
+  "voices-dialog.could-not-be-added": {
+    "text": "No se pudo agregar",
+    "source": "1bf82610aa3d"
   },
   "mail.accounts-bulk.could-not-be-set-up": {
     "text": "No se pudo configurar",
@@ -8059,6 +8207,10 @@
     "text": "Borrador, En revisión, Aprobado",
     "source": "52ebfbb3ae76"
   },
+  "voices-dialog.draft-not-yet-reviewed": {
+    "text": "Borrador, aún sin revisar",
+    "source": "887d99cb2ec9"
+  },
   "mail.drafts": {
     "text": "Borradores",
     "source": "f592e6a4db3c"
@@ -8338,6 +8490,18 @@
   "sheets.words.each-line-is-a-paragraph-of": {
     "text": "Cada línea es un párrafo propio. Ctrl+Entrar inserta el texto.",
     "source": "ba23d84777b1"
+  },
+  "video.spoken.each-line-made-again-from-its": {
+    "text": "Cada línea vuelta a crear ahora a partir de su texto, con esta voz y esta velocidad",
+    "source": "19a9307c0464"
+  },
+  "studio.spoken-run.each-line-read-aloud-in-turn": {
+    "text": "Cada línea leída en voz alta por orden y mostrada en el título mientras suena su voz",
+    "source": "82ccf6599ff7"
+  },
+  "video.spoken.each-line-read-aloud-its-words": {
+    "text": "Cada línea leída en voz alta, una tras otra, con su texto a la vista mientras suena su voz",
+    "source": "282adc866b4a"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "Cada cuenta de correo, calendario, libreta de direcciones, base de datos y carpeta tiene su propia configuración, que también se muestra en su propia aplicación, y lo mismo ocurre con Grabadora (Recorder). Todo está desactivado hasta que elijas. Nunca se elimina ni se mueve nada, y todo lo que se envíe espera primero a que pulses aquí.",
@@ -9110,6 +9274,10 @@
   "locker.every-file-in-this-folder-is": {
     "text": "Todos los archivos de esta carpeta se bloquean donde están. Los archivos que agregues después quedan desbloqueados hasta que los bloquees.",
     "source": "bf46961f6e33"
+  },
+  "locker.every-file-matched-the-safety-copy": {
+    "text": "Todos los archivos coinciden. Se ha quitado la copia de seguridad.",
+    "source": "641b821fb375"
   },
   "mail.every-message-waits-this-long-before": {
     "text": "Cada mensaje espera este tiempo antes de salir y puede recuperarse hasta entonces.",
@@ -10311,6 +10479,10 @@
     "text": "Fuentes",
     "source": "3680fcad01f4"
   },
+  "voices-dialog.fonts-and-dictionaries": {
+    "text": "Fuentes y diccionarios",
+    "source": "e7aff9e0d28b"
+  },
   "sheets.ribbon.fonts-the-heading-and-body-faces": {
     "text": "Fuentes: las fuentes de títulos y de cuerpo; ahora {major} y {minor}",
     "source": "8048e40f3f6f"
@@ -10558,6 +10730,10 @@
   "video.forward-a-second": {
     "text": "Avanzar un segundo",
     "source": "8c492f4ddac3"
+  },
+  "read-aloud.bar.forward-a-sentence": {
+    "text": "Avanzar una frase",
+    "source": "b7b09fb5bf3f"
   },
   "studio.setups-menu.found": {
     "text": "Encontrado",
@@ -10818,6 +10994,10 @@
   "calendar.from-address": {
     "text": "Desde {address}",
     "source": "6d066bb09cc4"
+  },
+  "mail.read-aloud.from-name": {
+    "text": "De {name}",
+    "source": "2f4ab5d74ae4"
   },
   "contacts.from-name-not-yet-in-your": {
     "text": "De {name}, aún no está en tus contactos.",
@@ -13179,9 +13359,17 @@
     "text": "Se convierte en un archivo normal en el mismo lugar y se quitan las versiones anteriores que la Caja fuerte (Locker) guardaba de él. Puedes volver a bloquearlo cuando quieras.",
     "source": "edc5654cc244"
   },
+  "locker.it-cannot-be-checked-or-restored": {
+    "text": "No se puede comprobar ni restaurar. ¿Quitar la copia?",
+    "source": "e9d50f1e317d"
+  },
   "mail.it-goes-to": {
     "text": "Va a:",
     "source": "f7cf347abe06"
+  },
+  "locker.it-has-been-kept-for-n": {
+    "text": "Se conserva desde hace {n} días. Quítala cuando compruebes que la carpeta se abre bien.",
+    "source": "e9de9f7945ab"
   },
   "calendar.words.it-has-no-free-time-left": {
     "text": "No le queda tiempo libre ese día.",
@@ -13195,6 +13383,30 @@
     "text": "No está en tus propias carpetas: puede ser el archivo de otra persona o uno del propio ordenador. Lo que se lee pasa a esta base de datos, y viaja con ella si se reenvía.",
     "source": "852e5b1f2f73"
   },
+  "locker.it-is-not-locked-with-your": {
+    "text": "No está bloqueada con tu contraseña de la Caja fuerte (Locker): cualquiera que pueda abrir este perfil de Office puede restaurarla. Si se llevan el disco, la protegen tu contraseña del Mac y la de este perfil. Quítala cuando la carpeta se abra como esperas.",
+    "source": "49ed3008b51b"
+  },
+  "locker.it-is-not-locked-with-your-2": {
+    "text": "No está bloqueada con tu contraseña de la Caja fuerte (Locker): cualquiera que pueda abrir este perfil de Office puede restaurarla. Si se llevan el disco, la protegen tu contraseña de Windows y la de este perfil. Quítala cuando la carpeta se abra como esperas.",
+    "source": "42aaf12f0836"
+  },
+  "locker.it-is-not-locked-with-your-3": {
+    "text": "No está bloqueada con tu contraseña de la Caja fuerte (Locker): cualquiera que pueda abrir este perfil de Office puede restaurarla. Si se llevan el disco, la protegen la contraseña de tu depósito de claves y la de este perfil. Quítala cuando la carpeta se abra como esperas.",
+    "source": "a1d96fbb286c"
+  },
+  "locker.it-is-not-locked-with-your-4": {
+    "text": "No está bloqueada con tu contraseña de la Caja fuerte (Locker): cualquiera que inicie sesión en esta cuenta del Mac puede restaurarla. Si se llevan el disco, la protege tu contraseña del Mac, a través del llavero. Quítala cuando la carpeta se abra como esperas.",
+    "source": "3479d47ec7b8"
+  },
+  "locker.it-is-not-locked-with-your-5": {
+    "text": "No está bloqueada con tu contraseña de la Caja fuerte (Locker): cualquiera que inicie sesión en esta cuenta de Windows puede restaurarla. Si se llevan el disco, la protege tu contraseña de Windows. Quítala cuando la carpeta se abra como esperas.",
+    "source": "94813052ad1f"
+  },
+  "locker.it-is-not-locked-with-your-6": {
+    "text": "No está bloqueada con tu contraseña de la Caja fuerte (Locker): cualquiera que inicie sesión en esta cuenta de usuario puede restaurarla. Si se llevan el disco, la protege la contraseña de tu depósito de claves. En la mayoría de los ordenadores es la contraseña con la que inicias sesión. Si tu depósito de claves no tiene contraseña, nada la protege. Quítala cuando la carpeta se abra como esperas.",
+    "source": "179e9ee04965"
+  },
   "studio.sources-column.it-is-on-air": {
     "text": "Está en antena",
     "source": "668b7b14f675"
@@ -13206,6 +13418,10 @@
   "mail.smime.it-is-shown-as-plain-text": {
     "text": "Se muestra como texto sin formato, sin sus vínculos ni imágenes: un mensaje cifrado que no está firmado por alguien de confianza podría haberse modificado por el camino para enviar su contenido a otro lugar.",
     "source": "a923da16888c"
+  },
+  "locker.it-needs-about-size-and-free": {
+    "text": "Necesita unos {size}, y el espacio libre es {free}.",
+    "source": "4b6dd24db2d1"
   },
   "base.people.it-starts-reading-every-table-choose": {
     "text": "Empieza leyendo todas las tablas; elige lo que puede hacer con cada una.",
@@ -13262,6 +13478,10 @@
   "mail.accounts-bulk.its-mail-servers-are-not-at": {
     "text": "Sus servidores de correo no están en {domain}: {hosts}. La contraseña solo se les envía si aceptas.",
     "source": "3fde2d743d72"
+  },
+  "slides.ribbon.its-notes": {
+    "text": "Las notas",
+    "source": "a316f96e4b04"
   },
   "mail.smime.its-password": {
     "text": "Su contraseña",
@@ -13414,6 +13634,10 @@
   "base.links.keep-a-copy-in-this-file": {
     "text": "Guardar una copia en este archivo",
     "source": "fe129705434e"
+  },
+  "locker.keep-a-safety-copy-until-i": {
+    "text": "Guardar copia hasta confirmar que va bien",
+    "source": "ce86e4bea08e"
   },
   "ui.proofing.keep-accessibility-checker-running-while-i": {
     "text": "Mantener el comprobador de accesibilidad en ejecución mientras trabajo",
@@ -13971,6 +14195,14 @@
     "text": "Salir de la presentación",
     "source": "fdc22af2a38d"
   },
+  "locker.leave-them-closed": {
+    "text": "Dejarlos cerrados",
+    "source": "e4aee34bbd47"
+  },
+  "locker.leave-them-closed-2": {
+    "text": "¿Dejarlos cerrados?",
+    "source": "d56f15ff14e6"
+  },
   "locker.leave-them-unlocked-suggested": {
     "text": "Dejarlos desbloqueados (recomendado)",
     "source": "0afd256556ff"
@@ -14367,6 +14599,10 @@
     "text": "Cada línea indica qué bloquear; una línea que empieza por ! crea una excepción. Sin líneas, se bloquean todos los archivos.",
     "source": "97f258a60d21"
   },
+  "studio.spoken-run.lines-to-read": {
+    "text": "Líneas que leer",
+    "source": "29f993ec4aae"
+  },
   "common.link": {
     "text": "Vínculo",
     "source": "a6a32dbc5618"
@@ -14583,6 +14819,10 @@
     "text": "Bloquear la capa",
     "source": "7dbd5ea70c86"
   },
+  "locker.lock-the-rest-leave-this-one": {
+    "text": "Bloquear el resto, no este",
+    "source": "63dac83b4051"
+  },
   "locker.lock-them-again": {
     "text": "Volver a bloquearlos",
     "source": "902997963217"
@@ -14594,6 +14834,10 @@
   "video.timeline.lock-this-track": {
     "text": "Bloquear esta pista",
     "source": "383db16dbbe6"
+  },
+  "locker.lock-without-a-safety-copy": {
+    "text": "Bloquear sin copia",
+    "source": "e0af1dba19b1"
   },
   "locker.lock-n-here": {
     "text": "Bloquear {n} aquí",
@@ -14839,6 +15083,10 @@
     "text": "Creado en una versión anterior de PowerPoint: se puede leer y eliminar, pero no responder.",
     "source": "149c944bbf20"
   },
+  "locker.made-when-of-n-files-size": {
+    "text": "Hecha {when}, de {n} archivos ({size}) tal como estaban antes de bloquearlos.",
+    "source": "cc7c3e840df2"
+  },
   "image.tools.magic-wand": {
     "text": "Varita mágica",
     "source": "4f4839aa83e6"
@@ -15011,9 +15259,17 @@
     "text": "Crea tu caja fuerte",
     "source": "5928f42234d2"
   },
+  "studio.spoken-run.making-line-n-of-count": {
+    "text": "Creando la línea {n} de {count}…",
+    "source": "26fa6bf092a6"
+  },
   "pdf.making-the-file-smaller": {
     "text": "Reduciendo el tamaño del archivo…",
     "source": "01e0d2e35672"
+  },
+  "locker.making-the-safety-copy-then-locking": {
+    "text": "Haciendo la copia y bloqueando…",
+    "source": "17b3586a056e"
   },
   "slides.export-video.making-the-video-slide-at-of": {
     "text": "Creando el vídeo: diapositiva {at} de {of}. Se reproduce la presentación completa, así que tarda lo mismo que la proyección.",
@@ -15591,6 +15847,10 @@
     "text": "Mensaje al seleccionar la celda",
     "source": "bb3d160623af"
   },
+  "mail.message-n-of-count": {
+    "text": "Mensaje {n} de {count}",
+    "source": "496bec00a82a"
+  },
   "mail.archive.message-id": {
     "text": "Message-ID",
     "source": "06a95f89cb88"
@@ -15614,6 +15874,10 @@
   "registry.messages-and-calls-with-your-contacts": {
     "text": "Mensajes y llamadas con tus contactos",
     "source": "0f1f0c41222b"
+  },
+  "mail.messages-being-read": {
+    "text": "Mensajes en lectura",
+    "source": "aa86112f1d32"
   },
   "mail.messages-now-send-immediately": {
     "text": "Los mensajes ahora se envían al instante",
@@ -16306,6 +16570,10 @@
   "locker.needs-you": {
     "text": "Requiere tu atención",
     "source": "74b6abdf5969"
+  },
+  "spoken.voices.neither-is-on-the-lines-keep": {
+    "text": "Ninguna de las dos está activada: las líneas conservan su tiempo, pero no se ve ni se oye nada.",
+    "source": "e83016a7cfaf"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "Ninguno de los dos podrá escribir ni llamar al otro hasta que volváis a ser contactos. Tus mensajes de aquí se eliminan.",
@@ -17107,6 +17375,10 @@
     "text": "Sin límite",
     "source": "f7fcff0d8fea"
   },
+  "spoken.voices.no-lines-yet-each-line-of": {
+    "text": "Aún no hay líneas: cada línea del texto se lee por orden.",
+    "source": "6c66185b20fc"
+  },
   "talk.invite.no-links-yet": {
     "text": "Aún no hay vínculos.",
     "source": "8bfd6e671367"
@@ -17391,6 +17663,10 @@
     "text": "Aún no hay vistas: Agregar… guarda el aspecto actual del libro.",
     "source": "233d8dca900a"
   },
+  "common.no-voice-has-been-added": {
+    "text": "No se ha agregado ninguna voz.",
+    "source": "c163f326bf4d"
+  },
   "shell.no-window-of-this-app-is": {
     "text": "No hay ninguna ventana oculta de esta aplicación.",
     "source": "b5a7641a8630"
@@ -17519,6 +17795,10 @@
     "text": "Normal: la hoja como una cuadrícula",
     "source": "7d6eedd7f7a3"
   },
+  "voices-dialog.not-added": {
+    "text": "No agregado",
+    "source": "2460c620beba"
+  },
   "sheets.dialogs.not-an-address-and-not-a": {
     "text": "No es una dirección ni un lugar que este libro conozca.",
     "source": "7f162b5c3025"
@@ -17579,6 +17859,10 @@
     "text": "No todas las invitaciones se enviaron por correo electrónico. Las personas invitadas pueden aceptar igualmente en Talk, y puedes enviarles su vínculo de otra forma desde la lista de personas a las que invitaste.",
     "source": "4336568dd105"
   },
+  "locker.not-everything-matches-the-safety-copy": {
+    "text": "No todo coincide con la copia de seguridad.",
+    "source": "0511c2c86d34"
+  },
   "studio.not-found": {
     "text": "No encontrado",
     "source": "e3ebaa16dd9d"
@@ -17611,6 +17895,10 @@
     "text": "Sin bloquear",
     "source": "0e9f70fca7bf"
   },
+  "locker.not-locked-in-this-folder-files": {
+    "text": "No bloqueados en esta carpeta: {files}",
+    "source": "da7fd13c706e"
+  },
   "common.not-now": {
     "text": "Ahora no",
     "source": "a0e63d7c7125"
@@ -17630,6 +17918,10 @@
   "base.links.not-read-source-waits-for-you-2": {
     "text": "No leído: {source} espera a que permitas los orígenes de esta base de datos en este ordenador. La copia de aquí es la de {time}.",
     "source": "b6dbe9bb7b1b"
+  },
+  "voices-dialog.not-ready-for-this-version-yet": {
+    "text": "Aún no está listo para esta versión",
+    "source": "02f5f74fdc12"
   },
   "common.not-recorded-yet": {
     "text": "Aún no se ha grabado",
@@ -17811,6 +18103,10 @@
     "text": "Aún no hay nada marcado.",
     "source": "5c3dd15a98d2"
   },
+  "voices-dialog.nothing-is-removed-each-comes-back": {
+    "text": "No se quita nada. Cada uno vuelve por sí solo cuando su versión para {version} esté lista.",
+    "source": "48739878031b"
+  },
   "mail.dialogs.nothing-is-sent-anywhere-the-import": {
     "text": "No se envía nada a ningún sitio. La importación lee el archivo y escribe solo en este ordenador.",
     "source": "911c731459ea"
@@ -17878,6 +18174,10 @@
   "word.nothing-to-read-from-here": {
     "text": "Aquí no hay nada que leer.",
     "source": "3ccd7688183d"
+  },
+  "slides.nothing-to-read-on-this-slide": {
+    "text": "No hay nada que leer en esta diapositiva.",
+    "source": "44401bddb9d8"
   },
   "word.mailings.nothing-to-show-for-this-record": {
     "text": "No hay nada que mostrar para este registro.",
@@ -18047,9 +18347,21 @@
     "text": "Documentos de Office",
     "source": "dc7d0a6b33ff"
   },
+  "locker.offices-profile-is-on-a-drive": {
+    "text": "El perfil de Office está en una unidad con formato exFAT o FAT, que no guarda permisos. La Caja fuerte (Locker) avisa cuando un archivo se abre desde una copia temporal sin bloquear: esa copia queda allí mientras el archivo está abierto, y cualquiera que tenga esta unidad puede leerla. Los archivos bloqueados siguen bloqueados.",
+    "source": "7b0eaf19f91c"
+  },
+  "locker.offices-profile-is-on-a-network": {
+    "text": "El perfil de Office está en un recurso compartido de red. La Caja fuerte (Locker) avisa cuando un archivo se abre desde una copia temporal sin bloquear: esa copia queda allí mientras el archivo está abierto, y quién puede leerla lo deciden los permisos del servidor, no Windows. Los archivos bloqueados siguen bloqueados.",
+    "source": "8540bcff8ead"
+  },
   "talk.offline": {
     "text": "Sin conexión",
     "source": "a1794783aab7"
+  },
+  "voices-dialog.offline-this-is-the-list-that": {
+    "text": "Sin conexión: esta es la lista que vino con esta versión.",
+    "source": "29f1cab6ba4d"
   },
   "mail.archive.older-or-newer-than-so-many": {
     "text": "Más antiguo o más reciente que tantos días (d), semanas (w), meses (m) o años (y)",
@@ -18139,6 +18451,10 @@
     "text": "En la escala de tiempo",
     "source": "f62c6abeb937"
   },
+  "locker.on-this-mac-only-touch-id": {
+    "text": "Solo en este Mac. Se pide primero Touch ID; su clave se guarda en el llavero del Mac. La contraseña sigue siendo la principal.",
+    "source": "3633db8bfba6"
+  },
   "ai-tools.on-this-computer": {
     "text": "En este ordenador",
     "source": "e6af7ee2bde2"
@@ -18198,6 +18514,10 @@
   "word.one-flow-on-screen-for-a": {
     "text": "Un solo flujo en pantalla para un punto de inserción nativo; el diseño de impresión y PDF sí lo divide en columnas",
     "source": "33bd0e1b78c3"
+  },
+  "studio.spoken-run.one-line-each-each-is-read": {
+    "text": "Una por línea: se leen en voz alta por orden",
+    "source": "f1c64f2624f8"
   },
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "Una línea por línea. Una tabulación lleva al centro, una segunda a la derecha.",
@@ -19859,6 +20179,10 @@
     "text": "Reproducir el sonido de un clip en la presentación",
     "source": "97953b6cbcb8"
   },
+  "mail.play-all": {
+    "text": "Leer todos",
+    "source": "12e7b8220dc7"
+  },
   "pictures.play-automatically": {
     "text": "Reproducir automáticamente",
     "source": "210dd780da5e"
@@ -19871,9 +20195,21 @@
     "text": "Reproducir hacia delante",
     "source": "18d1c1674140"
   },
+  "spoken.voices.play-the-voice": {
+    "text": "Reproducir la voz",
+    "source": "df7413e04bae"
+  },
+  "spoken.voices.play-the-voice-of-this-line": {
+    "text": "Reproducir la voz de esta línea",
+    "source": "8e0d9567a55d"
+  },
   "video.timeline.play-this-track-alone-solo-the": {
     "text": "Reproducir solo esta pista (solo): las demás pistas de su tipo se omiten hasta que se desactive",
     "source": "734250a377a1"
+  },
+  "mail.play-unread": {
+    "text": "Leer no leídos",
+    "source": "ce50e3196418"
   },
   "video.playback": {
     "text": "Reproducción",
@@ -20755,6 +21091,18 @@
     "text": "Leer en voz alta",
     "source": "38e07b2a0ca5"
   },
+  "voices-dialog.read-aloud-uses-the-windows-voice": {
+    "text": "Leer en voz alta usa la voz de Windows.",
+    "source": "7a16d7891be8"
+  },
+  "pdf.read-aloud-the-words-of-the": {
+    "text": "Leer en voz alta: el texto de las páginas, desde esta, frase a frase",
+    "source": "3e998b88dc26"
+  },
+  "slides.ribbon.read-aloud-the-words-on-this": {
+    "text": "Leer en voz alta: el texto de esta diapositiva, sus notas o ambos, frase a frase",
+    "source": "0bb5b920c262"
+  },
   "word.ribbon.read-mode": {
     "text": "Modo de lectura",
     "source": "b717f7f3eb53"
@@ -20799,6 +21147,10 @@
     "text": "Leer manualmente",
     "source": "c1b4b3d1e6f2"
   },
+  "mail.read-every-message-in-the-list": {
+    "text": "Leer en voz alta todos los mensajes de la lista, en el orden en que aparecen. Un filtro o una búsqueda decide cuáles. Cada uno se marca como leído cuando se ha leído hasta el final.",
+    "source": "4a502a868214"
+  },
   "base.sources.read-from": {
     "text": "Leer desde",
     "source": "26da1ae26f48"
@@ -20835,13 +21187,37 @@
     "text": "Leído o no, destacado o no",
     "source": "24569a47b7d9"
   },
+  "video.spoken.read-the-lines-aloud": {
+    "text": "Leer las líneas en voz alta",
+    "source": "1a13c198d37e"
+  },
   "word.ribbon.read-the-document-aloud-from-the": {
     "text": "Leer el documento en voz alta, desde el punto de inserción",
     "source": "4ac22f8793e2"
   },
+  "studio.spoken-run.read-the-lines": {
+    "text": "Leer las líneas",
+    "source": "458b26677813"
+  },
+  "video.spoken.read-the-lines-onto-the-timeline": {
+    "text": "Leer en la escala de tiempo",
+    "source": "544b9d825bea"
+  },
+  "mail.read-the-open-message-aloud-who": {
+    "text": "Leer en voz alta el mensaje abierto: quién lo envió, su asunto y después su texto",
+    "source": "74364f657863"
+  },
+  "mail.read-the-unread-messages-in-the": {
+    "text": "Leer en voz alta los mensajes no leídos de la lista, en el orden en que aparecen. Cada uno se marca como leído cuando se ha leído hasta el final.",
+    "source": "dff6be303eab"
+  },
   "base.links.read-what-changed-by-field": {
     "text": "Leer lo que cambió según {field}",
     "source": "2280ed08e4c6"
+  },
+  "video.spoken.read-while-recording-the-voice-is": {
+    "text": "Leídas durante la grabación: la voz forma parte del propio sonido de la grabación.",
+    "source": "18def8f54c5b"
   },
   "base.links.read-every": {
     "text": "Leer {every}",
@@ -20871,6 +21247,10 @@
     "text": "Al leerlo, {host} sabe que se abrió esta base de datos y desde dónde.",
     "source": "40c581613d93"
   },
+  "common.reading-line-n-of-count": {
+    "text": "Leyendo la línea {n} de {count}",
+    "source": "0bdc94419bf9"
+  },
   "pdf.ocr.reading-page-page-of-count": {
     "text": "Leyendo la página {page} de {count}…",
     "source": "98a0e1804ad8"
@@ -20878,6 +21258,10 @@
   "mail.reading-pane": {
     "text": "Panel de lectura",
     "source": "dde5ae89d4de"
+  },
+  "mail.reading-stopped-the-voice-did-not": {
+    "text": "La lectura se detuvo: la voz no leyó este mensaje.",
+    "source": "edb70b11e6c0"
   },
   "word.envelopes.reading-the-address-book": {
     "text": "Leyendo la libreta de direcciones…",
@@ -21607,6 +21991,10 @@
     "text": "Quitar cuenta…",
     "source": "f6c7b21aa0c2"
   },
+  "locker.remove-anyway": {
+    "text": "Quitar de todos modos",
+    "source": "ec52bdc0ffac"
+  },
   "word.mailings.remove-duplicates-untick-count-record-that": {
     "forms": {
       "many": "Quitar duplicados: desmarca {count} de registros que repiten uno anterior campo por campo",
@@ -21702,6 +22090,22 @@
   "base.remove-the-relationship": {
     "text": "Quitar la relación",
     "source": "7f945c0384ab"
+  },
+  "locker.remove-the-safety-copy-now": {
+    "text": "¿Quitar la copia de seguridad ahora?",
+    "source": "e026c125fde8"
+  },
+  "locker.remove-the-safety-copy-of-name": {
+    "text": "¿Quitar la copia de seguridad de la carpeta {name}?",
+    "source": "25b045f799d0"
+  },
+  "locker.remove-the-safety-copy": {
+    "text": "Quitar la copia…",
+    "source": "6474685cf9bd"
+  },
+  "voices-dialog.remove-the-voices-and-languages-added": {
+    "text": "¿Quitar también las voces e idiomas agregados a Rutba Office?",
+    "source": "95f84db40a88"
   },
   "locker.remove-them-suggested": {
     "text": "Quitarlas (recomendado)",
@@ -21878,6 +22282,14 @@
   "sheets.reopen": {
     "text": "Volver a abrir",
     "source": "a886d1dc4f12"
+  },
+  "locker.reopen-the-files-that-were-open": {
+    "text": "Volver a abrir los archivos abiertos",
+    "source": "e072693459a5"
+  },
+  "locker.reopen-them": {
+    "text": "Volver a abrirlos",
+    "source": "0c8ec1c4dc3d"
   },
   "slides.comments.reopen-this-thread": {
     "text": "Volver a abrir esta conversación",
@@ -22215,9 +22627,29 @@
     "text": "Reinicia para actualizar ahora. Si sigues trabajando, se instalará cuando salgas.",
     "source": "6dceb7683e70"
   },
+  "voices-dialog.restarting-closes-every-window-and-these": {
+    "text": "Al reiniciar se cierran todas las ventanas, y estas tienen cambios sin guardar. Guárdalas o ciérralas y, después, vuelve a reiniciar. No se ha cerrado nada.",
+    "source": "b8d3a411d920"
+  },
   "ui.restore": {
     "text": "Restaurar",
     "source": "a76e13b98392"
+  },
+  "locker.restore-a-copy": {
+    "text": "Restaurar una copia…",
+    "source": "0b791c6c1552"
+  },
+  "locker.restore-from-the-safety-copy": {
+    "text": "Restaurar desde la copia de seguridad",
+    "source": "2ba736545122"
+  },
+  "locker.restore-from-the-safety-copy-2": {
+    "text": "Restaurar desde la copia…",
+    "source": "53572e4e1540"
+  },
+  "locker.restoring": {
+    "text": "Restaurando…",
+    "source": "5a4918e0201c"
   },
   "word.restrict-editing": {
     "text": "Restringir edición",
@@ -22318,6 +22750,10 @@
   "sheets.review-show-comments-lists-them": {
     "text": "Revisar → Mostrar comentarios los muestra",
     "source": "3a019cace7ae"
+  },
+  "voices-dialog.reviewed": {
+    "text": "Revisado",
+    "source": "fad6057bb540"
   },
   "common.reviewing-pane": {
     "text": "Panel de revisiones",
@@ -22859,6 +23295,14 @@
     "text": "Rutba Office aún no puede abrir archivos {v1}.",
     "source": "cecfdddc878c"
   },
+  "voices-dialog.rutba-office-in-the-languages-this": {
+    "text": "Rutba Office en los idiomas que usa este ordenador.",
+    "source": "f639c2bab1a0"
+  },
+  "voices-dialog.rutba-office-in-your-languages": {
+    "text": "Rutba Office en tus idiomas",
+    "source": "92aee8ac863e"
+  },
   "shell.rutba-office-is-now-version": {
     "text": "Rutba Office ya está en la versión {version}",
     "source": "8b27b11cf0c8"
@@ -22887,9 +23331,21 @@
     "text": "Rutba Office {version} se ha descargado: reinicia para actualizar o se instalará cuando salgas",
     "source": "ef28bb66ae1a"
   },
+  "voices-dialog.rutba-office-version-is-out-but": {
+    "text": "Ya está disponible Rutba Office {version}, pero no se pudieron comprobar tus voces e idiomas para esa versión. Se volverá a preguntar en la próxima comprobación.",
+    "source": "1f9d9dab508d"
+  },
+  "voices-dialog.rutba-office-version-is-out-it": {
+    "text": "Ya está disponible Rutba Office {version}. Se ofrecerá cuando estos elementos estén listos para ella: {list}.",
+    "source": "2e1d40855fff"
+  },
   "shell.rutba-office-version-is-ready-to": {
     "text": "Rutba Office {version} está listo para instalarse",
     "source": "9f8e0a323b51"
+  },
+  "voices-dialog.rutba-office-version-no-longer-has": {
+    "text": "Rutba Office {version} ya no incluye {name} ({kind}). El elemento se queda en este ordenador, sin usar, hasta que lo quites.",
+    "source": "ca36731ad5da"
   },
   "engine.rutba-office-no-backend-for-ns": {
     "text": "Rutba Office: no hay back-end para {ns}:{name}",
@@ -22982,6 +23438,18 @@
   "talk.safety-code-code-if-name-sees": {
     "text": "Código de seguridad {code}: si {name} ve el mismo, nadie está escuchando.",
     "source": "b70afef2b0dd"
+  },
+  "locker.safety-copies": {
+    "text": "Copias de seguridad",
+    "source": "7735ad244a59"
+  },
+  "locker.safety-copies-are-not-offered-on": {
+    "text": "Las copias de seguridad no se ofrecen en este ordenador porque no tiene depósito de claves donde guardar su clave. La carpeta se bloquea igualmente.",
+    "source": "1b386c96ddee"
+  },
+  "locker.safety-copy": {
+    "text": "Copia de seguridad",
+    "source": "966a48379b73"
   },
   "mail.safety.safety-is-off-for-this-message": {
     "text": "La protección está desactivada para este mensaje: se pueden copiar vínculos e imágenes y guardar datos adjuntos. El siguiente mensaje se abre con ella activada.",
@@ -23294,6 +23762,14 @@
   "studio.scene-strip.save-what-the-frame-shows-as": {
     "text": "Guardar lo que muestra el encuadre como una escena nueva",
     "source": "04d539ee1ba5"
+  },
+  "english-switch.save-your-changes-first-this-window": {
+    "text": "Guarda primero los cambios: esta ventana se mostrará en inglés cuando vuelva a abrirse. Las ventanas que abras a partir de ahora estarán en inglés.",
+    "source": "158d4e0c44ec"
+  },
+  "voices-dialog.save-your-work-before-restarting": {
+    "text": "Guarda tu trabajo antes de reiniciar",
+    "source": "9f0e25526a5b"
   },
   "update-restart.save-your-work-before-updating": {
     "text": "Guarda tu trabajo antes de actualizar",
@@ -24303,6 +24779,10 @@
     "text": "Tipo oración.",
     "source": "e3033f08f2d4"
   },
+  "read-aloud.bar.sentence-n-of-count": {
+    "text": "Frase {n} de {count}",
+    "source": "31e0c4c7d350"
+  },
   "word.ribbon.separated-by-commas": {
     "text": "Separado por comas",
     "source": "1d7e4e1cdf8b"
@@ -24931,6 +25411,10 @@
     "text": "Mostrar los encabezados de fila y columna",
     "source": "4f7b9dcce409"
   },
+  "spoken.voices.show-the-text": {
+    "text": "Mostrar el texto",
+    "source": "0766a87f94ec"
+  },
   "sheets.dialogs.show-them-as": {
     "text": "Mostrarlas como",
     "source": "6380dba9f992"
@@ -24946,6 +25430,10 @@
   "video.timeline.show-this-track": {
     "text": "Mostrar esta pista",
     "source": "f562671c6f31"
+  },
+  "english-switch.show-this-window-in-english": {
+    "text": "Mostrar esta ventana en inglés",
+    "source": "966d8fef25b8"
   },
   "slides.setup.show-type": {
     "text": "Tipo de presentación",
@@ -25767,6 +26255,10 @@
     "text": "Clip de sonido",
     "source": "556f55adc8bd"
   },
+  "studio.spoken-run.sound-is-not-on-so-the": {
+    "text": "El sonido no está activado, así que la voz no está ni en la grabación ni en la transmisión.",
+    "source": "73e5029c4133"
+  },
   "video.meter.sound-level": {
     "text": "Nivel de sonido",
     "source": "03f228955745"
@@ -25871,9 +26363,21 @@
     "text": "Bocadillo",
     "source": "210563626614"
   },
+  "voices-dialog.speech-engine-and-models": {
+    "text": "Motor y modelos de voz",
+    "source": "023dc910442d"
+  },
+  "voices-dialog.speech-is-made-on-this-computer": {
+    "text": "La voz se genera en este ordenador. Lo que se lee nunca sale de él.",
+    "source": "020d7947bc15"
+  },
   "word.speech-is-not-available-on-this": {
     "text": "La voz no está disponible en este sistema.",
     "source": "52e87276a561"
+  },
+  "voices-dialog.speech-will-use-the-windows-voice": {
+    "text": "La síntesis de voz usará la voz de Windows hasta que el motor de voz para {version} esté listo.",
+    "source": "7f1dd8870ffa"
   },
   "video.speed": {
     "text": "Velocidad",
@@ -26002,6 +26506,14 @@
   "pdf.split-this-pdf-into-several-files": {
     "text": "Dividir: este PDF en varios archivos, por número de páginas o en las páginas seleccionadas",
     "source": "ed6df15df737"
+  },
+  "video.spoken.spoken-lines": {
+    "text": "Líneas habladas",
+    "source": "9b4ca87c5e21"
+  },
+  "common.spoken-lines": {
+    "text": "Líneas habladas",
+    "source": "b6fcaf71e96b"
   },
   "slides.spring-2026": {
     "text": "Primavera de 2026",
@@ -26347,6 +26859,10 @@
     "text": "Dejar de reproducir solo esta pista",
     "source": "0a0cba583153"
   },
+  "common.stop-reading": {
+    "text": "Detener la lectura",
+    "source": "78be99f18a5c"
+  },
   "shell.ipc.stop-recording": {
     "text": "Detener grabación",
     "source": "3d591e826d54"
@@ -26518,6 +27034,10 @@
   "mail.subject-a-word-in-the-subject": {
     "text": "Asunto: una palabra del asunto",
     "source": "ffb836da7f7a"
+  },
+  "mail.read-aloud.subject-subject": {
+    "text": "Asunto: {subject}",
+    "source": "71de3761a2b3"
   },
   "common.subscript": {
     "text": "Subíndice",
@@ -26702,6 +27222,10 @@
   "dav-accounts.syncing": {
     "text": "Sincronizando…",
     "source": "8a046cc90ab0"
+  },
+  "read-aloud.bar.system-voice": {
+    "text": "Voz del sistema",
+    "source": "2d3d23392b00"
   },
   "image.formats.tiff-keeps-every-pixel-for-print": {
     "text": "TIFF conserva todos los píxeles, para impresión y escaneados.",
@@ -27655,6 +28179,10 @@
     "text": "La copia de Archivos de datos (Data Files) necesita un archivo propio. Elige otro nombre u otra carpeta.",
     "source": "b7ddf45551bf"
   },
+  "locker.the-locker-first-reads-back-every": {
+    "text": "La Caja fuerte (Locker) primero vuelve a leer cada archivo de la copia en esta carpeta y comprueba que coincide. Si algo no coincide, te avisa antes de quitar nada.",
+    "source": "158bfd3254fc"
+  },
   "home.the-office-apps-are-on-add": {
     "text": "Las aplicaciones de Office están activadas. Agrega Talk, Archivos de datos (Data Files) y las aplicaciones de Studio cuando las quieras, y desactiva lo que no uses, en cualquier momento.",
     "source": "328297894902"
@@ -27674,6 +28202,10 @@
   "sheets.ribbon.the-worksheets-guide-on-office-rutba": {
     "text": "La guía de Hojas de cálculo en office.rutba.io",
     "source": "de05c2d52be3"
+  },
+  "read-aloud.reader.the-added-voice-stopped-working-so": {
+    "text": "La voz agregada dejó de funcionar, así que el resto se lee con la voz del sistema.",
+    "source": "f0f998b2a82a"
   },
   "word.mailings.the-address-book-is-empty-add": {
     "text": "La libreta de direcciones está vacía. Agrega antes personas en Contactos o escribe una lista nueva.",
@@ -28003,6 +28535,10 @@
     "text": "El archivo en sí no está cifrado: los roles se aplican en Rutba Office, pero cualquiera que copie el archivo puede leerlo con otro programa.",
     "source": "76fbda0ec679"
   },
+  "locker.the-files-are-restored": {
+    "text": "Los archivos se han restaurado",
+    "source": "f7002961aa52"
+  },
   "mail.dialogs.the-filter-has-learned-from-junk": {
     "text": "El filtro ha aprendido de {junk} mensajes no deseados y {good} buenos, y no clasifica nada hasta haber visto {minimum} de cada tipo. Marca mensajes con No deseado y No es correo no deseado, o aprende de lo que ya hay aquí.",
     "source": "1a734aca4f49"
@@ -28014,6 +28550,14 @@
   "sheets.queries.the-first-characters-of-column": {
     "text": "Los primeros caracteres de «{column}»",
     "source": "b944f22738f2"
+  },
+  "video.the-first-try-came-out-with": {
+    "text": "El primer intento salió sin imagen, así que la exportación ha vuelto a empezar.",
+    "source": "af1e9fb70b7f"
+  },
+  "slides.export-video.the-first-try-came-out-with": {
+    "text": "El primer intento salió sin imagen, así que el vídeo se está volviendo a crear: diapositiva {at} de {of}.",
+    "source": "7132b0853b65"
   },
   "pictures.batch.the-first-will-be-example": {
     "text": "La primera será {example}",
@@ -28087,6 +28631,10 @@
     "text": "La clave se guarda en el almacén protegido de este ordenador, nunca en el archivo, y solo para esta dirección.",
     "source": "73f082cb751d"
   },
+  "read-aloud.bar.the-language-being-read": {
+    "text": "Idioma de la lectura",
+    "source": "a6d60dec8ea7"
+  },
   "engine.the-last-calendar-stays-delete-its": {
     "text": "El último calendario se queda; elimina sus eventos en su lugar.",
     "source": "d68b7964c865"
@@ -28111,9 +28659,17 @@
     "text": "El texto de la capa",
     "source": "f53bac890188"
   },
+  "common.the-line-could-not-be-read": {
+    "text": "No se pudo leer la línea: {reason}",
+    "source": "1ef63f69f2ff"
+  },
   "base.forms.the-line-is-deleted-from-table": {
     "text": "La línea se ha eliminado de la tabla {table} y no se puede recuperar.",
     "source": "9d1b5f1408ba"
+  },
+  "common.the-lines-could-not-be-read": {
+    "text": "No se pudieron leer las líneas en voz alta: {reason}",
+    "source": "80512771ce16"
   },
   "mail.the-link-could-not-be-opened": {
     "text": "No se pudo abrir el vínculo: {reason}",
@@ -28146,6 +28702,10 @@
   "sheets.dialogs.the-list-has-a-heading-row": {
     "text": "La lista tiene una fila de encabezado: se queda arriba y sus encabezados dan nombre a las columnas.",
     "source": "6e64ba31d8bb"
+  },
+  "voices-dialog.the-list-of-voices-and-languages": {
+    "text": "No se pudo leer la lista de voces e idiomas. Lo agregado abajo sigue funcionando; vuelve a intentarlo cuando este ordenador tenga conexión.",
+    "source": "1395fe37df4d"
   },
   "engine.the-list-range-needs-a-header": {
     "text": "El rango de la lista necesita una fila de encabezado y al menos una fila debajo",
@@ -28255,6 +28815,10 @@
     "text": "El mensaje",
     "source": "3f7b4597bf02"
   },
+  "mail.the-message-before": {
+    "text": "Mensaje anterior",
+    "source": "8c3f352f34a9"
+  },
   "mail.safety.the-message-exactly-as-it-came": {
     "text": "El mensaje exactamente como llegó del servidor, {size}.",
     "source": "d6fe543dcfc3"
@@ -28346,6 +28910,10 @@
   "slides.slide-size.the-new-size-is-smaller-one": {
     "text": "El nuevo tamaño es menor en una dirección. Maximizar mantiene el contenido tan grande como está, así que parte puede salirse de los bordes; Asegurar el ajuste lo reduce para que quepa entero en la diapositiva.",
     "source": "484d93d5e8bd"
+  },
+  "mail.the-next-message": {
+    "text": "Mensaje siguiente",
+    "source": "698b6714b353"
   },
   "sheets.dialogs.the-note-on-cell": {
     "text": "La nota en {cell}",
@@ -28659,6 +29227,26 @@
     "text": "Las filas se insertan a partir de la celda seleccionada, {cell}, con las fechas como fechas y los importes como números.",
     "source": "968e3afd6474"
   },
+  "locker.the-safety-copy-holds-them-as": {
+    "text": "La copia de seguridad los guarda tal como estaban. ¿Quitarla de todos modos?",
+    "source": "160f184b5815"
+  },
+  "locker.the-safety-copy-is-kept-restore": {
+    "text": "Se conserva la copia de seguridad. Restaura una copia de ella para recuperar estos archivos: {files}",
+    "source": "71e4b43c7ac5"
+  },
+  "locker.the-safety-copy-is-removed": {
+    "text": "Se ha quitado la copia de seguridad.",
+    "source": "3dac7e4034fb"
+  },
+  "locker.the-safety-copy-of-name-has": {
+    "text": "La copia de seguridad de la carpeta {name} se conserva desde hace {n} días. No está bloqueada con tu contraseña de la Caja fuerte (Locker). Si la carpeta se abre como esperas, la Caja fuerte la compara con la copia y después quita la copia.",
+    "source": "889c6b02d3a9"
+  },
+  "locker.the-safety-copy-of-name-was": {
+    "text": "La copia de seguridad de la carpeta {name} se hizo {when}. Sus {n} archivos se escriben, sin bloquear, en una carpeta nueva dentro de la que elijas. No se cambia nada de lo que ya hay allí.",
+    "source": "a34f0ed2f93a"
+  },
   "locker.the-same-password-again": {
     "text": "La misma contraseña otra vez",
     "source": "cfd750367fe1"
@@ -28831,6 +29419,10 @@
     "text": "Las formas de la diapositiva como capas: seleccionar, reordenar, ocultar, cambiar nombre",
     "source": "e96347e19582"
   },
+  "slides.ribbon.the-slide-then-its-notes": {
+    "text": "Diapositiva y luego notas",
+    "source": "ae28e25489b7"
+  },
   "pdf.export.the-smaller-pdf-is-saved-as": {
     "text": "El PDF más pequeño se guarda como un archivo nuevo; este no cambia. Ahora ocupa {size}.",
     "source": "6442a2655dcc"
@@ -28931,6 +29523,10 @@
     "text": "El título en el centro, el texto debajo",
     "source": "036bb5d5a882"
   },
+  "studio.spoken-run.the-title-is-not-on-the": {
+    "text": "El título no está en el encuadre: muéstralo y las líneas aparecerán en él a medida que se lean.",
+    "source": "e190969a20ad"
+  },
   "review.the-title-of-slide-number": {
     "text": "El título de la diapositiva {number}:",
     "source": "7f83a0913d67"
@@ -28951,6 +29547,10 @@
     "text": "Las dos contraseñas no coinciden.",
     "source": "bb612d83804d"
   },
+  "locker.the-unsaved-changes-in-files-are": {
+    "text": "Los cambios sin guardar en {files} se perderán para siempre. Esto no se puede deshacer.",
+    "source": "90213c3ea342"
+  },
   "slides.export-video.the-video-could-not-be-made": {
     "text": "No se pudo crear el vídeo: {reason}",
     "source": "a10d92beb052"
@@ -28962,6 +29562,14 @@
   "video.library.the-videos-sound-and-pictures-in": {
     "text": "Los vídeos, sonidos e imágenes de este proyecto se guardan aquí, para volver a agregarlos.",
     "source": "4075715096b2"
+  },
+  "spoken.voices.the-voice-gave-no-sound-for": {
+    "text": "La voz no produjo ningún sonido para esta línea.",
+    "source": "53613e120fbf"
+  },
+  "spoken.voices.the-voice-was-stopped-before-this": {
+    "text": "La voz se detuvo antes de que se creara esta línea.",
+    "source": "72955eafea09"
   },
   "video.export.the-whole-project": {
     "text": "Todo el proyecto",
@@ -29127,6 +29735,14 @@
     "text": "No hay diapositivas a las que hacer zoom.",
     "source": "f7a8b80bbbe3"
   },
+  "mail.there-are-no-unread-messages-in": {
+    "text": "No hay mensajes no leídos en la lista que leer.",
+    "source": "16ae6324c70a"
+  },
+  "pdf.there-are-no-words-to-read": {
+    "text": "No hay palabras que leer en esta página. Una página escaneada se lee tras usar Reconocer texto.",
+    "source": "e6a37e9e16ec"
+  },
   "mail.there-is-a-folder-called-name": {
     "text": "Ya existe una carpeta llamada {name} ahí.",
     "source": "a6b783d2a832"
@@ -29174,6 +29790,10 @@
   "engine.there-is-no-mail-account-to": {
     "text": "No hay ninguna cuenta de correo desde la que enviar. Agrega una en Correo, en Cuentas.",
     "source": "4ac6eb1ff640"
+  },
+  "mail.there-is-no-message-to-read": {
+    "text": "No hay ningún mensaje que leer.",
+    "source": "1688457587f5"
   },
   "sheets.queries.there-is-no-other-table-or": {
     "text": "No hay ninguna otra tabla o consulta en este libro que anexar.",
@@ -29247,6 +29867,10 @@
     "text": "No hay ninguna hoja de cálculo llamada «{name}»",
     "source": "6c1e04a0ddb0"
   },
+  "locker.there-is-not-enough-room-for": {
+    "text": "No hay espacio para la copia de seguridad en la unidad de la carpeta de Office. Libera espacio o bloquea sin copia.",
+    "source": "2cc98cc7e17b"
+  },
   "studio.window.there-is-not-enough-space-on": {
     "text": "No hay espacio suficiente en el disco para grabar.",
     "source": "31dd575ea898"
@@ -29307,6 +29931,14 @@
     "text": "Estas celdas forman parte de una combinación vertical: ensanchar una de sus filas rompería el rango.",
     "source": "75122648d3df"
   },
+  "voices-dialog.these-come-by-themselves-with-the": {
+    "text": "Se agregan solos con la primera voz que agregues.",
+    "source": "12cf80348807"
+  },
+  "locker.these-files-are-not-locked-the": {
+    "text": "Estos archivos no están bloqueados. La copia de seguridad se conserva hasta que la quites.",
+    "source": "f75acf6c6eae"
+  },
   "mail.dialogs.these-settings-came-from-source-on": {
     "text": "Esta configuración procede de {source} en este ordenador; se comprueba cuando la dirección está completa.",
     "source": "22565709a102"
@@ -29346,6 +29978,10 @@
   "talk.invite.they-see-your-name-and-your": {
     "text": "Ven tu nombre y tu nota, y se convierten en contacto cuando aceptan. A nadie se le dice si una dirección tiene cuenta.",
     "source": "7d8559a730ab"
+  },
+  "voices-dialog.they-take-size-on-this-computer": {
+    "text": "Ocupan {size} en este ordenador. Consérvalos si vas a volver a instalar Rutba Office.",
+    "source": "d55522046f72"
   },
   "profiles.they-were-saved-in-another-profile": {
     "text": "Se guardaron en otro perfil y se copiaron aquí, así que no se pueden leer en este.",
@@ -29535,9 +30171,25 @@
     "text": "Este ordenador no tiene un almacén protegido para contraseñas guardadas y este perfil no tiene contraseña, así que no se pudieron guardar de forma segura.",
     "source": "423cb156a6ae"
   },
+  "voices-dialog.this-computer-is-offline-the-language": {
+    "forms": {
+      "one": "Sin conexión: el idioma se agregará cuando la haya. También se puede agregar desde un archivo, en Voces e idiomas.",
+      "many": "Sin conexión: los idiomas se agregarán cuando la haya. También se puede agregar uno desde un archivo, en Voces e idiomas.",
+      "other": "Sin conexión: los idiomas se agregarán cuando la haya. También se puede agregar uno desde un archivo, en Voces e idiomas."
+    },
+    "source": "c87bafdc6eef"
+  },
   "common.this-computer-only": {
     "text": "Solo este ordenador",
     "source": "601b7ae9d3a9"
+  },
+  "voices-dialog.this-computer-uses-languages-add-it": {
+    "forms": {
+      "one": "Idioma de este ordenador: {languages}. Agrégalo y elígelo en el menú de idioma al reiniciar.",
+      "many": "Idiomas de este ordenador: {languages}. Agrégalos y elige uno en el menú de idioma al reiniciar.",
+      "other": "Idiomas de este ordenador: {languages}. Agrégalos y elige uno en el menú de idioma al reiniciar."
+    },
+    "source": "ecb007a426ac"
   },
   "common.this-content-control-cannot-be-edited": {
     "text": "Este control de contenido no se puede editar: su contenido está bloqueado.",
@@ -29546,6 +30198,10 @@
   "packs-dialog.this-copy-is-installed-for-everyone": {
     "text": "Esta copia está instalada para todos los usuarios de este ordenador, así que Windows pide permiso al reiniciar.",
     "source": "c2546a3ab80f"
+  },
+  "voices-dialog.this-copy-of-rutba-office-has": {
+    "text": "Esta copia de Rutba Office no tiene carpeta de complementos: las voces y los idiomas se agregan a una copia instalada.",
+    "source": "e81b8c5038b2"
   },
   "base.links.this-database-has-no-tables-this": {
     "text": "Esta base de datos no tiene tablas que esta cuenta pueda ver.",
@@ -29687,6 +30343,14 @@
     "text": "Este archivo no tiene objetos que pueda encontrar un lector de PDF.",
     "source": "f617f38c26b0"
   },
+  "voices-dialog.this-file-is-not-an-add": {
+    "text": "Este archivo no es un complemento: debe contener un solo complemento y su carpeta.",
+    "source": "162cbe64b392"
+  },
+  "voices-dialog.this-file-is-not-an-add-2": {
+    "text": "Este archivo no es un complemento: abre un .zip publicado con los complementos de Rutba Office.",
+    "source": "5341e30294dc"
+  },
   "mail.this-file-was-imported-before-into": {
     "text": "Este archivo ya se importó antes en el mismo buzón: {messages} agregados",
     "source": "ce0670a06a68"
@@ -29722,6 +30386,10 @@
   "locker.this-folder-is-in-cloud-which": {
     "text": "Esta carpeta está en {cloud}, que guarda versiones anteriores de cada archivo. Esas versiones anteriores sin protección se quedan allí después de bloquear; bórralas en el historial de versiones de {cloud}.",
     "source": "aa002b0574ae"
+  },
+  "locker.this-folder-is-no-longer-in": {
+    "text": "Esta carpeta ya no está en la Caja fuerte (Locker), así que no hay nada con qué comparar la copia. La copia se sobrescribirá y se quitará. Esto no se puede deshacer.",
+    "source": "016e4d7f2c7a"
   },
   "mail.this-folder-search-only-the-folder": {
     "text": "Esta carpeta: buscar solo en la carpeta abierta",
@@ -29850,6 +30518,10 @@
   "calendar.words.this-meeting-is-cancelled-a-calendar": {
     "text": "Esta reunión se ha cancelado. Un programa de calendario la quita del calendario con el archivo adjunto.",
     "source": "6e9c1888a881"
+  },
+  "mail.this-message-could-not-be-opened": {
+    "text": "No se pudo abrir este mensaje",
+    "source": "b127fbc71257"
   },
   "mail.this-message-does-not-offer-one": {
     "text": "Este mensaje no ofrece cancelar la suscripción con un clic.",
@@ -30023,6 +30695,10 @@
     "text": "Alto de esta fila (cm, como mínimo)",
     "source": "319ca80981b6"
   },
+  "locker.this-safety-copy-cannot-be-opened": {
+    "text": "Esta copia de seguridad ya no se puede abrir.",
+    "source": "ed6f50924749"
+  },
   "studio.prompter.this-scene-has-no-script-write": {
     "text": "Esta escena no tiene guion. Escribe uno en su tarjeta y se desplazará aquí mientras grabas.",
     "source": "90458537f0d7"
@@ -30067,6 +30743,10 @@
     "text": "Esta segmentación de datos no puede filtrar: {reason}.",
     "source": "470dd67603bd"
   },
+  "slides.ribbon.this-slide": {
+    "text": "Esta diapositiva",
+    "source": "fd792ae48d11"
+  },
   "slides.this-slide-has-a-transition": {
     "text": "Esta diapositiva tiene una transición",
     "source": "8dfb23fea55e"
@@ -30086,6 +30766,10 @@
   "slides.this-slide-has-no-narration-to-2": {
     "text": "Esta diapositiva no tiene ninguna narración que reproducir.",
     "source": "d3b95fdaa7a3"
+  },
+  "slides.this-slide-has-no-notes-to": {
+    "text": "Esta diapositiva no tiene notas que leer.",
+    "source": "fbc4abc343b4"
   },
   "slides.this-slide-is-in-no-section": {
     "text": "Esta diapositiva no está en ninguna sección.",
@@ -30183,6 +30867,10 @@
     "text": "Esto solo funciona mientras esta copia de Office está abierta en este ordenador. Mientras está cerrada, el correo espera en la Bandeja de entrada de la sala y se responde la próxima vez que se abra Office.",
     "source": "396d5e19ba5f"
   },
+  "locker.this-works-without-your-password-because": {
+    "text": "Esto funciona sin tu contraseña, porque la copia de seguridad no está bloqueada con ella.",
+    "source": "8c1c3f8ccd58"
+  },
   "mail.this-year": {
     "text": "Este año",
     "source": "98597183c8c6"
@@ -30258,6 +30946,10 @@
   "apps-choice.tick-the-apps-to-install-an": {
     "text": "Marca las aplicaciones que quieras instalar. Una aplicación no marcada no se instala en este ordenador; puedes agregarla más tarde desde Agregar o quitar aplicaciones en Rutba Office.",
     "source": "b2f0ee1b966a"
+  },
+  "voices-dialog.tick-the-languages-to-add-they": {
+    "text": "Marca los idiomas que quieres agregar. Se agregan la primera vez que Rutba Office se inicia con este ordenador conectado. Cualquier idioma se puede agregar o quitar más adelante, en Voces e idiomas.",
+    "source": "78199a576b7f"
   },
   "base.people.ticked-ones-are-shown-any-that": {
     "text": "Se muestran los marcados. Los que estén en una tabla que el rol no puede ver se omiten para él de todos modos.",
@@ -30823,6 +31515,10 @@
     "text": "Prueba con otra búsqueda.",
     "source": "2e6d79de50dc"
   },
+  "voices-dialog.try-again": {
+    "text": "Reintentar",
+    "source": "d8b8392e2c54"
+  },
   "template-gallery.try-other-words": {
     "text": "Prueba con otras palabras.",
     "source": "2a5ed12cfe24"
@@ -30879,9 +31575,17 @@
     "text": "Desactivar",
     "source": "06f0e210b27d"
   },
+  "locker.turn-off-touch-id": {
+    "text": "Desactivar Touch ID",
+    "source": "d94fb9a255da"
+  },
   "locker.turn-off-windows-hello": {
     "text": "Desactivar Windows Hello",
     "source": "52ba933205f0"
+  },
+  "locker.turn-on-touch-id": {
+    "text": "Activar Touch ID",
+    "source": "0269040c7172"
   },
   "locker.turn-on-windows-hello": {
     "text": "Activar Windows Hello",
@@ -30914,6 +31618,10 @@
   "pictures.turned-and-saved": {
     "text": "Girada y guardada.",
     "source": "0901e7acee0c"
+  },
+  "voices-dialog.turned-off-withdrawn-by-its-makers": {
+    "text": "Desactivado: retirado por sus creadores",
+    "source": "14e4c1da3583"
   },
   "colour.names.turquoise": {
     "text": "Turquesa",
@@ -31447,6 +32155,14 @@
     "text": "Actualizar todas las fórmulas",
     "source": "f703ab807d7f"
   },
+  "voices-dialog.update-anyway": {
+    "text": "Actualizar de todos modos",
+    "source": "d94343f8f050"
+  },
+  "voices-dialog.update-anyway-2": {
+    "text": "Actualizar de todos modos…",
+    "source": "04def120ea4d"
+  },
   "slides.update-automatically": {
     "text": "Actualizar automáticamente",
     "source": "9e946306e543"
@@ -31462,6 +32178,10 @@
   "base.update-the-design": {
     "text": "Actualizar el diseño",
     "source": "884bcfa32789"
+  },
+  "voices-dialog.update-to-version-anyway": {
+    "text": "¿Actualizar a {version} de todos modos?",
+    "source": "469633528dc3"
   },
   "word.ribbon.update-style-to-match-selection": {
     "text": "Actualizar {style} para que coincida con la selección",
@@ -31546,6 +32266,10 @@
   "slides.ribbon.use-timings-slides-with-a-timing": {
     "text": "Usar intervalos: las diapositivas con intervalo avanzan solas; desactivado, la presentación solo avanza cuando tú la avanzas",
     "source": "f5f90fd03124"
+  },
+  "locker.use-touch-id": {
+    "text": "Usar Touch ID",
+    "source": "8d8ec25a6ea8"
   },
   "locker.use-windows-hello-pin-fingerprint-or": {
     "text": "Usar Windows Hello (PIN, huella digital o rostro)",
@@ -31875,6 +32599,18 @@
     "text": "Voz",
     "source": "87bf2bc08589"
   },
+  "voices-dialog.voices": {
+    "text": "Voces",
+    "source": "8ead6df9cd69"
+  },
+  "voices-dialog.voices-and-languages": {
+    "text": "Voces e idiomas",
+    "source": "75f270b3eb94"
+  },
+  "common.voices-and-languages": {
+    "text": "Voces e idiomas…",
+    "source": "14395bf4d3f9"
+  },
   "common.volume": {
     "text": "Volumen",
     "source": "b10fb966d720"
@@ -32074,6 +32810,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "Lo que pueden hacer las herramientas de IA con cada uno. Todo está desactivado hasta que elijas. La misma configuración está en Herramientas de IA.",
     "source": "14310670b45f"
+  },
+  "spoken.voices.what-the-lines-do": {
+    "text": "Qué hacen las líneas",
+    "source": "573064e5a609"
   },
   "word.dialogs.what-the-table-is": {
     "text": "Qué es la tabla",
@@ -32443,6 +33183,10 @@
     "text": "Si no tienes ninguna cuenta de Correo desde la que enviar, Rutba envía tus invitaciones por correo electrónico desde no-reply@rutba.io.",
     "source": "12232a9ce3d1"
   },
+  "voices-dialog.with-no-network-a-voice-or": {
+    "text": "Sin red, una voz o un idioma se puede agregar desde su archivo: un .zip publicado con los complementos de Rutba Office, traído de otro ordenador. Elige Agregar desde un archivo.",
+    "source": "83a90cbad906"
+  },
   "base.links.with-no-primary-key-there-they": {
     "text": "Sin clave principal allí, se pueden leer, pero no cambiar.",
     "source": "040d7d3b40f5"
@@ -32466,6 +33210,10 @@
   "talk.withdraw-the-invitation-to-email": {
     "text": "Retirar la invitación a {email}",
     "source": "8af78191a599"
+  },
+  "voices-dialog.withdrawn-by-its-makers": {
+    "text": "Retirado por sus creadores.",
+    "source": "9ff368476fae"
   },
   "sheets.find.within": {
     "text": "Dentro de",
@@ -33123,6 +33871,10 @@
     "text": "aceptado",
     "source": "070c160a6299"
   },
+  "voices-dialog.add-on": {
+    "text": "complemento",
+    "source": "a33a54a73112"
+  },
   "base.links.added-fields": {
     "text": "campos agregados: {fields}",
     "source": "30cea32e2a11"
@@ -33363,6 +34115,10 @@
     "text": "compilación de desarrollo",
     "source": "030dcbc3b708"
   },
+  "voices-dialog.dictionary": {
+    "text": "diccionario",
+    "source": "177ca70f42de"
+  },
   "word.mailings.directory": {
     "text": "directorio",
     "source": "333178788eae"
@@ -33458,6 +34214,10 @@
   "mail.folder": {
     "text": "carpeta",
     "source": "034a00624882"
+  },
+  "voices-dialog.font": {
+    "text": "fuente",
+    "source": "795ea3efa43d"
   },
   "word.footnote-n": {
     "text": "nota al pie {n}",
@@ -33638,6 +34398,10 @@
   "common.landscape-2": {
     "text": "horizontal",
     "source": "acb955df82b8"
+  },
+  "voices-dialog.language": {
+    "text": "idioma",
+    "source": "a4ef304ba42a"
   },
   "mail.last-try-failed-error-trying-again": {
     "text": "el último intento falló: {error}; reintentando",
@@ -33887,6 +34651,10 @@
     "text": "configuración de impresión",
     "source": "9198cbaeac3c"
   },
+  "voices-dialog.pronunciation": {
+    "text": "pronunciación",
+    "source": "ce978dc7829d"
+  },
   "common.px": {
     "text": "px",
     "source": "6ee2cc105a67"
@@ -34026,6 +34794,14 @@
   "slides.action.something": {
     "text": "algo",
     "source": "3fc9b689459d"
+  },
+  "voices-dialog.speech-engine": {
+    "text": "motor de voz",
+    "source": "69f0063d7151"
+  },
+  "voices-dialog.speech-model": {
+    "text": "modelo de voz",
+    "source": "14a7ccd64b8c"
   },
   "video.export.square": {
     "text": "cuadrado",
@@ -34295,6 +35071,10 @@
     "text": "el codificador de vídeo no devolvió datos, así que no se guardó nada. Vuelve a intentarlo.",
     "source": "4c38cc475e8b"
   },
+  "common.the-video-encoder-gave-the-sound": {
+    "text": "el codificador de vídeo dio el sonido pero no la imagen, así que no se guardó nada. Vuelve a intentarlo.",
+    "source": "4a861b2049e1"
+  },
   "video.the-whole-picture-on-black-bars": {
     "text": "la imagen completa, con bandas negras",
     "source": "415c8c2f50c4"
@@ -34382,6 +35162,10 @@
   "video.videos-sound-and-pictures-one-after": {
     "text": "vídeos, sonidos e imágenes, uno tras otro, después de los clips de la pista elegida",
     "source": "6f8e30fdb3c2"
+  },
+  "voices-dialog.voice": {
+    "text": "voz",
+    "source": "c57d7e920197"
   },
   "contacts.web": {
     "text": "web",
@@ -36083,6 +36867,14 @@
     "text": "{files}, {folders}",
     "source": "91829f4187ac"
   },
+  "locker.file-is-left-plain-and-shows": {
+    "text": "El archivo {file} se deja sin bloquear y aparece como no bloqueado.",
+    "source": "ab60c99e1907"
+  },
+  "locker.file-kept-changing-or-was-in": {
+    "text": "El archivo {file} cambió o estuvo en uso mientras se hacía la copia de seguridad, así que no se bloqueó nada.",
+    "source": "36607f9c5145"
+  },
   "mail.folder-is-deleted": {
     "text": "Se eliminó {folder}.",
     "source": "20926d429662"
@@ -36207,6 +36999,22 @@
     "text": "{label}: {blurb}; sustituye al efecto seleccionado",
     "source": "a8e919e7d5f9"
   },
+  "voices-dialog.languages-will-be-added-when-this": {
+    "forms": {
+      "one": "Se agregará al haber conexión: {languages}. También se puede agregar un idioma desde un archivo, en Voces e idiomas.",
+      "many": "Se agregarán al haber conexión: {languages}. También se puede agregar un idioma desde un archivo, en Voces e idiomas.",
+      "other": "Se agregarán al haber conexión: {languages}. También se puede agregar un idioma desde un archivo, en Voces e idiomas."
+    },
+    "source": "fa0e4abdce47"
+  },
+  "voices-dialog.language-is-no-longer-built-into": {
+    "text": "El idioma {language} ya no viene integrado en Rutba Office. Agrega su paquete de idioma en Voces e idiomas.",
+    "source": "c5cd1a83525c"
+  },
+  "voices-dialog.language-now-comes-as-a-language": {
+    "text": "El idioma {language} es ahora un paquete de idioma, agregado al actualizar.",
+    "source": "97a36bd5a08c"
+  },
   "video.inspector.level-times": {
     "text": "{level} veces",
     "source": "8092db25eeb5"
@@ -36243,6 +37051,10 @@
     "text": "No se pudo abrir {names}: no es un vídeo, un sonido ni una imagen que este sistema pueda reproducir.",
     "source": "40ec26e4b663"
   },
+  "read-aloud.bar.name-added": {
+    "text": "{name} (agregada)",
+    "source": "5e0a009f158f"
+  },
   "base.links.name-coming": {
     "text": "{name} (próximamente)",
     "source": "c5bfe2423325"
@@ -36250,6 +37062,10 @@
   "design.name-dark": {
     "text": "{name} (oscuro)",
     "source": "de9e429833c5"
+  },
+  "common.name-draft": {
+    "text": "{name} (borrador)",
+    "source": "5afe5a4a59c2"
   },
   "redact.name-redacted": {
     "text": "{name} (censurado)",
@@ -36307,6 +37123,10 @@
     "text": "No se pudo dibujar {name}: {reason}",
     "source": "65bcb558f48b"
   },
+  "locker.name-could-not-be-opened-again": {
+    "text": "No se pudo volver a abrir {name}: {why}",
+    "source": "20ca380f0559"
+  },
   "common.name-could-not-be-opened-reason": {
     "text": "No se pudo abrir {name}: {reason}",
     "source": "dae0790a804d"
@@ -36355,9 +37175,21 @@
     "text": "{name} ya es un contacto.",
     "source": "5bf61d9afecd"
   },
+  "locker.name-is-a-kind-of-file": {
+    "text": "El archivo {name} es de un tipo que se lee desde el disco, así que se abrió desde una copia temporal sin bloquear, no en memoria. Esa copia no está bloqueada.",
+    "source": "8c3ca214b1be"
+  },
+  "locker.name-is-already-open-so-these": {
+    "text": "El archivo {name} ya está abierto, así que estos cambios sin guardar se abren como {saved}, un archivo nuevo junto a él en la misma carpeta bloqueada.",
+    "source": "f866dc2fc7b7"
+  },
   "talk.name-is-blocked": {
     "text": "{name} está bloqueado.",
     "source": "896ccbbaeef1"
+  },
+  "locker.name-is-in-an-older-format": {
+    "text": "El archivo {name} tiene un formato antiguo. Al guardarlo se crea {saved} junto a él, en la misma carpeta bloqueada.",
+    "source": "25f899dbe396"
   },
   "locker.name-is-locked-in-folder": {
     "text": "El archivo {name} está bloqueado en la carpeta {folder}.",
@@ -36366,6 +37198,10 @@
   "talk.name-is-no-longer-a-contact": {
     "text": "{name} ya no es un contacto.",
     "source": "f2f97457bba2"
+  },
+  "locker.name-is-no-longer-in-the": {
+    "text": "{name} ya no está en la Caja fuerte (Locker). Su copia sigue aquí.",
+    "source": "4af6541725f0"
   },
   "image.name-is-no-longer-open-so": {
     "text": "El archivo {name} ya no está abierto, así que la imagen no puede volver a él. Expórtala en su lugar.",
@@ -36383,6 +37219,10 @@
     "text": "{name} no está disponible.",
     "source": "aca30d15fc29"
   },
+  "voices-dialog.name-is-not-used-until-its": {
+    "text": "{name} no se usará hasta que su versión para {version} esté lista.",
+    "source": "2f267730bc10"
+  },
   "common.name-is-not-wired-yet": {
     "text": "{name}: aún no disponible.",
     "source": "88e2be5594ad"
@@ -36398,6 +37238,10 @@
   "mail.name-is-open-where-it-lies": {
     "text": "Archivo {name}: abierto donde está, de solo lectura. Se está indexando para la búsqueda.",
     "source": "749ec97c4e3a"
+  },
+  "locker.name-is-over-1-gb-so": {
+    "text": "{name} ocupa más de 1 GB, así que se abrió desde una copia temporal sin bloquear, no en memoria. Esa copia no está bloqueada.",
+    "source": "950f4db86aed"
   },
   "common.name-is-protected-with-a-password": {
     "text": "El archivo {name} está protegido con una contraseña y sigue cerrado hasta que se introduzca.",
@@ -36439,6 +37283,10 @@
     "text": "No se encontró {name}",
     "source": "11fabb5fa0c9"
   },
+  "locker.name-opened-from-a-temporary-plain": {
+    "text": "{name} se abrió desde una copia temporal sin bloquear, no en memoria. Esa copia no está bloqueada.",
+    "source": "01b4847cdddb"
+  },
   "sheets.name-refreshed": {
     "text": "{name} actualizado",
     "source": "7b63595ee10b"
@@ -36462,6 +37310,10 @@
   "profiles.name-will-open-without-asking-and": {
     "text": "El perfil {name} se abrirá sin preguntar, y lo que protegía la contraseña se conserva como antes, protegido por Windows solo para tu cuenta.",
     "source": "bccde320f01d"
+  },
+  "voices-dialog.name-will-show-new-labels-in": {
+    "text": "{name} mostrará las etiquetas nuevas en inglés hasta que su versión para {version} esté lista.",
+    "source": "070ebd66c642"
   },
   "talk.invite.name-would-like-to-talk-with": {
     "text": "{name} quiere hablar contigo en Rutba Talk",
@@ -36583,6 +37435,10 @@
     "text": "{name}, página {page} de {count}",
     "source": "0f8439d610e0"
   },
+  "locker.name-with-unsaved-changes": {
+    "text": "{name}, con cambios sin guardar",
+    "source": "d3fccb2b063d"
+  },
   "slides.motion.name-option": {
     "text": "{name}, {option}",
     "source": "769e8e2405cf"
@@ -36695,6 +37551,14 @@
     "text": "No se pudieron desbloquear {n} archivos, así que no se quitó la carpeta.",
     "source": "189a2a0888a7"
   },
+  "locker.n-files-did-not-match-the": {
+    "text": "{n} archivos no coincidían con la copia de seguridad y no se restauraron.",
+    "source": "9ffb4b5699f4"
+  },
+  "locker.n-files-in-this-folder-do": {
+    "text": "{n} archivos de esta carpeta no se desbloquean como deberían.",
+    "source": "a0e568b53b1f"
+  },
   "locker.n-files-in-this-folder-have": {
     "text": "{n} archivos de esta carpeta tienen dos versiones. Elige primero entre ellas. No se ha cambiado nada.",
     "source": "0054192545bb"
@@ -36702,6 +37566,10 @@
   "locker.n-files-in-name-cannot-be": {
     "text": "No se pueden leer {n} archivos de la carpeta {name}.",
     "source": "e60e71803e18"
+  },
+  "locker.n-files-restored-to-dest": {
+    "text": "{n} archivos restaurados en {dest}.",
+    "source": "0fe8b13fee6a"
   },
   "studio.setups-menu.n-files-all-in-the-setup": {
     "text": "{n} archivos, todos en el archivo de montaje",
@@ -36774,6 +37642,10 @@
   "mail.path-is-no-longer-there": {
     "text": "{path} ya no existe",
     "source": "592e65bab5c5"
+  },
+  "voices-dialog.pct-translated-for-this-version": {
+    "text": "{pct} % traducido para esta versión",
+    "source": "692d9bafb1dc"
   },
   "sheets.ribbon.pen-click-again-for-its-colour": {
     "text": "{pen}: haz clic de nuevo para elegir su color y grosor",

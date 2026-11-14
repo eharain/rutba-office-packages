@@ -632,6 +632,22 @@
     "text": "Podmíněný sloupec potřebuje pravidlo",
     "source": "aed8bfd618e7"
   },
+  "locker.a-copy-of-these-files-as": {
+    "text": "Kopie těchto souborů v současném stavu, uložená ve vlastní složce Office v tomto Macu, aby se nic neztratilo, než se s Trezorem (Locker) seznámíte. Není zamčená heslem Trezoru: kdokoli, kdo se přihlásí k tomuto účtu Mac, ji může obnovit.",
+    "source": "6e2bd717daa8"
+  },
+  "locker.a-copy-of-these-files-as-2": {
+    "text": "Kopie těchto souborů v současném stavu, uložená ve vlastní složce Office v tomto počítači, aby se nic neztratilo, než se s Trezorem (Locker) seznámíte. Není zamčená heslem Trezoru: kdokoli, kdo může otevřít tento profil Office, ji může obnovit.",
+    "source": "2094b4f4f038"
+  },
+  "locker.a-copy-of-these-files-as-3": {
+    "text": "Kopie těchto souborů v současném stavu, uložená ve vlastní složce Office v tomto počítači, aby se nic neztratilo, než se s Trezorem (Locker) seznámíte. Není zamčená heslem Trezoru: kdokoli, kdo se přihlásí k tomuto účtu Windows, ji může obnovit.",
+    "source": "9ee82c902b7b"
+  },
+  "locker.a-copy-of-these-files-as-4": {
+    "text": "Kopie těchto souborů v současném stavu, uložená ve vlastní složce Office v tomto počítači, aby se nic neztratilo, než se s Trezorem (Locker) seznámíte. Není zamčená heslem Trezoru: kdokoli, kdo se přihlásí k tomuto uživatelskému účtu, ji může obnovit.",
+    "source": "2f36db57f352"
+  },
   "template-gallery.a-course-session-objectives-the-agenda": {
     "text": "Lekce kurzu: cíle, program, výukové části, rychlá kontrola a shrnutí",
     "source": "70cd3e33cd84"
@@ -953,6 +969,10 @@
     },
     "source": "50e0f90aa379"
   },
+  "voices-dialog.a-newer-revision-is-ready": {
+    "text": "Je připravena novější revize",
+    "source": "6c0971aff110"
+  },
   "template-gallery.a-newsletter-with-a-masthead-two": {
     "text": "Zpravodaj s hlavičkou, dvěma sloupci článků a panelem s daty",
     "source": "d481579262f8"
@@ -1150,6 +1170,18 @@
     "text": "Průběžný zůstatek pole",
     "source": "f223d22c6094"
   },
+  "locker.a-safety-copy-of-this-folder": {
+    "text": "Uchovává se bezpečnostní kopie této složky",
+    "source": "bde8bd957ac6"
+  },
+  "locker.a-safety-copy-of-this-folder-2": {
+    "text": "Před zamčením prvních souborů se vytvoří bezpečnostní kopie této složky.",
+    "source": "e7490abc7847"
+  },
+  "locker.a-safety-copy-of-your-files": {
+    "text": "Bezpečnostní kopie vašich souborů se uchovává v tomto počítači.",
+    "source": "812ca6b18f66"
+  },
   "engine.a-scatter-chart-here-plots-up": {
     "text": "Bodový graf zde vykreslí nejvýše tři řady. Vyberte blok se sloupcem X a nejvýše třemi sloupci Y.",
     "source": "1161906fee38"
@@ -1233,6 +1265,10 @@
   "word.references.a-source-is-already-tagged-tag": {
     "text": "Zdroj se značkou {tag} už existuje.",
     "source": "70fd6a155c46"
+  },
+  "video.timeline.a-spoken-line": {
+    "text": "Mluvený řádek",
+    "source": "29b4895d436f"
   },
   "video.inspector.a-still-lasts": {
     "text": "Délka statického obrázku",
@@ -1338,6 +1374,10 @@
   "studio.window.a-window": {
     "text": "Okno",
     "source": "9b1f7eb460ff"
+  },
+  "voices-dialog.a-window-is-open-in-this": {
+    "text": "V tomto jazyce je otevřené okno. Před odebráním jazyka okno zavřete nebo otevřete okna v jiném jazyce.",
+    "source": "3ae5879eef89"
   },
   "studio.sources-column.a-window-not-chosen-yet": {
     "text": "Okno, zatím nevybrané",
@@ -1883,6 +1923,14 @@
     "text": "Přidat součet",
     "source": "c78ecc1fa62c"
   },
+  "spoken.voices.add-a-voice-to-have-these": {
+    "text": "Přidat hlas, aby se tyto řádky četly nahlas",
+    "source": "b2afe4eb368b"
+  },
+  "read-aloud.voice-offer.add-a-voice-more-natural-voices": {
+    "text": "Přidat hlas: přirozenější hlasy pro funkci Číst nahlas, v okně Hlasy a jazyky",
+    "source": "bfbf7111b5c5"
+  },
   "studio.flip-strip.add-a-web-page": {
     "text": "Přidat webovou stránku",
     "source": "301fb6179868"
@@ -1950,6 +1998,14 @@
   "locker.add-folder": {
     "text": "Přidat složku…",
     "source": "fb227b5ff513"
+  },
+  "voices-dialog.add-from-a-file": {
+    "text": "Přidat ze souboru",
+    "source": "68655ccf7b75"
+  },
+  "voices-dialog.add-from-a-file-2": {
+    "text": "Přidat ze souboru…",
+    "source": "ca82b661b3c0"
   },
   "packs-dialog.add-it-with-add-or-remove": {
     "text": "Přidejte ji v Přidat nebo odebrat aplikace; začne fungovat od příštího spuštění.",
@@ -2071,6 +2127,10 @@
     "text": "Přidejte videa, zvuk a obrázky, nebo je přetáhněte do tohoto okna. Na časovou osu se zařadí jeden po druhém.",
     "source": "79fc33dd6094"
   },
+  "voices-dialog.add-when-online": {
+    "text": "Přidat, až bude online",
+    "source": "971ac51b33f5"
+  },
   "mail.accounts-bulk.add-count-account": {
     "forms": {
       "few": "Přidat {count} účty",
@@ -2093,6 +2153,10 @@
     "text": "Přidat: vložit slovo do slovníku",
     "source": "f696718081b5"
   },
+  "voices-dialog.add-on-files": {
+    "text": "Soubory doplňků",
+    "source": "4d65ebdbe444"
+  },
   "apps-choice.add-ons": {
     "text": "Doplňky",
     "source": "ccfc53fcbd49"
@@ -2104,6 +2168,14 @@
   "common.added": {
     "text": "Přidáno",
     "source": "6b02e0d363a4"
+  },
+  "voices-dialog.added-here": {
+    "text": "Přidáno zde",
+    "source": "9851c5fac6c6"
+  },
+  "voices-dialog.added-here-not-on-the-list": {
+    "text": "Přidáno zde, není v seznamu pro tuto verzi",
+    "source": "fdd61e2094ac"
   },
   "mail.dialogs.added-to-the-end-of-new": {
     "text": "Přidá se na konec nových zpráv a nad citaci, když odpovídáte nebo přeposíláte",
@@ -2130,9 +2202,29 @@
     },
     "source": "93ca61fcc584"
   },
+  "voices-dialog.added-but-not-used": {
+    "text": "Přidáno, ale nepoužívá se",
+    "source": "1aa13e5c4cd6"
+  },
+  "voices-dialog.added-waiting-for-what-it-needs": {
+    "text": "Přidáno, čeká na potřebné součásti",
+    "source": "41a27014ef99"
+  },
   "packs-dialog.added-here-from-the-next-start": {
     "text": "Přidáno: zde od příštího spuštění",
     "source": "81c2b338bb02"
+  },
+  "voices-dialog.added-moved-in-at-restart": {
+    "text": "Přidáno: nainstaluje se při restartu",
+    "source": "23bb225cbdb4"
+  },
+  "voices-dialog.added-not-ready-in-time-at": {
+    "text": "Přidáno: při tomto spuštění nebylo včas připraveno",
+    "source": "6d386eb3b0d7"
+  },
+  "voices-dialog.added-used-from-the-next-start": {
+    "text": "Přidáno: používá se od příštího spuštění",
+    "source": "e0e14a83e684"
   },
   "mail.accounts-bulk.added-provider": {
     "text": "Přidáno: {provider}",
@@ -2531,6 +2623,10 @@
     "text": "Všechny soubory",
     "source": "866956901fd1"
   },
+  "locker.all-good-remove-the-safety-copy": {
+    "text": "Vše v pořádku, odebrat bezpečnostní kopii…",
+    "source": "018e0096608e"
+  },
   "inspect.all-items-were-removed": {
     "text": "Všechny položky byly odebrány.",
     "source": "fc6c610af91d"
@@ -2764,6 +2860,10 @@
     "text": "Akce vede na webovou adresu (http:// nebo https://) nebo e-mailovou adresu (mailto:).",
     "source": "192eebf7ad62"
   },
+  "voices-dialog.an-added-voice-or-language-is": {
+    "text": "Přidaný hlas nebo jazyk se používá od příštího spuštění. Po odebrání zůstanou vaše dokumenty a nastavení zachovány.",
+    "source": "a5c16bfef61e"
+  },
   "sheets.dialogs.an-address-such-as-rutba-io": {
     "text": "Adresa, například rutba.io nebo hello@rutba.io, nebo místo v tomto sešitu, například C12, Sheet2!B4 nebo název.",
     "source": "257b9cd3f57d"
@@ -2923,6 +3023,22 @@
   "base.sources.another-data-files-database": {
     "text": "Jiná databáze Data Files",
     "source": "a3cc390853c1"
+  },
+  "locker.another-office-profile-on-this-mac": {
+    "text": "Mohl by ji otevřít i jiný profil Office v tomto účtu Mac. Heslo pro tento profil tomu zabrání.",
+    "source": "dd51602f9f1c"
+  },
+  "locker.another-office-profile-on-this-windows": {
+    "text": "Mohl by ji otevřít i jiný profil Office v tomto účtu Windows. Heslo pro tento profil tomu zabrání.",
+    "source": "e7908aa680a5"
+  },
+  "locker.another-office-profile-on-this-user": {
+    "text": "Mohl by ji otevřít i jiný profil Office v tomto uživatelském účtu. Heslo pro tento profil tomu zabrání.",
+    "source": "5e249dc1af3c"
+  },
+  "voices-dialog.another-rutba-office-is-changing-the": {
+    "text": "Hlasy a jazyky právě mění jiná kopie Rutba Office. Zkuste to znovu za chvíli.",
+    "source": "8b3c41c56b48"
   },
   "talk.address.another-address-of-yours": {
     "text": "Další vaše adresa",
@@ -3659,6 +3775,10 @@
   "video.back-a-second": {
     "text": "Zpět o sekundu",
     "source": "6edb45cb368b"
+  },
+  "read-aloud.bar.back-a-sentence": {
+    "text": "O větu zpět",
+    "source": "4505738dcaa5"
   },
   "studio.back-soon": {
     "text": "Brzy zpět",
@@ -4514,6 +4634,10 @@
     "text": "Kamera {n}",
     "source": "76ef0b65d44f"
   },
+  "voices-dialog.can-be-added-when-this-computer": {
+    "text": "Lze přidat, až bude tento počítač online",
+    "source": "030abf4e9f18"
+  },
   "common.can-down": {
     "text": "Plechovka: dolů",
     "source": "4bbecf421c24"
@@ -4830,6 +4954,10 @@
     "text": "Změněno",
     "source": "2a6141e43be0"
   },
+  "locker.changed-since-the-copy-was-made": {
+    "text": "Změněno od vytvoření kopie: {files}",
+    "source": "876fd443e1df"
+  },
   "review.changed-count-time": {
     "forms": {
       "few": "Změněno {count}krát.",
@@ -4967,6 +5095,10 @@
     "text": "Znovu zkontrolovat: projít dokument od začátku",
     "source": "dbd3a19ef2f5"
   },
+  "locker.check-and-remove": {
+    "text": "Zkontrolovat a odebrat",
+    "source": "f27f294e584c"
+  },
   "calendar.check-availability": {
     "text": "Zkontrolovat dostupnost",
     "source": "2071664a583f"
@@ -5052,6 +5184,10 @@
   "ui.proofing.checking-in-language": {
     "text": "Kontrola v jazyce: {language}",
     "source": "35352cdad1d4"
+  },
+  "locker.checking-the-folder-against-its-safety": {
+    "text": "Kontrola složky podle bezpečnostní kopie…",
+    "source": "d0208c82b534"
   },
   "mail.rules.checking-this-folder": {
     "text": "Kontrolování této složky…",
@@ -5140,6 +5276,10 @@
   "mail.archive.choose-a-folder": {
     "text": "Vybrat složku",
     "source": "5c71b8cd7822"
+  },
+  "locker.choose-a-folder-and-restore": {
+    "text": "Vybrat složku a obnovit…",
+    "source": "ab7346bbfb2a"
   },
   "pdf.choose-a-folder-for-the-files": {
     "text": "Vybrat složku pro soubory",
@@ -5284,6 +5424,10 @@
   "studio.sources-column.choose-what-to-show": {
     "text": "Vybrat, co zobrazit",
     "source": "baee168f9101"
+  },
+  "locker.choose-where-to-restore-the-files": {
+    "text": "Vybrat, kam obnovit soubory",
+    "source": "6de9b186eb7a"
   },
   "mail.choose-which-account-to-send-from": {
     "text": "Vyberte účet, ze kterého se má odeslat.",
@@ -6474,6 +6618,10 @@
   "slides.costs": {
     "text": "Náklady",
     "source": "b88fc5fc4765"
+  },
+  "voices-dialog.could-not-be-added": {
+    "text": "Nepodařilo se přidat",
+    "source": "1bf82610aa3d"
   },
   "mail.accounts-bulk.could-not-be-set-up": {
     "text": "Nepodařilo se nastavit",
@@ -8078,6 +8226,10 @@
     "text": "Koncept, V revizi, Schváleno",
     "source": "52ebfbb3ae76"
   },
+  "voices-dialog.draft-not-yet-reviewed": {
+    "text": "Koncept, zatím nezkontrolováno",
+    "source": "887d99cb2ec9"
+  },
   "mail.drafts": {
     "text": "Koncepty",
     "source": "f592e6a4db3c"
@@ -8357,6 +8509,18 @@
   "sheets.words.each-line-is-a-paragraph-of": {
     "text": "Každý řádek je samostatný odstavec. Ctrl+Enter vloží text.",
     "source": "ba23d84777b1"
+  },
+  "video.spoken.each-line-made-again-from-its": {
+    "text": "Každý řádek se nyní vytvoří znovu ze svého textu, s tímto hlasem a touto rychlostí",
+    "source": "19a9307c0464"
+  },
+  "studio.spoken-run.each-line-read-aloud-in-turn": {
+    "text": "Každý řádek se postupně přečte nahlas a zobrazí se v nápisu, zatímco zní jeho hlas",
+    "source": "82ccf6599ff7"
+  },
+  "video.spoken.each-line-read-aloud-its-words": {
+    "text": "Každý řádek se přečte nahlas a jeho text se zobrazí, zatímco zní jeho hlas, jeden po druhém",
+    "source": "282adc866b4a"
   },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "Každý poštovní účet, kalendář, adresář, databáze a složka má vlastní nastavení, zobrazené také v jeho aplikaci, a stejně tak aplikace Nahrávání (Recorder). Vše je vypnuto, dokud nerozhodnete. Nic se nikdy nemaže ani nepřesouvá a vše, co se má odeslat, nejprve čeká, až zde stisknete tlačítko.",
@@ -9129,6 +9293,10 @@
   "locker.every-file-in-this-folder-is": {
     "text": "Všechny soubory v této složce se zamknou tam, kde jsou. Soubory přidané později zůstanou nezamčené, dokud je nezamknete.",
     "source": "bf46961f6e33"
+  },
+  "locker.every-file-matched-the-safety-copy": {
+    "text": "Všechny soubory se shodovaly. Bezpečnostní kopie je odebrána.",
+    "source": "641b821fb375"
   },
   "mail.every-message-waits-this-long-before": {
     "text": "Každá zpráva před odesláním čeká takto dlouho a do té doby ji lze vzít zpět.",
@@ -10336,6 +10504,10 @@
     "text": "Písma",
     "source": "3680fcad01f4"
   },
+  "voices-dialog.fonts-and-dictionaries": {
+    "text": "Písma a slovníky",
+    "source": "e7aff9e0d28b"
+  },
   "sheets.ribbon.fonts-the-heading-and-body-faces": {
     "text": "Písma: pro nadpisy a text; nyní {major} a {minor}",
     "source": "8048e40f3f6f"
@@ -10583,6 +10755,10 @@
   "video.forward-a-second": {
     "text": "Vpřed o sekundu",
     "source": "8c492f4ddac3"
+  },
+  "read-aloud.bar.forward-a-sentence": {
+    "text": "O větu vpřed",
+    "source": "b7b09fb5bf3f"
   },
   "studio.setups-menu.found": {
     "text": "Nalezeno",
@@ -10843,6 +11019,10 @@
   "calendar.from-address": {
     "text": "Od: {address}",
     "source": "6d066bb09cc4"
+  },
+  "mail.read-aloud.from-name": {
+    "text": "Píše {name}",
+    "source": "2f4ab5d74ae4"
   },
   "contacts.from-name-not-yet-in-your": {
     "text": "Od {name}, zatím není v kontaktech.",
@@ -13211,9 +13391,17 @@
     "text": "Stane se z něj běžný soubor na stejném místě a dřívější verze, které Trezor (Locker) uchovával, se odeberou. Kdykoli ho můžete znovu zamknout.",
     "source": "edc5654cc244"
   },
+  "locker.it-cannot-be-checked-or-restored": {
+    "text": "Nelze ji zkontrolovat ani obnovit. Odebrat ji?",
+    "source": "e9d50f1e317d"
+  },
   "mail.it-goes-to": {
     "text": "Půjde do:",
     "source": "f7cf347abe06"
+  },
+  "locker.it-has-been-kept-for-n": {
+    "text": "Doba uchování ve dnech: {n}. Odeberte ji, až budete mít jistotu, že se složka otevírá podle očekávání.",
+    "source": "e9de9f7945ab"
   },
   "calendar.words.it-has-no-free-time-left": {
     "text": "Toho dne už nemá žádný volný čas.",
@@ -13227,6 +13415,30 @@
     "text": "Není ve vašich složkách: může jít o soubor jiné osoby nebo o soubor samotného počítače. Co se načte, uloží se do této databáze a odejde s ní, pokud ji někomu pošlete.",
     "source": "852e5b1f2f73"
   },
+  "locker.it-is-not-locked-with-your": {
+    "text": "Není zamčená heslem Trezoru (Locker): kdokoli, kdo může otevřít tento profil Office, ji může obnovit. Při odcizení disku ji chrání vaše heslo k Macu a heslo tohoto profilu. Odeberte ji, až se složka bude otevírat podle očekávání.",
+    "source": "49ed3008b51b"
+  },
+  "locker.it-is-not-locked-with-your-2": {
+    "text": "Není zamčená heslem Trezoru (Locker): kdokoli, kdo může otevřít tento profil Office, ji může obnovit. Při odcizení disku ji chrání vaše heslo k systému Windows a heslo tohoto profilu. Odeberte ji, až se složka bude otevírat podle očekávání.",
+    "source": "42aaf12f0836"
+  },
+  "locker.it-is-not-locked-with-your-3": {
+    "text": "Není zamčená heslem Trezoru (Locker): kdokoli, kdo může otevřít tento profil Office, ji může obnovit. Při odcizení disku ji chrání heslo vašeho svazku klíčů a heslo tohoto profilu. Odeberte ji, až se složka bude otevírat podle očekávání.",
+    "source": "a1d96fbb286c"
+  },
+  "locker.it-is-not-locked-with-your-4": {
+    "text": "Není zamčená heslem Trezoru (Locker): kdokoli, kdo se přihlásí k tomuto účtu Mac, ji může obnovit. Při odcizení disku ji chrání vaše heslo k Macu prostřednictvím Klíčenky (Keychain). Odeberte ji, až se složka bude otevírat podle očekávání.",
+    "source": "3479d47ec7b8"
+  },
+  "locker.it-is-not-locked-with-your-5": {
+    "text": "Není zamčená heslem Trezoru (Locker): kdokoli, kdo se přihlásí k tomuto účtu Windows, ji může obnovit. Při odcizení disku ji chrání vaše heslo k systému Windows. Odeberte ji, až se složka bude otevírat podle očekávání.",
+    "source": "94813052ad1f"
+  },
+  "locker.it-is-not-locked-with-your-6": {
+    "text": "Není zamčená heslem Trezoru (Locker): kdokoli, kdo se přihlásí k tomuto uživatelskému účtu, ji může obnovit. Při odcizení disku ji chrání heslo vašeho svazku klíčů. Na většině počítačů je to heslo, kterým se přihlašujete. Pokud svazek klíčů nemá heslo, nechrání ji nic. Odeberte ji, až se složka bude otevírat podle očekávání.",
+    "source": "179e9ee04965"
+  },
   "studio.sources-column.it-is-on-air": {
     "text": "Je ve vysílání",
     "source": "668b7b14f675"
@@ -13238,6 +13450,10 @@
   "mail.smime.it-is-shown-as-plain-text": {
     "text": "Zobrazuje se jako prostý text, bez odkazů a obrázků: šifrovaná zpráva, kterou nepodepsal nikdo důvěryhodný, mohla být cestou změněna tak, aby odeslala svůj text jinam.",
     "source": "a923da16888c"
+  },
+  "locker.it-needs-about-size-and-free": {
+    "text": "Potřebuje přibližně {size}, volné místo: {free}.",
+    "source": "4b6dd24db2d1"
   },
   "base.people.it-starts-reading-every-table-choose": {
     "text": "Zpočátku čte všechny tabulky; zvolte, co smí s každou z nich dělat.",
@@ -13295,6 +13511,10 @@
   "mail.accounts-bulk.its-mail-servers-are-not-at": {
     "text": "Poštovní servery nejsou na doméně {domain}: {hosts}. Heslo se jim odešle, jen pokud souhlasíte.",
     "source": "3fde2d743d72"
+  },
+  "slides.ribbon.its-notes": {
+    "text": "Jeho poznámky",
+    "source": "a316f96e4b04"
   },
   "mail.smime.its-password": {
     "text": "Jeho heslo",
@@ -13448,6 +13668,10 @@
   "base.links.keep-a-copy-in-this-file": {
     "text": "Uchovat kopii v tomto souboru",
     "source": "fe129705434e"
+  },
+  "locker.keep-a-safety-copy-until-i": {
+    "text": "Uchovat kopii, dokud nepotvrdím, že je vše v pořádku",
+    "source": "ce86e4bea08e"
   },
   "ui.proofing.keep-accessibility-checker-running-while-i": {
     "text": "Nechat kontrolu přístupnosti běžet při práci",
@@ -14006,6 +14230,14 @@
     "text": "Ukončit promítání",
     "source": "fdc22af2a38d"
   },
+  "locker.leave-them-closed": {
+    "text": "Nechat zavřené",
+    "source": "e4aee34bbd47"
+  },
+  "locker.leave-them-closed-2": {
+    "text": "Nechat zavřené?",
+    "source": "d56f15ff14e6"
+  },
   "locker.leave-them-unlocked-suggested": {
     "text": "Nechat je nezamčené (doporučeno)",
     "source": "0afd256556ff"
@@ -14403,6 +14635,10 @@
     "text": "Řádky určují, co se má zamknout; řádek začínající ! označí výjimku. Bez řádků se zamknou všechny soubory.",
     "source": "97f258a60d21"
   },
+  "studio.spoken-run.lines-to-read": {
+    "text": "Řádky ke čtení",
+    "source": "29f993ec4aae"
+  },
   "common.link": {
     "text": "Odkaz",
     "source": "a6a32dbc5618"
@@ -14619,6 +14855,10 @@
     "text": "Zamknout vrstvu",
     "source": "7dbd5ea70c86"
   },
+  "locker.lock-the-rest-leave-this-one": {
+    "text": "Zamknout ostatní, tento nechat nezamčený",
+    "source": "63dac83b4051"
+  },
   "locker.lock-them-again": {
     "text": "Znovu je zamknout",
     "source": "902997963217"
@@ -14630,6 +14870,10 @@
   "video.timeline.lock-this-track": {
     "text": "Zamknout tuto stopu",
     "source": "383db16dbbe6"
+  },
+  "locker.lock-without-a-safety-copy": {
+    "text": "Zamknout bez bezpečnostní kopie",
+    "source": "e0af1dba19b1"
   },
   "locker.lock-n-here": {
     "text": "Zamknout zde: {n}",
@@ -14875,6 +15119,10 @@
     "text": "Vytvořeno ve starší verzi aplikace PowerPoint: lze ho číst a odstranit, ale ne na něj odpovědět.",
     "source": "149c944bbf20"
   },
+  "locker.made-when-of-n-files-size": {
+    "text": "Vytvořeno {when}, souborů: {n} ({size}), ve stavu před zamčením.",
+    "source": "cc7c3e840df2"
+  },
   "image.tools.magic-wand": {
     "text": "Kouzelná hůlka",
     "source": "4f4839aa83e6"
@@ -15047,9 +15295,17 @@
     "text": "Vytvořit trezor",
     "source": "5928f42234d2"
   },
+  "studio.spoken-run.making-line-n-of-count": {
+    "text": "Vytváření řádku {n} z {count}…",
+    "source": "26fa6bf092a6"
+  },
   "pdf.making-the-file-smaller": {
     "text": "Zmenšování souboru…",
     "source": "01e0d2e35672"
+  },
+  "locker.making-the-safety-copy-then-locking": {
+    "text": "Vytváření bezpečnostní kopie, pak zamykání…",
+    "source": "17b3586a056e"
   },
   "slides.export-video.making-the-video-slide-at-of": {
     "text": "Vytváření videa: snímek {at} z {of}. Prezentace se celá přehraje, takže to trvá stejně dlouho jako promítání.",
@@ -15628,6 +15884,10 @@
     "text": "Zpráva při výběru buňky",
     "source": "bb3d160623af"
   },
+  "mail.message-n-of-count": {
+    "text": "Zpráva {n} z {count}",
+    "source": "496bec00a82a"
+  },
   "mail.archive.message-id": {
     "text": "Message-ID",
     "source": "06a95f89cb88"
@@ -15651,6 +15911,10 @@
   "registry.messages-and-calls-with-your-contacts": {
     "text": "Zprávy a hovory s vašimi kontakty",
     "source": "0f1f0c41222b"
+  },
+  "mail.messages-being-read": {
+    "text": "Čtené zprávy",
+    "source": "aa86112f1d32"
   },
   "mail.messages-now-send-immediately": {
     "text": "Zprávy se teď odesílají okamžitě",
@@ -16345,6 +16609,10 @@
   "locker.needs-you": {
     "text": "Čeká na vás",
     "source": "74b6abdf5969"
+  },
+  "spoken.voices.neither-is-on-the-lines-keep": {
+    "text": "Není zapnuto ani jedno: řádky si ponechají svůj čas, ale nic není vidět ani slyšet.",
+    "source": "e83016a7cfaf"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "Dokud nebudete znovu kontakty, nemůže nikdo z vás tomu druhému psát ani volat. Vaše zprávy zde se smažou.",
@@ -17146,6 +17414,10 @@
     "text": "Bez omezení",
     "source": "f7fcff0d8fea"
   },
+  "spoken.voices.no-lines-yet-each-line-of": {
+    "text": "Zatím žádné řádky: každý řádek textu se přečte postupně.",
+    "source": "6c66185b20fc"
+  },
   "talk.invite.no-links-yet": {
     "text": "Zatím žádné odkazy.",
     "source": "8bfd6e671367"
@@ -17430,6 +17702,10 @@
     "text": "Zatím žádná zobrazení. Přidat… uloží aktuální vzhled sešitu.",
     "source": "233d8dca900a"
   },
+  "common.no-voice-has-been-added": {
+    "text": "Nebyl přidán žádný hlas.",
+    "source": "c163f326bf4d"
+  },
   "shell.no-window-of-this-app-is": {
     "text": "Žádné okno této aplikace není skryté.",
     "source": "b5a7641a8630"
@@ -17558,6 +17834,10 @@
     "text": "Normální: list jako mřížka",
     "source": "7d6eedd7f7a3"
   },
+  "voices-dialog.not-added": {
+    "text": "Nepřidáno",
+    "source": "2460c620beba"
+  },
   "sheets.dialogs.not-an-address-and-not-a": {
     "text": "Nejde o adresu ani o místo, které tento sešit zná.",
     "source": "7f162b5c3025"
@@ -17618,6 +17898,10 @@
     "text": "Ne všechny pozvánky odešly e-mailem. Pozvaní je mohou stále přijmout v aplikaci Hovory (Talk) a odkaz jim můžete poslat jinou cestou ze seznamu pozvaných.",
     "source": "4336568dd105"
   },
+  "locker.not-everything-matches-the-safety-copy": {
+    "text": "Ne vše se shoduje s bezpečnostní kopií.",
+    "source": "0511c2c86d34"
+  },
   "studio.not-found": {
     "text": "Nenalezeno",
     "source": "e3ebaa16dd9d"
@@ -17650,6 +17934,10 @@
     "text": "Nezamčeno",
     "source": "0e9f70fca7bf"
   },
+  "locker.not-locked-in-this-folder-files": {
+    "text": "V této složce nejsou zamčené: {files}",
+    "source": "da7fd13c706e"
+  },
   "common.not-now": {
     "text": "Teď ne",
     "source": "a0e63d7c7125"
@@ -17670,6 +17958,10 @@
   "base.links.not-read-source-waits-for-you-2": {
     "text": "Nenačteno: {source} čeká, až na tomto počítači povolíte zdroje této databáze. Zdejší kopie odpovídá stavu v {time}.",
     "source": "b6dbe9bb7b1b"
+  },
+  "voices-dialog.not-ready-for-this-version-yet": {
+    "text": "Pro tuto verzi zatím není připraveno",
+    "source": "02f5f74fdc12"
   },
   "common.not-recorded-yet": {
     "text": "Zatím nenahráno",
@@ -17851,6 +18143,10 @@
     "text": "Zatím není nic označeno.",
     "source": "5c3dd15a98d2"
   },
+  "voices-dialog.nothing-is-removed-each-comes-back": {
+    "text": "Nic se neodebírá. Každá položka se vrátí sama, jakmile bude připravena její verze pro {version}.",
+    "source": "48739878031b"
+  },
   "mail.dialogs.nothing-is-sent-anywhere-the-import": {
     "text": "Nic se nikam neodesílá. Import čte soubor a zapisuje pouze do tohoto počítače.",
     "source": "911c731459ea"
@@ -17918,6 +18214,10 @@
   "word.nothing-to-read-from-here": {
     "text": "Odsud není co číst.",
     "source": "3ccd7688183d"
+  },
+  "slides.nothing-to-read-on-this-slide": {
+    "text": "Na tomto snímku není nic ke čtení.",
+    "source": "44401bddb9d8"
   },
   "word.mailings.nothing-to-show-for-this-record": {
     "text": "Pro tento záznam není co zobrazit.",
@@ -18087,9 +18387,21 @@
     "text": "Dokumenty Office",
     "source": "dc7d0a6b33ff"
   },
+  "locker.offices-profile-is-on-a-drive": {
+    "text": "Profil Office je na jednotce naformátované jako exFAT nebo FAT, která neukládá oprávnění. Když se soubor otevírá z dočasné nezamčené kopie, na což Trezor (Locker) upozorní, je tato kopie na jednotce, dokud je soubor otevřený, a kdokoli s touto jednotkou ji může přečíst. Zamčené soubory zůstávají zamčené.",
+    "source": "7b0eaf19f91c"
+  },
+  "locker.offices-profile-is-on-a-network": {
+    "text": "Profil Office je ve sdílené síťové složce. Když se soubor otevírá z dočasné nezamčené kopie, na což Trezor (Locker) upozorní, je tato kopie na serveru, dokud je soubor otevřený, a kdo ji může přečíst, určují oprávnění serveru, ne Windows. Zamčené soubory zůstávají zamčené.",
+    "source": "8540bcff8ead"
+  },
   "talk.offline": {
     "text": "Offline",
     "source": "a1794783aab7"
+  },
+  "voices-dialog.offline-this-is-the-list-that": {
+    "text": "Offline: toto je seznam dodaný s touto verzí.",
+    "source": "29f1cab6ba4d"
   },
   "mail.archive.older-or-newer-than-so-many": {
     "text": "Starší nebo novější než daný počet dní (d), týdnů (w), měsíců (m) nebo let (y)",
@@ -18179,6 +18491,10 @@
     "text": "Na časové ose",
     "source": "f62c6abeb937"
   },
+  "locker.on-this-mac-only-touch-id": {
+    "text": "Jen v tomto Macu. Nejprve se použije Touch ID a klíč, který chrání, je v Klíčence (Keychain). Hlavní zůstává heslo.",
+    "source": "3633db8bfba6"
+  },
   "ai-tools.on-this-computer": {
     "text": "Na tomto počítači",
     "source": "e6af7ee2bde2"
@@ -18238,6 +18554,10 @@
   "word.one-flow-on-screen-for-a": {
     "text": "Na obrazovce jeden tok kvůli nativnímu kurzoru; rozložení pro tisk a PDF ho skutečně dělí do sloupců",
     "source": "33bd0e1b78c3"
+  },
+  "studio.spoken-run.one-line-each-each-is-read": {
+    "text": "Po jednom na řádek: každý se postupně přečte nahlas",
+    "source": "f1c64f2624f8"
   },
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "Jeden řádek na řádek. Tabulátor posune text na střed, druhý doprava.",
@@ -19900,6 +20220,10 @@
     "text": "Přehrávat zvuk klipů v prezentaci",
     "source": "97953b6cbcb8"
   },
+  "mail.play-all": {
+    "text": "Přečíst vše",
+    "source": "12e7b8220dc7"
+  },
   "pictures.play-automatically": {
     "text": "Přehrávat automaticky",
     "source": "210dd780da5e"
@@ -19912,9 +20236,21 @@
     "text": "Přehrát dopředu",
     "source": "18d1c1674140"
   },
+  "spoken.voices.play-the-voice": {
+    "text": "Přehrát hlas",
+    "source": "df7413e04bae"
+  },
+  "spoken.voices.play-the-voice-of-this-line": {
+    "text": "Přehrát hlas tohoto řádku",
+    "source": "8e0d9567a55d"
+  },
   "video.timeline.play-this-track-alone-solo-the": {
     "text": "Přehrát jen tuto stopu (sólo): ostatní stopy stejného druhu se vynechají, dokud sólo nevypnete",
     "source": "734250a377a1"
+  },
+  "mail.play-unread": {
+    "text": "Přečíst nepřečtené",
+    "source": "ce50e3196418"
   },
   "video.playback": {
     "text": "Přehrávání",
@@ -20797,6 +21133,18 @@
     "text": "Číst nahlas",
     "source": "38e07b2a0ca5"
   },
+  "voices-dialog.read-aloud-uses-the-windows-voice": {
+    "text": "Funkce Číst nahlas používá hlas Windows.",
+    "source": "7a16d7891be8"
+  },
+  "pdf.read-aloud-the-words-of-the": {
+    "text": "Číst nahlas: text stránek od této dál, po jedné větě",
+    "source": "3e998b88dc26"
+  },
+  "slides.ribbon.read-aloud-the-words-on-this": {
+    "text": "Číst nahlas: text na tomto snímku, jeho poznámky nebo obojí, po jedné větě",
+    "source": "0bb5b920c262"
+  },
   "word.ribbon.read-mode": {
     "text": "Režim čtení",
     "source": "b717f7f3eb53"
@@ -20841,6 +21189,10 @@
     "text": "Číst ručně",
     "source": "c1b4b3d1e6f2"
   },
+  "mail.read-every-message-in-the-list": {
+    "text": "Přečíst nahlas všechny zprávy v seznamu v jejich pořadí. Které to budou, určuje filtr nebo hledání. Každá zpráva se označí jako přečtená, jakmile je dočtena do konce.",
+    "source": "4a502a868214"
+  },
   "base.sources.read-from": {
     "text": "Číst z",
     "source": "26da1ae26f48"
@@ -20877,13 +21229,37 @@
     "text": "Přečtené i nepřečtené, s hvězdičkou i bez",
     "source": "24569a47b7d9"
   },
+  "video.spoken.read-the-lines-aloud": {
+    "text": "Přečíst řádky nahlas",
+    "source": "1a13c198d37e"
+  },
   "word.ribbon.read-the-document-aloud-from-the": {
     "text": "Přečíst dokument nahlas, od kurzoru",
     "source": "4ac22f8793e2"
   },
+  "studio.spoken-run.read-the-lines": {
+    "text": "Přečíst řádky",
+    "source": "458b26677813"
+  },
+  "video.spoken.read-the-lines-onto-the-timeline": {
+    "text": "Přečíst řádky na časovou osu",
+    "source": "544b9d825bea"
+  },
+  "mail.read-the-open-message-aloud-who": {
+    "text": "Přečíst otevřenou zprávu nahlas: odesílatel, předmět a potom text",
+    "source": "74364f657863"
+  },
+  "mail.read-the-unread-messages-in-the": {
+    "text": "Přečíst nahlas nepřečtené zprávy v seznamu v jejich pořadí. Každá zpráva se označí jako přečtená, jakmile je dočtena do konce.",
+    "source": "dff6be303eab"
+  },
   "base.links.read-what-changed-by-field": {
     "text": "Číst změny podle pole {field}",
     "source": "2280ed08e4c6"
+  },
+  "video.spoken.read-while-recording-the-voice-is": {
+    "text": "Přečteno během nahrávání: hlas je přímo ve zvuku nahrávky.",
+    "source": "18def8f54c5b"
   },
   "base.links.read-every": {
     "text": "Číst {every}",
@@ -20913,6 +21289,10 @@
     "text": "Čtení sdělí serveru {host}, že tato databáze byla otevřena, a odkud.",
     "source": "40c581613d93"
   },
+  "common.reading-line-n-of-count": {
+    "text": "Čtení řádku {n} z {count}",
+    "source": "0bdc94419bf9"
+  },
   "pdf.ocr.reading-page-page-of-count": {
     "text": "Čtení stránky {page} z {count}…",
     "source": "98a0e1804ad8"
@@ -20920,6 +21300,10 @@
   "mail.reading-pane": {
     "text": "Podokno čtení",
     "source": "dde5ae89d4de"
+  },
+  "mail.reading-stopped-the-voice-did-not": {
+    "text": "Čtení se zastavilo: hlas tuto zprávu nepřečetl.",
+    "source": "edb70b11e6c0"
   },
   "word.envelopes.reading-the-address-book": {
     "text": "Načítání adresáře…",
@@ -21651,6 +22035,10 @@
     "text": "Odebrat účet…",
     "source": "f6c7b21aa0c2"
   },
+  "locker.remove-anyway": {
+    "text": "Přesto odebrat",
+    "source": "ec52bdc0ffac"
+  },
   "word.mailings.remove-duplicates-untick-count-record-that": {
     "forms": {
       "few": "Odebrat duplicity: zrušit zaškrtnutí u {count} záznamů, které opakují dřívější pole po poli",
@@ -21747,6 +22135,22 @@
   "base.remove-the-relationship": {
     "text": "Odebrat relaci",
     "source": "7f945c0384ab"
+  },
+  "locker.remove-the-safety-copy-now": {
+    "text": "Odebrat bezpečnostní kopii nyní?",
+    "source": "e026c125fde8"
+  },
+  "locker.remove-the-safety-copy-of-name": {
+    "text": "Odebrat bezpečnostní kopii složky {name}?",
+    "source": "25b045f799d0"
+  },
+  "locker.remove-the-safety-copy": {
+    "text": "Odebrat bezpečnostní kopii…",
+    "source": "6474685cf9bd"
+  },
+  "voices-dialog.remove-the-voices-and-languages-added": {
+    "text": "Odebrat také hlasy a jazyky přidané do Rutba Office?",
+    "source": "95f84db40a88"
   },
   "locker.remove-them-suggested": {
     "text": "Odebrat je (doporučeno)",
@@ -21924,6 +22328,14 @@
   "sheets.reopen": {
     "text": "Znovu otevřít",
     "source": "a886d1dc4f12"
+  },
+  "locker.reopen-the-files-that-were-open": {
+    "text": "Znovu otevřít soubory, které byly otevřené",
+    "source": "e072693459a5"
+  },
+  "locker.reopen-them": {
+    "text": "Znovu je otevřít",
+    "source": "0c8ec1c4dc3d"
   },
   "slides.comments.reopen-this-thread": {
     "text": "Znovu otevřít vlákno",
@@ -22262,9 +22674,29 @@
     "text": "Restartujte a aktualizujte hned. Budete-li pracovat dál, aktualizace se nainstaluje při ukončení.",
     "source": "6dceb7683e70"
   },
+  "voices-dialog.restarting-closes-every-window-and-these": {
+    "text": "Restart zavře všechna okna a tato okna obsahují dosud neuložené změny. Uložte je nebo je zavřete a potom restartujte znovu. Nic nebylo zavřeno.",
+    "source": "b8d3a411d920"
+  },
   "ui.restore": {
     "text": "Obnovit",
     "source": "a76e13b98392"
+  },
+  "locker.restore-a-copy": {
+    "text": "Obnovit kopii…",
+    "source": "0b791c6c1552"
+  },
+  "locker.restore-from-the-safety-copy": {
+    "text": "Obnovit z bezpečnostní kopie",
+    "source": "2ba736545122"
+  },
+  "locker.restore-from-the-safety-copy-2": {
+    "text": "Obnovit z bezpečnostní kopie…",
+    "source": "53572e4e1540"
+  },
+  "locker.restoring": {
+    "text": "Obnovování…",
+    "source": "5a4918e0201c"
   },
   "word.restrict-editing": {
     "text": "Omezit úpravy",
@@ -22365,6 +22797,10 @@
   "sheets.review-show-comments-lists-them": {
     "text": "Zobrazí je Revize → Zobrazit komentáře",
     "source": "3a019cace7ae"
+  },
+  "voices-dialog.reviewed": {
+    "text": "Zkontrolováno",
+    "source": "fad6057bb540"
   },
   "common.reviewing-pane": {
     "text": "Podokno revizí",
@@ -22906,6 +23342,14 @@
     "text": "Rutba Office zatím nedokáže otevřít soubory {v1}.",
     "source": "cecfdddc878c"
   },
+  "voices-dialog.rutba-office-in-the-languages-this": {
+    "text": "Rutba Office v jazycích, které tento počítač používá.",
+    "source": "f639c2bab1a0"
+  },
+  "voices-dialog.rutba-office-in-your-languages": {
+    "text": "Rutba Office ve vašich jazycích",
+    "source": "92aee8ac863e"
+  },
   "shell.rutba-office-is-now-version": {
     "text": "Rutba Office je nyní ve verzi {version}",
     "source": "8b27b11cf0c8"
@@ -22934,9 +23378,21 @@
     "text": "Verze Rutba Office {version} je stažená. Restartujte a aktualizujte, nebo se nainstaluje při ukončení",
     "source": "ef28bb66ae1a"
   },
+  "voices-dialog.rutba-office-version-is-out-but": {
+    "text": "Vyšla verze Rutba Office {version}, ale vaše hlasy a jazyky se pro ni nepodařilo ověřit. Ověří se znovu při další kontrole.",
+    "source": "1f9d9dab508d"
+  },
+  "voices-dialog.rutba-office-version-is-out-it": {
+    "text": "Vyšla verze Rutba Office {version}. Bude nabídnuta, jakmile pro ni budou připraveny tyto položky: {list}.",
+    "source": "2e1d40855fff"
+  },
   "shell.rutba-office-version-is-ready-to": {
     "text": "Verze Rutba Office {version} je připravena k instalaci",
     "source": "9f8e0a323b51"
+  },
+  "voices-dialog.rutba-office-version-no-longer-has": {
+    "text": "Rutba Office {version} už neobsahuje položku {name} ({kind}). Zůstane v tomto počítači nepoužívaná, dokud ji neodeberete.",
+    "source": "ca36731ad5da"
   },
   "engine.rutba-office-no-backend-for-ns": {
     "text": "Rutba Office: chybí obsluha pro {ns}:{name}",
@@ -23029,6 +23485,18 @@
   "talk.safety-code-code-if-name-sees": {
     "text": "Bezpečnostní kód {code}: pokud {name} vidí stejný, nikdo neposlouchá.",
     "source": "b70afef2b0dd"
+  },
+  "locker.safety-copies": {
+    "text": "Bezpečnostní kopie",
+    "source": "7735ad244a59"
+  },
+  "locker.safety-copies-are-not-offered-on": {
+    "text": "Bezpečnostní kopie se v tomto počítači nenabízejí, protože nemá svazek klíčů pro uložení jejich klíče. Složka se i tak zamyká jako obvykle.",
+    "source": "1b386c96ddee"
+  },
+  "locker.safety-copy": {
+    "text": "Bezpečnostní kopie",
+    "source": "966a48379b73"
   },
   "mail.safety.safety-is-off-for-this-message": {
     "text": "Ochrana je u této zprávy vypnutá: odkazy a obrázky lze kopírovat a přílohy ukládat. Další zpráva se otevře se zapnutou ochranou.",
@@ -23341,6 +23809,14 @@
   "studio.scene-strip.save-what-the-frame-shows-as": {
     "text": "Uložit to, co plátno ukazuje, jako novou scénu",
     "source": "04d539ee1ba5"
+  },
+  "english-switch.save-your-changes-first-this-window": {
+    "text": "Nejprve uložte změny: toto okno se při dalším otevření zobrazí v angličtině. Okna, která otevřete od této chvíle, budou v angličtině.",
+    "source": "158d4e0c44ec"
+  },
+  "voices-dialog.save-your-work-before-restarting": {
+    "text": "Před restartem uložte svou práci",
+    "source": "9f0e25526a5b"
   },
   "update-restart.save-your-work-before-updating": {
     "text": "Před aktualizací uložte svou práci",
@@ -24356,6 +24832,10 @@
     "text": "Velké první písmeno věty.",
     "source": "e3033f08f2d4"
   },
+  "read-aloud.bar.sentence-n-of-count": {
+    "text": "Věta {n} z {count}",
+    "source": "31e0c4c7d350"
+  },
   "word.ribbon.separated-by-commas": {
     "text": "Oddělené čárkami",
     "source": "1d7e4e1cdf8b"
@@ -24985,6 +25465,10 @@
     "text": "Zobrazit záhlaví řádků a sloupců",
     "source": "4f7b9dcce409"
   },
+  "spoken.voices.show-the-text": {
+    "text": "Zobrazit text",
+    "source": "0766a87f94ec"
+  },
   "sheets.dialogs.show-them-as": {
     "text": "Zobrazit je jako",
     "source": "6380dba9f992"
@@ -25000,6 +25484,10 @@
   "video.timeline.show-this-track": {
     "text": "Zobrazit tuto stopu",
     "source": "f562671c6f31"
+  },
+  "english-switch.show-this-window-in-english": {
+    "text": "Zobrazit toto okno v angličtině",
+    "source": "966d8fef25b8"
   },
   "slides.setup.show-type": {
     "text": "Typ promítání",
@@ -25821,6 +26309,10 @@
     "text": "Zvukový klip",
     "source": "556f55adc8bd"
   },
+  "studio.spoken-run.sound-is-not-on-so-the": {
+    "text": "Zvuk není zapnutý, takže hlas není v nahrávce ani ve streamu.",
+    "source": "73e5029c4133"
+  },
   "video.meter.sound-level": {
     "text": "Úroveň zvuku",
     "source": "03f228955745"
@@ -25925,9 +26417,21 @@
     "text": "Řečová bublina",
     "source": "210563626614"
   },
+  "voices-dialog.speech-engine-and-models": {
+    "text": "Řečový modul a modely",
+    "source": "023dc910442d"
+  },
+  "voices-dialog.speech-is-made-on-this-computer": {
+    "text": "Řeč se vytváří v tomto počítači. To, co se čte, ho nikdy neopustí.",
+    "source": "020d7947bc15"
+  },
   "word.speech-is-not-available-on-this": {
     "text": "Řeč není v tomto systému k dispozici.",
     "source": "52e87276a561"
+  },
+  "voices-dialog.speech-will-use-the-windows-voice": {
+    "text": "Dokud nebude připraven řečový modul pro {version}, bude se pro řeč používat hlas Windows.",
+    "source": "7f1dd8870ffa"
   },
   "video.speed": {
     "text": "Rychlost",
@@ -26057,6 +26561,14 @@
   "pdf.split-this-pdf-into-several-files": {
     "text": "Rozdělit: toto PDF na více souborů, podle počtu stránek nebo u vybraných stránek",
     "source": "ed6df15df737"
+  },
+  "video.spoken.spoken-lines": {
+    "text": "Mluvené řádky",
+    "source": "9b4ca87c5e21"
+  },
+  "common.spoken-lines": {
+    "text": "Mluvené řádky",
+    "source": "b6fcaf71e96b"
   },
   "slides.spring-2026": {
     "text": "Jaro 2026",
@@ -26402,6 +26914,10 @@
     "text": "Zrušit sólo této stopy",
     "source": "0a0cba583153"
   },
+  "common.stop-reading": {
+    "text": "Zastavit čtení",
+    "source": "78be99f18a5c"
+  },
   "shell.ipc.stop-recording": {
     "text": "Zastavit nahrávání",
     "source": "3d591e826d54"
@@ -26573,6 +27089,10 @@
   "mail.subject-a-word-in-the-subject": {
     "text": "Předmět: slovo v předmětu",
     "source": "ffb836da7f7a"
+  },
+  "mail.read-aloud.subject-subject": {
+    "text": "Předmět: {subject}",
+    "source": "71de3761a2b3"
   },
   "common.subscript": {
     "text": "Dolní index",
@@ -26757,6 +27277,10 @@
   "dav-accounts.syncing": {
     "text": "Synchronizace…",
     "source": "8a046cc90ab0"
+  },
+  "read-aloud.bar.system-voice": {
+    "text": "Systémový hlas",
+    "source": "2d3d23392b00"
   },
   "image.formats.tiff-keeps-every-pixel-for-print": {
     "text": "TIFF uchovává každý pixel, pro tisk a skeny.",
@@ -27715,6 +28239,10 @@
     "text": "Kopie pro Datové soubory (Data Files) potřebuje vlastní soubor. Zvolte jiný název nebo složku.",
     "source": "b7ddf45551bf"
   },
+  "locker.the-locker-first-reads-back-every": {
+    "text": "Trezor (Locker) nejprve načte zpět každý soubor kopie v této složce a zkontroluje, zda se shoduje. Pokud se něco neshoduje, upozorní vás dřív, než se cokoli odebere.",
+    "source": "158bfd3254fc"
+  },
   "home.the-office-apps-are-on-add": {
     "text": "Aplikace Office jsou zapnuté. Hovory (Talk), Datové soubory (Data Files) a Studio přidáte či nepoužívané vypnete, kdykoli chcete.",
     "source": "328297894902"
@@ -27734,6 +28262,10 @@
   "sheets.ribbon.the-worksheets-guide-on-office-rutba": {
     "text": "Průvodce aplikací Tabulky na office.rutba.io",
     "source": "de05c2d52be3"
+  },
+  "read-aloud.reader.the-added-voice-stopped-working-so": {
+    "text": "Přidaný hlas přestal fungovat, a proto se zbytek čte systémovým hlasem.",
+    "source": "f0f998b2a82a"
   },
   "word.mailings.the-address-book-is-empty-add": {
     "text": "Adresář je prázdný. Nejprve přidejte lidi v Kontaktech, nebo zadejte nový seznam.",
@@ -28066,6 +28598,10 @@
     "text": "Samotný soubor není šifrovaný: role platí v Rutba Office, ale kdokoli, kdo soubor zkopíruje, ho přečte jiným programem.",
     "source": "76fbda0ec679"
   },
+  "locker.the-files-are-restored": {
+    "text": "Soubory jsou obnoveny",
+    "source": "f7002961aa52"
+  },
   "mail.dialogs.the-filter-has-learned-from-junk": {
     "text": "Filtr se naučil z {junk} nevyžádaných a {good} dobrých zpráv a nic neposuzuje, dokud od každých neuvidí {minimum}. Označujte zprávy jako Nevyžádaná a Není nevyžádaná, nebo ho naučte z toho, co už tu je.",
     "source": "1a734aca4f49"
@@ -28077,6 +28613,14 @@
   "sheets.queries.the-first-characters-of-column": {
     "text": "První znaky sloupce „{column}“",
     "source": "b944f22738f2"
+  },
+  "video.the-first-try-came-out-with": {
+    "text": "První pokus nevytvořil žádný obraz, a proto export začal znovu.",
+    "source": "af1e9fb70b7f"
+  },
+  "slides.export-video.the-first-try-came-out-with": {
+    "text": "První pokus nevytvořil žádný obraz, a proto se video vytváří znovu: snímek {at} z {of}.",
+    "source": "7132b0853b65"
   },
   "pictures.batch.the-first-will-be-example": {
     "text": "První bude {example}",
@@ -28150,6 +28694,10 @@
     "text": "Klíč je uložen v chráněném úložišti tohoto počítače, nikdy v souboru, a jen pro tuto adresu.",
     "source": "73f082cb751d"
   },
+  "read-aloud.bar.the-language-being-read": {
+    "text": "Jazyk čtení",
+    "source": "a6d60dec8ea7"
+  },
   "engine.the-last-calendar-stays-delete-its": {
     "text": "Poslední kalendář zůstává; místo toho odstraňte jeho události.",
     "source": "d68b7964c865"
@@ -28174,9 +28722,17 @@
     "text": "Text vrstvy",
     "source": "f53bac890188"
   },
+  "common.the-line-could-not-be-read": {
+    "text": "Řádek se nepodařilo přečíst: {reason}",
+    "source": "1ef63f69f2ff"
+  },
   "base.forms.the-line-is-deleted-from-table": {
     "text": "Řádek bude odstraněn z tabulky {table} a nelze ho obnovit.",
     "source": "9d1b5f1408ba"
+  },
+  "common.the-lines-could-not-be-read": {
+    "text": "Řádky se nepodařilo přečíst nahlas: {reason}",
+    "source": "80512771ce16"
   },
   "mail.the-link-could-not-be-opened": {
     "text": "Odkaz se nepodařilo otevřít: {reason}",
@@ -28209,6 +28765,10 @@
   "sheets.dialogs.the-list-has-a-heading-row": {
     "text": "Seznam má řádek záhlaví: zůstává nahoře a jeho záhlaví pojmenovávají sloupce.",
     "source": "6e64ba31d8bb"
+  },
+  "voices-dialog.the-list-of-voices-and-languages": {
+    "text": "Seznam hlasů a jazyků se nepodařilo načíst. Co je přidáno níže, dál funguje; zkuste to znovu, až bude tento počítač online.",
+    "source": "1395fe37df4d"
   },
   "engine.the-list-range-needs-a-header": {
     "text": "Oblast seznamu potřebuje řádek záhlaví a pod ním alespoň jeden řádek",
@@ -28319,6 +28879,10 @@
     "text": "Zpráva",
     "source": "3f7b4597bf02"
   },
+  "mail.the-message-before": {
+    "text": "Předchozí zpráva",
+    "source": "8c3f352f34a9"
+  },
   "mail.safety.the-message-exactly-as-it-came": {
     "text": "Zpráva přesně tak, jak přišla ze serveru, {size}.",
     "source": "d6fe543dcfc3"
@@ -28410,6 +28974,10 @@
   "slides.slide-size.the-new-size-is-smaller-one": {
     "text": "Nová velikost je v jednom směru menší. Maximalizovat zachová obsah tak velký, jak je, takže může přesahovat okraje; Zajistit přizpůsobení ho zmenší, aby celý zůstal na snímku.",
     "source": "484d93d5e8bd"
+  },
+  "mail.the-next-message": {
+    "text": "Další zpráva",
+    "source": "698b6714b353"
   },
   "sheets.dialogs.the-note-on-cell": {
     "text": "Poznámka v buňce {cell}",
@@ -28724,6 +29292,26 @@
     "text": "Řádky se vloží od vybrané buňky {cell}, datum jako datum a částky jako čísla.",
     "source": "968e3afd6474"
   },
+  "locker.the-safety-copy-holds-them-as": {
+    "text": "Bezpečnostní kopie je uchovává v původním stavu. Přesto ji odebrat?",
+    "source": "160f184b5815"
+  },
+  "locker.the-safety-copy-is-kept-restore": {
+    "text": "Bezpečnostní kopie je uchována. Tyto soubory získáte zpět obnovením její kopie: {files}",
+    "source": "71e4b43c7ac5"
+  },
+  "locker.the-safety-copy-is-removed": {
+    "text": "Bezpečnostní kopie je odebrána.",
+    "source": "3dac7e4034fb"
+  },
+  "locker.the-safety-copy-of-name-has": {
+    "text": "Bezpečnostní kopie složky {name} se uchovává (doba ve dnech: {n}). Není zamčená heslem Trezoru (Locker). Pokud se složka otevírá podle očekávání, Trezor ji porovná s kopií a kopii potom odebere.",
+    "source": "889c6b02d3a9"
+  },
+  "locker.the-safety-copy-of-name-was": {
+    "text": "Bezpečnostní kopie složky {name} byla vytvořena {when}. Její soubory (počet: {n}) se zapíší nezamčené do nové složky uvnitř složky, kterou vyberete. Nic, co tam už je, se nezmění.",
+    "source": "a34f0ed2f93a"
+  },
   "locker.the-same-password-again": {
     "text": "Stejné heslo znovu",
     "source": "cfd750367fe1"
@@ -28897,6 +29485,10 @@
     "text": "Obrazce snímku jako vrstvy: vybrat, přeřadit, skrýt, přejmenovat",
     "source": "e96347e19582"
   },
+  "slides.ribbon.the-slide-then-its-notes": {
+    "text": "Snímek, potom jeho poznámky",
+    "source": "ae28e25489b7"
+  },
   "pdf.export.the-smaller-pdf-is-saved-as": {
     "text": "Menší PDF je uloženo jako nový soubor; tento se nezmění. Nyní má {size}.",
     "source": "6442a2655dcc"
@@ -28997,6 +29589,10 @@
     "text": "Název uprostřed a text pod ním",
     "source": "036bb5d5a882"
   },
+  "studio.spoken-run.the-title-is-not-on-the": {
+    "text": "Nápis není v záběru: zobrazte ho a řádky se v něm budou objevovat, jak se čtou.",
+    "source": "e190969a20ad"
+  },
   "review.the-title-of-slide-number": {
     "text": "Název snímku {number}:",
     "source": "7f83a0913d67"
@@ -29017,6 +29613,10 @@
     "text": "Zadaná hesla se neshodují.",
     "source": "bb612d83804d"
   },
+  "locker.the-unsaved-changes-in-files-are": {
+    "text": "Neuložené změny v souborech {files} budou trvale odebrány. Tuto akci nelze vrátit zpět.",
+    "source": "90213c3ea342"
+  },
   "slides.export-video.the-video-could-not-be-made": {
     "text": "Video se nepodařilo vytvořit: {reason}",
     "source": "a10d92beb052"
@@ -29028,6 +29628,14 @@
   "video.library.the-videos-sound-and-pictures-in": {
     "text": "Videa, zvuky a obrázky v tomto projektu jsou uložené zde, abyste je mohli přidat znovu.",
     "source": "4075715096b2"
+  },
+  "spoken.voices.the-voice-gave-no-sound-for": {
+    "text": "Hlas pro tento řádek nevydal žádný zvuk.",
+    "source": "53613e120fbf"
+  },
+  "spoken.voices.the-voice-was-stopped-before-this": {
+    "text": "Hlas byl zastaven dříve, než byl tento řádek vytvořen.",
+    "source": "72955eafea09"
   },
   "video.export.the-whole-project": {
     "text": "Celý projekt",
@@ -29196,6 +29804,14 @@
     "text": "Nejsou žádné snímky, na které lze přiblížit.",
     "source": "f7a8b80bbbe3"
   },
+  "mail.there-are-no-unread-messages-in": {
+    "text": "V seznamu nejsou žádné nepřečtené zprávy ke čtení.",
+    "source": "16ae6324c70a"
+  },
+  "pdf.there-are-no-words-to-read": {
+    "text": "Na této stránce nejsou žádná slova ke čtení. Naskenovanou stránku lze číst, až v ní funkce Rozpoznat text najde slova.",
+    "source": "e6a37e9e16ec"
+  },
   "mail.there-is-a-folder-called-name": {
     "text": "Složka s názvem {name} tu už existuje.",
     "source": "a6b783d2a832"
@@ -29243,6 +29859,10 @@
   "engine.there-is-no-mail-account-to": {
     "text": "Neexistuje poštovní účet, ze kterého by šlo odesílat. Přidejte ho v aplikaci Pošta v části Účty.",
     "source": "4ac6eb1ff640"
+  },
+  "mail.there-is-no-message-to-read": {
+    "text": "Není žádná zpráva ke čtení.",
+    "source": "1688457587f5"
   },
   "sheets.queries.there-is-no-other-table-or": {
     "text": "V tomto sešitu není žádná jiná tabulka ani dotaz, které by šlo připojit.",
@@ -29316,6 +29936,10 @@
     "text": "List s názvem „{name}“ neexistuje",
     "source": "6c1e04a0ddb0"
   },
+  "locker.there-is-not-enough-room-for": {
+    "text": "Na jednotce se složkou Office není dost místa pro bezpečnostní kopii. Uvolněte místo nebo zamkněte bez ní.",
+    "source": "2cc98cc7e17b"
+  },
   "studio.window.there-is-not-enough-space-on": {
     "text": "Na disku není dost místa pro nahrávání.",
     "source": "31dd575ea898"
@@ -29376,6 +30000,14 @@
     "text": "Tyto buňky jsou součástí svislého sloučení. Rozšíření jednoho jeho řádku by oblast roztrhlo.",
     "source": "75122648d3df"
   },
+  "voices-dialog.these-come-by-themselves-with-the": {
+    "text": "Tyto položky se přidají samy s prvním hlasem, který přidáte.",
+    "source": "12cf80348807"
+  },
+  "locker.these-files-are-not-locked-the": {
+    "text": "Tyto soubory nejsou zamčené. Bezpečnostní kopie zůstane, dokud ji neodeberete.",
+    "source": "f75acf6c6eae"
+  },
   "mail.dialogs.these-settings-came-from-source-on": {
     "text": "Tato nastavení pochází z aplikace {source} v tomto počítači; ověří se po doplnění adresy.",
     "source": "22565709a102"
@@ -29415,6 +30047,10 @@
   "talk.invite.they-see-your-name-and-your": {
     "text": "Uvidí vaše jméno a vaši poznámku a po přijetí se stanou kontaktem. Nikdo se nedozví, zda má adresa účet.",
     "source": "7d8559a730ab"
+  },
+  "voices-dialog.they-take-size-on-this-computer": {
+    "text": "V tomto počítači zabírají {size}. Ponechte si je, pokud budete Rutba Office instalovat znovu.",
+    "source": "d55522046f72"
   },
   "profiles.they-were-saved-in-another-profile": {
     "text": "Byla uložena v jiném profilu a zkopírována sem, takže je v tomto nelze přečíst.",
@@ -29604,9 +30240,27 @@
     "text": "Tento počítač nemá chráněné úložiště pro uložená hesla a tento profil nemá heslo, takže je nešlo bezpečně uchovat.",
     "source": "423cb156a6ae"
   },
+  "voices-dialog.this-computer-is-offline-the-language": {
+    "forms": {
+      "one": "Tento počítač je offline: jazyk se přidá, jakmile bude online. Lze ho přidat také ze souboru v okně Hlasy a jazyky.",
+      "few": "Tento počítač je offline: jazyky se přidají, jakmile bude online. Jazyk lze přidat také ze souboru v okně Hlasy a jazyky.",
+      "many": "Tento počítač je offline: jazyky se přidají, jakmile bude online. Jazyk lze přidat také ze souboru v okně Hlasy a jazyky.",
+      "other": "Tento počítač je offline: jazyky se přidají, jakmile bude online. Jazyk lze přidat také ze souboru v okně Hlasy a jazyky."
+    },
+    "source": "c87bafdc6eef"
+  },
   "common.this-computer-only": {
     "text": "Jen tento počítač",
     "source": "601b7ae9d3a9"
+  },
+  "voices-dialog.this-computer-uses-languages-add-it": {
+    "forms": {
+      "one": "Tento počítač používá jazyk {languages}. Přidejte ho a po restartu Rutba Office ho vyberte v nabídce jazyků.",
+      "few": "Tento počítač používá jazyky {languages}. Přidejte je a po restartu Rutba Office vyberte jeden z nich v nabídce jazyků.",
+      "many": "Tento počítač používá jazyky {languages}. Přidejte je a po restartu Rutba Office vyberte jeden z nich v nabídce jazyků.",
+      "other": "Tento počítač používá jazyky {languages}. Přidejte je a po restartu Rutba Office vyberte jeden z nich v nabídce jazyků."
+    },
+    "source": "ecb007a426ac"
   },
   "common.this-content-control-cannot-be-edited": {
     "text": "Tento ovládací prvek obsahu nelze upravit: jeho obsah je zamčený.",
@@ -29615,6 +30269,10 @@
   "packs-dialog.this-copy-is-installed-for-everyone": {
     "text": "Tato kopie je nainstalovaná pro všechny uživatele počítače, takže při restartu Windows požádá o oprávnění.",
     "source": "c2546a3ab80f"
+  },
+  "voices-dialog.this-copy-of-rutba-office-has": {
+    "text": "Tato kopie Rutba Office nemá složku doplňků: hlasy a jazyky se přidávají do nainstalované kopie.",
+    "source": "e81b8c5038b2"
   },
   "base.links.this-database-has-no-tables-this": {
     "text": "Tato databáze nemá žádné tabulky, které tento účet vidí.",
@@ -29756,6 +30414,14 @@
     "text": "Tento soubor nemá žádné objekty, které by čtečka PDF našla.",
     "source": "f617f38c26b0"
   },
+  "voices-dialog.this-file-is-not-an-add": {
+    "text": "Tento soubor není doplněk: měl by obsahovat jeden doplněk a jeho složku.",
+    "source": "162cbe64b392"
+  },
+  "voices-dialog.this-file-is-not-an-add-2": {
+    "text": "Tento soubor není doplněk: otevřete archiv .zip zveřejněný s doplňky Rutba Office.",
+    "source": "5341e30294dc"
+  },
   "mail.this-file-was-imported-before-into": {
     "text": "Tento soubor už byl importován do stejné schránky: přidáno {messages}",
     "source": "ce0670a06a68"
@@ -29791,6 +30457,10 @@
   "locker.this-folder-is-in-cloud-which": {
     "text": "Tato složka je ve službě {cloud}, která uchovává dřívější verze souborů. Ty obyčejné tam po zamčení zůstanou; vymažte je v historii verzí služby {cloud}.",
     "source": "aa002b0574ae"
+  },
+  "locker.this-folder-is-no-longer-in": {
+    "text": "Tato složka už není v Trezoru (Locker), takže není s čím kopii porovnat. Kopie bude přepsána a odebrána. Tuto akci nelze vrátit zpět.",
+    "source": "016e4d7f2c7a"
   },
   "mail.this-folder-search-only-the-folder": {
     "text": "Tato složka: hledat jen v otevřené složce",
@@ -29920,6 +30590,10 @@
   "calendar.words.this-meeting-is-cancelled-a-calendar": {
     "text": "Tato schůzka je zrušena. Kalendářový program ji podle přiloženého souboru odebere z kalendáře.",
     "source": "6e9c1888a881"
+  },
+  "mail.this-message-could-not-be-opened": {
+    "text": "Tuto zprávu se nepodařilo otevřít",
+    "source": "b127fbc71257"
   },
   "mail.this-message-does-not-offer-one": {
     "text": "Tato zpráva nenabízí odhlášení jedním kliknutím.",
@@ -30093,6 +30767,10 @@
     "text": "Výška tohoto řádku (cm, nejméně)",
     "source": "319ca80981b6"
   },
+  "locker.this-safety-copy-cannot-be-opened": {
+    "text": "Tuto bezpečnostní kopii už nelze otevřít.",
+    "source": "ed6f50924749"
+  },
   "studio.prompter.this-scene-has-no-script-write": {
     "text": "Tato scéna nemá scénář. Napište ho na její kartu a bude se zde posouvat, zatímco nahráváte.",
     "source": "90458537f0d7"
@@ -30137,6 +30815,10 @@
     "text": "Tento průřez nemůže filtrovat: {reason}.",
     "source": "470dd67603bd"
   },
+  "slides.ribbon.this-slide": {
+    "text": "Tento snímek",
+    "source": "fd792ae48d11"
+  },
   "slides.this-slide-has-a-transition": {
     "text": "Tento snímek má přechod",
     "source": "8dfb23fea55e"
@@ -30156,6 +30838,10 @@
   "slides.this-slide-has-no-narration-to-2": {
     "text": "Tento snímek nemá mluvený komentář k přehrání.",
     "source": "d3b95fdaa7a3"
+  },
+  "slides.this-slide-has-no-notes-to": {
+    "text": "Tento snímek nemá žádné poznámky ke čtení.",
+    "source": "fbc4abc343b4"
   },
   "slides.this-slide-is-in-no-section": {
     "text": "Tento snímek není v žádném oddílu.",
@@ -30253,6 +30939,10 @@
     "text": "Funguje to jen, když je tato kopie Office na tomto počítači otevřená. Když je zavřená, pošta čeká v Doručené poště místnosti a odpoví se na ni při dalším spuštění Office.",
     "source": "396d5e19ba5f"
   },
+  "locker.this-works-without-your-password-because": {
+    "text": "Funguje to bez vašeho hesla, protože bezpečnostní kopie jím není zamčená.",
+    "source": "8c1c3f8ccd58"
+  },
   "mail.this-year": {
     "text": "Tento rok",
     "source": "98597183c8c6"
@@ -30328,6 +31018,10 @@
   "apps-choice.tick-the-apps-to-install-an": {
     "text": "Zaškrtněte aplikace k instalaci. Nezaškrtnutá aplikace na tomto počítači vůbec nebude; můžete ji přidat později v nabídce Přidat nebo odebrat aplikace v Rutba Office.",
     "source": "b2f0ee1b966a"
+  },
+  "voices-dialog.tick-the-languages-to-add-they": {
+    "text": "Zaškrtněte jazyky, které chcete přidat. Přidají se při prvním spuštění Rutba Office, kdy bude tento počítač online. Libovolný jazyk lze později přidat nebo odebrat v okně Hlasy a jazyky.",
+    "source": "78199a576b7f"
   },
   "base.people.ticked-ones-are-shown-any-that": {
     "text": "Zaškrtnuté se zobrazí. Ty, které stojí na tabulce, kterou role nevidí, se jí v každém případě nezobrazí.",
@@ -30894,6 +31588,10 @@
     "text": "Zkuste jiné hledání.",
     "source": "2e6d79de50dc"
   },
+  "voices-dialog.try-again": {
+    "text": "Zkusit znovu",
+    "source": "d8b8392e2c54"
+  },
   "template-gallery.try-other-words": {
     "text": "Zkuste jiná slova.",
     "source": "2a5ed12cfe24"
@@ -30950,9 +31648,17 @@
     "text": "Vypnout",
     "source": "06f0e210b27d"
   },
+  "locker.turn-off-touch-id": {
+    "text": "Vypnout Touch ID",
+    "source": "d94fb9a255da"
+  },
   "locker.turn-off-windows-hello": {
     "text": "Vypnout Windows Hello",
     "source": "52ba933205f0"
+  },
+  "locker.turn-on-touch-id": {
+    "text": "Zapnout Touch ID",
+    "source": "0269040c7172"
   },
   "locker.turn-on-windows-hello": {
     "text": "Zapnout Windows Hello",
@@ -30985,6 +31691,10 @@
   "pictures.turned-and-saved": {
     "text": "Otočeno a uloženo.",
     "source": "0901e7acee0c"
+  },
+  "voices-dialog.turned-off-withdrawn-by-its-makers": {
+    "text": "Vypnuto: staženo autory",
+    "source": "14e4c1da3583"
   },
   "colour.names.turquoise": {
     "text": "Tyrkysová",
@@ -31518,6 +32228,14 @@
     "text": "Aktualizovat vzorce",
     "source": "f703ab807d7f"
   },
+  "voices-dialog.update-anyway": {
+    "text": "Přesto aktualizovat",
+    "source": "d94343f8f050"
+  },
+  "voices-dialog.update-anyway-2": {
+    "text": "Přesto aktualizovat…",
+    "source": "04def120ea4d"
+  },
   "slides.update-automatically": {
     "text": "Automaticky aktualizovat",
     "source": "9e946306e543"
@@ -31533,6 +32251,10 @@
   "base.update-the-design": {
     "text": "Aktualizovat návrh",
     "source": "884bcfa32789"
+  },
+  "voices-dialog.update-to-version-anyway": {
+    "text": "Přesto aktualizovat na verzi {version}?",
+    "source": "469633528dc3"
   },
   "word.ribbon.update-style-to-match-selection": {
     "text": "Aktualizovat {style} podle výběru",
@@ -31618,6 +32340,10 @@
   "slides.ribbon.use-timings-slides-with-a-timing": {
     "text": "Použít časování: snímky s časováním se posunou samy; vypnuto: promítání se posune, jen když ho posunete vy",
     "source": "f5f90fd03124"
+  },
+  "locker.use-touch-id": {
+    "text": "Použít Touch ID",
+    "source": "8d8ec25a6ea8"
   },
   "locker.use-windows-hello-pin-fingerprint-or": {
     "text": "Použít Windows Hello (PIN, otisk, obličej)",
@@ -31947,6 +32673,18 @@
     "text": "Hlas",
     "source": "87bf2bc08589"
   },
+  "voices-dialog.voices": {
+    "text": "Hlasy",
+    "source": "8ead6df9cd69"
+  },
+  "voices-dialog.voices-and-languages": {
+    "text": "Hlasy a jazyky",
+    "source": "75f270b3eb94"
+  },
+  "common.voices-and-languages": {
+    "text": "Hlasy a jazyky…",
+    "source": "14395bf4d3f9"
+  },
   "common.volume": {
     "text": "Hlasitost",
     "source": "b10fb966d720"
@@ -32146,6 +32884,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "Co smí nástroje AI s každou položkou dělat. Vše je vypnuto, dokud nerozhodnete. Stejná nastavení najdete v části Nástroje AI.",
     "source": "14310670b45f"
+  },
+  "spoken.voices.what-the-lines-do": {
+    "text": "Co řádky dělají",
+    "source": "573064e5a609"
   },
   "word.dialogs.what-the-table-is": {
     "text": "O čem je tabulka",
@@ -32515,6 +33257,10 @@
     "text": "Pokud nemáte účet v Poště, ze kterého lze odesílat, pošle Rutba vaše pozvánky e-mailem z adresy no-reply@rutba.io.",
     "source": "12232a9ce3d1"
   },
+  "voices-dialog.with-no-network-a-voice-or": {
+    "text": "Bez sítě lze hlas nebo jazyk přidat z jeho souboru: archivu .zip zveřejněného s doplňky Rutba Office, přineseného z jiného počítače. Zvolte „Přidat ze souboru“.",
+    "source": "83a90cbad906"
+  },
   "base.links.with-no-primary-key-there-they": {
     "text": "Bez primárního klíče ve zdroji je lze číst, ale ne měnit.",
     "source": "040d7d3b40f5"
@@ -32538,6 +33284,10 @@
   "talk.withdraw-the-invitation-to-email": {
     "text": "Odvolat pozvánku pro {email}",
     "source": "8af78191a599"
+  },
+  "voices-dialog.withdrawn-by-its-makers": {
+    "text": "Staženo autory.",
+    "source": "9ff368476fae"
   },
   "sheets.find.within": {
     "text": "Hledat v",
@@ -33200,6 +33950,10 @@
     "text": "přijato",
     "source": "070c160a6299"
   },
+  "voices-dialog.add-on": {
+    "text": "doplněk",
+    "source": "a33a54a73112"
+  },
   "base.links.added-fields": {
     "text": "přidáno: {fields}",
     "source": "30cea32e2a11"
@@ -33442,6 +34196,10 @@
     "text": "vývojové sestavení",
     "source": "030dcbc3b708"
   },
+  "voices-dialog.dictionary": {
+    "text": "slovník",
+    "source": "177ca70f42de"
+  },
   "word.mailings.directory": {
     "text": "adresář",
     "source": "333178788eae"
@@ -33537,6 +34295,10 @@
   "mail.folder": {
     "text": "složka",
     "source": "034a00624882"
+  },
+  "voices-dialog.font": {
+    "text": "písmo",
+    "source": "795ea3efa43d"
   },
   "word.footnote-n": {
     "text": "poznámka pod čarou {n}",
@@ -33718,6 +34480,10 @@
   "common.landscape-2": {
     "text": "na šířku",
     "source": "acb955df82b8"
+  },
+  "voices-dialog.language": {
+    "text": "jazyk",
+    "source": "a4ef304ba42a"
   },
   "mail.last-try-failed-error-trying-again": {
     "text": "poslední pokus selhal ({error}), zkouší se znovu",
@@ -33968,6 +34734,10 @@
     "text": "nastavení tisku",
     "source": "9198cbaeac3c"
   },
+  "voices-dialog.pronunciation": {
+    "text": "výslovnost",
+    "source": "ce978dc7829d"
+  },
   "common.px": {
     "text": "px",
     "source": "6ee2cc105a67"
@@ -34108,6 +34878,14 @@
   "slides.action.something": {
     "text": "něco",
     "source": "3fc9b689459d"
+  },
+  "voices-dialog.speech-engine": {
+    "text": "řečový modul",
+    "source": "69f0063d7151"
+  },
+  "voices-dialog.speech-model": {
+    "text": "řečový model",
+    "source": "14a7ccd64b8c"
   },
   "video.export.square": {
     "text": "čtverec",
@@ -34377,6 +35155,10 @@
     "text": "kodér videa nevrátil žádná data, takže se nic neuložilo. Zkuste to znovu.",
     "source": "4c38cc475e8b"
   },
+  "common.the-video-encoder-gave-the-sound": {
+    "text": "video kodér vydal zvuk, ale žádný obraz, takže nic nebylo uloženo. Zkuste to znovu.",
+    "source": "4a861b2049e1"
+  },
   "video.the-whole-picture-on-black-bars": {
     "text": "celý obrázek s černými pruhy",
     "source": "415c8c2f50c4"
@@ -34464,6 +35246,10 @@
   "video.videos-sound-and-pictures-one-after": {
     "text": "videa, zvuky a obrázky jeden po druhém za klipy na vybrané stopě",
     "source": "6f8e30fdb3c2"
+  },
+  "voices-dialog.voice": {
+    "text": "hlas",
+    "source": "c57d7e920197"
   },
   "contacts.web": {
     "text": "web",
@@ -36336,6 +37122,14 @@
     "text": "{files}, {folders}",
     "source": "91829f4187ac"
   },
+  "locker.file-is-left-plain-and-shows": {
+    "text": "Soubor {file} zůstane nezamčený a zobrazí se jako nezamčený.",
+    "source": "ab60c99e1907"
+  },
+  "locker.file-kept-changing-or-was-in": {
+    "text": "Soubor {file} se během vytváření bezpečnostní kopie měnil nebo byl používán, a proto nebylo nic zamčeno.",
+    "source": "36607f9c5145"
+  },
   "mail.folder-is-deleted": {
     "text": "Odstraněno: {folder}",
     "source": "20926d429662"
@@ -36461,6 +37255,23 @@
     "text": "{label}: {blurb}; nahradí vybraný efekt",
     "source": "a8e919e7d5f9"
   },
+  "voices-dialog.languages-will-be-added-when-this": {
+    "forms": {
+      "one": "Jazyk {languages} bude přidán, až bude tento počítač online. Jazyk lze přidat také ze souboru v okně Hlasy a jazyky.",
+      "few": "Jazyky {languages} budou přidány, až bude tento počítač online. Jazyk lze přidat také ze souboru v okně Hlasy a jazyky.",
+      "many": "Jazyky {languages} budou přidány, až bude tento počítač online. Jazyk lze přidat také ze souboru v okně Hlasy a jazyky.",
+      "other": "Jazyky {languages} budou přidány, až bude tento počítač online. Jazyk lze přidat také ze souboru v okně Hlasy a jazyky."
+    },
+    "source": "fa0e4abdce47"
+  },
+  "voices-dialog.language-is-no-longer-built-into": {
+    "text": "Jazyk {language} už není součástí Rutba Office. Přidejte jeho jazykový balíček v okně Hlasy a jazyky.",
+    "source": "c5cd1a83525c"
+  },
+  "voices-dialog.language-now-comes-as-a-language": {
+    "text": "Jazyk {language} je nyní k dispozici jako jazykový balíček a byl přidán s touto aktualizací.",
+    "source": "97a36bd5a08c"
+  },
   "video.inspector.level-times": {
     "text": "{level}krát",
     "source": "8092db25eeb5"
@@ -36498,6 +37309,10 @@
     "text": "{names}: nelze otevřít. Nejde o video, zvuk ani obrázek, který tento systém umí přehrát.",
     "source": "40ec26e4b663"
   },
+  "read-aloud.bar.name-added": {
+    "text": "{name} (přidáno)",
+    "source": "5e0a009f158f"
+  },
   "base.links.name-coming": {
     "text": "{name} (připravuje se)",
     "source": "c5bfe2423325"
@@ -36505,6 +37320,10 @@
   "design.name-dark": {
     "text": "{name} (tmavý)",
     "source": "de9e429833c5"
+  },
+  "common.name-draft": {
+    "text": "{name} (koncept)",
+    "source": "5afe5a4a59c2"
   },
   "redact.name-redacted": {
     "text": "{name} (začerněno)",
@@ -36563,6 +37382,10 @@
     "text": "{name} se nepodařilo vykreslit: {reason}",
     "source": "65bcb558f48b"
   },
+  "locker.name-could-not-be-opened-again": {
+    "text": "Soubor {name} se nepodařilo znovu otevřít: {why}",
+    "source": "20ca380f0559"
+  },
   "common.name-could-not-be-opened-reason": {
     "text": "{name} se nepodařilo otevřít: {reason}",
     "source": "dae0790a804d"
@@ -36611,9 +37434,21 @@
     "text": "{name} už je mezi kontakty.",
     "source": "5bf61d9afecd"
   },
+  "locker.name-is-a-kind-of-file": {
+    "text": "Soubor {name} je typ souboru, který se čte z disku, proto se otevřel z dočasné nezamčené kopie, ne v paměti. Tato kopie není zamčená.",
+    "source": "8c3ca214b1be"
+  },
+  "locker.name-is-already-open-so-these": {
+    "text": "Soubor {name} je už otevřený, proto se tyto neuložené změny otevřou jako {saved}, nový soubor vedle něj ve stejné zamčené složce.",
+    "source": "f866dc2fc7b7"
+  },
   "talk.name-is-blocked": {
     "text": "Kontakt {name} je blokován.",
     "source": "896ccbbaeef1"
+  },
+  "locker.name-is-in-an-older-format": {
+    "text": "Soubor {name} je ve starším formátu. Uložením vznikne vedle něj {saved} ve stejné zamčené složce.",
+    "source": "25f899dbe396"
   },
   "locker.name-is-locked-in-folder": {
     "text": "{name}: zamčeno ve složce {folder}.",
@@ -36622,6 +37457,10 @@
   "talk.name-is-no-longer-a-contact": {
     "text": "{name} už není mezi kontakty.",
     "source": "f2f97457bba2"
+  },
+  "locker.name-is-no-longer-in-the": {
+    "text": "Složka {name} už není v Trezoru (Locker). Její bezpečnostní kopie je tu stále uchována.",
+    "source": "4af6541725f0"
   },
   "image.name-is-no-longer-open-so": {
     "text": "Dokument {name} už není otevřený, obrázek se do něj nevrátí. Raději ho exportujte.",
@@ -36639,6 +37478,10 @@
     "text": "{name}: není k dispozici.",
     "source": "aca30d15fc29"
   },
+  "voices-dialog.name-is-not-used-until-its": {
+    "text": "Položka {name} se nepoužívá, dokud nebude připravena její verze pro {version}.",
+    "source": "2f267730bc10"
+  },
   "common.name-is-not-wired-yet": {
     "text": "{name}: zatím nezapojeno.",
     "source": "88e2be5594ad"
@@ -36654,6 +37497,10 @@
   "mail.name-is-open-where-it-lies": {
     "text": "{name}: otevřeno na místě, jen pro čtení. Indexuje se pro hledání.",
     "source": "749ec97c4e3a"
+  },
+  "locker.name-is-over-1-gb-so": {
+    "text": "Soubor {name} je větší než 1 GB, proto se otevřel z dočasné nezamčené kopie, ne v paměti. Tato kopie není zamčená.",
+    "source": "950f4db86aed"
   },
   "common.name-is-protected-with-a-password": {
     "text": "Soubor {name} je chráněn heslem a zůstane zavřený, dokud nezadáte heslo.",
@@ -36696,6 +37543,10 @@
     "text": "Nenalezeno: {name}",
     "source": "11fabb5fa0c9"
   },
+  "locker.name-opened-from-a-temporary-plain": {
+    "text": "Soubor {name} se otevřel z dočasné nezamčené kopie, ne v paměti. Tato kopie není zamčená.",
+    "source": "01b4847cdddb"
+  },
   "sheets.name-refreshed": {
     "text": "{name}: aktualizováno",
     "source": "7b63595ee10b"
@@ -36719,6 +37570,10 @@
   "profiles.name-will-open-without-asking-and": {
     "text": "{name} se otevře bez dotazu a to, co heslo zapečetilo, zůstane jako dřív, chráněné systémem Windows jen pro váš účet.",
     "source": "bccde320f01d"
+  },
+  "voices-dialog.name-will-show-new-labels-in": {
+    "text": "Jazyk {name} bude nové popisky zobrazovat anglicky, dokud nebude připravena jeho verze pro {version}.",
+    "source": "070ebd66c642"
   },
   "talk.invite.name-would-like-to-talk-with": {
     "text": "{name} s vámi chce mluvit v Rutba Talk",
@@ -36841,6 +37696,10 @@
     "text": "{name}, stránka {page} z {count}",
     "source": "0f8439d610e0"
   },
+  "locker.name-with-unsaved-changes": {
+    "text": "{name}, s neuloženými změnami",
+    "source": "d3fccb2b063d"
+  },
   "slides.motion.name-option": {
     "text": "{name}, {option}",
     "source": "769e8e2405cf"
@@ -36956,6 +37815,14 @@
     "text": "Nepodařilo se odemknout soubory: {n}, takže složka nebyla odebrána.",
     "source": "189a2a0888a7"
   },
+  "locker.n-files-did-not-match-the": {
+    "text": "Soubory, které se neshodovaly s bezpečnostní kopií a nebyly obnoveny: {n}.",
+    "source": "9ffb4b5699f4"
+  },
+  "locker.n-files-in-this-folder-do": {
+    "text": "Soubory v této složce, které se neodemykají správně: {n}.",
+    "source": "a0e568b53b1f"
+  },
   "locker.n-files-in-this-folder-have": {
     "text": "Soubory v této složce, které mají dvě verze: {n}. Nejdříve mezi nimi vyberte. Nic nebylo změněno.",
     "source": "0054192545bb"
@@ -36963,6 +37830,10 @@
   "locker.n-files-in-name-cannot-be": {
     "text": "Ve složce {name} nelze přečíst soubory: {n}.",
     "source": "e60e71803e18"
+  },
+  "locker.n-files-restored-to-dest": {
+    "text": "Obnoveno souborů: {n}. Umístění: {dest}.",
+    "source": "0fe8b13fee6a"
   },
   "studio.setups-menu.n-files-all-in-the-setup": {
     "text": "Souborů: {n}, vše v souboru sestavy",
@@ -37035,6 +37906,10 @@
   "mail.path-is-no-longer-there": {
     "text": "{path} už neexistuje",
     "source": "592e65bab5c5"
+  },
+  "voices-dialog.pct-translated-for-this-version": {
+    "text": "Pro tuto verzi přeloženo z {pct} %",
+    "source": "692d9bafb1dc"
   },
   "sheets.ribbon.pen-click-again-for-its-colour": {
     "text": "{pen}: dalším kliknutím zvolíte barvu a tloušťku",
