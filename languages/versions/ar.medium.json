@@ -568,7 +568,6 @@
   "engine.rutba-office-no-backend-for-ns": {"text":"رتبة أوفيس (Rutba Office): لا توجد واجهة خلفية للعنصر {ns}:{name}","source":"1b2669a5ca1b"},
   "engine.rutba-office-the-document-service-has": {"text":"رتبة أوفيس (Rutba Office): لا تتضمن خدمة المستندات {name}.","source":"032a37d6f43a"},
   "registry.rutba-recorder": {"text":"Rutba Recorder","source":"9ccbb7b0b457"},
-  "common.rutba-recordings": {"text":"Rutba Recordings","source":"325c751e9853"},
   "studio.setups-store.rutba-studio-setups": {"text":"إعدادات رتبة استوديو (Rutba Studio)","source":"5ff12d081fee"},
   "registry.rutba-talk": {"text":"Rutba Talk","source":"88ae37f4323e"},
   "registry.rutba-video": {"text":"Rutba Video","source":"06f4a9181c8d"},

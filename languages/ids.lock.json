@@ -5798,7 +5798,6 @@
   ["registry.rutba-pictures","1d6e95830b5e"],
   ["common.rutba-presentations","5b8e1365b513"],
   ["registry.rutba-recorder","9ccbb7b0b457"],
-  ["common.rutba-recordings","325c751e9853"],
   ["studio.setups-store.rutba-studio-setups","5ff12d081fee"],
   ["registry.rutba-talk","88ae37f4323e"],
   ["registry.rutba-video","06f4a9181c8d"],
@@ -9218,6 +9217,6 @@
   ["pictures.library.and-up-4","20160df989ba"]
 ],
 "retired": [
-
+  ["common.rutba-recordings","325c751e9853"]
 ]
 }
