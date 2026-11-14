@@ -41,7 +41,10 @@ built. Every other pack uses the same ids.
   English), so the registry gets the same ids on every build, a fresh clone
   included.
 - `tools/extract-from-office.mjs` reads a Rutba Office copy (it only reads)
-  and writes the registry, the lock and the packs Rutba Office carries.
+  and writes the registry, the lock and the English pack. It writes no other
+  pack: `lang-ar`, `lang-hi` and `lang-ur` stay as committed whatever the copy
+  holds, an Office from before 2.26.0 with words of its own included
+  (`tools/languages-kept.test.mjs` at the repository's root holds them to it).
 - `tools/check-packs.mjs` checks every pack against the registry, with no
   Rutba Office needed.
 - `labels.json` says, for every id, where and how it is shown: its role

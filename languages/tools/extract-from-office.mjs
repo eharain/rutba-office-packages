@@ -7,9 +7,9 @@
 // Usually run by tools/build.mjs. It only reads the copy. It writes ids.json
 // (the registry: every label's id, its English, where the code uses it, and a
 // hash of the English), ids.lock.json (every id given, with the hash of its
-// English and no English) and packs/lang-<tag>/ (manifest.json,
-// messages.json, glossary.md) for English and each translation the copy holds:
-// none from Office 2.26.0 on, which keeps no words of its own but English's.
+// English and no English) and packs/lang-en/ (manifest.json, messages.json).
+// It writes no other pack: lang-ur, lang-ar and lang-hi are kept here as
+// committed, whatever the copy holds, as every other language's pack is.
 //
 // Ids are given once and kept. A label already in ids.json, or whose English
 // hash is in ids.lock.json, keeps its id on every later run; only labels new
@@ -96,16 +96,35 @@ const placeholders = (s) => [...new Set([...String(s).matchAll(/\{(\w+)\}/g)].ma
 // Office's own extractor (tools/extract-messages.mjs) gives the list messages.json was, byte for
 // byte, and each part's labels with the files that use them. Urdu, Arabic and Hindi are then packs
 // kept here like every other (packs/lang-ur, lang-ar and lang-hi, committed), and only English is
-// made from Office. An Office before stage 5 is read as before: its messages.json, its built-in
-// Urdu, Arabic and Hindi, and its parts' translations, which make those three packs.
+// made from Office. An Office before stage 5 is read for its list as before: its messages.json,
+// and its parts' translations for the labels each part keeps. Its Urdu, Arabic and Hindi words
+// and its GLOSSARY files are not read: the three packs stay as committed, glossaries included,
+// so a later change to them here is never written over by an older Office's words.
 const ownWords = fs.existsSync(path.join(office, 'packages/office-ui/src/catalogues/messages.json'));
-const officeExtract = ownWords ? null : await load('tools/extract-messages.mjs');
+
+/** An Office with stage 5: its own extractor, or a plain stop naming what the copy lacks. */
+async function officeExtractor() {
+  const rel = 'tools/extract-messages.mjs';
+  const stop = (what) => {
+    console.error(`${office} has no packages/office-ui/src/catalogues/messages.json, so its list is read through its own ${rel}, but ${what}. Give a copy of a Rutba Office release, at the pinned commit.`);
+    process.exit(2);
+  };
+  if (!fs.existsSync(path.join(office, rel))) stop(`the copy has no ${rel}`);
+  let mod;
+  try {
+    mod = await load(rel);
+  } catch (err) {
+    stop(`its ${rel} could not be loaded (${err?.message || err})`);
+  }
+  for (const name of ['extract', 'extractParts']) if (typeof mod[name] !== 'function') stop(`its ${rel} has no ${name}()`);
+  return mod;
+}
+const officeExtract = ownWords ? null : await officeExtractor();
 
 const shared = ownWords ? JSON.parse(read('packages/office-ui/src/catalogues/messages.json')).messages : officeExtract.extract(office);
-const { CATALOGUES_FILES } = { CATALOGUES_FILES: ownWords ? { ur: 'ur.js', ar: 'ar.js', hi: 'hi.js' } : {} };
-const tags = Object.keys(CATALOGUES_FILES);
-const catalogues = {};
-for (const tag of tags) catalogues[tag] = (await load(`packages/office-ui/src/catalogues/${CATALOGUES_FILES[tag]}`)).default;
+// The languages an Office before stage 5 had words of its own for: only to find which labels each
+// part keeps (its translations' English). Never written: those packs are kept here.
+const tags = ownWords ? ['ur', 'ar', 'hi'] : [];
 
 // The apps' own words, kept out of the shared list so a build without the app carries none of them.
 const PARTS = [
@@ -316,44 +335,9 @@ function writeVersions(dir, v) {
 const enVersions = versionsOf('en');
 writeVersions(writePack('en', en, { source: true, status: 'source', review: 'source text', ...asFormat2(enVersions) }), enVersions);
 
-const report = [];
-for (const tag of tags) {
-  const out = {};
-  const missing = [];
-  const badPlaceholders = [];
-  const forms = new Intl.PluralRules(tag).resolvedOptions().pluralCategories;
-  const tagMedium = mediumOf(tag);
-  for (const l of ordered) {
-    const whose = l.parts.includes('shared') ? catalogues[tag] : partWords[l.parts[0]][tag] || {};
-    let v = whose[l.english];
-    if (v === undefined) for (const p of l.parts) if (v === undefined && partWords[p]) v = partWords[p][tag]?.[l.english];
-    if (v === undefined) { missing.push(l.id); continue; }
-    const own = tagMedium[l.id]?.source === l.hash ? tagMedium[l.id] : null;
-    if (own) v = own.forms || own.text;
-    const want = placeholders(l.english + ' ' + (l.plural || ''));
-    if (typeof v === 'string') {
-      if (placeholders(v) !== placeholders(l.english) && !l.plural) badPlaceholders.push(l.id);
-      out[l.id] = { text: v, source: l.hash };
-    } else {
-      const lacking = forms.filter((f) => typeof v[f] !== 'string');
-      if (lacking.length) missing.push(`${l.id} (forms ${lacking.join(' ')})`);
-      for (const f of Object.keys(v)) if (placeholders(v[f]).split(',').filter(Boolean).some((p) => !want.includes(p))) badPlaceholders.push(`${l.id}.${f}`);
-      out[l.id] = { forms: v, source: l.hash };
-    }
-  }
-  const sharedKeys = new Set(shared.map((m) => m.message));
-  const stale = Object.keys(catalogues[tag]).filter((k) => !sharedKeys.has(k) && !labels.has(k));
-  const tagVersions = versionsOf(tag);
-  const dir = writePack(tag, out, { status: 'draft', review: 'machine translation, offered as a draft until its wording is settled', madeFrom: `office ${officeVersion}`, ...asFormat2(tagVersions) });
-  writeVersions(dir, tagVersions);
-  const glossary = `packages/office-ui/src/catalogues/GLOSSARY-${tag}.md`;
-  // The suite's glossary, then this repository's section for the language
-  // (glossaries/<tag>.md: how it phrases each intent and makes each version).
-  const ours = path.join(ROOT, 'glossaries', `${tag}.md`);
-  const parts = [path.join(office, glossary), ours].filter((p) => fs.existsSync(p)).map((p) => fs.readFileSync(p, 'utf8').replace(/\s+$/, ''));
-  if (parts.length) fs.writeFileSync(path.join(dir, 'glossary.md'), parts.join('\n\n') + '\n');
-  report.push({ tag, labels: Object.keys(out).length, missing: missing.length, missingSample: missing.slice(0, 5), badPlaceholders: badPlaceholders.length, badSample: badPlaceholders.slice(0, 5), staleEntriesLeftOut: stale.length });
-}
+// Urdu, Arabic and Hindi are not written here (see above): the packs are taken as committed, as
+// every other language's are, and check-packs holds them to the registry.
+const report = ['ur', 'ar', 'hi'].map((tag) => ({ tag, labels: Object.keys(JSON.parse(fs.readFileSync(path.join(ROOT, 'packs', `lang-${tag}`, 'messages.json'), 'utf8'))).length, kept: true }));
 
 const byPrefix = {};
 for (const l of ordered) { const top = l.id.split('.')[0]; byPrefix[top] = (byPrefix[top] || 0) + 1; }
