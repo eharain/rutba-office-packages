@@ -1,0 +1,36 @@
+{
+  "id": "lang-ur",
+  "kind": "language",
+  "format": 2,
+  "version": "2.26.0",
+  "revision": 1,
+  "tag": "ur",
+  "tags": [
+    "ur"
+  ],
+  "requires": [],
+  "licence": {
+    "spdx": "LicenseRef-TechStyle-Proprietary",
+    "files": [
+      "LICENSE.txt"
+    ]
+  },
+  "name": "Urdu",
+  "nativeName": "اردو",
+  "script": "Arab",
+  "direction": "rtl",
+  "region": "ur-PK",
+  "pluralForms": [
+    "one",
+    "other"
+  ],
+  "labels": 9213,
+  "status": "draft",
+  "review": "machine translation, offered as a draft until its wording is settled",
+  "madeFrom": "office 2.26.0",
+  "versions": [
+    "short",
+    "medium",
+    "complete"
+  ]
+}

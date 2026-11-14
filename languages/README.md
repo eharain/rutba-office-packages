@@ -41,7 +41,10 @@ built. Every other pack uses the same ids.
   English), so the registry gets the same ids on every build, a fresh clone
   included.
 - `tools/extract-from-office.mjs` reads a Rutba Office copy (it only reads)
-  and writes the registry, the lock and the packs Rutba Office carries.
+  and writes the registry, the lock and the English pack. It writes no other
+  pack: `lang-ar`, `lang-hi` and `lang-ur` stay as committed whatever the copy
+  holds, an Office from before 2.26.0 with words of its own included
+  (`tools/languages-kept.test.mjs` at the repository's root holds them to it).
 - `tools/check-packs.mjs` checks every pack against the registry, with no
   Rutba Office needed.
 - `labels.json` says, for every id, where and how it is shown: its role
@@ -68,8 +71,6 @@ the registry's, or when `tools/check-packs.mjs` finds a fault.
 **Made by the build, not committed** (see `.gitignore`):
 
 - `ids.json` and `labels.json`, which hold the code's own keys;
-- `packs/lang-ar`, `packs/lang-hi` and `packs/lang-ur`, the three
-  translations Rutba Office already carries;
 - `dist/v<version>/`: the packs to be released, written by `tools/dist.mjs`
   once every check passes: English, which is released like every language
   (Rutba Office keeps a copy of the released `lang-en`), the packs whose status
@@ -80,11 +81,17 @@ the registry's, or when `tools/check-packs.mjs` finds a fault.
   base), so the list of packs can show it before a download. The
   repository's release step gathers each kind's `dist/v<version>/`.
 
-These carry the suite's keys, and the suite's translations except where a
-pack has its own medium. About 628 labels in the suite's text have em dashes,
+These carry the suite's keys.
+
+`packs/lang-ar`, `packs/lang-hi` and `packs/lang-ur` are committed. Until
+Office 2.26.0 the build made them from the Urdu, Arabic and Hindi words Rutba
+Office carried. From 2.26.0 Office keeps no words of its own but English
+(D-2026-11-14-16), so these three are kept here like every other pack, as the
+build last made them, and their glossaries, the suite's own included, are in
+`glossaries/<tag>.md`. About 628 labels in the suite's text have em dashes,
 which this repository does not take: Urdu, Arabic and Hindi give each of them
-its own wording in `versions/<tag>.medium.json`, so the packs the build makes
-have none, and the checks fail a dash in them.
+its own wording in `versions/<tag>.medium.json`, so the packs have none, and
+the checks fail a dash in them.
 
 `packs/lang-en` is made by the build too, but it is committed. The code's key
 is a label's English, and 628 keys carry em dashes. For those labels English

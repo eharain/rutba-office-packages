@@ -8,9 +8,11 @@
 // never builds from a working checkout of Rutba Office: read the code from a
 // clone or worktree of the release, outside that checkout.
 //
-// Made here, and not committed (see .gitignore): ids.json, labels.json and
-// packs/lang-en, lang-ar, lang-hi, lang-ur. Committed: ids.lock.json, which
-// keeps every id the same from build to build, and coverage.json.
+// Made here, and not committed (see .gitignore): ids.json and labels.json.
+// Made here and committed: packs/lang-en, ids.lock.json, which keeps every id
+// the same from build to build, and coverage.json. packs/lang-ar, lang-hi and
+// lang-ur were made here from Office's own words until Office 2.26.0, which
+// keeps none; they are committed like every other pack.
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
