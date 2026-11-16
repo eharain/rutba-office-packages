@@ -16532,10 +16532,6 @@
     "text": "Heeft je nodig",
     "source": "74b6abdf5969"
   },
-  "spoken.voices.neither-is-on-the-lines-keep": {
-    "text": "Geen van beide staat aan: de regels houden hun tijd, maar er is niets te zien of te horen.",
-    "source": "e83016a7cfaf"
-  },
   "talk.neither-of-you-can-write-to": {
     "text": "Geen van jullie kan de ander schrijven of bellen tot jullie weer contactpersonen zijn. Je berichten hier worden verwijderd.",
     "source": "55354b8358c9"
@@ -17335,6 +17331,14 @@
   "common.no-limit": {
     "text": "Geen limiet",
     "source": "f7fcff0d8fea"
+  },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "Voeg een stem toe om de woorden voor te lezen; zonder stem kunnen ze wel worden weergegeven.",
+    "source": "04ed3fbd74fe"
+  },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "Niet weergegeven en niet voorgelezen: de regels houden hun tijd. Kies een van de drie opties om ze terug te halen.",
+    "source": "431be017d2c5"
   },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "Nog geen regels: elke regel van de tekst wordt om de beurt voorgelezen.",
@@ -20153,10 +20157,6 @@
   "video.play-forward": {
     "text": "Vooruit afspelen",
     "source": "18d1c1674140"
-  },
-  "spoken.voices.play-the-voice": {
-    "text": "Stem afspelen",
-    "source": "df7413e04bae"
   },
   "spoken.voices.play-the-voice-of-this-line": {
     "text": "Stem van deze regel afspelen",
@@ -25357,10 +25357,6 @@
     "text": "De rij- en kolomkoppen weergeven",
     "source": "4f7b9dcce409"
   },
-  "spoken.voices.show-the-text": {
-    "text": "Tekst weergeven",
-    "source": "0766a87f94ec"
-  },
   "sheets.dialogs.show-them-as": {
     "text": "Weergeven als",
     "source": "6380dba9f992"
@@ -26200,6 +26196,14 @@
   "video.sound-clip": {
     "text": "Geluidsclip",
     "source": "556f55adc8bd"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "De woorden voorlezen",
+    "source": "f8bde48fd589"
+  },
+  "studio.spoken-run.show-the-words": {
+    "text": "De woorden weergeven",
+    "source": "a64d13b0ead9"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "Het geluid staat niet aan, dus de stem zit niet in de opname en niet in de stream.",
@@ -27803,6 +27807,10 @@
   "video.starters.thank-you-for-watching": {
     "text": "Bedankt voor het kijken",
     "source": "c708e3d71205"
+  },
+  "common.text-to-speech": {
+    "text": "Tekst naar spraak",
+    "source": "71e02f22899a"
   },
   "common.thanks-for-watching": {
     "text": "Bedankt voor het kijken",
@@ -29497,6 +29505,22 @@
     "text": "Video's, geluid en afbeeldingen uit dit project staan hier, om opnieuw toe te voegen.",
     "source": "4075715096b2"
   },
+  "spoken.voices.read-aloud-only": {
+    "text": "Alleen voorlezen",
+    "source": "3953b35ec0c1"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "Sneltoets: Ctrl+Enter in het vak",
+    "source": "46629f7a364b"
+  },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "Weergeven en voorlezen",
+    "source": "cad1b91fa8e8"
+  },
+  "spoken.voices.show-only": {
+    "text": "Alleen weergeven",
+    "source": "a8d71c961005"
+  },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "De stem gaf geen geluid voor deze regel.",
     "source": "53613e120fbf"
@@ -30931,6 +30955,10 @@
     "text": "Tijdzones",
     "source": "1b0013ea667e"
   },
+  "video.ribbon.spoken-words": {
+    "text": "Gesproken woorden",
+    "source": "b5f7a276ab16"
+  },
   "video.ribbon.timeline": {
     "text": "Tijdlijn",
     "source": "9dcff98e275f"
@@ -32002,6 +32030,10 @@
     "text": "Naamloze dia",
     "source": "1eadae5cbf64"
   },
+  "video.type-words-to-show-read-aloud": {
+    "text": "Typ woorden om weer te geven, voor te lezen of allebei, bij de afspeelkop",
+    "source": "af653107afac"
+  },
   "video.untitled-video": {
     "text": "Naamloze video",
     "source": "a7e5acfa45bc"
@@ -32736,6 +32768,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "Wat de AI-tools met elk mogen doen. Alles staat op Uit totdat je kiest. Dezelfde instellingen staan in AI-tools.",
     "source": "14310670b45f"
+  },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "Typ de te zeggen woorden, één zin per regel",
+    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "Wat de regels doen",
@@ -37645,5 +37681,17 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ en hoger",
     "source": "20160df989ba"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "Te zeggen woorden",
+    "source": "3353415dcf6a"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "Typ gaandeweg woorden om weer te geven, voor te lezen of allebei",
+    "source": "ab4c38c0c662"
+  },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "De woorden verschijnen bij de afspeelkop, de ene regel na de andere, over het beeld.",
+    "source": "841b57677821"
   }
 }

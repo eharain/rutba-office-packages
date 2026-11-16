@@ -16571,10 +16571,6 @@
     "text": "Requer sua atenção",
     "source": "74b6abdf5969"
   },
-  "spoken.voices.neither-is-on-the-lines-keep": {
-    "text": "Nenhuma das opções está ativada: as linhas mantêm o tempo delas, mas nada é visto nem ouvido.",
-    "source": "e83016a7cfaf"
-  },
   "talk.neither-of-you-can-write-to": {
     "text": "Nenhum de vocês poderá enviar mensagens ou ligar para o outro até voltarem a ser contatos. Suas mensagens aqui serão excluídas.",
     "source": "55354b8358c9"
@@ -17374,6 +17370,14 @@
   "common.no-limit": {
     "text": "Sem limite",
     "source": "f7fcff0d8fea"
+  },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "Adicione uma voz para ler as palavras em voz alta; elas também podem ser mostradas sem voz.",
+    "source": "04ed3fbd74fe"
+  },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "Nem mostradas nem lidas em voz alta: as linhas mantêm seu tempo. Escolha uma das três opções para trazê-las de volta.",
+    "source": "431be017d2c5"
   },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "Ainda não há linhas: cada linha do texto é lida, uma após a outra.",
@@ -20194,10 +20198,6 @@
   "video.play-forward": {
     "text": "Reproduzir para frente",
     "source": "18d1c1674140"
-  },
-  "spoken.voices.play-the-voice": {
-    "text": "Reproduzir a voz",
-    "source": "df7413e04bae"
   },
   "spoken.voices.play-the-voice-of-this-line": {
     "text": "Reproduzir a voz desta linha",
@@ -25411,10 +25411,6 @@
     "text": "Mostrar os títulos de linha e coluna",
     "source": "4f7b9dcce409"
   },
-  "spoken.voices.show-the-text": {
-    "text": "Mostrar o texto",
-    "source": "0766a87f94ec"
-  },
   "sheets.dialogs.show-them-as": {
     "text": "Mostrar como",
     "source": "6380dba9f992"
@@ -26254,6 +26250,14 @@
   "video.sound-clip": {
     "text": "Clipe de som",
     "source": "556f55adc8bd"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "Ler as palavras em voz alta",
+    "source": "f8bde48fd589"
+  },
+  "studio.spoken-run.show-the-words": {
+    "text": "Mostrar as palavras",
+    "source": "a64d13b0ead9"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "O som não está ativado, então a voz não está na gravação nem na transmissão.",
@@ -27862,6 +27866,10 @@
   "video.starters.thank-you-for-watching": {
     "text": "Obrigado por assistir",
     "source": "c708e3d71205"
+  },
+  "common.text-to-speech": {
+    "text": "Texto em fala",
+    "source": "71e02f22899a"
   },
   "common.thanks-for-watching": {
     "text": "Obrigado por assistir",
@@ -29563,6 +29571,22 @@
     "text": "Os vídeos, sons e imagens deste projeto ficam guardados aqui, para adicionar novamente.",
     "source": "4075715096b2"
   },
+  "spoken.voices.read-aloud-only": {
+    "text": "Somente ler em voz alta",
+    "source": "3953b35ec0c1"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "Atalho: Ctrl+Enter na caixa",
+    "source": "46629f7a364b"
+  },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "Mostrar e ler em voz alta",
+    "source": "cad1b91fa8e8"
+  },
+  "spoken.voices.show-only": {
+    "text": "Somente mostrar",
+    "source": "a8d71c961005"
+  },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "A voz não produziu som para esta linha.",
     "source": "53613e120fbf"
@@ -31003,6 +31027,10 @@
     "text": "Fusos horários",
     "source": "1b0013ea667e"
   },
+  "video.ribbon.spoken-words": {
+    "text": "Palavras faladas",
+    "source": "b5f7a276ab16"
+  },
   "video.ribbon.timeline": {
     "text": "Linha do Tempo",
     "source": "9dcff98e275f"
@@ -32075,6 +32103,10 @@
     "text": "Slide sem título",
     "source": "1eadae5cbf64"
   },
+  "video.type-words-to-show-read-aloud": {
+    "text": "Digite palavras para mostrar, ler em voz alta ou ambos, no indicador de reprodução",
+    "source": "af653107afac"
+  },
   "video.untitled-video": {
     "text": "Vídeo sem título",
     "source": "a7e5acfa45bc"
@@ -32810,6 +32842,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "O que as ferramentas de IA podem fazer com cada item. Tudo fica Desativado até você escolher. As mesmas configurações estão em Ferramentas de IA.",
     "source": "14310670b45f"
+  },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "Digite as palavras a dizer, uma frase por linha",
+    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "O que as linhas fazem",
@@ -37910,5 +37946,17 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ ou mais",
     "source": "20160df989ba"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "Palavras a dizer",
+    "source": "3353415dcf6a"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "Digite palavras à medida que avança, para mostrar, ler em voz alta ou ambos",
+    "source": "ab4c38c0c662"
+  },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "As palavras aparecem no indicador de reprodução, uma linha após a outra, sobre a imagem.",
+    "source": "841b57677821"
   }
 }

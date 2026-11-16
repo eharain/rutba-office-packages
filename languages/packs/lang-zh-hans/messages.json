@@ -16493,10 +16493,6 @@
     "text": "需要你处理",
     "source": "74b6abdf5969"
   },
-  "spoken.voices.neither-is-on-the-lines-keep": {
-    "text": "两者均未开启：这些行保留其时间，但既看不到也听不到任何内容。",
-    "source": "e83016a7cfaf"
-  },
   "talk.neither-of-you-can-write-to": {
     "text": "在你们重新成为联系人之前，双方都无法给对方发消息或通话。你在此处的消息将被删除。",
     "source": "55354b8358c9"
@@ -17296,6 +17292,14 @@
   "common.no-limit": {
     "text": "无限制",
     "source": "f7fcff0d8fea"
+  },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "添加语音即可大声朗读这些文字；没有语音时也可以只显示。",
+    "source": "04ed3fbd74fe"
+  },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "既不显示也不朗读：这些行保留其时间。请从三个选项中选择一个来恢复它们。",
+    "source": "431be017d2c5"
   },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "尚无文本行：文字的每一行会依次朗读。",
@@ -20112,10 +20116,6 @@
   "video.play-forward": {
     "text": "正放",
     "source": "18d1c1674140"
-  },
-  "spoken.voices.play-the-voice": {
-    "text": "播放语音",
-    "source": "df7413e04bae"
   },
   "spoken.voices.play-the-voice-of-this-line": {
     "text": "播放此行的语音",
@@ -25303,10 +25303,6 @@
     "text": "显示行号列标",
     "source": "4f7b9dcce409"
   },
-  "spoken.voices.show-the-text": {
-    "text": "显示文本",
-    "source": "0766a87f94ec"
-  },
   "sheets.dialogs.show-them-as": {
     "text": "显示为",
     "source": "6380dba9f992"
@@ -26146,6 +26142,14 @@
   "video.sound-clip": {
     "text": "声音剪辑",
     "source": "556f55adc8bd"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "大声朗读文字",
+    "source": "f8bde48fd589"
+  },
+  "studio.spoken-run.show-the-words": {
+    "text": "显示文字",
+    "source": "a64d13b0ead9"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "音频未开启，因此录制内容和直播中都没有语音。",
@@ -27744,6 +27748,10 @@
   "video.starters.thank-you-for-watching": {
     "text": "感谢观看",
     "source": "c708e3d71205"
+  },
+  "common.text-to-speech": {
+    "text": "文本转语音",
+    "source": "71e02f22899a"
   },
   "common.thanks-for-watching": {
     "text": "感谢观看",
@@ -29431,6 +29439,22 @@
     "text": "此项目中的视频、声音和图片保存在这里，可再次添加。",
     "source": "4075715096b2"
   },
+  "spoken.voices.read-aloud-only": {
+    "text": "仅朗读",
+    "source": "3953b35ec0c1"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "快捷键：在框中按 Ctrl+Enter",
+    "source": "46629f7a364b"
+  },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "显示并朗读",
+    "source": "cad1b91fa8e8"
+  },
+  "spoken.voices.show-only": {
+    "text": "仅显示",
+    "source": "a8d71c961005"
+  },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "此行的语音没有发出声音。",
     "source": "53613e120fbf"
@@ -30859,6 +30883,10 @@
     "text": "时区",
     "source": "1b0013ea667e"
   },
+  "video.ribbon.spoken-words": {
+    "text": "朗读文字",
+    "source": "b5f7a276ab16"
+  },
   "video.ribbon.timeline": {
     "text": "时间线",
     "source": "9dcff98e275f"
@@ -31929,6 +31957,10 @@
     "text": "无标题幻灯片",
     "source": "1eadae5cbf64"
   },
+  "video.type-words-to-show-read-aloud": {
+    "text": "在播放头处输入要显示、朗读或既显示又朗读的文字",
+    "source": "af653107afac"
+  },
   "video.untitled-video": {
     "text": "无标题视频",
     "source": "a7e5acfa45bc"
@@ -32662,6 +32694,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "AI 工具可以对每一项执行的操作。在你选择之前，所有设置均为“关”。“AI 工具”中有相同的设置。",
     "source": "14310670b45f"
+  },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "输入要朗读的文字，每行一句",
+    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "文本行的作用",
@@ -37380,5 +37416,17 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ 及以上",
     "source": "20160df989ba"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "要朗读的文字",
+    "source": "3353415dcf6a"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "随时输入要显示、朗读或既显示又朗读的文字",
+    "source": "ab4c38c0c662"
+  },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "文字出现在播放头处，一行接一行，叠加在画面上。",
+    "source": "841b57677821"
   }
 }

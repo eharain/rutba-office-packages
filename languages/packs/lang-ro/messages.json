@@ -16571,10 +16571,6 @@
     "text": "Vă așteaptă",
     "source": "74b6abdf5969"
   },
-  "spoken.voices.neither-is-on-the-lines-keep": {
-    "text": "Nicio opțiune nu este activată: rândurile își păstrează timpul, dar nu se vede și nu se aude nimic.",
-    "source": "e83016a7cfaf"
-  },
   "talk.neither-of-you-can-write-to": {
     "text": "Niciunul dintre dvs. nu îi poate scrie sau apela pe celălalt până nu redeveniți contacte. Mesajele de aici se șterg.",
     "source": "55354b8358c9"
@@ -17374,6 +17370,14 @@
   "common.no-limit": {
     "text": "Fără limită",
     "source": "f7fcff0d8fea"
+  },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "Adăugați o voce care să citească cuvintele cu voce tare; ele pot fi afișate și fără voce.",
+    "source": "04ed3fbd74fe"
+  },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "Nici afișate, nici citite cu voce tare: rândurile își păstrează timpul. Alegeți una din cele trei opțiuni pentru a le readuce.",
+    "source": "431be017d2c5"
   },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "Încă nu există rânduri: fiecare rând de text este citit în ordine.",
@@ -20194,10 +20198,6 @@
   "video.play-forward": {
     "text": "Redare înainte",
     "source": "18d1c1674140"
-  },
-  "spoken.voices.play-the-voice": {
-    "text": "Redare voce",
-    "source": "df7413e04bae"
   },
   "spoken.voices.play-the-voice-of-this-line": {
     "text": "Redare voce pentru acest rând",
@@ -25411,10 +25411,6 @@
     "text": "Afișare titluri de rânduri și coloane",
     "source": "4f7b9dcce409"
   },
-  "spoken.voices.show-the-text": {
-    "text": "Afișare text",
-    "source": "0766a87f94ec"
-  },
   "sheets.dialogs.show-them-as": {
     "text": "Afișarea lor ca",
     "source": "6380dba9f992"
@@ -26254,6 +26250,14 @@
   "video.sound-clip": {
     "text": "Clip de sunet",
     "source": "556f55adc8bd"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "Citire cu voce tare a cuvintelor",
+    "source": "f8bde48fd589"
+  },
+  "studio.spoken-run.show-the-words": {
+    "text": "Afișare cuvinte",
+    "source": "a64d13b0ead9"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "Sunetul nu este activat, așa că vocea nu apare nici în înregistrare, nici în flux.",
@@ -27862,6 +27866,10 @@
   "video.starters.thank-you-for-watching": {
     "text": "Vă mulțumim pentru vizionare",
     "source": "c708e3d71205"
+  },
+  "common.text-to-speech": {
+    "text": "Text în vorbire",
+    "source": "71e02f22899a"
   },
   "common.thanks-for-watching": {
     "text": "Mulțumim pentru vizionare",
@@ -29563,6 +29571,22 @@
     "text": "Videoclipurile, sunetele și imaginile din proiect sunt păstrate aici, de adăugat din nou.",
     "source": "4075715096b2"
   },
+  "spoken.voices.read-aloud-only": {
+    "text": "Doar citire cu voce tare",
+    "source": "3953b35ec0c1"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "Comandă rapidă: Ctrl+Enter în casetă",
+    "source": "46629f7a364b"
+  },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "Afișare și citire cu voce tare",
+    "source": "cad1b91fa8e8"
+  },
+  "spoken.voices.show-only": {
+    "text": "Doar afișare",
+    "source": "a8d71c961005"
+  },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "Vocea nu a produs niciun sunet pentru acest rând.",
     "source": "53613e120fbf"
@@ -31003,6 +31027,10 @@
     "text": "Fusuri orare",
     "source": "1b0013ea667e"
   },
+  "video.ribbon.spoken-words": {
+    "text": "Cuvinte rostite",
+    "source": "b5f7a276ab16"
+  },
   "video.ribbon.timeline": {
     "text": "Cronologie",
     "source": "9dcff98e275f"
@@ -32075,6 +32103,10 @@
     "text": "Diapozitiv fără titlu",
     "source": "1eadae5cbf64"
   },
+  "video.type-words-to-show-read-aloud": {
+    "text": "Tastați cuvinte de afișat, de citit cu voce tare sau ambele, la capul de redare",
+    "source": "af653107afac"
+  },
   "video.untitled-video": {
     "text": "Video fără titlu",
     "source": "a7e5acfa45bc"
@@ -32810,6 +32842,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "Ce pot face instrumentele AI cu fiecare. Totul este Dezactivat până alegeți. Aceleași setări sunt în Instrumente AI.",
     "source": "14310670b45f"
+  },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "Tastați cuvintele, câte o frază pe fiecare rând",
+    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "Ce fac rândurile",
@@ -37910,5 +37946,17 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ și peste",
     "source": "20160df989ba"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "Cuvinte de rostit",
+    "source": "3353415dcf6a"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "Tastați pe parcurs cuvinte de afișat, de citit cu voce tare sau ambele",
+    "source": "ab4c38c0c662"
+  },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "Cuvintele apar la capul de redare, un rând după altul, peste imagine.",
+    "source": "841b57677821"
   }
 }

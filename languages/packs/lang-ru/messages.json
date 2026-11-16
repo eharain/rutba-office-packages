@@ -16610,10 +16610,6 @@
     "text": "Требует внимания",
     "source": "74b6abdf5969"
   },
-  "spoken.voices.neither-is-on-the-lines-keep": {
-    "text": "Ни один из параметров не включен: строки сохраняют свое время, но ничего не видно и не слышно.",
-    "source": "e83016a7cfaf"
-  },
   "talk.neither-of-you-can-write-to": {
     "text": "Никто из вас не сможет писать или звонить другому, пока вы снова не станете контактами. Ваши сообщения здесь удалены.",
     "source": "55354b8358c9"
@@ -17413,6 +17409,14 @@
   "common.no-limit": {
     "text": "Без ограничений",
     "source": "f7fcff0d8fea"
+  },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "Добавьте голос, чтобы слова читались вслух; показывать их можно и без него.",
+    "source": "04ed3fbd74fe"
+  },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "Не показываются и не читаются вслух: строки сохраняют свое время. Выберите один из трех вариантов, чтобы вернуть их.",
+    "source": "431be017d2c5"
   },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "Строк пока нет: каждая строка текста читается по очереди.",
@@ -20235,10 +20239,6 @@
   "video.play-forward": {
     "text": "Воспроизвести вперед",
     "source": "18d1c1674140"
-  },
-  "spoken.voices.play-the-voice": {
-    "text": "Воспроизводить голос",
-    "source": "df7413e04bae"
   },
   "spoken.voices.play-the-voice-of-this-line": {
     "text": "Воспроизвести голос этой строки",
@@ -25465,10 +25465,6 @@
     "text": "Показывать заголовки строк и столбцов",
     "source": "4f7b9dcce409"
   },
-  "spoken.voices.show-the-text": {
-    "text": "Показывать текст",
-    "source": "0766a87f94ec"
-  },
   "sheets.dialogs.show-them-as": {
     "text": "Показывать их как",
     "source": "6380dba9f992"
@@ -26308,6 +26304,14 @@
   "video.sound-clip": {
     "text": "Звуковой клип",
     "source": "556f55adc8bd"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "Читать слова вслух",
+    "source": "f8bde48fd589"
+  },
+  "studio.spoken-run.show-the-words": {
+    "text": "Показывать слова",
+    "source": "a64d13b0ead9"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "Звук не включен, поэтому голоса нет ни в записи, ни в трансляции.",
@@ -27921,6 +27925,10 @@
   "video.starters.thank-you-for-watching": {
     "text": "Спасибо за просмотр",
     "source": "c708e3d71205"
+  },
+  "common.text-to-speech": {
+    "text": "Синтез речи",
+    "source": "71e02f22899a"
   },
   "common.thanks-for-watching": {
     "text": "Спасибо за просмотр",
@@ -29629,6 +29637,22 @@
     "text": "Видео, звук и рисунки этого проекта хранятся здесь, чтобы их можно было добавить снова.",
     "source": "4075715096b2"
   },
+  "spoken.voices.read-aloud-only": {
+    "text": "Только читать вслух",
+    "source": "3953b35ec0c1"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "Сочетание клавиш: Ctrl+Enter в поле",
+    "source": "46629f7a364b"
+  },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "Показывать и читать вслух",
+    "source": "cad1b91fa8e8"
+  },
+  "spoken.voices.show-only": {
+    "text": "Только показывать",
+    "source": "a8d71c961005"
+  },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "Для этой строки голос не дал звука.",
     "source": "53613e120fbf"
@@ -31075,6 +31099,10 @@
     "text": "Часовые пояса",
     "source": "1b0013ea667e"
   },
+  "video.ribbon.spoken-words": {
+    "text": "Озвучиваемые слова",
+    "source": "b5f7a276ab16"
+  },
   "video.ribbon.timeline": {
     "text": "Временная шкала",
     "source": "9dcff98e275f"
@@ -32148,6 +32176,10 @@
     "text": "Слайд без заголовка",
     "source": "1eadae5cbf64"
   },
+  "video.type-words-to-show-read-aloud": {
+    "text": "Введите слова у указателя: для показа, чтения вслух или и того и другого",
+    "source": "af653107afac"
+  },
   "video.untitled-video": {
     "text": "Видео без названия",
     "source": "a7e5acfa45bc"
@@ -32884,6 +32916,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "Что инструменты ИИ могут делать с каждым из них. Все выключено, пока вы не выберете. Те же параметры есть в разделе «Инструменты ИИ».",
     "source": "14310670b45f"
+  },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "Введите слова для озвучивания: по фразе в строке",
+    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "Что делают строки",
@@ -38175,5 +38211,17 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ и выше",
     "source": "20160df989ba"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "Слова для озвучивания",
+    "source": "3353415dcf6a"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "Вводите слова по ходу: для показа, чтения вслух или и того и другого",
+    "source": "ab4c38c0c662"
+  },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "Слова появляются у указателя, строка за строкой, поверх изображения.",
+    "source": "841b57677821"
   }
 }

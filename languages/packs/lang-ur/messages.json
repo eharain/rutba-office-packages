@@ -16532,10 +16532,6 @@
     "text": "آپ کی ضرورت ہے",
     "source": "74b6abdf5969"
   },
-  "spoken.voices.neither-is-on-the-lines-keep": {
-    "text": "دونوں بند ہیں: سطریں اپنا وقت برقرار رکھتی ہیں لیکن نہ کچھ دکھائی دیتا ہے نہ سنائی دیتا ہے۔",
-    "source": "e83016a7cfaf"
-  },
   "talk.neither-of-you-can-write-to": {
     "text": "جب تک آپ دوبارہ رابطے نہ بنیں، آپ میں سے کوئی دوسرے کو نہ لکھ سکے گا نہ کال کر سکے گا۔ یہاں آپ کے پیغامات حذف ہو جاتے ہیں۔",
     "source": "55354b8358c9"
@@ -17335,6 +17331,14 @@
   "common.no-limit": {
     "text": "کوئی حد نہیں",
     "source": "f7fcff0d8fea"
+  },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "الفاظ بلند آواز سے پڑھوانے کے لیے آواز شامل کریں؛ آواز کے بغیر بھی انہیں دکھایا جا سکتا ہے۔",
+    "source": "04ed3fbd74fe"
+  },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "نہ دکھائی دیتی ہیں نہ بلند آواز سے پڑھی جاتی ہیں: سطریں اپنا وقت برقرار رکھتی ہیں۔ انہیں واپس لانے کے لیے تینوں میں سے ایک چنیں۔",
+    "source": "431be017d2c5"
   },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "ابھی کوئی سطر نہیں: الفاظ کی ہر سطر باری باری پڑھی جاتی ہے۔",
@@ -20153,10 +20157,6 @@
   "video.play-forward": {
     "text": "آگے کی طرف چلائیں",
     "source": "18d1c1674140"
-  },
-  "spoken.voices.play-the-voice": {
-    "text": "آواز چلائیں",
-    "source": "df7413e04bae"
   },
   "spoken.voices.play-the-voice-of-this-line": {
     "text": "اس سطر کی آواز چلائیں",
@@ -25357,10 +25357,6 @@
     "text": "قطار اور کالم کی سرخیاں دکھائیں",
     "source": "4f7b9dcce409"
   },
-  "spoken.voices.show-the-text": {
-    "text": "متن دکھائیں",
-    "source": "0766a87f94ec"
-  },
   "sheets.dialogs.show-them-as": {
     "text": "انہیں اس طرح دکھائیں",
     "source": "6380dba9f992"
@@ -26200,6 +26196,14 @@
   "video.sound-clip": {
     "text": "آواز کا کلپ",
     "source": "556f55adc8bd"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "الفاظ بلند آواز سے پڑھیں",
+    "source": "f8bde48fd589"
+  },
+  "studio.spoken-run.show-the-words": {
+    "text": "الفاظ دکھائیں",
+    "source": "a64d13b0ead9"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "آڈیو آن نہیں ہے، اس لیے یہ آواز نہ ریکارڈنگ میں ہے نہ اسٹریم میں۔",
@@ -27803,6 +27807,10 @@
   "video.starters.thank-you-for-watching": {
     "text": "دیکھنے کا شکریہ",
     "source": "c708e3d71205"
+  },
+  "common.text-to-speech": {
+    "text": "متن سے آواز",
+    "source": "71e02f22899a"
   },
   "common.thanks-for-watching": {
     "text": "دیکھنے کا شکریہ",
@@ -29497,6 +29505,22 @@
     "text": "اس پروجیکٹ کی ویڈیوز، آوازیں اور تصاویر یہاں رکھی جاتی ہیں، تاکہ دوبارہ شامل کی جا سکیں۔",
     "source": "4075715096b2"
   },
+  "spoken.voices.read-aloud-only": {
+    "text": "صرف بلند آواز سے پڑھیں",
+    "source": "3953b35ec0c1"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "شارٹ کٹ: باکس میں Ctrl+Enter",
+    "source": "46629f7a364b"
+  },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "دکھائیں اور بلند آواز سے پڑھیں",
+    "source": "cad1b91fa8e8"
+  },
+  "spoken.voices.show-only": {
+    "text": "صرف دکھائیں",
+    "source": "a8d71c961005"
+  },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "اس سطر کے لیے آواز سے کچھ سنائی نہیں دیا۔",
     "source": "53613e120fbf"
@@ -30931,6 +30955,10 @@
     "text": "ٹائم زونز",
     "source": "1b0013ea667e"
   },
+  "video.ribbon.spoken-words": {
+    "text": "بولے جانے والے الفاظ",
+    "source": "b5f7a276ab16"
+  },
   "video.ribbon.timeline": {
     "text": "ٹائم لائن",
     "source": "9dcff98e275f"
@@ -32002,6 +32030,10 @@
     "text": "بے عنوان سلائیڈ",
     "source": "1eadae5cbf64"
   },
+  "video.type-words-to-show-read-aloud": {
+    "text": "پلے ہیڈ پر الفاظ لکھیں: دکھانے، بلند آواز سے پڑھنے یا دونوں کے لیے",
+    "source": "af653107afac"
+  },
   "video.untitled-video": {
     "text": "بے عنوان ویڈیو",
     "source": "a7e5acfa45bc"
@@ -32736,6 +32768,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "AI ٹولز ہر ایک کے ساتھ کیا کر سکتے ہیں۔ جب تک آپ نہ چنیں سب کچھ بند ہے۔ یہی ترتیبات AI ٹولز میں بھی ہیں۔",
     "source": "14310670b45f"
+  },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "بولنے کے لیے الفاظ لکھیں، ہر سطر میں ایک بات",
+    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "سطروں کا کام",
@@ -37645,5 +37681,17 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ اور اس سے زیادہ",
     "source": "20160df989ba"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "بولنے کے لیے الفاظ",
+    "source": "3353415dcf6a"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "ساتھ ساتھ الفاظ لکھیں: دکھانے، بلند آواز سے پڑھنے یا دونوں کے لیے",
+    "source": "ab4c38c0c662"
+  },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "الفاظ پلے ہیڈ پر آتے ہیں، ایک سطر کے بعد دوسری، تصویر کے اوپر۔",
+    "source": "841b57677821"
   }
 }

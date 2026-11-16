@@ -16688,10 +16688,6 @@
     "text": "بحاجة إليك",
     "source": "74b6abdf5969"
   },
-  "spoken.voices.neither-is-on-the-lines-keep": {
-    "text": "كلاهما متوقف: تحتفظ السطور بتوقيتها، لكن لا يظهر شيء ولا يُسمع شيء.",
-    "source": "e83016a7cfaf"
-  },
   "talk.neither-of-you-can-write-to": {
     "text": "لا يستطيع أي منكما مراسلة الآخر أو الاتصال به حتى تعودا جهتي اتصال. تُحذف رسائلكما هنا.",
     "source": "55354b8358c9"
@@ -17491,6 +17487,14 @@
   "common.no-limit": {
     "text": "بلا حد",
     "source": "f7fcff0d8fea"
+  },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "أضف صوتًا لقراءة الكلمات بصوت عالٍ؛ ويمكن إظهارها من دونه.",
+    "source": "04ed3fbd74fe"
+  },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "لا تظهر ولا تُقرأ بصوت عالٍ: تحتفظ السطور بتوقيتها. اختر واحدًا من الخيارات الثلاثة لإعادتها.",
+    "source": "431be017d2c5"
   },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "لا توجد سطور بعد: يُقرأ كل سطر من الكلمات تباعًا.",
@@ -20317,10 +20321,6 @@
   "video.play-forward": {
     "text": "تشغيل إلى الأمام",
     "source": "18d1c1674140"
-  },
-  "spoken.voices.play-the-voice": {
-    "text": "تشغيل الصوت",
-    "source": "df7413e04bae"
   },
   "spoken.voices.play-the-voice-of-this-line": {
     "text": "تشغيل صوت هذا السطر",
@@ -25573,10 +25573,6 @@
     "text": "إظهار عناوين الصفوف والأعمدة",
     "source": "4f7b9dcce409"
   },
-  "spoken.voices.show-the-text": {
-    "text": "إظهار النص",
-    "source": "0766a87f94ec"
-  },
   "sheets.dialogs.show-them-as": {
     "text": "عرضها بتنسيق",
     "source": "6380dba9f992"
@@ -26416,6 +26412,14 @@
   "video.sound-clip": {
     "text": "مقطع صوتي",
     "source": "556f55adc8bd"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "قراءة الكلمات بصوت عالٍ",
+    "source": "f8bde48fd589"
+  },
+  "studio.spoken-run.show-the-words": {
+    "text": "إظهار الكلمات",
+    "source": "a64d13b0ead9"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "الصوت غير مُفعّل، لذا لا تُسمع القراءة في التسجيل ولا في البث.",
@@ -28039,6 +28043,10 @@
   "video.starters.thank-you-for-watching": {
     "text": "شكرًا على المشاهدة",
     "source": "c708e3d71205"
+  },
+  "common.text-to-speech": {
+    "text": "تحويل النص إلى كلام",
+    "source": "71e02f22899a"
   },
   "common.thanks-for-watching": {
     "text": "شكراً للمشاهدة",
@@ -29761,6 +29769,22 @@
     "text": "تُحفظ هنا مقاطع الفيديو والأصوات والصور في هذا المشروع، لإضافتها مرة أخرى.",
     "source": "4075715096b2"
   },
+  "spoken.voices.read-aloud-only": {
+    "text": "القراءة بصوت عالٍ فقط",
+    "source": "3953b35ec0c1"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "اختصار: Ctrl+Enter في المربع",
+    "source": "46629f7a364b"
+  },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "الإظهار والقراءة بصوت عالٍ",
+    "source": "cad1b91fa8e8"
+  },
+  "spoken.voices.show-only": {
+    "text": "الإظهار فقط",
+    "source": "a8d71c961005"
+  },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "لم يُنتج الصوت أي إخراج صوتي لهذا السطر.",
     "source": "53613e120fbf"
@@ -31219,6 +31243,10 @@
     "text": "المناطق الزمنية",
     "source": "1b0013ea667e"
   },
+  "video.ribbon.spoken-words": {
+    "text": "الكلمات المنطوقة",
+    "source": "b5f7a276ab16"
+  },
   "video.ribbon.timeline": {
     "text": "المخطط الزمني",
     "source": "9dcff98e275f"
@@ -32294,6 +32322,10 @@
     "text": "شريحة بلا عنوان",
     "source": "1eadae5cbf64"
   },
+  "video.type-words-to-show-read-aloud": {
+    "text": "اكتب كلمات لإظهارها أو قراءتها بصوت عالٍ أو كليهما، عند رأس التشغيل",
+    "source": "af653107afac"
+  },
   "video.untitled-video": {
     "text": "فيديو بلا عنوان",
     "source": "a7e5acfa45bc"
@@ -33032,6 +33064,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "ما يمكن لأدوات الذكاء الاصطناعي فعله بكل منها. كل شيء متوقف حتى تختار. الإعدادات نفسها موجودة في أدوات الذكاء الاصطناعي.",
     "source": "14310670b45f"
+  },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "اكتب الكلمات المراد نطقها، عبارة واحدة في كل سطر",
+    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "وظيفة السطور",
@@ -38705,5 +38741,17 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ فأعلى",
     "source": "20160df989ba"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "الكلمات المراد نطقها",
+    "source": "3353415dcf6a"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "اكتب كلمات لإظهارها أو قراءتها بصوت عالٍ أو كليهما، أثناء العمل",
+    "source": "ab4c38c0c662"
+  },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "تظهر الكلمات عند رأس التشغيل، سطرًا تلو الآخر، فوق الصورة.",
+    "source": "841b57677821"
   }
 }

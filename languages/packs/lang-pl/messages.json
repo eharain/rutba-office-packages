@@ -16610,10 +16610,6 @@
     "text": "Wymaga twojej uwagi",
     "source": "74b6abdf5969"
   },
-  "spoken.voices.neither-is-on-the-lines-keep": {
-    "text": "Żadna z opcji nie jest włączona: wiersze zachowują swój czas, ale nic nie jest widoczne ani słyszalne.",
-    "source": "e83016a7cfaf"
-  },
   "talk.neither-of-you-can-write-to": {
     "text": "Żadne z was nie może pisać do drugiego ani dzwonić, dopóki znów nie będziecie kontaktami. Wasze wiadomości tutaj zostaną usunięte.",
     "source": "55354b8358c9"
@@ -17413,6 +17409,14 @@
   "common.no-limit": {
     "text": "Bez limitu",
     "source": "f7fcff0d8fea"
+  },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "Dodaj głos, aby czytał słowa na głos; można je też pokazać bez głosu.",
+    "source": "04ed3fbd74fe"
+  },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "Ani pokazywane, ani czytane na głos: wiersze zachowują swój czas. Wybierz jedną z trzech opcji, aby je przywrócić.",
+    "source": "431be017d2c5"
   },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "Nie ma jeszcze wierszy: każdy wiersz tekstu jest czytany po kolei.",
@@ -20235,10 +20239,6 @@
   "video.play-forward": {
     "text": "Odtwarzaj do przodu",
     "source": "18d1c1674140"
-  },
-  "spoken.voices.play-the-voice": {
-    "text": "Odtwarzaj głos",
-    "source": "df7413e04bae"
   },
   "spoken.voices.play-the-voice-of-this-line": {
     "text": "Odtwórz głos tego wiersza",
@@ -25465,10 +25465,6 @@
     "text": "Pokaż nagłówki wierszy i kolumn",
     "source": "4f7b9dcce409"
   },
-  "spoken.voices.show-the-text": {
-    "text": "Pokaż tekst",
-    "source": "0766a87f94ec"
-  },
   "sheets.dialogs.show-them-as": {
     "text": "Pokaż je jako",
     "source": "6380dba9f992"
@@ -26308,6 +26304,14 @@
   "video.sound-clip": {
     "text": "Klip dźwiękowy",
     "source": "556f55adc8bd"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "Czytaj słowa na głos",
+    "source": "f8bde48fd589"
+  },
+  "studio.spoken-run.show-the-words": {
+    "text": "Pokaż słowa",
+    "source": "a64d13b0ead9"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "Dźwięk nie jest włączony, więc głosu nie ma ani w nagraniu, ani w transmisji.",
@@ -27921,6 +27925,10 @@
   "video.starters.thank-you-for-watching": {
     "text": "Dzięki za obejrzenie",
     "source": "c708e3d71205"
+  },
+  "common.text-to-speech": {
+    "text": "Zamiana tekstu na mowę",
+    "source": "71e02f22899a"
   },
   "common.thanks-for-watching": {
     "text": "Dziękujemy za obejrzenie",
@@ -29629,6 +29637,22 @@
     "text": "Filmy, dźwięki i obrazy z tego projektu są przechowywane tutaj, aby można je było dodać ponownie.",
     "source": "4075715096b2"
   },
+  "spoken.voices.read-aloud-only": {
+    "text": "Tylko czytaj na głos",
+    "source": "3953b35ec0c1"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "Skrót: Ctrl+Enter w polu",
+    "source": "46629f7a364b"
+  },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "Pokaż i czytaj na głos",
+    "source": "cad1b91fa8e8"
+  },
+  "spoken.voices.show-only": {
+    "text": "Tylko pokaż",
+    "source": "a8d71c961005"
+  },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "Dla tego wiersza głos nie wydał żadnego dźwięku.",
     "source": "53613e120fbf"
@@ -31075,6 +31099,10 @@
     "text": "Strefy czasowe",
     "source": "1b0013ea667e"
   },
+  "video.ribbon.spoken-words": {
+    "text": "Wypowiadane słowa",
+    "source": "b5f7a276ab16"
+  },
   "video.ribbon.timeline": {
     "text": "Oś czasu",
     "source": "9dcff98e275f"
@@ -32148,6 +32176,10 @@
     "text": "Slajd bez tytułu",
     "source": "1eadae5cbf64"
   },
+  "video.type-words-to-show-read-aloud": {
+    "text": "Przy głowicy odtwarzania wpisz słowa do pokazania, czytania na głos lub obu naraz",
+    "source": "af653107afac"
+  },
   "video.untitled-video": {
     "text": "Wideo bez tytułu",
     "source": "a7e5acfa45bc"
@@ -32884,6 +32916,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "Co narzędzia AI mogą robić z każdym z nich. Wszystko jest wyłączone, dopóki nie wybierzesz inaczej. Te same ustawienia są w oknie Narzędzia AI.",
     "source": "14310670b45f"
+  },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "Wpisz słowa do wypowiedzenia, zdanie na wiersz",
+    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "Co robią wiersze",
@@ -38175,5 +38211,17 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ i więcej",
     "source": "20160df989ba"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "Słowa do wypowiedzenia",
+    "source": "3353415dcf6a"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "Wpisuj na bieżąco słowa do pokazania, czytania na głos lub obu naraz",
+    "source": "ab4c38c0c662"
+  },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "Słowa pojawiają się przy głowicy odtwarzania, wiersz po wierszu, na obrazie.",
+    "source": "841b57677821"
   }
 }

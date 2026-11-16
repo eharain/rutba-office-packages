@@ -16610,10 +16610,6 @@
     "text": "Čeká na vás",
     "source": "74b6abdf5969"
   },
-  "spoken.voices.neither-is-on-the-lines-keep": {
-    "text": "Není zapnuto ani jedno: řádky si ponechají svůj čas, ale nic není vidět ani slyšet.",
-    "source": "e83016a7cfaf"
-  },
   "talk.neither-of-you-can-write-to": {
     "text": "Dokud nebudete znovu kontakty, nemůže nikdo z vás tomu druhému psát ani volat. Vaše zprávy zde se smažou.",
     "source": "55354b8358c9"
@@ -17413,6 +17409,14 @@
   "common.no-limit": {
     "text": "Bez omezení",
     "source": "f7fcff0d8fea"
+  },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "Přidat hlas, který slova přečte nahlas; zobrazit je lze i bez něj.",
+    "source": "04ed3fbd74fe"
+  },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "Nezobrazují se ani nečtou nahlas: řádky si drží svůj čas. Vyberte jednu ze tří možností a vrátí se.",
+    "source": "431be017d2c5"
   },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "Zatím žádné řádky: každý řádek textu se přečte postupně.",
@@ -20235,10 +20239,6 @@
   "video.play-forward": {
     "text": "Přehrát dopředu",
     "source": "18d1c1674140"
-  },
-  "spoken.voices.play-the-voice": {
-    "text": "Přehrát hlas",
-    "source": "df7413e04bae"
   },
   "spoken.voices.play-the-voice-of-this-line": {
     "text": "Přehrát hlas tohoto řádku",
@@ -25465,10 +25465,6 @@
     "text": "Zobrazit záhlaví řádků a sloupců",
     "source": "4f7b9dcce409"
   },
-  "spoken.voices.show-the-text": {
-    "text": "Zobrazit text",
-    "source": "0766a87f94ec"
-  },
   "sheets.dialogs.show-them-as": {
     "text": "Zobrazit je jako",
     "source": "6380dba9f992"
@@ -26308,6 +26304,14 @@
   "video.sound-clip": {
     "text": "Zvukový klip",
     "source": "556f55adc8bd"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "Číst slova nahlas",
+    "source": "f8bde48fd589"
+  },
+  "studio.spoken-run.show-the-words": {
+    "text": "Zobrazit slova",
+    "source": "a64d13b0ead9"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "Zvuk není zapnutý, takže hlas není v nahrávce ani ve streamu.",
@@ -27921,6 +27925,10 @@
   "video.starters.thank-you-for-watching": {
     "text": "Děkujeme za zhlédnutí",
     "source": "c708e3d71205"
+  },
+  "common.text-to-speech": {
+    "text": "Převod textu na řeč",
+    "source": "71e02f22899a"
   },
   "common.thanks-for-watching": {
     "text": "Děkujeme za zhlédnutí",
@@ -29629,6 +29637,22 @@
     "text": "Videa, zvuky a obrázky v tomto projektu jsou uložené zde, abyste je mohli přidat znovu.",
     "source": "4075715096b2"
   },
+  "spoken.voices.read-aloud-only": {
+    "text": "Pouze číst nahlas",
+    "source": "3953b35ec0c1"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "Zkratka: Ctrl+Enter v poli",
+    "source": "46629f7a364b"
+  },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "Zobrazit a číst nahlas",
+    "source": "cad1b91fa8e8"
+  },
+  "spoken.voices.show-only": {
+    "text": "Pouze zobrazit",
+    "source": "a8d71c961005"
+  },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "Hlas pro tento řádek nevydal žádný zvuk.",
     "source": "53613e120fbf"
@@ -31075,6 +31099,10 @@
     "text": "Časová pásma",
     "source": "1b0013ea667e"
   },
+  "video.ribbon.spoken-words": {
+    "text": "Mluvená slova",
+    "source": "b5f7a276ab16"
+  },
   "video.ribbon.timeline": {
     "text": "Časová osa",
     "source": "9dcff98e275f"
@@ -32148,6 +32176,10 @@
     "text": "Snímek bez názvu",
     "source": "1eadae5cbf64"
   },
+  "video.type-words-to-show-read-aloud": {
+    "text": "Pište u přehrávací hlavy slova k zobrazení, přečtení nahlas nebo obojímu",
+    "source": "af653107afac"
+  },
   "video.untitled-video": {
     "text": "Video bez názvu",
     "source": "a7e5acfa45bc"
@@ -32884,6 +32916,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "Co smí nástroje AI s každou položkou dělat. Vše je vypnuto, dokud nerozhodnete. Stejná nastavení najdete v části Nástroje AI.",
     "source": "14310670b45f"
+  },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "Napište slova k vyslovení, jednu větu na řádek",
+    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "Co řádky dělají",
@@ -38175,5 +38211,17 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ a více",
     "source": "20160df989ba"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "Slova k vyslovení",
+    "source": "3353415dcf6a"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "Průběžně pište slova k zobrazení, přečtení nahlas nebo obojímu",
+    "source": "ab4c38c0c662"
+  },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "Slova se objeví u přehrávací hlavy, jeden řádek za druhým, přes obraz.",
+    "source": "841b57677821"
   }
 }

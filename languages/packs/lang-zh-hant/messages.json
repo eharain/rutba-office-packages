@@ -16493,10 +16493,6 @@
     "text": "需要您處理",
     "source": "74b6abdf5969"
   },
-  "spoken.voices.neither-is-on-the-lines-keep": {
-    "text": "兩者皆未開啟：這些行會保留其時間，但看不到也聽不到任何內容。",
-    "source": "e83016a7cfaf"
-  },
   "talk.neither-of-you-can-write-to": {
     "text": "在再次成為連絡人之前，雙方都無法傳送訊息給對方或與對方通話。您在此處的訊息已刪除。",
     "source": "55354b8358c9"
@@ -17296,6 +17292,14 @@
   "common.no-limit": {
     "text": "無限制",
     "source": "f7fcff0d8fea"
+  },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "新增語音即可大聲朗讀這些文字；沒有語音時也可以只顯示。",
+    "source": "04ed3fbd74fe"
+  },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "既不顯示也不朗讀：這些行保留其時間。請從三個選項中選擇一個來還原它們。",
+    "source": "431be017d2c5"
   },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "尚無文字行：文字的每一行會依序朗讀。",
@@ -20112,10 +20116,6 @@
   "video.play-forward": {
     "text": "向前播放",
     "source": "18d1c1674140"
-  },
-  "spoken.voices.play-the-voice": {
-    "text": "播放語音",
-    "source": "df7413e04bae"
   },
   "spoken.voices.play-the-voice-of-this-line": {
     "text": "播放這一行的語音",
@@ -25303,10 +25303,6 @@
     "text": "顯示列與欄標題",
     "source": "4f7b9dcce409"
   },
-  "spoken.voices.show-the-text": {
-    "text": "顯示文字",
-    "source": "0766a87f94ec"
-  },
   "sheets.dialogs.show-them-as": {
     "text": "顯示為",
     "source": "6380dba9f992"
@@ -26146,6 +26142,14 @@
   "video.sound-clip": {
     "text": "音訊片段",
     "source": "556f55adc8bd"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "大聲朗讀文字",
+    "source": "f8bde48fd589"
+  },
+  "studio.spoken-run.show-the-words": {
+    "text": "顯示文字",
+    "source": "a64d13b0ead9"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "音訊未開啟，因此錄製內容和串流中都沒有語音。",
@@ -27744,6 +27748,10 @@
   "video.starters.thank-you-for-watching": {
     "text": "感謝收看",
     "source": "c708e3d71205"
+  },
+  "common.text-to-speech": {
+    "text": "文字轉語音",
+    "source": "71e02f22899a"
   },
   "common.thanks-for-watching": {
     "text": "感謝收看",
@@ -29431,6 +29439,22 @@
     "text": "此專案中的影片、聲音與圖片都保存在這裡，以便再次新增。",
     "source": "4075715096b2"
   },
+  "spoken.voices.read-aloud-only": {
+    "text": "僅朗讀",
+    "source": "3953b35ec0c1"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "快速鍵：在方塊中按 Ctrl+Enter",
+    "source": "46629f7a364b"
+  },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "顯示並朗讀",
+    "source": "cad1b91fa8e8"
+  },
+  "spoken.voices.show-only": {
+    "text": "僅顯示",
+    "source": "a8d71c961005"
+  },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "這一行的語音沒有發出聲音。",
     "source": "53613e120fbf"
@@ -30859,6 +30883,10 @@
     "text": "時區",
     "source": "1b0013ea667e"
   },
+  "video.ribbon.spoken-words": {
+    "text": "朗讀文字",
+    "source": "b5f7a276ab16"
+  },
   "video.ribbon.timeline": {
     "text": "時間軸",
     "source": "9dcff98e275f"
@@ -31929,6 +31957,10 @@
     "text": "未命名投影片",
     "source": "1eadae5cbf64"
   },
+  "video.type-words-to-show-read-aloud": {
+    "text": "在播放頭處輸入要顯示、朗讀或既顯示又朗讀的文字",
+    "source": "af653107afac"
+  },
   "video.untitled-video": {
     "text": "未命名影片",
     "source": "a7e5acfa45bc"
@@ -32662,6 +32694,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "AI 工具可對每一項執行的動作。在您選擇前，所有項目皆為「關閉」。相同的設定也位於「AI 工具」中。",
     "source": "14310670b45f"
+  },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "輸入要朗讀的文字，每行一句",
+    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "文字行的作用",
@@ -37380,5 +37416,17 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ 以上",
     "source": "20160df989ba"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "要朗讀的文字",
+    "source": "3353415dcf6a"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "隨時輸入要顯示、朗讀或既顯示又朗讀的文字",
+    "source": "ab4c38c0c662"
+  },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "文字出現在播放頭處，一行接一行，疊加在畫面上。",
+    "source": "841b57677821"
   }
 }

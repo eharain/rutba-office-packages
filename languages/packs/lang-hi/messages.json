@@ -16532,10 +16532,6 @@
     "text": "आपकी ज़रूरत है",
     "source": "74b6abdf5969"
   },
-  "spoken.voices.neither-is-on-the-lines-keep": {
-    "text": "दोनों बंद हैं: पंक्तियाँ अपना समय बनाए रखती हैं, पर न कुछ दिखता है न सुनाई देता है।",
-    "source": "e83016a7cfaf"
-  },
   "talk.neither-of-you-can-write-to": {
     "text": "जब तक आप फिर से संपर्क न बनें, आपमें से कोई दूसरे को न लिख सकेगा न कॉल कर सकेगा। यहाँ आपके संदेश हटा दिए जाते हैं।",
     "source": "55354b8358c9"
@@ -17335,6 +17331,14 @@
   "common.no-limit": {
     "text": "कोई सीमा नहीं",
     "source": "f7fcff0d8fea"
+  },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "शब्दों को ज़ोर से पढ़वाने के लिए आवाज़ जोड़ें; आवाज़ के बिना भी इन्हें दिखाया जा सकता है।",
+    "source": "04ed3fbd74fe"
+  },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "न दिखती हैं न ज़ोर से पढ़ी जाती हैं: पंक्तियाँ अपना समय बनाए रखती हैं। उन्हें वापस लाने के लिए तीनों में से एक चुनें।",
+    "source": "431be017d2c5"
   },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "अभी कोई पंक्ति नहीं: शब्दों की हर पंक्ति बारी-बारी से पढ़ी जाती है।",
@@ -20153,10 +20157,6 @@
   "video.play-forward": {
     "text": "आगे की ओर चलाएँ",
     "source": "18d1c1674140"
-  },
-  "spoken.voices.play-the-voice": {
-    "text": "आवाज़ चलाएँ",
-    "source": "df7413e04bae"
   },
   "spoken.voices.play-the-voice-of-this-line": {
     "text": "इस पंक्ति की आवाज़ चलाएँ",
@@ -25357,10 +25357,6 @@
     "text": "पंक्ति और स्तंभ शीर्षक दिखाएँ",
     "source": "4f7b9dcce409"
   },
-  "spoken.voices.show-the-text": {
-    "text": "टेक्स्ट दिखाएँ",
-    "source": "0766a87f94ec"
-  },
   "sheets.dialogs.show-them-as": {
     "text": "इन्हें इस रूप में दिखाएँ",
     "source": "6380dba9f992"
@@ -26200,6 +26196,14 @@
   "video.sound-clip": {
     "text": "ध्वनि क्लिप",
     "source": "556f55adc8bd"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "शब्द ज़ोर से पढ़ें",
+    "source": "f8bde48fd589"
+  },
+  "studio.spoken-run.show-the-words": {
+    "text": "शब्द दिखाएँ",
+    "source": "a64d13b0ead9"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "ध्वनि चालू नहीं है, इसलिए आवाज़ न रिकॉर्डिंग में है न स्ट्रीम में।",
@@ -27803,6 +27807,10 @@
   "video.starters.thank-you-for-watching": {
     "text": "देखने के लिए धन्यवाद",
     "source": "c708e3d71205"
+  },
+  "common.text-to-speech": {
+    "text": "टेक्स्ट से आवाज़",
+    "source": "71e02f22899a"
   },
   "common.thanks-for-watching": {
     "text": "देखने के लिए धन्यवाद",
@@ -29497,6 +29505,22 @@
     "text": "इस प्रोजेक्ट के वीडियो, ध्वनियाँ और चित्र यहाँ रखे जाते हैं, ताकि फिर से जोड़े जा सकें।",
     "source": "4075715096b2"
   },
+  "spoken.voices.read-aloud-only": {
+    "text": "केवल ज़ोर से पढ़ें",
+    "source": "3953b35ec0c1"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "शॉर्टकट: बॉक्स में Ctrl+Enter",
+    "source": "46629f7a364b"
+  },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "दिखाएँ और ज़ोर से पढ़ें",
+    "source": "cad1b91fa8e8"
+  },
+  "spoken.voices.show-only": {
+    "text": "केवल दिखाएँ",
+    "source": "a8d71c961005"
+  },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "इस पंक्ति के लिए आवाज़ से कोई ध्वनि नहीं मिली।",
     "source": "53613e120fbf"
@@ -30931,6 +30955,10 @@
     "text": "समय क्षेत्र",
     "source": "1b0013ea667e"
   },
+  "video.ribbon.spoken-words": {
+    "text": "बोले जाने वाले शब्द",
+    "source": "b5f7a276ab16"
+  },
   "video.ribbon.timeline": {
     "text": "टाइमलाइन",
     "source": "9dcff98e275f"
@@ -32002,6 +32030,10 @@
     "text": "शीर्षकहीन स्लाइड",
     "source": "1eadae5cbf64"
   },
+  "video.type-words-to-show-read-aloud": {
+    "text": "प्लेहेड पर शब्द लिखें: दिखाने, ज़ोर से पढ़ने या दोनों के लिए",
+    "source": "af653107afac"
+  },
   "video.untitled-video": {
     "text": "शीर्षकहीन वीडियो",
     "source": "a7e5acfa45bc"
@@ -32736,6 +32768,10 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "AI टूल हर एक के साथ क्या कर सकते हैं। जब तक आप न चुनें सब कुछ बंद है। यही सेटिंग्स AI टूल में भी हैं।",
     "source": "14310670b45f"
+  },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "बोलने के लिए शब्द लिखें, हर पंक्ति में एक बात",
+    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "पंक्तियों का काम",
@@ -37645,5 +37681,17 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ या अधिक",
     "source": "20160df989ba"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "बोलने के लिए शब्द",
+    "source": "3353415dcf6a"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "साथ-साथ शब्द लिखें: दिखाने, ज़ोर से पढ़ने या दोनों के लिए",
+    "source": "ab4c38c0c662"
+  },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "शब्द प्लेहेड पर आते हैं, एक पंक्ति के बाद दूसरी, तस्वीर के ऊपर।",
+    "source": "841b57677821"
   }
 }
