@@ -64,9 +64,9 @@ test('a bad publish is caught: a changed file, a missing asset, a feed under the
 test('lang-en must be byte for byte the copy Office\'s tag carries', async () => {
   const r = release();
   const office = tmp();
-  const copy = path.join(office, 'resources/languages/lang-en');
+  const copy = path.join(office, 'apps/desktop/resources/languages/lang-en');
   fs.cpSync(path.join(r.dist, 'lang-en'), copy, { recursive: true });
-  fs.copyFileSync(path.join(r.dist, 'lang-en.pack.json'), path.join(office, 'resources/languages/lang-en.pack.json'));
+  fs.copyFileSync(path.join(r.dist, 'lang-en.pack.json'), path.join(office, 'apps/desktop/resources/languages/lang-en.pack.json'));
   const ok = await verifyRelease({ version: V, base: releaseUrl(V), keys: r.keys, fetchBytes: r.fetchBytes, office });
   assert.deepEqual(ok.faults, []);
   fs.writeFileSync(path.join(copy, 'data.txt'), 'a different English');
@@ -74,8 +74,8 @@ test('lang-en must be byte for byte the copy Office\'s tag carries', async () =>
   assert.match(bad.faults.join(), /lang-en\/data\.txt: not the copy Office 2\.26\.0 carries/);
 
   // An earlier fallback copy in the tag: reported as lagging, not a fault.
-  const env = JSON.parse(fs.readFileSync(path.join(office, 'resources/languages/lang-en.pack.json'), 'utf8'));
-  fs.writeFileSync(path.join(office, 'resources/languages/lang-en.pack.json'), JSON.stringify({ ...env, manifest: { ...env.manifest, version: '2.25.0', revision: 3 } }));
+  const env = JSON.parse(fs.readFileSync(path.join(office, 'apps/desktop/resources/languages/lang-en.pack.json'), 'utf8'));
+  fs.writeFileSync(path.join(office, 'apps/desktop/resources/languages/lang-en.pack.json'), JSON.stringify({ ...env, manifest: { ...env.manifest, version: '2.25.0', revision: 3 } }));
   const lag = await verifyRelease({ version: V, base: releaseUrl(V), keys: r.keys, fetchBytes: r.fetchBytes, office });
   assert.deepEqual(lag.faults, []);
   assert.match(lag.notes.join(), /carries 2\.25\.0 revision 3, the earlier fallback; its copy lags/);

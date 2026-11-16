@@ -32,7 +32,7 @@
 //      dist/vX/, and checks every manifest there against the core and every
 //      `requires` against the others. English is the one exception: Office
 //      keeps a byte-for-byte copy of the released lang-en at
-//      resources/languages/lang-en/ (owner, D-2026-11-13-11; core row C15),
+//      apps/desktop/resources/languages/lang-en/ (owner, D-2026-11-13-11; core row C15),
 //      built from the frozen candidate and signed before Office's record
 //      run. When Office's tag has that copy, vX publishes exactly it,
 //      envelope and all, in place of a rebuild, and it is never signed again.
@@ -130,12 +130,12 @@ export function officeClone(root, pin) {
 }
 
 /** Where Office keeps its copy of the released English pack (C15). */
-export const OFFICE_ENGLISH = ['resources', 'languages'];
+export const OFFICE_ENGLISH = ['apps', 'desktop', 'resources', 'languages'];
 const sha512 = (file) => crypto.createHash('sha512').update(fs.readFileSync(file)).digest('base64');
 
 /**
  * The signed packs Office's tag carries (today only lang-en), checked: the
- * envelope beside the folder (resources/languages/lang-en.pack.json, its one
+ * envelope beside the folder (apps/desktop/resources/languages/lang-en.pack.json, its one
  * place, so a misplaced copy fails), and every file it lists present with
  * its size and SHA-512. The signature itself is checked by the feed step and
  * the post-release check, with the public keys.

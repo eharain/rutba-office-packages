@@ -67,14 +67,14 @@ test('English: the signed lang-en in Office\'s tag is published as it is, in pla
   const en = manifest('lang-en', { kind: 'language', status: 'source' });
   write(path.join(root, 'languages/dist/v2.26.0/lang-en/manifest.json'), { ...en, labels: 'rebuilt' });
   write(path.join(root, 'languages/dist/v2.26.0/lang-en/messages.json'), '{"rebuilt":true}');
-  const copy = path.join(office, 'resources/languages/lang-en');
+  const copy = path.join(office, 'apps/desktop/resources/languages/lang-en');
   write(path.join(copy, 'manifest.json'), en);
   write(path.join(copy, 'messages.json'), '{"frozen":true}');
   const sha = (t) => crypto.createHash('sha512').update(t).digest('base64');
   const text = JSON.stringify(en, null, 2);
   const files = { 'manifest.json': { size: text.length, sha512: sha(text) }, 'messages.json': { size: 15, sha512: sha('{"frozen":true}') } };
   const envelope = { format: 'rutba-office-pack', keyId: '0123456789abcdef', manifest: { ...en, files }, signature: 'c2lnbmVk' };
-  write(path.join(office, 'resources/languages/lang-en.pack.json'), envelope);
+  write(path.join(office, 'apps/desktop/resources/languages/lang-en.pack.json'), envelope);
   const g = gather(root, '2.26.0', { office });
   assert.deepEqual(g.faults, []);
   assert.deepEqual(g.presigned, ['lang-en']);
@@ -87,7 +87,7 @@ test('English: the signed lang-en in Office\'s tag is published as it is, in pla
   write(path.join(copy, 'lang-en.pack.json'), envelope);
   assert.ok(gather(root, '2.26.0', { office }).faults.some((f) => /an envelope inside Office's lang-en\/ folder/.test(f)), 'its one place is beside the folder');
   fs.rmSync(path.join(copy, 'lang-en.pack.json'));
-  fs.rmSync(path.join(office, 'resources/languages/lang-en.pack.json'));
+  fs.rmSync(path.join(office, 'apps/desktop/resources/languages/lang-en.pack.json'));
   assert.ok(gather(root, '2.26.0', { office }).faults.some((f) => /no lang-en\.pack\.json beside its folder/.test(f)));
   assert.deepEqual(gather(root, '2.26.0', { office: tmp() }).presigned, [], 'a tag with no copy: the one built here is used');
 });
@@ -98,8 +98,8 @@ test('English: an earlier fallback copy in Office\'s tag is reported, never publ
   write(path.join(root, 'languages/dist/v2.26.0/lang-en/manifest.json'), manifest('lang-en', { kind: 'language', status: 'source' }));
   write(path.join(root, 'languages/dist/v2.26.0/lang-en/messages.json'), '{"built":"for 2.26.0"}');
   const old = manifest('lang-en', { kind: 'language', status: 'source', version: '2.25.0', revision: 2 });
-  write(path.join(office, 'resources/languages/lang-en/manifest.json'), old);
-  write(path.join(office, 'resources/languages/lang-en.pack.json'), { format: 'rutba-office-pack', keyId: '0123456789abcdef', manifest: { ...old, files: {} }, signature: 'c2lnbmVk' });
+  write(path.join(office, 'apps/desktop/resources/languages/lang-en/manifest.json'), old);
+  write(path.join(office, 'apps/desktop/resources/languages/lang-en.pack.json'), { format: 'rutba-office-pack', keyId: '0123456789abcdef', manifest: { ...old, files: {} }, signature: 'c2lnbmVk' });
   const g = gather(root, '2.26.0', { office });
   assert.deepEqual(g.faults, [], 'not a fault');
   assert.deepEqual(g.presigned, [], 'not published as it is');
