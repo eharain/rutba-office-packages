@@ -1,12 +1,12 @@
 {
-  "office": "../.cache/office/aaffc79046ed5125ee8c3fea6b297589ec7936cf",
+  "office": "../.cache/office/f0e91fbd3d797c4236a174ef896b5e6ad9385b6b",
   "places": {
     "main process": {
       "count": 472,
       "examples": [
         "apps/desktop/main/addons-service.js:227  The list of add-ons is not signed by Rutba.",
         "apps/desktop/main/addons-service.js:488  This copy of Rutba Office has no add-ons folder.",
-        "apps/desktop/main/addons-service.js:715  English is part of Rutba Office.",
+        "apps/desktop/main/addons-service.js:722  English is part of Rutba Office.",
         "apps/desktop/main/ai-tools.js:149  A connection needs its process.",
         "apps/desktop/main/ai-tools.js:155  Rutba Office’s AI tools are off.",
         "apps/desktop/main/ai-tools.js:275  That is no longer there.",
@@ -49,7 +49,7 @@
   "outside": {
     "release notes (docs/releases, shown in What's new)": {
       "files": 101,
-      "words": 99702
+      "words": 99836
     },
     "installer": "made from the catalogues by tools/make-installer-words.mjs, so its words are in the registry"
   }
