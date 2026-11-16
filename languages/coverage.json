@@ -1,5 +1,5 @@
 {
-  "office": "../.cache/office/894060c3d2702631444665f450e53d637b22e11c",
+  "office": "../.cache/office/defee7f96d2cc8adfd0455c0560fd5da85dd6000",
   "places": {
     "main process": {
       "count": 472,
@@ -49,7 +49,7 @@
   "outside": {
     "release notes (docs/releases, shown in What's new)": {
       "files": 100,
-      "words": 98336
+      "words": 99319
     },
     "installer": "made from the catalogues by tools/make-installer-words.mjs, so its words are in the registry"
   }
