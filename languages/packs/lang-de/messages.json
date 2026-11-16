@@ -7299,6 +7299,10 @@
     "text": "Standardtext für Eingabe:",
     "source": "1ca5261f109b"
   },
+  "voices-dialog.default-voice": {
+    "text": "Standardstimme",
+    "source": "47813ba0bdf5"
+  },
   "ui.proofing.default": {
     "text": "Standard:",
     "source": "d1f6d9e71b8b"
@@ -11629,6 +11633,10 @@
     "text": "Gesundheit, Bildung und Gemeinschaft",
     "source": "9ba622539955"
   },
+  "studio.spoken-run.hear-the-voice-on-this-computer": {
+    "text": "Stimme auf diesem Computer hören",
+    "source": "7e2ead0e8ef0"
+  },
   "common.heart": {
     "text": "Herz",
     "source": "770af9d18037"
@@ -15194,6 +15202,10 @@
   "mail.dialogs.make-an-app-password-for-provider": {
     "text": "App-Kennwort für {provider} erstellen: {url}",
     "source": "4692aae24706"
+  },
+  "voices-dialog.make-default": {
+    "text": "Als Standard festlegen",
+    "source": "f43b94251094"
   },
   "mail.make-folder": {
     "text": "Ordner erstellen",
@@ -28358,6 +28370,10 @@
     "text": "Der Standardbrowser",
     "source": "c3104199f90d"
   },
+  "voices-dialog.the-default-voice-is-used-in": {
+    "text": "Die Standardstimme wird in „Laut vorlesen“ und für gesprochene Wörter verwendet, sofern du dort keine andere auswählst. Ohne Standardstimme verwendet „Laut vorlesen“ die Systemstimme.",
+    "source": "71a36b6ff540"
+  },
   "base.the-design-is-up-to-date": {
     "forms": {
       "one": "Der Entwurf ist aktuell: {count} Änderung, deine Datensätze wie zuvor.",
@@ -29524,6 +29540,10 @@
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "Die Stimme hat für diese Zeile keinen Ton geliefert.",
     "source": "53613e120fbf"
+  },
+  "studio.spoken-run.the-voice-plays-on-this-computer": {
+    "text": "Die Stimme wird auf diesem Computer wiedergegeben, während sie in die Aufzeichnung oder den Stream geht. Verwende bei eingeschaltetem Mikrofon Kopfhörer, sonst wird sie ein zweites Mal aufgenommen.",
+    "source": "079e77f7f0b5"
   },
   "spoken.voices.the-voice-was-stopped-before-this": {
     "text": "Die Stimme wurde gestoppt, bevor diese Zeile erstellt wurde.",

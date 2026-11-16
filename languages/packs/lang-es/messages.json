@@ -7315,6 +7315,10 @@
     "text": "Texto de relleno predeterminado:",
     "source": "1ca5261f109b"
   },
+  "voices-dialog.default-voice": {
+    "text": "Voz predeterminada",
+    "source": "47813ba0bdf5"
+  },
   "ui.proofing.default": {
     "text": "Predeterminado:",
     "source": "d1f6d9e71b8b"
@@ -11655,6 +11659,10 @@
     "text": "Salud, formación y comunidad",
     "source": "9ba622539955"
   },
+  "studio.spoken-run.hear-the-voice-on-this-computer": {
+    "text": "Oír la voz en este equipo",
+    "source": "7e2ead0e8ef0"
+  },
   "common.heart": {
     "text": "Corazón",
     "source": "770af9d18037"
@@ -15230,6 +15238,10 @@
   "mail.dialogs.make-an-app-password-for-provider": {
     "text": "Crear una contraseña de aplicación para {provider}: {url}",
     "source": "4692aae24706"
+  },
+  "voices-dialog.make-default": {
+    "text": "Establecer como predeterminada",
+    "source": "f43b94251094"
   },
   "mail.make-folder": {
     "text": "Crear carpeta",
@@ -28419,6 +28431,10 @@
     "text": "El navegador predeterminado",
     "source": "c3104199f90d"
   },
+  "voices-dialog.the-default-voice-is-used-in": {
+    "text": "La voz predeterminada se usa en Leer en voz alta y para las palabras habladas, salvo que elijas otra allí. Si no hay voz predeterminada, Leer en voz alta usa la voz del sistema.",
+    "source": "71a36b6ff540"
+  },
   "base.the-design-is-up-to-date": {
     "forms": {
       "many": "El diseño está actualizado: {count} de cambios, tus registros como estaban.",
@@ -29590,6 +29606,10 @@
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "La voz no produjo ningún sonido para esta línea.",
     "source": "53613e120fbf"
+  },
+  "studio.spoken-run.the-voice-plays-on-this-computer": {
+    "text": "La voz se reproduce en este equipo mientras entra en la grabación o la transmisión. Con un micrófono activado, usa auriculares o se captará una segunda vez.",
+    "source": "079e77f7f0b5"
   },
   "spoken.voices.the-voice-was-stopped-before-this": {
     "text": "La voz se detuvo antes de que se creara esta línea.",

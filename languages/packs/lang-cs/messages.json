@@ -7331,6 +7331,10 @@
     "text": "Výchozí text pro vyplnění:",
     "source": "1ca5261f109b"
   },
+  "voices-dialog.default-voice": {
+    "text": "Výchozí hlas",
+    "source": "47813ba0bdf5"
+  },
   "ui.proofing.default": {
     "text": "Výchozí:",
     "source": "d1f6d9e71b8b"
@@ -11681,6 +11685,10 @@
     "text": "Zdraví, vzdělávání a komunita",
     "source": "9ba622539955"
   },
+  "studio.spoken-run.hear-the-voice-on-this-computer": {
+    "text": "Slyšet hlas na tomto počítači",
+    "source": "7e2ead0e8ef0"
+  },
   "common.heart": {
     "text": "Srdce",
     "source": "770af9d18037"
@@ -15266,6 +15274,10 @@
   "mail.dialogs.make-an-app-password-for-provider": {
     "text": "Vytvořit heslo aplikace pro {provider}: {url}",
     "source": "4692aae24706"
+  },
+  "voices-dialog.make-default": {
+    "text": "Nastavit jako výchozí",
+    "source": "f43b94251094"
   },
   "mail.make-folder": {
     "text": "Vytvořit složku",
@@ -28480,6 +28492,10 @@
     "text": "Výchozí prohlížeč",
     "source": "c3104199f90d"
   },
+  "voices-dialog.the-default-voice-is-used-in": {
+    "text": "Výchozí hlas se používá ve funkci Číst nahlas a pro mluvená slova, pokud tam nevyberete jiný. Bez výchozího hlasu používá funkce Číst nahlas systémový hlas.",
+    "source": "71a36b6ff540"
+  },
   "base.the-design-is-up-to-date": {
     "forms": {
       "few": "Návrh je aktuální: {count} změny, vaše záznamy zůstaly beze změny.",
@@ -29656,6 +29672,10 @@
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "Hlas pro tento řádek nevydal žádný zvuk.",
     "source": "53613e120fbf"
+  },
+  "studio.spoken-run.the-voice-plays-on-this-computer": {
+    "text": "Hlas se přehrává na tomto počítači, když jde do nahrávky nebo do vysílání. Se zapnutým mikrofonem použijte sluchátka, jinak se zachytí podruhé.",
+    "source": "079e77f7f0b5"
   },
   "spoken.voices.the-voice-was-stopped-before-this": {
     "text": "Hlas byl zastaven dříve, než byl tento řádek vytvořen.",

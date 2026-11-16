@@ -7299,6 +7299,10 @@
     "text": "Standaardtekst om in te vullen:",
     "source": "1ca5261f109b"
   },
+  "voices-dialog.default-voice": {
+    "text": "Standaardstem",
+    "source": "47813ba0bdf5"
+  },
   "ui.proofing.default": {
     "text": "Standaard:",
     "source": "d1f6d9e71b8b"
@@ -11629,6 +11633,10 @@
     "text": "Zorg, onderwijs en gemeenschap",
     "source": "9ba622539955"
   },
+  "studio.spoken-run.hear-the-voice-on-this-computer": {
+    "text": "De stem op deze computer horen",
+    "source": "7e2ead0e8ef0"
+  },
   "common.heart": {
     "text": "Hart",
     "source": "770af9d18037"
@@ -15194,6 +15202,10 @@
   "mail.dialogs.make-an-app-password-for-provider": {
     "text": "Een app-wachtwoord maken voor {provider}: {url}",
     "source": "4692aae24706"
+  },
+  "voices-dialog.make-default": {
+    "text": "Als standaard instellen",
+    "source": "f43b94251094"
   },
   "mail.make-folder": {
     "text": "Map maken",
@@ -28358,6 +28370,10 @@
     "text": "De standaardbrowser",
     "source": "c3104199f90d"
   },
+  "voices-dialog.the-default-voice-is-used-in": {
+    "text": "De standaardstem wordt gebruikt in Voorlezen en voor gesproken woorden, tenzij je daar een andere kiest. Zonder standaardstem gebruikt Voorlezen de systeemstem.",
+    "source": "71a36b6ff540"
+  },
   "base.the-design-is-up-to-date": {
     "forms": {
       "one": "Het ontwerp is bijgewerkt: {count} wijziging, je records zijn zoals ze waren.",
@@ -29524,6 +29540,10 @@
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "De stem gaf geen geluid voor deze regel.",
     "source": "53613e120fbf"
+  },
+  "studio.spoken-run.the-voice-plays-on-this-computer": {
+    "text": "De stem wordt op deze computer afgespeeld terwijl ze de opname of de stream in gaat. Gebruik een koptelefoon als een microfoon aan staat, anders wordt ze een tweede keer opgepikt.",
+    "source": "079e77f7f0b5"
   },
   "spoken.voices.the-voice-was-stopped-before-this": {
     "text": "De stem werd gestopt voordat deze regel gemaakt was.",

@@ -7315,6 +7315,10 @@
     "text": "Text implicit completare:",
     "source": "1ca5261f109b"
   },
+  "voices-dialog.default-voice": {
+    "text": "Voce implicită",
+    "source": "47813ba0bdf5"
+  },
   "ui.proofing.default": {
     "text": "Implicit:",
     "source": "d1f6d9e71b8b"
@@ -11655,6 +11659,10 @@
     "text": "Sănătate, educație și comunitate",
     "source": "9ba622539955"
   },
+  "studio.spoken-run.hear-the-voice-on-this-computer": {
+    "text": "Ascultați vocea pe acest computer",
+    "source": "7e2ead0e8ef0"
+  },
   "common.heart": {
     "text": "Inimă",
     "source": "770af9d18037"
@@ -15230,6 +15238,10 @@
   "mail.dialogs.make-an-app-password-for-provider": {
     "text": "Creare parolă de aplicație pentru {provider}: {url}",
     "source": "4692aae24706"
+  },
+  "voices-dialog.make-default": {
+    "text": "Setare ca implicită",
+    "source": "f43b94251094"
   },
   "mail.make-folder": {
     "text": "Creare folder",
@@ -28419,6 +28431,10 @@
     "text": "Browserul implicit",
     "source": "c3104199f90d"
   },
+  "voices-dialog.the-default-voice-is-used-in": {
+    "text": "Vocea implicită este folosită în Citire cu voce tare și pentru cuvintele rostite, dacă nu alegeți alta acolo. Fără o voce implicită, Citire cu voce tare folosește vocea de sistem.",
+    "source": "71a36b6ff540"
+  },
   "base.the-design-is-up-to-date": {
     "forms": {
       "few": "Structura este la zi: {count} modificări, înregistrările dvs. au rămas la fel.",
@@ -29590,6 +29606,10 @@
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "Vocea nu a produs niciun sunet pentru acest rând.",
     "source": "53613e120fbf"
+  },
+  "studio.spoken-run.the-voice-plays-on-this-computer": {
+    "text": "Vocea este redată pe acest computer în timp ce intră în înregistrare sau în flux. Cu un microfon pornit, folosiți căști, altfel este captată a doua oară.",
+    "source": "079e77f7f0b5"
   },
   "spoken.voices.the-voice-was-stopped-before-this": {
     "text": "Vocea a fost oprită înainte ca acest rând să fie generat.",

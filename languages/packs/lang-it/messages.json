@@ -7315,6 +7315,10 @@
     "text": "Testo di compilazione predefinito:",
     "source": "1ca5261f109b"
   },
+  "voices-dialog.default-voice": {
+    "text": "Voce predefinita",
+    "source": "47813ba0bdf5"
+  },
   "ui.proofing.default": {
     "text": "Predefinita:",
     "source": "d1f6d9e71b8b"
@@ -11655,6 +11659,10 @@
     "text": "Salute, istruzione e comunità",
     "source": "9ba622539955"
   },
+  "studio.spoken-run.hear-the-voice-on-this-computer": {
+    "text": "Ascolta la voce su questo computer",
+    "source": "7e2ead0e8ef0"
+  },
   "common.heart": {
     "text": "Cuore",
     "source": "770af9d18037"
@@ -15230,6 +15238,10 @@
   "mail.dialogs.make-an-app-password-for-provider": {
     "text": "Crea una password per le app per {provider}: {url}",
     "source": "4692aae24706"
+  },
+  "voices-dialog.make-default": {
+    "text": "Imposta come predefinita",
+    "source": "f43b94251094"
   },
   "mail.make-folder": {
     "text": "Crea cartella",
@@ -28419,6 +28431,10 @@
     "text": "Il browser predefinito",
     "source": "c3104199f90d"
   },
+  "voices-dialog.the-default-voice-is-used-in": {
+    "text": "La voce predefinita viene usata in Leggi ad alta voce e per le parole pronunciate, a meno che tu non ne scelga un'altra lì. Senza voce predefinita, Leggi ad alta voce usa la voce di sistema.",
+    "source": "71a36b6ff540"
+  },
   "base.the-design-is-up-to-date": {
     "forms": {
       "many": "La struttura è aggiornata: {count} di modifiche, i tuoi record come erano.",
@@ -29590,6 +29606,10 @@
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "La voce non ha prodotto alcun suono per questa riga.",
     "source": "53613e120fbf"
+  },
+  "studio.spoken-run.the-voice-plays-on-this-computer": {
+    "text": "La voce viene riprodotta su questo computer mentre entra nella registrazione o nello streaming. Con un microfono attivo, usa le cuffie, altrimenti viene captata una seconda volta.",
+    "source": "079e77f7f0b5"
   },
   "spoken.voices.the-voice-was-stopped-before-this": {
     "text": "La voce è stata interrotta prima che questa riga fosse generata.",

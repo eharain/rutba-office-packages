@@ -2,7 +2,7 @@
   "id": "lang-zh-hans",
   "kind": "language",
   "format": 1,
-  "version": "2.26.0",
+  "version": "2.26.1",
   "revision": 1,
   "tag": "zh-Hans",
   "tags": [
@@ -23,7 +23,7 @@
   "pluralForms": [
     "other"
   ],
-  "labels": 9225,
+  "labels": 9230,
   "status": "draft",
   "review": "machine translation, offered as a draft until its wording is settled",
   "madeFrom": "lang-en"

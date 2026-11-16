@@ -7315,6 +7315,10 @@
     "text": "Texte de remplissage par défaut :",
     "source": "1ca5261f109b"
   },
+  "voices-dialog.default-voice": {
+    "text": "Voix par défaut",
+    "source": "47813ba0bdf5"
+  },
   "ui.proofing.default": {
     "text": "Par défaut :",
     "source": "d1f6d9e71b8b"
@@ -11655,6 +11659,10 @@
     "text": "Santé, enseignement et vie associative",
     "source": "9ba622539955"
   },
+  "studio.spoken-run.hear-the-voice-on-this-computer": {
+    "text": "Entendre la voix sur cet ordinateur",
+    "source": "7e2ead0e8ef0"
+  },
   "common.heart": {
     "text": "Cœur",
     "source": "770af9d18037"
@@ -15230,6 +15238,10 @@
   "mail.dialogs.make-an-app-password-for-provider": {
     "text": "Créer un mot de passe d'application pour {provider} : {url}",
     "source": "4692aae24706"
+  },
+  "voices-dialog.make-default": {
+    "text": "Définir par défaut",
+    "source": "f43b94251094"
   },
   "mail.make-folder": {
     "text": "Créer un dossier",
@@ -28419,6 +28431,10 @@
     "text": "Le navigateur par défaut",
     "source": "c3104199f90d"
   },
+  "voices-dialog.the-default-voice-is-used-in": {
+    "text": "La voix par défaut est utilisée dans Lecture à voix haute et pour les mots prononcés, sauf si vous en choisissez une autre à cet endroit. Sans voix par défaut, Lecture à voix haute utilise la voix du système.",
+    "source": "71a36b6ff540"
+  },
   "base.the-design-is-up-to-date": {
     "forms": {
       "many": "La structure est à jour : {count} de modifications, vos enregistrements inchangés.",
@@ -29590,6 +29606,10 @@
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "La voix n'a produit aucun son pour cette ligne.",
     "source": "53613e120fbf"
+  },
+  "studio.spoken-run.the-voice-plays-on-this-computer": {
+    "text": "La voix est lue sur cet ordinateur pendant qu'elle entre dans l'enregistrement ou le flux. Si un microphone est activé, utilisez un casque, sinon elle est captée une seconde fois.",
+    "source": "079e77f7f0b5"
   },
   "spoken.voices.the-voice-was-stopped-before-this": {
     "text": "La voix a été arrêtée avant que cette ligne soit créée.",

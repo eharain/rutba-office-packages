@@ -7299,6 +7299,10 @@
     "text": "डिफ़ॉल्ट भरण टेक्स्ट:",
     "source": "1ca5261f109b"
   },
+  "voices-dialog.default-voice": {
+    "text": "डिफ़ॉल्ट आवाज़",
+    "source": "47813ba0bdf5"
+  },
   "ui.proofing.default": {
     "text": "डिफ़ॉल्ट:",
     "source": "d1f6d9e71b8b"
@@ -11629,6 +11633,10 @@
     "text": "स्वास्थ्य, शिक्षा और समुदाय",
     "source": "9ba622539955"
   },
+  "studio.spoken-run.hear-the-voice-on-this-computer": {
+    "text": "इस कंप्यूटर पर आवाज़ सुनें",
+    "source": "7e2ead0e8ef0"
+  },
   "common.heart": {
     "text": "दिल",
     "source": "770af9d18037"
@@ -15194,6 +15202,10 @@
   "mail.dialogs.make-an-app-password-for-provider": {
     "text": "{provider} के लिए ऐप पासवर्ड बनाएँ: {url}",
     "source": "4692aae24706"
+  },
+  "voices-dialog.make-default": {
+    "text": "डिफ़ॉल्ट बनाएँ",
+    "source": "f43b94251094"
   },
   "mail.make-folder": {
     "text": "फ़ोल्डर बनाएँ",
@@ -28358,6 +28370,10 @@
     "text": "डिफ़ॉल्ट ब्राउज़र",
     "source": "c3104199f90d"
   },
+  "voices-dialog.the-default-voice-is-used-in": {
+    "text": "ज़ोर से पढ़ें और बोले जाने वाले शब्दों में डिफ़ॉल्ट आवाज़ इस्तेमाल होती है, जब तक आप वहाँ कोई और न चुनें। डिफ़ॉल्ट न होने पर ज़ोर से पढ़ें सिस्टम की आवाज़ इस्तेमाल करता है।",
+    "source": "71a36b6ff540"
+  },
   "base.the-design-is-up-to-date": {
     "forms": {
       "one": "डिज़ाइन अद्यतन है: {count} बदलाव, आपके रिकॉर्ड जैसे थे।",
@@ -29524,6 +29540,10 @@
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "इस पंक्ति के लिए आवाज़ से कोई ध्वनि नहीं मिली।",
     "source": "53613e120fbf"
+  },
+  "studio.spoken-run.the-voice-plays-on-this-computer": {
+    "text": "आवाज़ रिकॉर्डिंग या स्ट्रीम में जाते समय इस कंप्यूटर पर भी चलती है। माइक्रोफ़ोन चालू हो तो हेडफ़ोन इस्तेमाल करें, नहीं तो आवाज़ दोबारा पकड़ी जाएगी।",
+    "source": "079e77f7f0b5"
   },
   "spoken.voices.the-voice-was-stopped-before-this": {
     "text": "यह पंक्ति बनने से पहले आवाज़ रोक दी गई।",

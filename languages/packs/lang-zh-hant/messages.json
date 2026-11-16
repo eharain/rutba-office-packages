@@ -7283,6 +7283,10 @@
     "text": "預設填入文字：",
     "source": "1ca5261f109b"
   },
+  "voices-dialog.default-voice": {
+    "text": "預設語音",
+    "source": "47813ba0bdf5"
+  },
   "ui.proofing.default": {
     "text": "預設：",
     "source": "d1f6d9e71b8b"
@@ -11603,6 +11607,10 @@
     "text": "醫療、教育與社區",
     "source": "9ba622539955"
   },
+  "studio.spoken-run.hear-the-voice-on-this-computer": {
+    "text": "在這部電腦上聽到語音",
+    "source": "7e2ead0e8ef0"
+  },
   "common.heart": {
     "text": "心形",
     "source": "770af9d18037"
@@ -15158,6 +15166,10 @@
   "mail.dialogs.make-an-app-password-for-provider": {
     "text": "為 {provider} 建立應用程式密碼：{url}",
     "source": "4692aae24706"
+  },
+  "voices-dialog.make-default": {
+    "text": "設為預設",
+    "source": "f43b94251094"
   },
   "mail.make-folder": {
     "text": "建立資料夾",
@@ -28297,6 +28309,10 @@
     "text": "預設瀏覽器",
     "source": "c3104199f90d"
   },
+  "voices-dialog.the-default-voice-is-used-in": {
+    "text": "「大聲朗讀」和朗讀文字會使用預設語音，除非您在那裡選擇了其他語音。沒有預設語音時，「大聲朗讀」會使用系統語音。",
+    "source": "71a36b6ff540"
+  },
   "base.the-design-is-up-to-date": {
     "forms": {
       "other": "設計已是最新：{count} 個變更，您的記錄保持原樣。"
@@ -29458,6 +29474,10 @@
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "這一行的語音沒有發出聲音。",
     "source": "53613e120fbf"
+  },
+  "studio.spoken-run.the-voice-plays-on-this-computer": {
+    "text": "語音在進入錄製或串流的同時，也會在這部電腦上播放。麥克風開啟時請使用耳機，否則語音會被再次收錄。",
+    "source": "079e77f7f0b5"
   },
   "spoken.voices.the-voice-was-stopped-before-this": {
     "text": "語音在這一行產生前已被停止。",

@@ -7331,6 +7331,10 @@
     "text": "Domyślny tekst wypełnienia:",
     "source": "1ca5261f109b"
   },
+  "voices-dialog.default-voice": {
+    "text": "Głos domyślny",
+    "source": "47813ba0bdf5"
+  },
   "ui.proofing.default": {
     "text": "Domyślny:",
     "source": "d1f6d9e71b8b"
@@ -11681,6 +11685,10 @@
     "text": "Zdrowie, edukacja i społeczność",
     "source": "9ba622539955"
   },
+  "studio.spoken-run.hear-the-voice-on-this-computer": {
+    "text": "Słuchaj głosu na tym komputerze",
+    "source": "7e2ead0e8ef0"
+  },
   "common.heart": {
     "text": "Serce",
     "source": "770af9d18037"
@@ -15266,6 +15274,10 @@
   "mail.dialogs.make-an-app-password-for-provider": {
     "text": "Utwórz hasło aplikacji dla dostawcy {provider}: {url}",
     "source": "4692aae24706"
+  },
+  "voices-dialog.make-default": {
+    "text": "Ustaw jako domyślny",
+    "source": "f43b94251094"
   },
   "mail.make-folder": {
     "text": "Utwórz folder",
@@ -28480,6 +28492,10 @@
     "text": "Domyślna przeglądarka",
     "source": "c3104199f90d"
   },
+  "voices-dialog.the-default-voice-is-used-in": {
+    "text": "Głos domyślny jest używany w funkcji Czytaj na głos i dla wypowiadanych słów, chyba że wybierzesz tam inny. Bez głosu domyślnego funkcja Czytaj na głos używa głosu systemowego.",
+    "source": "71a36b6ff540"
+  },
   "base.the-design-is-up-to-date": {
     "forms": {
       "few": "Projekt jest aktualny: {count} zmiany, rekordy bez zmian.",
@@ -29656,6 +29672,10 @@
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "Dla tego wiersza głos nie wydał żadnego dźwięku.",
     "source": "53613e120fbf"
+  },
+  "studio.spoken-run.the-voice-plays-on-this-computer": {
+    "text": "Głos jest odtwarzany na tym komputerze, gdy trafia do nagrania lub transmisji. Przy włączonym mikrofonie użyj słuchawek, inaczej zostanie nagrany po raz drugi.",
+    "source": "079e77f7f0b5"
   },
   "spoken.voices.the-voice-was-stopped-before-this": {
     "text": "Głos został zatrzymany, zanim utworzono ten wiersz.",

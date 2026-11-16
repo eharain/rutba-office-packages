@@ -7363,6 +7363,10 @@
     "text": "نص التعبئة الافتراضي:",
     "source": "1ca5261f109b"
   },
+  "voices-dialog.default-voice": {
+    "text": "الصوت الافتراضي",
+    "source": "47813ba0bdf5"
+  },
   "ui.proofing.default": {
     "text": "الافتراضي:",
     "source": "d1f6d9e71b8b"
@@ -11733,6 +11737,10 @@
     "text": "الصحة والتعليم والمجتمع",
     "source": "9ba622539955"
   },
+  "studio.spoken-run.hear-the-voice-on-this-computer": {
+    "text": "سماع الصوت على هذا الكمبيوتر",
+    "source": "7e2ead0e8ef0"
+  },
   "common.heart": {
     "text": "قلب",
     "source": "770af9d18037"
@@ -15338,6 +15346,10 @@
   "mail.dialogs.make-an-app-password-for-provider": {
     "text": "إنشاء كلمة مرور للتطبيق لدى {provider}: {url}",
     "source": "4692aae24706"
+  },
+  "voices-dialog.make-default": {
+    "text": "تعيين كافتراضي",
+    "source": "f43b94251094"
   },
   "mail.make-folder": {
     "text": "إنشاء المجلد",
@@ -28602,6 +28614,10 @@
     "text": "المتصفح الافتراضي",
     "source": "c3104199f90d"
   },
+  "voices-dialog.the-default-voice-is-used-in": {
+    "text": "يُستخدم الصوت الافتراضي في القراءة بصوت عالٍ وفي الكلمات المنطوقة ما لم تختر صوتًا آخر هناك. وإذا لم يكن هناك صوت افتراضي، تستخدم القراءة بصوت عالٍ صوت النظام.",
+    "source": "71a36b6ff540"
+  },
   "base.the-design-is-up-to-date": {
     "forms": {
       "zero": "التصميم محدّث بلا تغييرات، وسجلاتك كما كانت.",
@@ -29788,6 +29804,10 @@
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "لم يُنتج الصوت أي إخراج صوتي لهذا السطر.",
     "source": "53613e120fbf"
+  },
+  "studio.spoken-run.the-voice-plays-on-this-computer": {
+    "text": "يُشغَّل الصوت على هذا الكمبيوتر أثناء دخوله إلى التسجيل أو البث. إذا كان الميكروفون يعمل، استخدم سماعات الرأس، وإلا التقطه الميكروفون مرة ثانية.",
+    "source": "079e77f7f0b5"
   },
   "spoken.voices.the-voice-was-stopped-before-this": {
     "text": "أُوقف الصوت قبل إنشاء هذا السطر.",

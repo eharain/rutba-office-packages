@@ -7283,6 +7283,10 @@
     "text": "默认填充文字：",
     "source": "1ca5261f109b"
   },
+  "voices-dialog.default-voice": {
+    "text": "默认语音",
+    "source": "47813ba0bdf5"
+  },
   "ui.proofing.default": {
     "text": "默认：",
     "source": "d1f6d9e71b8b"
@@ -11603,6 +11607,10 @@
     "text": "健康、教育和社区",
     "source": "9ba622539955"
   },
+  "studio.spoken-run.hear-the-voice-on-this-computer": {
+    "text": "在此电脑上听到语音",
+    "source": "7e2ead0e8ef0"
+  },
   "common.heart": {
     "text": "心形",
     "source": "770af9d18037"
@@ -15158,6 +15166,10 @@
   "mail.dialogs.make-an-app-password-for-provider": {
     "text": "为 {provider} 创建应用密码：{url}",
     "source": "4692aae24706"
+  },
+  "voices-dialog.make-default": {
+    "text": "设为默认",
+    "source": "f43b94251094"
   },
   "mail.make-folder": {
     "text": "创建文件夹",
@@ -28297,6 +28309,10 @@
     "text": "默认浏览器",
     "source": "c3104199f90d"
   },
+  "voices-dialog.the-default-voice-is-used-in": {
+    "text": "“大声朗读”和朗读文字会使用默认语音，除非您在那里选择了其他语音。没有默认语音时，“大声朗读”使用系统语音。",
+    "source": "71a36b6ff540"
+  },
   "base.the-design-is-up-to-date": {
     "forms": {
       "other": "设计已是最新：{count} 项更改，你的记录保持原样。"
@@ -29458,6 +29474,10 @@
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "此行的语音没有发出声音。",
     "source": "53613e120fbf"
+  },
+  "studio.spoken-run.the-voice-plays-on-this-computer": {
+    "text": "语音在进入录制或直播流的同时，也会在此电脑上播放。麦克风开启时请使用耳机，否则语音会被再次录入。",
+    "source": "079e77f7f0b5"
   },
   "spoken.voices.the-voice-was-stopped-before-this": {
     "text": "语音在此行生成前已被停止。",
