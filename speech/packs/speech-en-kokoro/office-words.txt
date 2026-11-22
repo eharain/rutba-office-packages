@@ -25,3 +25,45 @@ offline AO1 F L AY2 N
 login L AO1 G IH2 N
 signup S AY1 N AH2 P
 setup S EH1 T AH2 P
+paritas P AE0 R IY1 T AH0 Z
+postgres P OW1 S T G R EH2 S
+postgresql P OW1 S T G R EH2 S K Y UW2 EH1 L
+pgrecon P IY1 JH IY1 R IY1 K AA2 N
+num N AH1 M
+enum IY1 N AH2 M
+regex R EH1 JH EH0 K S
+regexp R EH1 JH EH2 K S P
+json JH EY1 S AH0 N
+yaml Y AE1 M AH0 L
+mysql M AY1 EH2 S K Y UW2 EH1 L
+sqlite EH2 S K Y UW2 L AY1 T
+nginx EH1 N JH AH0 N EH1 K S
+kubernetes K UW2 B ER0 N EH1 T IY0 Z
+strapi S T R AE1 P IY0
+redis R EH1 D IH0 S
+config K AA1 N F IH0 G
+async EY1 S IH2 NG K
+varchar V AA1 R CH AA2 R
+oauth OW1 AO2 TH
+uuid Y UW1 Y UW1 AY1 D IY1
+gif G IH1 F
+ios AY1 OW1 EH1 S
+cors K AO1 R Z
+emoji IH0 M OW1 JH IY0
+devops D EH1 V AA2 P S
+aws EY1 D AH1 B AH0 L Y UW0 EH1 S
+caret K AE1 R AH0 T
+carets K AE1 R AH0 T S
+paginate P AE1 JH AH0 N EY2 T
+paginator P AE1 JH AH0 N EY2 T ER0
+twips T W IH1 P S
+codec K OW1 D EH2 K
+glyph G L IH1 F
+jpeg JH EY1 P EH2 G
+ctrl K AH0 N T R OW1 L
+esc IH0 S K EY1 P
+readme R IY1 D M IY2
+libre L IY1 B R AH0
+imap AY1 M AE2 P
+bidi B AY1 D AY2
+webp W EH1 B P IY1

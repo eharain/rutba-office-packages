@@ -119,11 +119,11 @@ for (const variant of models) {
   const speak = async (voice, text, label) => {
     const t = performance.now();
     let out;
-    try { out = await ask('say', { text, voice }); } catch (e) { fail(`${label}: ${e.message}`); return { ms: 0, secs: 0, out: { samples: new Float32Array(0) }, spelt: [] }; }
+    try { out = await ask('say', { text, voice }); } catch (e) { fail(`${label}: ${e.message}`); return { ms: 0, secs: 0, out: { samples: new Float32Array(0) }, spelt: [], guessed: [] }; }
     const ms = performance.now() - t;
     peakRss = Math.max(peakRss, mb());
     const c = checkSamples(label, out, text);
-    return { ms, secs: c?.secs || 0, out, spelt: out.spelt };
+    return { ms, secs: c?.secs || 0, out, spelt: out.spelt, guessed: out.guessed || [] };
   };
 
   // First sound after load: a short sentence, cold.
@@ -142,9 +142,11 @@ for (const variant of models) {
   }
   // Numbers.
   const spelt = new Set();
+  const guessed = new Set();
   for (const [i, s] of NUMBERS.entries()) {
     const r = await speak('voice-kokoro-bf-emma', s, `${variant} numbers ${i}`);
     for (const w of r.spelt) spelt.add(w);
+    for (const w of r.guessed) guessed.add(w);
     if (wavDir && variant === models[0]) fs.writeFileSync(path.join(wavDir, `numbers-${i}.wav`), toWav(r.out.samples));
   }
   // A long document, read the way the reader reads it.
@@ -154,6 +156,7 @@ for (const variant of models) {
     const r = await speak('voice-kokoro-af-heart', s, `${variant} doc ${i}`);
     docAudio += r.secs; docModel += r.ms / 1000;
     for (const w of r.spelt) spelt.add(w);
+    for (const w of r.guessed) guessed.add(w);
   }
   // Every English voice built speaks once (on the first model only: the voices do not depend on it).
   let voicesOk = 0;
@@ -173,6 +176,7 @@ for (const variant of models) {
     document: { sentences: parts.length, audio_s: Math.round(docAudio), model_s: Math.round(docModel), speed: +(docAudio / docModel).toFixed(2) },
     voices_spoken: variant === models[0] ? `${voicesOk}/${voicesBuilt.length}` : undefined,
     spelt_out: [...spelt].slice(0, 40), spelt_count: spelt.size,
+    sounded_out: [...guessed].slice(0, 40), sounded_out_count: guessed.size,
   }));
 }
 console.log(JSON.stringify({ done: true, failures }));

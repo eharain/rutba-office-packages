@@ -35,6 +35,12 @@ test('the speaker reads English with an added voice, and refuses what is not add
   assert.ok(out.samples.length > 0);
   assert.equal(out.rate, 24000);
   assert.equal(calls.length, 1);
+  assert.deepEqual([out.spelt, out.guessed], [[], []]);
+  // The speaker says which words it had to spell and which it sounded out, and the Office word list is read with the dictionary.
+  sp.addPronunciation('speech-en-kokoro', englishData({ 'cmudict.dict': DICT, 'office-words.txt': 'paritas P AE0 R IY1 T AH0 Z\n' }));
+  const odd = await sp.say({ text: 'Hello Paritas, Supabase and npm.', voice: 'voice-kokoro-bf-emma' });
+  assert.deepEqual(odd.guessed, ['Supabase']);
+  assert.deepEqual(odd.spelt, ['npm']);
   await assert.rejects(sp.say({ text: 'x', voice: 'voice-kokoro-af-heart' }), /not added/);
   assert.throws(() => sp.addVoice('voice-kokoro-ef-dora', { language: 'es', bytes: voiceBytes(), pronunciation: 'speech-es-kokoro' }), /no text step/);
 });

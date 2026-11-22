@@ -63,7 +63,8 @@ export function createSpeaker({ ort, session, vocab }) {
      * One sentence (or clause) as samples. Long text is cut for the model at
      * clauses and joined again with a short pause.
      * @param {{ text: string, voice: string, speed?: number }} req
-     * @returns {Promise<{ samples: Float32Array, rate: number, spelt: string[], cancelled?: boolean }>}
+     * @returns {Promise<{ samples: Float32Array, rate: number, spelt: string[], guessed: string[], cancelled?: boolean }>}
+     *   `spelt`: the words read letter by letter; `guessed`: the words sounded out from their letters.
      */
     async say({ text, voice, speed = 1 }) {
       const v = voices.get(voice);
@@ -71,20 +72,20 @@ export function createSpeaker({ ort, session, vocab }) {
       const pron = data.get(v.pronunciation);
       if (!pron) throw new Error(`the pronunciation pack ${v.pronunciation} is not added`);
       const mine = generation;
-      const { phonemes, spelt } = STEPS[v.language](String(text), pron);
+      const { phonemes, spelt, guessed = [] } = STEPS[v.language](String(text), pron);
       const parts = [];
       for (const piece of fitPhonemes(phonemes, MAX_PHONEMES)) {
-        if (mine !== generation) return { samples: new Float32Array(0), rate: SAMPLE_RATE, spelt, cancelled: true };
+        if (mine !== generation) return { samples: new Float32Array(0), rate: SAMPLE_RATE, spelt, guessed, cancelled: true };
         const { samples } = await runner.say(piece, v.floats, { speed });
         parts.push(samples);
       }
-      if (mine !== generation) return { samples: new Float32Array(0), rate: SAMPLE_RATE, spelt, cancelled: true };
+      if (mine !== generation) return { samples: new Float32Array(0), rate: SAMPLE_RATE, spelt, guessed, cancelled: true };
       const gap = Math.round(SAMPLE_RATE * 0.12);
       const total = parts.reduce((n, p) => n + p.length, 0) + gap * Math.max(parts.length - 1, 0);
       const out = new Float32Array(total);
       let at = 0;
       for (const [i, p] of parts.entries()) { if (i) at += gap; out.set(p, at); at += p.length; }
-      return { samples: out, rate: SAMPLE_RATE, spelt };
+      return { samples: out, rate: SAMPLE_RATE, spelt, guessed };
     },
   };
 }

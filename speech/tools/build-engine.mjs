@@ -56,7 +56,7 @@ export const SPEECH_API = 1;
 export const HOST_API = 1;
 export const READS = { model: [1], pronunciation: [1], voice: [1] };
 
-const OUR_FILES = ['main.mjs', 'worker.mjs', 'speaker.mjs', 'runner.mjs', 'vocab.json', 'text/en.mjs', 'text/en-numbers.mjs', 'text/segment.mjs'];
+const OUR_FILES = ['main.mjs', 'worker.mjs', 'speaker.mjs', 'runner.mjs', 'vocab.json', 'text/en.mjs', 'text/en-sound.mjs', 'text/en-numbers.mjs', 'text/segment.mjs'];
 
 /** Specifiers named by import, export from, import(), require() and createRequire(...)() with a plain string. */
 const SPECIFIERS = /(?:\bimport\s*(?:[\w*{}\s,$]+\s*from\s*)?|\bexport\s*[\w*{}\s,$]+\s*from\s*|\bimport\s*\(\s*|\brequire\s*\(\s*|\bcreateRequire\((?:[^()]|\([^()]*\))*\)\s*\(\s*)(['"])([^'"\n]+)\1/g;
@@ -99,6 +99,37 @@ export function bareImportFaults(dir) {
           at = up;
         }
         if (!found) faults.push(`${path.relative(root, full).replace(/\\/g, '/')} imports ${spec}, which the engine does not carry`);
+      }
+    }
+  };
+  walk(root);
+  return faults;
+}
+
+/**
+ * Every file our own engine files import by a relative path is in the built
+ * folder: a file added to the engine and left off OUR_FILES would otherwise
+ * be found only when the engine fails to load in Office. The packages the
+ * engine carries are left alone: they name files they may not have.
+ * @param {string} dir  the built engine's folder
+ * @returns {string[]}  faults, each naming the file and the specifier
+ */
+export function localImportFaults(dir) {
+  const root = path.resolve(dir);
+  const faults = [];
+  const walk = (d) => {
+    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+      const full = path.join(d, e.name);
+      if (e.isDirectory()) { if (e.name !== 'node_modules') walk(full); continue; }
+      if (!/\.(m?js|cjs)$/.test(e.name)) continue;
+      for (const m of fs.readFileSync(full, 'utf8').matchAll(SPECIFIERS)) {
+        const spec = m[2];
+        if (!/^\.{1,2}\//.test(spec)) continue;
+        const target = path.resolve(path.dirname(full), spec);
+        const inside = target.startsWith(root + path.sep);
+        if (!inside || !fs.existsSync(target) || !fs.statSync(target).isFile()) {
+          faults.push(`${path.relative(root, full).replace(/\\/g, '/')} imports ${spec}, which ${inside ? 'is not in the engine' : 'is outside the engine'}`);
+        }
       }
     }
   };
@@ -197,7 +228,7 @@ export async function buildEngine(out, version) {
   };
   fs.writeFileSync(path.join(dir, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`);
   const allowed = (f) => /\.(mjs|js|json|node|dll|txt)$/.test(f) && !/DirectML/i.test(f);
-  const faults = [...checkManifest(manifest, { office: version }), ...checkFiles(dir, manifest, allowed), ...checkLicence(dir, manifest), ...bareImportFaults(dir)];
+  const faults = [...checkManifest(manifest, { office: version }), ...checkFiles(dir, manifest, allowed), ...checkLicence(dir, manifest), ...bareImportFaults(dir), ...localImportFaults(dir)];
   if (faults.length) throw new Error(`speech-engine: ${faults.join('; ')}`);
   return { dir, manifest };
 }
