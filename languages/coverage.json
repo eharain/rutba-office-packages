@@ -1,8 +1,8 @@
 {
-  "office": "../.cache/office/f0e91fbd3d797c4236a174ef896b5e6ad9385b6b",
+  "office": "../.cache/office/0c55c955f31fe24d33ee52d043efb4959167012d",
   "places": {
     "main process": {
-      "count": 472,
+      "count": 491,
       "examples": [
         "apps/desktop/main/addons-service.js:227  The list of add-ons is not signed by Rutba.",
         "apps/desktop/main/addons-service.js:488  This copy of Rutba Office has no add-ons folder.",
@@ -19,17 +19,19 @@
       ]
     },
     "windows (renderer)": {
-      "count": 5,
+      "count": 7,
       "examples": [
-        "apps/desktop/renderer/apps/image.js:95  4:3",
-        "apps/desktop/renderer/apps/image.js:96  3:2",
-        "apps/desktop/renderer/apps/image.js:97  16:9",
-        "apps/desktop/renderer/apps/image.js:98  9:16",
-        "apps/desktop/renderer/apps/mail.js:1663  Please remove this address from the list."
+        "apps/desktop/renderer/apps/image.js:97  4:3",
+        "apps/desktop/renderer/apps/image.js:98  3:2",
+        "apps/desktop/renderer/apps/image.js:99  16:9",
+        "apps/desktop/renderer/apps/image.js:100  9:16",
+        "apps/desktop/renderer/apps/mail.js:1665  Please remove this address from the list.",
+        "apps/desktop/renderer/apps/talk/door-socket.js:131  A door socket sends text or bytes.",
+        "apps/desktop/renderer/print.js:487  1-5, 8"
       ]
     },
     "shared packages": {
-      "count": 270,
+      "count": 274,
       "examples": [
         "packages/database/src/access.js:41  A password has at least 4 characters.",
         "packages/database/src/base.js:333  Two fields cannot have the same name.",
@@ -48,8 +50,8 @@
   },
   "outside": {
     "release notes (docs/releases, shown in What's new)": {
-      "files": 101,
-      "words": 99836
+      "files": 102,
+      "words": 101931
     },
     "installer": "made from the catalogues by tools/make-installer-words.mjs, so its words are in the registry"
   }
