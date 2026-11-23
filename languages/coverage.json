@@ -1,5 +1,5 @@
 {
-  "office": "../.cache/office/0c55c955f31fe24d33ee52d043efb4959167012d",
+  "office": "../.cache/office/9b19c57bfcfb29a63b448f6040a5693270e12efd",
   "places": {
     "main process": {
       "count": 491,
@@ -26,7 +26,7 @@
         "apps/desktop/renderer/apps/image.js:99  16:9",
         "apps/desktop/renderer/apps/image.js:100  9:16",
         "apps/desktop/renderer/apps/mail.js:1665  Please remove this address from the list.",
-        "apps/desktop/renderer/apps/talk/door-socket.js:131  A door socket sends text or bytes.",
+        "apps/desktop/renderer/meeting/door-socket.js:131  A door socket sends text or bytes.",
         "apps/desktop/renderer/print.js:487  1-5, 8"
       ]
     },
@@ -51,7 +51,7 @@
   "outside": {
     "release notes (docs/releases, shown in What's new)": {
       "files": 102,
-      "words": 101931
+      "words": 104148
     },
     "installer": "made from the catalogues by tools/make-installer-words.mjs, so its words are in the registry"
   }
