@@ -691,7 +691,6 @@
   "engine.these-cells-are-part-of-a": {"text":"یہ سیلز ایک عمودی انضمام کا حصہ ہیں۔ اس کی ایک قطار چوڑی کرنے سے رینج ٹوٹ جائے گی۔","source":"75122648d3df"},
   "base.ai-tools.they-may-also-write-records-to": {"text":"وہ ڈیٹابیس انجن سے جڑی ٹیبلز میں ریکارڈ بھی لکھ سکتے ہیں۔ ہر تبدیلی پہلے آپ کو رتبہ آفس (Rutba Office) میں دکھائی جاتی ہے اور صرف تب لکھی جاتی ہے جب آپ اس کا بٹن دبائیں۔","source":"5768e9512307"},
   "talk.invite.they-see-it-in-talk-if": {"text":"اگر وہ ٹاک (Talk) استعمال کرتے ہیں تو اسے ٹاک میں دیکھیں گے۔ بعد میں آپ خود انہیں لنک بھیج سکتے ہیں۔","source":"36b885210dfa"},
-  "talk.invite.this-talk-server-does-not-take": {"text":"یہ ٹاک (Talk) سرور ابھی دعوتیں نہیں لیتا۔","source":"9b3cb2160f1c"},
   "calendar.words.this-answer-comes-from-rutba-office": {"text":"یہ جواب رتبہ آفس (Rutba Office) سے آیا ہے، جو کھلا رہنے تک اس کمرے کا میل باکس سنبھالتا ہے۔","source":"fbd460985ab8"},
   "engine.this-calendar-comes-from-an-account": {"text":"یہ کیلنڈر ایک اکاؤنٹ سے آیا ہے۔ اس کے کیلنڈرز ہٹانے کے لیے اکاؤنٹ ہٹائیں۔","source":"98d39bbbbd5e"},
   "engine.this-cell-is-merged-down-its": {"text":"یہ سیل اپنے کالم میں نیچے کی طرف ضم ہے۔ اسے تقسیم کرنے سے پہلے اس کا انضمام ختم کریں۔","source":"5666110dd32d"},

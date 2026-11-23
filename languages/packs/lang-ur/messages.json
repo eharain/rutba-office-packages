@@ -295,6 +295,10 @@
     "text": "(اپ لوڈ کے ساتھ چلنے کے لیے کم کیا گیا)",
     "source": "38eedae0fe49"
   },
+  "print.needs-attention": {
+    "text": "(توجہ درکار)",
+    "source": "3473d9cd67a1"
+  },
   "base.new": {
     "text": "(نیا)",
     "source": "5bfaff83e280"
@@ -335,6 +339,10 @@
     "text": "(کچھ نہیں)",
     "source": "00b025711499"
   },
+  "print.offline": {
+    "text": "(آف لائن)",
+    "source": "89aa6bd39b61"
+  },
   "sheets.dialogs.on-screen": {
     "text": "(اسکرین پر)",
     "source": "b73a6fd9ad97"
@@ -342,6 +350,14 @@
   "word.dialogs.opened-from-format": {
     "text": "({format} سے کھولی گئی)",
     "source": "e4d5e69fc419"
+  },
+  "print.out-of-paper": {
+    "text": "(کاغذ ختم)",
+    "source": "7290757d105f"
+  },
+  "print.paused": {
+    "text": "(موقوف)",
+    "source": "41993c823e86"
   },
   "word.list-dialog.the-first-level-has-none-above": {
     "text": "(پہلی سطح سے اوپر کوئی سطح نہیں)",
@@ -551,6 +567,10 @@
     "text": "آپ کا اپنا TURN سرور؛ آپ کی کالز کے لیے دوسری طرف کو پیش کیا جاتا ہے",
     "source": "b95d902b9e8f"
   },
+  "calendar.a-talk-meeting-holds-four-people": {
+    "text": "ٹاک (Talk) میٹنگ میں کل چار افراد ہوتے ہیں: آپ اور تین دوسرے۔ یہ تقریب {count} کو مدعو کرتی ہے۔",
+    "source": "12c821978260"
+  },
   "engine.a-background-is-a-png-jpeg": {
     "text": "پس منظر کے لیے PNG، JPEG، GIF، BMP یا WebP تصویر ہونی چاہیے۔",
     "source": "453bb347e835"
@@ -570,6 +590,14 @@
   "talk.a-call-goes-straight-between-the": {
     "text": "کال سیدھی دونوں کمپیوٹرز کے درمیان جاتی ہے۔ جب نیٹ ورک اسے روکے تو یہ ریلے سے گزرتی ہے، پھر بھی شروع سے آخر تک خفیہ۔",
     "source": "2a501129710a"
+  },
+  "notify-dialog.a-call-in-talk-that-nobody": {
+    "text": "ٹاک (Talk) میں کال جس کا کسی نے جواب نہیں دیا",
+    "source": "364758cc8022"
+  },
+  "notify-dialog.a-call-in-talk-while-it": {
+    "text": "ٹاک (Talk) میں کال، جب وہ بج رہی ہو",
+    "source": "3b2de9295eb7"
   },
   "calendar.a-cancellation-goes-to-the-count": {
     "forms": {
@@ -645,6 +673,10 @@
   "locker.a-copy-of-these-files-as-4": {
     "text": "ان فائلوں کی موجودہ حالت میں ایک نقل، اس کمپیوٹر پر آفس کے اپنے فولڈر میں، تاکہ لاکر سے واقف ہوتے ہوئے کچھ ضائع نہ ہو۔ یہ آپ کے لاکر کے پاس ورڈ سے لاک نہیں ہے: جو بھی اس یوزر اکاؤنٹ میں سائن ان کرے، اسے بحال کر سکتا ہے۔",
     "source": "2f36db57f352"
+  },
+  "studio.guests.a-copy-of-this-broadcast-is": {
+    "text": "اس نشریات کی ایک کاپی رکھی جا رہی ہے، اور وہ میٹنگ ریکارڈ کرنے کے لیے ترتیب نہیں دی گئی تھی۔ نشریات ختم ہونے تک اس کے لوگ اندر نہیں آ سکتے۔",
+    "source": "b2a28db50607"
   },
   "template-gallery.a-course-session-objectives-the-agenda": {
     "text": "کورس کا ایک سیشن: مقاصد، ایجنڈا، اسباق، ایک مختصر جانچ اور خلاصہ",
@@ -786,6 +818,22 @@
     "text": "گروپ کی اپنی کوئی بھرائی یا خاکہ نہیں ہوتا۔ اس کے اندر کسی شکل کو فارمیٹ کریں۔",
     "source": "770472b604e9"
   },
+  "talk.lines.a-group-holds-count-people-at": {
+    "text": "ایک گروپ میں زیادہ سے زیادہ {count} افراد ہو سکتے ہیں۔",
+    "source": "f51448521ea4"
+  },
+  "talk.a-group-is-three-or-more": {
+    "text": "گروپ تین یا زیادہ افراد ہیں جو ایک دوسرے کو لکھتے ہیں۔",
+    "source": "fec77f9d530a"
+  },
+  "talk.lines.a-group-is-three-people-or": {
+    "text": "گروپ تین یا زیادہ افراد پر مشتمل ہوتا ہے: کم از کم دو روابط منتخب کریں۔",
+    "source": "6ff327466527"
+  },
+  "talk.a-group-needs-two-of-your": {
+    "text": "گروپ کے لیے آپ کے کم از کم دو روابط درکار ہیں۔",
+    "source": "12e0ccc49b1e"
+  },
   "base.sources.a-key-or-token": {
     "text": "کلید یا ٹوکن",
     "source": "9949c8a23e2d"
@@ -858,6 +906,10 @@
     "text": "آپ کے لیے ایک لاک فائل",
     "source": "6f0daeb85074"
   },
+  "video.a-look-changes-the-colour-of": {
+    "text": "رنگی انداز اپنے نیچے ہر ٹریک کا رنگ بدلتا ہے، جب تک اس کا کلپ چلتا ہے۔",
+    "source": "4cffcd7c35b5"
+  },
   "sheets.a-lookup-found-nothing": {
     "text": "تلاش میں کچھ نہیں ملا",
     "source": "9092775b9801"
@@ -865,6 +917,22 @@
   "mail.archive.a-manifest-csv-and-json-with": {
     "text": "ایک فہرست (CSV اور JSON) جس میں ہر پیغام کی تاریخ، بھیجنے والا، وصول کنندگان، موضوع، Message-ID، وہ کہاں سے آیا اور جو لکھا گیا اس کا SHA-256 ہو، اور ایک خلاصے کا صفحہ ہمیشہ لکھے جاتے ہیں۔ میل باکسز یا آرکائیوز میں کچھ نہیں بدلا جاتا۔",
     "source": "74f7e133138a"
+  },
+  "notify-dialog.a-meeting-a-few-minutes-before": {
+    "text": "میٹنگ، شروع ہونے سے چند منٹ پہلے، یا جب کوئی آپ کو شامل ہونے کو کہے",
+    "source": "eed70ee862c6"
+  },
+  "talk-words.a-meeting-held-on-a-talk": {
+    "text": "ٹاک سرور (Talk Server) پر ہونے والی میٹنگ ابھی لائیو نشر یا ریکارڈ نہیں کی جا سکتی۔",
+    "source": "e451fe884ea2"
+  },
+  "talk.meeting.a-meeting-holds-four-people-you": {
+    "text": "ایک میٹنگ میں چار افراد ہو سکتے ہیں: آپ اور آپ کے تین تک روابط۔",
+    "source": "f8fa41a7b72f"
+  },
+  "talk.meeting.a-meeting-of-more-than-four": {
+    "text": "چار سے زیادہ افراد کی میٹنگ ٹاک سرور (Talk Server) پر منعقد ہوتی ہے۔",
+    "source": "b1afa34fd141"
   },
   "contacts.a-meeting-room-or-a-resource": {
     "text": "میٹنگ روم یا وسیلہ، جو اس کے میل باکس کو مدعو کر کے بک ہوتا ہے",
@@ -881,6 +949,10 @@
   "word.ribbon.a-merged-cell-back-into-its": {
     "text": "ضم شدہ سیل واپس اس کے سیلز میں",
     "source": "3d22efeac8f7"
+  },
+  "notify-dialog.a-message-in-talk": {
+    "text": "ٹاک (Talk) میں پیغام",
+    "source": "7a338c422250"
   },
   "engine.a-message-needs-someone-to-go": {
     "text": "پیغام کے لیے کم از کم ایک وصول کنندہ ضروری ہے۔",
@@ -1065,6 +1137,10 @@
     "text": "ایک سادہ نقل محفوظ ہو گئی۔ وہ نقل لاک نہیں ہے۔",
     "source": "ffdd0baabe66"
   },
+  "video.timeline.a-point-of-its-movement-at": {
+    "text": "{time} پر اس کی حرکت کا ایک نقطہ: منتقل کرنے کے لیے گھسیٹیں",
+    "source": "055741b05a22"
+  },
   "profiles.a-profile-can-ask-for-a": {
     "text": "کوئی پروفائل کھلنے سے پہلے پاس ورڈ مانگ سکتا ہے۔ پھر اس کے محفوظ پاس ورڈ، حالیہ فائلیں، میل، کیلنڈرز، روابط اور ٹاک (Talk) کے پیغامات اسی سے بند کیے جاتے ہیں۔",
     "source": "10ea9d3dbdec"
@@ -1140,6 +1216,10 @@
   "template-gallery.a-report-with-a-cover-page": {
     "text": "رپورٹ جس میں سرورق، فہرست مضامین اور نمبر وار حصے ہیں",
     "source": "54c978a78192"
+  },
+  "talk.settings.a-ring-when-someone-calls-you": {
+    "text": "جب کوئی آپ کو کال کرے تو گھنٹی، اور جب آپ کو میٹنگ میں بلایا جائے تو مختصر ٹون۔",
+    "source": "18eb8c5e7649"
   },
   "contacts.a-room-or-a-resource-is": {
     "text": "کمرہ یا وسیلہ بک کیا جاتا ہے، Talk میں مدعو نہیں کیا جاتا",
@@ -1699,6 +1779,10 @@
     "text": "اصل سائز",
     "source": "74cdbe70e394"
   },
+  "image.actual-size-over-as-many-sheets": {
+    "text": "اصل سائز، جتنے اوراق درکار ہوں",
+    "source": "0cbb4308999d"
+  },
   "common.add": {
     "text": "شامل کریں",
     "source": "9fd728c66c9a"
@@ -1815,6 +1899,10 @@
     "text": "ورڈ آرٹ شامل کریں",
     "source": "bd58d566c351"
   },
+  "calendar.add-a-talk-meeting": {
+    "text": "ٹاک (Talk) میٹنگ شامل کریں",
+    "source": "e98dec0aa8f4"
+  },
   "base.documents.add-a-block": {
     "text": "حصہ شامل کریں",
     "source": "cf416ab8da83"
@@ -1830,6 +1918,10 @@
   "base.documents.add-a-calculated-column": {
     "text": "حسابی کالم شامل کریں",
     "source": "40adf59ac8cc"
+  },
+  "studio.net-camera-dialog.add-a-camera-by-its-address": {
+    "text": "پتے سے کیمرہ شامل کریں",
+    "source": "0dbc972ae5d6"
   },
   "contacts.add-a-card-or-bring-in": {
     "text": "کارڈ شامل کریں، یا کسی دوسرے پروگرام سے برآمد کی گئی .vcf یا .csv فائل لے آئیں۔",
@@ -1919,6 +2011,10 @@
     "text": "یہ سطریں بلند آواز سے پڑھوانے کے لیے آواز شامل کریں",
     "source": "b2afe4eb368b"
   },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "الفاظ بلند آواز سے پڑھوانے کے لیے آواز شامل کریں؛ آواز کے بغیر بھی انہیں دکھایا جا سکتا ہے۔",
+    "source": "04ed3fbd74fe"
+  },
   "read-aloud.voice-offer.add-a-voice-more-natural-voices": {
     "text": "آواز شامل کریں: \"بلند آواز سے پڑھیں\" کے لیے مزید قدرتی آوازیں، \"آوازیں اور زبانیں\" سے",
     "source": "bfbf7111b5c5"
@@ -1975,6 +2071,10 @@
     "text": "پلے ہیڈ پر شامل کریں",
     "source": "1e18a7648f8f"
   },
+  "studio.net-camera-find.add-by-address": {
+    "text": "پتے سے شامل کریں…",
+    "source": "96cd8612bd97"
+  },
   "contacts.add-email": {
     "text": "ای میل شامل کریں",
     "source": "bfe6b5725f30"
@@ -1982,6 +2082,10 @@
   "locker.add-files": {
     "text": "فائلیں شامل کریں",
     "source": "01792a33c228"
+  },
+  "video.library.add-files-from-this-computer": {
+    "text": "اس کمپیوٹر سے فائلیں شامل کریں…",
+    "source": "e483053aec0b"
   },
   "locker.add-files-2": {
     "text": "فائلیں شامل کریں…",
@@ -2035,6 +2139,10 @@
     "text": "فائل کے نام کے ساتھ پاتھ شامل کریں",
     "source": "70149fb49250"
   },
+  "talk.groups.add-people": {
+    "text": "لوگ شامل کریں",
+    "source": "6e5e1e137765"
+  },
   "contacts.add-phone": {
     "text": "فون شامل کریں",
     "source": "cf095e4a7be3"
@@ -2046,6 +2154,10 @@
   "mail.accounts-bulk.add-several-accounts": {
     "text": "کئی اکاؤنٹس شامل کریں",
     "source": "e57b1f77b96e"
+  },
+  "video.add-sound": {
+    "text": "آواز شامل کریں",
+    "source": "d14064f80f52"
   },
   "word.ribbon.add-space-after-paragraph": {
     "text": "پیراگراف کے بعد فاصلہ شامل کریں",
@@ -2066,6 +2178,10 @@
   "ai-tools-dialog.add-these-lines-to-the-ai": {
     "text": "یہ سطریں AI ایپ کی ترتیبات میں اس کے MCP سرورز کی فہرست میں شامل کریں۔ ضرورت پڑنے پر ایپ ٹولز خود شروع کرتی ہے۔",
     "source": "9d3f923b92a8"
+  },
+  "video.library.add-this-address-to-the-list": {
+    "text": "یہ پتہ فہرست میں شامل کریں",
+    "source": "3cac92a6b605"
   },
   "contacts.add-this-card": {
     "text": "یہ کارڈ شامل کریں",
@@ -2099,6 +2215,10 @@
     "text": "کیلنڈر میں شامل کریں",
     "source": "d0efffa65ea7"
   },
+  "talk.groups.add-to-group": {
+    "text": "گروپ میں شامل کریں",
+    "source": "ea849eb70c26"
+  },
   "calendar.add-to-my-calendar": {
     "text": "میرے کیلنڈر میں شامل کریں",
     "source": "9d60f9126db7"
@@ -2106,6 +2226,10 @@
   "studio.setups-menu.add-to-my-setups": {
     "text": "میرے سیٹ اپس میں شامل کریں",
     "source": "457927ed8bde"
+  },
+  "video.add-to-the-audio-library": {
+    "text": "آڈیو لائبریری میں شامل کریں",
+    "source": "b7f10458b001"
   },
   "locker.add-to-this-folder": {
     "text": "اس فولڈر میں شامل کریں",
@@ -2137,6 +2261,10 @@
     },
     "source": "9e93bb1f7d70"
   },
+  "video.add-name": {
+    "text": "{name} شامل کریں",
+    "source": "2cc06c85e772"
+  },
   "ui.proofing.add-put-the-word-in-the": {
     "text": "شامل کریں: لفظ کو لغت میں ڈالیں",
     "source": "f696718081b5"
@@ -2156,6 +2284,10 @@
   "common.added": {
     "text": "شامل کیا گیا",
     "source": "6b02e0d363a4"
+  },
+  "studio.net-camera-find.added-before": {
+    "text": "پہلے شامل کیا گیا",
+    "source": "30cab5134fea"
   },
   "voices-dialog.added-here": {
     "text": "یہاں شامل",
@@ -2663,6 +2795,10 @@
     "text": "تمام سلائیڈز ایک ساتھ: کھولنے کے لیے کسی ایک پر کلک کریں",
     "source": "616a02ce06be"
   },
+  "studio.guests.all-three-seats-are-taken": {
+    "text": "تینوں نشستیں بھر چکی ہیں۔",
+    "source": "e4160c80a1bb"
+  },
   "pdf.ocr.all-count-page": {
     "forms": {
       "one": "تمام {count} صفحہ",
@@ -2885,6 +3021,10 @@
   "engine.an-equation-is-edited-in-the": {
     "text": "مساوات میں ترمیم مساوات ایڈیٹر میں ہوتی ہے۔ اس پر ڈبل کلک کریں۔",
     "source": "46d7af34ac75"
+  },
+  "notify-dialog.an-event-in-calendar-at-its": {
+    "text": "کیلنڈر میں تقریب، اس کی یاد دہانی کے وقت",
+    "source": "925f040e1376"
   },
   "image.formats.an-icon-at-each-size-from": {
     "text": "ایک آئیکن، 256 سے 16 پکسلز تک ہر سائز میں۔",
@@ -3274,6 +3414,14 @@
     "text": "ترتیب",
     "source": "5f33ce3fb567"
   },
+  "talk.lines.arrived": {
+    "text": "پہنچ گیا",
+    "source": "594015196a5f"
+  },
+  "video.inspector.arrives": {
+    "text": "پہنچنے کی رفتار",
+    "source": "72c7f155f153"
+  },
   "common.arrow": {
     "text": "تیر",
     "source": "05800e70aa10"
@@ -3402,6 +3550,14 @@
     "text": "ایک بار پوچھیں: ہر ریکارڈ کے لیے ایک ہی جواب",
     "source": "a999a07704c8"
   },
+  "studio.guests.ask-up-to-three-of-your": {
+    "text": "اپنے ٹاک (Talk) روابط میں سے تین تک کو اندر بلائیں۔ جب تک آپ انہیں کسی منظر میں نہ رکھیں، ہر ایک ریکارڈنگ سے باہر رہتا ہے، اور جو آپ ریکارڈ کرتے ہیں اسے دیکھتا اور سنتا ہے۔",
+    "source": "e9f52fe78b27"
+  },
+  "studio.guests.ask-up-to-three-of-your-2": {
+    "text": "اپنے ٹاک (Talk) روابط میں سے تین تک کو اندر بلائیں۔ جب تک آپ انہیں کسی منظر میں نہ رکھیں، ہر ایک نشر سے باہر انتظار کرتا ہے، اور آپ کا پروگرام دیکھتا اور سنتا ہے۔",
+    "source": "8c2357cdc653"
+  },
   "talk.connect.ask-name-in-talk-now-with": {
     "text": "{name} سے ابھی ٹاک (Talk) میں پوچھیں، ای میل کے بغیر",
     "source": "c49711615630"
@@ -3446,9 +3602,17 @@
     "text": "رابطے کی درخواست",
     "source": "434d00f0c707"
   },
+  "talk.meet-lines.asking-to-be-let-in": {
+    "text": "اندر آنے کی اجازت مانگی جا رہی ہے…",
+    "source": "4a17be1898f7"
+  },
   "mail.dialogs.asking-your-mail-server": {
     "text": "آپ کے میل سرور سے پوچھا جا رہا ہے…",
     "source": "b78479f59b14"
+  },
+  "talk.meet-lines.asking-name-to-let-you-in": {
+    "text": "{name} سے اندر آنے کی اجازت مانگی جا رہی ہے…",
+    "source": "d64535fbf5e2"
   },
   "contacts.asks-name-to-connect-in-talk": {
     "text": "{name} سے ای میل کے ذریعے ٹاک (Talk) میں جڑنے کو کہتا ہے",
@@ -3486,6 +3650,13 @@
     "text": "ہر ٹیب پر",
     "source": "4414f037aa97"
   },
+  "image.print.at-its-actual-size-this-picture": {
+    "forms": {
+      "one": "اصل سائز میں یہ تصویر {count} ورق لیتی ہے، جبکہ ایک پرنٹ میں زیادہ سے زیادہ {most} اوراق ہو سکتے ہیں۔ \"صفحے پر فٹ کریں\" منتخب کریں، یا بڑا کاغذ۔",
+      "other": "اصل سائز میں یہ تصویر {count} اوراق لیتی ہے، جبکہ ایک پرنٹ میں زیادہ سے زیادہ {most} اوراق ہو سکتے ہیں۔ \"صفحے پر فٹ کریں\" منتخب کریں، یا بڑا کاغذ۔"
+    },
+    "source": "4e1f2125523c"
+  },
   "locker.at-least-eight-characters-attach-it": {
     "text": "کم از کم آٹھ حروف۔ اسے یہیں ای میل کے ساتھ لگائیں، یا کسی اور طریقے سے بھیجنے کے لیے محفوظ کریں۔ پاس ورڈ فائل سے الگ بھیجیں۔",
     "source": "68ec51ad042a"
@@ -3497,6 +3668,10 @@
   "talk.invite-email.at-most-max-people-at-once": {
     "text": "ایک وقت میں زیادہ سے زیادہ {max} لوگ۔",
     "source": "0939da11b251"
+  },
+  "video.inspector.at-most-n-s-on-this": {
+    "text": "اس کلپ پر زیادہ سے زیادہ {n} سیکنڈ",
+    "source": "47c6548e2318"
   },
   "image.at-most-size": {
     "text": "زیادہ سے زیادہ {size}",
@@ -3517,6 +3692,10 @@
   "video.export.at-limit-this-would-get-rate": {
     "text": "{limit} پر اسے {rate} ملے گا، جو {lines} پر صاف تصویر کے لیے بہت کم ہے۔",
     "source": "5187fb1149f9"
+  },
+  "shell.notifier.at-time": {
+    "text": "{time} پر",
+    "source": "c26d3282decc"
   },
   "word.references-index.atmosphere": {
     "text": "کرۂ ہوائی",
@@ -3553,6 +3732,10 @@
   "common.audio": {
     "text": "آڈیو",
     "source": "bc1b88907d3b"
+  },
+  "video.library.audio-library": {
+    "text": "آڈیو لائبریری",
+    "source": "c514fc7eae0f"
   },
   "slides.ribbon.audio-on-my-pc": {
     "text": "میرے PC پر آڈیو…",
@@ -3657,6 +3840,14 @@
   "common.automatic": {
     "text": "خودکار",
     "source": "d461a493a375"
+  },
+  "print.automatic-landscape": {
+    "text": "خودکار (افقی)",
+    "source": "9f5fed9ba15b"
+  },
+  "print.automatic-portrait": {
+    "text": "خودکار (عمودی)",
+    "source": "98d2df109b2a"
   },
   "sheets.ribbon.automatic-except-for-data-tables": {
     "text": "ڈیٹا ٹیبلز کے سوا خودکار",
@@ -4038,6 +4229,10 @@
     "text": "بھیجنے والے کو بلاک کریں",
     "source": "536fd076223c"
   },
+  "talk.report.block-name-as-well": {
+    "text": "{name} کو بھی بلاک کریں",
+    "source": "1ec80dec6724"
+  },
   "talk.block-name": {
     "text": "{name} کو بلاک کریں؟",
     "source": "c8f5c7726467"
@@ -4053,6 +4248,10 @@
   "mail.dialogs.blocked-top-level-domains": {
     "text": "بلاک شدہ ٹاپ لیول ڈومینز",
     "source": "f30b5bed850e"
+  },
+  "talk.settings.blocked-people": {
+    "text": "بلاک کیے گئے لوگ",
+    "source": "e11bdf7344a1"
   },
   "talk.block-2": {
     "text": "بلاک کریں…",
@@ -4205,6 +4404,10 @@
   "common.bottom-right": {
     "text": "نیچے دائیں",
     "source": "b4b7cb63bc9b"
+  },
+  "video.layer-names.bottom-shade": {
+    "text": "نچلا سایہ",
+    "source": "1dffbced0f7c"
   },
   "word.ribbon.box-dashed-line": {
     "text": "باکس: ڈیش والی لکیر",
@@ -4552,6 +4755,10 @@
     "text": "کال",
     "source": "d6e645b7d2b2"
   },
+  "talk.missed.call-back": {
+    "text": "واپس کال کریں",
+    "source": "fbb0a343f691"
+  },
   "talk.call-ended": {
     "text": "کال ختم ہو گئی",
     "source": "00ff74289a12"
@@ -4608,9 +4815,41 @@
     "text": "کیمرہ اسٹائلز",
     "source": "a02b3cbd8c0d"
   },
+  "studio.window.camera-by-address": {
+    "text": "پتے سے کیمرہ…",
+    "source": "576460523c95"
+  },
+  "studio.net-camera-dialog.camera-details": {
+    "text": "کیمرے کی تفصیلات",
+    "source": "1f24717cfd41"
+  },
+  "studio.sources-column.camera-details": {
+    "text": "کیمرے کی تفصیلات…",
+    "source": "bed02af58b25"
+  },
+  "talk.meet-lines.camera-off": {
+    "text": "کیمرہ بند",
+    "source": "ce3ef7450f8e"
+  },
   "studio.camera-n": {
     "text": "کیمرہ {n}",
     "source": "76ef0b65d44f"
+  },
+  "studio.net-camera-dialog.cameras-added-before": {
+    "text": "پہلے شامل کیے گئے کیمرے",
+    "source": "0bf02739feb0"
+  },
+  "studio.net-camera-find.cameras-on-the-network": {
+    "text": "نیٹ ورک پر کیمرے",
+    "source": "138fe6865c5e"
+  },
+  "studio.window.cameras-on-the-network": {
+    "text": "نیٹ ورک پر کیمرے…",
+    "source": "fa6270f9772a"
+  },
+  "studio.net-camera-find.cameras-that-answered": {
+    "text": "جواب دینے والے کیمرے",
+    "source": "7126fcdc2141"
   },
   "voices-dialog.can-be-added-when-this-computer": {
     "text": "یہ کمپیوٹر آن لائن ہونے پر شامل کیا جا سکتا ہے",
@@ -4643,6 +4882,10 @@
   "calendar.cancelled-summary": {
     "text": "منسوخ: {summary}",
     "source": "bc2bf8d8ef46"
+  },
+  "talk.meet-lines.cannot-be-heard-here": {
+    "text": "یہاں سنا نہیں جا سکتا",
+    "source": "2d08a6698f09"
   },
   "image.canvas-size": {
     "text": "کینوس کا سائز",
@@ -4895,6 +5138,10 @@
   "locker.change-how": {
     "text": "طریقہ بدلیں",
     "source": "7d8d41039ce4"
+  },
+  "video.inspector.change-it-at-another-time-and": {
+    "text": "اسے کسی دوسرے وقت پر تبدیل کریں تو وہاں ایک نقطہ لگ جاتا ہے۔",
+    "source": "71ccbebf0a7b"
   },
   "base.change-my-password": {
     "text": "میرا پاس ورڈ بدلیں",
@@ -5173,6 +5420,10 @@
     "text": "جانچ ہو رہی ہے…",
     "source": "ec963ffc911b"
   },
+  "video.layer-names.checklist": {
+    "text": "چیک لسٹ",
+    "source": "7346030400bf"
+  },
   "pdf.checkmark": {
     "text": "درست کا نشان",
     "source": "d996cc6b3522"
@@ -5353,6 +5604,14 @@
     "text": "موسیقی منتخب کریں",
     "source": "a2758f54bb45"
   },
+  "talk.meet-lines.choose-now-a-meeting-cannot-be": {
+    "text": "ابھی منتخب کریں: میٹنگ ترتیب دینے کے بعد اسے لائیو نہیں بنایا جا سکتا۔",
+    "source": "4d90fc81342e"
+  },
+  "video.ribbon.choose-one": {
+    "text": "ایک منتخب کریں",
+    "source": "0b24aed53ab6"
+  },
   "apps-choice.choose-one-app-at-least": {
     "text": "کم از کم ایک ایپ چنیں۔",
     "source": "6fa9e25d8f09"
@@ -5392,6 +5651,10 @@
   "base.reports.choose-the-total-under-each-number": {
     "text": "ہر عدد کے نیچے میزان چنیں: مجموعہ، اوسط، گنتی یا کوئی نہیں",
     "source": "5d7900fb073e"
+  },
+  "talk.groups.choose-two-or-more-of-your": {
+    "text": "اپنے دو یا زیادہ روابط منتخب کریں۔ گروپ کا ہر رکن دیکھتا ہے کہ اس میں کیا لکھا گیا اور اس میں اور کون ہے۔",
+    "source": "1504482f5063"
   },
   "studio.sources-column.choose-what-to-show": {
     "text": "چنیں کیا دکھانا ہے",
@@ -5897,6 +6160,10 @@
     "text": "رنگ ہلکا کریں",
     "source": "d3939c23da55"
   },
+  "video.library.colour-looks": {
+    "text": "رنگی انداز",
+    "source": "1e3eace528af"
+  },
   "image.type-editor.colour-of-the-words": {
     "text": "الفاظ کا رنگ",
     "source": "8c6ececb4c11"
@@ -6236,13 +6503,25 @@
     "text": "آزمائشی سرور سے جڑیں",
     "source": "73dfcbc52547"
   },
+  "talk.settings.connect-when-rutba-office-starts": {
+    "text": "Rutba Office شروع ہونے پر منسلک کریں",
+    "source": "fbba41a8aaa4"
+  },
   "ai-tools-dialog.connected-now": {
     "text": "ابھی جڑے ہوئے",
     "source": "0e31ab40ee72"
   },
+  "studio.guests.connecting": {
+    "text": "منسلک ہو رہا ہے",
+    "source": "d403c686f6a1"
+  },
   "base.trust.connecting-tells-host-that-this-database": {
     "text": "جڑنے سے {host} کو پتہ چلتا ہے کہ یہ ڈیٹا بیس کھولا گیا، اور کہاں سے۔",
     "source": "d62213401992"
+  },
+  "talk.meet-lines.connecting-to-the-meetings-talk-server": {
+    "text": "میٹنگ کے ٹاک سرور (Talk Server) سے منسلک کیا جا رہا ہے…",
+    "source": "dbdd1c43c358"
   },
   "common.connecting": {
     "text": "جڑ رہا ہے…",
@@ -6319,6 +6598,10 @@
   "image.tools.contiguous-only-the-area-joined-to": {
     "text": "ملحقہ: صرف وہ حصہ جو کلک کی جگہ سے جڑا ہو",
     "source": "c49227ac91cd"
+  },
+  "studio.guests.continue-in-talk": {
+    "text": "Talk میں جاری رکھیں",
+    "source": "dfe707761b26"
   },
   "common.continuous": {
     "text": "مسلسل",
@@ -6503,6 +6786,10 @@
     "text": "یہاں کی فارمیٹنگ اگلے انتخاب پر کاپی کریں",
     "source": "385e4d1fba79"
   },
+  "studio.guests.copy-the-meeting-link": {
+    "text": "میٹنگ کا لنک کاپی کریں",
+    "source": "dcf78a0af22e"
+  },
   "pictures.copy-the-path": {
     "text": "پاتھ کاپی کریں",
     "source": "80c28637e6ac"
@@ -6594,6 +6881,14 @@
   "mail.accounts-bulk.could-not-be-set-up": {
     "text": "ترتیب نہیں دیا جا سکا",
     "source": "15a01aadfd5a"
+  },
+  "studio.guests.could-not-connect": {
+    "text": "منسلک نہیں ہو سکا",
+    "source": "8630b4dd33f2"
+  },
+  "talk.meet-lines.could-not-connect-to-name-the": {
+    "text": "{name} سے منسلک نہیں ہو سکا۔ ممکن ہے آپ کے درمیان نیٹ ورک اسے روک رہا ہو۔",
+    "source": "6efa1c493e6c"
   },
   "mail.could-not-send-why-the-message": {
     "text": "نہیں بھیجا جا سکا: {why}۔ پیغام واپس مسودوں میں ہے۔",
@@ -7082,6 +7377,10 @@
   "common.dashed-horizontal": {
     "text": "ڈیش دار افقی",
     "source": "3ae29d68684a"
+  },
+  "video.layer-names.dashed-list": {
+    "text": "ڈیش والی فہرست",
+    "source": "482bff3efb3d"
   },
   "common.dashed-upward-diagonal": {
     "text": "ڈیش دار ترچھا اوپر کی طرف",
@@ -8900,6 +9199,10 @@
     "text": "فولڈر خالی کریں",
     "source": "ca1fd4548524"
   },
+  "print.empty-prints-every-page-or-type": {
+    "text": "خالی چھوڑنے پر تمام صفحات پرنٹ ہوتے ہیں۔ یا صفحات کے نمبر اور رینجز لکھیں، جیسے 1,2,5,6 یا 1-5۔",
+    "source": "b8b744f198bd"
+  },
   "print.empty-prints-everything-with-anything-in": {
     "text": "خالی چھوڑنے پر ہر وہ چیز پرنٹ ہوتی ہے جس میں کچھ موجود ہو۔",
     "source": "256005db29f3"
@@ -8988,17 +9291,41 @@
     "text": "اختتامی کارڈ",
     "source": "9b35668a9a83"
   },
+  "talk.meeting.end-for-everyone": {
+    "text": "سب کے لیے ختم کریں",
+    "source": "e1cc5d2e7a82"
+  },
+  "studio.guests.end-meeting": {
+    "text": "میٹنگ ختم کریں",
+    "source": "0d59fd0fca8d"
+  },
   "slides.presenter.end-of-the-deck": {
     "text": "پریزنٹیشن کا اختتام",
     "source": "1f8740414e5b"
+  },
+  "studio.guests.end-the-broadcast-first": {
+    "text": "پہلے نشریات ختم کریں۔",
+    "source": "cda831c6b524"
   },
   "studio.live-bar.end-the-broadcast": {
     "text": "نشریات ختم کریں؟",
     "source": "ac1321bf9a1a"
   },
+  "studio.guests.end-the-meeting-for-everyone": {
+    "text": "سب کے لیے میٹنگ ختم کریں",
+    "source": "403b0d8e29d9"
+  },
+  "studio.guests.end-the-meeting-for-everyone-2": {
+    "text": "سب کے لیے میٹنگ ختم کریں؟",
+    "source": "da7516896163"
+  },
   "calendar.end-time": {
     "text": "ختم ہونے کا وقت",
     "source": "2e46006a5eeb"
+  },
+  "talk.ended": {
+    "text": "ختم",
+    "source": "7cdc804e6996"
   },
   "studio.live-bar.ending": {
     "text": "ختم ہو رہی ہے…",
@@ -9196,9 +9523,17 @@
     "text": "جانچ",
     "source": "163e44b10262"
   },
+  "video.inspector.evenly": {
+    "text": "یکساں",
+    "source": "83f7985d2900"
+  },
   "ai-tools.event": {
     "text": "ایونٹ",
     "source": "4e1f49a9c8ae"
+  },
+  "notify-dialog.event-reminders": {
+    "text": "تقریب کی یاد دہانیاں",
+    "source": "d57de2d3c6a1"
   },
   "calendar.events-from-a-ics": {
     "text": ".ics سے تقاریب",
@@ -9231,6 +9566,10 @@
   "slides.every-comment-on-this-slide-deleted": {
     "text": "اس سلائیڈ کا ہر تبصرہ حذف کر دیا گیا",
     "source": "59f3fa1b689c"
+  },
+  "contacts.every-contact-shown-count": {
+    "text": "تمام دکھائے گئے روابط ({count})",
+    "source": "7f4a5bb606e7"
   },
   "calendar.every-day": {
     "text": "ہر روز",
@@ -9295,6 +9634,10 @@
     "text": "اس اسٹائل والا ہر پیراگراف اس کے ساتھ بدل جاتا ہے۔",
     "source": "9cae08c0c68b"
   },
+  "pictures.every-picture-shown-count": {
+    "text": "تمام دکھائی گئی تصاویر ({count})",
+    "source": "904610f6a47a"
+  },
   "base.documents.every-record": {
     "text": "ہر ریکارڈ",
     "source": "f9ed7dc95615"
@@ -9302,6 +9645,10 @@
   "engine.every-row-of-the-column-is": {
     "text": "کالم کی ہر قطار پہلے ہی بھری ہوئی ہے",
     "source": "c50f8a60019b"
+  },
+  "studio.guests.every-seat-is-taken": {
+    "text": "تمام نشستیں بھری ہیں",
+    "source": "45dd15b4dde5"
   },
   "studio.settings-dialog.every-setup": {
     "text": "ہر سیٹ اپ",
@@ -9354,9 +9701,33 @@
     "text": "ہر سال",
     "source": "828ca0e45f14"
   },
+  "talk.server-share.everybody-in-my-organisation": {
+    "text": "میری تنظیم کے سب لوگ",
+    "source": "0fe9dfd1fb93"
+  },
+  "talk.server-share.everybody-in-the-organisation-your-rutba": {
+    "text": "اس تنظیم کے سب لوگ جس سے آپ کا رتبہ (Rutba) اکاؤنٹ تعلق رکھتا ہے۔ اگر یہ کسی تنظیم میں نہیں تو کوئی اور نہیں۔",
+    "source": "05c98bea8eb0"
+  },
   "common.everyone": {
     "text": "ہر کوئی",
     "source": "da2e5dc515b1"
+  },
+  "talk.meet-lines.everyone-asked-is-told-before-they": {
+    "text": "ہر مدعو شخص کو شامل ہونے سے پہلے بتایا جاتا ہے۔ جب تک آپ میٹنگ لائیو نشریات میں کھول کر وہاں لائیو نہ جائیں، کچھ نشر نہیں ہوتا۔",
+    "source": "48c2b1746439"
+  },
+  "studio.guests.everyone-asked-is-told-this-before": {
+    "text": "ہر مدعو شخص کو شامل ہونے سے پہلے یہ بتایا جاتا ہے:",
+    "source": "e2f2a4d7030e"
+  },
+  "talk.meeting.everyone-in-this-group-is-told": {
+    "text": "اس گروپ میں سب کو بتایا جاتا ہے اور وہ شامل ہو سکتے ہیں۔ ایک میٹنگ میں ایک وقت میں چار افراد ہو سکتے ہیں۔",
+    "source": "44ebddf60609"
+  },
+  "studio.guests.everyone-is-taken-out-and-the": {
+    "text": "سب کو نکال دیا جاتا ہے اور لنک کام کرنا بند کر دیتا ہے۔",
+    "source": "f32662261db0"
   },
   "registry.everyone-you-write-to-in-one": {
     "text": "وہ سب جنہیں آپ لکھتے ہیں، ایک ہی ایڈریس بک میں",
@@ -9655,13 +10026,13 @@
     "text": "آہستہ مدھم ہونا",
     "source": "7d680202a523"
   },
-  "video.inspector.fade-from-black": {
-    "text": "سیاہ سے نمودار",
-    "source": "636fcf61e179"
+  "video.layer-names.fade-in-and-out": {
+    "text": "ابھرنا اور مدھم ہونا",
+    "source": "abdc99cd0ff6"
   },
-  "video.inspector.fade-to-black": {
-    "text": "سیاہ میں مدھم",
-    "source": "3fc1288f194f"
+  "video.inspector.fade-length": {
+    "text": "مدھم ہونے کی مدت",
+    "source": "eb1d5120984a"
   },
   "common.fade-down": {
     "text": "مدھم: نیچے",
@@ -9682,6 +10053,10 @@
   "word.dialogs.faint-and-rising-across-every-page": {
     "text": "ہلکا اور ترچھا اوپر کو اٹھتا ہوا، ہر صفحے پر متن کے پیچھے، ویسے ہی بنایا گیا جیسے Word اپنا بناتا ہے۔",
     "source": "ba77601d2670"
+  },
+  "video.inspector.fall": {
+    "text": "گر کر آنا",
+    "source": "e85a6413c1bd"
   },
   "word.mailings.fallback": {
     "text": "متبادل",
@@ -9714,6 +10089,10 @@
   "mail.fetching-folder-done": {
     "text": "{folder} لایا جا رہا ہے: {done}",
     "source": "d52ad4f83a82"
+  },
+  "video.library.fetching": {
+    "text": "حاصل کیا جا رہا ہے…",
+    "source": "8d0738c84d08"
   },
   "mail.smime.fewer-details": {
     "text": "کم تفصیلات",
@@ -9794,6 +10173,10 @@
   "common.file-name": {
     "text": "فائل کا نام",
     "source": "3efed3de9d4b"
+  },
+  "pictures.file-names-beneath-the-pictures": {
+    "text": "تصاویر کے نیچے فائلوں کے نام",
+    "source": "9095d26206fe"
   },
   "locker.file-names-in-the-cloud": {
     "text": "کلاؤڈ میں فائلوں کے نام",
@@ -10103,6 +10486,10 @@
     "text": "تلاش کریں: ہر صفحے پر الفاظ (Ctrl+F)",
     "source": "04805ec8b35c"
   },
+  "talk.meet-lines.finding-a-talk-server-for-the": {
+    "text": "میٹنگ کے لیے ٹاک سرور (Talk Server) تلاش کیا جا رہا ہے…",
+    "source": "f13c9a98b3ca"
+  },
   "ui.proofing.finding-suggestions": {
     "text": "تجاویز تلاش کی جا رہی ہیں…",
     "source": "b5269d86a5f7"
@@ -10151,6 +10538,10 @@
     "text": "اپنے براؤزر میں سائن ان مکمل کریں، پھر یہاں واپس آئیں۔",
     "source": "07f16710fc1e"
   },
+  "talk.finish-your-call-first": {
+    "text": "پہلے اپنی کال ختم کریں۔",
+    "source": "7bf710a0c972"
+  },
   "common.fire": {
     "text": "آگ",
     "source": "c141faa80e43"
@@ -10194,6 +10585,10 @@
   "base.sources.first-page": {
     "text": "پہلا صفحہ",
     "source": "0bdbb750609c"
+  },
+  "video.library.first-point": {
+    "text": "پہلا نقطہ",
+    "source": "29ceaa773427"
   },
   "common.first-record": {
     "text": "پہلا ریکارڈ",
@@ -10246,6 +10641,10 @@
   "common.fit-to-window": {
     "text": "ونڈو کے مطابق فٹ کریں",
     "source": "19707cae1f79"
+  },
+  "image.fit-to-the-page": {
+    "text": "صفحے پر فٹ کریں",
+    "source": "d3813ef5da30"
   },
   "common.fit-to-window-2": {
     "text": "ونڈو کے مطابق فٹ کریں",
@@ -10546,9 +10945,17 @@
     "text": "قانونی تحفظ کے لیے: ہیشوں کی فہرست کے ساتھ mbox اور PDF",
     "source": "cd8cd2cc47d2"
   },
+  "talk.meet-lines.for-more-than-four-people-choose": {
+    "text": "چار سے زیادہ افراد کے لیے۔ ابھی منتخب کریں: اسے بعد میں تبدیل نہیں کیا جا سکتا۔",
+    "source": "84feb33750e6"
+  },
   "studio.window.for-the-tools": {
     "text": "ٹولز کے لیے",
     "source": "28b5d93196d6"
+  },
+  "studio.settings-dialog.for-this-session-save-the-session": {
+    "text": "صرف اس سیشن کے لیے۔ انہیں رکھنے کے لیے سیشن کو بطور سیٹ اپ محفوظ کریں۔",
+    "source": "89f7e8f9bc6d"
   },
   "broadcast.live-dialog.for-wide-and-tall-on-one": {
     "text": "ایک ہی پلیٹ فارم پر چوڑا اور لمبا دونوں کے لیے اسے دو بار شامل کریں، ہر ایک کی اپنی کی کے ساتھ۔",
@@ -10581,6 +10988,14 @@
   "slides.foreground": {
     "text": "پیش منظر",
     "source": "ad4e241834ec"
+  },
+  "studio.net-camera-dialog.forget": {
+    "text": "بھول جائیں",
+    "source": "a6bd489d9550"
+  },
+  "studio.net-camera-dialog.forget-this-camera-and-its-password": {
+    "text": "یہ کیمرہ اور اس کا پاس ورڈ بھول جائیں",
+    "source": "bbaf44180309"
   },
   "pdf.form": {
     "text": "فارم",
@@ -10942,10 +11357,6 @@
     "text": "اوپر دائیں سے",
     "source": "6b697be237a3"
   },
-  "video.inspector.from-black": {
-    "text": "سیاہ سے",
-    "source": "6b8e41a84b78"
-  },
   "talk.invite.from-no-reply-rutba-io-in": {
     "text": "no-reply@rutba.io سے، آپ کے نام پر، دن میں چند ایک۔",
     "source": "ca68787a47f9"
@@ -11106,6 +11517,10 @@
     "text": "GitHub نے فی الحال جانچ قبول نہیں کی۔ ایک گھنٹے بعد دوبارہ کوشش کریں۔",
     "source": "607e298f1b12"
   },
+  "talk-words.give-the-meeting-a-name": {
+    "text": "میٹنگ کو نام دیں۔",
+    "source": "ca0cc479b89e"
+  },
   "locker.give-the-password-a-different-way": {
     "text": "پاس ورڈ کسی اور طریقے سے دیں، جیسے کال یا ٹیکسٹ میسج، اسی ای میل میں کبھی نہیں۔ دوسرا شخص اپنے لاکر (Locker) میں بھیجی گئی فائل کھولیں سے فائل کھولتا ہے۔",
     "source": "1b7a08b8266b"
@@ -11113,6 +11528,10 @@
   "locker.give-the-password-a-different-way-2": {
     "text": "پاس ورڈ کسی اور طریقے سے دیں، جیسے کال یا ٹیکسٹ میسج۔",
     "source": "de572f2fb31a"
+  },
+  "studio.net-camera-find.give-the-user-name-and-password": {
+    "text": "کیمرے کا صارف نام اور پاس ورڈ دیں۔ Office خود کیمرے سے اس کی اسٹریم مانگتا ہے۔",
+    "source": "4a09aba0e547"
   },
   "slides.glow": {
     "text": "چمک",
@@ -11422,6 +11841,10 @@
     "text": "{columns} کے لحاظ سے گروپ کیا گیا",
     "source": "a3ee8fd53ec4"
   },
+  "talk.groups": {
+    "text": "گروپس",
+    "source": "39bbb719fa2b"
+  },
   "word.restrict.groups": {
     "text": "گروپس:",
     "source": "914dc79e4818"
@@ -11446,9 +11869,37 @@
     "text": "افزائش",
     "source": "66b06e996553"
   },
+  "studio.list.guest": {
+    "text": "مہمان",
+    "source": "5ed8944a85a9"
+  },
+  "studio.guests.guest-from-talk": {
+    "text": "Talk سے مہمان…",
+    "source": "793232fc0bf6"
+  },
   "base.guest-house-or-b-and-b": {
     "text": "مہمان خانہ یا بستر اور ناشتہ",
     "source": "a0f9eeb489a3"
+  },
+  "studio.list.guest-n": {
+    "text": "مہمان {n}",
+    "source": "03b6865b76af"
+  },
+  "studio.guests.guests": {
+    "text": "مہمان",
+    "source": "3c8e0fde6fcc"
+  },
+  "studio.guests.guests-come-in-through-talk-open": {
+    "text": "مہمان ٹاک (Talk) کے ذریعے آتے ہیں۔ ٹاک کھولیں اور سائن ان کریں، پھر یہاں واپس آئیں۔",
+    "source": "9eb299d4bca8"
+  },
+  "studio.guests.guests-from-talk": {
+    "text": "Talk سے مہمان",
+    "source": "3d460856e536"
+  },
+  "studio.guests.guests-2": {
+    "text": "مہمان…",
+    "source": "16daa9d8055e"
   },
   "slides.ribbon.guides": {
     "text": "رہنما لکیریں",
@@ -11465,6 +11916,14 @@
   "slides.half-reflection": {
     "text": "نصف عکس",
     "source": "5134a8a7f210"
+  },
+  "talk.meet-lines.hand": {
+    "text": "ہاتھ",
+    "source": "fa18c06733fb"
+  },
+  "talk.meet-lines.hand-raised": {
+    "text": "ہاتھ اٹھایا",
+    "source": "28a816817557"
   },
   "print.handout": {
     "text": "ہینڈ آؤٹ",
@@ -11496,6 +11955,10 @@
   "word.ruler.hanging-indent": {
     "text": "لٹکتا ہوا حاشیہ",
     "source": "330571a6ff67"
+  },
+  "talk.lines.harassment-or-threats": {
+    "text": "ہراسانی یا دھمکیاں",
+    "source": "badb8a71f7e3"
   },
   "common.harbour": {
     "text": "بندرگاہ",
@@ -11681,6 +12144,14 @@
     "text": "اونچائی: خودکار",
     "source": "72963474c164"
   },
+  "talk.meet-lines.held-on-a-talk-server-and": {
+    "text": "ٹاک سرور (Talk Server) پر ہوتی ہے، اور اس میں شامل لوگوں کی ایپس اسے خفیہ کرتی ہیں۔",
+    "source": "069bbb237456"
+  },
+  "talk.meet-lines.held-on-a-talk-server-sound": {
+    "text": "ٹاک سرور (Talk Server) پر ہوتی ہے۔ آواز، تصویر اور پیغامات اس میں شامل لوگوں کی ایپس خفیہ کرتی ہیں۔",
+    "source": "7b770898ab95"
+  },
   "talk.invite-email.hello-name": {
     "text": "السلام علیکم {name}،",
     "source": "ec6b334e36ce"
@@ -11704,6 +12175,10 @@
   "word.mailings.here-is-a-preview-from-your": {
     "text": "یہ آپ کی وصول کنندگان کی فہرست سے ایک پیش نظارہ ہے:",
     "source": "e78b6ed296e4"
+  },
+  "studio.guests.here-now": {
+    "text": "ابھی یہاں",
+    "source": "ccf67ff0cbab"
   },
   "colour.palette.hex": {
     "text": "ہیکس",
@@ -11953,6 +12428,10 @@
     "text": "فریم روکیں",
     "source": "21076652231b"
   },
+  "talk.meeting.hold-it-on-a-talk-server": {
+    "text": "ٹاک سرور (Talk Server) پر منعقد کریں",
+    "source": "6f8881eaab59"
+  },
   "pictures.hold-this-frame": {
     "text": "یہ فریم روکے رکھیں",
     "source": "710af7ead1b9"
@@ -11988,6 +12467,10 @@
   "template-gallery.household": {
     "text": "گھریلو",
     "source": "a1c6c97f415f"
+  },
+  "notify-dialog.how": {
+    "text": "کیسے",
+    "source": "7470bd3bc2ab"
   },
   "video.inspector.how-close": {
     "text": "کتنا قریب",
@@ -12403,6 +12886,10 @@
     "text": "متن کے سامنے",
     "source": "c5e4f149a0b0"
   },
+  "talk.meeting.in-it-now-names": {
+    "text": "ابھی اس میں: {names}",
+    "source": "41e0075c8bab"
+  },
   "word.in-line-with-text": {
     "text": "متن کے ساتھ ایک لائن میں",
     "source": "975100d147b1"
@@ -12451,6 +12938,13 @@
     "text": "آپ کے ٹاک (Talk) روابط میں",
     "source": "6d460ac05145"
   },
+  "shell.notifier.in-count-minute": {
+    "forms": {
+      "one": "{count} منٹ میں",
+      "other": "{count} منٹ میں"
+    },
+    "source": "575500e5bcff"
+  },
   "video.in-from-out-to": {
     "text": "ان {from}، آؤٹ {to}",
     "source": "9ad2ac8a59a8"
@@ -12495,9 +12989,17 @@
     "text": "آنے والی کال",
     "source": "a31650d84806"
   },
+  "notify-dialog.incoming-calls": {
+    "text": "آنے والی کالز",
+    "source": "820afd4a1ab6"
+  },
   "mail.dialogs.incoming-server-imap": {
     "text": "آنے والا سرور (IMAP)",
     "source": "dfd215e4fd24"
+  },
+  "shell.notifier.incoming-video-call": {
+    "text": "آنے والی ویڈیو کال",
+    "source": "eda8b6750322"
   },
   "sheets.ribbon.increase-decimal": {
     "text": "اعشاریہ بڑھائیں",
@@ -13283,6 +13785,10 @@
     "text": "انوائس",
     "source": "b832002da297"
   },
+  "video.iris": {
+    "text": "آئرس",
+    "source": "65003c7a1864"
+  },
   "sheets.queries.is": {
     "text": "ہے",
     "source": "f5985de1fd3a"
@@ -13395,9 +13901,17 @@
     "text": "یہ سادہ متن کے طور پر دکھایا گیا ہے، لنکس اور تصاویر کے بغیر: جو خفیہ پیغام کسی قابلِ اعتماد شخص کے دستخط سے نہ ہو، اسے راستے میں بدلا جا سکتا تھا تاکہ اس کے الفاظ کہیں اور بھیجے جائیں۔",
     "source": "a923da16888c"
   },
+  "shell.tray.it-keeps-watch-for-calls-messages": {
+    "text": "یہ کالز، پیغامات، میل اور یاد دہانیوں کی نگرانی کرتا ہے۔ گھڑی کے پاس اس کے آئکن سے اسے کھولیں یا بند کریں۔",
+    "source": "280bef469893"
+  },
   "locker.it-needs-about-size-and-free": {
     "text": "اسے تقریباً {size} جگہ چاہیے، اور {free} خالی ہے۔",
     "source": "4b6dd24db2d1"
+  },
+  "notify-dialog.it-starts-by-the-clock-with": {
+    "text": "جب آپ Windows میں سائن ان کرتے ہیں تو یہ بغیر ونڈو کے گھڑی کے پاس شروع ہوتا ہے۔",
+    "source": "6a1f3f9b4896"
   },
   "base.people.it-starts-reading-every-table-choose": {
     "text": "یہ ہر جدول پڑھنے سے شروع ہوتا ہے؛ چنیں کہ یہ ہر ایک کے ساتھ کیا کر سکتا ہے۔",
@@ -13406,6 +13920,10 @@
   "base.it-starts-with-an-id-that": {
     "text": "اس میں پہلے سے ایک ID ہے جو ہر ریکارڈ کو نمبر دیتی ہے؛ اس کی فیلڈز اس کے ڈیزائن میں شامل کریں۔",
     "source": "021f623d5e41"
+  },
+  "notify-dialog.it-stays-by-the-clock-while": {
+    "text": "جب تک دیکھنے کو کچھ ہو، یہ گھڑی کے پاس رہتا ہے: ٹاک (Talk) میں سائن ان، کوئی میل اکاؤنٹ، یا آنے والی یاد دہانی۔ وہاں اس کے آئکن کے مینو میں \"بند کریں\" اسے بند کر دیتا ہے۔",
+    "source": "10a5253e2f69"
   },
   "mail.dialogs.it-uses-the-encoding-encoding-which": {
     "text": "اس میں {encoding} انکوڈنگ استعمال ہوئی ہے، جسے یہ بلڈ ڈی کوڈ نہیں کر سکتا۔",
@@ -13513,9 +14031,37 @@
     "text": "عہدہ",
     "source": "86db80a8096b"
   },
+  "common.join": {
+    "text": "شامل ہوں",
+    "source": "fd30fe681b4b"
+  },
+  "talk.meeting.join-a-meeting": {
+    "text": "میٹنگ میں شامل ہوں",
+    "source": "9b2a5bd7d96b"
+  },
   "sheets.queries.join-kind": {
     "text": "جوڑ کی قسم",
     "source": "a9aa54ad2dfd"
+  },
+  "calendar.join-the-meeting": {
+    "text": "میٹنگ میں شامل ہوں",
+    "source": "31310cd2645b"
+  },
+  "talk-words.join-the-meeting-in-rutba-office": {
+    "text": "رتبہ آفس (Rutba Office) میں میٹنگ میں شامل ہوں: {link}",
+    "source": "c9c01f7d52fd"
+  },
+  "calendar.joining-needs-talk-which-is-not": {
+    "text": "شامل ہونے کے لیے ٹاک (Talk) درکار ہے، جو اس کمپیوٹر پر انسٹال نہیں ہے۔",
+    "source": "7870dcf0080c"
+  },
+  "talk.meeting.joining-name": {
+    "text": "{name} میں شمولیت جاری ہے…",
+    "source": "56727336c281"
+  },
+  "talk.meeting.joining": {
+    "text": "شمولیت جاری ہے…",
+    "source": "6bbb89ee5d48"
   },
   "common.journal-article": {
     "text": "جریدے کا مضمون",
@@ -13596,6 +14142,10 @@
   "pdf.keep-it-open": {
     "text": "اسے کھلا رکھیں",
     "source": "458f6b681df9"
+  },
+  "notify-dialog.keep-rutba-office-running-after-its": {
+    "text": "آخری ونڈو بند ہونے کے بعد بھی رتبہ آفس (Rutba Office) کو چلتا رکھیں",
+    "source": "f31bfd395eab"
   },
   "sheets.queries.keep-top-rows": {
     "text": "اوپری قطاریں رکھیں",
@@ -13717,6 +14267,14 @@
     "text": "اس بھیجنے والے کو روابط میں رکھیں",
     "source": "dd3bb1c9952a"
   },
+  "studio.setups-menu.keep-this-session": {
+    "text": "یہ سیشن رکھیں؟",
+    "source": "5949e8e6390b"
+  },
+  "notify-dialog.keeping-watch": {
+    "text": "نگرانی",
+    "source": "2bd2ecd98d0f"
+  },
   "sheets.dialogs.keeps": {
     "text": "کیا رکھتا ہے",
     "source": "16aebc8dbb59"
@@ -13772,6 +14330,10 @@
   "contacts.kept-name": {
     "text": "{name} کو رکھ لیا گیا۔",
     "source": "631191ecc875"
+  },
+  "studio.net-camera-dialog.kept-type-a-new-one-to": {
+    "text": "محفوظ ہے۔ اسے تبدیل کرنے کے لیے نیا لکھیں۔",
+    "source": "94040f9b6468"
   },
   "common.key": {
     "text": "چابی",
@@ -14041,6 +14603,10 @@
     "text": "آخری: {tool}، {when}",
     "source": "555c3b837526"
   },
+  "video.inspector.lasts": {
+    "text": "دورانیہ",
+    "source": "e8d07dfabcb4"
+  },
   "packs-dialog.later": {
     "text": "بعد میں",
     "source": "73b6e48a1b55"
@@ -14124,6 +14690,10 @@
     "text": "کم سے کم",
     "source": "02610c979bd9"
   },
+  "talk.meeting.leave": {
+    "text": "چھوڑیں",
+    "source": "fc6e4a408d56"
+  },
   "mail.dialogs.leave-blank-for-automatic-reply-and": {
     "text": "\"خودکار جواب: \" اور اصل موضوع کے لیے خالی چھوڑ دیں۔",
     "source": "94aa5a2fde29"
@@ -14148,6 +14718,10 @@
     "text": "پوری اسکرین سے باہر نکلیں (F11)",
     "source": "f29680c41343"
   },
+  "talk.leave-group": {
+    "text": "گروپ چھوڑیں",
+    "source": "3475393dbebd"
+  },
   "sheets.dialogs.leave-it-empty-to-keep-the": {
     "text": "اس رینج کا موجودہ پاس ورڈ برقرار رکھنے کے لیے اسے خالی چھوڑ دیں۔",
     "source": "41e0fa01d903"
@@ -14164,6 +14738,10 @@
     "text": "منفی کے بعد والی چیز کو چھوڑ دیں",
     "source": "fc1eecb3aa7d"
   },
+  "talk.meeting.leave-the-meeting": {
+    "text": "میٹنگ چھوڑیں",
+    "source": "977585a92642"
+  },
   "slides.leave-the-show": {
     "text": "شو سے باہر نکلیں",
     "source": "fdc22af2a38d"
@@ -14179,6 +14757,14 @@
   "locker.leave-them-unlocked-suggested": {
     "text": "انہیں ان لاک چھوڑ دیں (تجویز کردہ)",
     "source": "0afd256556ff"
+  },
+  "talk.leave-this-group": {
+    "text": "یہ گروپ چھوڑیں؟",
+    "source": "4ed01b5a99b2"
+  },
+  "talk.meeting.leave-or-end-the-meeting-for": {
+    "text": "میٹنگ چھوڑیں، یا سب کے لیے ختم کریں؟",
+    "source": "f2d3c9b9f154"
   },
   "common.left": {
     "text": "بائیں",
@@ -14274,6 +14860,10 @@
   "word.ribbon.legal-8-5-14-in": {
     "text": "لیگل: 8.5 × 14 in",
     "source": "470239248343"
+  },
+  "video.inspector.legend": {
+    "text": "لیجنڈ",
+    "source": "7482e374b5bd"
   },
   "base.lending-library": {
     "text": "ادھار لائبریری",
@@ -14587,6 +15177,14 @@
     "text": "لنک کا پتہ",
     "source": "13844ffc7287"
   },
+  "talk.meeting.link-copied": {
+    "text": "لنک کاپی ہو گیا۔",
+    "source": "71af38a2d56b"
+  },
+  "studio.guests.link-copied-paste-it-wherever-you": {
+    "text": "لنک کاپی ہو گیا۔ اسے جہاں چاہیں پیسٹ کریں۔",
+    "source": "e62a2c262096"
+  },
   "word.list-dialog.link-level-to-style": {
     "text": "سطح کو اسٹائل سے منسلک کریں",
     "source": "ed09b5da333c"
@@ -14723,6 +15321,10 @@
     "text": "لائیو منزلیں…",
     "source": "677788648878"
   },
+  "studio.guests.live-broadcast-with-name": {
+    "text": "{name} کے ساتھ لائیو نشریات",
+    "source": "fed9b5301f2a"
+  },
   "base.links.live-reads-the-records-from-the": {
     "text": "\"لائیو\" آپ کے کام کے دوران ریکارڈز انجن سے پڑھتا ہے۔ \"اس فائل میں کاپی رکھیں\" انہیں یہاں بھی رکھتا ہے: انجن پہنچ سے باہر ہو تب بھی آپ کام کر سکتے ہیں، اور اس کے واپس آنے پر آپ کی تبدیلیاں اس تک پہنچ جاتی ہیں۔ جب کوئی ریکارڈ دونوں جگہ بدلا گیا ہو تو انجن کا ورژن مانا جاتا ہے اور آپ کا ورژن آپ کے دیکھنے کے لیے رکھ لیا جاتا ہے۔",
     "source": "c61357c56fe9"
@@ -14790,6 +15392,10 @@
   "image.layers-panel.lock-the-layer": {
     "text": "پرت مقفل کریں",
     "source": "7dbd5ea70c86"
+  },
+  "talk.meeting.lock-the-meeting-nobody-new-can": {
+    "text": "میٹنگ مقفل کریں: کوئی نیا شامل نہیں ہو سکتا",
+    "source": "5508fe16d924"
   },
   "locker.lock-the-rest-leave-this-one": {
     "text": "باقی لاک کریں، اسے سادہ چھوڑ دیں",
@@ -14915,6 +15521,10 @@
     "text": "انداز",
     "source": "a0de5719f595"
   },
+  "studio.net-camera-find.look-again": {
+    "text": "دوبارہ تلاش کریں",
+    "source": "d36feef04807"
+  },
   "video.look-here": {
     "text": "یہاں دیکھیں",
     "source": "a0191bf6cc06"
@@ -14938,6 +15548,10 @@
   "mail.docnote.looking-for-an-invoice-or-a": {
     "text": "{name} میں انوائس یا رسید تلاش کی جا رہی ہے…",
     "source": "19526ac28939"
+  },
+  "studio.net-camera-find.looking-for-cameras-on-this-network": {
+    "text": "اس نیٹ ورک پر کیمرے تلاش کیے جا رہے ہیں…",
+    "source": "35cf2433a990"
   },
   "slides.changes.looking-for-changes": {
     "text": "تبدیلیاں تلاش کی جا رہی ہیں…",
@@ -15006,6 +15620,10 @@
   "video.inspector.lower-the-rest": {
     "text": "باقی آواز کم کریں",
     "source": "95be98f8b672"
+  },
+  "talk.meeting.lower-your-hand": {
+    "text": "ہاتھ نیچے کریں",
+    "source": "b8308c2681a2"
   },
   "common.lowercase": {
     "text": "چھوٹے حروف",
@@ -15650,13 +16268,33 @@
     "text": "درمیانہ، سادہ قطاریں",
     "source": "611babdad090"
   },
+  "talk.meet-now": {
+    "text": "ابھی میٹنگ",
+    "source": "90e040c1ceb7"
+  },
+  "common.meeting": {
+    "text": "میٹنگ",
+    "source": "8b8b8871bbfb"
+  },
   "template-gallery.meeting-agenda": {
     "text": "اجلاس کا ایجنڈا",
     "source": "07d60ca4be2d"
   },
+  "talk.meeting.meeting-locked": {
+    "text": "میٹنگ مقفل",
+    "source": "b91ee56f0968"
+  },
   "template-gallery.meeting-minutes": {
     "text": "اجلاس کی کارروائی",
     "source": "eed123b54b71"
+  },
+  "talk.meet-lines.meeting-with-name": {
+    "text": "{name} کے ساتھ میٹنگ",
+    "source": "c77cbc09cfcf"
+  },
+  "notify-dialog.meetings-about-to-start": {
+    "text": "شروع ہونے والی میٹنگز",
+    "source": "5e5c76090b99"
   },
   "base.members-and-plans-payments-classes-and": {
     "text": "اراکین اور منصوبے، ادائیگیاں، کلاسیں اور بکنگز، ذاتی تربیت اور آمد۔",
@@ -15938,6 +16576,18 @@
     "text": "آئینہ",
     "source": "90fade6fb78e"
   },
+  "common.missed-call": {
+    "text": "چھوٹی ہوئی کال",
+    "source": "f203aff4b526"
+  },
+  "common.missed-calls": {
+    "text": "چھوٹی ہوئی کالز",
+    "source": "42f59e0dcd29"
+  },
+  "talk.lines.missed-video-call": {
+    "text": "چھوٹی ہوئی ویڈیو کال",
+    "source": "73fd69f0bfa5"
+  },
   "word.ribbon.moderate": {
     "text": "معتدل",
     "source": "5c42afc7a230"
@@ -16098,6 +16748,10 @@
     "text": "مزید ٹیمپلیٹس: خطوط، رپورٹیں، بجٹ، انوائسیں، پریزنٹیشنز اور بہت کچھ، اور آپ کے اپنے",
     "source": "9633d83cbe73"
   },
+  "video.ribbon.more-transitions": {
+    "text": "مزید ٹرانزیشنز",
+    "source": "196a312ff56d"
+  },
   "sheets.more-edit-or-delete": {
     "text": "مزید: ترمیم کریں یا حذف کریں",
     "source": "09b71b1a3f9a"
@@ -16201,6 +16855,10 @@
   "video.move-track-up": {
     "text": "ٹریک اوپر لے جائیں",
     "source": "014314a1063e"
+  },
+  "video.timeline.move-a-point-of-movement": {
+    "text": "حرکت کا نقطہ منتقل کریں",
+    "source": "456f30320217"
   },
   "video.move-clip": {
     "text": "کلپ منتقل کریں",
@@ -16310,6 +16968,10 @@
     "text": "ردی میں منتقل ہو گیا",
     "source": "4a32012fc458"
   },
+  "video.inspector.movement": {
+    "text": "حرکت",
+    "source": "49ba63e89af6"
+  },
   "sheets.objects.multi-select-off-a-click-shows": {
     "text": "متعدد انتخاب بند ہے: ایک کلک صرف وہی آئٹم دکھاتا ہے (Ctrl+کلک ایک اور شامل کرتا ہے)",
     "source": "0910783d3f55"
@@ -16358,6 +17020,10 @@
     "text": "یہ ٹریک خاموش کریں",
     "source": "2d4449bf2a58"
   },
+  "common.muted": {
+    "text": "خاموش",
+    "source": "2346f214ad56"
+  },
   "talk.address.my-address-in-talk": {
     "text": "Talk میں میرا پتہ",
     "source": "c06c86b814f9"
@@ -16369,6 +17035,10 @@
   "calendar.my-calendars": {
     "text": "میرے کیلنڈرز",
     "source": "23b77e2b7bb3"
+  },
+  "talk.server-share.my-contacts": {
+    "text": "میرے روابط",
+    "source": "6add5927687d"
   },
   "talk.invite.my-email-app": {
     "text": "میری ای میل ایپ",
@@ -16434,6 +17104,14 @@
     "text": "ویب سائٹ کا نام",
     "source": "9a8a9021ffc5"
   },
+  "talk.groups.name-of-the-group": {
+    "text": "گروپ کا نام",
+    "source": "d692cebacdf6"
+  },
+  "talk.meeting.name-of-the-meeting": {
+    "text": "میٹنگ کا نام",
+    "source": "d944cb35604b"
+  },
   "profiles.name-of-the-new-profile": {
     "text": "نئے پروفائل کا نام",
     "source": "cd872167f53f"
@@ -16457,6 +17135,10 @@
   "common.name-for-the-lower-third": {
     "text": "نام، نچلی پٹی کے لیے",
     "source": "3075123d2d1a"
+  },
+  "talk.groups.name-if-you-want-one": {
+    "text": "نام، اگر آپ چاہیں",
+    "source": "70fee814f6a2"
   },
   "sheets.dialogs.named-ranges": {
     "text": "نام شدہ رینجز",
@@ -16540,6 +17222,10 @@
     "text": "نیا رتبہ آفس (Rutba Office) درکار ہے",
     "source": "3d61f92f62b9"
   },
+  "talk.lines.needs-a-newer-rutba-office-to": {
+    "text": "یہ گروپ دیکھنے کے لیے رتبہ آفس (Rutba Office) کا نیا ورژن درکار ہے",
+    "source": "e9f8d676fa25"
+  },
   "locker.needs-you": {
     "text": "آپ کی ضرورت ہے",
     "source": "74b6abdf5969"
@@ -16548,9 +17234,17 @@
     "text": "جب تک آپ دوبارہ رابطے نہ بنیں، آپ میں سے کوئی دوسرے کو نہ لکھ سکے گا نہ کال کر سکے گا۔ یہاں آپ کے پیغامات حذف ہو جاتے ہیں۔",
     "source": "55354b8358c9"
   },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "نہ دکھائی دیتی ہیں نہ بلند آواز سے پڑھی جاتی ہیں: سطریں اپنا وقت برقرار رکھتی ہیں۔ انہیں واپس لانے کے لیے تینوں میں سے ایک چنیں۔",
+    "source": "431be017d2c5"
+  },
   "common.neon": {
     "text": "نیون",
     "source": "618484e2c549"
+  },
+  "studio.list.network-camera": {
+    "text": "نیٹ ورک کیمرہ",
+    "source": "6e3492ed4b9b"
   },
   "sheets.ribbon.neutral": {
     "text": "غیر جانبدار",
@@ -16732,6 +17426,10 @@
     "text": "نئی دستاویزات {name} میں شروع ہوں گی۔",
     "source": "5331555ff54a"
   },
+  "common.new-email": {
+    "text": "نئی ای میل",
+    "source": "0d25c8b1db61"
+  },
   "calendar.new-event": {
     "text": "نئی تقریب",
     "source": "7cdc2e276045"
@@ -16760,9 +17458,17 @@
     "text": "کسی ٹیمپلیٹ سے نیا",
     "source": "5c281f84d68c"
   },
+  "talk.groups.new-group": {
+    "text": "نیا گروپ",
+    "source": "df796c655f6f"
+  },
   "mail.new-mail-goes-from-address": {
     "text": "نئی میل {address} سے جائے گی",
     "source": "75d10444c655"
+  },
+  "notify-dialog.new-mail-as-it-arrives": {
+    "text": "نئی میل، جیسے ہی آئے",
+    "source": "7436e7beb576"
   },
   "mail.new-message": {
     "text": "نیا پیغام",
@@ -16803,6 +17509,10 @@
   "mail.rules.new-rule": {
     "text": "نیا قاعدہ",
     "source": "99cd24efe983"
+  },
+  "studio.window.new-session": {
+    "text": "نیا سیشن",
+    "source": "cffdba22adf2"
   },
   "studio.new-setup": {
     "text": "نیا سیٹ اپ",
@@ -16964,6 +17674,10 @@
     "text": "اگلا صفحہ (Page Down)",
     "source": "b4b926fb53d0"
   },
+  "video.inspector.next-point": {
+    "text": "اگلا نقطہ",
+    "source": "ce6dcb3c9b65"
+  },
   "common.next-record": {
     "text": "اگلا ریکارڈ",
     "source": "72366533fb26"
@@ -17072,6 +17786,14 @@
     "text": "ابھی رتبہ آفس (Rutba Office) نہیں ہے؟ اسی لنک سے آپ مفت رتبہ اکاؤنٹ کے ساتھ قبول کر سکتے ہیں، اور رتبہ آفس مفت ڈاؤن لوڈ ہوتا ہے: {join}",
     "source": "16030f970f96"
   },
+  "talk.meet-lines.no-talk-server-can-hold-this": {
+    "text": "اس وقت کوئی ٹاک سرور (Talk Server) یہ میٹنگ منعقد نہیں کر سکتا۔",
+    "source": "21399cd5bfda"
+  },
+  "talk.meet-lines.no-talk-server-can-take-people": {
+    "text": "اس وقت کوئی ٹاک سرور (Talk Server) لوگوں کو اس میٹنگ میں نہیں لے سکتا۔ ذرا دیر بعد دوبارہ شامل ہوں۔",
+    "source": "f88a607c134e"
+  },
   "sheets.ribbon.no-title": {
     "text": "کوئی عنوان نہیں",
     "source": "a81d00a2e03d"
@@ -17147,6 +17869,14 @@
   "ai-tools-dialog.no-call-yet": {
     "text": "ابھی کوئی کال نہیں",
     "source": "a43c76129f11"
+  },
+  "studio.net-camera-find.no-camera-answered-a-camera-answers": {
+    "text": "کسی کیمرے نے جواب نہیں دیا۔ کیمرہ تب جواب دیتا ہے جب اس کی اپنی ترتیبات میں ONVIF آن ہو اور وہ اس کمپیوٹر والے نیٹ ورک پر ہو۔",
+    "source": "458f70618c7d"
+  },
+  "talk.meet-lines.no-camera-was-found-on-this": {
+    "text": "اس کمپیوٹر پر کوئی کیمرہ نہیں ملا۔",
+    "source": "16b044153b6f"
   },
   "common.no-camera-was-found": {
     "text": "کوئی کیمرا نہیں ملا۔",
@@ -17224,6 +17954,10 @@
     "text": "ابھی کوئی رابطہ نہیں۔ کسی کو ای میل پتے سے شامل کریں؛ ان کے قبول کرنے پر آپ لکھ اور کال کر سکتے ہیں۔",
     "source": "f6497439472d"
   },
+  "studio.guests.no-copy-is-kept-while-this": {
+    "text": "جب تک یہ میٹنگ یہاں ہے، کوئی کاپی نہیں رکھی جاتی۔ اس کے لوگوں کو بتایا گیا تھا کہ یہ لائیو نشر ہوگی، یہ نہیں کہ ریکارڈ ہوگی۔",
+    "source": "40fd5ed74db7"
+  },
   "slides.custom-shows.no-custom-shows-yet-new-makes": {
     "text": "ابھی کوئی حسبِ ضرورت شو نہیں۔ \"نیا\" دبانے سے ایک بن جاتا ہے۔",
     "source": "8b1f3e334875"
@@ -17259,6 +17993,10 @@
   "word.mailings.no-errors-every-merge-field-has": {
     "text": "کوئی غلطی نہیں: ہر مرج فیلڈ کا فہرست میں ایک کالم موجود ہے۔",
     "source": "3d54fcdbe072"
+  },
+  "calendar.print.no-events": {
+    "text": "کوئی تقریب نہیں",
+    "source": "2197f6207922"
   },
   "pdf.found.no-fields-were-found-recognise-text": {
     "text": "کوئی فیلڈ نہیں ملی۔ فیلڈز تلاش کریں کو ٹک کر کے متن کی شناخت انوائس یا رسید کی فیلڈز اور فارم کے ٹک باکس پڑھتی ہے۔",
@@ -17344,14 +18082,6 @@
     "text": "کوئی حد نہیں",
     "source": "f7fcff0d8fea"
   },
-  "spoken.voices.add-a-voice-to-read-the": {
-    "text": "الفاظ بلند آواز سے پڑھوانے کے لیے آواز شامل کریں؛ آواز کے بغیر بھی انہیں دکھایا جا سکتا ہے۔",
-    "source": "04ed3fbd74fe"
-  },
-  "spoken.voices.neither-shown-nor-read-aloud-the": {
-    "text": "نہ دکھائی دیتی ہیں نہ بلند آواز سے پڑھی جاتی ہیں: سطریں اپنا وقت برقرار رکھتی ہیں۔ انہیں واپس لانے کے لیے تینوں میں سے ایک چنیں۔",
-    "source": "431be017d2c5"
-  },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "ابھی کوئی سطر نہیں: الفاظ کی ہر سطر باری باری پڑھی جاتی ہے۔",
     "source": "6c66185b20fc"
@@ -17396,9 +18126,17 @@
     "text": "کوئی مائیکروفون نہیں",
     "source": "618183d7ea1f"
   },
+  "talk.meet-lines.no-microphone-was-found-on-this": {
+    "text": "اس کمپیوٹر پر کوئی مائیکروفون نہیں ملا۔ دوسرے آپ کو نہیں سن سکتے۔",
+    "source": "05f114874a3a"
+  },
   "studio.no-microphone-was-found": {
     "text": "کوئی مائیکروفون نہیں ملا۔",
     "source": "cf757208df0f"
+  },
+  "talk.missed.no-missed-calls": {
+    "text": "کوئی چھوٹی ہوئی کال نہیں۔",
+    "source": "7a78e0b6e3b9"
   },
   "word.references-toa.no-more-citations-found": {
     "text": "مزید کوئی حوالہ نہیں ملا۔",
@@ -17419,6 +18157,10 @@
   "slides.presenter.no-notes-on-this-slide-type": {
     "text": "اس سلائیڈ پر کوئی نوٹس نہیں۔ انہیں عام منظر میں سلائیڈ کے نیچے لکھیں، جہاں \"نوٹس شامل کرنے کے لیے کلک کریں\" لکھا ہے۔",
     "source": "fe1e3a5506f6"
+  },
+  "notify-dialog.no-notifications-between-these-times-what": {
+    "text": "ان اوقات کے درمیان کوئی اطلاع نہیں۔ جو کچھ آتا ہے وہ پھر بھی گنا جاتا ہے۔",
+    "source": "9bb97a080483"
   },
   "engine.no-numbers-found-a-chart-wants": {
     "text": "کوئی نمبر نہیں ملا۔ چارٹ کے لیے ضروری ہے کہ ٹیبل کے اندرونی سیلز میں نمبر ہوں۔",
@@ -17479,6 +18221,10 @@
   "print.no-printer-is-installed": {
     "text": "کوئی پرنٹر انسٹال نہیں",
     "source": "eb71dfd30c2e"
+  },
+  "print.no-printer-is-installed-use-save": {
+    "text": "کوئی پرنٹر انسٹال نہیں ہے۔ \"بطور PDF محفوظ کریں\" استعمال کریں، یا اس کمپیوٹر کی ترتیبات میں پرنٹر شامل کریں۔",
+    "source": "c8bae189ef75"
   },
   "sheets.queries.no-queries-in-this-workbook-yet": {
     "text": "اس ورک بک میں ابھی کوئی کوئری نہیں۔ ڈیٹا ← ٹیبل/رینج سے، یا متن/CSV سے، ایک کوئری بنائیں۔",
@@ -17543,6 +18289,10 @@
   "mail.rules.no-rules-yet": {
     "text": "ابھی کوئی قاعدہ نہیں",
     "source": "d29cf782366d"
+  },
+  "studio.setups-menu.no-saved-setups-yet": {
+    "text": "ابھی کوئی محفوظ سیٹ اپ نہیں",
+    "source": "abf744b63ded"
   },
   "common.no-scaling": {
     "text": "کوئی اسکیلنگ نہیں",
@@ -17640,6 +18390,10 @@
     "text": "ابھی کوئی منظر نہیں۔ شامل کریں… ورک بک کی موجودہ شکل محفوظ رکھتا ہے۔",
     "source": "233d8dca900a"
   },
+  "read-aloud.bar.no-voice-for-language-is-on": {
+    "text": "اس کمپیوٹر پر {language} کی کوئی آواز نہیں ہے۔",
+    "source": "9dae296f7e6e"
+  },
   "common.no-voice-has-been-added": {
     "text": "کوئی آواز شامل نہیں کی گئی۔",
     "source": "c163f326bf4d"
@@ -17676,6 +18430,14 @@
     "text": "ابھی کوئی {label} کیپشن نہیں: کیپشن داخل کریں انہیں شامل کرتا ہے، اور ٹیبل اپ ڈیٹ کریں فہرست کو تازہ کرتا ہے۔",
     "source": "fd8ab69b9093"
   },
+  "talk.server-share.nobody-else-can-hold-a-meeting": {
+    "text": "کوئی اور اس پر میٹنگ منعقد نہیں کر سکتا۔",
+    "source": "2e4dc764891f"
+  },
+  "studio.guests.nobody-here-yet": {
+    "text": "ابھی یہاں کوئی نہیں",
+    "source": "a142ffa894ef"
+  },
   "talk.invite-email.nobody-in-contacts-has-an-email": {
     "text": "روابط میں ابھی کسی کا ای میل پتہ نہیں ہے۔",
     "source": "7e5a82a6e3b4"
@@ -17683,6 +18445,18 @@
   "talk.invite-email.nobody-in-contacts-matches": {
     "text": "روابط میں کوئی میل نہیں کھاتا۔",
     "source": "3f4ecb0436d4"
+  },
+  "talk.settings.nobody-is-blocked": {
+    "text": "کوئی بلاک نہیں ہے۔",
+    "source": "acecbd3f4140"
+  },
+  "talk.server-share.nobody-is-chosen-yet-tick-the": {
+    "text": "ابھی کوئی منتخب نہیں۔ ان روابط پر نشان لگائیں جنہیں اس پر میٹنگز منعقد کرنے کی اجازت ہو۔",
+    "source": "e04b8c76ae44"
+  },
+  "talk.meeting.nobody-is-in-it-yet": {
+    "text": "ابھی اس میں کوئی نہیں ہے۔",
+    "source": "7b877d971afd"
   },
   "mail.compose.nobody-on-this-line-is-visible": {
     "text": "اس لائن پر موجود کوئی بھی شخص دوسرے وصول کنندگان کو نظر نہیں آتا۔",
@@ -17711,6 +18485,10 @@
   "word.references-toa.none-marked-yet": {
     "text": "ابھی کوئی نشان زد نہیں۔",
     "source": "fae8d5d30eb5"
+  },
+  "talk.groups.none-of-your-contacts-are-left": {
+    "text": "شامل کرنے کے لیے آپ کا کوئی رابطہ باقی نہیں۔",
+    "source": "849f7d80a6a0"
   },
   "studio.window.none-to-add": {
     "text": "شامل کرنے کو کچھ نہیں",
@@ -17775,6 +18553,10 @@
   "voices-dialog.not-added": {
     "text": "شامل نہیں",
     "source": "2460c620beba"
+  },
+  "calendar.not-among-your-talk-contacts-so": {
+    "text": "آپ کے ٹاک (Talk) روابط میں نہیں، اس لیے تب تک شامل نہیں ہو سکتے: {who}",
+    "source": "6417af9e0717"
   },
   "sheets.dialogs.not-an-address-and-not-a": {
     "text": "یہ نہ کوئی پتہ ہے اور نہ ہی کوئی ایسی جگہ جو یہ ورک بک جانتی ہو۔",
@@ -17848,9 +18630,17 @@
     "text": "یہاں نہیں ملا۔ جب تک آپ منتخب نہ کریں اپنی جگہ رہے گا۔",
     "source": "feb7eac96064"
   },
+  "studio.guests.not-in-talk-just-now": {
+    "text": "ابھی ٹاک (Talk) میں نہیں",
+    "source": "e6711a24a8d7"
+  },
   "ui.proofing.not-in-dictionary": {
     "text": "لغت میں نہیں",
     "source": "1642d2535d39"
+  },
+  "talk.lines.not-in-your-contacts": {
+    "text": "آپ کے روابط میں نہیں",
+    "source": "df22cf8f3220"
   },
   "packs-dialog.not-installed": {
     "text": "انسٹال نہیں",
@@ -17907,6 +18697,10 @@
     "text": "ابھی محفوظ نہیں کیا گیا",
     "source": "35c5fe43950d"
   },
+  "talk.lines.not-sent": {
+    "text": "نہیں بھیجا گیا",
+    "source": "cd5f943d5863"
+  },
   "mail.not-sent-yet-and-still-in": {
     "text": "ابھی بھیجا نہیں گیا، اور آؤٹ باکس میں موجود ہے۔",
     "source": "a71ab808c55c"
@@ -17919,9 +18713,29 @@
     "text": "نہیں بھیجا گیا: میل {address} سے نہیں بھیج سکتا، کیونکہ اس اکاؤنٹ کا کوئی آؤٹ گوئنگ سرور سیٹ نہیں ہے۔",
     "source": "6f70753ecb65"
   },
+  "talk.lines.not-sent-talk-was-not-connected": {
+    "text": "نہیں بھیجا گیا: ٹاک (Talk) ایک دن تک منسلک نہیں تھا۔",
+    "source": "7c01514ece95"
+  },
+  "talk.lines.not-sent-the-message-is-too": {
+    "text": "نہیں بھیجا گیا: پیغام بہت لمبا ہے۔",
+    "source": "978afd9480df"
+  },
   "calendar.words.not-sent-there-is-no-mail": {
     "text": "نہیں بھیجا گیا: اسے بھیجنے کے لیے کوئی میل اکاؤنٹ نہیں ہے۔ میل میں، اکاؤنٹس کے تحت ایک شامل کریں۔",
     "source": "6425bf6ced3e"
+  },
+  "talk.lines.not-sent-too-many-messages-in": {
+    "text": "نہیں بھیجا گیا: ایک منٹ میں بہت زیادہ پیغامات۔",
+    "source": "3fd20957747c"
+  },
+  "talk.lines.not-sent-you-are-no-longer": {
+    "text": "نہیں بھیجا گیا: آپ اب روابط میں نہیں ہیں۔",
+    "source": "a73aff6abeee"
+  },
+  "talk.lines.not-sent-you-are-no-longer-2": {
+    "text": "نہیں بھیجا گیا: آپ اب اس گروپ میں نہیں ہیں۔",
+    "source": "2909d476e230"
   },
   "calendar.words.not-sent-reason": {
     "text": "نہیں بھیجا گیا: {reason}",
@@ -17934,6 +18748,10 @@
   "base.not-shown-as-data-files-cannot": {
     "text": "نہیں دکھائی گئیں، کیونکہ ڈیٹا فائلز (Data Files) انہیں نہیں دکھا سکتی: {tables}۔",
     "source": "ddfa2ced7beb"
+  },
+  "calendar.not-streamed-live-this-cannot-be": {
+    "text": "لائیو نشر نہیں کی جائے گی۔ تقریب محفوظ ہونے کے بعد اسے تبدیل نہیں کیا جا سکتا۔",
+    "source": "e75806a6a1c3"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
     "text": "{names} پر اسٹریم نہیں ہوا: کوئی اسٹریم کی نہیں۔",
@@ -18091,6 +18909,10 @@
     "text": "جب تک آپ {action} نہ دبائیں کچھ نہیں بھیجا جاتا۔ مسودے کے طور پر رکھیں اسے اس کے بجائے اس کمپیوٹر پر رکھتا ہے؛ منسوخ کچھ نہیں کرتا۔",
     "source": "b045bd822cc1"
   },
+  "shell.tray.nothing-is-waiting": {
+    "text": "کچھ بھی منتظر نہیں",
+    "source": "dea4973695a6"
+  },
   "mail.nothing-is-waiting": {
     "text": "کچھ بھی منتظر نہیں۔",
     "source": "ca4fb9abe74f"
@@ -18178,6 +19000,22 @@
   "common.nothing-yet": {
     "text": "ابھی کچھ نہیں۔",
     "source": "e056734effa8"
+  },
+  "shell.tray.notification-settings": {
+    "text": "اطلاع کی ترتیبات…",
+    "source": "a936905265ce"
+  },
+  "common.notifications": {
+    "text": "اطلاعات",
+    "source": "788011833a5a"
+  },
+  "shell.notifier.notifications-are-on": {
+    "text": "اطلاعات آن ہیں",
+    "source": "ceaaed4b4f37"
+  },
+  "common.notifications-are-paused-until-time": {
+    "text": "اطلاعات {time} تک روک دی گئی ہیں",
+    "source": "1d6521f14f4e"
   },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "ابھی {width} x {height} cm۔ سلائیڈز پر سب کچھ نئے سائز کے مطابق چھوٹا بڑا اور درمیان میں کیا جاتا ہے۔",
@@ -18311,6 +19149,14 @@
     "text": "محور سے ہٹ کر 1: دائیں",
     "source": "958afff2aff5"
   },
+  "studio.guests.off-air": {
+    "text": "نشر سے باہر",
+    "source": "9ce17b86cfdd"
+  },
+  "studio.sources-column.off-while-guests-are-here-it": {
+    "text": "مہمانوں کی موجودگی میں بند: ورنہ ان کی آوازیں نشر ہوں گی، انتظار کے دوران بھی۔",
+    "source": "b81e9a23d5ab"
+  },
   "inspect.off-slide-content": {
     "text": "سلائیڈ سے باہر مواد",
     "source": "db649f82894a"
@@ -18419,6 +19265,10 @@
     "text": "instagram.com پر Add post اور پھر Live چنیں اور پتہ اور اسٹریم کی کاپی کریں۔ Instagram ہر بار نئی کی دیتا ہے، اس لیے لائیو جانے سے پہلے اسے دوبارہ شامل کریں۔",
     "source": "a6223e20cbb4"
   },
+  "video.library.on-the-frame": {
+    "text": "فریم پر",
+    "source": "1853d4732661"
+  },
   "image.on-the-mask-of-name-black": {
     "text": "{name} کے ماسک پر: سیاہ چھپاتا ہے، سفید دکھاتا ہے",
     "source": "24aac0dd6d60"
@@ -18491,6 +19341,10 @@
     "text": "اسکرین پر ایک ہی بہاؤ تاکہ کرسر قدرتی طور پر چلے؛ پرنٹ اور PDF لے آؤٹ اسے واقعی کالمز میں تقسیم کرتا ہے",
     "source": "33bd0e1b78c3"
   },
+  "studio.guests.one-guest": {
+    "text": "ایک مہمان",
+    "source": "f02659f62459"
+  },
   "studio.spoken-run.one-line-each-each-is-read": {
     "text": "ہر سطر میں ایک بات: ہر سطر باری باری بلند آواز سے پڑھی جاتی ہے",
     "source": "f1c64f2624f8"
@@ -18521,6 +19375,14 @@
   "ai-tools-dialog.only-ai-apps-on-this-computer": {
     "text": "صرف اسی کمپیوٹر کی AI ایپس یہ ٹولز استعمال کر سکتی ہیں۔ نیٹ ورک پر کچھ بھی نہیں سنتا، اس لیے کوئی دوسری مشین نہیں جڑ سکتی۔",
     "source": "96dbe7038e5b"
+  },
+  "talk-words.only-talk-contacts-of-the-organiser": {
+    "text": "صرف منتظم کے ٹاک (Talk) روابط شامل ہو سکتے ہیں۔ اگر آپ ابھی ان میں نہیں ہیں تو منتظم سے کہیں کہ آپ کو ٹاک میں شامل کریں۔",
+    "source": "c3481062b128"
+  },
+  "talk.meet-lines.only-talk-contacts-of-name-can": {
+    "text": "صرف {name} کے ٹاک (Talk) روابط شامل ہو سکتے ہیں، کل {count} افراد تک۔",
+    "source": "6412aac0305f"
   },
   "common.only-word-excel-and-powerpoint-documents": {
     "text": "صرف Word، Excel اور PowerPoint دستاویزات ہی ایمبیڈ ہو سکتی ہیں۔",
@@ -18562,9 +19424,21 @@
     "text": "پیراگراف بہ پیراگراف صرف داخلے، زور یا اخراج کا وہی اثر چلایا جا سکتا ہے جو یہ ایپ لکھتی ہے",
     "source": "d3d5652df5c9"
   },
+  "notify-dialog.only-an-installed-copy-of-rutba": {
+    "text": "صرف رتبہ آفس (Rutba Office) کی انسٹال شدہ کاپی Windows کے ساتھ شروع ہو سکتی ہے۔",
+    "source": "5d376c6f923f"
+  },
   "word.only-certain-kinds-of-changes-can": {
     "text": "اس دستاویز میں صرف مخصوص قسم کی تبدیلیاں کی جا سکتی ہیں۔ دیکھیں: جائزہ ← ترمیم محدود کریں۔",
     "source": "dd366cf8032e"
+  },
+  "talk-words.only-contacts-of-the-person-who": {
+    "text": "صرف اس میٹنگ کو ترتیب دینے والے کے روابط اس میں شامل ہو سکتے ہیں۔",
+    "source": "b340096d4b92"
+  },
+  "talk-words.only-contacts-of-name-can-join": {
+    "text": "صرف {name} کے روابط اس میٹنگ میں شامل ہو سکتے ہیں۔ {name} سے کہیں کہ آپ کو ٹاک (Talk) میں شامل کریں۔",
+    "source": "7c1a741c78f7"
   },
   "base.documents.only-for-records-where": {
     "text": "صرف ان ریکارڈز کے لیے جہاں",
@@ -18581,6 +19455,18 @@
   "base.documents.only-lines-where": {
     "text": "صرف وہ سطریں جہاں",
     "source": "7ab3bdec4e67"
+  },
+  "talk.server-share.only-me": {
+    "text": "صرف میں",
+    "source": "bdc0857b99a9"
+  },
+  "talk.meet-lines.only-people-in-this-group-and": {
+    "text": "صرف اس گروپ کے لوگ اور {name} کے ٹاک (Talk) روابط شامل ہو سکتے ہیں، کل {count} افراد تک۔",
+    "source": "d9dd584b74f6"
+  },
+  "talk.meet-lines.only-people-in-this-group-and-2": {
+    "text": "صرف اس گروپ کے لوگ اور آپ کے ٹاک (Talk) روابط شامل ہو سکتے ہیں، کل {count} افراد تک۔",
+    "source": "f9fcd01edae5"
   },
   "pictures.only-pictures-rated-so-many-stars": {
     "text": "صرف اتنے یا اس سے زیادہ ستاروں والی تصاویر",
@@ -18618,6 +19504,14 @@
     "text": "صرف پہلے {count} ریکارڈ پڑھے گئے ہیں۔ سب کے ساتھ کام کرنے کے لیے اس فائل میں ایک نقل رکھیں۔",
     "source": "df0ca43076cf"
   },
+  "talk-words.only-the-person-who-set-the": {
+    "text": "یہ صرف میٹنگ ترتیب دینے والا شخص کر سکتا ہے۔",
+    "source": "7602b02c63bd"
+  },
+  "talk.lines.only-the-person-who-started-the": {
+    "text": "صرف گروپ شروع کرنے والا شخص اس سے کسی کو نکال سکتا ہے۔",
+    "source": "7539223a2970"
+  },
   "locker.only-these-types": {
     "text": "صرف یہ اقسام",
     "source": "ba90201d2626"
@@ -18645,6 +19539,18 @@
   "slides.only-you-see-these": {
     "text": "انہیں صرف آپ دیکھ سکتے ہیں",
     "source": "de3333efad62"
+  },
+  "talk-words.only-your-talk-contacts-can-join": {
+    "text": "صرف آپ کے ٹاک (Talk) روابط شامل ہو سکتے ہیں، کل {count} افراد تک۔",
+    "source": "0a88a1093f0b"
+  },
+  "talk-words.only-your-own-contacts-can-be": {
+    "text": "میٹنگ میں صرف آپ کے اپنے روابط کو بلایا جا سکتا ہے۔",
+    "source": "dd0661381c23"
+  },
+  "talk.lines.only-your-own-contacts-can-be": {
+    "text": "گروپ میں صرف آپ کے اپنے روابط کو شامل کیا جا سکتا ہے۔",
+    "source": "4c15aef95595"
   },
   "common.opacity": {
     "text": "دھندلاپن",
@@ -18677,6 +19583,10 @@
   "shell.open-recent": {
     "text": "حالیہ کھولیں",
     "source": "d2b9f8f8baec"
+  },
+  "common.open-talk": {
+    "text": "Talk کھولیں",
+    "source": "702312a29580"
   },
   "broadcast.live-dialog.open-youtube-studio": {
     "text": "YouTube Studio کھولیں",
@@ -18786,6 +19696,10 @@
     "text": "براؤزر میں کھولیں",
     "source": "32f8dcaafb6c"
   },
+  "talk.meeting.open-in-live-broadcast": {
+    "text": "لائیو نشریات میں کھولیں",
+    "source": "71788b0e6607"
+  },
   "pictures.open-in-pdf": {
     "text": "PDF میں کھولیں",
     "source": "4d0c059fc5c0"
@@ -18801,6 +19715,10 @@
   "studio.window.open-in-video": {
     "text": "ویڈیو میں کھولیں…",
     "source": "8bb01e68be1b"
+  },
+  "talk.meeting.open-in-the-recorder": {
+    "text": "Recorder میں کھولیں",
+    "source": "7082739e9d2c"
   },
   "home.open-in-name": {
     "text": "{name} میں کھولیں",
@@ -18833,6 +19751,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "Kick ڈیش بورڈ کھولیں",
     "source": "bf6f8e9ef858"
+  },
+  "talk.open-the-browser-again": {
+    "text": "براؤزر دوبارہ کھولیں",
+    "source": "96e91bde168e"
   },
   "locker.open-the-locked-folder-name": {
     "text": "لاک فولڈر {name} کھولیں",
@@ -19026,6 +19948,10 @@
     "text": "ترتیب دیں",
     "source": "21d9ac63ed66"
   },
+  "talk.meet-lines.organiser": {
+    "text": "منتظم",
+    "source": "ed385c3688f6"
+  },
   "calendar.words.organizer-name": {
     "text": "منتظم: {name}",
     "source": "b204de7ec321"
@@ -19194,6 +20120,10 @@
     "text": "Outlook، Thunderbird، Apple Mail اور Windows Mail",
     "source": "275370d0b3be"
   },
+  "video.layer-names.outro-card": {
+    "text": "اختتامی کارڈ",
+    "source": "6907a3e2ea3f"
+  },
   "word.ribbon.outside-borders": {
     "text": "بیرونی بارڈرز",
     "source": "fcf90f7bf23e"
@@ -19213,6 +20143,10 @@
   "common.overlay": {
     "text": "اوورلے",
     "source": "2af93aeb435d"
+  },
+  "video.library.overlays": {
+    "text": "اوورلیز",
+    "source": "975c5697ac19"
   },
   "mail.archive.pdf": {
     "text": "PDF",
@@ -19470,6 +20404,10 @@
     "text": "پیراگرافس",
     "source": "d2ef75e86bb7"
   },
+  "video.library.paragraphs-and-lists": {
+    "text": "پیراگراف اور فہرستیں",
+    "source": "939c99de9e0b"
+  },
   "common.parallelogram": {
     "text": "متوازی الاضلاع",
     "source": "683f94df5c58"
@@ -19609,6 +20547,10 @@
   "common.pause": {
     "text": "روکیں",
     "source": "858e4ba7a29f"
+  },
+  "shell.tray.pause-notifications-for-an-hour": {
+    "text": "ایک گھنٹے کے لیے اطلاعات روکیں",
+    "source": "c6a2583b7f7e"
   },
   "shell.ipc.pause-recording": {
     "text": "ریکارڈنگ روکیں",
@@ -19922,6 +20864,10 @@
     "text": "جو تصاویر صفحے کی ضرورت سے زیادہ تفصیل میں دکھائی جاتی ہیں وہ چنی ہوئی ریزولیوشن پر دوبارہ بنائی جاتی ہیں۔ الفاظ، ڈرائنگز اور پہلے سے کافی چھوٹی تصاویر ویسی ہی رہتی ہیں۔",
     "source": "53b47116dc60"
   },
+  "pictures.pictures-to-a-sheet": {
+    "text": "ایک ورق پر تصاویر",
+    "source": "00d75274ddf4"
+  },
   "pictures.pictures-turns-a-jpeg-or-a": {
     "text": "تصاویر JPEG یا PNG کو گھما کر محفوظ کرتی ہے۔ ترمیم کریں سے یہ امیج میں کھلتی ہے، جہاں اسے گھما کر محفوظ کیا جا سکتا ہے۔",
     "source": "e30d8a205692"
@@ -20154,6 +21100,14 @@
     "text": "شو میں کلپ کی آواز چلائیں",
     "source": "97953b6cbcb8"
   },
+  "notify-dialog.play-a-sound": {
+    "text": "آواز چلائیں",
+    "source": "8dff69d0f091"
+  },
+  "talk.settings.play-a-sound-for-calls": {
+    "text": "کالز پر آواز چلائیں",
+    "source": "ce1647f97917"
+  },
   "mail.play-all": {
     "text": "سب چلائیں",
     "source": "12e7b8220dc7"
@@ -20209,6 +21163,10 @@
   "slides.point-one": {
     "text": "پہلا نکتہ",
     "source": "2ec0675e4836"
+  },
+  "video.inspector.point-n-of-count": {
+    "text": "نقطہ {n} از {count}",
+    "source": "56a4587fe6bd"
   },
   "video.pointer": {
     "text": "پوائنٹر",
@@ -20298,6 +21256,10 @@
     "text": "ترجیحی چوڑائی",
     "source": "5b079061e4dc"
   },
+  "pdf.preparing-to-print-page-page-of": {
+    "text": "پرنٹ کی تیاری ہو رہی ہے: صفحہ {page} از {count}…",
+    "source": "9bb1226e682b"
+  },
   "pdf.preparing-to-print": {
     "text": "پرنٹ کی تیاری ہو رہی ہے…",
     "source": "c59a4189b115"
@@ -20357,6 +21319,10 @@
   "calendar.press-ctrl-n-to-add-an": {
     "text": "تقریب شامل کرنے کے لیے Ctrl+N دبائیں، یا ایک .ics فائل کھولیں۔",
     "source": "e5eab9bad084"
+  },
+  "talk.lines.pretending-to-be-someone-else": {
+    "text": "کسی اور شخص ہونے کا دکھاوا",
+    "source": "59f4886f4bb6"
   },
   "sheets.prevent-unwanted-changes-to-the-structure": {
     "text": "ورک بک کی ساخت میں ناپسندیدہ تبدیلیوں سے بچائیں، جیسے شیٹس شامل کرنا۔",
@@ -20489,6 +21455,10 @@
     "text": "پچھلا صفحہ (Page Up)",
     "source": "46cf81b2cef0"
   },
+  "video.inspector.previous-point": {
+    "text": "پچھلا نقطہ",
+    "source": "91cc073698f7"
+  },
   "common.previous-record": {
     "text": "پچھلا ریکارڈ",
     "source": "07da30ed59d9"
@@ -20589,6 +21559,26 @@
     "text": "پرنٹ سانچے",
     "source": "bab0e4da816c"
   },
+  "contacts.print-the-chosen-contact-or-the": {
+    "text": "منتخب رابطہ، یا دکھائی گئی فہرست پرنٹ کریں",
+    "source": "31dc4642a37a"
+  },
+  "image.print-the-picture-as-it-is": {
+    "text": "تصویر جیسی ابھی ہے ویسی پرنٹ کریں",
+    "source": "0c7c09978527"
+  },
+  "calendar.print-the-view-shown": {
+    "text": "دکھایا گیا منظر پرنٹ کریں",
+    "source": "99699c6c4993"
+  },
+  "pictures.print-this-picture-or-every-picture": {
+    "text": "یہ تصویر، یا تمام دکھائی گئی تصاویر پرنٹ کریں",
+    "source": "093d65442545"
+  },
+  "print.print-through-the-systems-own-dialog": {
+    "text": "سسٹم کے اپنے ڈائیلاگ سے پرنٹ کریں، ان چیزوں کے لیے جو صرف پرنٹر کی ترتیبات دیتی ہیں: کاغذ کے دونوں طرف، ٹرے۔",
+    "source": "e89c1e415e38"
+  },
   "base.forms.print-name": {
     "text": "{name} پرنٹ کریں",
     "source": "9adb2fe770f7"
@@ -20608,6 +21598,10 @@
   "print.printer": {
     "text": "پرنٹر",
     "source": "024eac5b1a63"
+  },
+  "print.printing-name": {
+    "text": "پرنٹ ہو رہا ہے: {name}",
+    "source": "a059eabd2695"
   },
   "print.printing": {
     "text": "پرنٹ ہو رہا ہے…",
@@ -20688,6 +21682,10 @@
   "studio.window.program": {
     "text": "پروگرام",
     "source": "90920d93e2c7"
+  },
+  "video.layer-names.progress-bar": {
+    "text": "پیش رفت بار",
+    "source": "88bbc75dfba2"
   },
   "video.project": {
     "text": "پروجیکٹ",
@@ -20853,6 +21851,18 @@
     "text": "دھکیلیں",
     "source": "731ce7ed8089"
   },
+  "video.timeline.push-down": {
+    "text": "نیچے کی طرف دھکیلنا",
+    "source": "cdba3e1d8ea7"
+  },
+  "video.timeline.push-right": {
+    "text": "دائیں طرف دھکیلنا",
+    "source": "2bce51eb1c20"
+  },
+  "video.timeline.push-up": {
+    "text": "اوپر کی طرف دھکیلنا",
+    "source": "385412ecb6be"
+  },
   "base.form-designer.put-a-field-on-the-form": {
     "text": "فارم پر ایک فیلڈ لگائیں",
     "source": "51273d7500b8"
@@ -20896,6 +21906,10 @@
   "image.tools.put-the-pins-back": {
     "text": "پن واپس رکھیں",
     "source": "58213ed57cab"
+  },
+  "video.inspector.put-the-playhead-on-this-clip": {
+    "text": "نقطہ لگانے کے لیے پلے ہیڈ کو اس کلپ پر رکھیں۔",
+    "source": "202e5c234e9a"
   },
   "pdf.put-the-tool-down": {
     "text": "آلہ رکھ دیں",
@@ -20989,6 +22003,14 @@
     "text": "فوری اسٹائلز",
     "source": "6887852d0183"
   },
+  "notify-dialog.quiet-hours": {
+    "text": "خاموش اوقات",
+    "source": "bf0671dd69c6"
+  },
+  "shell.tray.quit-name": {
+    "text": "{name} بند کریں",
+    "source": "c082bda435d6"
+  },
   "mail.compose.quote": {
     "text": "اقتباس",
     "source": "eb4cdebd82bf"
@@ -21016,6 +22038,10 @@
   "equations.radical-with-degree": {
     "text": "درجے کے ساتھ جذر",
     "source": "8b150a3c64cf"
+  },
+  "talk.meeting.raise-your-hand": {
+    "text": "ہاتھ اٹھائیں",
+    "source": "a7d9af47bf64"
   },
   "slides.motion.random-bars": {
     "text": "بے ترتیب پٹیاں",
@@ -21088,6 +22114,10 @@
   "word.ribbon.read-aloud-2": {
     "text": "بلند آواز سے پڑھیں",
     "source": "0791ec684798"
+  },
+  "spoken.voices.read-aloud-only": {
+    "text": "صرف بلند آواز سے پڑھیں",
+    "source": "3953b35ec0c1"
   },
   "base.people.read-and-add": {
     "text": "پڑھنا اور شامل کرنا",
@@ -21180,6 +22210,10 @@
   "mail.read-the-unread-messages-in-the": {
     "text": "فہرست کے غیر پڑھے پیغامات، فہرست کی ترتیب کے مطابق، بلند آواز سے پڑھیں۔ ہر پیغام آخر تک پڑھے جانے پر ہی پڑھا ہوا نشان زد ہوتا ہے۔",
     "source": "dff6be303eab"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "الفاظ بلند آواز سے پڑھیں",
+    "source": "f8bde48fd589"
   },
   "base.links.read-what-changed-by-field": {
     "text": "{field} کے ذریعے صرف بدلا ہوا پڑھیں",
@@ -21524,6 +22558,10 @@
   "studio.window.recording-into-name": {
     "text": "{name} میں ریکارڈنگ",
     "source": "56b02d64afc5"
+  },
+  "studio.guests.recording-with-name": {
+    "text": "{name} کے ساتھ ریکارڈنگ",
+    "source": "e6be6a2a2c15"
   },
   "video.export.recording-done-of-total": {
     "text": "{total} میں سے {done} ریکارڈ ہو چکا",
@@ -21955,9 +22993,17 @@
     "text": "فہرستِ مضامین ہٹائیں",
     "source": "02fb6aa5132e"
   },
+  "video.remove-a-movement-point": {
+    "text": "حرکت کا نقطہ ہٹائیں",
+    "source": "866caceec826"
+  },
   "mail.remove-account": {
     "text": "اکاؤنٹ ہٹائیں…",
     "source": "f6c7b21aa0c2"
+  },
+  "video.inspector.remove-all-movement": {
+    "text": "تمام حرکت ہٹائیں",
+    "source": "c117c982cedd"
   },
   "locker.remove-anyway": {
     "text": "پھر بھی ہٹائیں",
@@ -22089,6 +23135,14 @@
   "redact.remove-this-mark": {
     "text": "یہ نشان ہٹائیں",
     "source": "5b7142126ca5"
+  },
+  "video.remove-this-movement-point": {
+    "text": "حرکت کا یہ نقطہ ہٹائیں",
+    "source": "5b0a79929123"
+  },
+  "video.inspector.remove-this-point": {
+    "text": "یہ نقطہ ہٹائیں",
+    "source": "1db17d0d592c"
   },
   "profiles.remove-this-profile": {
     "text": "یہ پروفائل ہٹائیں",
@@ -22428,9 +23482,29 @@
     "text": "رپورٹ کی قسم",
     "source": "6add2e391964"
   },
+  "talk.report.report-name": {
+    "text": "{name} کی رپورٹ کریں",
+    "source": "a72e14cff779"
+  },
+  "talk.report.reported-and-name-is-blocked": {
+    "text": "رپورٹ ہو گئی، اور {name} کو بلاک کر دیا گیا۔",
+    "source": "24147a41c039"
+  },
+  "talk.report.reported-thank-you": {
+    "text": "رپورٹ ہو گئی۔ شکریہ۔",
+    "source": "e2f870ec73f5"
+  },
+  "talk.report.reported-name-could-not-be-blocked": {
+    "text": "رپورٹ ہو گئی۔ {name} کو ابھی بلاک نہیں کیا جا سکا۔",
+    "source": "f931a2f8128d"
+  },
   "base.reports": {
     "text": "رپورٹس",
     "source": "dacca3cba3f3"
+  },
+  "talk.report": {
+    "text": "رپورٹ کریں…",
+    "source": "a89f2286bde4"
   },
   "protect.require-a-password-to-open-this": {
     "text": "اس {noun} کو کھولنے کے لیے پاس ورڈ لازمی کریں۔",
@@ -22472,6 +23546,10 @@
     "text": "لیولز دوبارہ ترتیب دیں",
     "source": "8e4afe1ebcd7"
   },
+  "studio.window.reset-this-session": {
+    "text": "یہ سیشن دوبارہ ترتیب دیں؟",
+    "source": "9a895f8c4a9f"
+  },
   "slides.ribbon.reset-to-cameo": {
     "text": "کیمیو پر دوبارہ ترتیب دیں",
     "source": "60043910ccf9"
@@ -22479,6 +23557,10 @@
   "slides.ribbon.reset-to-cameo-the-cameras-recording": {
     "text": "کیمیو پر دوبارہ ترتیب دیں: کیمرے کی ریکارڈنگ اس سلائیڈ سے ہٹا دی جاتی ہے اور اس کا لائیو کیمیو واپس آ جاتا ہے",
     "source": "d886796ba64a"
+  },
+  "studio.reset-to-a-new-session": {
+    "text": "نئے سیشن پر دوبارہ ترتیب دیں",
+    "source": "6b9c5be76d1e"
   },
   "slides.ribbon.reset-to-the-layouts": {
     "text": "لے آؤٹ کے مطابق دوبارہ ترتیب دیں",
@@ -22579,6 +23661,10 @@
   "shell.restart-and-update": {
     "text": "دوبارہ شروع کریں اور اپ ڈیٹ کریں",
     "source": "78b017c77e5b"
+  },
+  "shell.tray.restart-and-update-to-version": {
+    "text": "دوبارہ شروع کریں اور {version} پر اپ ڈیٹ کریں",
+    "source": "c479443bee7d"
   },
   "word.ribbon.restart-each-page": {
     "text": "ہر صفحے پر دوبارہ شروع کریں",
@@ -23288,6 +24374,10 @@
     "text": "یہ بھیجتے وقت رتبہ آفس (Rutba Office) بند ہو گیا، اس لیے ہو سکتا ہے یہ گیا ہو یا نہ گیا ہو۔ بھیجے گئے میں دیکھیں، پھر اسے دوبارہ بھیجیں یا حذف کریں۔",
     "source": "7e8c68e608d6"
   },
+  "notify-dialog.rutba-office-watches-only-while-it": {
+    "text": "رتبہ آفس (Rutba Office) صرف چلتے ہوئے نگرانی کرتا ہے۔ \"بند کریں\" سے بند ہونے پر یہ دوبارہ کھلنے تک آپ کو کسی چیز کی اطلاع نہیں دیتا۔",
+    "source": "647452751dca"
+  },
   "voices-dialog.rutba-office-version-does-not-have": {
     "text": "Rutba Office {version} میں {name} پہلے سے موجود نہیں ہوتی: جب تک اس کا زبان پیک تیار نہ ہو جائے، ونڈوز انگریزی میں رہیں گی۔",
     "source": "c954897db32a"
@@ -23632,6 +24722,10 @@
     "text": "پروجیکٹ کے طور پر محفوظ کریں…",
     "source": "aa2fcc84716b"
   },
+  "studio.setups-menu.save-as-a-setup": {
+    "text": "بطور سیٹ اپ محفوظ کریں…",
+    "source": "d9ef0d0b399e"
+  },
   "studio.scene-strip.save-as-scene": {
     "text": "منظر کے طور پر محفوظ کریں",
     "source": "efdeca1676b4"
@@ -23716,6 +24810,14 @@
     "text": "پہلے ورک بک محفوظ کریں، تاکہ دوسری ونڈو وہی فائل کھول سکے۔",
     "source": "5518cf201954"
   },
+  "studio.setups-menu.save-this-session-as-a-setup": {
+    "text": "یہ سیشن بطور سیٹ اپ محفوظ کریں",
+    "source": "61675a542380"
+  },
+  "studio.setups-menu.save-this-session-as-a-setup-2": {
+    "text": "یہ سیشن بطور سیٹ اپ محفوظ کریں…",
+    "source": "dac52cb33434"
+  },
   "studio.window.save-to-a-file": {
     "text": "فائل میں محفوظ کریں",
     "source": "08c57ac92835"
@@ -23727,6 +24829,10 @@
   "studio.scene-strip.save-what-the-frame-shows-as": {
     "text": "فریم کا منظر نئے منظر کے طور پر محفوظ کریں",
     "source": "04d539ee1ba5"
+  },
+  "calendar.save-without-the-meeting": {
+    "text": "میٹنگ کے بغیر محفوظ کریں",
+    "source": "a466a78156a8"
   },
   "english-switch.save-your-changes-first-this-window": {
     "text": "پہلے اپنی تبدیلیاں محفوظ کریں: یہ ونڈو دوبارہ کھلنے پر انگریزی میں کھلے گی۔ اب سے کھلنے والی ونڈوز انگریزی میں ہوں گی۔",
@@ -24138,6 +25244,10 @@
   "image.tools.second-colour-where-a-gradient-ends": {
     "text": "دوسرا رنگ: جہاں گریڈیئنٹ ختم ہوتا ہے",
     "source": "014aa91028da"
+  },
+  "video.library.second-point": {
+    "text": "دوسرا نقطہ",
+    "source": "55b07a59a655"
   },
   "calendar.second-time-zone": {
     "text": "دوسرا ٹائم زون",
@@ -24583,6 +25693,10 @@
     "text": "ریکارڈز بھیجیں",
     "source": "ac745ff044b3"
   },
+  "talk.report.send-report": {
+    "text": "رپورٹ بھیجیں",
+    "source": "a44d35311325"
+  },
   "calendar.send-the-cancellation": {
     "text": "منسوخی کی اطلاع بھیجیں",
     "source": "97640bdf22a3"
@@ -24606,6 +25720,10 @@
     "text": "دعوت نامہ بھیجیں؟",
     "source": "d11e030a9b61"
   },
+  "studio.guests.send-the-link-to-a-contact": {
+    "text": "لنک کسی ایسے رابطے کو بھیجیں جو رتبہ آفس (Rutba Office) استعمال کرتا ہو۔ وہ ٹاک (Talk) میں شامل ہوتے ہیں۔",
+    "source": "ec69e7a826e5"
+  },
   "common.send-to-back": {
     "text": "سب سے پیچھے بھیجیں",
     "source": "33e1c6b9be0f"
@@ -24621,6 +25739,14 @@
   "locker.send-to-someone-2": {
     "text": "کسی کو بھیجیں…",
     "source": "40f3eb523a46"
+  },
+  "talk.lines.send-up-to-count-of-the": {
+    "text": "رپورٹ کے ساتھ اس گروپ میں {name} کے لکھے آخری {count} پیغامات تک بھیجیں",
+    "source": "672637e06022"
+  },
+  "talk.lines.send-up-to-count-of-the-2": {
+    "text": "رپورٹ کے ساتھ {name} کے آپ کو لکھے آخری {count} پیغامات تک بھیجیں",
+    "source": "154b797f57b4"
   },
   "calendar.send-update": {
     "text": "تبدیلی بھیجیں",
@@ -24674,6 +25800,10 @@
     "text": "صرف {where} کو بھیجا جاتا ہے",
     "source": "65fa593794d6"
   },
+  "print.sent-through-the-system-dialog": {
+    "text": "سسٹم ڈائیلاگ کے ذریعے بھیج دیا گیا۔",
+    "source": "796f50686541"
+  },
   "mail.sent-to": {
     "text": "بھیجا گیا بنام",
     "source": "4e7201c7b898"
@@ -24682,6 +25812,14 @@
     "text": "کسی کو بھیجا گیا، نقل میں، یا پوشیدہ نقل میں",
     "source": "d55c51982d58"
   },
+  "pdf.sent-to-the-printer": {
+    "text": "پرنٹر کو بھیج دیا گیا۔",
+    "source": "b35f62ca8b34"
+  },
+  "print.sent-to-printer": {
+    "text": "{printer} کو بھیج دیا گیا۔",
+    "source": "918838f49130"
+  },
   "mail.sent-to-to": {
     "text": "{to} کو بھیج دیا گیا",
     "source": "f0ee21e891eb"
@@ -24689,13 +25827,6 @@
   "mail.sent-to-who-it-went-to": {
     "text": "بھیجا گیا بنام: یہ کس کو گیا",
     "source": "31eea1f8449b"
-  },
-  "print.sent-count-page-to-the-printer": {
-    "forms": {
-      "one": "{count} صفحہ پرنٹر کو بھیج دیا گیا۔",
-      "other": "{count} صفحات پرنٹر کو بھیج دیے گئے۔"
-    },
-    "source": "01f92bc64175"
   },
   "print.sent-count-page-to-printer": {
     "forms": {
@@ -24842,6 +25973,22 @@
     "text": "پاس ورڈ رکھیں…",
     "source": "0d69c19ffedf"
   },
+  "video.set-a-movement-point": {
+    "text": "حرکت کا نقطہ لگائیں",
+    "source": "f2e85e0213a2"
+  },
+  "video.set-a-movement-point-here": {
+    "text": "یہاں حرکت کا نقطہ لگائیں",
+    "source": "82a45446fe3a"
+  },
+  "video.inspector.set-a-point-here": {
+    "text": "یہاں نقطہ لگائیں",
+    "source": "8d5454e6187b"
+  },
+  "video.inspector.set-a-point-here-then-move": {
+    "text": "یہاں ایک نقطہ لگائیں، پھر پلے ہیڈ کو منتقل کریں اور کلپ تبدیل کریں: یہ ایک نقطے سے اگلے نقطے تک حرکت کرتا ہے۔",
+    "source": "5cc1988df0dd"
+  },
   "word.ribbon.set-as-default": {
     "text": "بطور ڈیفالٹ سیٹ کریں",
     "source": "10886554da51"
@@ -24877,6 +26024,10 @@
   "mail.accounts-bulk.set-up-by-hand": {
     "text": "خود ترتیب دیں",
     "source": "51e0b5053fed"
+  },
+  "talk.meeting.set-up-by-name": {
+    "text": "{name} نے ترتیب دی",
+    "source": "f82e137b4907"
   },
   "broadcast.live-dialog.set-up-once-here-the-icons": {
     "text": "یہاں ایک بار سیٹ اپ کریں۔ لائیو پینل کے آئیکن چنتے ہیں کہ کون سی اسٹریم جائے گی۔",
@@ -25074,6 +26225,10 @@
     "text": "اسکرین شیئر کریں",
     "source": "5a271ba7ed24"
   },
+  "talk.meet-lines.sharing": {
+    "text": "اشتراک جاری",
+    "source": "bbedc70e985f"
+  },
   "image.sharpen": {
     "text": "تیز کریں",
     "source": "ac6f0be1274c"
@@ -25170,6 +26325,10 @@
     "text": "مختصر متن",
     "source": "38a11505fddd"
   },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "شارٹ کٹ: باکس میں Ctrl+Enter",
+    "source": "46629f7a364b"
+  },
   "word.ribbon.shortcuts": {
     "text": "شارٹ کٹس",
     "source": "46e978d0c193"
@@ -25265,6 +26424,10 @@
     "text": "اعلیٰ اختیارات دکھائیں",
     "source": "da5bdeb6de5d"
   },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "دکھائیں اور بلند آواز سے پڑھیں",
+    "source": "cad1b91fa8e8"
+  },
   "home.show-announcements-from-office-rutba-io": {
     "text": "office.rutba.io سے اعلانات دکھائیں، دن میں زیادہ سے زیادہ ایک بار۔ یہ ورژن اور آپریٹنگ سسٹم بھیجتا ہے، اور کسی بھی قسم کی کوئی شناخت نہیں، اس لیے دوسری طرف جو گنا جاتا ہے وہ \"کہیں کھولی گئی ایک کاپی\" ہے، آپ کبھی نہیں۔ ہمارے پاس یہ جاننے کا بھی یہی واحد طریقہ ہے کہ سوٹ استعمال ہو بھی رہا ہے یا نہیں۔",
     "source": "c22ab06b6afe"
@@ -25308,6 +26471,14 @@
   "studio.sources-column.show-on-the-frame": {
     "text": "فریم پر دکھائیں",
     "source": "519dcf3aea71"
+  },
+  "notify-dialog.show-one-now": {
+    "text": "ابھی ایک دکھائیں",
+    "source": "67b49e6671f5"
+  },
+  "spoken.voices.show-only": {
+    "text": "صرف دکھائیں",
+    "source": "a8d71c961005"
   },
   "base.documents.show-only-when": {
     "text": "صرف تب دکھائیں جب",
@@ -25369,6 +26540,10 @@
     "text": "قطار اور کالم کی سرخیاں دکھائیں",
     "source": "4f7b9dcce409"
   },
+  "studio.spoken-run.show-the-words": {
+    "text": "الفاظ دکھائیں",
+    "source": "a64d13b0ead9"
+  },
   "sheets.dialogs.show-them-as": {
     "text": "انہیں اس طرح دکھائیں",
     "source": "6380dba9f992"
@@ -25393,6 +26568,10 @@
     "text": "شو کی قسم",
     "source": "5d97277b82b2"
   },
+  "notify-dialog.show-what-it-says": {
+    "text": "اس کا متن دکھائیں",
+    "source": "01ff1c611346"
+  },
   "studio.window.show-when-this-microphone-is-heard": {
     "text": "یہ مائیکروفون سنائی دے تو دکھائیں",
     "source": "96f36148fdc1"
@@ -25405,6 +26584,10 @@
     "text": "ریکارڈ شدہ بیان کے بغیر دکھائیں",
     "source": "8ba4b5d237cc"
   },
+  "shell.tray.show-name": {
+    "text": "{name} دکھائیں",
+    "source": "94cf7a9396b0"
+  },
   "sheets.objects.show-draw-it-on-the-sheet": {
     "text": "دکھائیں: اسے شیٹ پر دوبارہ بنائیں",
     "source": "d05630721fcb"
@@ -25412,6 +26595,10 @@
   "sheets.dialogs.show-the-workbook-as-the-picked": {
     "text": "دکھائیں: ورک بک اسی طرح جیسے منتخب منظر نے اسے محفوظ رکھا تھا",
     "source": "218714768526"
+  },
+  "talk.meet-lines.showing-their-screen": {
+    "text": "اپنی اسکرین دکھا رہے ہیں",
+    "source": "1c428d39d527"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "جن سے آپ بات کرتے ہیں انہیں دکھایا جاتا ہے",
@@ -25432,6 +26619,10 @@
   "smartart-dialog.shows-a-list-of-ideas-one": {
     "text": "خیالات کی فہرست ایک کے نیچے ایک دکھاتا ہے، ہر ایک گول کونوں والے چوڑے خانے میں۔",
     "source": "f07c241a43e6"
+  },
+  "notify-dialog.shows-a-notification-so-you-see": {
+    "text": "ایک اطلاع دکھاتا ہے، تاکہ آپ دیکھ اور سن سکیں کہ وہ کیسے آتی ہیں",
+    "source": "2d376b05d758"
   },
   "smartart-dialog.shows-each-top-item-over-the": {
     "text": "ہر اوپری آئٹم کو اس کے نیچے والے آئٹمز کے اوپر دکھاتا ہے، ہر ایک تک ایک لکیر کے ساتھ۔ کسی لائن کو اوپر والی لائن کے نیچے رکھنے کے لیے اسے Tab سے اندر کریں۔",
@@ -25504,6 +26695,14 @@
   "base.links.sign-in-there": {
     "text": "وہاں سائن ان کریں…",
     "source": "7c04fead2759"
+  },
+  "talk.meet-lines.sign-in-to-talk-again-then": {
+    "text": "ٹاک (Talk) میں دوبارہ سائن ان کریں، پھر میٹنگ میں ایک بار اور کوشش کریں۔",
+    "source": "b943c0a49ad6"
+  },
+  "calendar.sign-in-to-talk-first-then": {
+    "text": "پہلے ٹاک (Talk) میں سائن ان کریں، پھر دوبارہ محفوظ کریں۔",
+    "source": "491e45adfd74"
   },
   "talk.invite.sign-in-to-talk-to-accept": {
     "text": "کھولی گئی دعوت قبول کرنے کے لیے ٹاک (Talk) میں سائن ان کریں۔",
@@ -25841,6 +27040,10 @@
     "text": "سلائیڈ حذف ہوئی: {title}",
     "source": "c24b313f47ef"
   },
+  "video.slide-down": {
+    "text": "نیچے کی طرف سرکنا",
+    "source": "9a92bf81ad2c"
+  },
   "slides.revisions.slide-inserted": {
     "text": "سلائیڈ داخل ہوئی",
     "source": "c16c67a34fec"
@@ -25848,6 +27051,10 @@
   "slides.revisions.slide-inserted-title": {
     "text": "سلائیڈ داخل ہوئی: {title}",
     "source": "55acf25dcb94"
+  },
+  "video.inspector.slide-left": {
+    "text": "بائیں طرف سرکنا",
+    "source": "667e27d731ed"
   },
   "slides.revisions.slide-moved-from-from-to-to": {
     "text": "سلائیڈ {from} سے {to} پر منتقل ہوئی",
@@ -25857,6 +27064,10 @@
     "text": "سلائیڈ نمبر",
     "source": "45f8d371aeda"
   },
+  "video.slide-right": {
+    "text": "دائیں طرف سرکنا",
+    "source": "c21b51293031"
+  },
   "slides.custom-shows.slide-show-name": {
     "text": "سلائیڈ شو کا نام",
     "source": "077168762d89"
@@ -25864,6 +27075,10 @@
   "review.slide-title": {
     "text": "سلائیڈ کا عنوان",
     "source": "612dadcd27d3"
+  },
+  "video.slide-up": {
+    "text": "اوپر کی طرف سرکنا",
+    "source": "d081156f5749"
   },
   "slides.slide-at-of-total": {
     "text": "سلائیڈ {at} از {total}",
@@ -25940,6 +27155,18 @@
   "studio.prompter.slow": {
     "text": "آہستہ",
     "source": "4b2bebbf33ae"
+  },
+  "video.inspector.slowing-to-a-stop": {
+    "text": "آہستہ ہو کر رکنا",
+    "source": "baa524feba79"
+  },
+  "video.inspector.slowly-at-both-ends": {
+    "text": "دونوں سروں پر آہستہ",
+    "source": "704134084b2d"
+  },
+  "video.inspector.slowly-at-first": {
+    "text": "شروع میں آہستہ",
+    "source": "db97512145ab"
   },
   "common.small": {
     "text": "چھوٹا",
@@ -26089,13 +27316,45 @@
     "text": "ہٹایا گیا کچھ مواد کالعدم کریں سے واپس نہیں لایا جا سکتا۔ اگر دوبارہ ضرورت ہو تو پہلے ایک نقل محفوظ کر لیں۔",
     "source": "a0c21edec972"
   },
+  "talk.meet-lines.somebody-in-the-meeting-cannot-be": {
+    "text": "میٹنگ میں کسی شخص کو یہاں سنا یا دیکھا نہیں جا سکتا: ان کے ٹاک (Talk) کی کاپی میں مختلف کلید ہے۔ انہیں میٹنگ چھوڑ کر دوبارہ شامل ہونا ہوگا۔",
+    "source": "0e0076b93070"
+  },
+  "talk.server-share.somebody-no-longer-in-your-contacts": {
+    "text": "کوئی جو اب آپ کے روابط میں نہیں",
+    "source": "9487d019ebd3"
+  },
   "common.someone": {
     "text": "کوئی",
     "source": "864c855e3d64"
   },
+  "shell.notifier.someone-in-talk": {
+    "text": "ٹاک (Talk) میں کوئی",
+    "source": "d3e2d6b776c6"
+  },
+  "talk.missed.someone-no-longer-in-your-contacts": {
+    "text": "کوئی جو اب آپ کے روابط میں نہیں",
+    "source": "42463e6dd6e8"
+  },
+  "talk.lines.someone-who-left": {
+    "text": "گروپ چھوڑ دینے والا شخص",
+    "source": "9d5f4f09ff49"
+  },
   "base.links.someone-whose-role-may-change-the": {
     "text": "جس شخص کا کردار ڈیزائن بدل سکتا ہے وہ اس کمپیوٹر پر اس ڈیٹا بیس کے ذرائع کی اجازت دیتا ہے۔",
     "source": "3b302bdc61d2"
+  },
+  "talk.settings.someone-you-blocked": {
+    "text": "کوئی جسے آپ نے بلاک کیا",
+    "source": "a9c049774e21"
+  },
+  "talk.settings.someone-you-unblock-can-ask-to": {
+    "text": "جسے آپ ان بلاک کریں وہ دوبارہ آپ کا رابطہ بننے کی درخواست کر سکتا ہے۔ اسے خود بخود آپ کے روابط میں واپس نہیں ڈالا جاتا۔",
+    "source": "e3e6c74dbcf9"
+  },
+  "talk.lines.something-else": {
+    "text": "کچھ اور",
+    "source": "cc7284314484"
   },
   "video.starters.something-new-is-here": {
     "text": "کچھ نیا آ گیا ہے",
@@ -26205,17 +27464,21 @@
     "text": "آواز اور کیمرا",
     "source": "dfc99fd3b4fc"
   },
+  "video.sound-and-video-files": {
+    "text": "آواز اور ویڈیو فائلیں",
+    "source": "b7c72813a878"
+  },
+  "video.library.sound-and-video-files-you-add": {
+    "text": "آواز اور ویڈیو فائلیں جو آپ یہاں اس کمپیوٹر سے یا کسی ویب پتے سے شامل کرتے ہیں، ہر پروجیکٹ کے لیے اس فہرست میں رہتی ہیں۔",
+    "source": "ccb27b12993d"
+  },
   "video.sound-clip": {
     "text": "آواز کا کلپ",
     "source": "556f55adc8bd"
   },
-  "studio.spoken-run.read-the-words-aloud": {
-    "text": "الفاظ بلند آواز سے پڑھیں",
-    "source": "f8bde48fd589"
-  },
-  "studio.spoken-run.show-the-words": {
-    "text": "الفاظ دکھائیں",
-    "source": "a64d13b0ead9"
+  "video.library.sound-effects": {
+    "text": "صوتی اثرات",
+    "source": "a7180005e20c"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "آڈیو آن نہیں ہے، اس لیے یہ آواز نہ ریکارڈنگ میں ہے نہ اسٹریم میں۔",
@@ -26292,6 +27555,10 @@
   "word.ribbon.spacing-for-the-paragraphs-you-have": {
     "text": "آپ کے منتخب کردہ پیراگرافس کا فاصلہ",
     "source": "82c0e0a3d918"
+  },
+  "talk.lines.spam-or-advertising": {
+    "text": "اسپام یا اشتہار بازی",
+    "source": "73c0fc4bd35d"
   },
   "common.sparkle": {
     "text": "چمک دمک",
@@ -26476,6 +27743,10 @@
     "text": "بولی جانے والی سطریں",
     "source": "b6fcaf71e96b"
   },
+  "video.ribbon.spoken-words": {
+    "text": "بولے جانے والے الفاظ",
+    "source": "b5f7a276ab16"
+  },
   "slides.spring-2026": {
     "text": "بہار 2026",
     "source": "19978811abbe"
@@ -26600,6 +27871,10 @@
     "text": "کلک پر شروع کریں",
     "source": "935ac1acfac5"
   },
+  "notify-dialog.start-rutba-office-with-windows": {
+    "text": "Windows کے ساتھ Rutba Office شروع کریں",
+    "source": "54d42e160b97"
+  },
   "slides.ribbon.start-slide-show": {
     "text": "سلائیڈ شو شروع کریں",
     "source": "fbf318d7d0dd"
@@ -26636,6 +27911,10 @@
     "text": "شروع سے آغاز کریں (F5)",
     "source": "c87b7cf37193"
   },
+  "talk.groups.start-group": {
+    "text": "گروپ شروع کریں",
+    "source": "37ac5a2c7c6c"
+  },
   "home.start-something": {
     "text": "کچھ شروع کریں",
     "source": "0c4b50ca224b"
@@ -26664,6 +27943,14 @@
     "text": "آغاز:",
     "source": "84cc09ea4cfa"
   },
+  "shell.notifier.started-at-time": {
+    "text": "{time} پر شروع ہوئی",
+    "source": "96673d9cbad8"
+  },
+  "talk.lines.started-the-group": {
+    "text": "گروپ شروع کیا",
+    "source": "da23c27bd111"
+  },
   "base.documents.starting-from": {
     "text": "شروع",
     "source": "8f51d73d59f4"
@@ -26675,6 +27962,10 @@
   "studio.record-panel.starting-in-n": {
     "text": "{n} میں شروع",
     "source": "bd04cbbfa525"
+  },
+  "shell.notifier.starting-now": {
+    "text": "ابھی شروع ہو رہی ہے",
+    "source": "11dc78f6ce9c"
   },
   "video.export.starting-the-encoder": {
     "text": "انکوڈر شروع ہو رہا ہے…",
@@ -26824,6 +28115,10 @@
     "text": "پڑھنا بند کریں",
     "source": "78be99f18a5c"
   },
+  "word.stop-reading-to-change-the-words": {
+    "text": "الفاظ تبدیل کرنے کے لیے پڑھنا روکیں۔",
+    "source": "9cfe5190d612"
+  },
   "shell.ipc.stop-recording": {
     "text": "ریکارڈنگ بند کریں",
     "source": "3d591e826d54"
@@ -26839,6 +28134,10 @@
   "talk.stop-sharing": {
     "text": "شیئر کرنا بند کریں",
     "source": "b2c78147ed57"
+  },
+  "studio.guests.stop-the-recording-first": {
+    "text": "پہلے ریکارڈنگ بند کریں۔",
+    "source": "bceedc4c4eda"
   },
   "sheets.dialogs.stop-value": {
     "text": "اختتامی قدر",
@@ -27184,6 +28483,10 @@
     "text": "ہم وقت سازی ہو رہی ہے…",
     "source": "8a046cc90ab0"
   },
+  "print.system-dialog": {
+    "text": "سسٹم ڈائیلاگ…",
+    "source": "67f7c0af7646"
+  },
   "read-aloud.bar.system-voice": {
     "text": "سسٹم کی آواز",
     "source": "2d3d23392b00"
@@ -27395,6 +28698,10 @@
     "text": "فریم سے ہٹائیں",
     "source": "a45c22273922"
   },
+  "studio.guests.take-out": {
+    "text": "نکالیں",
+    "source": "a7fc33e3bc67"
+  },
   "base.form-designer.take-the-field-picked-off-the": {
     "text": "چنی گئی فیلڈ کو فارم سے ہٹائیں۔ یہ ٹیبل میں رہتی ہے۔",
     "source": "4aacdaf96dce"
@@ -27443,6 +28750,14 @@
     "text": "{email} کو ہٹائیں",
     "source": "dabf194f9fee"
   },
+  "studio.guests.take-name-out-of-the-meeting": {
+    "text": "{name} کو میٹنگ سے نکالیں؟",
+    "source": "7c3125d540b1"
+  },
+  "talk.groups.take-name-out-of-this-group": {
+    "text": "{name} کو اس گروپ سے نکالیں؟",
+    "source": "74905e01f3b4"
+  },
   "common.take-n": {
     "text": "ٹیک {n}",
     "source": "26dc5b52d6c6"
@@ -27475,6 +28790,30 @@
     "text": "Talk",
     "source": "449f5a775762"
   },
+  "common.talk-cannot-do-this-yet-the": {
+    "text": "ٹاک (Talk) ابھی یہ نہیں کر سکتا: یہ کاپی جس ٹاک سروس سے منسلک ہے، اسے اپ ڈیٹ درکار ہے۔",
+    "source": "4e1bd3d7d0ef"
+  },
+  "talk.invite.talk-cannot-take-invitations-yet-the": {
+    "text": "ٹاک (Talk) ابھی دعوتیں قبول نہیں کر سکتا: یہ کاپی جس ٹاک سروس سے منسلک ہے، اسے اپ ڈیٹ درکار ہے۔",
+    "source": "55636b97709a"
+  },
+  "talk.server-share.talk-could-not-change-who-may": {
+    "text": "{name}: میٹنگز کی اجازت تبدیل نہیں ہو سکی۔ ذرا دیر بعد دوبارہ کوشش کریں۔",
+    "source": "dc1ab49ae9ad"
+  },
+  "talk.meet-lines.talk-could-not-confirm-that-the": {
+    "text": "ٹاک (Talk) تصدیق نہیں کر سکا کہ ٹاک سرور (Talk Server) وہی ہے جس پر یہ میٹنگ ہو رہی ہے، اس لیے منسلک نہیں ہوا۔",
+    "source": "9684b385d927"
+  },
+  "talk.meet-lines.talk-could-not-connect-to-the": {
+    "text": "ٹاک (Talk) میٹنگ کے ٹاک سرور (Talk Server) سے منسلک نہیں ہو سکا۔ ذرا دیر بعد دوبارہ کوشش کریں۔",
+    "source": "703304b87918"
+  },
+  "calendar.talk-could-not-connect-so-the": {
+    "text": "ٹاک (Talk) منسلک نہیں ہو سکا، اس لیے میٹنگ ترتیب نہیں دی گئی۔ کنکشن چیک کریں، پھر دوبارہ محفوظ کریں۔",
+    "source": "80ec6966c483"
+  },
   "talk.address.talk-could-not-do-that-now": {
     "text": "ٹاک (Talk) ابھی یہ نہیں کر سکا۔ تھوڑی دیر میں دوبارہ کوشش کریں۔",
     "source": "724fa466cd0e"
@@ -27483,9 +28822,41 @@
     "text": "ٹاک (Talk) یہ نہیں کر سکا۔ ذرا دیر بعد دوبارہ کوشش کریں۔",
     "source": "dc5636efcd10"
   },
+  "talk.meet-lines.talk-could-not-reach-the-meetings": {
+    "text": "ٹاک (Talk) میٹنگ کے ٹاک سرور (Talk Server) تک نہیں پہنچ سکا۔ اپنا کنکشن جانچیں، پھر دوبارہ کوشش کریں۔",
+    "source": "0d4b04ba1935"
+  },
+  "talk.meet-lines.talk-could-not-use-your-camera": {
+    "text": "ٹاک (Talk) آپ کا کیمرہ استعمال نہیں کر سکا۔ اس کمپیوٹر کی رازداری کی ترتیبات میں کیمرہ چیک کریں، اور یہ کہ کوئی اور ایپ اسے استعمال نہ کر رہی ہو۔",
+    "source": "5aa2f3a5e702"
+  },
+  "talk.meet-lines.talk-could-not-use-your-microphone": {
+    "text": "ٹاک (Talk) آپ کا مائیکروفون استعمال نہیں کر سکا۔ دوسرے آپ کو نہیں سن سکتے۔ اس کمپیوٹر کی رازداری کی ترتیبات میں مائیکروفون چیک کریں۔",
+    "source": "26e36fca513a"
+  },
+  "talk.talk-is-not-connected": {
+    "text": "Talk منسلک نہیں ہے۔",
+    "source": "ce45e3ce7fde"
+  },
   "talk.invite.talk-is-not-connected-try-again": {
     "text": "ٹاک (Talk) منسلک نہیں ہے۔ ذرا دیر بعد دوبارہ کوشش کریں۔",
     "source": "a4eca2b3e847"
+  },
+  "calendar.talk-is-not-installed-on-this": {
+    "text": "ٹاک (Talk) اس کمپیوٹر پر انسٹال نہیں ہے۔",
+    "source": "aea90ea8e986"
+  },
+  "talk.settings.talk-settings": {
+    "text": "Talk کی ترتیبات",
+    "source": "36e8d5e94219"
+  },
+  "talk.lines.talk-was-not-open": {
+    "text": "ٹاک (Talk) کھلا نہیں تھا",
+    "source": "62d9c8e2fe06"
+  },
+  "studio.window.talk-windows-cannot-be-shown-here": {
+    "text": "ٹاک (Talk) کی ونڈوز یہاں نہیں دکھائی جا سکتیں۔ \"مہمان\" سے میٹنگ نشر کریں۔",
+    "source": "76c4164f1516"
   },
   "talk.invite.talk-with-me-on-rutba-talk": {
     "text": "رتبہ ٹاک (Rutba Talk) پر مجھ سے بات کریں",
@@ -27494,6 +28865,10 @@
   "talk.talk-with-your-contacts": {
     "text": "اپنے رابطوں سے بات کریں",
     "source": "0a7725c8bf79"
+  },
+  "notify-dialog.talk-mail-and-calendar-are-what": {
+    "text": "رتبہ آفس (Rutba Office) ٹاک (Talk)، میل اور کیلنڈر کی نگرانی کرتا ہے۔ اس پروفائل میں ان میں سے کوئی بھی آن نہیں ہے۔",
+    "source": "4dada8cac654"
   },
   "common.talking-head": {
     "text": "کیمرے پر گفتگو",
@@ -27554,6 +28929,10 @@
   "video.teleprompter-speed": {
     "text": "ٹیلی پرامپٹر کی رفتار",
     "source": "a5298db8dfb1"
+  },
+  "notify-dialog.tell-me-of": {
+    "text": "مجھے ان کی اطلاع دیں",
+    "source": "d3b27184ede8"
   },
   "calendar.tell-the-people-invited-that-it": {
     "text": "مدعو لوگوں کو بتائیں کہ یہ منسوخ ہو گیا ہے؟",
@@ -27792,6 +29171,10 @@
     "text": "متن سے ٹیبل",
     "source": "808523cd0725"
   },
+  "common.text-to-speech": {
+    "text": "متن سے آواز",
+    "source": "71e02f22899a"
+  },
   "design.text-background-dark-1": {
     "text": "متن/پس منظر، گہرا 1",
     "source": "c5b1de5a8e5a"
@@ -27820,10 +29203,6 @@
     "text": "دیکھنے کا شکریہ",
     "source": "c708e3d71205"
   },
-  "common.text-to-speech": {
-    "text": "متن سے آواز",
-    "source": "71e02f22899a"
-  },
   "common.thanks-for-watching": {
     "text": "دیکھنے کا شکریہ",
     "source": "2179829c978c"
@@ -27848,6 +29227,10 @@
     "text": "یہ اکاؤنٹ ترتیب نہیں دیا گیا۔",
     "source": "69273d39e7a6"
   },
+  "video.library.that-address-is-in-the-list": {
+    "text": "یہ پتہ پہلے سے فہرست میں ہے۔",
+    "source": "8aa9b6a797f1"
+  },
   "engine.that-address-is-not-one-this": {
     "text": "اس پتے پر یہاں سے سائن ان نہیں کیا جا سکتا۔",
     "source": "1020211ad9ca"
@@ -27863,6 +29246,10 @@
   "video.that-came-out-at-size-over": {
     "text": "یہ {size} نکلی، {limit} سے زیادہ۔ اسے {rate} پر دوبارہ انکوڈ کیا جا رہا ہے۔",
     "source": "4745d07b03ec"
+  },
+  "studio.net-camera-find.that-camera-is-no-longer-in": {
+    "text": "وہ کیمرہ اب فہرست میں نہیں ہے۔ دوبارہ تلاش کریں۔",
+    "source": "47549aa38750"
   },
   "mail.smime.that-cipher-is-too-weak-to": {
     "text": "یہ خفیہ کاری اب کسی پیغام کو محفوظ رکھنے کے لیے بہت کمزور ہے۔",
@@ -27963,6 +29350,14 @@
     "text": "یہ کیمیو نہیں ہے",
     "source": "7aac81dea761"
   },
+  "studio.net-camera-words.that-is-not-a-camera-address": {
+    "text": "یہ کیمرے کا پتہ نہیں ہے۔",
+    "source": "e8747deb7bbd"
+  },
+  "studio.net-camera-dialog.that-is-not-a-camera-address": {
+    "text": "یہ کیمرے کا پتہ نہیں ہے۔ یہ rtsp:// سے شروع ہوتا ہے اور پھر کیمرے کا نام یا نمبر۔",
+    "source": "90f41611e9c4"
+  },
   "engine.that-is-not-a-picture": {
     "text": "یہ تصویر نہیں ہے",
     "source": "cbd382ebdc2a"
@@ -27974,6 +29369,10 @@
   "engine.that-is-not-a-picture-2": {
     "text": "یہ تصویر نہیں ہے۔",
     "source": "53d2759ddbb2"
+  },
+  "video.library.that-is-not-a-web-address": {
+    "text": "یہ ویب پتہ نہیں ہے۔",
+    "source": "a8b694cd4023"
   },
   "talk.invite.that-is-not-an-email-address": {
     "text": "یہ ای میل پتہ نہیں ہے۔",
@@ -27991,6 +29390,10 @@
     "text": "یہ ٹیبل کا اپنا کنارہ ہے۔ اس سے آگے جوڑنے کے لیے کوئی سیل نہیں۔",
     "source": "09b145221fad"
   },
+  "common.that-is-too-many-for-now": {
+    "text": "یہ ابھی کے لیے بہت زیادہ ہے۔ تھوڑی دیر بعد دوبارہ کوشش کریں۔",
+    "source": "d23549fc97f2"
+  },
   "qrcode.that-is-too-much-for-a": {
     "text": "غلطی کی درستگی کی اس سطح پر یہ QR کوڈ کے لیے بہت زیادہ ہے۔ کم سطح منتخب کریں، یا متن مختصر کریں۔",
     "source": "fba3deaee4e5"
@@ -28002,6 +29405,14 @@
   "mail.that-link-was-not-opened-it": {
     "text": "وہ لنک نہیں کھولا گیا: یہ کسی ویب صفحے یا ای میل پتے کا نہیں ہے۔",
     "source": "2aea50825a3d"
+  },
+  "studio.guests.that-meeting-was-not-set-up": {
+    "text": "وہ میٹنگ ریکارڈ کرنے کے لیے ترتیب نہیں دی گئی تھی، اس لیے اسے یہاں ریکارڈ نہیں کیا جا سکتا۔",
+    "source": "e6ebcbc087f2"
+  },
+  "studio.guests.that-meeting-was-not-set-up-2": {
+    "text": "وہ میٹنگ لائیو نشر کرنے کے لیے ترتیب نہیں دی گئی تھی، اس لیے اسے نشر نہیں کیا جا سکتا۔",
+    "source": "1b3f1bf9ce65"
   },
   "engine.that-message-is-not-there-any": {
     "text": "وہ پیغام اب وہاں نہیں ہے۔",
@@ -28030,6 +29441,14 @@
   "shell.profile-lock.that-password-is-not-right-try": {
     "text": "یہ پاس ورڈ درست نہیں۔ دوبارہ کوشش کریں۔",
     "source": "910f24f97048"
+  },
+  "talk.lines.that-person-cannot-be-chosen-here": {
+    "text": "اس شخص کو یہاں منتخب نہیں کیا جا سکتا۔",
+    "source": "45bb91b969c3"
+  },
+  "talk-words.that-person-is-not-in-the": {
+    "text": "وہ شخص میٹنگ میں نہیں ہے۔",
+    "source": "7b427fee1460"
   },
   "common.that-picture-could-not-be-read": {
     "text": "وہ تصویر پڑھی نہیں جا سکی۔",
@@ -28083,9 +29502,17 @@
     "text": "یہ قدم کبھی اختتامی قدر تک نہیں پہنچتا: کوئی اور قدم دیں، یا بھرنے کے لیے سیلز منتخب کریں",
     "source": "e01b65075502"
   },
+  "talk-words.that-time-cannot-be-used-for": {
+    "text": "یہ وقت میٹنگ کے لیے استعمال نہیں کیا جا سکتا۔",
+    "source": "82359a1b0796"
+  },
   "engine.that-window-has-closed-since-the": {
     "text": "فہرست بننے کے بعد سے یہ ونڈو بند ہو چکی ہے۔",
     "source": "c7352c412f96"
+  },
+  "shell.ipc.that-window-is-in-a-call": {
+    "text": "وہ ونڈو کال یا میٹنگ میں ہے، اس لیے اسے دکھایا یا ریکارڈ نہیں کیا جا سکتا۔",
+    "source": "d1e814b1090a"
   },
   "slides.that-works-on-slides-close-master": {
     "text": "یہ سلائیڈز پر کام کرتا ہے۔ پہلے ماسٹر منظر بند کریں۔",
@@ -28159,6 +29586,34 @@
     "text": "office.rutba.io پر پریزنٹیشن کی گائیڈ",
     "source": "87e5a0cf02ef"
   },
+  "talk.meet-lines.the-talk-server-did-not-let": {
+    "text": "ٹاک سرور (Talk Server) نے آپ کو اندر نہیں آنے دیا۔ اندر آنے کے لیے دوبارہ شامل ہوں۔",
+    "source": "b14665829b5c"
+  },
+  "talk.meet-lines.the-talk-server-did-not-let-2": {
+    "text": "ٹاک سرور (Talk Server) نے آپ کو اندر نہیں آنے دیا۔ دوبارہ شامل ہوں تاکہ {name} آپ کو اندر آنے دے سکیں۔",
+    "source": "65492eb99b5e"
+  },
+  "talk.meet-lines.the-talk-server-did-not-take": {
+    "text": "ٹاک سرور (Talk Server) نے کنکشن قبول نہیں کیا۔ ہو سکتا ہے میٹنگ بھر چکی ہو۔ ذرا دیر بعد دوبارہ کوشش کریں۔",
+    "source": "9db57d87fa81"
+  },
+  "talk.meet-lines.the-talk-server-did-not-take-2": {
+    "text": "ٹاک سرور (Talk Server) نے آپ کو میٹنگ میں نہیں لیا۔ میٹنگ دوبارہ شروع کریں۔",
+    "source": "b79482615aa2"
+  },
+  "talk.meet-lines.the-talk-server-offered-a-connection": {
+    "text": "ٹاک سرور (Talk Server) نے ایسا کنکشن پیش کیا جو خفیہ نہیں تھا، اس لیے ٹاک منسلک نہیں ہوا۔",
+    "source": "f7dfc7436a07"
+  },
+  "talk.meet-lines.the-talk-servers-certificate-could-not": {
+    "text": "ٹاک سرور (Talk Server) کے سرٹیفکیٹ کی جانچ نہیں ہو سکی، اس لیے ٹاک منسلک نہیں ہوا۔",
+    "source": "33fd127fc503"
+  },
+  "talk.meet-lines.the-talk-service-did-not-let": {
+    "text": "ٹاک سروس نے اس میٹنگ کو ٹاک سرور (Talk Server) پر منعقد ہونے کی اجازت نہیں دی۔",
+    "source": "99957ec824dd"
+  },
   "sheets.ribbon.the-worksheets-guide-on-office-rutba": {
     "text": "office.rutba.io پر ورک شیٹس کی گائیڈ",
     "source": "de05c2d52be3"
@@ -28175,6 +29630,14 @@
     "text": "یہ پتہ ایک نام اور @ کے پیچھے چھپاتا ہے کہ یہ کہاں جاتا ہے: یہ دراصل {host} پر جاتا ہے۔",
     "source": "ad10fa26c0e8"
   },
+  "video.library.the-address-must-start-https": {
+    "text": "پتہ https:// سے شروع ہونا چاہیے۔",
+    "source": "c83e4b4d033c"
+  },
+  "studio.net-camera-dialog.the-address-starts-rtsp-the-cameras": {
+    "text": "پتہ rtsp:// سے شروع ہوتا ہے۔ کیمرے کی ہدایات یا اس کی اپنی ایپ میں یہ دیا ہوتا ہے۔",
+    "source": "d7f1043ad6d9"
+  },
   "calendar.invite-card.the-answer-is-on-the-meeting": {
     "text": "جواب آپ کے کیلنڈر میں میٹنگ پر درج ہے۔",
     "source": "999de5959576"
@@ -28186,6 +29649,10 @@
   "apps-choice.the-apps-you-want-to-see": {
     "text": "وہ ایپس جو آپ دیکھنا اور اپنی فائلیں کھولنے کے لیے چاہتے ہیں۔",
     "source": "332e5249e305"
+  },
+  "video.inspector.the-bar-fills-from-where-this": {
+    "text": "بار اس کلپ کے شروع ہونے کی جگہ سے ختم ہونے کی جگہ تک بھرتی ہے۔",
+    "source": "01d9656a5ad1"
   },
   "video.the-brand-kit-is-kept-for": {
     "text": "برانڈ کٹ آپ کے لیے محفوظ ہے اور ہر منظر میں بنائی گئی ہے۔",
@@ -28207,9 +29674,41 @@
     "text": "کیمرا نہیں کھل سکا، اس لیے صرف آپ کی آواز ریکارڈ ہو رہی ہے: {reason}",
     "source": "0f481ff68eb0"
   },
+  "studio.net-camera-words.the-camera-did-not-accept-the": {
+    "text": "کیمرے نے صارف نام اور پاس ورڈ قبول نہیں کیا۔",
+    "source": "0e773912d1c5"
+  },
+  "studio.net-camera-find.the-camera-did-not-give-a": {
+    "text": "کیمرے نے اسٹریم کا پتہ نہیں دیا۔ اس کے بجائے اسے اس کے پتے سے شامل کریں۔",
+    "source": "362ec12ee3f5"
+  },
+  "studio.net-camera-words.the-camera-has-no-stream-at": {
+    "text": "اس پتے پر کیمرے کی کوئی اسٹریم نہیں ہے۔",
+    "source": "bf4afbb0f55c"
+  },
   "recording.camera.the-camera-is-in-use-by": {
     "text": "کیمرا کسی دوسرے پروگرام کے استعمال میں ہے۔",
     "source": "8f814a035e77"
+  },
+  "studio.net-camera-words.the-camera-is-not-answering-trying": {
+    "text": "کیمرہ جواب نہیں دے رہا۔ دوبارہ کوشش کی جا رہی ہے۔",
+    "source": "0e5b2592941f"
+  },
+  "studio.net-camera-words.the-camera-refused-to-give-this": {
+    "text": "کیمرے نے یہ اسٹریم دینے سے انکار کر دیا۔",
+    "source": "58a3f51cddf5"
+  },
+  "studio.net-camera-words.the-camera-sends-no-h-264": {
+    "text": "کیمرہ اس پتے پر کوئی H.264 تصویر نہیں بھیجتا۔",
+    "source": "492836237144"
+  },
+  "studio.net-camera-words.the-camera-sent-office-to-another": {
+    "text": "کیمرے نے Office کو کسی دوسرے پتے پر بھیجا، جس پر نہیں جایا جاتا۔",
+    "source": "1806cd635219"
+  },
+  "studio.net-camera-find.the-camera-stopped-answering-look-again": {
+    "text": "کیمرے نے جواب دینا بند کر دیا۔ دوبارہ تلاش کریں۔",
+    "source": "c5581f7307dc"
   },
   "slides.cameo.the-camera-stopped": {
     "text": "کیمرا رک گیا۔",
@@ -28218,6 +29717,10 @@
   "recording.camera.the-camera-was-not-allowed": {
     "text": "کیمرے کی اجازت نہیں دی گئی۔",
     "source": "432525bd7e5b"
+  },
+  "studio.net-camera-words.the-cameras-certificate-could-not-be": {
+    "text": "کیمرے کا سرٹیفکیٹ جانچا نہیں جا سکا۔",
+    "source": "82540f0abbcb"
   },
   "calendar.the-cancellation-is-sent-to-count": {
     "forms": {
@@ -28282,6 +29785,10 @@
     "text": "جانچ GitHub تک نہیں پہنچ سکی، جہاں ریلیزیں رکھی جاتی ہیں۔ اپنا کنکشن دیکھیں اور دوبارہ کوشش کریں۔",
     "source": "84d60dd0d3b6"
   },
+  "contacts.the-chosen-contact": {
+    "text": "منتخب رابطہ",
+    "source": "5dcc962557fb"
+  },
   "video.the-clip-could-not-be-reversed": {
     "text": "کلپ الٹا نہیں کیا جا سکا: {reason}",
     "source": "8fa2aa15a1ee"
@@ -28313,6 +29820,10 @@
   "ai-tools-dialog.the-connection-is-not-encrypted-use": {
     "text": "یہ رابطہ خفیہ کاری شدہ نہیں ہے۔ اسے ایسے نیٹ ورک پر استعمال کریں جس پر آپ کو بھروسا ہو، یا کسی محفوظ ٹنل کے ذریعے پہنچیں۔ کلید رکھنے والا کوئی بھی ٹولز استعمال کر سکتا ہے جب تک یہ آن ہیں۔",
     "source": "d47063f9f70e"
+  },
+  "talk-words.the-connection-was-lost-and-the": {
+    "text": "کنکشن ٹوٹ گیا اور میٹنگ میں دوبارہ شامل نہیں ہوا جا سکا۔",
+    "source": "ecc583f6d5d1"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "معیار کی رینج فہرست کے اندر نہیں ہو سکتی",
@@ -28512,6 +30023,10 @@
     "text": "\"{column}\" کے ابتدائی حروف",
     "source": "b944f22738f2"
   },
+  "print.the-first-page-as-it-prints": {
+    "text": "پہلا صفحہ، جیسا پرنٹ ہوگا",
+    "source": "714858151c3d"
+  },
   "video.the-first-try-came-out-with": {
     "text": "پہلی کوشش میں کوئی تصویر نہیں آئی، اس لیے برآمد دوبارہ شروع ہو گئی ہے۔",
     "source": "af1e9fb70b7f"
@@ -28584,6 +30099,10 @@
     "text": "دعوت نامہ منسلک ہے: کیلنڈر پروگرام اسے قبول کریں، عارضی اور انکار کریں کے ساتھ دکھاتا ہے۔",
     "source": "916e39ce6f00"
   },
+  "calendar.the-invitation-says-so-and-everyone": {
+    "text": "دعوت نامے میں یہ درج ہے، اور شامل ہونے سے پہلے سب کو دوبارہ بتایا جاتا ہے۔ تقریب محفوظ ہونے کے بعد اسے تبدیل نہیں کیا جا سکتا۔",
+    "source": "34283da216e9"
+  },
   "talk.the-invitation-to-email-is-withdrawn": {
     "text": "{email} کی دعوت واپس لے لی گئی۔",
     "source": "e97f1c145a8b"
@@ -28635,6 +30154,10 @@
   "mail.the-link-could-not-be-opened": {
     "text": "لنک نہیں کھل سکا: {reason}",
     "source": "f9feb1a56e08"
+  },
+  "calendar.the-link-goes-in-the-invitation": {
+    "text": "تقریب محفوظ ہونے پر لنک دعوت نامے میں شامل ہو جاتا ہے۔",
+    "source": "6aee9a938dce"
   },
   "mail.links.the-link-goes-to-a-bare": {
     "text": "یہ لنک کسی نام والی سائٹ کے بجائے صرف ایک نمبر ({host}) پر جاتا ہے۔",
@@ -28766,6 +30289,18 @@
   "pdf.redact.the-marked-words-were-found-nowhere": {
     "text": "نشان زد الفاظ فائل میں کہیں اور نہیں ملے۔",
     "source": "d6895ebf74fc"
+  },
+  "talk-words.the-meeting-has-ended": {
+    "text": "میٹنگ ختم ہو گئی۔",
+    "source": "cc0f6f1d8713"
+  },
+  "talk.meet-lines.the-meeting-is-full-on-its": {
+    "text": "میٹنگ اپنے ٹاک سرور (Talk Server) پر بھر چکی ہے۔",
+    "source": "a28293313806"
+  },
+  "talk.meet-lines.the-meetings-talk-server-is-not": {
+    "text": "میٹنگ کا ٹاک سرور (Talk Server) اس وقت لوگوں کو نہیں لے رہا۔ ذرا دیر بعد دوبارہ کوشش کریں۔",
+    "source": "1ba2db75411e"
   },
   "sheets.the-memo-file-was-not-beside": {
     "text": "میمو فائل ٹیبل کے ساتھ نہیں تھی، اس لیے اس کے میمو خانے خالی ہیں۔",
@@ -28903,6 +30438,14 @@
     "text": "فولڈر کی ترتیب",
     "source": "30418ead37ff"
   },
+  "talk-words.the-organiser-will-record-this-meeting": {
+    "text": "یہ میٹنگ منتظم کے کمپیوٹر پر ریکارڈ کی جائے گی، اور ریکارڈنگ کا اشتراک کیا جا سکتا ہے۔",
+    "source": "921618d46444"
+  },
+  "talk-words.the-organiser-will-stream-this-meeting": {
+    "text": "یہ میٹنگ منتظم کی طرف سے انٹرنیٹ پر لائیو نشر کی جائے گی۔ دیکھنے والا ہر شخص شامل ہونے والوں کو دیکھ اور سن سکتا ہے۔",
+    "source": "b99065a333e6"
+  },
   "image.the-original-is-untouched": {
     "text": "اصل جوں کا توں ہے۔",
     "source": "47a5d88b8255"
@@ -28963,6 +30506,10 @@
     "text": "پاس ورڈ بدل دیا گیا۔",
     "source": "48b340636b7a"
   },
+  "studio.the-password-is-kept-in-this": {
+    "text": "پاس ورڈ اس کمپیوٹر کے کی اسٹور میں رکھا جاتا ہے اور دوبارہ نہیں دکھایا جاتا۔ Office کیمرے کو صرف تب پڑھتا ہے جب وہ کھلے منظر میں شروع شدہ ماخذ ہو، اور خود سے کچھ ریکارڈ نہیں کرتا۔",
+    "source": "a06c01b372ed"
+  },
   "base.sources.the-password-is-kept-in-this": {
     "text": "پاس ورڈ اس کمپیوٹر کے محفوظ ذخیرے میں رکھا جاتا ہے، فائل میں کبھی نہیں۔",
     "source": "238083babcc6"
@@ -28991,6 +30538,30 @@
     "text": "اس پروفائل میں محفوظ پاس ورڈ اس کمپیوٹر پر کھولے نہیں جا سکے۔",
     "source": "acb3592270e8"
   },
+  "talk.server-share.the-people-i-choose": {
+    "text": "وہ لوگ جنہیں میں منتخب کروں",
+    "source": "36c32fb33927"
+  },
+  "talk.meeting.the-people-here-become-guests-of": {
+    "text": "یہاں کے لوگ آپ کی نشریات کے مہمان بن جاتے ہیں۔ وہاں لائیو جانے تک کچھ نشر نہیں ہوتا۔",
+    "source": "e32bdeab5f44"
+  },
+  "talk.meeting.the-people-here-become-guests-of-2": {
+    "text": "یہاں کے لوگ آپ کی ریکارڈنگ کے مہمان بن جاتے ہیں۔ وہاں شروع کرنے تک کچھ ریکارڈ نہیں ہوتا۔",
+    "source": "0029bd61f40d"
+  },
+  "talk.meet-lines.the-person-who-set-it-up": {
+    "text": "میٹنگ ترتیب دینے والے شخص کی اجازت سے لوگ اندر آتے ہیں: ان کے میٹنگ میں آنے کے بعد آپ کا داخلہ ہو سکے گا۔",
+    "source": "e3c88ab34577"
+  },
+  "video.the-picked-clip-is-held-as": {
+    "text": "منتخب کلپ ویسا ہی رکا رہتا ہے جیسا پلے ہیڈ پر ہے؛ کسی دوسرے وقت پر دوسرا نقطہ لگائیں تو یہ ان کے درمیان حرکت کرتا ہے",
+    "source": "3750c996d700"
+  },
+  "video.the-picked-clip-no-longer-stops": {
+    "text": "منتخب کلپ اب اپنے راستے میں یہاں نہیں رکتا",
+    "source": "6fd09ebed34a"
+  },
   "image.the-picture": {
     "text": "تصویر",
     "source": "4c104b5e7d1b"
@@ -29006,6 +30577,10 @@
   "studio.live-panel.the-picture-as-it-will-go": {
     "text": "تصویر جیسی نشر ہوگی",
     "source": "bc06b3ee00fb"
+  },
+  "video.inspector.the-picture-comes-up-from-black": {
+    "text": "تصویر اس کلپ کے شروع میں سیاہ سے ابھرتی ہے اور اس کے آخر میں سیاہ میں مدھم ہو جاتی ہے۔",
+    "source": "2181c1078bfc"
   },
   "image.formats.the-picture-could-not-be-drawn": {
     "text": "تصویر اس سائز پر نہیں کھینچی جا سکی۔",
@@ -29091,6 +30666,14 @@
     "text": "پریزنٹیشن کھلی نہیں ہے",
     "source": "f29457024833"
   },
+  "print.the-printer-did-not-accept-this": {
+    "text": "پرنٹر نے یہ کاغذ یا یہ ترتیبات قبول نہیں کیں۔ دوسرا کاغذ، یا دوسرا پرنٹر منتخب کریں۔",
+    "source": "774689bf480b"
+  },
+  "print.the-printer-did-not-take-the": {
+    "text": "پرنٹر نے کام قبول نہیں کیا۔ چیک کریں کہ یہ آن اور منسلک ہے، پھر دوبارہ کوشش کریں۔",
+    "source": "f4eec391cb2b"
+  },
   "base.the-program-that-made-this-database": {
     "text": "جس پروگرام نے یہ ڈیٹابیس بنایا وہ اپنے ریکارڈ اپنے طریقے سے رکھتا ہے۔ جو ریکارڈ آپ یہاں شامل کریں، بدلیں یا حذف کریں وہ سیدھا اس کی فائل میں جاتا ہے، جہاں ہو سکتا ہے وہ پروگرام اس کی توقع نہ کرے۔ پہلے وہ پروگرام بند کریں، اور اگر یقین نہ ہو تو فائل کی ایک کاپی رکھ لیں۔",
     "source": "8002f92792a1"
@@ -29134,6 +30717,10 @@
     },
     "source": "4f5d2c815440"
   },
+  "talk.meet-lines.the-recording-is-running-you-are": {
+    "text": "ریکارڈنگ جاری ہے۔ آپ ابھی اس میں نہیں ہیں۔",
+    "source": "4036dc31bdb1"
+  },
   "base.links.the-records-of-table-could-not": {
     "text": "{table} کے ریکارڈ {link} سے نہیں پڑھے جا سکے: {why}",
     "source": "660d34a04cc8"
@@ -29173,6 +30760,10 @@
   "slides.ribbon.the-release-notes": {
     "text": "ریلیز نوٹس",
     "source": "3f798451b655"
+  },
+  "talk.report.the-report-goes-to-rutba-name": {
+    "text": "رپورٹ Rutba کو جاتی ہے۔ {name} کو نہیں بتایا جاتا۔",
+    "source": "f6c7917c49db"
   },
   "template-gallery.the-results-of-a-quarter-the": {
     "text": "ایک سہ ماہی کے نتائج: اعداد، ماہانہ آمدنی، کیا اچھا رہا، سبق اور اہداف",
@@ -29385,6 +30976,10 @@
     "text": "چھوٹی PDF نئی فائل کے طور پر محفوظ ہوتی ہے؛ یہ والی نہیں بدلتی۔ یہ ابھی {size} ہے۔",
     "source": "6442a2655dcc"
   },
+  "notify-dialog.the-sound-windows-plays-with-a": {
+    "text": "وہ آواز جو Windows اطلاع کے ساتھ چلاتا ہے",
+    "source": "653106fa20ba"
+  },
   "video.the-sound-could-not-be-added": {
     "text": "آواز شامل نہیں کی جا سکی: {reason}",
     "source": "35d9bcec9939"
@@ -29428,6 +31023,10 @@
   "studio.live-bar.the-stream-has-ended": {
     "text": "اسٹریم ختم ہو گئی۔",
     "source": "d57ae372ef20"
+  },
+  "talk.meet-lines.the-stream-is-on-air-you": {
+    "text": "اسٹریم نشر ہو رہی ہے۔ آپ ابھی اس میں نہیں ہیں۔",
+    "source": "11eb1300420f"
   },
   "ui.proofing.the-suite-has-english-dictionaries-only": {
     "text": "اس سوئٹ میں صرف انگریزی لغات ہیں، اس لیے ہجے {language} کے الفاظ کو غلط نشان زد کرنے کے بجائے چھوڑ دیتا ہے؛ Office ان کی جانچ {language} میں کرتا ہے۔",
@@ -29501,6 +31100,14 @@
     "text": "ٹول",
     "source": "597e25a2a916"
   },
+  "video.inspector.the-transition-into-the-next-clip": {
+    "text": "اگلے کلپ میں جانے والی ٹرانزیشن اس کلپ سے نکلنے کا راستہ ہے۔",
+    "source": "6f504ea49383"
+  },
+  "video.inspector.the-transition-into-this-clip-is": {
+    "text": "اس کلپ میں آنے والی ٹرانزیشن اس کے داخلے کا راستہ ہے۔",
+    "source": "580927f3dd13"
+  },
   "common.the-two-passwords-are-not-the": {
     "text": "دونوں پاس ورڈ ایک جیسے نہیں ہیں۔",
     "source": "bb612d83804d"
@@ -29520,22 +31127,6 @@
   "video.library.the-videos-sound-and-pictures-in": {
     "text": "اس پروجیکٹ کی ویڈیوز، آوازیں اور تصاویر یہاں رکھی جاتی ہیں، تاکہ دوبارہ شامل کی جا سکیں۔",
     "source": "4075715096b2"
-  },
-  "spoken.voices.read-aloud-only": {
-    "text": "صرف بلند آواز سے پڑھیں",
-    "source": "3953b35ec0c1"
-  },
-  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
-    "text": "شارٹ کٹ: باکس میں Ctrl+Enter",
-    "source": "46629f7a364b"
-  },
-  "spoken.voices.show-and-read-aloud": {
-    "text": "دکھائیں اور بلند آواز سے پڑھیں",
-    "source": "cad1b91fa8e8"
-  },
-  "spoken.voices.show-only": {
-    "text": "صرف دکھائیں",
-    "source": "a8d71c961005"
   },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "اس سطر کے لیے آواز سے کچھ سنائی نہیں دیا۔",
@@ -29577,9 +31168,17 @@
     "text": "الفاظ بدل جاتے ہیں؛ نمبر اور اس کا حوالہ اپنی جگہ رہتے ہیں۔",
     "source": "a349d752c423"
   },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "الفاظ پلے ہیڈ پر آتے ہیں، ایک سطر کے بعد دوسری، تصویر کے اوپر۔",
+    "source": "841b57677821"
+  },
   "pdf.redact.the-words-marked-words": {
     "text": "نشان زد الفاظ: {words}",
     "source": "dc8443be756f"
+  },
+  "notify-dialog.the-words-of-a-message-and": {
+    "text": "پیغام کے الفاظ اور ای میل کا موضوع۔ بند ہونے پر اطلاع صرف یہ بتاتی ہے کہ یہ کس کی طرف سے ہے۔",
+    "source": "aa2ea8a7d8f1"
   },
   "engine.the-words-to-make-a-table": {
     "text": "جن الفاظ سے ٹیبل بنانا ہے وہ پہلے ہی ایک ٹیبل میں ہیں۔",
@@ -29870,6 +31469,13 @@
     "text": "ابھی نشر کرنے کو کچھ نہیں ہے۔",
     "source": "b18177f5d0d3"
   },
+  "pictures.print.there-is-count-picture-here-more": {
+    "forms": {
+      "one": "یہاں {count} تصویر ہے، جبکہ ایک پرنٹ میں زیادہ سے زیادہ {most} تصاویر ہو سکتی ہیں۔ کم تصاویر منتخب کریں۔",
+      "other": "یہاں {count} تصاویر ہیں، جبکہ ایک پرنٹ میں زیادہ سے زیادہ {most} تصاویر ہو سکتی ہیں۔ کم تصاویر منتخب کریں۔"
+    },
+    "source": "5c9d627303d8"
+  },
   "common.thesaurus": {
     "text": "لغتِ مترادفات",
     "source": "39ee7c38435d"
@@ -29934,6 +31540,14 @@
     "text": "وہ آپ کے روابط سے ہٹا دیے جاتے ہیں اور نہ دوبارہ رابطے کا کہہ سکتے ہیں نہ آپ تک پہنچ سکتے ہیں۔",
     "source": "9f51b4fdc716"
   },
+  "talk.they-cannot-ask-to-be-in": {
+    "text": "وہ دوبارہ رابطے کی درخواست نہیں کر سکتے اور نہ آپ تک پہنچ سکتے ہیں۔ انہیں بتایا نہیں جاتا۔",
+    "source": "dee1768ca554"
+  },
+  "studio.guests.they-cannot-join-this-meeting-again": {
+    "text": "وہ اس میٹنگ میں دوبارہ شامل نہیں ہو سکتے۔",
+    "source": "def7bc098df1"
+  },
   "base.ai-tools.they-may-also-add-records-and": {
     "text": "وہ ریکارڈ شامل بھی کر سکتے ہیں اور بدل بھی سکتے ہیں۔ وہ کبھی ڈیزائن نہیں بدلتے، اور کبھی حذف نہیں کرتے۔",
     "source": "8b74841f0d5a"
@@ -29945,6 +31559,10 @@
   "base.ai-tools.they-may-read-its-records": {
     "text": "وہ اس کے ریکارڈز پڑھ سکتے ہیں۔",
     "source": "2a1104df2724"
+  },
+  "talk.groups.they-no-longer-see-what-is": {
+    "text": "وہ اب یہاں لکھی گئی چیزیں نہیں دیکھتے۔ جو وہ پہلے پڑھ چکے ہیں، وہ ان کے پاس رہتا ہے۔",
+    "source": "a3b27170bf21"
   },
   "talk.invite.they-see-it-in-talk-if": {
     "text": "اگر وہ ٹاک (Talk) استعمال کرتے ہیں تو اسے ٹاک میں دیکھیں گے۔ بعد میں آپ خود انہیں لنک بھیج سکتے ہیں۔",
@@ -29990,6 +31608,10 @@
     "text": "تیسرا",
     "source": "5e7425d72f32"
   },
+  "video.library.third-point": {
+    "text": "تیسرا نقطہ",
+    "source": "7bb2711613d0"
+  },
   "slides.ribbon.this-device": {
     "text": "یہ ڈیوائس…",
     "source": "52daeef5cf25"
@@ -30018,9 +31640,13 @@
     "text": "اس PDF کے حوالہ جاتی جدول خراب ہیں، اس لیے اس میں جیسا ہے ویسا متن کی تہہ شامل نہیں کی جا سکتی۔ پہلے ایک نقل محفوظ کریں، پھر اس نقل کا متن پہچانیں۔",
     "source": "1050973fa0a2"
   },
-  "talk.invite.this-talk-server-does-not-take": {
-    "text": "یہ ٹاک (Talk) سرور ابھی دعوتیں نہیں لیتا۔",
-    "source": "9b3cb2160f1c"
+  "talk.meet-lines.this-talk-service-cannot-hold-a": {
+    "text": "یہ ٹاک سروس ابھی ٹاک سرور (Talk Server) پر میٹنگ منعقد نہیں کر سکتی، اس لیے یہ چار افراد کی چھوٹی میٹنگ ہے۔",
+    "source": "c1d3029a92cf"
+  },
+  "talk.meet-lines.this-talk-service-has-no-talk": {
+    "text": "اس ٹاک سروس کے پاس کوئی ٹاک سرور (Talk Server) نہیں ہے، اس لیے میٹنگ کسی سرور پر منعقد نہیں ہو سکتی۔",
+    "source": "8e28496cf764"
   },
   "mail.this-account": {
     "text": "یہ اکاؤنٹ",
@@ -30029,6 +31655,10 @@
   "word.untracked.this-action-will-not-be-marked": {
     "text": "یہ عمل تبدیلی کے طور پر نشان زد نہیں ہوگا۔",
     "source": "7b97913a5c04"
+  },
+  "studio.net-camera-words.this-address-sends-h-265-which": {
+    "text": "یہ پتہ H.265 بھیجتا ہے، جو ابھی پڑھا نہیں جاتا۔ کیمرے کی H.264 اسٹریم استعمال کریں۔",
+    "source": "651ff9635aec"
   },
   "calendar.words.this-answer-comes-from-rutba-office": {
     "text": "یہ جواب رتبہ آفس (Rutba Office) سے آیا ہے، جو کھلا رہنے تک اس کمرے کا میل باکس سنبھالتا ہے۔",
@@ -30057,6 +31687,26 @@
   "engine.this-calendar-comes-from-an-account": {
     "text": "یہ کیلنڈر ایک اکاؤنٹ سے آیا ہے۔ اس کے کیلنڈرز ہٹانے کے لیے اکاؤنٹ ہٹائیں۔",
     "source": "98d39bbbbd5e"
+  },
+  "studio.net-camera-words.this-camera-asks-for-a-kind": {
+    "text": "یہ کیمرہ ایسی قسم کا سائن ان مانگتا ہے جسے Office نہیں جانتا۔",
+    "source": "6c652d14acb9"
+  },
+  "studio.net-camera-words.this-camera-asks-for-a-user": {
+    "text": "یہ کیمرہ صارف نام اور پاس ورڈ مانگتا ہے۔",
+    "source": "c2cae425904b"
+  },
+  "studio.net-camera-words.this-camera-does-not-send-its": {
+    "text": "یہ کیمرہ اپنی تصویر اس کنکشن پر نہیں بھیجتا جو Office کھولتا ہے۔",
+    "source": "6fc8cbde1c5f"
+  },
+  "studio.net-camera-words.this-camera-is-not-set-up": {
+    "text": "یہ کیمرہ اس کمپیوٹر پر ترتیب نہیں دیا گیا۔ \"کیمرے کی تفصیلات\" میں اس کا پتہ دیں۔",
+    "source": "4bed18b10e16"
+  },
+  "studio.net-camera-dialog.this-camera-was-set-up-on": {
+    "text": "یہ کیمرہ کسی دوسرے کمپیوٹر پر ترتیب دیا گیا تھا۔ اس کا پتہ اور سائن ان کی تفصیلات یہاں دیں۔",
+    "source": "542ed093335d"
   },
   "mail.this-cannot-be-encrypted-for-names": {
     "text": "یہ {names} کے لیے خفیہ نہیں کیا جا سکتا: یہاں ان کا کوئی سرٹیفکیٹ نہیں۔ ان سے دستخط شدہ پیغام مانگیں، یا ان کا سرٹیفکیٹ درآمد کریں۔",
@@ -30106,6 +31756,10 @@
     "text": "یہ انتخاب پہلے ہی تقریباً {size} ہے، {limit} سے کم، اس لیے یہ جیسا ہے ویسا ہی رہے گا۔ لکھی گئی فائل پھر بھی جانچی جاتی ہے۔",
     "source": "ec9bbd250c8b"
   },
+  "studio.window.this-clears-the-sources-scenes-sounds": {
+    "text": "یہ اس سیشن کے ماخذ، مناظر، آوازیں اور ترتیبات، فریم کی شکل اور آواز میں بولنے کے لیے لکھے گئے الفاظ صاف کر دیتا ہے۔ اسے کالعدم نہیں کیا جا سکتا۔ محفوظ سیٹ اپ تبدیل نہیں ہوتے۔",
+    "source": "c68ae537b83a"
+  },
   "video.inspector.this-clip-fills-the-frame-drag": {
     "text": "یہ کلپ پورا فریم بھرتی ہے۔ اسے ہٹانے، سائز بدلنے اور گھمانے کے لیے پیش منظر پر کونا گھسیٹیں، یا اسے تصویر میں تصویر بنائیں۔",
     "source": "72ea235699ae"
@@ -30138,9 +31792,21 @@
     "text": "یہ کمپیوٹر وہ H.264 تصویر نہیں بنا سکتا جو لائیو اسٹریم کو درکار ہے۔",
     "source": "a62cd6f5be9a"
   },
+  "studio.net-camera-words.this-computer-could-not-show-the": {
+    "text": "یہ کمپیوٹر کیمرے کی تصویر نہیں دکھا سکا۔",
+    "source": "51da9c1b735e"
+  },
   "studio.media.this-computer-does-not-let-its": {
     "text": "یہ کمپیوٹر اپنی آواز ریکارڈ کرنے نہیں دیتا۔",
     "source": "02a36f4d4162"
+  },
+  "notify-dialog.this-computer-does-not-show-notifications": {
+    "text": "یہ کمپیوٹر رتبہ آفس (Rutba Office) کی اطلاعات نہیں دکھاتا۔ منتظر چیزیں پھر بھی گھڑی کے پاس اس کے آئکن پر گنی جاتی ہیں۔",
+    "source": "0946a46fa6b1"
+  },
+  "studio.this-computer-has-no-keystore-to": {
+    "text": "اس کمپیوٹر میں پاس ورڈ محفوظ رکھنے کے لیے کوئی کی اسٹور نہیں، اس لیے کیمرہ پاس ورڈ کے ساتھ شامل نہیں کیا جاتا۔",
+    "source": "72d201a958d1"
   },
   "profiles.this-computer-has-no-protected-store": {
     "text": "اس کمپیوٹر میں محفوظ پاس ورڈز کے لیے کوئی محفوظ جگہ نہیں، اور اس پروفائل کا کوئی پاس ورڈ نہیں، اس لیے انہیں محفوظ طریقے سے رکھا نہیں جا سکا۔",
@@ -30284,6 +31950,10 @@
     "text": "یہ دستاویز محفوظ ہے: یہاں صرف تبصرے شامل کیے جا سکتے ہیں۔ جائزہ ← ترمیم محدود کریں وہ حصے دکھاتا ہے جن میں آپ ترمیم کر سکتے ہیں۔",
     "source": "b908b8376d8e"
   },
+  "calendar.this-event-has-a-talk-meeting": {
+    "text": "اس تقریب میں ٹاک (Talk) میٹنگ ہے۔ اس کا لنک دعوت نامے میں ہے۔",
+    "source": "827f48607535"
+  },
   "word.mailings.this-field": {
     "text": "یہ فیلڈ:",
     "source": "eb8aea23f662"
@@ -30404,9 +32074,17 @@
     "text": "یہ glTF {version} فائل ہے؛ صرف glTF 2.0 پڑھی جاتی ہے",
     "source": "4c12d7ae7e99"
   },
+  "studio.setups-menu.this-is-a-new-session-your": {
+    "text": "یہ نیا سیشن ہے۔ آپ کے محفوظ سیٹ اپ کھلے نہیں ہیں۔",
+    "source": "71e4928b84cd"
+  },
   "word.mailings.this-is-an-ordinary-document-again": {
     "text": "یہ دوبارہ ایک عام دستاویز ہے، کوئی میل مرج نہیں۔",
     "source": "c3f745c78c62"
+  },
+  "shell.notifier.this-is-how-rutba-office-tells": {
+    "text": "رتبہ آفس (Rutba Office) اسی طرح آپ کو کال، پیغام، ای میل یا یاد دہانی کی اطلاع دیتا ہے۔",
+    "source": "950c62c3726b"
   },
   "engine.this-is-not-a-pdf-it": {
     "text": "یہ PDF نہیں ہے: یہ PDF کی طرح شروع نہیں ہوتی۔",
@@ -30487,9 +32165,41 @@
     "text": "یہ میٹنگ بدل گئی ہے۔ نئی تفصیلات اوپر اور منسلک ہیں۔",
     "source": "fbe9e175c1ce"
   },
+  "talk-words.this-meeting-has-ended-or-its": {
+    "text": "یہ میٹنگ ختم ہو گئی ہے، یا اس کا لنک درست نہیں۔",
+    "source": "b64eb5c26b25"
+  },
+  "talk.meet-lines.this-meeting-holds-up-to-count": {
+    "text": "اس میٹنگ میں {count} افراد تک آ سکتے ہیں: آپ اور وہ روابط جنہیں آپ مدعو کریں۔",
+    "source": "7ce6878459a3"
+  },
   "calendar.words.this-meeting-is-cancelled-a-calendar": {
     "text": "یہ میٹنگ منسوخ ہو گئی ہے۔ کیلنڈر پروگرام منسلک فائل سے اسے کیلنڈر سے ہٹا دیتا ہے۔",
     "source": "6e9c1888a881"
+  },
+  "common.this-meeting-is-full-it-holds": {
+    "text": "یہ میٹنگ بھری ہوئی ہے: اس میں {count} افراد آ سکتے ہیں۔",
+    "source": "3f86e11dd3c0"
+  },
+  "talk-words.this-meeting-is-locked-nobody-new": {
+    "text": "یہ میٹنگ مقفل ہے۔ کھلنے تک کوئی نیا شخص شامل نہیں ہو سکتا۔",
+    "source": "1abcf9d36011"
+  },
+  "talk.meet-lines.this-meeting-is-over-on-its": {
+    "text": "یہ میٹنگ اپنے ٹاک سرور (Talk Server) پر ختم ہو چکی ہے۔",
+    "source": "63de60cd2533"
+  },
+  "talk.meet-lines.this-meeting-was-not-set-up": {
+    "text": "یہ میٹنگ لائیو نشر یا ریکارڈ کرنے کے لیے ترتیب نہیں دی گئی تھی۔ اسے بعد میں تبدیل نہیں کیا جا سکتا۔",
+    "source": "d5fcfd698087"
+  },
+  "shell.notifier.this-meeting-will-be-recorded": {
+    "text": "یہ میٹنگ ریکارڈ کی جائے گی",
+    "source": "ca175df526bd"
+  },
+  "common.this-meeting-will-be-streamed-live": {
+    "text": "یہ میٹنگ لائیو نشر کی جائے گی",
+    "source": "bcb5929f8d46"
   },
   "mail.this-message-could-not-be-opened": {
     "text": "یہ پیغام کھولا نہیں جا سکا",
@@ -30579,6 +32289,10 @@
     "text": "اس تصویر کی گردش ایسی جگہ محفوظ ہے جہاں اسے دوبارہ بنائے بغیر بدلا نہیں جا سکتا۔ ترمیم کریں اسے امیج میں کھولتا ہے، جو یہ کر سکتا ہے۔",
     "source": "e53774383891"
   },
+  "pictures.this-picture": {
+    "text": "یہ تصویر",
+    "source": "ee4bcbd7d2c6"
+  },
   "pictures.this-picture-could-not-be-decoded": {
     "text": "یہ تصویر ڈی کوڈ نہیں ہو سکی۔",
     "source": "3770474ba9a6"
@@ -30598,6 +32312,10 @@
   "edit-in-image.this-picture-is-kept-in-a": {
     "text": "یہ تصویر ایسی شکل میں محفوظ ہے جس میں امیج ترمیم نہیں کر سکتا (جیسے لکیروں کا خاکہ)۔ پہلے اسے PNG یا JPEG میں بدلیں۔",
     "source": "a4e03f2add1a"
+  },
+  "pictures.this-picture-all-count-pages": {
+    "text": "یہ تصویر، تمام {count} صفحات",
+    "source": "7e3a926bad3c"
   },
   "pdf.fields.this-places-a-picture-of-your": {
     "text": "یہ صفحے پر آپ کے دستخط کی تصویر رکھتا ہے۔ یہ ڈیجیٹل دستخط نہیں: یہ ثابت نہیں کرتا کہ PDF پر کس نے دستخط کیے، یا یہ کہ اس کے بعد PDF بدلی نہیں گئی۔",
@@ -30622,6 +32340,10 @@
   "base.documents.this-print-template-is-not-in": {
     "text": "یہ پرنٹ سانچہ ڈیٹابیس میں نہیں ہے۔",
     "source": "514256b113da"
+  },
+  "print.this-printer-is-not-ready-a": {
+    "text": "یہ پرنٹر تیار نہیں ہے۔ اسے بھیجا گیا پرنٹ اس کی قطار میں انتظار کرتا ہے جب تک یہ تیار نہ ہو۔",
+    "source": "e0ae214529a5"
   },
   "profiles.this-profile-asks-for-its-password": {
     "text": "یہ پروفائل کھلنے سے پہلے اپنا پاس ورڈ مانگتا ہے۔",
@@ -30682,6 +32404,14 @@
   "mail.this-sends-a-message-to-address": {
     "text": "یہ {address} کو ایک پیغام بھیجتا ہے۔",
     "source": "ff32e284a342"
+  },
+  "studio.settings-dialog.this-session": {
+    "text": "یہ سیشن",
+    "source": "6da6530a0728"
+  },
+  "studio.setups-menu.this-session-is-not-saved-save": {
+    "text": "یہ سیشن محفوظ نہیں ہے۔ اسے بعد میں دوبارہ کھولنے کے لیے بطور سیٹ اپ محفوظ کریں۔ ورنہ اس میں آپ کی ترتیب ختم ہو جائے گی۔",
+    "source": "47fc62aed9a4"
   },
   "studio.settings-dialog.this-setup": {
     "text": "یہ سیٹ اپ",
@@ -30815,6 +32545,10 @@
     "text": "اس ونڈو کے اپنے کوئی کی بورڈ شارٹ کٹس نہیں ہیں۔",
     "source": "5e7d871a442c"
   },
+  "studio.guests.this-window-leaves-and-talk-comes": {
+    "text": "یہ ونڈو بند ہوتی ہے اور ٹاک (Talk) کھلتا ہے: وہی لوگ، بطور میٹنگ۔",
+    "source": "fa116fc70753"
+  },
   "sheets.this-workbook-has-no-comments": {
     "text": "اس ورک بک میں کوئی تبصرہ نہیں ہے۔",
     "source": "b25f818039e3"
@@ -30851,6 +32585,13 @@
     "text": "اس {noun} کو کھولنے کے لیے پہلے سے پاس ورڈ درکار ہے۔ اسے تبدیل کرنے کے لیے نیا پاس ورڈ ٹائپ کریں، یا اسے ہٹانے کے لیے دونوں باکس خالی چھوڑ دیں۔",
     "source": "48cc5a933316"
   },
+  "print.those-are-not-pages-of-this": {
+    "forms": {
+      "one": "یہ اس پرنٹ کے صفحات نہیں ہیں، جس میں {count} صفحہ ہے۔",
+      "other": "یہ اس پرنٹ کے صفحات نہیں ہیں، جس میں {count} صفحات ہیں۔"
+    },
+    "source": "39e9aff4fba2"
+  },
   "talk.invite-email.those-beyond-that-are-asked-in": {
     "text": "اس سے زیادہ لوگوں سے صرف ٹاک (Talk) میں پوچھا جائے گا، ای میل کے بغیر۔",
     "source": "4ac21ba884c2"
@@ -30870,6 +32611,10 @@
   "slides.ribbon.three-columns": {
     "text": "تین کالمز",
     "source": "cd7d143da615"
+  },
+  "studio.guests.three-guests": {
+    "text": "تین مہمان",
+    "source": "41b77a9e8c88"
   },
   "word.ribbon.through": {
     "text": "آر پار",
@@ -30975,10 +32720,6 @@
     "text": "ٹائم زونز",
     "source": "1b0013ea667e"
   },
-  "video.ribbon.spoken-words": {
-    "text": "بولے جانے والے الفاظ",
-    "source": "b5f7a276ab16"
-  },
   "video.ribbon.timeline": {
     "text": "ٹائم لائن",
     "source": "9dcff98e275f"
@@ -31082,10 +32823,6 @@
     "text": "{room} کب فارغ ہے یہ پوچھنے کے لیے، اسے کسی تاریخ کے ساتھ لکھیں، جیسے \"12 مارچ کو فارغ؟\"۔",
     "source": "37d6c6384e27"
   },
-  "video.inspector.to-black": {
-    "text": "سیاہ تک",
-    "source": "96f788893ec2"
-  },
   "inspect.to-check-the-noun-for-the": {
     "text": "منتخب مواد کے لیے {noun} جانچنے کے لیے معائنہ کریں پر کلک کریں۔",
     "source": "1cb2e2cb7be2"
@@ -31141,6 +32878,10 @@
   "image.tools.tolerance": {
     "text": "رواداری",
     "source": "f71041bb481f"
+  },
+  "shell.notifier.tomorrow": {
+    "text": "کل",
+    "source": "456a73bbcefb"
   },
   "mail.compose.tomorrow-afternoon-1pm": {
     "text": "کل دوپہر، 1 بجے",
@@ -31498,6 +33239,10 @@
     "text": "دوسرے الفاظ آزمائیں۔",
     "source": "2a5ed12cfe24"
   },
+  "talk.meeting.try-the-microphone-again": {
+    "text": "مائیکروفون دوبارہ آزمائیں",
+    "source": "a9a9b0e3cf5e"
+  },
   "image.insert.tue": {
     "text": "منگل",
     "source": "d1eb39b09bf5"
@@ -31545,6 +33290,10 @@
   "pictures.batch.turn-each-picture-upright-by-its": {
     "text": "ہر تصویر کو اس کی EXIF سمت کے مطابق سیدھا کریں",
     "source": "54083df636d3"
+  },
+  "common.turn-notifications-back-on": {
+    "text": "اطلاعات دوبارہ آن کریں",
+    "source": "d9796f6a3b48"
   },
   "common.turn-off": {
     "text": "بند کریں",
@@ -31622,6 +33371,10 @@
     "text": "دو کالمز",
     "source": "ff4a0135d773"
   },
+  "studio.guests.two-guests": {
+    "text": "دو مہمان",
+    "source": "ebe89d0ce31d"
+  },
   "locker.two-versions": {
     "text": "دو ورژن",
     "source": "861c66ced8c2"
@@ -31649,6 +33402,10 @@
   "word.references.type-a-tag-name-for-the": {
     "text": "پلیس ہولڈر کے لیے ٹیگ کا نام ٹائپ کریں۔ اسے بعد میں ماخذات کا انتظام کریں سے پُر کریں۔ اس کا ہر حوالہ بھی ساتھ بدل جائے گا۔",
     "source": "e79a9f4c69be"
+  },
+  "video.type-a-web-address": {
+    "text": "ویب پتہ لکھیں",
+    "source": "f1405e95c81b"
   },
   "equations.type-an-equation-x-b-b": {
     "text": "مساوات ٹائپ کریں، جیسے x=(-b±√(b^2-4ac))/2a، \\sum_(i=1)^n i، \\int_0^1 f(x)dx، a_i، \\alpha",
@@ -31718,6 +33475,10 @@
     "text": "تلاش کے لیے الفاظ ٹائپ کریں، پھر ہر مماثل پر نشان لگانے کے لیے دوبارہ مماثل پر نشان لگائیں دبائیں۔",
     "source": "534a18cc15ca"
   },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "بولنے کے لیے الفاظ لکھیں، ہر سطر میں ایک بات",
+    "source": "e794db16dbb4"
+  },
   "base.forms.type-to-find": {
     "text": "تلاش کے لیے لکھیں",
     "source": "4fbe3a9bb596"
@@ -31725,6 +33486,14 @@
   "mail.archive.type-words-to-find-them-anywhere": {
     "text": "الفاظ لکھیں تو وہ کہیں بھی مل جائیں گے، متن سمیت۔ ان میں سے کوئی بھی شامل کریں؛ تلاش میں شامل کرنے کے لیے کسی پر کلک کریں۔",
     "source": "e72e37f629a5"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "ساتھ ساتھ الفاظ لکھیں: دکھانے، بلند آواز سے پڑھنے یا دونوں کے لیے",
+    "source": "ab4c38c0c662"
+  },
+  "video.type-words-to-show-read-aloud": {
+    "text": "پلے ہیڈ پر الفاظ لکھیں: دکھانے، بلند آواز سے پڑھنے یا دونوں کے لیے",
+    "source": "af653107afac"
   },
   "slides.comments.type-your-comment-mentions-someone": {
     "text": "اپنا تبصرہ لکھیں… @ سے کسی کا ذکر ہوتا ہے",
@@ -31761,6 +33530,10 @@
   "slides.action.url": {
     "text": "URL…",
     "source": "e32d07912805"
+  },
+  "talk.settings.unblock": {
+    "text": "ان بلاک کریں",
+    "source": "712da63171e0"
   },
   "slides.motion.uncover": {
     "text": "پردہ ہٹائیں",
@@ -32050,10 +33823,6 @@
     "text": "بے عنوان سلائیڈ",
     "source": "1eadae5cbf64"
   },
-  "video.type-words-to-show-read-aloud": {
-    "text": "پلے ہیڈ پر الفاظ لکھیں: دکھانے، بلند آواز سے پڑھنے یا دونوں کے لیے",
-    "source": "af653107afac"
-  },
   "video.untitled-video": {
     "text": "بے عنوان ویڈیو",
     "source": "a7e5acfa45bc"
@@ -32073,6 +33842,10 @@
   "sheets.dialogs.up-to-31-characters-none-of": {
     "text": "زیادہ سے زیادہ 31 حروف؛ [ ] : * ? / اور بیک سلیش میں سے کوئی نہیں۔ اس شیٹ کو پڑھنے والے فارمولے نیا نام اپنا لیں گے۔",
     "source": "dee767dc50b7"
+  },
+  "talk.meet-lines.up-to-count-people-sound-picture": {
+    "text": "{count} افراد تک۔ آواز، تصویر اور پیغامات اس میں شامل لوگوں کی ایپس خفیہ کرتی ہیں، اور سرور انہیں نہیں کھول سکتا۔ جب تک آپ میٹنگ میں ہیں، لوگ اندر آ سکتے ہیں۔",
+    "source": "ebf5b97b2304"
   },
   "talk.invite-email.up-to-max-characters-rutbas-email": {
     "text": "زیادہ سے زیادہ {max} حروف۔ رتبہ (Rutba) کی ای میل قبول کرنے کا لنک ساتھ لگاتی ہے۔",
@@ -32280,6 +34053,10 @@
   "talk.use-my-relay": {
     "text": "میرا ریلے استعمال کریں",
     "source": "17ee03d59f24"
+  },
+  "video.library.use-only-music-you-have-the": {
+    "text": "صرف وہ موسیقی استعمال کریں جسے استعمال کرنے کا آپ کو حق ہو۔ ویب پر زیادہ تر موسیقی آپ کی ویڈیوز میں ڈالنے کے لیے مفت نہیں ہے۔",
+    "source": "74057f0cdd05"
   },
   "word.references-toa.use-passim": {
     "text": "passim استعمال کریں",
@@ -32609,9 +34386,21 @@
     "text": "براؤزر کا انتظار ہے…",
     "source": "8c6d350ef031"
   },
+  "talk.meet-lines.waiting-for-the-person-who-set": {
+    "text": "میٹنگ ترتیب دینے والے شخص کا انتظار کیا جا رہا ہے، جس کی اجازت سے لوگ اندر آتے ہیں۔",
+    "source": "1a25d036dddb"
+  },
+  "talk.meet-lines.waiting-for-name-who-lets-people": {
+    "text": "{name} کا انتظار کیا جا رہا ہے، جن کی اجازت سے لوگ اس میٹنگ میں آتے ہیں۔",
+    "source": "1a30adcb3dae"
+  },
   "mail.dialogs.waiting-for-provider": {
     "text": "{provider} کا انتظار ہے…",
     "source": "5d80e1411830"
+  },
+  "talk.lines.waiting-talk-is-not-connected": {
+    "text": "انتظار: ٹاک (Talk) منسلک نہیں ہے",
+    "source": "a47c46196a6f"
   },
   "base.walk-ins-and-bookings-chair-rental": {
     "text": "بغیر بکنگ آنے والے اور بکنگز، کرسی کا کرایہ، ہر حجام کی آمدنی اور وفاداری کارڈ۔",
@@ -32689,6 +34478,10 @@
     "text": "ویب پتہ",
     "source": "45099c558849"
   },
+  "video.library.web-address-of-a-sound-or": {
+    "text": "آواز یا ویڈیو فائل کا ویب پتہ",
+    "source": "a41db93d0dad"
+  },
   "studio.list.web-page": {
     "text": "ویب صفحہ",
     "source": "fae9f11dea03"
@@ -32761,6 +34554,14 @@
     "text": "اجلاس کس لیے ہے، اس کے نکات اوقات کے ساتھ اور ہر ایک کی قیادت کون کرے گا، اور پہلے کیا پڑھنا ہے",
     "source": "6b2ad7b24c66"
   },
+  "studio.net-camera-words.what-answers-at-this-address-is": {
+    "text": "اس پتے پر جواب دینے والی چیز کیمرے کی اسٹریم نہیں ہے۔ دوبارہ کوشش کی جا رہی ہے۔",
+    "source": "87d5fe1b7097"
+  },
+  "talk.report.what-happened-if-you-want-to": {
+    "text": "کیا ہوا، اگر آپ بتانا چاہیں",
+    "source": "ad9d5c00cb5e"
+  },
   "mail.dialogs.what-is-in-junk-is-learned": {
     "text": "فضول میں جو ہے اسے فضول سمجھا جاتا ہے، اور ان باکس میں جو ہے اسے اچھا",
     "source": "f0f1d53224a3"
@@ -32777,6 +34578,14 @@
     "text": "جو دکھ رہا ہے",
     "source": "c86e86bc0f07"
   },
+  "talk.meeting.what-is-written-here-is-seen": {
+    "text": "یہاں لکھی گئی بات میٹنگ میں موجود لوگ دیکھتے ہیں۔ میٹنگ کے بعد یہ محفوظ نہیں رہتی۔",
+    "source": "a3fd74707f8b"
+  },
+  "talk.report.what-is-wrong": {
+    "text": "کیا مسئلہ ہے؟",
+    "source": "d23f3cbd2d83"
+  },
   "word.blocks.what-it-holds": {
     "text": "اس میں کیا ہے",
     "source": "e0ae7a1f3f51"
@@ -32788,10 +34597,6 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "AI ٹولز ہر ایک کے ساتھ کیا کر سکتے ہیں۔ جب تک آپ نہ چنیں سب کچھ بند ہے۔ یہی ترتیبات AI ٹولز میں بھی ہیں۔",
     "source": "14310670b45f"
-  },
-  "spoken.voices.type-the-words-to-say-one": {
-    "text": "بولنے کے لیے الفاظ لکھیں، ہر سطر میں ایک بات",
-    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "سطروں کا کام",
@@ -32993,6 +34798,10 @@
     "text": "عمارت میں کون ہے، پاس، میزبان، ٹھیکیداروں کا تعارفی تربیتی عمل اور ترسیلات۔",
     "source": "b2307ab3ac50"
   },
+  "talk.server-share.who-may-hold-meetings-on-name": {
+    "text": "{name}: کون میٹنگز منعقد کر سکتا ہے",
+    "source": "d46f91bd9701"
+  },
   "base.documents.who-signs": {
     "text": "کون دستخط کرے",
     "source": "c07456c38335"
@@ -33008,6 +34817,10 @@
   "base.sources.who-you-are-where-table-is": {
     "text": "جہاں سے {table} پڑھا جاتا ہے وہاں آپ کون ہیں",
     "source": "2d7fe168e926"
+  },
+  "talk.server-share.whoever-is-a-contact-of-yours": {
+    "text": "ہر وہ شخص جو میٹنگ شروع کرتے وقت آپ کا رابطہ ہو۔",
+    "source": "e1760ffd2218"
   },
   "pdf.whoever-protected-this-pdf-allows-only": {
     "text": "جس نے اس PDF کو محفوظ کیا اس نے اس میں صرف کچھ تبدیلیوں کی اجازت دی ہے۔",
@@ -33129,6 +34942,14 @@
     "text": "چوڑائی: خودکار",
     "source": "c521533693cd"
   },
+  "talk.meet-lines.will-be-recorded": {
+    "text": "ریکارڈ کی جائے گی",
+    "source": "2b5790d08c40"
+  },
+  "talk.meet-lines.will-be-streamed-live": {
+    "text": "لائیو نشر کی جائے گی",
+    "source": "aa193332d0ee"
+  },
   "common.window": {
     "text": "ونڈو",
     "source": "19734a1b58ca"
@@ -33156,6 +34977,18 @@
   "common.wipe": {
     "text": "وائپ",
     "source": "3404644e0117"
+  },
+  "video.timeline.wipe-down": {
+    "text": "نیچے کی طرف صفایا",
+    "source": "386327484bbc"
+  },
+  "video.timeline.wipe-left": {
+    "text": "بائیں طرف صفایا",
+    "source": "fe6bfe761ce2"
+  },
+  "video.timeline.wipe-up": {
+    "text": "اوپر کی طرف صفایا",
+    "source": "37d6d465ef8a"
   },
   "slides.ribbon.with-previous": {
     "text": "پچھلے کے ساتھ",
@@ -33268,6 +35101,10 @@
   "ui.proofing.words-for-word": {
     "text": "“{word}” کے لیے الفاظ",
     "source": "6d61efe54546"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "بولنے کے لیے الفاظ",
+    "source": "3353415dcf6a"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "آپ کے شامل کردہ الفاظ پر کبھی غلط ہجے کا نشان نہیں لگتا، دستاویزات، ورک شیٹس اور پریزنٹیشنز سب میں۔",
@@ -33405,6 +35242,10 @@
     "text": "اسے پوری ونڈو میں لکھیں",
     "source": "92a4b3023cae"
   },
+  "talk.write-the-first-message-to-this": {
+    "text": "اس گروپ کو پہلا پیغام لکھیں۔",
+    "source": "79c6b8f1ef84"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "لکھنا رک گیا: {reason}۔ اس سے پہلے جو لکھا گیا وہ محفوظ ہے۔",
     "source": "9d5b1ef54387"
@@ -33463,9 +35304,21 @@
     "text": "آپ",
     "source": "08b041935798"
   },
+  "talk.lines.you-added-who": {
+    "text": "آپ نے {who} کو شامل کیا",
+    "source": "67412ea9fb91"
+  },
   "talk.invite.you-and-name-are-contacts-now": {
     "text": "اب آپ اور {name} رابطے ہیں۔",
     "source": "38fc20ca22cb"
+  },
+  "talk.meet-lines.you-are-being-recorded": {
+    "text": "آپ کو ریکارڈ کیا جا رہا ہے۔",
+    "source": "e527c1b5b294"
+  },
+  "talk.lines.you-are-in-as-many-groups": {
+    "text": "آپ ٹاک (Talk) کی حد کے مطابق زیادہ سے زیادہ گروپس میں ہیں۔ پہلے ایک چھوڑیں۔",
+    "source": "f21fa1f31c5b"
   },
   "studio.setup-panel.you-are-live-changes-here-go": {
     "text": "آپ لائیو ہیں۔ یہاں کی تبدیلیاں اگلے میں جائیں گی اور نشر کرنے پر نشر ہوں گی۔",
@@ -33474,6 +35327,18 @@
   "studio.window.you-are-live-closing-this-window": {
     "text": "آپ لائیو ہیں۔ یہ ونڈو بند کرنے سے نشریات ختم ہو جائیں گی۔",
     "source": "fbafb6b6ab0f"
+  },
+  "common.you-are-no-longer-in-that": {
+    "text": "آپ اب اس گروپ میں نہیں ہیں۔",
+    "source": "88e19bcf810d"
+  },
+  "talk.meet-lines.you-are-not-let-into-this": {
+    "text": "آپ کو اب اس میٹنگ میں آنے کی اجازت نہیں، یا یہ ختم ہو چکی ہے۔",
+    "source": "02799eaaf921"
+  },
+  "talk.meet-lines.you-are-on-air-people-watching": {
+    "text": "آپ نشر پر ہیں۔ اسٹریم دیکھنے والے لوگ آپ کو دیکھ اور سن سکتے ہیں۔",
+    "source": "5e22ab5c41c5"
   },
   "base.people.you-are-seeing-this-database-as": {
     "text": "آپ یہ ڈیٹا بیس ویسے دیکھ رہے ہیں جیسے {role} دیکھتا ہے۔ واپس جانے تک کچھ نہیں بدلا جا سکتا۔",
@@ -33487,6 +35352,10 @@
     "text": "آپ انہیں {when} دوبارہ دعوت دے سکتے ہیں۔",
     "source": "ef7c63299976"
   },
+  "talk.meet-lines.you-cannot-hear-or-see-the": {
+    "text": "دوسروں کی آواز اور تصویر آپ تک نہیں پہنچ رہی: ٹاک (Talk) کی اس کاپی میں ان سے مختلف کلید ہے۔ میٹنگ چھوڑیں اور دوبارہ شامل ہوں۔",
+    "source": "3baa6801ab85"
+  },
   "base.links.you-changed-it-here-and-it": {
     "text": "آپ نے اسے یہاں بدلا، اور انجن میں بھی یہ بدلا گیا۔ انجن کا ورژن رکھا گیا ہے۔",
     "source": "07152f5edcaf"
@@ -33494,6 +35363,10 @@
   "base.links.you-changed-it-here-and-it-2": {
     "text": "آپ نے اسے یہاں بدلا، اور انجن میں یہ حذف ہو گیا۔ یہاں سے بھی یہ ہٹ گیا ہے۔",
     "source": "66e9facf3d8b"
+  },
+  "talk.meet-lines.you-could-not-be-let-into": {
+    "text": "آپ کو میٹنگ میں داخل نہیں کیا جا سکا۔ دوبارہ شامل ہونے کی کوشش کریں۔",
+    "source": "42a2a94fab7e"
   },
   "base.links.you-deleted-it-here-and-it": {
     "text": "آپ نے اسے یہاں حذف کیا، اور انجن میں یہ بدلا گیا۔ یہ واپس آ گیا ہے۔",
@@ -33506,6 +35379,66 @@
   "talk.invite-email.you-have-no-mail-account-to": {
     "text": "آپ کے پاس بھیجنے کے لیے کوئی میل اکاؤنٹ نہیں، اس لیے رتبہ (Rutba) انہیں آپ کے نام سے no-reply@rutba.io سے ای میل کرتا ہے۔",
     "source": "d3f332910843"
+  },
+  "studio.guests.you-have-no-other-talk-contacts": {
+    "text": "آپ کے پاس بلانے کے لیے کوئی اور ٹاک (Talk) رابطہ نہیں ہے۔ پہلے ٹاک میں لوگ شامل کریں۔",
+    "source": "d13343a31f9d"
+  },
+  "talk.report.you-have-sent-as-many-reports": {
+    "text": "آپ ایک دن میں ٹاک (Talk) کی حد کے برابر رپورٹس بھیج چکے ہیں۔",
+    "source": "69666680ec59"
+  },
+  "talk-words.you-joined-this-meeting-on-another": {
+    "text": "آپ اس میٹنگ میں دوسرے کمپیوٹر پر شامل ہو چکے ہیں۔",
+    "source": "c2cb6546c29d"
+  },
+  "talk.lines.you-named-this-group-title": {
+    "text": "آپ نے اس گروپ کا نام {title} رکھا",
+    "source": "83c1de004ff9"
+  },
+  "talk.lines.you-no-longer-get-what-is": {
+    "text": "اب آپ کو یہاں لکھی گئی چیزیں نہیں ملتیں۔ جو آپ پہلے پڑھ چکے ہیں، وہ اس کمپیوٹر پر رہتا ہے۔",
+    "source": "9fb6883a05aa"
+  },
+  "talk.meeting.you-set-this-meeting-up-if": {
+    "text": "آپ نے یہ میٹنگ ترتیب دی ہے۔ اگر آپ چھوڑیں تو یہ دوسروں کے لیے جاری رہتی ہے اور اس کا لنک کام کرتا رہتا ہے۔ اگر آپ اسے ختم کریں تو سب کو نکال دیا جاتا ہے اور لنک کام کرنا بند کر دیتا ہے۔",
+    "source": "7b59019f65c0"
+  },
+  "talk.meet-lines.you-started-a-meeting-title": {
+    "text": "آپ نے میٹنگ شروع کی: {title}",
+    "source": "5f81e73c33ca"
+  },
+  "talk.lines.you-started-this-group-once-you": {
+    "text": "آپ نے یہ گروپ شروع کیا۔ آپ کے چھوڑنے کے بعد کوئی بھی اس سے کسی کو نہیں نکال سکے گا۔",
+    "source": "8411924dedab"
+  },
+  "talk.lines.you-took-the-name-off-this": {
+    "text": "آپ نے اس گروپ کا نام ہٹا دیا",
+    "source": "f06b2fc22dbf"
+  },
+  "talk.lines.you-took-who-out-of-this": {
+    "text": "آپ نے {who} کو اس گروپ سے نکال دیا",
+    "source": "a112ba00bdc9"
+  },
+  "talk.lines.you-were-in-another-call": {
+    "text": "آپ دوسری کال پر تھے",
+    "source": "a2976c4b12f4"
+  },
+  "talk-words.you-were-taken-out-of-the": {
+    "text": "آپ کو میٹنگ سے نکال دیا گیا۔",
+    "source": "f083ad52d66f"
+  },
+  "talk-words.you-were-taken-out-of-this": {
+    "text": "آپ کو اس میٹنگ سے نکال دیا گیا ہے اور آپ اس میں دوبارہ شامل نہیں ہو سکتے۔",
+    "source": "1b337da7a50e"
+  },
+  "talk-words.you-will-record-this-meeting-on": {
+    "text": "آپ یہ میٹنگ اپنے کمپیوٹر پر ریکارڈ کریں گے اور ریکارڈنگ کا اشتراک کر سکتے ہیں۔",
+    "source": "358da48259cf"
+  },
+  "talk-words.you-will-stream-this-meeting-live": {
+    "text": "آپ یہ میٹنگ انٹرنیٹ پر لائیو نشر کریں گے۔ دیکھنے والا ہر شخص شامل ہونے والوں کو دیکھ اور سن سکتا ہے۔",
+    "source": "9db07d5e52d2"
   },
   "common.youre-good-to-go": {
     "text": "آپ بالکل تیار ہیں۔",
@@ -33522,6 +35455,14 @@
   "locker.your-locker-folder-is-ready-put": {
     "text": "آپ کا لاکر (Locker) فولڈر تیار ہے۔ اس میں فائلیں رکھیں، پھر یہاں لاک کریں۔",
     "source": "631f0118426c"
+  },
+  "talk.meet-lines.your-talk-server": {
+    "text": "آپ کا ٹاک سرور (Talk Server)",
+    "source": "88893d7ef8a9"
+  },
+  "talk.server-share.your-talk-servers": {
+    "text": "آپ کے ٹاک سرورز (Talk Servers)",
+    "source": "c93442a99df0"
   },
   "base.trust.your-answer-is-kept-for-this": {
     "text": "آپ کا جواب اس کمپیوٹر پر اس فائل کے لیے محفوظ رہتا ہے۔ جب تک آپ اجازت نہ دیں، اس کے جدول اپنی موجودہ کاپیاں رکھتے ہیں اور پڑھے نہیں جاتے۔",
@@ -33559,6 +35500,10 @@
     "text": "آپ کا کلاؤڈ بے ترتیب نام دیکھتا ہے۔ فولڈروں کے نام نظر آتے رہیں گے۔",
     "source": "02099b933215"
   },
+  "talk.settings.your-contacts-can-call-you-and": {
+    "text": "جب بھی رتبہ آفس (Rutba Office) کھلا ہو، آپ کے روابط آپ کو کال کر سکتے ہیں اور لکھ سکتے ہیں، ٹاک (Talk) پہلے کھولے بغیر۔ بند ہونے پر ٹاک تب منسلک ہوتا ہے جب آپ اسے کھولیں۔",
+    "source": "a43c2ca95c26"
+  },
   "registry.your-days-on-this-computer": {
     "text": "آپ کے دن، اسی کمپیوٹر پر",
     "source": "a19d67626067"
@@ -33583,6 +35528,14 @@
     "text": "آپ کی میل: {total} میں سے {done} فائلیں مکمل",
     "source": "07866fe919f9"
   },
+  "talk.meeting.your-microphone-will-be-off-you": {
+    "text": "آپ کا مائیکروفون بند ہوگا۔ آپ اسے میٹنگ میں آن کر سکتے ہیں۔",
+    "source": "1601596b9635"
+  },
+  "talk.meeting.your-microphone-will-be-on-you": {
+    "text": "آپ کا مائیکروفون آن ہوگا۔ آپ اسے یہاں بند کر سکتے ہیں۔",
+    "source": "b2f402cc5181"
+  },
   "common.your-name": {
     "text": "آپ کا نام",
     "source": "2c6b2e253c01"
@@ -33606,6 +35559,10 @@
   "word.ribbon.your-own-formula": {
     "text": "آپ کا اپنا فارمولا…",
     "source": "a27bfd102347"
+  },
+  "talk.meet-lines.your-pass-for-this-meeting-ran": {
+    "text": "اس میٹنگ کے لیے آپ کا داخلہ پاس استعمال ہونے سے پہلے ہی ختم ہو گیا۔ دوبارہ کوشش کریں۔",
+    "source": "e2a62b05fdc4"
   },
   "base.people.your-password-is-changed": {
     "text": "آپ کا پاس ورڈ بدل دیا گیا۔",
@@ -34895,6 +36852,10 @@
     "text": "اسے بنانے والے پروگرام کا نام",
     "source": "83f88e38dc1d"
   },
+  "talk.meet-lines.the-person-who-set-it-up-2": {
+    "text": "اسے ترتیب دینے والا شخص",
+    "source": "d0a49b27ebdc"
+  },
   "video.the-picked-clips-make-no-sound": {
     "text": "منتخب کلپس سے کوئی آواز نہیں آتی",
     "source": "69832857dde0"
@@ -35179,9 +37140,17 @@
     "text": "x کا مربع",
     "source": "d81b4b9e12c8"
   },
+  "talk.lines.you": {
+    "text": "آپ",
+    "source": "bb0347a468d9"
+  },
   "calendar.you-answered-answer": {
     "text": "آپ کا جواب: {answer}",
     "source": "48b4629d99ee"
+  },
+  "talk.server-share.your-talk-server": {
+    "text": "آپ کا ٹاک سرور (Talk Server)",
+    "source": "cb7cfa2b50c6"
   },
   "talk.invite.your-account": {
     "text": "آپ کا اکاؤنٹ",
@@ -35324,6 +37293,13 @@
       "other": "{count} فولڈرز میں سے {chosen}"
     },
     "source": "a6fbd6985908"
+  },
+  "print.chosen-of-count-page": {
+    "forms": {
+      "one": "{count} صفحے میں سے {chosen}",
+      "other": "{count} صفحات میں سے {chosen}"
+    },
+    "source": "fc9904833a67"
   },
   "colour.palette.colour-darker-percent": {
     "text": "{colour}، {percent}% زیادہ گہرا",
@@ -36050,6 +38026,20 @@
     },
     "source": "6b221f019f66"
   },
+  "common.count-missed-call": {
+    "forms": {
+      "one": "{count} چھوٹی ہوئی کال",
+      "other": "{count} چھوٹی ہوئی کالز"
+    },
+    "source": "846840404875"
+  },
+  "shell.tray.count-more": {
+    "forms": {
+      "one": "{count} مزید",
+      "other": "{count} مزید"
+    },
+    "source": "fd4bfb8a8854"
+  },
   "ai-tools.count-more-waiting": {
     "forms": {
       "one": "مزید {count} منتظر",
@@ -36064,12 +38054,27 @@
     },
     "source": "7dd71598fcd3"
   },
+  "shell.count-new-email": {
+    "forms": {
+      "one": "{count} نئی ای میل",
+      "other": "{count} نئی ای میلز"
+    },
+    "source": "4d69c41e354b"
+  },
   "mail.count-new-message": {
     "forms": {
       "one": "{count} نیا پیغام",
       "other": "{count} نئے پیغامات"
     },
     "source": "78583c23fc40"
+  },
+  "talk.count-not-looked-at": {
+    "text": "{count} ان دیکھی کالز",
+    "source": "ad2b3f56facd"
+  },
+  "talk.count-not-read": {
+    "text": "{count} نہیں پڑھے گئے",
+    "source": "bb3f670ded99"
   },
   "sheets.count-note": {
     "forms": {
@@ -36176,6 +38181,20 @@
     },
     "source": "de1ee1209774"
   },
+  "talk.count-person": {
+    "forms": {
+      "one": "{count} شخص",
+      "other": "{count} افراد"
+    },
+    "source": "16eff6b45805"
+  },
+  "talk.server-share.count-person-chosen-they-are-not": {
+    "forms": {
+      "one": "{count} شخص منتخب۔ انہیں بتایا نہیں جاتا: جب وہ کوئی میٹنگ ترتیب دیں تو ٹاک (Talk) اسے ٹاک سرور (Talk Server) پر منعقد کرنے کی پیشکش کرتا ہے اور نہیں بتاتا کہ سرور کس کا ہے۔",
+      "other": "{count} افراد منتخب۔ انہیں بتایا نہیں جاتا: جب وہ کوئی میٹنگ ترتیب دیں تو ٹاک (Talk) اسے ٹاک سرور (Talk Server) پر منعقد کرنے کی پیشکش کرتا ہے اور نہیں بتاتا کہ سرور کس کا ہے۔"
+    },
+    "source": "302f6a4e3539"
+  },
   "video.inspector.count-picked": {
     "text": "{count} منتخب",
     "source": "ab3b8d8f39e9"
@@ -36242,6 +38261,13 @@
       "other": "{count} اعشاری مقامات"
     },
     "source": "8916febc49bc"
+  },
+  "video.inspector.count-point": {
+    "forms": {
+      "one": "{count} نقطہ",
+      "other": "{count} نقاط"
+    },
+    "source": "d29b4d920822"
   },
   "word.mailings.count-possible-duplicate-shaded": {
     "forms": {
@@ -36579,12 +38605,23 @@
     },
     "source": "ff19802b3e07"
   },
+  "shell.tray.count-unread-message": {
+    "forms": {
+      "one": "{count} غیر پڑھا پیغام",
+      "other": "{count} غیر پڑھے پیغامات"
+    },
+    "source": "ed5e578def3e"
+  },
   "sheets.receipt-row.count-value-is-marked-to-check": {
     "forms": {
       "one": "{count} قدر جانچ کے لیے نشان زدہ ہے۔",
       "other": "{count} قدریں جانچ کے لیے نشان زدہ ہیں۔"
     },
     "source": "3c0869b67925"
+  },
+  "home.count-waiting": {
+    "text": "{count} منتظر",
+    "source": "15c46d8024fd"
   },
   "common.count-word": {
     "forms": {
@@ -36603,6 +38640,10 @@
   "calendar.date-all-day": {
     "text": "{date}، سارا دن",
     "source": "01173f239092"
+  },
+  "shell.notifier.day-at-time": {
+    "text": "{day} کو {time} پر",
+    "source": "d10a2288d770"
   },
   "slides.description-kept-as-the-file-has": {
     "text": "{description}۔ فائل میں جیسا ہے ویسا ہی رکھا گیا۔",
@@ -36849,6 +38890,10 @@
     "text": "{names} نہیں کھل سکی: یہ ایسی ویڈیو، آواز یا تصویر نہیں جو یہ سسٹم چلا سکے۔",
     "source": "40ec26e4b663"
   },
+  "video.names-is-not-a-sound-or": {
+    "text": "{names} آواز یا ویڈیو فائل نہیں ہے، اس لیے اسے فہرست میں شامل نہیں کیا گیا۔",
+    "source": "47fb534b82d0"
+  },
   "read-aloud.bar.name-added": {
     "text": "{name} (شامل کردہ)",
     "source": "5e0a009f158f"
@@ -36892,6 +38937,14 @@
     "text": "{name} نے قبول کیا۔",
     "source": "c3b405763345"
   },
+  "talk.lines.name-added-you-to-this-group": {
+    "text": "{name} نے آپ کو اس گروپ میں شامل کیا",
+    "source": "a7338dd5fd8e"
+  },
+  "talk.lines.name-added-who": {
+    "text": "{name} نے {who} کو شامل کیا",
+    "source": "dbef01d937a1"
+  },
   "calendar.words.name-answered-tentative": {
     "text": "{name} نے عارضی جواب دیا۔",
     "source": "f64c34887e80"
@@ -36900,9 +38953,25 @@
     "text": "{name} ہر سلائیڈ پر لاگو کیا گیا",
     "source": "34559343d0df"
   },
+  "shell.notifier.name-asks-you-to-join": {
+    "text": "{name} کی طرف سے شمولیت کی دعوت",
+    "source": "452e368edfb8"
+  },
   "talk.invite-email.name-becomes-each-persons-name-the": {
     "text": "{name} کی جگہ ہر شخص کا نام آتا ہے۔ قبول کرنے کا لنک اور رتبہ آفس (Rutba Office) حاصل کرنے کا طریقہ آپ کے نوٹ کے نیچے لگتا ہے۔",
     "source": "6724ae357006"
+  },
+  "video.name-cannot-be-played-on-this": {
+    "text": "{name} کو اس کمپیوٹر پر نہیں چلایا جا سکتا۔",
+    "source": "56c80f47dfd7"
+  },
+  "talk.meet-lines.name-cannot-be-reached-from-outside": {
+    "text": "{name} آپ کے نیٹ ورک کے باہر سے قابلِ رسائی نہیں ہے۔",
+    "source": "e5702bfa3304"
+  },
+  "talk.meet-lines.name-cannot-hold-meetings-now": {
+    "text": "{name} ابھی میٹنگز منعقد نہیں کر سکتا۔",
+    "source": "ec1d5763561d"
   },
   "studio.media.name-closed-or-stopped-sharing": {
     "text": "{name} بند ہو گئی یا اس نے دکھانا روک دیا۔",
@@ -36920,6 +38989,10 @@
     "text": "{name} دکھائی نہیں جا سکی: {reason}",
     "source": "65bcb558f48b"
   },
+  "video.name-could-not-be-fetched-from": {
+    "text": "{name} کو ویب سے حاصل نہیں کیا جا سکا۔",
+    "source": "d321465694e7"
+  },
   "locker.name-could-not-be-opened-again": {
     "text": "{name} دوبارہ نہیں کھل سکی: {why}",
     "source": "20ca380f0559"
@@ -36936,6 +39009,10 @@
     "text": "{name} ریکارڈ نہیں ہو سکا: {reason}",
     "source": "2beda7333ef6"
   },
+  "talk.settings.name-could-not-be-unblocked-just": {
+    "text": "{name} کو ابھی ان بلاک نہیں کیا جا سکا۔ ذرا دیر بعد دوبارہ کوشش کریں۔",
+    "source": "7f0f6d2fd1a8"
+  },
   "calendar.words.name-declined": {
     "text": "{name} نے انکار کیا۔",
     "source": "2f56155e044a"
@@ -36948,6 +39025,10 @@
     "text": "{name} ترمیم شدہ",
     "source": "5cb4218dfd00"
   },
+  "talk-words.name-ended-the-meeting": {
+    "text": "{name} نے میٹنگ ختم کر دی۔",
+    "source": "68a9df35664b"
+  },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "{name} میں ایک سے زیادہ شیٹس ہیں۔ آپ جو شیٹ منتخب کریں گے، اس کی پہلی قطار سے فیلڈز کے نام لیے جائیں گے۔",
     "source": "f39d7988d23f"
@@ -36959,6 +39040,10 @@
   "video.name-holds-no-captions-this-editor": {
     "text": "{name} میں کوئی ایسا کیپشن نہیں جو یہ ایڈیٹر پڑھ سکے۔",
     "source": "992774d03cf2"
+  },
+  "shell.notifier.name-in-group": {
+    "text": "{group} میں {name}",
+    "source": "c8c9e24ee27b"
   },
   "talk.invite.name-invites-you-to-talk": {
     "text": "{name} آپ کو بات کرنے کی دعوت دیتے ہیں",
@@ -36984,6 +39069,18 @@
     "text": "{name} بلاک ہیں۔",
     "source": "896ccbbaeef1"
   },
+  "studio.window.name-is-closed-and-stays-saved": {
+    "text": "{name} بند ہو گیا اور جیسا تھا ویسا محفوظ ہے۔ یہ نیا سیشن ہے۔",
+    "source": "1ac7485ab543"
+  },
+  "studio.guests.name-is-here-waiting-off-air": {
+    "text": "{name} یہاں ہے، نشر سے باہر انتظار میں۔",
+    "source": "14a190ca86f6"
+  },
+  "talk.meet-lines.name-is-holding-as-many-meetings": {
+    "text": "{name} اتنی میٹنگز منعقد کر رہا ہے جتنی کے لیے اسے ترتیب دیا گیا ہے۔",
+    "source": "39d0e214aab5"
+  },
   "locker.name-is-in-an-older-format": {
     "text": "{name} ایک پرانے فارمیٹ میں ہے۔ اسے محفوظ کرنے پر اسی لاک فولڈر میں اس کے ساتھ {saved} بن جاتی ہے۔",
     "source": "25f899dbe396"
@@ -36995,6 +39092,10 @@
   "talk.name-is-no-longer-a-contact": {
     "text": "{name} اب رابطہ نہیں ہیں۔",
     "source": "f2f97457bba2"
+  },
+  "talk.settings.name-is-no-longer-blocked": {
+    "text": "{name} اب بلاک نہیں ہے۔",
+    "source": "514ce8e795d4"
   },
   "locker.name-is-no-longer-in-the": {
     "text": "{name} اب لاکر میں نہیں۔ اس کی حفاظتی نقل اب بھی یہاں رکھی ہے۔",
@@ -37012,6 +39113,10 @@
     "text": "{name} ایسی ویڈیو یا آواز کی فائل نہیں جسے یہ کمپیوٹر چلا سکے۔ ہو سکتا ہے یہ کسی ایسے فارمیٹ میں ہو جس کا ڈی کوڈر انسٹال نہیں، یا اپنے نام کے باوجود یہ میڈیا فائل ہی نہ ہو۔",
     "source": "abfeca7a30a3"
   },
+  "talk.meet-lines.name-is-not-answering-check-that": {
+    "text": "{name} جواب نہیں دے رہا۔ جانچیں کہ یہ چل رہا ہے اور منسلک ہے۔",
+    "source": "840ae75c483e"
+  },
   "talk.name-is-not-available": {
     "text": "{name} دستیاب نہیں۔",
     "source": "aca30d15fc29"
@@ -37019,6 +39124,10 @@
   "voices-dialog.name-is-not-used-until-its": {
     "text": "{name} تب تک استعمال نہیں ہوگا جب تک اس کا {version} ورژن تیار نہ ہو جائے۔",
     "source": "2f267730bc10"
+  },
+  "video.name-is-not-where-it-was": {
+    "text": "{name} اپنی پرانی جگہ پر موجود نہیں ہے۔ ممکن ہے اسے منتقل، نام تبدیل یا حذف کر دیا گیا ہو۔",
+    "source": "e5a94663e48f"
   },
   "common.name-is-not-wired-yet": {
     "text": "{name} ابھی فعال نہیں ہے۔",
@@ -37036,9 +39145,17 @@
     "text": "{name} اپنی جگہ پر کھلا ہے، صرف پڑھنے کے لیے۔ تلاش کے لیے اس کی اشاریہ سازی ہو رہی ہے۔",
     "source": "749ec97c4e3a"
   },
+  "talk.meet-lines.name-is-outside-the-hours-it": {
+    "text": "{name} ان اوقات سے باہر ہے جن میں اسے میٹنگز کے لیے ترتیب دیا گیا ہے۔",
+    "source": "0fd5a4d65419"
+  },
   "locker.name-is-over-1-gb-so": {
     "text": "{name} 1 GB سے بڑی ہے، اس لیے یہ میموری میں نہیں بلکہ ایک عارضی سادہ نقل سے کھلی۔ وہ نقل لاک نہیں ہے۔",
     "source": "950f4db86aed"
+  },
+  "talk.meet-lines.name-is-paused": {
+    "text": "{name} رکا ہوا ہے۔",
+    "source": "0ed81c3ac232"
   },
   "common.name-is-protected-with-a-password": {
     "text": "{name} پاس ورڈ سے محفوظ ہے، اور پاس ورڈ دیے جانے تک بند رہے گا۔",
@@ -37052,6 +39169,18 @@
     "text": "{name} بھیجنے کے لیے تیار ہے",
     "source": "040cafb3a666"
   },
+  "talk.meet-lines.name-is-set-to-hold-no": {
+    "text": "{name} کوئی میٹنگ منعقد نہ کرنے کے لیے ترتیب دیا گیا ہے۔",
+    "source": "d762cd422689"
+  },
+  "shell.tray.name-is-still-running": {
+    "text": "{name} ابھی تک چل رہا ہے",
+    "source": "5e161705a5d2"
+  },
+  "talk.meet-lines.name-is-still-starting-try-again": {
+    "text": "{name} ابھی شروع ہو رہا ہے۔ ایک منٹ میں دوبارہ کوشش کریں۔",
+    "source": "281688f4544b"
+  },
   "base.name-is-unlinked-its-source-keeps": {
     "text": "{name} کا ربط ختم ہو گیا۔ اس کا ماخذ اس کے ریکارڈ رکھتا ہے۔",
     "source": "7891d7996821"
@@ -37059,6 +39188,10 @@
   "base.name-is-unlinked-the-engine-keeps": {
     "text": "{name} کا ربط ختم ہو گیا۔ انجن اس کے ریکارڈ رکھتا ہے۔",
     "source": "47284555955f"
+  },
+  "talk.meet-lines.name-is-waiting-for-its-code": {
+    "text": "{name} اپنا کوڈ درج کیے جانے کا منتظر ہے۔",
+    "source": "a7a59d385fce"
   },
   "video.name-is-size-still-over-limit": {
     "text": "{name} {size} ہے، {tries} بار کے بعد بھی {limit} سے زیادہ: اس فریم پر یہ تصویر مزید چھوٹی نہیں ہوگی۔ 720، بڑا سائز، یا چھوٹا حصہ آزمائیں۔",
@@ -37070,6 +39203,22 @@
       "other": "{name} لے آؤٹ: {count} سلائیڈز میں استعمال ہوا"
     },
     "source": "9d5680cc5d71"
+  },
+  "talk.meet-lines.name-lets-people-in-you-can": {
+    "text": "{name} کی اجازت سے لوگ اندر آتے ہیں: ان کے میٹنگ میں آنے کے بعد آپ کا داخلہ ہو سکے گا۔",
+    "source": "a94d45e86dc5"
+  },
+  "talk.meet-lines.name-must-be-updated-before-it": {
+    "text": "{name} اپ ڈیٹ ہونے کے بعد ہی میٹنگز منعقد کر سکے گا۔",
+    "source": "f01651a198be"
+  },
+  "talk.name-muted-you-unmute-when-you": {
+    "text": "{name} نے آپ کو خاموش کر دیا۔ بولنا ہو تو آواز کھولیں۔",
+    "source": "c4b4506575d2"
+  },
+  "talk.lines.name-named-this-group-title": {
+    "text": "{name} نے اس گروپ کا نام {title} رکھا",
+    "source": "c13c73b3ad29"
   },
   "template-gallery.name-needs-rutba-office-version-or": {
     "text": "{name} کے لیے رتبہ آفس (Rutba Office) {version} یا نیا درکار ہے۔ اپ ڈیٹس دیکھیں۔",
@@ -37091,9 +39240,29 @@
     "text": "{name} الٹا",
     "source": "fca7482294f8"
   },
+  "talk.meeting.name-started-a-meeting": {
+    "text": "{name} نے میٹنگ شروع کی",
+    "source": "e4652127858d"
+  },
+  "talk.meet-lines.name-started-a-meeting-title": {
+    "text": "{name} نے میٹنگ شروع کی: {title}",
+    "source": "0632986e996b"
+  },
   "template-help.name-template": {
     "text": "{name} سانچہ",
     "source": "662208ece200"
+  },
+  "talk.lines.name-took-the-name-off-this": {
+    "text": "{name} نے اس گروپ کا نام ہٹا دیا",
+    "source": "5c85c87032ca"
+  },
+  "talk-words.name-took-you-out-of-the": {
+    "text": "{name} نے آپ کو میٹنگ سے نکال دیا۔",
+    "source": "af00baa37753"
+  },
+  "talk.lines.name-took-who-out-of-this": {
+    "text": "{name} نے {who} کو اس گروپ سے نکال دیا",
+    "source": "8684ebda882d"
   },
   "pdf.name-was-damaged-and-was-read": {
     "text": "{name} خراب تھی، اور اس کے صفحات ڈھونڈ کر پڑھی گئی۔ مکمل نقل رکھنے کے لیے اسے محفوظ کریں۔",
@@ -37107,9 +39276,17 @@
     "text": "{name} بغیر پوچھے کھلے گا، اور جو کچھ پاس ورڈ سے بند تھا وہ پہلے کی طرح رکھا جاتا ہے، صرف آپ کے اکاؤنٹ کے لیے Windows کی حفاظت میں۔",
     "source": "bccde320f01d"
   },
+  "talk-words.name-will-record-this-meeting-on": {
+    "text": "یہ میٹنگ {name} کے کمپیوٹر پر ریکارڈ کی جائے گی، اور ریکارڈنگ کا اشتراک کیا جا سکتا ہے۔",
+    "source": "8e5422928873"
+  },
   "voices-dialog.name-will-show-new-labels-in": {
     "text": "{name} میں نئے لیبل انگریزی میں دکھائی دیں گے جب تک اس کا {version} ورژن تیار نہ ہو جائے۔",
     "source": "070ebd66c642"
+  },
+  "talk-words.name-will-stream-this-meeting-live": {
+    "text": "یہ میٹنگ {name} کی طرف سے انٹرنیٹ پر لائیو نشر کی جائے گی۔ دیکھنے والا ہر شخص شامل ہونے والوں کو دیکھ اور سن سکتا ہے۔",
+    "source": "75c94901cdd6"
   },
   "talk.invite.name-would-like-to-talk-with": {
     "text": "{name} رتبہ ٹاک (Rutba Talk) پر آپ سے بات کرنا چاہتے ہیں",
@@ -37222,6 +39399,10 @@
     "text": "{name}: {width} × {height}، بنیادی",
     "source": "4e47b0c065e3"
   },
+  "talk.meet-lines.name-s-talk-could-not-let": {
+    "text": "{name} کا ٹاک (Talk) آپ کو میٹنگ میں داخل نہیں کر سکا۔ دوبارہ شامل ہونے کی کوشش کریں۔",
+    "source": "f2b2cb44f631"
+  },
   "studio.live-bar.name-needs-a-key": {
     "text": "{name}، کی درکار ہے",
     "source": "5075d08a25f3"
@@ -37242,9 +39423,17 @@
     "text": "{name}: {product} لیبلز کی ایک شیٹ۔",
     "source": "e976719b4bd9"
   },
+  "video.library.name-added-after-the-last-clip": {
+    "text": "{name}: آخری کلپ کے بعد شامل کیا گیا",
+    "source": "3289fea3c3ec"
+  },
   "video.library.name-added-at-the-playhead": {
     "text": "{name}: پلے ہیڈ پر شامل ہوتا ہے",
     "source": "4939aa239509"
+  },
+  "video.library.name-added-over-the-whole-project": {
+    "text": "{name}: پورے پروجیکٹ پر شامل کیا گیا",
+    "source": "f97eee7c25f5"
   },
   "colour.palette.name-apply-colour": {
     "text": "{name}: {colour} لگائیں",
@@ -37634,6 +39823,14 @@
     "text": "{when}، سارا دن",
     "source": "ebe38401b71e"
   },
+  "talk.lines.who-cannot-be-put-in-any": {
+    "text": "{who} کو مزید گروپس میں نہیں ڈالا جا سکتا۔",
+    "source": "0f22eeabe17d"
+  },
+  "talk.lines.who-left-this-group": {
+    "text": "{who} نے یہ گروپ چھوڑ دیا",
+    "source": "2a6e91ede760"
+  },
   "common.width-pt": {
     "text": "{width} pt",
     "source": "fd99ee034b5b"
@@ -37701,17 +39898,5 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ اور اس سے زیادہ",
     "source": "20160df989ba"
-  },
-  "spoken.voices.words-to-say": {
-    "text": "بولنے کے لیے الفاظ",
-    "source": "3353415dcf6a"
-  },
-  "studio.spoken-run.type-words-to-show-read-aloud": {
-    "text": "ساتھ ساتھ الفاظ لکھیں: دکھانے، بلند آواز سے پڑھنے یا دونوں کے لیے",
-    "source": "ab4c38c0c662"
-  },
-  "video.spoken.the-words-land-at-the-playhead": {
-    "text": "الفاظ پلے ہیڈ پر آتے ہیں، ایک سطر کے بعد دوسری، تصویر کے اوپر۔",
-    "source": "841b57677821"
   }
 }

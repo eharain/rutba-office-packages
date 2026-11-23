@@ -295,6 +295,10 @@
     "text": "(verlaagd om de upload bij te houden)",
     "source": "38eedae0fe49"
   },
+  "print.needs-attention": {
+    "text": "(heeft aandacht nodig)",
+    "source": "3473d9cd67a1"
+  },
   "base.new": {
     "text": "(nieuw)",
     "source": "5bfaff83e280"
@@ -335,6 +339,10 @@
     "text": "(niets)",
     "source": "00b025711499"
   },
+  "print.offline": {
+    "text": "(offline)",
+    "source": "89aa6bd39b61"
+  },
   "sheets.dialogs.on-screen": {
     "text": "(op het scherm)",
     "source": "b73a6fd9ad97"
@@ -342,6 +350,14 @@
   "word.dialogs.opened-from-format": {
     "text": "(geopend uit {format})",
     "source": "e4d5e69fc419"
+  },
+  "print.out-of-paper": {
+    "text": "(papier is op)",
+    "source": "7290757d105f"
+  },
+  "print.paused": {
+    "text": "(gepauzeerd)",
+    "source": "41993c823e86"
   },
   "word.list-dialog.the-first-level-has-none-above": {
     "text": "(het eerste niveau heeft er geen boven)",
@@ -551,6 +567,10 @@
     "text": "Een TURN-server die je zelf draait; aangeboden aan de andere kant voor je gesprekken",
     "source": "b95d902b9e8f"
   },
+  "calendar.a-talk-meeting-holds-four-people": {
+    "text": "Een Talk-vergadering is voor vier personen: jij en drie anderen. Uitgenodigd: {count}.",
+    "source": "12c821978260"
+  },
   "engine.a-background-is-a-png-jpeg": {
     "text": "Een achtergrond is een PNG-, JPEG-, GIF-, BMP- of WebP-afbeelding.",
     "source": "453bb347e835"
@@ -570,6 +590,14 @@
   "talk.a-call-goes-straight-between-the": {
     "text": "Een gesprek gaat rechtstreeks tussen de twee computers. Als een netwerk dat tegenhoudt, gaat het via een relay, nog steeds end-to-end versleuteld.",
     "source": "2a501129710a"
+  },
+  "notify-dialog.a-call-in-talk-that-nobody": {
+    "text": "Een oproep in Talk die niemand heeft beantwoord",
+    "source": "364758cc8022"
+  },
+  "notify-dialog.a-call-in-talk-while-it": {
+    "text": "Een oproep in Talk, terwijl die overgaat",
+    "source": "3b2de9295eb7"
   },
   "calendar.a-cancellation-goes-to-the-count": {
     "forms": {
@@ -645,6 +673,10 @@
   "locker.a-copy-of-these-files-as-4": {
     "text": "Een kopie van deze bestanden zoals ze nu zijn, bewaard in de eigen map van Office op deze computer, zodat er niets verloren gaat terwijl je de Kluis (Locker) leert kennen. Deze kopie is niet vergrendeld met je wachtwoord voor de Kluis: iedereen die zich aanmeldt bij dit gebruikersaccount, kan hem herstellen.",
     "source": "2f36db57f352"
+  },
+  "studio.guests.a-copy-of-this-broadcast-is": {
+    "text": "Van deze uitzending wordt een kopie bewaard, en die vergadering is niet ingesteld om te worden opgenomen. De deelnemers kunnen pas binnenkomen als de uitzending is afgelopen.",
+    "source": "b2a28db50607"
   },
   "template-gallery.a-course-session-objectives-the-agenda": {
     "text": "Een cursussessie: doelen, de agenda, de lessen, een korte toets en een samenvatting",
@@ -786,6 +818,22 @@
     "text": "Een groep heeft geen eigen opvulling of omtrek. Maak een vorm erin op.",
     "source": "770472b604e9"
   },
+  "talk.lines.a-group-holds-count-people-at": {
+    "text": "Een groep heeft maximaal {count} personen.",
+    "source": "f51448521ea4"
+  },
+  "talk.a-group-is-three-or-more": {
+    "text": "Een groep bestaat uit drie of meer mensen die elkaar schrijven.",
+    "source": "fec77f9d530a"
+  },
+  "talk.lines.a-group-is-three-people-or": {
+    "text": "Een groep is drie personen of meer: kies minstens twee contactpersonen.",
+    "source": "6ff327466527"
+  },
+  "talk.a-group-needs-two-of-your": {
+    "text": "Een groep heeft minstens twee van je contactpersonen nodig.",
+    "source": "12e0ccc49b1e"
+  },
   "base.sources.a-key-or-token": {
     "text": "Een sleutel of token",
     "source": "9949c8a23e2d"
@@ -858,6 +906,10 @@
     "text": "Een vergrendeld bestand voor jou",
     "source": "6f0daeb85074"
   },
+  "video.a-look-changes-the-colour-of": {
+    "text": "Een kleurstijl verandert de kleur van elk spoor eronder, zolang de clip loopt.",
+    "source": "4cffcd7c35b5"
+  },
   "sheets.a-lookup-found-nothing": {
     "text": "Een zoekfunctie vond niets",
     "source": "9092775b9801"
@@ -865,6 +917,22 @@
   "mail.archive.a-manifest-csv-and-json-with": {
     "text": "Een manifest (CSV en JSON) met van elk bericht de datum, afzender, ontvangers, onderwerp, Message-ID, herkomst en de SHA-256 van wat er is geschreven, en een overzichtspagina, worden altijd geschreven. Er verandert niets in de postvakken of archieven.",
     "source": "74f7e133138a"
+  },
+  "notify-dialog.a-meeting-a-few-minutes-before": {
+    "text": "Een vergadering een paar minuten voor de start, of als iemand je vraagt deel te nemen",
+    "source": "eed70ee862c6"
+  },
+  "talk-words.a-meeting-held-on-a-talk": {
+    "text": "Een vergadering op een Talk Server kan nog niet live worden gestreamd of opgenomen.",
+    "source": "e451fe884ea2"
+  },
+  "talk.meeting.a-meeting-holds-four-people-you": {
+    "text": "Een vergadering is voor vier personen: jij en maximaal drie van je contactpersonen.",
+    "source": "f8fa41a7b72f"
+  },
+  "talk.meeting.a-meeting-of-more-than-four": {
+    "text": "Een vergadering met meer dan vier personen wordt op een Talk Server gehouden.",
+    "source": "b1afa34fd141"
   },
   "contacts.a-meeting-room-or-a-resource": {
     "text": "Een vergaderruimte of resource, geboekt door het postvak ervan uit te nodigen",
@@ -881,6 +949,10 @@
   "word.ribbon.a-merged-cell-back-into-its": {
     "text": "Samengevoegde cel terug in cellen",
     "source": "3d22efeac8f7"
+  },
+  "notify-dialog.a-message-in-talk": {
+    "text": "Een bericht in Talk",
+    "source": "7a338c422250"
   },
   "engine.a-message-needs-someone-to-go": {
     "text": "Een bericht heeft een ontvanger nodig.",
@@ -1065,6 +1137,10 @@
     "text": "Er is een gewone kopie opgeslagen. Die kopie is niet vergrendeld.",
     "source": "ffdd0baabe66"
   },
+  "video.timeline.a-point-of-its-movement-at": {
+    "text": "Een punt van de beweging op {time}: sleep om het te verplaatsen",
+    "source": "055741b05a22"
+  },
   "profiles.a-profile-can-ask-for-a": {
     "text": "Een profiel kan om een wachtwoord vragen voordat het opent. Zijn opgeslagen wachtwoorden, recente bestanden, e-mail, agenda's, contactpersonen en Talk-berichten worden daarmee verzegeld.",
     "source": "10ea9d3dbdec"
@@ -1140,6 +1216,10 @@
   "template-gallery.a-report-with-a-cover-page": {
     "text": "Een rapport met een voorblad, een inhoudsopgave en genummerde secties",
     "source": "54c978a78192"
+  },
+  "talk.settings.a-ring-when-someone-calls-you": {
+    "text": "Een beltoon als iemand je belt, en een korte toon als je voor een vergadering wordt uitgenodigd.",
+    "source": "18eb8c5e7649"
   },
   "contacts.a-room-or-a-resource-is": {
     "text": "Ruimte of resource: geboekt, niet in Talk gevraagd",
@@ -1699,6 +1779,10 @@
     "text": "Werkelijke grootte",
     "source": "74cdbe70e394"
   },
+  "image.actual-size-over-as-many-sheets": {
+    "text": "Ware grootte, op zoveel vellen als nodig",
+    "source": "0cbb4308999d"
+  },
   "common.add": {
     "text": "Toevoegen",
     "source": "9fd728c66c9a"
@@ -1815,6 +1899,10 @@
     "text": "WordArt toevoegen",
     "source": "bd58d566c351"
   },
+  "calendar.add-a-talk-meeting": {
+    "text": "Talk-vergadering toevoegen",
+    "source": "e98dec0aa8f4"
+  },
   "base.documents.add-a-block": {
     "text": "Een blok toevoegen",
     "source": "cf416ab8da83"
@@ -1830,6 +1918,10 @@
   "base.documents.add-a-calculated-column": {
     "text": "Rekenkolom toevoegen",
     "source": "40adf59ac8cc"
+  },
+  "studio.net-camera-dialog.add-a-camera-by-its-address": {
+    "text": "Camera toevoegen via adres",
+    "source": "0dbc972ae5d6"
   },
   "contacts.add-a-card-or-bring-in": {
     "text": "Voeg een kaart toe, of haal de .vcf of .csv binnen die een ander programma heeft geëxporteerd.",
@@ -1919,6 +2011,10 @@
     "text": "Voeg een stem toe om deze regels te laten voorlezen",
     "source": "b2afe4eb368b"
   },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "Voeg een stem toe om de woorden voor te lezen; zonder stem kunnen ze wel worden weergegeven.",
+    "source": "04ed3fbd74fe"
+  },
   "read-aloud.voice-offer.add-a-voice-more-natural-voices": {
     "text": "Voeg een stem toe: natuurlijkere stemmen voor Voorlezen, uit Stemmen en talen",
     "source": "bfbf7111b5c5"
@@ -1975,6 +2071,10 @@
     "text": "Bij de afspeelkop toevoegen",
     "source": "1e18a7648f8f"
   },
+  "studio.net-camera-find.add-by-address": {
+    "text": "Toevoegen via adres…",
+    "source": "96cd8612bd97"
+  },
   "contacts.add-email": {
     "text": "E-mail toevoegen",
     "source": "bfe6b5725f30"
@@ -1982,6 +2082,10 @@
   "locker.add-files": {
     "text": "Bestanden toevoegen",
     "source": "01792a33c228"
+  },
+  "video.library.add-files-from-this-computer": {
+    "text": "Van deze computer toevoegen…",
+    "source": "e483053aec0b"
   },
   "locker.add-files-2": {
     "text": "Bestanden toevoegen…",
@@ -2035,6 +2139,10 @@
     "text": "Pad aan bestandsnaam toevoegen",
     "source": "70149fb49250"
   },
+  "talk.groups.add-people": {
+    "text": "Mensen toevoegen",
+    "source": "6e5e1e137765"
+  },
   "contacts.add-phone": {
     "text": "Telefoon toevoegen",
     "source": "cf095e4a7be3"
@@ -2046,6 +2154,10 @@
   "mail.accounts-bulk.add-several-accounts": {
     "text": "Meerdere accounts toevoegen",
     "source": "e57b1f77b96e"
+  },
+  "video.add-sound": {
+    "text": "Geluid toevoegen",
+    "source": "d14064f80f52"
   },
   "word.ribbon.add-space-after-paragraph": {
     "text": "Ruimte na toevoegen",
@@ -2066,6 +2178,10 @@
   "ai-tools-dialog.add-these-lines-to-the-ai": {
     "text": "Voeg deze regels toe aan de lijst met MCP-servers in de instellingen van de AI-app. De app start de tools zelf wanneer hij ze nodig heeft.",
     "source": "9d3f923b92a8"
+  },
+  "video.library.add-this-address-to-the-list": {
+    "text": "Dit adres aan de lijst toevoegen",
+    "source": "3cac92a6b605"
   },
   "contacts.add-this-card": {
     "text": "Deze kaart toevoegen",
@@ -2099,6 +2215,10 @@
     "text": "Aan agenda toevoegen",
     "source": "d0efffa65ea7"
   },
+  "talk.groups.add-to-group": {
+    "text": "Aan groep toevoegen",
+    "source": "ea849eb70c26"
+  },
   "calendar.add-to-my-calendar": {
     "text": "Aan agenda toevoegen",
     "source": "9d60f9126db7"
@@ -2106,6 +2226,10 @@
   "studio.setups-menu.add-to-my-setups": {
     "text": "Aan mijn opstellingen",
     "source": "457927ed8bde"
+  },
+  "video.add-to-the-audio-library": {
+    "text": "Aan de audiobibliotheek toevoegen",
+    "source": "b7f10458b001"
   },
   "locker.add-to-this-folder": {
     "text": "Aan deze map toevoegen",
@@ -2137,6 +2261,10 @@
     },
     "source": "9e93bb1f7d70"
   },
+  "video.add-name": {
+    "text": "{name} toevoegen",
+    "source": "2cc06c85e772"
+  },
   "ui.proofing.add-put-the-word-in-the": {
     "text": "Toevoegen: het woord in de woordenlijst zetten",
     "source": "f696718081b5"
@@ -2156,6 +2284,10 @@
   "common.added": {
     "text": "Toegevoegd",
     "source": "6b02e0d363a4"
+  },
+  "studio.net-camera-find.added-before": {
+    "text": "Eerder toegevoegd",
+    "source": "30cab5134fea"
   },
   "voices-dialog.added-here": {
     "text": "Hier toegevoegd",
@@ -2663,6 +2795,10 @@
     "text": "Alle dia's tegelijk: klik op een dia om hem te openen",
     "source": "616a02ce06be"
   },
+  "studio.guests.all-three-seats-are-taken": {
+    "text": "Alle drie de plekken zijn bezet.",
+    "source": "e4160c80a1bb"
+  },
   "pdf.ocr.all-count-page": {
     "forms": {
       "one": "De {count} pagina",
@@ -2885,6 +3021,10 @@
   "engine.an-equation-is-edited-in-the": {
     "text": "Een vergelijking bewerk je in de vergelijkingseditor. Dubbelklik erop.",
     "source": "46d7af34ac75"
+  },
+  "notify-dialog.an-event-in-calendar-at-its": {
+    "text": "Een gebeurtenis in Agenda, bij de herinnering",
+    "source": "925f040e1376"
   },
   "image.formats.an-icon-at-each-size-from": {
     "text": "Een pictogram, in elke grootte van 256 tot 16 pixels.",
@@ -3274,6 +3414,14 @@
     "text": "Schikking",
     "source": "5f33ce3fb567"
   },
+  "talk.lines.arrived": {
+    "text": "Bezorgd",
+    "source": "594015196a5f"
+  },
+  "video.inspector.arrives": {
+    "text": "Aankomst",
+    "source": "72c7f155f153"
+  },
   "common.arrow": {
     "text": "Pijl",
     "source": "05800e70aa10"
@@ -3402,6 +3550,14 @@
     "text": "Eén keer vragen: één antwoord voor elk record",
     "source": "a999a07704c8"
   },
+  "studio.guests.ask-up-to-three-of-your": {
+    "text": "Nodig maximaal drie van je Talk-contactpersonen uit. Elk blijft buiten de opname tot je diegene in een scène zet, en ziet en hoort wat je opneemt.",
+    "source": "e9f52fe78b27"
+  },
+  "studio.guests.ask-up-to-three-of-your-2": {
+    "text": "Nodig maximaal drie van je Talk-contactpersonen uit. Elk wacht buiten de uitzending tot je diegene in een scène zet, en ziet en hoort je programma.",
+    "source": "8c2357cdc653"
+  },
   "talk.connect.ask-name-in-talk-now-with": {
     "text": "{name} nu in Talk vragen, zonder e-mail",
     "source": "c49711615630"
@@ -3446,9 +3602,17 @@
     "text": "Vragen om in contact te komen",
     "source": "434d00f0c707"
   },
+  "talk.meet-lines.asking-to-be-let-in": {
+    "text": "Vragen om te worden toegelaten…",
+    "source": "4a17be1898f7"
+  },
   "mail.dialogs.asking-your-mail-server": {
     "text": "Je mailserver raadplegen…",
     "source": "b78479f59b14"
+  },
+  "talk.meet-lines.asking-name-to-let-you-in": {
+    "text": "{name} vragen om je toe te laten…",
+    "source": "d64535fbf5e2"
   },
   "contacts.asks-name-to-connect-in-talk": {
     "text": "Vraagt {name} per e-mail om contact te maken in Talk",
@@ -3486,6 +3650,13 @@
     "text": "Bij elke tab",
     "source": "4414f037aa97"
   },
+  "image.print.at-its-actual-size-this-picture": {
+    "forms": {
+      "one": "Op ware grootte neemt deze afbeelding {count} vel in, meer dan de {most} van één afdruk. Kies Aanpassen aan pagina, of groter papier.",
+      "other": "Op ware grootte neemt deze afbeelding {count} vellen in, meer dan de {most} van één afdruk. Kies Aanpassen aan pagina, of groter papier."
+    },
+    "source": "4e1f2125523c"
+  },
   "locker.at-least-eight-characters-attach-it": {
     "text": "Minstens acht tekens. Voeg het hier bij een e-mail of sla het op om het anders te verzenden. Verstuur het wachtwoord apart van het bestand.",
     "source": "68ec51ad042a"
@@ -3497,6 +3668,10 @@
   "talk.invite-email.at-most-max-people-at-once": {
     "text": "Hooguit {max} personen tegelijk.",
     "source": "0939da11b251"
+  },
+  "video.inspector.at-most-n-s-on-this": {
+    "text": "Maximaal {n} s op deze clip",
+    "source": "47c6548e2318"
   },
   "image.at-most-size": {
     "text": "Maximaal {size}",
@@ -3517,6 +3692,10 @@
   "video.export.at-limit-this-would-get-rate": {
     "text": "Bij {limit} krijgt dit {rate}, te weinig voor een helder beeld bij {lines}.",
     "source": "5187fb1149f9"
+  },
+  "shell.notifier.at-time": {
+    "text": "Om {time}",
+    "source": "c26d3282decc"
   },
   "word.references-index.atmosphere": {
     "text": "Atmosfeer",
@@ -3553,6 +3732,10 @@
   "common.audio": {
     "text": "Audio",
     "source": "bc1b88907d3b"
+  },
+  "video.library.audio-library": {
+    "text": "Audiobibliotheek",
+    "source": "c514fc7eae0f"
   },
   "slides.ribbon.audio-on-my-pc": {
     "text": "Audio op mijn pc…",
@@ -3657,6 +3840,14 @@
   "common.automatic": {
     "text": "Automatisch",
     "source": "d461a493a375"
+  },
+  "print.automatic-landscape": {
+    "text": "Automatisch (liggend)",
+    "source": "9f5fed9ba15b"
+  },
+  "print.automatic-portrait": {
+    "text": "Automatisch (staand)",
+    "source": "98d2df109b2a"
   },
   "sheets.ribbon.automatic-except-for-data-tables": {
     "text": "Automatisch behalve voor gegevenstabellen",
@@ -4038,6 +4229,10 @@
     "text": "Afzender blokkeren",
     "source": "536fd076223c"
   },
+  "talk.report.block-name-as-well": {
+    "text": "Ook {name} blokkeren",
+    "source": "1ec80dec6724"
+  },
   "talk.block-name": {
     "text": "{name} blokkeren?",
     "source": "c8f5c7726467"
@@ -4053,6 +4248,10 @@
   "mail.dialogs.blocked-top-level-domains": {
     "text": "Geblokkeerde topleveldomeinen",
     "source": "f30b5bed850e"
+  },
+  "talk.settings.blocked-people": {
+    "text": "Geblokkeerde personen",
+    "source": "e11bdf7344a1"
   },
   "talk.block-2": {
     "text": "Blokkeren…",
@@ -4205,6 +4404,10 @@
   "common.bottom-right": {
     "text": "Rechtsonder",
     "source": "b4b7cb63bc9b"
+  },
+  "video.layer-names.bottom-shade": {
+    "text": "Schaduw onderaan",
+    "source": "1dffbced0f7c"
   },
   "word.ribbon.box-dashed-line": {
     "text": "Kader: streepjeslijn",
@@ -4552,6 +4755,10 @@
     "text": "Bellen",
     "source": "d6e645b7d2b2"
   },
+  "talk.missed.call-back": {
+    "text": "Terugbellen",
+    "source": "fbb0a343f691"
+  },
   "talk.call-ended": {
     "text": "Gesprek beëindigd",
     "source": "00ff74289a12"
@@ -4608,9 +4815,41 @@
     "text": "Camerastijlen",
     "source": "a02b3cbd8c0d"
   },
+  "studio.window.camera-by-address": {
+    "text": "Camera op adres…",
+    "source": "576460523c95"
+  },
+  "studio.net-camera-dialog.camera-details": {
+    "text": "Cameragegevens",
+    "source": "1f24717cfd41"
+  },
+  "studio.sources-column.camera-details": {
+    "text": "Cameragegevens…",
+    "source": "bed02af58b25"
+  },
+  "talk.meet-lines.camera-off": {
+    "text": "Camera uit",
+    "source": "ce3ef7450f8e"
+  },
   "studio.camera-n": {
     "text": "Camera {n}",
     "source": "76ef0b65d44f"
+  },
+  "studio.net-camera-dialog.cameras-added-before": {
+    "text": "Eerder toegevoegde camera's",
+    "source": "0bf02739feb0"
+  },
+  "studio.net-camera-find.cameras-on-the-network": {
+    "text": "Camera's in het netwerk",
+    "source": "138fe6865c5e"
+  },
+  "studio.window.cameras-on-the-network": {
+    "text": "Camera's in het netwerk…",
+    "source": "fa6270f9772a"
+  },
+  "studio.net-camera-find.cameras-that-answered": {
+    "text": "Camera's die antwoordden",
+    "source": "7126fcdc2141"
   },
   "voices-dialog.can-be-added-when-this-computer": {
     "text": "Kan worden toegevoegd als deze computer online is",
@@ -4643,6 +4882,10 @@
   "calendar.cancelled-summary": {
     "text": "Geannuleerd: {summary}",
     "source": "bc2bf8d8ef46"
+  },
+  "talk.meet-lines.cannot-be-heard-here": {
+    "text": "Hier niet te horen",
+    "source": "2d08a6698f09"
   },
   "image.canvas-size": {
     "text": "Canvasgrootte",
@@ -4895,6 +5138,10 @@
   "locker.change-how": {
     "text": "Manier wijzigen",
     "source": "7d8d41039ce4"
+  },
+  "video.inspector.change-it-at-another-time-and": {
+    "text": "Wijzig het op een ander moment en daar wordt een punt gezet.",
+    "source": "71ccbebf0a7b"
   },
   "base.change-my-password": {
     "text": "Mijn wachtwoord wijzigen",
@@ -5173,6 +5420,10 @@
     "text": "Controleren…",
     "source": "ec963ffc911b"
   },
+  "video.layer-names.checklist": {
+    "text": "Controlelijst",
+    "source": "7346030400bf"
+  },
   "pdf.checkmark": {
     "text": "Vinkje",
     "source": "d996cc6b3522"
@@ -5353,6 +5604,14 @@
     "text": "Muziek kiezen",
     "source": "a2758f54bb45"
   },
+  "talk.meet-lines.choose-now-a-meeting-cannot-be": {
+    "text": "Kies nu: een vergadering kan niet meer live worden gezet als ze is ingesteld.",
+    "source": "4d90fc81342e"
+  },
+  "video.ribbon.choose-one": {
+    "text": "Kies er een",
+    "source": "0b24aed53ab6"
+  },
   "apps-choice.choose-one-app-at-least": {
     "text": "Kies minstens één app.",
     "source": "6fa9e25d8f09"
@@ -5392,6 +5651,10 @@
   "base.reports.choose-the-total-under-each-number": {
     "text": "Kies het totaal onder elk getal: Som, Gemiddelde, Aantal of geen",
     "source": "5d7900fb073e"
+  },
+  "talk.groups.choose-two-or-more-of-your": {
+    "text": "Kies twee of meer van je contactpersonen. Iedereen in een groep ziet wat erin wordt geschreven en wie er verder in zit.",
+    "source": "1504482f5063"
   },
   "studio.sources-column.choose-what-to-show": {
     "text": "Kiezen wat er getoond wordt",
@@ -5897,6 +6160,10 @@
     "text": "Kleur tegenhouden",
     "source": "d3939c23da55"
   },
+  "video.library.colour-looks": {
+    "text": "Kleurstijlen",
+    "source": "1e3eace528af"
+  },
   "image.type-editor.colour-of-the-words": {
     "text": "Kleur van de woorden",
     "source": "8c6ececb4c11"
@@ -6236,13 +6503,25 @@
     "text": "Verbinden met een testserver",
     "source": "73dfcbc52547"
   },
+  "talk.settings.connect-when-rutba-office-starts": {
+    "text": "Verbinden als Rutba Office start",
+    "source": "fbba41a8aaa4"
+  },
   "ai-tools-dialog.connected-now": {
     "text": "Nu verbonden",
     "source": "0e31ab40ee72"
   },
+  "studio.guests.connecting": {
+    "text": "Verbinding maken",
+    "source": "d403c686f6a1"
+  },
   "base.trust.connecting-tells-host-that-this-database": {
     "text": "Bij het verbinden weet {host} dat deze database is geopend, en vanaf waar.",
     "source": "d62213401992"
+  },
+  "talk.meet-lines.connecting-to-the-meetings-talk-server": {
+    "text": "Verbinden met de Talk Server van de vergadering…",
+    "source": "dbdd1c43c358"
   },
   "common.connecting": {
     "text": "Verbinden…",
@@ -6319,6 +6598,10 @@
   "image.tools.contiguous-only-the-area-joined-to": {
     "text": "Aaneengesloten: alleen het gebied dat aansluit op waar je klikt",
     "source": "c49227ac91cd"
+  },
+  "studio.guests.continue-in-talk": {
+    "text": "Doorgaan in Talk",
+    "source": "dfe707761b26"
   },
   "common.continuous": {
     "text": "Doorlopend",
@@ -6503,6 +6786,10 @@
     "text": "De opmaak hier kopiëren naar de volgende selectie",
     "source": "385e4d1fba79"
   },
+  "studio.guests.copy-the-meeting-link": {
+    "text": "Koppeling kopiëren",
+    "source": "dcf78a0af22e"
+  },
   "pictures.copy-the-path": {
     "text": "Het pad kopiëren",
     "source": "80c28637e6ac"
@@ -6594,6 +6881,14 @@
   "mail.accounts-bulk.could-not-be-set-up": {
     "text": "Kon niet worden ingesteld",
     "source": "15a01aadfd5a"
+  },
+  "studio.guests.could-not-connect": {
+    "text": "Kan geen verbinding maken",
+    "source": "8630b4dd33f2"
+  },
+  "talk.meet-lines.could-not-connect-to-name-the": {
+    "text": "Kan geen verbinding maken met {name}. Het netwerk tussen jullie blokkeert het misschien.",
+    "source": "6efa1c493e6c"
   },
   "mail.could-not-send-why-the-message": {
     "text": "Kon niet worden verzonden: {why}. Het bericht staat weer in Concepten.",
@@ -7082,6 +7377,10 @@
   "common.dashed-horizontal": {
     "text": "Streepjes horizontaal",
     "source": "3ae29d68684a"
+  },
+  "video.layer-names.dashed-list": {
+    "text": "Lijst met streepjes",
+    "source": "482bff3efb3d"
   },
   "common.dashed-upward-diagonal": {
     "text": "Streepjes diagonaal omhoog",
@@ -8900,6 +9199,10 @@
     "text": "Map legen",
     "source": "ca1fd4548524"
   },
+  "print.empty-prints-every-page-or-type": {
+    "text": "Leeg drukt alle pagina's af. Of typ paginanummers en bereiken, zoals 1,2,5,6 of 1-5.",
+    "source": "b8b744f198bd"
+  },
   "print.empty-prints-everything-with-anything-in": {
     "text": "Leeg drukt alles af waar iets in staat.",
     "source": "256005db29f3"
@@ -8988,17 +9291,41 @@
     "text": "Eindscherm",
     "source": "9b35668a9a83"
   },
+  "talk.meeting.end-for-everyone": {
+    "text": "Voor iedereen beëindigen",
+    "source": "e1cc5d2e7a82"
+  },
+  "studio.guests.end-meeting": {
+    "text": "Vergadering beëindigen",
+    "source": "0d59fd0fca8d"
+  },
   "slides.presenter.end-of-the-deck": {
     "text": "Einde van de presentatie",
     "source": "1f8740414e5b"
+  },
+  "studio.guests.end-the-broadcast-first": {
+    "text": "Beëindig eerst de uitzending.",
+    "source": "cda831c6b524"
   },
   "studio.live-bar.end-the-broadcast": {
     "text": "Uitzending beëindigen?",
     "source": "ac1321bf9a1a"
   },
+  "studio.guests.end-the-meeting-for-everyone": {
+    "text": "Voor iedereen beëindigen",
+    "source": "403b0d8e29d9"
+  },
+  "studio.guests.end-the-meeting-for-everyone-2": {
+    "text": "Vergadering voor iedereen beëindigen?",
+    "source": "da7516896163"
+  },
   "calendar.end-time": {
     "text": "Eindtijd",
     "source": "2e46006a5eeb"
+  },
+  "talk.ended": {
+    "text": "Beëindigd",
+    "source": "7cdc804e6996"
   },
   "studio.live-bar.ending": {
     "text": "Beëindigen…",
@@ -9196,9 +9523,17 @@
     "text": "Evaluatie",
     "source": "163e44b10262"
   },
+  "video.inspector.evenly": {
+    "text": "Gelijkmatig",
+    "source": "83f7985d2900"
+  },
   "ai-tools.event": {
     "text": "Gebeurtenis",
     "source": "4e1f49a9c8ae"
+  },
+  "notify-dialog.event-reminders": {
+    "text": "Gebeurtenisherinneringen",
+    "source": "d57de2d3c6a1"
   },
   "calendar.events-from-a-ics": {
     "text": "Gebeurtenissen uit een .ics",
@@ -9231,6 +9566,10 @@
   "slides.every-comment-on-this-slide-deleted": {
     "text": "Elke opmerking op deze dia verwijderd",
     "source": "59f3fa1b689c"
+  },
+  "contacts.every-contact-shown-count": {
+    "text": "Alle getoonde contactpersonen ({count})",
+    "source": "7f4a5bb606e7"
   },
   "calendar.every-day": {
     "text": "Elke dag",
@@ -9295,6 +9634,10 @@
     "text": "Elke alinea met deze stijl verandert mee.",
     "source": "9cae08c0c68b"
   },
+  "pictures.every-picture-shown-count": {
+    "text": "Alle getoonde afbeeldingen ({count})",
+    "source": "904610f6a47a"
+  },
   "base.documents.every-record": {
     "text": "Elk record",
     "source": "f9ed7dc95615"
@@ -9302,6 +9645,10 @@
   "engine.every-row-of-the-column-is": {
     "text": "Elke rij van de kolom is al gevuld",
     "source": "c50f8a60019b"
+  },
+  "studio.guests.every-seat-is-taken": {
+    "text": "Alle plekken zijn bezet",
+    "source": "45dd15b4dde5"
   },
   "studio.settings-dialog.every-setup": {
     "text": "Elke opstelling",
@@ -9354,9 +9701,33 @@
     "text": "Elk jaar",
     "source": "828ca0e45f14"
   },
+  "talk.server-share.everybody-in-my-organisation": {
+    "text": "Iedereen in mijn organisatie",
+    "source": "0fe9dfd1fb93"
+  },
+  "talk.server-share.everybody-in-the-organisation-your-rutba": {
+    "text": "Iedereen in de organisatie waartoe je Rutba-account behoort. Hoort het bij geen organisatie, dan verder niemand.",
+    "source": "05c98bea8eb0"
+  },
   "common.everyone": {
     "text": "Iedereen",
     "source": "da2e5dc515b1"
+  },
+  "talk.meet-lines.everyone-asked-is-told-before-they": {
+    "text": "Iedereen die is uitgenodigd, hoort het vooraf. Niets wordt gestreamd tot je de vergadering opent in Live Broadcast en live gaat.",
+    "source": "48c2b1746439"
+  },
+  "studio.guests.everyone-asked-is-told-this-before": {
+    "text": "Iedereen die is uitgenodigd, hoort dit vooraf:",
+    "source": "e2f2a4d7030e"
+  },
+  "talk.meeting.everyone-in-this-group-is-told": {
+    "text": "Iedereen in deze groep krijgt bericht en kan deelnemen. Een vergadering is voor vier personen tegelijk.",
+    "source": "44ebddf60609"
+  },
+  "studio.guests.everyone-is-taken-out-and-the": {
+    "text": "Iedereen wordt eruit gehaald en de koppeling werkt niet meer.",
+    "source": "f32662261db0"
   },
   "registry.everyone-you-write-to-in-one": {
     "text": "Iedereen naar wie je schrijft, in één boek",
@@ -9655,13 +10026,13 @@
     "text": "Uitfaden",
     "source": "7d680202a523"
   },
-  "video.inspector.fade-from-black": {
-    "text": "Fade-in vanuit zwart",
-    "source": "636fcf61e179"
+  "video.layer-names.fade-in-and-out": {
+    "text": "In- en uitfaden",
+    "source": "abdc99cd0ff6"
   },
-  "video.inspector.fade-to-black": {
-    "text": "Fade-out naar zwart",
-    "source": "3fc1288f194f"
+  "video.inspector.fade-length": {
+    "text": "Vervagingsduur",
+    "source": "eb1d5120984a"
   },
   "common.fade-down": {
     "text": "Vervagen: omlaag",
@@ -9682,6 +10053,10 @@
   "word.dialogs.faint-and-rising-across-every-page": {
     "text": "Vaag en schuin oplopend over elke pagina, achter de tekst, getekend zoals Word dat zelf doet.",
     "source": "ba77601d2670"
+  },
+  "video.inspector.fall": {
+    "text": "Vallen",
+    "source": "e85a6413c1bd"
   },
   "word.mailings.fallback": {
     "text": "Reservetekst",
@@ -9714,6 +10089,10 @@
   "mail.fetching-folder-done": {
     "text": "{folder} ophalen: {done}",
     "source": "d52ad4f83a82"
+  },
+  "video.library.fetching": {
+    "text": "Ophalen…",
+    "source": "8d0738c84d08"
   },
   "mail.smime.fewer-details": {
     "text": "Minder details",
@@ -9794,6 +10173,10 @@
   "common.file-name": {
     "text": "Bestandsnaam",
     "source": "3efed3de9d4b"
+  },
+  "pictures.file-names-beneath-the-pictures": {
+    "text": "Bestandsnamen onder de afbeeldingen",
+    "source": "9095d26206fe"
   },
   "locker.file-names-in-the-cloud": {
     "text": "Bestandsnamen in de cloud",
@@ -10103,6 +10486,10 @@
     "text": "Zoeken: woorden op elke pagina (Ctrl+F)",
     "source": "04805ec8b35c"
   },
+  "talk.meet-lines.finding-a-talk-server-for-the": {
+    "text": "Een Talk Server voor de vergadering zoeken…",
+    "source": "f13c9a98b3ca"
+  },
   "ui.proofing.finding-suggestions": {
     "text": "Suggesties zoeken…",
     "source": "b5269d86a5f7"
@@ -10151,6 +10538,10 @@
     "text": "Rond het aanmelden af in je browser en kom daarna hier terug.",
     "source": "07f16710fc1e"
   },
+  "talk.finish-your-call-first": {
+    "text": "Beëindig eerst je gesprek.",
+    "source": "7bf710a0c972"
+  },
   "common.fire": {
     "text": "Vuur",
     "source": "c141faa80e43"
@@ -10194,6 +10585,10 @@
   "base.sources.first-page": {
     "text": "Eerste pagina",
     "source": "0bdbb750609c"
+  },
+  "video.library.first-point": {
+    "text": "Eerste punt",
+    "source": "29ceaa773427"
   },
   "common.first-record": {
     "text": "Eerste record",
@@ -10246,6 +10641,10 @@
   "common.fit-to-window": {
     "text": "Aanpassen aan venster",
     "source": "19707cae1f79"
+  },
+  "image.fit-to-the-page": {
+    "text": "Aanpassen aan pagina",
+    "source": "d3813ef5da30"
   },
   "common.fit-to-window-2": {
     "text": "Aanpassen aan venster",
@@ -10546,9 +10945,17 @@
     "text": "Voor juridische bewaring: mbox en PDF met een manifest van hashes",
     "source": "cd8cd2cc47d2"
   },
+  "talk.meet-lines.for-more-than-four-people-choose": {
+    "text": "Voor meer dan vier personen. Kies nu: dit kan later niet worden gewijzigd.",
+    "source": "84feb33750e6"
+  },
   "studio.window.for-the-tools": {
     "text": "Voor de hulpmiddelen",
     "source": "28b5d93196d6"
+  },
+  "studio.settings-dialog.for-this-session-save-the-session": {
+    "text": "Voor deze sessie. Sla de sessie op als opstelling om ze te bewaren.",
+    "source": "89f7e8f9bc6d"
   },
   "broadcast.live-dialog.for-wide-and-tall-on-one": {
     "text": "Voor liggend en staand op één platform voeg je het twee keer toe, met voor elk een sleutel.",
@@ -10581,6 +10988,14 @@
   "slides.foreground": {
     "text": "Voorgrond",
     "source": "ad4e241834ec"
+  },
+  "studio.net-camera-dialog.forget": {
+    "text": "Vergeten",
+    "source": "a6bd489d9550"
+  },
+  "studio.net-camera-dialog.forget-this-camera-and-its-password": {
+    "text": "Deze camera en het wachtwoord vergeten",
+    "source": "bbaf44180309"
   },
   "pdf.form": {
     "text": "Formulier",
@@ -10942,10 +11357,6 @@
     "text": "Van rechtsboven",
     "source": "6b697be237a3"
   },
-  "video.inspector.from-black": {
-    "text": "Vanuit zwart",
-    "source": "6b8e41a84b78"
-  },
   "talk.invite.from-no-reply-rutba-io-in": {
     "text": "Vanaf no-reply@rutba.io, op jouw naam, een paar per dag.",
     "source": "ca68787a47f9"
@@ -11106,6 +11517,10 @@
     "text": "GitHub heeft de controle voorlopig geweigerd. Probeer het over een uur opnieuw.",
     "source": "607e298f1b12"
   },
+  "talk-words.give-the-meeting-a-name": {
+    "text": "Geef de vergadering een naam.",
+    "source": "ca0cc479b89e"
+  },
   "locker.give-the-password-a-different-way": {
     "text": "Geef het wachtwoord op een andere manier door, zoals telefonisch of via een sms, en nooit in dezelfde e-mail. De ander opent het bestand met Een verzonden bestand openen in de eigen Kluis (Locker).",
     "source": "1b7a08b8266b"
@@ -11113,6 +11528,10 @@
   "locker.give-the-password-a-different-way-2": {
     "text": "Geef het wachtwoord op een andere manier door, zoals telefonisch of via een sms.",
     "source": "de572f2fb31a"
+  },
+  "studio.net-camera-find.give-the-user-name-and-password": {
+    "text": "Geef de gebruikersnaam en het wachtwoord van de camera. Office vraagt de stream aan de camera zelf.",
+    "source": "4a09aba0e547"
   },
   "slides.glow": {
     "text": "Gloed",
@@ -11422,6 +11841,10 @@
     "text": "Gegroepeerd op {columns}",
     "source": "a3ee8fd53ec4"
   },
+  "talk.groups": {
+    "text": "Groepen",
+    "source": "39bbb719fa2b"
+  },
   "word.restrict.groups": {
     "text": "Groepen:",
     "source": "914dc79e4818"
@@ -11446,9 +11869,37 @@
     "text": "Groei",
     "source": "66b06e996553"
   },
+  "studio.list.guest": {
+    "text": "Gast",
+    "source": "5ed8944a85a9"
+  },
+  "studio.guests.guest-from-talk": {
+    "text": "Gast uit Talk…",
+    "source": "793232fc0bf6"
+  },
   "base.guest-house-or-b-and-b": {
     "text": "Pension of B&B",
     "source": "a0f9eeb489a3"
+  },
+  "studio.list.guest-n": {
+    "text": "Gast {n}",
+    "source": "03b6865b76af"
+  },
+  "studio.guests.guests": {
+    "text": "Gasten",
+    "source": "3c8e0fde6fcc"
+  },
+  "studio.guests.guests-come-in-through-talk-open": {
+    "text": "Gasten komen binnen via Talk. Open Talk en meld je aan, en kom dan hier terug.",
+    "source": "9eb299d4bca8"
+  },
+  "studio.guests.guests-from-talk": {
+    "text": "Gasten uit Talk",
+    "source": "3d460856e536"
+  },
+  "studio.guests.guests-2": {
+    "text": "Gasten…",
+    "source": "16daa9d8055e"
   },
   "slides.ribbon.guides": {
     "text": "Hulplijnen",
@@ -11465,6 +11916,14 @@
   "slides.half-reflection": {
     "text": "Halve weerspiegeling",
     "source": "5134a8a7f210"
+  },
+  "talk.meet-lines.hand": {
+    "text": "Hand",
+    "source": "fa18c06733fb"
+  },
+  "talk.meet-lines.hand-raised": {
+    "text": "Hand opgestoken",
+    "source": "28a816817557"
   },
   "print.handout": {
     "text": "Hand-outs",
@@ -11496,6 +11955,10 @@
   "word.ruler.hanging-indent": {
     "text": "Verkeerd-om inspringen",
     "source": "330571a6ff67"
+  },
+  "talk.lines.harassment-or-threats": {
+    "text": "Intimidatie of bedreigingen",
+    "source": "badb8a71f7e3"
   },
   "common.harbour": {
     "text": "Haven",
@@ -11681,6 +12144,14 @@
     "text": "Hoogte: automatisch",
     "source": "72963474c164"
   },
+  "talk.meet-lines.held-on-a-talk-server-and": {
+    "text": "Gehouden op een Talk Server en versleuteld door de apps van de deelnemers.",
+    "source": "069bbb237456"
+  },
+  "talk.meet-lines.held-on-a-talk-server-sound": {
+    "text": "Gehouden op een Talk Server. Geluid, beeld en berichten worden versleuteld door de apps van de deelnemers.",
+    "source": "7b770898ab95"
+  },
   "talk.invite-email.hello-name": {
     "text": "Hallo {name},",
     "source": "ec6b334e36ce"
@@ -11704,6 +12175,10 @@
   "word.mailings.here-is-a-preview-from-your": {
     "text": "Hier is een voorbeeld uit je adressenlijst:",
     "source": "e78b6ed296e4"
+  },
+  "studio.guests.here-now": {
+    "text": "Nu aanwezig",
+    "source": "ccf67ff0cbab"
   },
   "colour.palette.hex": {
     "text": "Hex",
@@ -11953,6 +12428,10 @@
     "text": "Frame vasthouden",
     "source": "21076652231b"
   },
+  "talk.meeting.hold-it-on-a-talk-server": {
+    "text": "Op een Talk Server houden",
+    "source": "6f8881eaab59"
+  },
   "pictures.hold-this-frame": {
     "text": "Dit frame vasthouden",
     "source": "710af7ead1b9"
@@ -11988,6 +12467,10 @@
   "template-gallery.household": {
     "text": "Huishouden",
     "source": "a1c6c97f415f"
+  },
+  "notify-dialog.how": {
+    "text": "Hoe",
+    "source": "7470bd3bc2ab"
   },
   "video.inspector.how-close": {
     "text": "Hoe dichtbij",
@@ -12403,6 +12886,10 @@
     "text": "Voor tekst",
     "source": "c5e4f149a0b0"
   },
+  "talk.meeting.in-it-now-names": {
+    "text": "Nu aanwezig: {names}",
+    "source": "41e0075c8bab"
+  },
   "word.in-line-with-text": {
     "text": "In lijn met tekst",
     "source": "975100d147b1"
@@ -12451,6 +12938,13 @@
     "text": "In je Talk-contacten",
     "source": "6d460ac05145"
   },
+  "shell.notifier.in-count-minute": {
+    "forms": {
+      "one": "Over {count} minuut",
+      "other": "Over {count} minuten"
+    },
+    "source": "575500e5bcff"
+  },
   "video.in-from-out-to": {
     "text": "In {from}, Uit {to}",
     "source": "9ad2ac8a59a8"
@@ -12495,9 +12989,17 @@
     "text": "Inkomende oproep",
     "source": "a31650d84806"
   },
+  "notify-dialog.incoming-calls": {
+    "text": "Inkomende oproepen",
+    "source": "820afd4a1ab6"
+  },
   "mail.dialogs.incoming-server-imap": {
     "text": "Inkomende server (IMAP)",
     "source": "dfd215e4fd24"
+  },
+  "shell.notifier.incoming-video-call": {
+    "text": "Inkomend videogesprek",
+    "source": "eda8b6750322"
   },
   "sheets.ribbon.increase-decimal": {
     "text": "Meer decimalen",
@@ -13283,6 +13785,10 @@
     "text": "Factuur",
     "source": "b832002da297"
   },
+  "video.iris": {
+    "text": "Iris",
+    "source": "65003c7a1864"
+  },
   "sheets.queries.is": {
     "text": "Is",
     "source": "f5985de1fd3a"
@@ -13395,9 +13901,17 @@
     "text": "Het wordt getoond als platte tekst, zonder koppelingen en afbeeldingen: een versleuteld bericht dat niet door iemand die je vertrouwt is ondertekend, kan onderweg zijn gewijzigd om de tekst ergens anders heen te sturen.",
     "source": "a923da16888c"
   },
+  "shell.tray.it-keeps-watch-for-calls-messages": {
+    "text": "Het let op oproepen, berichten, e-mail en herinneringen. Openen of afsluiten kan via het pictogram bij de klok.",
+    "source": "280bef469893"
+  },
   "locker.it-needs-about-size-and-free": {
     "text": "Er is ongeveer {size} nodig en er is {free} vrij.",
     "source": "4b6dd24db2d1"
+  },
+  "notify-dialog.it-starts-by-the-clock-with": {
+    "text": "Start bij de klok, zonder venster, als je je aanmeldt bij Windows.",
+    "source": "6a1f3f9b4896"
   },
   "base.people.it-starts-reading-every-table-choose": {
     "text": "De rol leest eerst elke tabel; kies wat hij met elke tabel mag doen.",
@@ -13406,6 +13920,10 @@
   "base.it-starts-with-an-id-that": {
     "text": "Het begint met een ID dat elk record nummert; voeg de velden toe in het ontwerp.",
     "source": "021f623d5e41"
+  },
+  "notify-dialog.it-stays-by-the-clock-while": {
+    "text": "Het blijft bij de klok zolang er iets te bewaken is: Talk aangemeld, een e-mailaccount of een komende herinnering. Afsluiten in het menu van het pictogram sluit het.",
+    "source": "10a5253e2f69"
   },
   "mail.dialogs.it-uses-the-encoding-encoding-which": {
     "text": "Het gebruikt de codering {encoding}, die deze versie niet kan decoderen.",
@@ -13513,9 +14031,37 @@
     "text": "Functie",
     "source": "86db80a8096b"
   },
+  "common.join": {
+    "text": "Deelnemen",
+    "source": "fd30fe681b4b"
+  },
+  "talk.meeting.join-a-meeting": {
+    "text": "Aan vergadering deelnemen",
+    "source": "9b2a5bd7d96b"
+  },
   "sheets.queries.join-kind": {
     "text": "Type join",
     "source": "a9aa54ad2dfd"
+  },
+  "calendar.join-the-meeting": {
+    "text": "Deelnemen aan vergadering",
+    "source": "31310cd2645b"
+  },
+  "talk-words.join-the-meeting-in-rutba-office": {
+    "text": "Neem deel aan de vergadering in Rutba Office: {link}",
+    "source": "c9c01f7d52fd"
+  },
+  "calendar.joining-needs-talk-which-is-not": {
+    "text": "Deelnemen kan alleen met Talk, dat hier niet is geïnstalleerd.",
+    "source": "7870dcf0080c"
+  },
+  "talk.meeting.joining-name": {
+    "text": "Deelnemen aan {name}…",
+    "source": "56727336c281"
+  },
+  "talk.meeting.joining": {
+    "text": "Deelnemen…",
+    "source": "6bbb89ee5d48"
   },
   "common.journal-article": {
     "text": "Tijdschriftartikel",
@@ -13596,6 +14142,10 @@
   "pdf.keep-it-open": {
     "text": "Open houden",
     "source": "458f6b681df9"
+  },
+  "notify-dialog.keep-rutba-office-running-after-its": {
+    "text": "Rutba Office actief houden na het laatste venster",
+    "source": "f31bfd395eab"
   },
   "sheets.queries.keep-top-rows": {
     "text": "Bovenste rijen behouden",
@@ -13717,6 +14267,14 @@
     "text": "Deze afzender in Contactpersonen bewaren",
     "source": "dd3bb1c9952a"
   },
+  "studio.setups-menu.keep-this-session": {
+    "text": "Deze sessie bewaren?",
+    "source": "5949e8e6390b"
+  },
+  "notify-dialog.keeping-watch": {
+    "text": "Actief blijven",
+    "source": "2bd2ecd98d0f"
+  },
   "sheets.dialogs.keeps": {
     "text": "Behoudt",
     "source": "16aebc8dbb59"
@@ -13772,6 +14330,10 @@
   "contacts.kept-name": {
     "text": "{name} bewaard.",
     "source": "631191ecc875"
+  },
+  "studio.net-camera-dialog.kept-type-a-new-one-to": {
+    "text": "Bewaard. Typ een nieuw om het te wijzigen.",
+    "source": "94040f9b6468"
   },
   "common.key": {
     "text": "Sleutel",
@@ -14041,6 +14603,10 @@
     "text": "Laatst: {tool}, {when}",
     "source": "555c3b837526"
   },
+  "video.inspector.lasts": {
+    "text": "Duur",
+    "source": "e8d07dfabcb4"
+  },
   "packs-dialog.later": {
     "text": "Later",
     "source": "73b6e48a1b55"
@@ -14124,6 +14690,10 @@
     "text": "Minst",
     "source": "02610c979bd9"
   },
+  "talk.meeting.leave": {
+    "text": "Verlaten",
+    "source": "fc6e4a408d56"
+  },
   "mail.dialogs.leave-blank-for-automatic-reply-and": {
     "text": "Laat leeg voor “Automatisch antwoord: ” en het oorspronkelijke onderwerp.",
     "source": "94aa5a2fde29"
@@ -14148,6 +14718,10 @@
     "text": "Volledig scherm afsluiten (F11)",
     "source": "f29680c41343"
   },
+  "talk.leave-group": {
+    "text": "Groep verlaten",
+    "source": "3475393dbebd"
+  },
   "sheets.dialogs.leave-it-empty-to-keep-the": {
     "text": "Laat het leeg om het wachtwoord van dit bereik te behouden.",
     "source": "41e0fa01d903"
@@ -14164,6 +14738,10 @@
     "text": "Weglaten wat na het minteken volgt",
     "source": "fc1eecb3aa7d"
   },
+  "talk.meeting.leave-the-meeting": {
+    "text": "Vergadering verlaten",
+    "source": "977585a92642"
+  },
   "slides.leave-the-show": {
     "text": "Voorstelling verlaten",
     "source": "fdc22af2a38d"
@@ -14179,6 +14757,14 @@
   "locker.leave-them-unlocked-suggested": {
     "text": "Ontgrendeld laten (aanbevolen)",
     "source": "0afd256556ff"
+  },
+  "talk.leave-this-group": {
+    "text": "Deze groep verlaten?",
+    "source": "4ed01b5a99b2"
+  },
+  "talk.meeting.leave-or-end-the-meeting-for": {
+    "text": "Verlaten, of de vergadering voor iedereen beëindigen?",
+    "source": "f2d3c9b9f154"
   },
   "common.left": {
     "text": "Links",
@@ -14274,6 +14860,10 @@
   "word.ribbon.legal-8-5-14-in": {
     "text": "Legal: 8,5 × 14 in",
     "source": "470239248343"
+  },
+  "video.inspector.legend": {
+    "text": "Legenda",
+    "source": "7482e374b5bd"
   },
   "base.lending-library": {
     "text": "Uitleenbibliotheek",
@@ -14587,6 +15177,14 @@
     "text": "Koppelingsadres",
     "source": "13844ffc7287"
   },
+  "talk.meeting.link-copied": {
+    "text": "Koppeling gekopieerd.",
+    "source": "71af38a2d56b"
+  },
+  "studio.guests.link-copied-paste-it-wherever-you": {
+    "text": "Koppeling gekopieerd. Plak hem waar je wilt.",
+    "source": "e62a2c262096"
+  },
   "word.list-dialog.link-level-to-style": {
     "text": "Niveau koppelen aan stijl",
     "source": "ed09b5da333c"
@@ -14723,6 +15321,10 @@
     "text": "Live-bestemmingen…",
     "source": "677788648878"
   },
+  "studio.guests.live-broadcast-with-name": {
+    "text": "Live-uitzending met {name}",
+    "source": "fed9b5301f2a"
+  },
   "base.links.live-reads-the-records-from-the": {
     "text": "Live leest de records uit de engine terwijl je werkt. Een kopie in dit bestand bewaren houdt ze ook hier: je kunt werken als de engine onbereikbaar is, en je wijzigingen gaan ernaartoe zodra hij terug is. Als een record op beide plaatsen is gewijzigd, wint de versie van de engine en wordt die van jou bewaard zodat je hem kunt bekijken.",
     "source": "c61357c56fe9"
@@ -14790,6 +15392,10 @@
   "image.layers-panel.lock-the-layer": {
     "text": "De laag vergrendelen",
     "source": "7dbd5ea70c86"
+  },
+  "talk.meeting.lock-the-meeting-nobody-new-can": {
+    "text": "Vergadering vergrendelen: niemand nieuw kan deelnemen",
+    "source": "5508fe16d924"
   },
   "locker.lock-the-rest-leave-this-one": {
     "text": "Rest vergrendelen, deze niet",
@@ -14915,6 +15521,10 @@
     "text": "Uiterlijk",
     "source": "a0de5719f595"
   },
+  "studio.net-camera-find.look-again": {
+    "text": "Opnieuw zoeken",
+    "source": "d36feef04807"
+  },
   "video.look-here": {
     "text": "Kijk hier",
     "source": "a0191bf6cc06"
@@ -14938,6 +15548,10 @@
   "mail.docnote.looking-for-an-invoice-or-a": {
     "text": "Zoeken naar een factuur of bon in {name}…",
     "source": "19526ac28939"
+  },
+  "studio.net-camera-find.looking-for-cameras-on-this-network": {
+    "text": "Camera's in dit netwerk zoeken…",
+    "source": "35cf2433a990"
   },
   "slides.changes.looking-for-changes": {
     "text": "Wijzigingen zoeken…",
@@ -15006,6 +15620,10 @@
   "video.inspector.lower-the-rest": {
     "text": "De rest zachter",
     "source": "95be98f8b672"
+  },
+  "talk.meeting.lower-your-hand": {
+    "text": "Hand laten zakken",
+    "source": "b8308c2681a2"
   },
   "common.lowercase": {
     "text": "Kleine letters",
@@ -15650,13 +16268,33 @@
     "text": "Gemiddeld, gewone rijen",
     "source": "611babdad090"
   },
+  "talk.meet-now": {
+    "text": "Nu vergaderen",
+    "source": "90e040c1ceb7"
+  },
+  "common.meeting": {
+    "text": "Vergadering",
+    "source": "8b8b8871bbfb"
+  },
   "template-gallery.meeting-agenda": {
     "text": "Vergaderagenda",
     "source": "07d60ca4be2d"
   },
+  "talk.meeting.meeting-locked": {
+    "text": "Vergadering vergrendeld",
+    "source": "b91ee56f0968"
+  },
   "template-gallery.meeting-minutes": {
     "text": "Notulen",
     "source": "eed123b54b71"
+  },
+  "talk.meet-lines.meeting-with-name": {
+    "text": "Vergadering met {name}",
+    "source": "c77cbc09cfcf"
+  },
+  "notify-dialog.meetings-about-to-start": {
+    "text": "Vergaderingen die bijna beginnen",
+    "source": "5e5c76090b99"
   },
   "base.members-and-plans-payments-classes-and": {
     "text": "Leden en abonnementen, betalingen, lessen en boekingen, personal training en bezoeken.",
@@ -15938,6 +16576,18 @@
     "text": "Spiegelen",
     "source": "90fade6fb78e"
   },
+  "common.missed-call": {
+    "text": "Gemiste oproep",
+    "source": "f203aff4b526"
+  },
+  "common.missed-calls": {
+    "text": "Gemiste oproepen",
+    "source": "42f59e0dcd29"
+  },
+  "talk.lines.missed-video-call": {
+    "text": "Gemist videogesprek",
+    "source": "73fd69f0bfa5"
+  },
   "word.ribbon.moderate": {
     "text": "Gemiddeld",
     "source": "5c42afc7a230"
@@ -16098,6 +16748,10 @@
     "text": "Meer sjablonen: brieven, rapporten, budgetten, facturen, presentaties en meer, en je eigen",
     "source": "9633d83cbe73"
   },
+  "video.ribbon.more-transitions": {
+    "text": "Meer overgangen",
+    "source": "196a312ff56d"
+  },
   "sheets.more-edit-or-delete": {
     "text": "Meer: bewerken of verwijderen",
     "source": "09b71b1a3f9a"
@@ -16201,6 +16855,10 @@
   "video.move-track-up": {
     "text": "Spoor omhoog verplaatsen",
     "source": "014314a1063e"
+  },
+  "video.timeline.move-a-point-of-movement": {
+    "text": "Een bewegingspunt verplaatsen",
+    "source": "456f30320217"
   },
   "video.move-clip": {
     "text": "Clip verplaatsen",
@@ -16310,6 +16968,10 @@
     "text": "Naar de prullenbak verplaatst",
     "source": "4a32012fc458"
   },
+  "video.inspector.movement": {
+    "text": "Beweging",
+    "source": "49ba63e89af6"
+  },
   "sheets.objects.multi-select-off-a-click-shows": {
     "text": "Meervoudige selectie is uit: een klik toont alleen dat item (Ctrl+klik voegt er een toe)",
     "source": "0910783d3f55"
@@ -16358,6 +17020,10 @@
     "text": "Dit spoor dempen",
     "source": "2d4449bf2a58"
   },
+  "common.muted": {
+    "text": "Gedempt",
+    "source": "2346f214ad56"
+  },
   "talk.address.my-address-in-talk": {
     "text": "Mijn adres in Talk",
     "source": "c06c86b814f9"
@@ -16369,6 +17035,10 @@
   "calendar.my-calendars": {
     "text": "Mijn agenda's",
     "source": "23b77e2b7bb3"
+  },
+  "talk.server-share.my-contacts": {
+    "text": "Mijn contactpersonen",
+    "source": "6add5927687d"
   },
   "talk.invite.my-email-app": {
     "text": "Mijn e-mailapp",
@@ -16434,6 +17104,14 @@
     "text": "Naam van website",
     "source": "9a8a9021ffc5"
   },
+  "talk.groups.name-of-the-group": {
+    "text": "Naam van de groep",
+    "source": "d692cebacdf6"
+  },
+  "talk.meeting.name-of-the-meeting": {
+    "text": "Naam van de vergadering",
+    "source": "d944cb35604b"
+  },
   "profiles.name-of-the-new-profile": {
     "text": "Naam van het nieuwe profiel",
     "source": "cd872167f53f"
@@ -16457,6 +17135,10 @@
   "common.name-for-the-lower-third": {
     "text": "Naam, voor de naambalk",
     "source": "3075123d2d1a"
+  },
+  "talk.groups.name-if-you-want-one": {
+    "text": "Naam, als je er een wilt",
+    "source": "70fee814f6a2"
   },
   "sheets.dialogs.named-ranges": {
     "text": "Benoemde bereiken",
@@ -16540,6 +17222,10 @@
     "text": "Een nieuwere Rutba Office nodig",
     "source": "3d61f92f62b9"
   },
+  "talk.lines.needs-a-newer-rutba-office-to": {
+    "text": "Een nieuwere Rutba Office is nodig om deze groep te zien",
+    "source": "e9f8d676fa25"
+  },
   "locker.needs-you": {
     "text": "Heeft je nodig",
     "source": "74b6abdf5969"
@@ -16548,9 +17234,17 @@
     "text": "Geen van jullie kan de ander schrijven of bellen tot jullie weer contactpersonen zijn. Je berichten hier worden verwijderd.",
     "source": "55354b8358c9"
   },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "Niet weergegeven en niet voorgelezen: de regels houden hun tijd. Kies een van de drie opties om ze terug te halen.",
+    "source": "431be017d2c5"
+  },
   "common.neon": {
     "text": "Neon",
     "source": "618484e2c549"
+  },
+  "studio.list.network-camera": {
+    "text": "Netwerkcamera",
+    "source": "6e3492ed4b9b"
   },
   "sheets.ribbon.neutral": {
     "text": "Neutraal",
@@ -16732,6 +17426,10 @@
     "text": "Nieuwe documenten beginnen voortaan in {name}.",
     "source": "5331555ff54a"
   },
+  "common.new-email": {
+    "text": "Nieuwe e-mail",
+    "source": "0d25c8b1db61"
+  },
   "calendar.new-event": {
     "text": "Nieuwe gebeurtenis",
     "source": "7cdc2e276045"
@@ -16760,9 +17458,17 @@
     "text": "Nieuw van sjabloon",
     "source": "5c281f84d68c"
   },
+  "talk.groups.new-group": {
+    "text": "Nieuwe groep",
+    "source": "df796c655f6f"
+  },
   "mail.new-mail-goes-from-address": {
     "text": "Nieuwe mail gaat vanaf {address}",
     "source": "75d10444c655"
+  },
+  "notify-dialog.new-mail-as-it-arrives": {
+    "text": "Nieuwe e-mail, zodra die binnenkomt",
+    "source": "7436e7beb576"
   },
   "mail.new-message": {
     "text": "Nieuw bericht",
@@ -16803,6 +17509,10 @@
   "mail.rules.new-rule": {
     "text": "Nieuwe regel",
     "source": "99cd24efe983"
+  },
+  "studio.window.new-session": {
+    "text": "Nieuwe sessie",
+    "source": "cffdba22adf2"
   },
   "studio.new-setup": {
     "text": "Nieuwe opstelling",
@@ -16964,6 +17674,10 @@
     "text": "Volgende pagina (Page Down)",
     "source": "b4b926fb53d0"
   },
+  "video.inspector.next-point": {
+    "text": "Volgende punt",
+    "source": "ce6dcb3c9b65"
+  },
   "common.next-record": {
     "text": "Volgend record",
     "source": "72366533fb26"
@@ -17072,6 +17786,14 @@
     "text": "Nog geen Rutba Office? Met dezelfde link accepteer je met een gratis Rutba-account, en Rutba Office is gratis te downloaden: {join}",
     "source": "16030f970f96"
   },
+  "talk.meet-lines.no-talk-server-can-hold-this": {
+    "text": "Geen enkele Talk Server kan deze vergadering nu houden.",
+    "source": "21399cd5bfda"
+  },
+  "talk.meet-lines.no-talk-server-can-take-people": {
+    "text": "Geen Talk Server kan nu mensen tot deze vergadering toelaten. Probeer zo opnieuw deel te nemen.",
+    "source": "f88a607c134e"
+  },
   "sheets.ribbon.no-title": {
     "text": "Geen titel",
     "source": "a81d00a2e03d"
@@ -17147,6 +17869,14 @@
   "ai-tools-dialog.no-call-yet": {
     "text": "Nog geen aanroep",
     "source": "a43c76129f11"
+  },
+  "studio.net-camera-find.no-camera-answered-a-camera-answers": {
+    "text": "Geen camera heeft geantwoord. Een camera antwoordt als ONVIF in de eigen instellingen aanstaat en hij in hetzelfde netwerk zit als deze computer.",
+    "source": "458f70618c7d"
+  },
+  "talk.meet-lines.no-camera-was-found-on-this": {
+    "text": "Er is geen camera op deze computer gevonden.",
+    "source": "16b044153b6f"
   },
   "common.no-camera-was-found": {
     "text": "Er is geen camera gevonden.",
@@ -17224,6 +17954,10 @@
     "text": "Nog geen contactpersonen. Voeg iemand toe via het e-mailadres; zodra die accepteert, kunnen jullie schrijven en bellen.",
     "source": "f6497439472d"
   },
+  "studio.guests.no-copy-is-kept-while-this": {
+    "text": "Er wordt geen kopie bewaard zolang deze vergadering hier is. De deelnemers weten dat ze live wordt gestreamd, niet dat ze wordt opgenomen.",
+    "source": "40fd5ed74db7"
+  },
   "slides.custom-shows.no-custom-shows-yet-new-makes": {
     "text": "Nog geen aangepaste voorstellingen. Nieuw maakt er een.",
     "source": "8b1f3e334875"
@@ -17259,6 +17993,10 @@
   "word.mailings.no-errors-every-merge-field-has": {
     "text": "Geen fouten: elk samenvoegveld heeft een kolom in de lijst.",
     "source": "3d54fcdbe072"
+  },
+  "calendar.print.no-events": {
+    "text": "Geen gebeurtenissen",
+    "source": "2197f6207922"
   },
   "pdf.found.no-fields-were-found-recognise-text": {
     "text": "Er zijn geen velden gevonden. Tekst herkennen met Velden zoeken aangevinkt leest de velden van een factuur of bon en de vinkvakjes van een formulier.",
@@ -17344,14 +18082,6 @@
     "text": "Geen limiet",
     "source": "f7fcff0d8fea"
   },
-  "spoken.voices.add-a-voice-to-read-the": {
-    "text": "Voeg een stem toe om de woorden voor te lezen; zonder stem kunnen ze wel worden weergegeven.",
-    "source": "04ed3fbd74fe"
-  },
-  "spoken.voices.neither-shown-nor-read-aloud-the": {
-    "text": "Niet weergegeven en niet voorgelezen: de regels houden hun tijd. Kies een van de drie opties om ze terug te halen.",
-    "source": "431be017d2c5"
-  },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "Nog geen regels: elke regel van de tekst wordt om de beurt voorgelezen.",
     "source": "6c66185b20fc"
@@ -17396,9 +18126,17 @@
     "text": "Geen microfoon",
     "source": "618183d7ea1f"
   },
+  "talk.meet-lines.no-microphone-was-found-on-this": {
+    "text": "Er is geen microfoon op deze computer gevonden. Anderen kunnen je niet horen.",
+    "source": "05f114874a3a"
+  },
   "studio.no-microphone-was-found": {
     "text": "Er is geen microfoon gevonden.",
     "source": "cf757208df0f"
+  },
+  "talk.missed.no-missed-calls": {
+    "text": "Geen gemiste oproepen.",
+    "source": "7a78e0b6e3b9"
   },
   "word.references-toa.no-more-citations-found": {
     "text": "Geen bronvermeldingen meer gevonden.",
@@ -17419,6 +18157,10 @@
   "slides.presenter.no-notes-on-this-slide-type": {
     "text": "Geen notities bij deze dia. Typ ze onder de dia in de normale weergave, waar Klik om notities toe te voegen staat.",
     "source": "fe1e3a5506f6"
+  },
+  "notify-dialog.no-notifications-between-these-times-what": {
+    "text": "Geen meldingen tussen deze tijden. Wat binnenkomt, wordt wel geteld.",
+    "source": "9bb97a080483"
   },
   "engine.no-numbers-found-a-chart-wants": {
     "text": "Geen getallen gevonden. Een grafiek wil dat de cellen van de tabel getallen zijn.",
@@ -17479,6 +18221,10 @@
   "print.no-printer-is-installed": {
     "text": "Er is geen printer geïnstalleerd",
     "source": "eb71dfd30c2e"
+  },
+  "print.no-printer-is-installed-use-save": {
+    "text": "Er is geen printer geïnstalleerd. Gebruik Opslaan als PDF, of voeg een printer toe in de instellingen van deze computer.",
+    "source": "c8bae189ef75"
   },
   "sheets.queries.no-queries-in-this-workbook-yet": {
     "text": "Nog geen query's in deze werkmap. Gegevens → Van tabel/bereik of Van tekst/CSV maakt er een.",
@@ -17543,6 +18289,10 @@
   "mail.rules.no-rules-yet": {
     "text": "Nog geen regels",
     "source": "d29cf782366d"
+  },
+  "studio.setups-menu.no-saved-setups-yet": {
+    "text": "Nog geen opgeslagen opstellingen",
+    "source": "abf744b63ded"
   },
   "common.no-scaling": {
     "text": "Geen schaling",
@@ -17640,6 +18390,10 @@
     "text": "Nog geen weergaven. Toevoegen… bewaart hoe de werkmap er nu uitziet.",
     "source": "233d8dca900a"
   },
+  "read-aloud.bar.no-voice-for-language-is-on": {
+    "text": "Geen stem voor {language} op deze computer.",
+    "source": "9dae296f7e6e"
+  },
   "common.no-voice-has-been-added": {
     "text": "Er is geen stem toegevoegd.",
     "source": "c163f326bf4d"
@@ -17676,6 +18430,14 @@
     "text": "Nog geen {label}-bijschriften: Bijschrift invoegen voegt ze toe, en Tabel bijwerken werkt de lijst bij.",
     "source": "fd8ab69b9093"
   },
+  "talk.server-share.nobody-else-can-hold-a-meeting": {
+    "text": "Verder kan niemand er een vergadering op houden.",
+    "source": "2e4dc764891f"
+  },
+  "studio.guests.nobody-here-yet": {
+    "text": "Nog niemand hier",
+    "source": "a142ffa894ef"
+  },
   "talk.invite-email.nobody-in-contacts-has-an-email": {
     "text": "Nog niemand in Contactpersonen heeft een e-mailadres.",
     "source": "7e5a82a6e3b4"
@@ -17683,6 +18445,18 @@
   "talk.invite-email.nobody-in-contacts-matches": {
     "text": "Niemand in Contactpersonen komt overeen.",
     "source": "3f4ecb0436d4"
+  },
+  "talk.settings.nobody-is-blocked": {
+    "text": "Niemand is geblokkeerd.",
+    "source": "acecbd3f4140"
+  },
+  "talk.server-share.nobody-is-chosen-yet-tick-the": {
+    "text": "Nog niemand gekozen. Vink de contactpersonen aan die er vergaderingen op mogen houden.",
+    "source": "e04b8c76ae44"
+  },
+  "talk.meeting.nobody-is-in-it-yet": {
+    "text": "Er is nog niemand.",
+    "source": "7b877d971afd"
   },
   "mail.compose.nobody-on-this-line-is-visible": {
     "text": "Niemand op deze regel is zichtbaar voor de andere ontvangers.",
@@ -17711,6 +18485,10 @@
   "word.references-toa.none-marked-yet": {
     "text": "Nog niets gemarkeerd.",
     "source": "fae8d5d30eb5"
+  },
+  "talk.groups.none-of-your-contacts-are-left": {
+    "text": "Er zijn geen contactpersonen meer om toe te voegen.",
+    "source": "849f7d80a6a0"
   },
   "studio.window.none-to-add": {
     "text": "Niets toe te voegen",
@@ -17775,6 +18553,10 @@
   "voices-dialog.not-added": {
     "text": "Niet toegevoegd",
     "source": "2460c620beba"
+  },
+  "calendar.not-among-your-talk-contacts-so": {
+    "text": "Niet bij je Talk-contactpersonen, dus deelnemen kan pas daarna: {who}",
+    "source": "6417af9e0717"
   },
   "sheets.dialogs.not-an-address-and-not-a": {
     "text": "Geen adres en geen plek die deze werkmap kent.",
@@ -17848,9 +18630,17 @@
     "text": "Hier niet gevonden. Blijft op zijn plaats tot je er een kiest.",
     "source": "feb7eac96064"
   },
+  "studio.guests.not-in-talk-just-now": {
+    "text": "Op dit moment niet in Talk",
+    "source": "e6711a24a8d7"
+  },
   "ui.proofing.not-in-dictionary": {
     "text": "Niet in woordenlijst",
     "source": "1642d2535d39"
+  },
+  "talk.lines.not-in-your-contacts": {
+    "text": "Niet in je contactpersonen",
+    "source": "df22cf8f3220"
   },
   "packs-dialog.not-installed": {
     "text": "Niet geïnstalleerd",
@@ -17907,6 +18697,10 @@
     "text": "Nog niet opgeslagen",
     "source": "35c5fe43950d"
   },
+  "talk.lines.not-sent": {
+    "text": "Niet verzonden",
+    "source": "cd5f943d5863"
+  },
   "mail.not-sent-yet-and-still-in": {
     "text": "Nog niet verzonden en nog in Postvak UIT.",
     "source": "a71ab808c55c"
@@ -17919,9 +18713,29 @@
     "text": "Niet verzonden: E-mail kan niet verzenden vanaf {address}, want dat account heeft geen uitgaande server.",
     "source": "6f70753ecb65"
   },
+  "talk.lines.not-sent-talk-was-not-connected": {
+    "text": "Niet verzonden: Talk was een dag lang niet verbonden.",
+    "source": "7c01514ece95"
+  },
+  "talk.lines.not-sent-the-message-is-too": {
+    "text": "Niet verzonden: het bericht is te lang.",
+    "source": "978afd9480df"
+  },
   "calendar.words.not-sent-there-is-no-mail": {
     "text": "Niet verzonden: er is geen e-mailaccount om het mee te verzenden. Voeg er een toe in E-mail, onder Accounts.",
     "source": "6425bf6ced3e"
+  },
+  "talk.lines.not-sent-too-many-messages-in": {
+    "text": "Niet verzonden: te veel berichten in één minuut.",
+    "source": "3fd20957747c"
+  },
+  "talk.lines.not-sent-you-are-no-longer": {
+    "text": "Niet verzonden: jullie zijn geen contactpersonen meer.",
+    "source": "a73aff6abeee"
+  },
+  "talk.lines.not-sent-you-are-no-longer-2": {
+    "text": "Niet verzonden: je zit niet meer in deze groep.",
+    "source": "2909d476e230"
   },
   "calendar.words.not-sent-reason": {
     "text": "Niet verzonden: {reason}",
@@ -17934,6 +18748,10 @@
   "base.not-shown-as-data-files-cannot": {
     "text": "Niet getoond, want Gegevensbestanden (Data Files) kan ze niet tonen: {tables}.",
     "source": "ddfa2ced7beb"
+  },
+  "calendar.not-streamed-live-this-cannot-be": {
+    "text": "Niet live gestreamd. Na opslaan niet meer te wijzigen.",
+    "source": "e75806a6a1c3"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
     "text": "Niet gestreamd naar {names}: geen streamsleutel.",
@@ -18091,6 +18909,10 @@
     "text": "Niets wordt verzonden totdat je op {action} drukt. Met Als concept bewaren blijft het op deze computer; Annuleren doet niets.",
     "source": "b045bd822cc1"
   },
+  "shell.tray.nothing-is-waiting": {
+    "text": "Er wacht niets",
+    "source": "dea4973695a6"
+  },
   "mail.nothing-is-waiting": {
     "text": "Er wacht niets.",
     "source": "ca4fb9abe74f"
@@ -18178,6 +19000,22 @@
   "common.nothing-yet": {
     "text": "Nog niets.",
     "source": "e056734effa8"
+  },
+  "shell.tray.notification-settings": {
+    "text": "Meldingsinstellingen…",
+    "source": "a936905265ce"
+  },
+  "common.notifications": {
+    "text": "Meldingen",
+    "source": "788011833a5a"
+  },
+  "shell.notifier.notifications-are-on": {
+    "text": "Meldingen staan aan",
+    "source": "ceaaed4b4f37"
+  },
+  "common.notifications-are-paused-until-time": {
+    "text": "Meldingen gepauzeerd tot {time}",
+    "source": "1d6521f14f4e"
   },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "Nu {width} bij {height} cm. Alles op de dia's is geschaald en gecentreerd voor het nieuwe formaat.",
@@ -18311,6 +19149,14 @@
     "text": "Buiten as 1: rechts",
     "source": "958afff2aff5"
   },
+  "studio.guests.off-air": {
+    "text": "Niet live",
+    "source": "9ce17b86cfdd"
+  },
+  "studio.sources-column.off-while-guests-are-here-it": {
+    "text": "Uit zolang er gasten zijn: het zou hun stemmen uitzenden, ook terwijl ze wachten.",
+    "source": "b81e9a23d5ab"
+  },
   "inspect.off-slide-content": {
     "text": "Inhoud buiten de dia",
     "source": "db649f82894a"
@@ -18419,6 +19265,10 @@
     "text": "Kies op instagram.com Add post en dan Live, en kopieer het adres en de streamsleutel. Instagram geeft elke keer een nieuwe sleutel, dus voeg die opnieuw toe voordat je live gaat.",
     "source": "a6223e20cbb4"
   },
+  "video.library.on-the-frame": {
+    "text": "In beeld",
+    "source": "1853d4732661"
+  },
   "image.on-the-mask-of-name-black": {
     "text": "Op het masker van {name}: zwart verbergt, wit toont",
     "source": "24aac0dd6d60"
@@ -18491,6 +19341,10 @@
     "text": "Eén stroom op het scherm voor een gewone cursor; de afdruk- en PDF-indeling splitst hem echt in kolommen",
     "source": "33bd0e1b78c3"
   },
+  "studio.guests.one-guest": {
+    "text": "Eén gast",
+    "source": "f02659f62459"
+  },
   "studio.spoken-run.one-line-each-each-is-read": {
     "text": "Eén per regel: ze worden om de beurt voorgelezen",
     "source": "f1c64f2624f8"
@@ -18521,6 +19375,14 @@
   "ai-tools-dialog.only-ai-apps-on-this-computer": {
     "text": "Alleen AI-apps op deze computer kunnen deze tools gebruiken. Niets luistert op het netwerk, dus geen andere computer kan verbinding maken.",
     "source": "96dbe7038e5b"
+  },
+  "talk-words.only-talk-contacts-of-the-organiser": {
+    "text": "Alleen Talk-contactpersonen van de organisator kunnen deelnemen. Ben je dat nog niet, vraag de organisator dan je toe te voegen in Talk.",
+    "source": "c3481062b128"
+  },
+  "talk.meet-lines.only-talk-contacts-of-name-can": {
+    "text": "Alleen Talk-contactpersonen van {name} kunnen deelnemen, tot {count} personen in totaal.",
+    "source": "6412aac0305f"
   },
   "common.only-word-excel-and-powerpoint-documents": {
     "text": "Alleen Word-, Excel- en PowerPoint-documenten kunnen worden ingesloten.",
@@ -18562,9 +19424,21 @@
     "text": "Alleen een ingang, nadruk of afsluiting die dit schrijft, kan per alinea worden afgespeeld",
     "source": "d3d5652df5c9"
   },
+  "notify-dialog.only-an-installed-copy-of-rutba": {
+    "text": "Alleen een geïnstalleerde versie van Rutba Office kan met Windows starten.",
+    "source": "5d376c6f923f"
+  },
   "word.only-certain-kinds-of-changes-can": {
     "text": "In dit document zijn alleen bepaalde soorten wijzigingen toegestaan. Zie Controleren → Bewerking beperken.",
     "source": "dd366cf8032e"
+  },
+  "talk-words.only-contacts-of-the-person-who": {
+    "text": "Alleen contactpersonen van wie deze vergadering heeft ingesteld, kunnen deelnemen.",
+    "source": "b340096d4b92"
+  },
+  "talk-words.only-contacts-of-name-can-join": {
+    "text": "Alleen contactpersonen van {name} kunnen deelnemen. Vraag {name} je toe te voegen in Talk.",
+    "source": "7c1a741c78f7"
   },
   "base.documents.only-for-records-where": {
     "text": "Alleen voor records waarbij",
@@ -18581,6 +19455,18 @@
   "base.documents.only-lines-where": {
     "text": "Alleen regels waarbij",
     "source": "7ab3bdec4e67"
+  },
+  "talk.server-share.only-me": {
+    "text": "Alleen ik",
+    "source": "bdc0857b99a9"
+  },
+  "talk.meet-lines.only-people-in-this-group-and": {
+    "text": "Alleen mensen in deze groep en Talk-contactpersonen van {name} kunnen deelnemen, tot {count} personen.",
+    "source": "d9dd584b74f6"
+  },
+  "talk.meet-lines.only-people-in-this-group-and-2": {
+    "text": "Alleen mensen in deze groep en je Talk-contactpersonen kunnen deelnemen, tot {count} personen.",
+    "source": "f9fcd01edae5"
   },
   "pictures.only-pictures-rated-so-many-stars": {
     "text": "Alleen afbeeldingen met zoveel sterren of meer",
@@ -18618,6 +19504,14 @@
     "text": "Alleen de eerste {count} records worden gelezen. Bewaar een kopie hier voor alle records.",
     "source": "df0ca43076cf"
   },
+  "talk-words.only-the-person-who-set-the": {
+    "text": "Alleen wie de vergadering heeft ingesteld, kan dat doen.",
+    "source": "7602b02c63bd"
+  },
+  "talk.lines.only-the-person-who-started-the": {
+    "text": "Alleen wie de groep heeft gestart, kan er iemand uit halen.",
+    "source": "7539223a2970"
+  },
   "locker.only-these-types": {
     "text": "Alleen deze typen",
     "source": "ba90201d2626"
@@ -18645,6 +19539,18 @@
   "slides.only-you-see-these": {
     "text": "Alleen jij ziet deze",
     "source": "de3333efad62"
+  },
+  "talk-words.only-your-talk-contacts-can-join": {
+    "text": "Alleen je Talk-contactpersonen kunnen deelnemen, tot {count} personen in totaal.",
+    "source": "0a88a1093f0b"
+  },
+  "talk-words.only-your-own-contacts-can-be": {
+    "text": "Alleen je eigen contactpersonen kunnen voor een vergadering worden uitgenodigd.",
+    "source": "dd0661381c23"
+  },
+  "talk.lines.only-your-own-contacts-can-be": {
+    "text": "Alleen je eigen contactpersonen kunnen in een groep worden gezet.",
+    "source": "4c15aef95595"
   },
   "common.opacity": {
     "text": "Dekking",
@@ -18677,6 +19583,10 @@
   "shell.open-recent": {
     "text": "Recent geopend",
     "source": "d2b9f8f8baec"
+  },
+  "common.open-talk": {
+    "text": "Talk openen",
+    "source": "702312a29580"
   },
   "broadcast.live-dialog.open-youtube-studio": {
     "text": "YouTube Studio openen",
@@ -18786,6 +19696,10 @@
     "text": "In browser openen",
     "source": "32f8dcaafb6c"
   },
+  "talk.meeting.open-in-live-broadcast": {
+    "text": "Openen in Live Broadcast",
+    "source": "71788b0e6607"
+  },
   "pictures.open-in-pdf": {
     "text": "Openen in PDF",
     "source": "4d0c059fc5c0"
@@ -18801,6 +19715,10 @@
   "studio.window.open-in-video": {
     "text": "Openen in Video…",
     "source": "8bb01e68be1b"
+  },
+  "talk.meeting.open-in-the-recorder": {
+    "text": "Openen in de Recorder",
+    "source": "7082739e9d2c"
   },
   "home.open-in-name": {
     "text": "Openen in {name}",
@@ -18833,6 +19751,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "Het Kick-dashboard openen",
     "source": "bf6f8e9ef858"
+  },
+  "talk.open-the-browser-again": {
+    "text": "Browser opnieuw openen",
+    "source": "96e91bde168e"
   },
   "locker.open-the-locked-folder-name": {
     "text": "Vergrendelde map {name} openen",
@@ -19026,6 +19948,10 @@
     "text": "Ordenen",
     "source": "21d9ac63ed66"
   },
+  "talk.meet-lines.organiser": {
+    "text": "Organisator",
+    "source": "ed385c3688f6"
+  },
   "calendar.words.organizer-name": {
     "text": "Organisator: {name}",
     "source": "b204de7ec321"
@@ -19194,6 +20120,10 @@
     "text": "Outlook, Thunderbird, Apple Mail en Windows Mail",
     "source": "275370d0b3be"
   },
+  "video.layer-names.outro-card": {
+    "text": "Eindkaart",
+    "source": "6907a3e2ea3f"
+  },
   "word.ribbon.outside-borders": {
     "text": "Buitenranden",
     "source": "fcf90f7bf23e"
@@ -19213,6 +20143,10 @@
   "common.overlay": {
     "text": "Overlay",
     "source": "2af93aeb435d"
+  },
+  "video.library.overlays": {
+    "text": "Overlays",
+    "source": "975c5697ac19"
   },
   "mail.archive.pdf": {
     "text": "PDF",
@@ -19470,6 +20404,10 @@
     "text": "Alinea's",
     "source": "d2ef75e86bb7"
   },
+  "video.library.paragraphs-and-lists": {
+    "text": "Alinea's en lijsten",
+    "source": "939c99de9e0b"
+  },
   "common.parallelogram": {
     "text": "Parallellogram",
     "source": "683f94df5c58"
@@ -19609,6 +20547,10 @@
   "common.pause": {
     "text": "Pauzeren",
     "source": "858e4ba7a29f"
+  },
+  "shell.tray.pause-notifications-for-an-hour": {
+    "text": "Meldingen een uur pauzeren",
+    "source": "c6a2583b7f7e"
   },
   "shell.ipc.pause-recording": {
     "text": "Opname pauzeren",
@@ -19922,6 +20864,10 @@
     "text": "Afbeeldingen die met meer detail staan dan de pagina nodig heeft, worden opnieuw getekend met de gekozen resolutie. Woorden, tekeningen en afbeeldingen die al klein genoeg zijn, blijven zoals ze zijn.",
     "source": "53b47116dc60"
   },
+  "pictures.pictures-to-a-sheet": {
+    "text": "Afbeeldingen per vel",
+    "source": "00d75274ddf4"
+  },
   "pictures.pictures-turns-a-jpeg-or-a": {
     "text": "Afbeeldingen draait en bewaart JPEG en PNG. Bewerken opent deze in Afbeelding om dat te doen.",
     "source": "e30d8a205692"
@@ -20154,6 +21100,14 @@
     "text": "Geluid van een clip afspelen in de voorstelling",
     "source": "97953b6cbcb8"
   },
+  "notify-dialog.play-a-sound": {
+    "text": "Geluid afspelen",
+    "source": "8dff69d0f091"
+  },
+  "talk.settings.play-a-sound-for-calls": {
+    "text": "Geluid afspelen bij oproepen",
+    "source": "ce1647f97917"
+  },
   "mail.play-all": {
     "text": "Alles afspelen",
     "source": "12e7b8220dc7"
@@ -20209,6 +21163,10 @@
   "slides.point-one": {
     "text": "Punt één",
     "source": "2ec0675e4836"
+  },
+  "video.inspector.point-n-of-count": {
+    "text": "Punt {n} van {count}",
+    "source": "56a4587fe6bd"
   },
   "video.pointer": {
     "text": "Aanwijzer",
@@ -20298,6 +21256,10 @@
     "text": "Voorkeursbreedte",
     "source": "5b079061e4dc"
   },
+  "pdf.preparing-to-print-page-page-of": {
+    "text": "Afdrukken voorbereiden: pagina {page} van {count}…",
+    "source": "9bb1226e682b"
+  },
   "pdf.preparing-to-print": {
     "text": "Afdrukken voorbereiden…",
     "source": "c59a4189b115"
@@ -20357,6 +21319,10 @@
   "calendar.press-ctrl-n-to-add-an": {
     "text": "Ctrl+N voegt een gebeurtenis toe, of open .ics.",
     "source": "e5eab9bad084"
+  },
+  "talk.lines.pretending-to-be-someone-else": {
+    "text": "Zich voordoen als iemand anders",
+    "source": "59f4886f4bb6"
   },
   "sheets.prevent-unwanted-changes-to-the-structure": {
     "text": "Voorkom ongewenste wijzigingen aan de structuur van de werkmap, zoals bladen toevoegen.",
@@ -20489,6 +21455,10 @@
     "text": "Vorige pagina (Page Up)",
     "source": "46cf81b2cef0"
   },
+  "video.inspector.previous-point": {
+    "text": "Vorige punt",
+    "source": "91cc073698f7"
+  },
   "common.previous-record": {
     "text": "Vorige record",
     "source": "07da30ed59d9"
@@ -20589,6 +21559,26 @@
     "text": "Afdruksjablonen",
     "source": "bab0e4da816c"
   },
+  "contacts.print-the-chosen-contact-or-the": {
+    "text": "De gekozen contactpersoon of de getoonde lijst afdrukken",
+    "source": "31dc4642a37a"
+  },
+  "image.print-the-picture-as-it-is": {
+    "text": "De afbeelding afdrukken zoals ze nu is",
+    "source": "0c7c09978527"
+  },
+  "calendar.print-the-view-shown": {
+    "text": "Huidige weergave afdrukken",
+    "source": "99699c6c4993"
+  },
+  "pictures.print-this-picture-or-every-picture": {
+    "text": "Deze afbeelding of alle getoonde afbeeldingen afdrukken",
+    "source": "093d65442545"
+  },
+  "print.print-through-the-systems-own-dialog": {
+    "text": "Afdrukken via het eigen dialoogvenster van het systeem, voor wat alleen de printerinstellingen bieden: dubbelzijdig, een lade.",
+    "source": "e89c1e415e38"
+  },
   "base.forms.print-name": {
     "text": "{name} afdrukken",
     "source": "9adb2fe770f7"
@@ -20608,6 +21598,10 @@
   "print.printer": {
     "text": "Printer",
     "source": "024eac5b1a63"
+  },
+  "print.printing-name": {
+    "text": "Afdrukken: {name}",
+    "source": "a059eabd2695"
   },
   "print.printing": {
     "text": "Afdrukken…",
@@ -20688,6 +21682,10 @@
   "studio.window.program": {
     "text": "Programma",
     "source": "90920d93e2c7"
+  },
+  "video.layer-names.progress-bar": {
+    "text": "Voortgangsbalk",
+    "source": "88bbc75dfba2"
   },
   "video.project": {
     "text": "Project",
@@ -20853,6 +21851,18 @@
     "text": "Duwen",
     "source": "731ce7ed8089"
   },
+  "video.timeline.push-down": {
+    "text": "Omlaag duwen",
+    "source": "cdba3e1d8ea7"
+  },
+  "video.timeline.push-right": {
+    "text": "Naar rechts duwen",
+    "source": "2bce51eb1c20"
+  },
+  "video.timeline.push-up": {
+    "text": "Omhoog duwen",
+    "source": "385412ecb6be"
+  },
   "base.form-designer.put-a-field-on-the-form": {
     "text": "Een veld op het formulier zetten",
     "source": "51273d7500b8"
@@ -20896,6 +21906,10 @@
   "image.tools.put-the-pins-back": {
     "text": "De pinnen terugzetten",
     "source": "58213ed57cab"
+  },
+  "video.inspector.put-the-playhead-on-this-clip": {
+    "text": "Zet de afspeelkop op deze clip om een punt te zetten.",
+    "source": "202e5c234e9a"
   },
   "pdf.put-the-tool-down": {
     "text": "Het gereedschap neerleggen",
@@ -20989,6 +22003,14 @@
     "text": "Snelle stijlen",
     "source": "6887852d0183"
   },
+  "notify-dialog.quiet-hours": {
+    "text": "Stille uren",
+    "source": "bf0671dd69c6"
+  },
+  "shell.tray.quit-name": {
+    "text": "{name} afsluiten",
+    "source": "c082bda435d6"
+  },
   "mail.compose.quote": {
     "text": "Citaat",
     "source": "eb4cdebd82bf"
@@ -21016,6 +22038,10 @@
   "equations.radical-with-degree": {
     "text": "Wortel met graad",
     "source": "8b150a3c64cf"
+  },
+  "talk.meeting.raise-your-hand": {
+    "text": "Hand opsteken",
+    "source": "a7d9af47bf64"
   },
   "slides.motion.random-bars": {
     "text": "Willekeurige balken",
@@ -21088,6 +22114,10 @@
   "word.ribbon.read-aloud-2": {
     "text": "Voorlezen",
     "source": "0791ec684798"
+  },
+  "spoken.voices.read-aloud-only": {
+    "text": "Alleen voorlezen",
+    "source": "3953b35ec0c1"
   },
   "base.people.read-and-add": {
     "text": "Lezen en toevoegen",
@@ -21180,6 +22210,10 @@
   "mail.read-the-unread-messages-in-the": {
     "text": "De ongelezen berichten in de lijst op volgorde voorlezen. Elk bericht wordt als gelezen gemarkeerd zodra het helemaal is voorgelezen.",
     "source": "dff6be303eab"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "De woorden voorlezen",
+    "source": "f8bde48fd589"
   },
   "base.links.read-what-changed-by-field": {
     "text": "Wijzigingen lezen via {field}",
@@ -21524,6 +22558,10 @@
   "studio.window.recording-into-name": {
     "text": "Opnemen naar {name}",
     "source": "56b02d64afc5"
+  },
+  "studio.guests.recording-with-name": {
+    "text": "Opname met {name}",
+    "source": "e6be6a2a2c15"
   },
   "video.export.recording-done-of-total": {
     "text": "Opnemen {done} van {total}",
@@ -21955,9 +22993,17 @@
     "text": "Inhoudsopgave weghalen",
     "source": "02fb6aa5132e"
   },
+  "video.remove-a-movement-point": {
+    "text": "Een bewegingspunt verwijderen",
+    "source": "866caceec826"
+  },
   "mail.remove-account": {
     "text": "Account verwijderen…",
     "source": "f6c7b21aa0c2"
+  },
+  "video.inspector.remove-all-movement": {
+    "text": "Alle beweging verwijderen",
+    "source": "c117c982cedd"
   },
   "locker.remove-anyway": {
     "text": "Toch verwijderen",
@@ -22089,6 +23135,14 @@
   "redact.remove-this-mark": {
     "text": "Deze markering verwijderen",
     "source": "5b7142126ca5"
+  },
+  "video.remove-this-movement-point": {
+    "text": "Dit bewegingspunt verwijderen",
+    "source": "5b0a79929123"
+  },
+  "video.inspector.remove-this-point": {
+    "text": "Dit punt verwijderen",
+    "source": "1db17d0d592c"
   },
   "profiles.remove-this-profile": {
     "text": "Dit profiel verwijderen",
@@ -22428,9 +23482,29 @@
     "text": "Rapporttype",
     "source": "6add2e391964"
   },
+  "talk.report.report-name": {
+    "text": "{name} rapporteren",
+    "source": "a72e14cff779"
+  },
+  "talk.report.reported-and-name-is-blocked": {
+    "text": "Gerapporteerd, en {name} is geblokkeerd.",
+    "source": "24147a41c039"
+  },
+  "talk.report.reported-thank-you": {
+    "text": "Gerapporteerd. Bedankt.",
+    "source": "e2f870ec73f5"
+  },
+  "talk.report.reported-name-could-not-be-blocked": {
+    "text": "Gerapporteerd. {name} kon nu niet worden geblokkeerd.",
+    "source": "f931a2f8128d"
+  },
   "base.reports": {
     "text": "Rapporten",
     "source": "dacca3cba3f3"
+  },
+  "talk.report": {
+    "text": "Rapporteren…",
+    "source": "a89f2286bde4"
   },
   "protect.require-a-password-to-open-this": {
     "text": "Vereis een wachtwoord om dit bestand ({noun}) te openen.",
@@ -22472,6 +23546,10 @@
     "text": "Niveaus herstellen",
     "source": "8e4afe1ebcd7"
   },
+  "studio.window.reset-this-session": {
+    "text": "Deze sessie opnieuw instellen?",
+    "source": "9a895f8c4a9f"
+  },
   "slides.ribbon.reset-to-cameo": {
     "text": "Cameo herstellen",
     "source": "60043910ccf9"
@@ -22479,6 +23557,10 @@
   "slides.ribbon.reset-to-cameo-the-cameras-recording": {
     "text": "Cameo herstellen: de camera-opname gaat van deze dia af en de livecameo komt terug",
     "source": "d886796ba64a"
+  },
+  "studio.reset-to-a-new-session": {
+    "text": "Opnieuw instellen als nieuwe sessie",
+    "source": "6b9c5be76d1e"
   },
   "slides.ribbon.reset-to-the-layouts": {
     "text": "Naar indeling herstellen",
@@ -22579,6 +23661,10 @@
   "shell.restart-and-update": {
     "text": "Opnieuw starten en bijwerken",
     "source": "78b017c77e5b"
+  },
+  "shell.tray.restart-and-update-to-version": {
+    "text": "Opnieuw starten en bijwerken naar {version}",
+    "source": "c479443bee7d"
   },
   "word.ribbon.restart-each-page": {
     "text": "Elke pagina opnieuw",
@@ -23288,6 +24374,14 @@
     "text": "Rutba Office stopte terwijl dit werd verzonden, dus het is misschien wel of niet verstuurd. Kijk in Verzonden items en verstuur het opnieuw of verwijder het.",
     "source": "7e8c68e608d6"
   },
+  "notify-dialog.rutba-office-watches-only-while-it": {
+    "text": "Rutba Office let alleen op zolang het actief is. Na Afsluiten meldt het niets meer tot het weer wordt geopend.",
+    "source": "647452751dca"
+  },
+  "voices-dialog.rutba-office-version-does-not-have": {
+    "text": "Rutba Office {version} heeft {name} niet ingebouwd: de vensters blijven in het Engels tot het taalpakket klaar is.",
+    "source": "c954897db32a"
+  },
   "shell.rutba-office-version-is-available": {
     "text": "Rutba Office {version} is beschikbaar",
     "source": "cb7fd85cbfa1"
@@ -23295,10 +24389,6 @@
   "shell.rutba-office-version-is-downloaded-restart": {
     "text": "Rutba Office {version} is gedownload. Start opnieuw om bij te werken, of het installeert bij afsluiten",
     "source": "ef28bb66ae1a"
-  },
-  "voices-dialog.rutba-office-version-does-not-have": {
-    "text": "Rutba Office {version} heeft {name} niet ingebouwd: de vensters blijven in het Engels tot het taalpakket klaar is.",
-    "source": "c954897db32a"
   },
   "voices-dialog.rutba-office-version-is-out-but": {
     "text": "Rutba Office {version} is uit, maar je stemmen en talen konden er niet voor worden gecontroleerd. Bij de volgende controle wordt het opnieuw gevraagd.",
@@ -23632,6 +24722,10 @@
     "text": "Opslaan als project…",
     "source": "aa2fcc84716b"
   },
+  "studio.setups-menu.save-as-a-setup": {
+    "text": "Opslaan als opstelling…",
+    "source": "d9ef0d0b399e"
+  },
   "studio.scene-strip.save-as-scene": {
     "text": "Opslaan als scène",
     "source": "efdeca1676b4"
@@ -23716,6 +24810,14 @@
     "text": "Sla de werkmap eerst op, zodat een tweede venster hetzelfde bestand kan openen.",
     "source": "5518cf201954"
   },
+  "studio.setups-menu.save-this-session-as-a-setup": {
+    "text": "Deze sessie opslaan als opstelling",
+    "source": "61675a542380"
+  },
+  "studio.setups-menu.save-this-session-as-a-setup-2": {
+    "text": "Deze sessie opslaan als opstelling…",
+    "source": "dac52cb33434"
+  },
   "studio.window.save-to-a-file": {
     "text": "In een bestand opslaan",
     "source": "08c57ac92835"
@@ -23727,6 +24829,10 @@
   "studio.scene-strip.save-what-the-frame-shows-as": {
     "text": "Opslaan wat het beeld toont als nieuwe scène",
     "source": "04d539ee1ba5"
+  },
+  "calendar.save-without-the-meeting": {
+    "text": "Opslaan zonder vergadering",
+    "source": "a466a78156a8"
   },
   "english-switch.save-your-changes-first-this-window": {
     "text": "Sla eerst je wijzigingen op: dit venster wordt in het Engels weergegeven zodra het opnieuw wordt geopend. De vensters die je vanaf nu opent, zijn in het Engels.",
@@ -24138,6 +25244,10 @@
   "image.tools.second-colour-where-a-gradient-ends": {
     "text": "Tweede kleur: waar een verloop eindigt",
     "source": "014aa91028da"
+  },
+  "video.library.second-point": {
+    "text": "Tweede punt",
+    "source": "55b07a59a655"
   },
   "calendar.second-time-zone": {
     "text": "Tweede tijdzone",
@@ -24583,6 +25693,10 @@
     "text": "Records verzenden",
     "source": "ac745ff044b3"
   },
+  "talk.report.send-report": {
+    "text": "Rapport verzenden",
+    "source": "a44d35311325"
+  },
   "calendar.send-the-cancellation": {
     "text": "De annulering verzenden",
     "source": "97640bdf22a3"
@@ -24606,6 +25720,10 @@
     "text": "De uitnodiging verzenden?",
     "source": "d11e030a9b61"
   },
+  "studio.guests.send-the-link-to-a-contact": {
+    "text": "Stuur de koppeling naar een contactpersoon die Rutba Office gebruikt. Die neemt deel in Talk.",
+    "source": "ec69e7a826e5"
+  },
   "common.send-to-back": {
     "text": "Naar achtergrond",
     "source": "33e1c6b9be0f"
@@ -24621,6 +25739,14 @@
   "locker.send-to-someone-2": {
     "text": "Naar iemand verzenden…",
     "source": "40f3eb523a46"
+  },
+  "talk.lines.send-up-to-count-of-the": {
+    "text": "Tot {count} van de laatste berichten die {name} in deze groep schreef met het rapport meesturen",
+    "source": "672637e06022"
+  },
+  "talk.lines.send-up-to-count-of-the-2": {
+    "text": "Tot {count} van de laatste berichten die {name} jou schreef met het rapport meesturen",
+    "source": "154b797f57b4"
   },
   "calendar.send-update": {
     "text": "Update verzenden",
@@ -24674,6 +25800,10 @@
     "text": "Alleen verzonden naar {where}",
     "source": "65fa593794d6"
   },
+  "print.sent-through-the-system-dialog": {
+    "text": "Verzonden via het systeemdialoogvenster.",
+    "source": "796f50686541"
+  },
   "mail.sent-to": {
     "text": "Verzonden aan",
     "source": "4e7201c7b898"
@@ -24682,6 +25812,14 @@
     "text": "Verzonden aan iemand, in kopie of in blinde kopie",
     "source": "d55c51982d58"
   },
+  "pdf.sent-to-the-printer": {
+    "text": "Naar de printer verzonden.",
+    "source": "b35f62ca8b34"
+  },
+  "print.sent-to-printer": {
+    "text": "Naar {printer} verzonden.",
+    "source": "918838f49130"
+  },
   "mail.sent-to-to": {
     "text": "Verzonden aan {to}",
     "source": "f0ee21e891eb"
@@ -24689,13 +25827,6 @@
   "mail.sent-to-who-it-went-to": {
     "text": "Verzonden aan: naar wie het ging",
     "source": "31eea1f8449b"
-  },
-  "print.sent-count-page-to-the-printer": {
-    "forms": {
-      "one": "{count} pagina naar de printer verzonden.",
-      "other": "{count} pagina's naar de printer verzonden."
-    },
-    "source": "01f92bc64175"
   },
   "print.sent-count-page-to-printer": {
     "forms": {
@@ -24842,6 +25973,22 @@
     "text": "Wachtwoord instellen…",
     "source": "0d69c19ffedf"
   },
+  "video.set-a-movement-point": {
+    "text": "Een bewegingspunt zetten",
+    "source": "f2e85e0213a2"
+  },
+  "video.set-a-movement-point-here": {
+    "text": "Hier een bewegingspunt zetten",
+    "source": "82a45446fe3a"
+  },
+  "video.inspector.set-a-point-here": {
+    "text": "Hier een punt zetten",
+    "source": "8d5454e6187b"
+  },
+  "video.inspector.set-a-point-here-then-move": {
+    "text": "Zet hier een punt, verplaats dan de afspeelkop en wijzig de clip: hij beweegt van het ene punt naar het volgende.",
+    "source": "5cc1988df0dd"
+  },
   "word.ribbon.set-as-default": {
     "text": "Als standaard instellen",
     "source": "10886554da51"
@@ -24877,6 +26024,10 @@
   "mail.accounts-bulk.set-up-by-hand": {
     "text": "Handmatig instellen",
     "source": "51e0b5053fed"
+  },
+  "talk.meeting.set-up-by-name": {
+    "text": "Ingesteld door {name}",
+    "source": "f82e137b4907"
   },
   "broadcast.live-dialog.set-up-once-here-the-icons": {
     "text": "Stel ze hier eenmaal in. De pictogrammen in deelvenster Live kiezen welke live gaan.",
@@ -25074,6 +26225,10 @@
     "text": "Scherm delen",
     "source": "5a271ba7ed24"
   },
+  "talk.meet-lines.sharing": {
+    "text": "Deelt",
+    "source": "bbedc70e985f"
+  },
   "image.sharpen": {
     "text": "Verscherpen",
     "source": "ac6f0be1274c"
@@ -25170,6 +26325,10 @@
     "text": "Korte tekst",
     "source": "38a11505fddd"
   },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "Sneltoets: Ctrl+Enter in het vak",
+    "source": "46629f7a364b"
+  },
   "word.ribbon.shortcuts": {
     "text": "Sneltoetsen",
     "source": "46e978d0c193"
@@ -25265,6 +26424,10 @@
     "text": "Geavanceerde opties weergeven",
     "source": "da5bdeb6de5d"
   },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "Weergeven en voorlezen",
+    "source": "cad1b91fa8e8"
+  },
   "home.show-announcements-from-office-rutba-io": {
     "text": "Aankondigingen van office.rutba.io weergeven, hooguit één keer per dag. Alleen de versie en het besturingssysteem gaan mee, zonder enige identificatie: geteld wordt “ergens een geopende kopie”, nooit jij. Het is ook onze enige manier om te weten of de suite wordt gebruikt.",
     "source": "c22ab06b6afe"
@@ -25308,6 +26471,14 @@
   "studio.sources-column.show-on-the-frame": {
     "text": "In het beeld tonen",
     "source": "519dcf3aea71"
+  },
+  "notify-dialog.show-one-now": {
+    "text": "Er nu een weergeven",
+    "source": "67b49e6671f5"
+  },
+  "spoken.voices.show-only": {
+    "text": "Alleen weergeven",
+    "source": "a8d71c961005"
   },
   "base.documents.show-only-when": {
     "text": "Alleen weergeven als",
@@ -25369,6 +26540,10 @@
     "text": "De rij- en kolomkoppen weergeven",
     "source": "4f7b9dcce409"
   },
+  "studio.spoken-run.show-the-words": {
+    "text": "De woorden weergeven",
+    "source": "a64d13b0ead9"
+  },
   "sheets.dialogs.show-them-as": {
     "text": "Weergeven als",
     "source": "6380dba9f992"
@@ -25393,6 +26568,10 @@
     "text": "Type voorstelling",
     "source": "5d97277b82b2"
   },
+  "notify-dialog.show-what-it-says": {
+    "text": "Weergeven wat erin staat",
+    "source": "01ff1c611346"
+  },
   "studio.window.show-when-this-microphone-is-heard": {
     "text": "Tonen als deze microfoon te horen is",
     "source": "96f36148fdc1"
@@ -25405,6 +26584,10 @@
     "text": "Weergeven zonder gesproken tekst",
     "source": "8ba4b5d237cc"
   },
+  "shell.tray.show-name": {
+    "text": "{name} weergeven",
+    "source": "94cf7a9396b0"
+  },
   "sheets.objects.show-draw-it-on-the-sheet": {
     "text": "Weergeven: weer op het blad tekenen",
     "source": "d05630721fcb"
@@ -25412,6 +26595,10 @@
   "sheets.dialogs.show-the-workbook-as-the-picked": {
     "text": "Weergeven: de werkmap zoals de gekozen weergave hem bewaarde",
     "source": "218714768526"
+  },
+  "talk.meet-lines.showing-their-screen": {
+    "text": "Deelt het eigen scherm",
+    "source": "1c428d39d527"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "Zichtbaar voor de mensen met wie je praat",
@@ -25432,6 +26619,10 @@
   "smartart-dialog.shows-a-list-of-ideas-one": {
     "text": "Toont een lijst ideeën onder elkaar, elk in een breed afgerond vak.",
     "source": "f07c241a43e6"
+  },
+  "notify-dialog.shows-a-notification-so-you-see": {
+    "text": "Geeft een melding weer, zodat je ziet en hoort hoe ze binnenkomen",
+    "source": "2d376b05d758"
   },
   "smartart-dialog.shows-each-top-item-over-the": {
     "text": "Toont elk bovenste item boven de items eronder, met een lijn naar elk. Spring een regel in met Tab om hem onder de vorige te zetten.",
@@ -25504,6 +26695,14 @@
   "base.links.sign-in-there": {
     "text": "Daar aanmelden…",
     "source": "7c04fead2759"
+  },
+  "talk.meet-lines.sign-in-to-talk-again-then": {
+    "text": "Meld je opnieuw aan bij Talk en probeer de vergadering dan nog eens.",
+    "source": "b943c0a49ad6"
+  },
+  "calendar.sign-in-to-talk-first-then": {
+    "text": "Meld je eerst aan bij Talk en sla dan opnieuw op.",
+    "source": "491e45adfd74"
   },
   "talk.invite.sign-in-to-talk-to-accept": {
     "text": "Meld je aan bij Talk om de uitnodiging te accepteren die je opende.",
@@ -25841,6 +27040,10 @@
     "text": "Dia verwijderd: {title}",
     "source": "c24b313f47ef"
   },
+  "video.slide-down": {
+    "text": "Omlaag schuiven",
+    "source": "9a92bf81ad2c"
+  },
   "slides.revisions.slide-inserted": {
     "text": "Dia ingevoegd",
     "source": "c16c67a34fec"
@@ -25848,6 +27051,10 @@
   "slides.revisions.slide-inserted-title": {
     "text": "Dia ingevoegd: {title}",
     "source": "55acf25dcb94"
+  },
+  "video.inspector.slide-left": {
+    "text": "Naar links schuiven",
+    "source": "667e27d731ed"
   },
   "slides.revisions.slide-moved-from-from-to-to": {
     "text": "Dia verplaatst van {from} naar {to}",
@@ -25857,6 +27064,10 @@
     "text": "Dianummer",
     "source": "45f8d371aeda"
   },
+  "video.slide-right": {
+    "text": "Naar rechts schuiven",
+    "source": "c21b51293031"
+  },
   "slides.custom-shows.slide-show-name": {
     "text": "Naam van diavoorstelling",
     "source": "077168762d89"
@@ -25864,6 +27075,10 @@
   "review.slide-title": {
     "text": "Diatitel",
     "source": "612dadcd27d3"
+  },
+  "video.slide-up": {
+    "text": "Omhoog schuiven",
+    "source": "d081156f5749"
   },
   "slides.slide-at-of-total": {
     "text": "Dia {at} van {total}",
@@ -25940,6 +27155,18 @@
   "studio.prompter.slow": {
     "text": "Traag",
     "source": "4b2bebbf33ae"
+  },
+  "video.inspector.slowing-to-a-stop": {
+    "text": "Afremmen tot stilstand",
+    "source": "baa524feba79"
+  },
+  "video.inspector.slowly-at-both-ends": {
+    "text": "Langzaam aan beide uiteinden",
+    "source": "704134084b2d"
+  },
+  "video.inspector.slowly-at-first": {
+    "text": "Eerst langzaam",
+    "source": "db97512145ab"
   },
   "common.small": {
     "text": "Klein",
@@ -26089,13 +27316,45 @@
     "text": "Niet alle verwijderde inhoud komt terug met Ongedaan maken. Bewaar zo nodig eerst een kopie.",
     "source": "a0c21edec972"
   },
+  "talk.meet-lines.somebody-in-the-meeting-cannot-be": {
+    "text": "Iemand in de vergadering is hier niet te horen of te zien: diens Talk heeft een andere sleutel. Die persoon moet de vergadering verlaten en opnieuw deelnemen.",
+    "source": "0e0076b93070"
+  },
+  "talk.server-share.somebody-no-longer-in-your-contacts": {
+    "text": "Iemand die geen contactpersoon meer is",
+    "source": "9487d019ebd3"
+  },
   "common.someone": {
     "text": "Iemand",
     "source": "864c855e3d64"
   },
+  "shell.notifier.someone-in-talk": {
+    "text": "Iemand in Talk",
+    "source": "d3e2d6b776c6"
+  },
+  "talk.missed.someone-no-longer-in-your-contacts": {
+    "text": "Iemand die niet meer bij je contactpersonen staat",
+    "source": "42463e6dd6e8"
+  },
+  "talk.lines.someone-who-left": {
+    "text": "Iemand die is vertrokken",
+    "source": "9d5f4f09ff49"
+  },
   "base.links.someone-whose-role-may-change-the": {
     "text": "Iemand met ontwerprechten staat de bronnen van deze database op deze computer toe.",
     "source": "3b302bdc61d2"
+  },
+  "talk.settings.someone-you-blocked": {
+    "text": "Iemand die je hebt geblokkeerd",
+    "source": "a9c049774e21"
+  },
+  "talk.settings.someone-you-unblock-can-ask-to": {
+    "text": "Iemand van wie je de blokkering opheft, kan opnieuw vragen je contactpersoon te worden. Diegene komt niet terug in je contactpersonen.",
+    "source": "e3e6c74dbcf9"
+  },
+  "talk.lines.something-else": {
+    "text": "Iets anders",
+    "source": "cc7284314484"
   },
   "video.starters.something-new-is-here": {
     "text": "Er is iets nieuws",
@@ -26205,17 +27464,21 @@
     "text": "Geluid en camera",
     "source": "dfc99fd3b4fc"
   },
+  "video.sound-and-video-files": {
+    "text": "Geluids- en videobestanden",
+    "source": "b7c72813a878"
+  },
+  "video.library.sound-and-video-files-you-add": {
+    "text": "Geluids- en videobestanden die je hier toevoegt, van deze computer of van een webadres, blijven in deze lijst staan voor elk project.",
+    "source": "ccb27b12993d"
+  },
   "video.sound-clip": {
     "text": "Geluidsclip",
     "source": "556f55adc8bd"
   },
-  "studio.spoken-run.read-the-words-aloud": {
-    "text": "De woorden voorlezen",
-    "source": "f8bde48fd589"
-  },
-  "studio.spoken-run.show-the-words": {
-    "text": "De woorden weergeven",
-    "source": "a64d13b0ead9"
+  "video.library.sound-effects": {
+    "text": "Geluidseffecten",
+    "source": "a7180005e20c"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "Het geluid staat niet aan, dus de stem zit niet in de opname en niet in de stream.",
@@ -26292,6 +27555,10 @@
   "word.ribbon.spacing-for-the-paragraphs-you-have": {
     "text": "Afstand voor de alinea's die je hebt geselecteerd",
     "source": "82c0e0a3d918"
+  },
+  "talk.lines.spam-or-advertising": {
+    "text": "Spam of reclame",
+    "source": "73c0fc4bd35d"
   },
   "common.sparkle": {
     "text": "Fonkeling",
@@ -26476,6 +27743,10 @@
     "text": "Gesproken regels",
     "source": "b6fcaf71e96b"
   },
+  "video.ribbon.spoken-words": {
+    "text": "Gesproken woorden",
+    "source": "b5f7a276ab16"
+  },
   "slides.spring-2026": {
     "text": "Voorjaar 2026",
     "source": "19978811abbe"
@@ -26600,6 +27871,10 @@
     "text": "Starten bij klikken",
     "source": "935ac1acfac5"
   },
+  "notify-dialog.start-rutba-office-with-windows": {
+    "text": "Rutba Office starten met Windows",
+    "source": "54d42e160b97"
+  },
   "slides.ribbon.start-slide-show": {
     "text": "Show starten",
     "source": "fbf318d7d0dd"
@@ -26636,6 +27911,10 @@
     "text": "Vanaf het begin starten (F5)",
     "source": "c87b7cf37193"
   },
+  "talk.groups.start-group": {
+    "text": "Groep starten",
+    "source": "37ac5a2c7c6c"
+  },
   "home.start-something": {
     "text": "Iets beginnen",
     "source": "0c4b50ca224b"
@@ -26664,6 +27943,14 @@
     "text": "Starten:",
     "source": "84cc09ea4cfa"
   },
+  "shell.notifier.started-at-time": {
+    "text": "Gestart om {time}",
+    "source": "96673d9cbad8"
+  },
+  "talk.lines.started-the-group": {
+    "text": "Heeft de groep gestart",
+    "source": "da23c27bd111"
+  },
   "base.documents.starting-from": {
     "text": "Beginnend bij",
     "source": "8f51d73d59f4"
@@ -26675,6 +27962,10 @@
   "studio.record-panel.starting-in-n": {
     "text": "Begint over {n}",
     "source": "bd04cbbfa525"
+  },
+  "shell.notifier.starting-now": {
+    "text": "Begint nu",
+    "source": "11dc78f6ce9c"
   },
   "video.export.starting-the-encoder": {
     "text": "Encoder starten…",
@@ -26824,6 +28115,10 @@
     "text": "Voorlezen stoppen",
     "source": "78be99f18a5c"
   },
+  "word.stop-reading-to-change-the-words": {
+    "text": "Stop het voorlezen om de tekst te wijzigen.",
+    "source": "9cfe5190d612"
+  },
   "shell.ipc.stop-recording": {
     "text": "Opname stoppen",
     "source": "3d591e826d54"
@@ -26839,6 +28134,10 @@
   "talk.stop-sharing": {
     "text": "Delen stoppen",
     "source": "b2c78147ed57"
+  },
+  "studio.guests.stop-the-recording-first": {
+    "text": "Stop eerst de opname.",
+    "source": "bceedc4c4eda"
   },
   "sheets.dialogs.stop-value": {
     "text": "Eindwaarde",
@@ -27184,6 +28483,10 @@
     "text": "Synchroniseren…",
     "source": "8a046cc90ab0"
   },
+  "print.system-dialog": {
+    "text": "Systeemdialoogvenster…",
+    "source": "67f7c0af7646"
+  },
   "read-aloud.bar.system-voice": {
     "text": "Systeemstem",
     "source": "2d3d23392b00"
@@ -27395,6 +28698,10 @@
     "text": "Uit het beeld halen",
     "source": "a45c22273922"
   },
+  "studio.guests.take-out": {
+    "text": "Uit vergadering halen",
+    "source": "a7fc33e3bc67"
+  },
   "base.form-designer.take-the-field-picked-off-the": {
     "text": "Het gekozen veld van het formulier halen. Het blijft in de tabel.",
     "source": "4aacdaf96dce"
@@ -27443,6 +28750,14 @@
     "text": "{email} weghalen",
     "source": "dabf194f9fee"
   },
+  "studio.guests.take-name-out-of-the-meeting": {
+    "text": "{name} uit de vergadering halen?",
+    "source": "7c3125d540b1"
+  },
+  "talk.groups.take-name-out-of-this-group": {
+    "text": "{name} uit deze groep halen?",
+    "source": "74905e01f3b4"
+  },
   "common.take-n": {
     "text": "Opname {n}",
     "source": "26dc5b52d6c6"
@@ -27475,6 +28790,30 @@
     "text": "Talk",
     "source": "449f5a775762"
   },
+  "common.talk-cannot-do-this-yet-the": {
+    "text": "Talk kan dit nog niet: de Talk-service waarmee deze installatie verbonden is, moet worden bijgewerkt.",
+    "source": "4e1bd3d7d0ef"
+  },
+  "talk.invite.talk-cannot-take-invitations-yet-the": {
+    "text": "Talk kan nog geen uitnodigingen aannemen: de Talk-service waarmee deze installatie verbonden is, moet worden bijgewerkt.",
+    "source": "55636b97709a"
+  },
+  "talk.server-share.talk-could-not-change-who-may": {
+    "text": "Talk kon niet wijzigen wie op {name} mag vergaderen. Probeer het zo opnieuw.",
+    "source": "dc1ab49ae9ad"
+  },
+  "talk.meet-lines.talk-could-not-confirm-that-the": {
+    "text": "Talk kon niet bevestigen dat de Talk Server die van deze vergadering is, dus Talk maakte geen verbinding.",
+    "source": "9684b385d927"
+  },
+  "talk.meet-lines.talk-could-not-connect-to-the": {
+    "text": "Talk kon geen verbinding maken met de Talk Server van de vergadering. Probeer het zo opnieuw.",
+    "source": "703304b87918"
+  },
+  "calendar.talk-could-not-connect-so-the": {
+    "text": "Talk kon geen verbinding maken, dus de vergadering is niet ingesteld. Controleer de verbinding en sla opnieuw op.",
+    "source": "80ec6966c483"
+  },
   "talk.address.talk-could-not-do-that-now": {
     "text": "Talk kon dat nu niet doen. Probeer het zo opnieuw.",
     "source": "724fa466cd0e"
@@ -27483,9 +28822,41 @@
     "text": "Talk kon dat niet doen. Probeer het zo opnieuw.",
     "source": "dc5636efcd10"
   },
+  "talk.meet-lines.talk-could-not-reach-the-meetings": {
+    "text": "Talk kon de Talk Server van de vergadering niet bereiken. Controleer je verbinding en probeer het opnieuw.",
+    "source": "0d4b04ba1935"
+  },
+  "talk.meet-lines.talk-could-not-use-your-camera": {
+    "text": "Talk kan je camera niet gebruiken. Controleer de privacyinstellingen van deze computer voor de camera, en of geen andere app hem gebruikt.",
+    "source": "5aa2f3a5e702"
+  },
+  "talk.meet-lines.talk-could-not-use-your-microphone": {
+    "text": "Talk kan je microfoon niet gebruiken. Anderen kunnen je niet horen. Controleer de privacyinstellingen van deze computer voor de microfoon.",
+    "source": "26e36fca513a"
+  },
+  "talk.talk-is-not-connected": {
+    "text": "Talk is niet verbonden.",
+    "source": "ce45e3ce7fde"
+  },
   "talk.invite.talk-is-not-connected-try-again": {
     "text": "Talk is niet verbonden. Probeer het zo opnieuw.",
     "source": "a4eca2b3e847"
+  },
+  "calendar.talk-is-not-installed-on-this": {
+    "text": "Talk is niet op deze computer geïnstalleerd.",
+    "source": "aea90ea8e986"
+  },
+  "talk.settings.talk-settings": {
+    "text": "Talk-instellingen",
+    "source": "36e8d5e94219"
+  },
+  "talk.lines.talk-was-not-open": {
+    "text": "Talk was niet open",
+    "source": "62d9c8e2fe06"
+  },
+  "studio.window.talk-windows-cannot-be-shown-here": {
+    "text": "Talk-vensters kunnen hier niet worden getoond. Zet een vergadering live met Gasten.",
+    "source": "76c4164f1516"
   },
   "talk.invite.talk-with-me-on-rutba-talk": {
     "text": "Praat met me op Rutba Talk",
@@ -27494,6 +28865,10 @@
   "talk.talk-with-your-contacts": {
     "text": "Praten met je contactpersonen",
     "source": "0a7725c8bf79"
+  },
+  "notify-dialog.talk-mail-and-calendar-are-what": {
+    "text": "Rutba Office let op Talk, E-mail en Agenda. Geen van drieën staat aan in dit profiel.",
+    "source": "4dada8cac654"
   },
   "common.talking-head": {
     "text": "Spreker in beeld",
@@ -27554,6 +28929,10 @@
   "video.teleprompter-speed": {
     "text": "Snelheid teleprompter",
     "source": "a5298db8dfb1"
+  },
+  "notify-dialog.tell-me-of": {
+    "text": "Meldingen voor",
+    "source": "d3b27184ede8"
   },
   "calendar.tell-the-people-invited-that-it": {
     "text": "De genodigden laten weten dat het is geannuleerd?",
@@ -27792,6 +29171,10 @@
     "text": "Tekst naar tabel",
     "source": "808523cd0725"
   },
+  "common.text-to-speech": {
+    "text": "Tekst naar spraak",
+    "source": "71e02f22899a"
+  },
   "design.text-background-dark-1": {
     "text": "Tekst/achtergrond, donker 1",
     "source": "c5b1de5a8e5a"
@@ -27820,10 +29203,6 @@
     "text": "Bedankt voor het kijken",
     "source": "c708e3d71205"
   },
-  "common.text-to-speech": {
-    "text": "Tekst naar spraak",
-    "source": "71e02f22899a"
-  },
   "common.thanks-for-watching": {
     "text": "Bedankt voor het kijken",
     "source": "2179829c978c"
@@ -27848,6 +29227,10 @@
     "text": "Dat account is niet ingesteld.",
     "source": "69273d39e7a6"
   },
+  "video.library.that-address-is-in-the-list": {
+    "text": "Dat adres staat al in de lijst.",
+    "source": "8aa9b6a797f1"
+  },
   "engine.that-address-is-not-one-this": {
     "text": "Bij dat adres kan hier niet worden aangemeld.",
     "source": "1020211ad9ca"
@@ -27863,6 +29246,10 @@
   "video.that-came-out-at-size-over": {
     "text": "Dat werd {size}, boven {limit}. Opnieuw coderen op {rate}.",
     "source": "4745d07b03ec"
+  },
+  "studio.net-camera-find.that-camera-is-no-longer-in": {
+    "text": "Die camera staat niet meer in de lijst. Zoek opnieuw.",
+    "source": "47549aa38750"
   },
   "mail.smime.that-cipher-is-too-weak-to": {
     "text": "Die versleuteling is nu te zwak om een bericht privé te houden.",
@@ -27963,6 +29350,14 @@
     "text": "Dat is geen cameo",
     "source": "7aac81dea761"
   },
+  "studio.net-camera-words.that-is-not-a-camera-address": {
+    "text": "Dat is geen camera-adres.",
+    "source": "e8747deb7bbd"
+  },
+  "studio.net-camera-dialog.that-is-not-a-camera-address": {
+    "text": "Dat is geen camera-adres. Het begint met rtsp:// en dan de naam of het nummer van de camera.",
+    "source": "90f41611e9c4"
+  },
   "engine.that-is-not-a-picture": {
     "text": "Dat is geen afbeelding",
     "source": "cbd382ebdc2a"
@@ -27974,6 +29369,10 @@
   "engine.that-is-not-a-picture-2": {
     "text": "Dat is geen afbeelding.",
     "source": "53d2759ddbb2"
+  },
+  "video.library.that-is-not-a-web-address": {
+    "text": "Dat is geen webadres.",
+    "source": "a8b694cd4023"
   },
   "talk.invite.that-is-not-an-email-address": {
     "text": "Dat is geen e-mailadres.",
@@ -27991,6 +29390,10 @@
     "text": "Dat is de rand van de tabel zelf. Er is geen cel erachter om mee samen te voegen.",
     "source": "09b145221fad"
   },
+  "common.that-is-too-many-for-now": {
+    "text": "Dat is voorlopig te veel. Probeer het over een tijdje opnieuw.",
+    "source": "d23549fc97f2"
+  },
   "qrcode.that-is-too-much-for-a": {
     "text": "Dat is te veel voor een QR-code met dit foutcorrectieniveau. Kies een lager niveau of kort de tekst in.",
     "source": "fba3deaee4e5"
@@ -28002,6 +29405,14 @@
   "mail.that-link-was-not-opened-it": {
     "text": "Die koppeling is niet geopend: hij gaat niet naar een webpagina of e-mailadres.",
     "source": "2aea50825a3d"
+  },
+  "studio.guests.that-meeting-was-not-set-up": {
+    "text": "Die vergadering is niet ingesteld om te worden opgenomen, dus hier kan ze niet worden opgenomen.",
+    "source": "e6ebcbc087f2"
+  },
+  "studio.guests.that-meeting-was-not-set-up-2": {
+    "text": "Die vergadering is niet ingesteld om live te worden gestreamd, dus ze kan niet live worden gezet.",
+    "source": "1b3f1bf9ce65"
   },
   "engine.that-message-is-not-there-any": {
     "text": "Dat bericht is er niet meer.",
@@ -28030,6 +29441,14 @@
   "shell.profile-lock.that-password-is-not-right-try": {
     "text": "Dat wachtwoord is onjuist. Probeer het opnieuw.",
     "source": "910f24f97048"
+  },
+  "talk.lines.that-person-cannot-be-chosen-here": {
+    "text": "Die persoon kan hier niet worden gekozen.",
+    "source": "45bb91b969c3"
+  },
+  "talk-words.that-person-is-not-in-the": {
+    "text": "Die persoon zit niet in de vergadering.",
+    "source": "7b427fee1460"
   },
   "common.that-picture-could-not-be-read": {
     "text": "Die afbeelding kon niet worden gelezen.",
@@ -28083,9 +29502,17 @@
     "text": "Die stap bereikt de eindwaarde nooit: geef een andere stap of selecteer de cellen om te vullen",
     "source": "e01b65075502"
   },
+  "talk-words.that-time-cannot-be-used-for": {
+    "text": "Die tijd kan niet voor een vergadering worden gebruikt.",
+    "source": "82359a1b0796"
+  },
   "engine.that-window-has-closed-since-the": {
     "text": "Dat venster is gesloten sinds de lijst is gemaakt.",
     "source": "c7352c412f96"
+  },
+  "shell.ipc.that-window-is-in-a-call": {
+    "text": "Dat venster zit in een gesprek of vergadering en kan dus niet worden getoond of opgenomen.",
+    "source": "d1e814b1090a"
   },
   "slides.that-works-on-slides-close-master": {
     "text": "Dat werkt op dia's. Sluit eerst de modelweergave.",
@@ -28159,6 +29586,34 @@
     "text": "De gids voor Presentaties op office.rutba.io",
     "source": "87e5a0cf02ef"
   },
+  "talk.meet-lines.the-talk-server-did-not-let": {
+    "text": "De Talk Server heeft je niet toegelaten. Neem opnieuw deel om te worden toegelaten.",
+    "source": "b14665829b5c"
+  },
+  "talk.meet-lines.the-talk-server-did-not-let-2": {
+    "text": "De Talk Server heeft je niet toegelaten. Neem opnieuw deel, zodat {name} je kan toelaten.",
+    "source": "65492eb99b5e"
+  },
+  "talk.meet-lines.the-talk-server-did-not-take": {
+    "text": "De Talk Server heeft de verbinding niet aangenomen. Misschien is de vergadering vol. Probeer het zo opnieuw.",
+    "source": "9db57d87fa81"
+  },
+  "talk.meet-lines.the-talk-server-did-not-take-2": {
+    "text": "De Talk Server heeft je niet tot de vergadering toegelaten. Start de vergadering opnieuw.",
+    "source": "b79482615aa2"
+  },
+  "talk.meet-lines.the-talk-server-offered-a-connection": {
+    "text": "De Talk Server bood een onversleutelde verbinding aan, dus Talk maakte geen verbinding.",
+    "source": "f7dfc7436a07"
+  },
+  "talk.meet-lines.the-talk-servers-certificate-could-not": {
+    "text": "Het certificaat van de Talk Server kon niet worden gecontroleerd, dus Talk maakte geen verbinding.",
+    "source": "33fd127fc503"
+  },
+  "talk.meet-lines.the-talk-service-did-not-let": {
+    "text": "De Talk-service stond niet toe dat deze vergadering op een Talk Server wordt gehouden.",
+    "source": "99957ec824dd"
+  },
   "sheets.ribbon.the-worksheets-guide-on-office-rutba": {
     "text": "De handleiding voor Werkbladen op office.rutba.io",
     "source": "de05c2d52be3"
@@ -28175,6 +29630,14 @@
     "text": "Het adres verbergt achter een naam en een @ waar het heen gaat: het gaat eigenlijk naar {host}.",
     "source": "ad10fa26c0e8"
   },
+  "video.library.the-address-must-start-https": {
+    "text": "Het adres moet met https:// beginnen.",
+    "source": "c83e4b4d033c"
+  },
+  "studio.net-camera-dialog.the-address-starts-rtsp-the-cameras": {
+    "text": "Het adres begint met rtsp://. Je vindt het in de handleiding of de eigen app van de camera.",
+    "source": "d7f1043ad6d9"
+  },
   "calendar.invite-card.the-answer-is-on-the-meeting": {
     "text": "Het antwoord staat bij de vergadering in je agenda.",
     "source": "999de5959576"
@@ -28186,6 +29649,10 @@
   "apps-choice.the-apps-you-want-to-see": {
     "text": "De apps die je wilt zien en waarmee je je bestanden opent.",
     "source": "332e5249e305"
+  },
+  "video.inspector.the-bar-fills-from-where-this": {
+    "text": "De balk vult zich van het begin tot het einde van deze clip.",
+    "source": "01d9656a5ad1"
   },
   "video.the-brand-kit-is-kept-for": {
     "text": "De merkkit wordt voor je bewaard en in elke scène verwerkt.",
@@ -28207,9 +29674,41 @@
     "text": "De camera kon niet worden geopend, dus alleen je stem wordt opgenomen: {reason}",
     "source": "0f481ff68eb0"
   },
+  "studio.net-camera-words.the-camera-did-not-accept-the": {
+    "text": "De camera heeft de gebruikersnaam en het wachtwoord niet geaccepteerd.",
+    "source": "0e773912d1c5"
+  },
+  "studio.net-camera-find.the-camera-did-not-give-a": {
+    "text": "De camera gaf geen streamadres. Voeg hem in plaats daarvan toe via het adres.",
+    "source": "362ec12ee3f5"
+  },
+  "studio.net-camera-words.the-camera-has-no-stream-at": {
+    "text": "De camera heeft geen stream op dit adres.",
+    "source": "bf4afbb0f55c"
+  },
   "recording.camera.the-camera-is-in-use-by": {
     "text": "De camera wordt gebruikt door een ander programma.",
     "source": "8f814a035e77"
+  },
+  "studio.net-camera-words.the-camera-is-not-answering-trying": {
+    "text": "De camera reageert niet. Er wordt opnieuw geprobeerd.",
+    "source": "0e5b2592941f"
+  },
+  "studio.net-camera-words.the-camera-refused-to-give-this": {
+    "text": "De camera weigert deze stream te geven.",
+    "source": "58a3f51cddf5"
+  },
+  "studio.net-camera-words.the-camera-sends-no-h-264": {
+    "text": "De camera stuurt geen H.264-beeld op dit adres.",
+    "source": "492836237144"
+  },
+  "studio.net-camera-words.the-camera-sent-office-to-another": {
+    "text": "De camera stuurde Office door naar een ander adres, en dat wordt niet gevolgd.",
+    "source": "1806cd635219"
+  },
+  "studio.net-camera-find.the-camera-stopped-answering-look-again": {
+    "text": "De camera reageert niet meer. Zoek opnieuw.",
+    "source": "c5581f7307dc"
   },
   "slides.cameo.the-camera-stopped": {
     "text": "De camera is gestopt.",
@@ -28218,6 +29717,10 @@
   "recording.camera.the-camera-was-not-allowed": {
     "text": "De camera is niet toegestaan.",
     "source": "432525bd7e5b"
+  },
+  "studio.net-camera-words.the-cameras-certificate-could-not-be": {
+    "text": "Het certificaat van de camera kon niet worden gecontroleerd.",
+    "source": "82540f0abbcb"
   },
   "calendar.the-cancellation-is-sent-to-count": {
     "forms": {
@@ -28282,6 +29785,10 @@
     "text": "De controle kon GitHub, waar de versies staan, niet bereiken. Controleer je verbinding en probeer het opnieuw.",
     "source": "84d60dd0d3b6"
   },
+  "contacts.the-chosen-contact": {
+    "text": "De gekozen contactpersoon",
+    "source": "5dcc962557fb"
+  },
   "video.the-clip-could-not-be-reversed": {
     "text": "De clip kon niet worden omgekeerd: {reason}",
     "source": "8fa2aa15a1ee"
@@ -28313,6 +29820,10 @@
   "ai-tools-dialog.the-connection-is-not-encrypted-use": {
     "text": "De verbinding is niet versleuteld. Gebruik die op een netwerk dat je vertrouwt, of bereik die via een beveiligde tunnel. Iedereen met de sleutel kan de tools gebruiken zolang ze aan staan.",
     "source": "d47063f9f70e"
+  },
+  "talk-words.the-connection-was-lost-and-the": {
+    "text": "De verbinding is verbroken en opnieuw deelnemen aan de vergadering is niet gelukt.",
+    "source": "ecc583f6d5d1"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "Het criteriabereik mag niet in de lijst liggen",
@@ -28512,6 +30023,10 @@
     "text": "De eerste tekens van “{column}”",
     "source": "b944f22738f2"
   },
+  "print.the-first-page-as-it-prints": {
+    "text": "De eerste pagina, zoals die wordt afgedrukt",
+    "source": "714858151c3d"
+  },
   "video.the-first-try-came-out-with": {
     "text": "De eerste poging leverde geen beeld op, dus de export is opnieuw gestart.",
     "source": "af1e9fb70b7f"
@@ -28584,6 +30099,10 @@
     "text": "De uitnodiging is bijgevoegd: een agendaprogramma toont die met Accepteren, Voorlopig en Weigeren.",
     "source": "916e39ce6f00"
   },
+  "calendar.the-invitation-says-so-and-everyone": {
+    "text": "Dit staat in de uitnodiging en iedereen hoort het opnieuw voor deelname. Na opslaan niet meer te wijzigen.",
+    "source": "34283da216e9"
+  },
   "talk.the-invitation-to-email-is-withdrawn": {
     "text": "De uitnodiging aan {email} is ingetrokken.",
     "source": "e97f1c145a8b"
@@ -28635,6 +30154,10 @@
   "mail.the-link-could-not-be-opened": {
     "text": "De koppeling kon niet worden geopend: {reason}",
     "source": "f9feb1a56e08"
+  },
+  "calendar.the-link-goes-in-the-invitation": {
+    "text": "De koppeling komt in de uitnodiging zodra de gebeurtenis is opgeslagen.",
+    "source": "6aee9a938dce"
   },
   "mail.links.the-link-goes-to-a-bare": {
     "text": "De koppeling gaat naar een kaal nummer ({host}), geen site met een naam.",
@@ -28766,6 +30289,18 @@
   "pdf.redact.the-marked-words-were-found-nowhere": {
     "text": "De gemarkeerde woorden zijn nergens anders in het bestand gevonden.",
     "source": "d6895ebf74fc"
+  },
+  "talk-words.the-meeting-has-ended": {
+    "text": "De vergadering is beëindigd.",
+    "source": "cc0f6f1d8713"
+  },
+  "talk.meet-lines.the-meeting-is-full-on-its": {
+    "text": "De vergadering is vol op de Talk Server.",
+    "source": "a28293313806"
+  },
+  "talk.meet-lines.the-meetings-talk-server-is-not": {
+    "text": "De Talk Server van de vergadering laat nu niemand toe. Probeer het zo opnieuw.",
+    "source": "1ba2db75411e"
   },
   "sheets.the-memo-file-was-not-beside": {
     "text": "Het memobestand stond niet naast de tabel, dus de memovelden zijn leeg.",
@@ -28903,6 +30438,14 @@
     "text": "De volgorde van de map",
     "source": "30418ead37ff"
   },
+  "talk-words.the-organiser-will-record-this-meeting": {
+    "text": "De organisator neemt deze vergadering op de eigen computer op en kan de opname delen.",
+    "source": "921618d46444"
+  },
+  "talk-words.the-organiser-will-stream-this-meeting": {
+    "text": "De organisator streamt deze vergadering live op internet. Wie kijkt, kan de deelnemers zien en horen.",
+    "source": "b99065a333e6"
+  },
   "image.the-original-is-untouched": {
     "text": "Het origineel is niet aangeraakt.",
     "source": "47a5d88b8255"
@@ -28963,6 +30506,10 @@
     "text": "Het wachtwoord is gewijzigd.",
     "source": "48b340636b7a"
   },
+  "studio.the-password-is-kept-in-this": {
+    "text": "Het wachtwoord wordt bewaard in de beveiligde opslag van deze computer en niet meer getoond. Office leest de camera alleen als die een gestarte bron is in de geopende scène, en neemt zelf niets op.",
+    "source": "a06c01b372ed"
+  },
   "base.sources.the-password-is-kept-in-this": {
     "text": "Het wachtwoord staat in de beveiligde opslag van deze computer, nooit in het bestand.",
     "source": "238083babcc6"
@@ -28991,6 +30538,30 @@
     "text": "Wachtwoorden die in dit profiel zijn opgeslagen, konden op deze computer niet worden geopend.",
     "source": "acb3592270e8"
   },
+  "talk.server-share.the-people-i-choose": {
+    "text": "De mensen die ik kies",
+    "source": "36c32fb33927"
+  },
+  "talk.meeting.the-people-here-become-guests-of": {
+    "text": "De mensen hier worden gasten van je uitzending. Niets wordt gestreamd tot je daar live gaat.",
+    "source": "e32bdeab5f44"
+  },
+  "talk.meeting.the-people-here-become-guests-of-2": {
+    "text": "De mensen hier worden gasten van je opname. Er wordt niets opgenomen tot je de opname daar start.",
+    "source": "0029bd61f40d"
+  },
+  "talk.meet-lines.the-person-who-set-it-up": {
+    "text": "Wie de vergadering heeft ingesteld, laat mensen toe: je kunt deelnemen zodra die in de vergadering is.",
+    "source": "e3c88ab34577"
+  },
+  "video.the-picked-clip-is-held-as": {
+    "text": "De gekozen clip blijft zoals hij bij de afspeelkop is; zet een ander punt op een ander moment en hij beweegt daartussen",
+    "source": "3750c996d700"
+  },
+  "video.the-picked-clip-no-longer-stops": {
+    "text": "De gekozen clip stopt hier niet meer onderweg",
+    "source": "6fd09ebed34a"
+  },
   "image.the-picture": {
     "text": "De afbeelding",
     "source": "4c104b5e7d1b"
@@ -29006,6 +30577,10 @@
   "studio.live-panel.the-picture-as-it-will-go": {
     "text": "Het beeld zoals het uitgezonden wordt",
     "source": "bc06b3ee00fb"
+  },
+  "video.inspector.the-picture-comes-up-from-black": {
+    "text": "Het beeld komt op uit zwart waar deze clip begint en gaat naar zwart waar hij eindigt.",
+    "source": "2181c1078bfc"
   },
   "image.formats.the-picture-could-not-be-drawn": {
     "text": "De afbeelding kon niet op die grootte worden getekend.",
@@ -29091,6 +30666,14 @@
     "text": "De presentatie is niet geopend",
     "source": "f29457024833"
   },
+  "print.the-printer-did-not-accept-this": {
+    "text": "De printer accepteert dit papier of deze instellingen niet. Kies ander papier of een andere printer.",
+    "source": "774689bf480b"
+  },
+  "print.the-printer-did-not-take-the": {
+    "text": "De printer heeft de taak niet aangenomen. Controleer of hij aan staat en verbonden is en probeer het opnieuw.",
+    "source": "f4eec391cb2b"
+  },
   "base.the-program-that-made-this-database": {
     "text": "Het programma dat deze database heeft gemaakt, bewaart de records op zijn eigen manier. Een record dat je hier toevoegt, wijzigt of verwijdert, gaat direct in het bestand, waar dat programma het misschien niet verwacht. Sluit dat programma eerst, en maak een kopie van het bestand als je het niet zeker weet.",
     "source": "8002f92792a1"
@@ -29134,6 +30717,10 @@
     },
     "source": "4f5d2c815440"
   },
+  "talk.meet-lines.the-recording-is-running-you-are": {
+    "text": "De opname loopt. Je bent er op dit moment niet in te zien.",
+    "source": "4036dc31bdb1"
+  },
   "base.links.the-records-of-table-could-not": {
     "text": "Kon de records van {table} niet lezen uit {link}: {why}",
     "source": "660d34a04cc8"
@@ -29173,6 +30760,10 @@
   "slides.ribbon.the-release-notes": {
     "text": "De releasenotes",
     "source": "3f798451b655"
+  },
+  "talk.report.the-report-goes-to-rutba-name": {
+    "text": "Het rapport gaat naar Rutba. {name} krijgt het niet te horen.",
+    "source": "f6c7917c49db"
   },
   "template-gallery.the-results-of-a-quarter-the": {
     "text": "De resultaten van een kwartaal: de cijfers, omzet per maand, wat goed ging, lessen en doelen",
@@ -29385,6 +30976,10 @@
     "text": "De kleinere PDF wordt als nieuw bestand opgeslagen; deze blijft ongewijzigd. Hij is nu {size}.",
     "source": "6442a2655dcc"
   },
+  "notify-dialog.the-sound-windows-plays-with-a": {
+    "text": "Het geluid dat Windows bij een melding afspeelt",
+    "source": "653106fa20ba"
+  },
   "video.the-sound-could-not-be-added": {
     "text": "Het geluid kon niet worden toegevoegd: {reason}",
     "source": "35d9bcec9939"
@@ -29428,6 +31023,10 @@
   "studio.live-bar.the-stream-has-ended": {
     "text": "De stream is beëindigd.",
     "source": "d57ae372ef20"
+  },
+  "talk.meet-lines.the-stream-is-on-air-you": {
+    "text": "De stream is live. Je bent er op dit moment niet in te zien.",
+    "source": "11eb1300420f"
   },
   "ui.proofing.the-suite-has-english-dictionaries-only": {
     "text": "Het pakket heeft alleen Engelse woordenlijsten, dus Spelling slaat woorden in {language} over in plaats van ze fout te markeren; Office controleert ze in {language}.",
@@ -29501,6 +31100,14 @@
     "text": "Gereedschap",
     "source": "597e25a2a916"
   },
+  "video.inspector.the-transition-into-the-next-clip": {
+    "text": "De overgang naar de volgende clip is de manier waarop deze eindigt.",
+    "source": "6f504ea49383"
+  },
+  "video.inspector.the-transition-into-this-clip-is": {
+    "text": "De overgang naar deze clip is de manier waarop hij begint.",
+    "source": "580927f3dd13"
+  },
   "common.the-two-passwords-are-not-the": {
     "text": "De twee wachtwoorden zijn niet hetzelfde.",
     "source": "bb612d83804d"
@@ -29520,22 +31127,6 @@
   "video.library.the-videos-sound-and-pictures-in": {
     "text": "Video's, geluid en afbeeldingen uit dit project staan hier, om opnieuw toe te voegen.",
     "source": "4075715096b2"
-  },
-  "spoken.voices.read-aloud-only": {
-    "text": "Alleen voorlezen",
-    "source": "3953b35ec0c1"
-  },
-  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
-    "text": "Sneltoets: Ctrl+Enter in het vak",
-    "source": "46629f7a364b"
-  },
-  "spoken.voices.show-and-read-aloud": {
-    "text": "Weergeven en voorlezen",
-    "source": "cad1b91fa8e8"
-  },
-  "spoken.voices.show-only": {
-    "text": "Alleen weergeven",
-    "source": "a8d71c961005"
   },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "De stem gaf geen geluid voor deze regel.",
@@ -29577,9 +31168,17 @@
     "text": "De woorden veranderen; het nummer en de verwijzing ernaar blijven waar ze zijn.",
     "source": "a349d752c423"
   },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "De woorden verschijnen bij de afspeelkop, de ene regel na de andere, over het beeld.",
+    "source": "841b57677821"
+  },
   "pdf.redact.the-words-marked-words": {
     "text": "De gemarkeerde woorden: {words}",
     "source": "dc8443be756f"
+  },
+  "notify-dialog.the-words-of-a-message-and": {
+    "text": "De tekst van een bericht en het onderwerp van een e-mail. Uitgeschakeld: een melding toont alleen de afzender.",
+    "source": "aa2ea8a7d8f1"
   },
   "engine.the-words-to-make-a-table": {
     "text": "De woorden waarvan je een tabel wilt maken, staan al in een tabel.",
@@ -29870,6 +31469,13 @@
     "text": "Er is nog niets voor Take.",
     "source": "b18177f5d0d3"
   },
+  "pictures.print.there-is-count-picture-here-more": {
+    "forms": {
+      "one": "Hier staat {count} afbeelding, meer dan de {most} van één afdruk. Kies er minder.",
+      "other": "Hier staan {count} afbeeldingen, meer dan de {most} van één afdruk. Kies er minder."
+    },
+    "source": "5c9d627303d8"
+  },
   "common.thesaurus": {
     "text": "Synoniemenlijst",
     "source": "39ee7c38435d"
@@ -29934,6 +31540,14 @@
     "text": "Ze worden uit je contacten gehaald en kunnen niet opnieuw om contact vragen of je bereiken.",
     "source": "9f51b4fdc716"
   },
+  "talk.they-cannot-ask-to-be-in": {
+    "text": "Ze kunnen niet opnieuw om contact vragen of je bereiken. Ze krijgen het niet te horen.",
+    "source": "dee1768ca554"
+  },
+  "studio.guests.they-cannot-join-this-meeting-again": {
+    "text": "Ze kunnen niet opnieuw aan deze vergadering deelnemen.",
+    "source": "def7bc098df1"
+  },
   "base.ai-tools.they-may-also-add-records-and": {
     "text": "Ze mogen ook records toevoegen en wijzigen. Ze wijzigen nooit het ontwerp en verwijderen nooit iets.",
     "source": "8b74841f0d5a"
@@ -29945,6 +31559,10 @@
   "base.ai-tools.they-may-read-its-records": {
     "text": "Ze mogen de records ervan lezen.",
     "source": "2a1104df2724"
+  },
+  "talk.groups.they-no-longer-see-what-is": {
+    "text": "Ze zien niet meer wat hier wordt geschreven. Wat ze al hebben gelezen, blijft bij hen.",
+    "source": "a3b27170bf21"
   },
   "talk.invite.they-see-it-in-talk-if": {
     "text": "Ze zien het in Talk als ze het gebruiken. Je kunt ze daarna zelf de link sturen.",
@@ -29990,6 +31608,10 @@
     "text": "Derde",
     "source": "5e7425d72f32"
   },
+  "video.library.third-point": {
+    "text": "Derde punt",
+    "source": "7bb2711613d0"
+  },
   "slides.ribbon.this-device": {
     "text": "Dit apparaat…",
     "source": "52daeef5cf25"
@@ -30018,9 +31640,13 @@
     "text": "De kruisverwijzingen van deze PDF zijn beschadigd, dus er kan zo geen tekstlaag aan worden toegevoegd. Sla eerst een kopie op en herken dan de kopie.",
     "source": "1050973fa0a2"
   },
-  "talk.invite.this-talk-server-does-not-take": {
-    "text": "Deze Talk-server neemt nog geen uitnodigingen aan.",
-    "source": "9b3cb2160f1c"
+  "talk.meet-lines.this-talk-service-cannot-hold-a": {
+    "text": "Deze Talk-service kan nog geen vergadering op een Talk Server houden, dus dit is een kleine vergadering van vier.",
+    "source": "c1d3029a92cf"
+  },
+  "talk.meet-lines.this-talk-service-has-no-talk": {
+    "text": "Deze Talk-service heeft geen Talk Servers, dus deze vergadering kan er niet op worden gehouden.",
+    "source": "8e28496cf764"
   },
   "mail.this-account": {
     "text": "Dit account",
@@ -30029,6 +31655,10 @@
   "word.untracked.this-action-will-not-be-marked": {
     "text": "Deze actie wordt niet als wijziging gemarkeerd.",
     "source": "7b97913a5c04"
+  },
+  "studio.net-camera-words.this-address-sends-h-265-which": {
+    "text": "Dit adres stuurt H.265, dat nog niet wordt gelezen. Gebruik de H.264-stream van de camera.",
+    "source": "651ff9635aec"
   },
   "calendar.words.this-answer-comes-from-rutba-office": {
     "text": "Dit antwoord komt van Rutba Office, dat het postvak van deze ruimte beheert zolang het open is.",
@@ -30057,6 +31687,26 @@
   "engine.this-calendar-comes-from-an-account": {
     "text": "Deze agenda komt van een account. Verwijder het account om de agenda's ervan te verwijderen.",
     "source": "98d39bbbbd5e"
+  },
+  "studio.net-camera-words.this-camera-asks-for-a-kind": {
+    "text": "Deze camera vraagt een manier van aanmelden die Office niet kent.",
+    "source": "6c652d14acb9"
+  },
+  "studio.net-camera-words.this-camera-asks-for-a-user": {
+    "text": "Deze camera vraagt om een gebruikersnaam en wachtwoord.",
+    "source": "c2cae425904b"
+  },
+  "studio.net-camera-words.this-camera-does-not-send-its": {
+    "text": "Deze camera stuurt geen beeld via de verbinding die Office opent.",
+    "source": "6fc8cbde1c5f"
+  },
+  "studio.net-camera-words.this-camera-is-not-set-up": {
+    "text": "Deze camera is niet op deze computer ingesteld. Geef het adres op in Cameragegevens.",
+    "source": "4bed18b10e16"
+  },
+  "studio.net-camera-dialog.this-camera-was-set-up-on": {
+    "text": "Deze camera is op een andere computer ingesteld. Geef hier het adres en de aanmeldgegevens op.",
+    "source": "542ed093335d"
   },
   "mail.this-cannot-be-encrypted-for-names": {
     "text": "Kan niet worden versleuteld voor {names}: er is hier geen certificaat voor. Vraag een ondertekend bericht of importeer hun certificaat.",
@@ -30106,6 +31756,10 @@
     "text": "Deze keuze komt al uit op zo'n {size}, onder {limit}, dus het blijft zoals het is. Het geschreven bestand wordt nog steeds gecontroleerd.",
     "source": "ec9bbd250c8b"
   },
+  "studio.window.this-clears-the-sources-scenes-sounds": {
+    "text": "Hiermee worden de bronnen, scènes, geluiden en instellingen van deze sessie gewist, net als de vorm van het beeld en getypte woorden om uit te spreken. Dit kan niet ongedaan worden gemaakt. Opgeslagen opstellingen blijven ongewijzigd.",
+    "source": "c68ae537b83a"
+  },
   "video.inspector.this-clip-fills-the-frame-drag": {
     "text": "Deze clip vult het beeld. Sleep een hoek in het voorbeeld of maak er beeld in beeld van om hem te verplaatsen, te schalen en te draaien.",
     "source": "72ea235699ae"
@@ -30138,9 +31792,21 @@
     "text": "Deze computer kan niet het H.264-beeld maken dat een livestream nodig heeft.",
     "source": "a62cd6f5be9a"
   },
+  "studio.net-camera-words.this-computer-could-not-show-the": {
+    "text": "Deze computer kon het beeld van de camera niet weergeven.",
+    "source": "51da9c1b735e"
+  },
   "studio.media.this-computer-does-not-let-its": {
     "text": "Deze computer staat niet toe dat zijn eigen geluid wordt opgenomen.",
     "source": "02a36f4d4162"
+  },
+  "notify-dialog.this-computer-does-not-show-notifications": {
+    "text": "Deze computer toont geen meldingen van Rutba Office. Wat wacht, wordt nog geteld op het pictogram bij de klok.",
+    "source": "0946a46fa6b1"
+  },
+  "studio.this-computer-has-no-keystore-to": {
+    "text": "Deze computer heeft geen beveiligde opslag om een wachtwoord veilig te bewaren, dus de camera wordt niet met een wachtwoord toegevoegd.",
+    "source": "72d201a958d1"
   },
   "profiles.this-computer-has-no-protected-store": {
     "text": "Deze computer heeft geen beveiligde opslag voor opgeslagen wachtwoorden en dit profiel heeft geen wachtwoord, dus konden ze niet veilig worden bewaard.",
@@ -30284,6 +31950,10 @@
     "text": "Dit document is beveiligd: hier kunnen alleen opmerkingen worden toegevoegd. Controleren → Bewerking beperken toont de gebieden die je mag bewerken.",
     "source": "b908b8376d8e"
   },
+  "calendar.this-event-has-a-talk-meeting": {
+    "text": "Deze gebeurtenis heeft een Talk-vergadering. De koppeling staat in de uitnodiging.",
+    "source": "827f48607535"
+  },
   "word.mailings.this-field": {
     "text": "Dit veld:",
     "source": "eb8aea23f662"
@@ -30404,9 +32074,17 @@
     "text": "Dit is een glTF {version}-bestand; alleen glTF 2.0 wordt gelezen",
     "source": "4c12d7ae7e99"
   },
+  "studio.setups-menu.this-is-a-new-session-your": {
+    "text": "Dit is een nieuwe sessie. Je opgeslagen opstellingen zijn niet geopend.",
+    "source": "71e4928b84cd"
+  },
   "word.mailings.this-is-an-ordinary-document-again": {
     "text": "Dit is weer een gewoon document, zonder afdruk samenvoegen.",
     "source": "c3f745c78c62"
+  },
+  "shell.notifier.this-is-how-rutba-office-tells": {
+    "text": "Zo meldt Rutba Office je een oproep, een bericht, een e-mail of een herinnering.",
+    "source": "950c62c3726b"
   },
   "engine.this-is-not-a-pdf-it": {
     "text": "Dit is geen PDF: het begint niet als een PDF.",
@@ -30487,9 +32165,41 @@
     "text": "Deze vergadering is gewijzigd. De nieuwe gegevens staan hierboven en in de bijlage.",
     "source": "fbe9e175c1ce"
   },
+  "talk-words.this-meeting-has-ended-or-its": {
+    "text": "Deze vergadering is beëindigd, of de koppeling klopt niet.",
+    "source": "b64eb5c26b25"
+  },
+  "talk.meet-lines.this-meeting-holds-up-to-count": {
+    "text": "Deze vergadering is voor max. {count} personen: jij en de contactpersonen die je uitnodigt.",
+    "source": "7ce6878459a3"
+  },
   "calendar.words.this-meeting-is-cancelled-a-calendar": {
     "text": "Deze vergadering is geannuleerd. Een agendaprogramma haalt hem met het bijgevoegde bestand uit de agenda.",
     "source": "6e9c1888a881"
+  },
+  "common.this-meeting-is-full-it-holds": {
+    "text": "Deze vergadering is vol: er passen {count} personen in.",
+    "source": "3f86e11dd3c0"
+  },
+  "talk-words.this-meeting-is-locked-nobody-new": {
+    "text": "Deze vergadering is vergrendeld. Niemand nieuw kan deelnemen tot ze is ontgrendeld.",
+    "source": "1abcf9d36011"
+  },
+  "talk.meet-lines.this-meeting-is-over-on-its": {
+    "text": "Deze vergadering is afgelopen op de Talk Server.",
+    "source": "63de60cd2533"
+  },
+  "talk.meet-lines.this-meeting-was-not-set-up": {
+    "text": "Deze vergadering is niet ingesteld om live te worden gestreamd of opgenomen. Dat kan later niet worden gewijzigd.",
+    "source": "d5fcfd698087"
+  },
+  "shell.notifier.this-meeting-will-be-recorded": {
+    "text": "Deze vergadering wordt opgenomen",
+    "source": "ca175df526bd"
+  },
+  "common.this-meeting-will-be-streamed-live": {
+    "text": "Deze vergadering wordt live gestreamd",
+    "source": "bcb5929f8d46"
   },
   "mail.this-message-could-not-be-opened": {
     "text": "Dit bericht kon niet worden geopend",
@@ -30579,6 +32289,10 @@
     "text": "Deze foto is alleen te draaien door hem opnieuw te tekenen. Bewerken opent hem in Afbeelding, dat het kan.",
     "source": "e53774383891"
   },
+  "pictures.this-picture": {
+    "text": "Deze afbeelding",
+    "source": "ee4bcbd7d2c6"
+  },
   "pictures.this-picture-could-not-be-decoded": {
     "text": "Deze afbeelding kon niet worden gedecodeerd.",
     "source": "3770474ba9a6"
@@ -30598,6 +32312,10 @@
   "edit-in-image.this-picture-is-kept-in-a": {
     "text": "Deze afbeelding is opgeslagen in een vorm die Afbeelding niet kan bewerken (zoals een tekening van lijnen). Zet hem eerst om naar een PNG of JPEG.",
     "source": "a4e03f2add1a"
+  },
+  "pictures.this-picture-all-count-pages": {
+    "text": "Deze afbeelding, alle {count} pagina's",
+    "source": "7e3a926bad3c"
   },
   "pdf.fields.this-places-a-picture-of-your": {
     "text": "Dit plaatst een afbeelding van je handtekening op de pagina. Het is geen digitale handtekening: het bewijst niet wie de PDF ondertekende, of dat de PDF sindsdien niet is gewijzigd.",
@@ -30622,6 +32340,10 @@
   "base.documents.this-print-template-is-not-in": {
     "text": "Dit afdruksjabloon staat niet in de database.",
     "source": "514256b113da"
+  },
+  "print.this-printer-is-not-ready-a": {
+    "text": "Deze printer is niet gereed. Een afdruk wacht in de wachtrij tot hij dat wel is.",
+    "source": "e0ae214529a5"
   },
   "profiles.this-profile-asks-for-its-password": {
     "text": "Dit profiel vraagt om zijn wachtwoord voordat het opent.",
@@ -30682,6 +32404,14 @@
   "mail.this-sends-a-message-to-address": {
     "text": "Dit stuurt een bericht naar {address}.",
     "source": "ff32e284a342"
+  },
+  "studio.settings-dialog.this-session": {
+    "text": "Deze sessie",
+    "source": "6da6530a0728"
+  },
+  "studio.setups-menu.this-session-is-not-saved-save": {
+    "text": "Deze sessie is niet opgeslagen. Sla ze op als opstelling om ze later weer te openen. Anders is wat je erin hebt ingericht weg.",
+    "source": "47fc62aed9a4"
   },
   "studio.settings-dialog.this-setup": {
     "text": "Deze opstelling",
@@ -30815,6 +32545,10 @@
     "text": "Dit venster heeft geen eigen sneltoetsen.",
     "source": "5e7d871a442c"
   },
+  "studio.guests.this-window-leaves-and-talk-comes": {
+    "text": "Dit venster sluit en Talk neemt het over: dezelfde mensen, als vergadering.",
+    "source": "fa116fc70753"
+  },
   "sheets.this-workbook-has-no-comments": {
     "text": "Deze werkmap heeft geen opmerkingen.",
     "source": "b25f818039e3"
@@ -30851,6 +32585,13 @@
     "text": "Wachtwoord al ingesteld ({noun}). Typ een nieuw om het te wijzigen, of laat beide vakken leeg om het te wissen.",
     "source": "48cc5a933316"
   },
+  "print.those-are-not-pages-of-this": {
+    "forms": {
+      "one": "Dat zijn geen pagina's van deze afdruk, die {count} pagina heeft.",
+      "other": "Dat zijn geen pagina's van deze afdruk, die {count} pagina's heeft."
+    },
+    "source": "39e9aff4fba2"
+  },
   "talk.invite-email.those-beyond-that-are-asked-in": {
     "text": "Wie daarboven komt, wordt alleen in Talk gevraagd, zonder e-mail.",
     "source": "4ac21ba884c2"
@@ -30870,6 +32611,10 @@
   "slides.ribbon.three-columns": {
     "text": "Drie kolommen",
     "source": "cd7d143da615"
+  },
+  "studio.guests.three-guests": {
+    "text": "Drie gasten",
+    "source": "41b77a9e8c88"
   },
   "word.ribbon.through": {
     "text": "Door",
@@ -30975,10 +32720,6 @@
     "text": "Tijdzones",
     "source": "1b0013ea667e"
   },
-  "video.ribbon.spoken-words": {
-    "text": "Gesproken woorden",
-    "source": "b5f7a276ab16"
-  },
   "video.ribbon.timeline": {
     "text": "Tijdlijn",
     "source": "9dcff98e275f"
@@ -31082,10 +32823,6 @@
     "text": "Om te vragen wanneer {room} vrij is, mail je ernaar met een datum, zoals “vrij op 12 maart?”.",
     "source": "37d6c6384e27"
   },
-  "video.inspector.to-black": {
-    "text": "Naar zwart",
-    "source": "96f788893ec2"
-  },
   "inspect.to-check-the-noun-for-the": {
     "text": "Klik op Controleren om {noun} te controleren op de geselecteerde inhoud.",
     "source": "1cb2e2cb7be2"
@@ -31141,6 +32878,10 @@
   "image.tools.tolerance": {
     "text": "Tolerantie",
     "source": "f71041bb481f"
+  },
+  "shell.notifier.tomorrow": {
+    "text": "Morgen",
+    "source": "456a73bbcefb"
   },
   "mail.compose.tomorrow-afternoon-1pm": {
     "text": "Morgenmiddag, 13:00",
@@ -31498,6 +33239,10 @@
     "text": "Probeer andere woorden.",
     "source": "2a5ed12cfe24"
   },
+  "talk.meeting.try-the-microphone-again": {
+    "text": "Microfoon opnieuw proberen",
+    "source": "a9a9b0e3cf5e"
+  },
   "image.insert.tue": {
     "text": "Di",
     "source": "d1eb39b09bf5"
@@ -31545,6 +33290,10 @@
   "pictures.batch.turn-each-picture-upright-by-its": {
     "text": "Elk beeld rechtop zetten via de EXIF-oriëntatie",
     "source": "54083df636d3"
+  },
+  "common.turn-notifications-back-on": {
+    "text": "Meldingen weer inschakelen",
+    "source": "d9796f6a3b48"
   },
   "common.turn-off": {
     "text": "Uitschakelen",
@@ -31622,6 +33371,10 @@
     "text": "Twee kolommen",
     "source": "ff4a0135d773"
   },
+  "studio.guests.two-guests": {
+    "text": "Twee gasten",
+    "source": "ebe89d0ce31d"
+  },
   "locker.two-versions": {
     "text": "Twee versies",
     "source": "861c66ced8c2"
@@ -31649,6 +33402,10 @@
   "word.references.type-a-tag-name-for-the": {
     "text": "Typ een labelnaam voor de tijdelijke aanduiding. Vul hem later in via Bronnen beheren. Elke bronvermelding ervan volgt.",
     "source": "e79a9f4c69be"
+  },
+  "video.type-a-web-address": {
+    "text": "Typ een webadres",
+    "source": "f1405e95c81b"
   },
   "equations.type-an-equation-x-b-b": {
     "text": "Typ bijv. x=(-b±√(b^2-4ac))/2a, \\sum_(i=1)^n i, \\int_0^1 f(x)dx, a_i, \\alpha",
@@ -31718,6 +33475,10 @@
     "text": "Typ wat je zoekt en druk opnieuw op Treffers markeren voor elke treffer.",
     "source": "534a18cc15ca"
   },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "Typ de te zeggen woorden, één zin per regel",
+    "source": "e794db16dbb4"
+  },
   "base.forms.type-to-find": {
     "text": "Typ om te zoeken",
     "source": "4fbe3a9bb596"
@@ -31725,6 +33486,14 @@
   "mail.archive.type-words-to-find-them-anywhere": {
     "text": "Typ woorden om ze overal te vinden, ook in de berichttekst. Voeg een van deze toe; klik erop om hem aan de zoekopdracht toe te voegen.",
     "source": "e72e37f629a5"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "Typ gaandeweg woorden om weer te geven, voor te lezen of allebei",
+    "source": "ab4c38c0c662"
+  },
+  "video.type-words-to-show-read-aloud": {
+    "text": "Typ woorden om weer te geven, voor te lezen of allebei, bij de afspeelkop",
+    "source": "af653107afac"
   },
   "slides.comments.type-your-comment-mentions-someone": {
     "text": "Typ je opmerking… @ vermeldt iemand",
@@ -31761,6 +33530,10 @@
   "slides.action.url": {
     "text": "URL…",
     "source": "e32d07912805"
+  },
+  "talk.settings.unblock": {
+    "text": "Blokkering opheffen",
+    "source": "712da63171e0"
   },
   "slides.motion.uncover": {
     "text": "Onthullen",
@@ -32050,10 +33823,6 @@
     "text": "Naamloze dia",
     "source": "1eadae5cbf64"
   },
-  "video.type-words-to-show-read-aloud": {
-    "text": "Typ woorden om weer te geven, voor te lezen of allebei, bij de afspeelkop",
-    "source": "af653107afac"
-  },
   "video.untitled-video": {
     "text": "Naamloze video",
     "source": "a7e5acfa45bc"
@@ -32073,6 +33842,10 @@
   "sheets.dialogs.up-to-31-characters-none-of": {
     "text": "Maximaal 31 tekens; geen [ ] : * ? / of backslash. Formules die het blad lezen, volgen de nieuwe naam.",
     "source": "dee767dc50b7"
+  },
+  "talk.meet-lines.up-to-count-people-sound-picture": {
+    "text": "Maximaal {count} personen. Geluid, beeld en berichten worden versleuteld door de apps van de deelnemers, en de server kan ze niet openen. Mensen kunnen deelnemen zolang jij in de vergadering bent.",
+    "source": "ebf5b97b2304"
   },
   "talk.invite-email.up-to-max-characters-rutbas-email": {
     "text": "Hooguit {max} tekens. De e-mail van Rutba voegt de link om te accepteren toe.",
@@ -32280,6 +34053,10 @@
   "talk.use-my-relay": {
     "text": "Mijn relay gebruiken",
     "source": "17ee03d59f24"
+  },
+  "video.library.use-only-music-you-have-the": {
+    "text": "Gebruik alleen muziek die je mag gebruiken. De meeste muziek op internet mag je niet zomaar in je video's zetten.",
+    "source": "74057f0cdd05"
   },
   "word.references-toa.use-passim": {
     "text": "Passim gebruiken",
@@ -32609,9 +34386,21 @@
     "text": "Wachten op de browser…",
     "source": "8c6d350ef031"
   },
+  "talk.meet-lines.waiting-for-the-person-who-set": {
+    "text": "Wachten op wie de vergadering heeft ingesteld en mensen toelaat.",
+    "source": "1a25d036dddb"
+  },
+  "talk.meet-lines.waiting-for-name-who-lets-people": {
+    "text": "Wachten op {name}, die mensen tot deze vergadering toelaat.",
+    "source": "1a30adcb3dae"
+  },
   "mail.dialogs.waiting-for-provider": {
     "text": "Wachten op {provider}…",
     "source": "5d80e1411830"
+  },
+  "talk.lines.waiting-talk-is-not-connected": {
+    "text": "Wachten: Talk is niet verbonden",
+    "source": "a47c46196a6f"
   },
   "base.walk-ins-and-bookings-chair-rental": {
     "text": "Inloop en afspraken, stoelhuur, omzet per barbier en klantenkaarten.",
@@ -32689,6 +34478,10 @@
     "text": "Webadres",
     "source": "45099c558849"
   },
+  "video.library.web-address-of-a-sound-or": {
+    "text": "Webadres van een geluids- of videobestand",
+    "source": "a41db93d0dad"
+  },
   "studio.list.web-page": {
     "text": "Webpagina",
     "source": "fae9f11dea03"
@@ -32761,6 +34554,14 @@
     "text": "Waar een vergadering voor is, de punten met tijden en wie elk leidt, en wat je vooraf leest",
     "source": "6b2ad7b24c66"
   },
+  "studio.net-camera-words.what-answers-at-this-address-is": {
+    "text": "Wat op dit adres antwoordt, is geen camerastream. Er wordt opnieuw geprobeerd.",
+    "source": "87d5fe1b7097"
+  },
+  "talk.report.what-happened-if-you-want-to": {
+    "text": "Wat er is gebeurd, als je dat wilt vertellen",
+    "source": "ad9d5c00cb5e"
+  },
   "mail.dialogs.what-is-in-junk-is-learned": {
     "text": "Wat in Ongewenste e-mail staat, wordt geleerd als ongewenst, Postvak IN als goed",
     "source": "f0f1d53224a3"
@@ -32777,6 +34578,14 @@
     "text": "Wat er getoond wordt",
     "source": "c86e86bc0f07"
   },
+  "talk.meeting.what-is-written-here-is-seen": {
+    "text": "Wat hier staat, zien de mensen die nu in de vergadering zijn. Het wordt na de vergadering niet bewaard.",
+    "source": "a3fd74707f8b"
+  },
+  "talk.report.what-is-wrong": {
+    "text": "Wat is er mis?",
+    "source": "d23f3cbd2d83"
+  },
   "word.blocks.what-it-holds": {
     "text": "Wat hij bevat",
     "source": "e0ae7a1f3f51"
@@ -32788,10 +34597,6 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "Wat de AI-tools met elk mogen doen. Alles staat op Uit totdat je kiest. Dezelfde instellingen staan in AI-tools.",
     "source": "14310670b45f"
-  },
-  "spoken.voices.type-the-words-to-say-one": {
-    "text": "Typ de te zeggen woorden, één zin per regel",
-    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "Wat de regels doen",
@@ -32993,6 +34798,10 @@
     "text": "Wie er in het gebouw is, passen, gastheren, instructies voor aannemers en leveringen.",
     "source": "b2307ab3ac50"
   },
+  "talk.server-share.who-may-hold-meetings-on-name": {
+    "text": "Wie vergaderingen op {name} mag houden",
+    "source": "d46f91bd9701"
+  },
   "base.documents.who-signs": {
     "text": "Wie tekent",
     "source": "c07456c38335"
@@ -33008,6 +34817,10 @@
   "base.sources.who-you-are-where-table-is": {
     "text": "Wie je bent waar {table} vandaan wordt gelezen",
     "source": "2d7fe168e926"
+  },
+  "talk.server-share.whoever-is-a-contact-of-yours": {
+    "text": "Iedereen die je contactpersoon is op het moment dat diegene een vergadering begint.",
+    "source": "e1760ffd2218"
   },
   "pdf.whoever-protected-this-pdf-allows-only": {
     "text": "Wie deze PDF beveiligde, staat er maar enkele wijzigingen aan toe.",
@@ -33129,6 +34942,14 @@
     "text": "Breedte: automatisch",
     "source": "c521533693cd"
   },
+  "talk.meet-lines.will-be-recorded": {
+    "text": "Wordt opgenomen",
+    "source": "2b5790d08c40"
+  },
+  "talk.meet-lines.will-be-streamed-live": {
+    "text": "Wordt live gestreamd",
+    "source": "aa193332d0ee"
+  },
   "common.window": {
     "text": "Venster",
     "source": "19734a1b58ca"
@@ -33156,6 +34977,18 @@
   "common.wipe": {
     "text": "Wissen",
     "source": "3404644e0117"
+  },
+  "video.timeline.wipe-down": {
+    "text": "Omlaag vegen",
+    "source": "386327484bbc"
+  },
+  "video.timeline.wipe-left": {
+    "text": "Naar links vegen",
+    "source": "fe6bfe761ce2"
+  },
+  "video.timeline.wipe-up": {
+    "text": "Omhoog vegen",
+    "source": "37d6d465ef8a"
   },
   "slides.ribbon.with-previous": {
     "text": "Met vorige",
@@ -33268,6 +35101,10 @@
   "ui.proofing.words-for-word": {
     "text": "Woorden voor “{word}”",
     "source": "6d61efe54546"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "Te zeggen woorden",
+    "source": "3353415dcf6a"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "Woorden die je hebt toegevoegd, worden nooit als fout gemarkeerd, in Documenten, Werkbladen en Presentaties.",
@@ -33405,6 +35242,10 @@
     "text": "Schrijven in het hele venster",
     "source": "92a4b3023cae"
   },
+  "talk.write-the-first-message-to-this": {
+    "text": "Schrijf het eerste bericht aan deze groep.",
+    "source": "79c6b8f1ef84"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "Schrijven gestopt: {reason}. Wat daarvoor is geschreven, blijft bewaard.",
     "source": "9d5b1ef54387"
@@ -33463,9 +35304,21 @@
     "text": "Jij",
     "source": "08b041935798"
   },
+  "talk.lines.you-added-who": {
+    "text": "Je hebt {who} toegevoegd",
+    "source": "67412ea9fb91"
+  },
   "talk.invite.you-and-name-are-contacts-now": {
     "text": "Jij en {name} zijn nu contactpersonen.",
     "source": "38fc20ca22cb"
+  },
+  "talk.meet-lines.you-are-being-recorded": {
+    "text": "Je wordt opgenomen.",
+    "source": "e527c1b5b294"
+  },
+  "talk.lines.you-are-in-as-many-groups": {
+    "text": "Je zit in zoveel groepen als Talk toestaat. Verlaat er eerst een.",
+    "source": "f21fa1f31c5b"
   },
   "studio.setup-panel.you-are-live-changes-here-go": {
     "text": "Je bent live. Wijzigingen hier gaan naar Volgende en gaan live bij Take.",
@@ -33474,6 +35327,18 @@
   "studio.window.you-are-live-closing-this-window": {
     "text": "Je bent live. Dit venster sluiten beëindigt de uitzending.",
     "source": "fbafb6b6ab0f"
+  },
+  "common.you-are-no-longer-in-that": {
+    "text": "Je zit niet meer in die groep.",
+    "source": "88e19bcf810d"
+  },
+  "talk.meet-lines.you-are-not-let-into-this": {
+    "text": "Je wordt niet meer tot deze vergadering toegelaten, of ze is afgelopen.",
+    "source": "02799eaaf921"
+  },
+  "talk.meet-lines.you-are-on-air-people-watching": {
+    "text": "Je bent live. Mensen die de stream bekijken, zien en horen je.",
+    "source": "5e22ab5c41c5"
   },
   "base.people.you-are-seeing-this-database-as": {
     "text": "Je ziet deze database zoals {role} hem ziet. Niets is te wijzigen tot je teruggaat.",
@@ -33487,6 +35352,10 @@
     "text": "Je kunt ze {when} opnieuw uitnodigen.",
     "source": "ef7c63299976"
   },
+  "talk.meet-lines.you-cannot-hear-or-see-the": {
+    "text": "Je kunt de anderen niet horen of zien: deze installatie van Talk heeft een andere sleutel dan die van hen. Verlaat de vergadering en neem opnieuw deel.",
+    "source": "3baa6801ab85"
+  },
   "base.links.you-changed-it-here-and-it": {
     "text": "Je hebt het hier gewijzigd, en het is ook in de engine gewijzigd. De versie van de engine blijft.",
     "source": "07152f5edcaf"
@@ -33494,6 +35363,10 @@
   "base.links.you-changed-it-here-and-it-2": {
     "text": "Je hebt het hier gewijzigd, en het is in de engine verwijderd. Het is hier ook weg.",
     "source": "66e9facf3d8b"
+  },
+  "talk.meet-lines.you-could-not-be-let-into": {
+    "text": "Je kon niet tot de vergadering worden toegelaten. Probeer opnieuw deel te nemen.",
+    "source": "42a2a94fab7e"
   },
   "base.links.you-deleted-it-here-and-it": {
     "text": "Je hebt het hier verwijderd, en het is in de engine gewijzigd. Het is terug.",
@@ -33506,6 +35379,66 @@
   "talk.invite-email.you-have-no-mail-account-to": {
     "text": "Je hebt geen account in E-mail om vanaf te verzenden, dus Rutba mailt ze, op jouw naam, vanaf no-reply@rutba.io.",
     "source": "d3f332910843"
+  },
+  "studio.guests.you-have-no-other-talk-contacts": {
+    "text": "Je hebt geen andere Talk-contactpersonen om uit te nodigen. Voeg eerst mensen toe in Talk.",
+    "source": "d13343a31f9d"
+  },
+  "talk.report.you-have-sent-as-many-reports": {
+    "text": "Je hebt zoveel rapporten verzonden als Talk per dag toestaat.",
+    "source": "69666680ec59"
+  },
+  "talk-words.you-joined-this-meeting-on-another": {
+    "text": "Je neemt op een andere computer aan deze vergadering deel.",
+    "source": "c2cb6546c29d"
+  },
+  "talk.lines.you-named-this-group-title": {
+    "text": "Je hebt deze groep {title} genoemd",
+    "source": "83c1de004ff9"
+  },
+  "talk.lines.you-no-longer-get-what-is": {
+    "text": "Je ontvangt niet meer wat hier wordt geschreven. Wat je al hebt gelezen, blijft op deze computer.",
+    "source": "9fb6883a05aa"
+  },
+  "talk.meeting.you-set-this-meeting-up-if": {
+    "text": "Jij hebt deze vergadering ingesteld. Als je vertrekt, gaat ze door voor de anderen en blijft de koppeling werken. Als je ze beëindigt, wordt iedereen eruit gehaald en werkt de koppeling niet meer.",
+    "source": "7b59019f65c0"
+  },
+  "talk.meet-lines.you-started-a-meeting-title": {
+    "text": "Je hebt een vergadering gestart: {title}",
+    "source": "5f81e73c33ca"
+  },
+  "talk.lines.you-started-this-group-once-you": {
+    "text": "Je hebt deze groep gestart. Als je vertrekt, kan niemand er nog iemand uit halen.",
+    "source": "8411924dedab"
+  },
+  "talk.lines.you-took-the-name-off-this": {
+    "text": "Je hebt de naam van deze groep verwijderd",
+    "source": "f06b2fc22dbf"
+  },
+  "talk.lines.you-took-who-out-of-this": {
+    "text": "Je hebt {who} uit deze groep gehaald",
+    "source": "a112ba00bdc9"
+  },
+  "talk.lines.you-were-in-another-call": {
+    "text": "Je was in een ander gesprek",
+    "source": "a2976c4b12f4"
+  },
+  "talk-words.you-were-taken-out-of-the": {
+    "text": "Je bent uit de vergadering gehaald.",
+    "source": "f083ad52d66f"
+  },
+  "talk-words.you-were-taken-out-of-this": {
+    "text": "Je bent uit deze vergadering gehaald en kunt niet opnieuw deelnemen.",
+    "source": "1b337da7a50e"
+  },
+  "talk-words.you-will-record-this-meeting-on": {
+    "text": "Je neemt deze vergadering op je computer op en kunt de opname delen.",
+    "source": "358da48259cf"
+  },
+  "talk-words.you-will-stream-this-meeting-live": {
+    "text": "Je streamt deze vergadering live op internet. Wie kijkt, kan de deelnemers zien en horen.",
+    "source": "9db07d5e52d2"
   },
   "common.youre-good-to-go": {
     "text": "Je kunt aan de slag.",
@@ -33522,6 +35455,14 @@
   "locker.your-locker-folder-is-ready-put": {
     "text": "Je Kluis-map (Locker) is klaar. Zet er bestanden in en vergrendel ze hier.",
     "source": "631f0118426c"
+  },
+  "talk.meet-lines.your-talk-server": {
+    "text": "Je Talk Server",
+    "source": "88893d7ef8a9"
+  },
+  "talk.server-share.your-talk-servers": {
+    "text": "Je Talk Servers",
+    "source": "c93442a99df0"
   },
   "base.trust.your-answer-is-kept-for-this": {
     "text": "Je antwoord wordt voor dit bestand op deze computer bewaard. Tot je ze toestaat, houden de tabellen de kopieën die ze hebben en worden ze niet gelezen.",
@@ -33559,6 +35500,10 @@
     "text": "Je cloud ziet willekeurige namen. Mapnamen blijven zichtbaar.",
     "source": "02099b933215"
   },
+  "talk.settings.your-contacts-can-call-you-and": {
+    "text": "Je contactpersonen kunnen je bellen en schrijven zolang Rutba Office open is, zonder dat Talk eerst wordt geopend. Uitgeschakeld: Talk maakt verbinding als je het opent.",
+    "source": "a43c2ca95c26"
+  },
   "registry.your-days-on-this-computer": {
     "text": "Je dagen, op deze computer",
     "source": "a19d67626067"
@@ -33583,6 +35528,14 @@
     "text": "Je e-mail: {done} van {total} bestanden klaar",
     "source": "07866fe919f9"
   },
+  "talk.meeting.your-microphone-will-be-off-you": {
+    "text": "Je microfoon staat uit. Je kunt hem in de vergadering aanzetten.",
+    "source": "1601596b9635"
+  },
+  "talk.meeting.your-microphone-will-be-on-you": {
+    "text": "Je microfoon staat aan. Je kunt hem hier uitzetten.",
+    "source": "b2f402cc5181"
+  },
   "common.your-name": {
     "text": "Je naam",
     "source": "2c6b2e253c01"
@@ -33606,6 +35559,10 @@
   "word.ribbon.your-own-formula": {
     "text": "Eigen formule…",
     "source": "a27bfd102347"
+  },
+  "talk.meet-lines.your-pass-for-this-meeting-ran": {
+    "text": "Je toegangsbewijs voor deze vergadering is verlopen voordat het kon worden gebruikt. Probeer het opnieuw.",
+    "source": "e2a62b05fdc4"
   },
   "base.people.your-password-is-changed": {
     "text": "Je wachtwoord is gewijzigd.",
@@ -34895,6 +36852,10 @@
     "text": "de naam van het programma dat het maakte",
     "source": "83f88e38dc1d"
   },
+  "talk.meet-lines.the-person-who-set-it-up-2": {
+    "text": "wie het heeft ingesteld",
+    "source": "d0a49b27ebdc"
+  },
   "video.the-picked-clips-make-no-sound": {
     "text": "de gekozen clips maken geen geluid",
     "source": "69832857dde0"
@@ -35179,9 +37140,17 @@
     "text": "x kwadraat",
     "source": "d81b4b9e12c8"
   },
+  "talk.lines.you": {
+    "text": "jij",
+    "source": "bb0347a468d9"
+  },
   "calendar.you-answered-answer": {
     "text": "jouw antwoord: {answer}",
     "source": "48b4629d99ee"
+  },
+  "talk.server-share.your-talk-server": {
+    "text": "je Talk Server",
+    "source": "cb7cfa2b50c6"
   },
   "talk.invite.your-account": {
     "text": "je account",
@@ -35324,6 +37293,13 @@
       "other": "{chosen} van {count} mappen"
     },
     "source": "a6fbd6985908"
+  },
+  "print.chosen-of-count-page": {
+    "forms": {
+      "one": "{chosen} van {count} pagina",
+      "other": "{chosen} van {count} pagina's"
+    },
+    "source": "fc9904833a67"
   },
   "colour.palette.colour-darker-percent": {
     "text": "{colour}, {percent}% donkerder",
@@ -36050,6 +38026,20 @@
     },
     "source": "6b221f019f66"
   },
+  "common.count-missed-call": {
+    "forms": {
+      "one": "{count} gemiste oproep",
+      "other": "{count} gemiste oproepen"
+    },
+    "source": "846840404875"
+  },
+  "shell.tray.count-more": {
+    "forms": {
+      "one": "Nog {count}",
+      "other": "Nog {count}"
+    },
+    "source": "fd4bfb8a8854"
+  },
   "ai-tools.count-more-waiting": {
     "forms": {
       "one": "Nog {count} wacht",
@@ -36064,12 +38054,27 @@
     },
     "source": "7dd71598fcd3"
   },
+  "shell.count-new-email": {
+    "forms": {
+      "one": "{count} nieuwe e-mail",
+      "other": "{count} nieuwe e-mails"
+    },
+    "source": "4d69c41e354b"
+  },
   "mail.count-new-message": {
     "forms": {
       "one": "{count} nieuw bericht",
       "other": "{count} nieuwe berichten"
     },
     "source": "78583c23fc40"
+  },
+  "talk.count-not-looked-at": {
+    "text": "{count} niet bekeken",
+    "source": "ad2b3f56facd"
+  },
+  "talk.count-not-read": {
+    "text": "{count} ongelezen",
+    "source": "bb3f670ded99"
   },
   "sheets.count-note": {
     "forms": {
@@ -36176,6 +38181,20 @@
     },
     "source": "de1ee1209774"
   },
+  "talk.count-person": {
+    "forms": {
+      "one": "{count} persoon",
+      "other": "{count} personen"
+    },
+    "source": "16eff6b45805"
+  },
+  "talk.server-share.count-person-chosen-they-are-not": {
+    "forms": {
+      "one": "{count} persoon gekozen. Diegene wordt niet ingelicht: stelt diegene een vergadering in, dan biedt Talk aan die op een Talk Server te houden, zonder te zeggen van wie.",
+      "other": "{count} personen gekozen. Zij worden niet ingelicht: stelt een van hen een vergadering in, dan biedt Talk aan die op een Talk Server te houden, zonder te zeggen van wie."
+    },
+    "source": "302f6a4e3539"
+  },
   "video.inspector.count-picked": {
     "text": "{count} gekozen",
     "source": "ab3b8d8f39e9"
@@ -36242,6 +38261,13 @@
       "other": "{count} decimalen"
     },
     "source": "8916febc49bc"
+  },
+  "video.inspector.count-point": {
+    "forms": {
+      "one": "{count} punt",
+      "other": "{count} punten"
+    },
+    "source": "d29b4d920822"
   },
   "word.mailings.count-possible-duplicate-shaded": {
     "forms": {
@@ -36579,12 +38605,23 @@
     },
     "source": "ff19802b3e07"
   },
+  "shell.tray.count-unread-message": {
+    "forms": {
+      "one": "{count} ongelezen bericht",
+      "other": "{count} ongelezen berichten"
+    },
+    "source": "ed5e578def3e"
+  },
   "sheets.receipt-row.count-value-is-marked-to-check": {
     "forms": {
       "one": "{count} waarde ter controle gemarkeerd.",
       "other": "{count} waarden ter controle gemarkeerd."
     },
     "source": "3c0869b67925"
+  },
+  "home.count-waiting": {
+    "text": "{count} wachtend",
+    "source": "15c46d8024fd"
   },
   "common.count-word": {
     "forms": {
@@ -36603,6 +38640,10 @@
   "calendar.date-all-day": {
     "text": "{date}, hele dag",
     "source": "01173f239092"
+  },
+  "shell.notifier.day-at-time": {
+    "text": "{day} om {time}",
+    "source": "d10a2288d770"
   },
   "slides.description-kept-as-the-file-has": {
     "text": "{description}. Bewaard zoals het bestand het heeft.",
@@ -36849,6 +38890,10 @@
     "text": "{names} niet geopend: geen video, geluid of afbeelding die dit systeem kan afspelen.",
     "source": "40ec26e4b663"
   },
+  "video.names-is-not-a-sound-or": {
+    "text": "{names} is geen geluids- of videobestand en is dus niet aan de lijst toegevoegd.",
+    "source": "47fb534b82d0"
+  },
   "read-aloud.bar.name-added": {
     "text": "{name} (toegevoegd)",
     "source": "5e0a009f158f"
@@ -36892,6 +38937,14 @@
     "text": "{name} heeft geaccepteerd.",
     "source": "c3b405763345"
   },
+  "talk.lines.name-added-you-to-this-group": {
+    "text": "{name} heeft je aan deze groep toegevoegd",
+    "source": "a7338dd5fd8e"
+  },
+  "talk.lines.name-added-who": {
+    "text": "{name} heeft {who} toegevoegd",
+    "source": "dbef01d937a1"
+  },
   "calendar.words.name-answered-tentative": {
     "text": "{name} heeft voorlopig geantwoord.",
     "source": "f64c34887e80"
@@ -36900,9 +38953,25 @@
     "text": "{name} toegepast op elke dia",
     "source": "34559343d0df"
   },
+  "shell.notifier.name-asks-you-to-join": {
+    "text": "{name} vraagt je deel te nemen",
+    "source": "452e368edfb8"
+  },
   "talk.invite-email.name-becomes-each-persons-name-the": {
     "text": "{name} wordt de naam van elke persoon. De link om te accepteren en de manier om Rutba Office te krijgen komen onder je bericht.",
     "source": "6724ae357006"
+  },
+  "video.name-cannot-be-played-on-this": {
+    "text": "{name} kan op deze computer niet worden afgespeeld.",
+    "source": "56c80f47dfd7"
+  },
+  "talk.meet-lines.name-cannot-be-reached-from-outside": {
+    "text": "{name} is niet bereikbaar van buiten je netwerk.",
+    "source": "e5702bfa3304"
+  },
+  "talk.meet-lines.name-cannot-hold-meetings-now": {
+    "text": "{name} kan nu geen vergaderingen houden.",
+    "source": "ec1d5763561d"
   },
   "studio.media.name-closed-or-stopped-sharing": {
     "text": "{name} is gesloten of gestopt met delen.",
@@ -36920,6 +38989,10 @@
     "text": "{name} kon niet worden weergegeven: {reason}",
     "source": "65bcb558f48b"
   },
+  "video.name-could-not-be-fetched-from": {
+    "text": "{name} kon niet van internet worden opgehaald.",
+    "source": "d321465694e7"
+  },
   "locker.name-could-not-be-opened-again": {
     "text": "{name} kon niet opnieuw worden geopend: {why}",
     "source": "20ca380f0559"
@@ -36936,6 +39009,10 @@
     "text": "{name} kon niet worden opgenomen: {reason}",
     "source": "2beda7333ef6"
   },
+  "talk.settings.name-could-not-be-unblocked-just": {
+    "text": "De blokkering van {name} kon nu niet worden opgeheven. Probeer het zo opnieuw.",
+    "source": "7f0f6d2fd1a8"
+  },
   "calendar.words.name-declined": {
     "text": "{name} heeft geweigerd.",
     "source": "2f56155e044a"
@@ -36948,6 +39025,10 @@
     "text": "{name} bewerkt",
     "source": "5cb4218dfd00"
   },
+  "talk-words.name-ended-the-meeting": {
+    "text": "{name} heeft de vergadering beëindigd.",
+    "source": "68a9df35664b"
+  },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "{name} heeft meer dan één blad. De eerste rij van het blad dat je kiest, bevat de veldnamen.",
     "source": "f39d7988d23f"
@@ -36959,6 +39040,10 @@
   "video.name-holds-no-captions-this-editor": {
     "text": "{name} bevat geen ondertitels die deze editor kan lezen.",
     "source": "992774d03cf2"
+  },
+  "shell.notifier.name-in-group": {
+    "text": "{name} in {group}",
+    "source": "c8c9e24ee27b"
   },
   "talk.invite.name-invites-you-to-talk": {
     "text": "{name} nodigt je uit om te praten",
@@ -36984,6 +39069,18 @@
     "text": "{name} is geblokkeerd.",
     "source": "896ccbbaeef1"
   },
+  "studio.window.name-is-closed-and-stays-saved": {
+    "text": "{name} is gesloten en blijft opgeslagen zoals het is. Dit is een nieuwe sessie.",
+    "source": "1ac7485ab543"
+  },
+  "studio.guests.name-is-here-waiting-off-air": {
+    "text": "{name} wacht buiten de uitzending.",
+    "source": "14a190ca86f6"
+  },
+  "talk.meet-lines.name-is-holding-as-many-meetings": {
+    "text": "{name} houdt al zoveel vergaderingen als is ingesteld.",
+    "source": "39d0e214aab5"
+  },
   "locker.name-is-in-an-older-format": {
     "text": "{name} heeft een oudere bestandsindeling. Bij opslaan wordt {saved} ernaast gemaakt, in dezelfde vergrendelde map.",
     "source": "25f899dbe396"
@@ -36995,6 +39092,10 @@
   "talk.name-is-no-longer-a-contact": {
     "text": "{name} is geen contactpersoon meer.",
     "source": "f2f97457bba2"
+  },
+  "talk.settings.name-is-no-longer-blocked": {
+    "text": "{name} is niet meer geblokkeerd.",
+    "source": "514ce8e795d4"
   },
   "locker.name-is-no-longer-in-the": {
     "text": "{name} staat niet meer in de Kluis (Locker). De kopie staat hier nog.",
@@ -37012,6 +39113,10 @@
     "text": "{name} is geen video- of geluidsbestand dat deze computer kan afspelen. Misschien ontbreekt een decoder, of is het ondanks de naam geen media.",
     "source": "abfeca7a30a3"
   },
+  "talk.meet-lines.name-is-not-answering-check-that": {
+    "text": "{name} reageert niet. Controleer of de server actief en verbonden is.",
+    "source": "840ae75c483e"
+  },
   "talk.name-is-not-available": {
     "text": "{name} is niet beschikbaar.",
     "source": "aca30d15fc29"
@@ -37019,6 +39124,10 @@
   "voices-dialog.name-is-not-used-until-its": {
     "text": "{name} wordt pas gebruikt als de versie voor {version} klaar is.",
     "source": "2f267730bc10"
+  },
+  "video.name-is-not-where-it-was": {
+    "text": "{name} staat niet meer waar het stond. Het is misschien verplaatst, hernoemd of verwijderd.",
+    "source": "e5a94663e48f"
   },
   "common.name-is-not-wired-yet": {
     "text": "{name} is nog niet aangesloten.",
@@ -37036,9 +39145,17 @@
     "text": "{name} is geopend waar het staat, alleen-lezen. Indexeren voor zoeken loopt.",
     "source": "749ec97c4e3a"
   },
+  "talk.meet-lines.name-is-outside-the-hours-it": {
+    "text": "{name} is buiten de ingestelde uren voor vergaderingen.",
+    "source": "0fd5a4d65419"
+  },
   "locker.name-is-over-1-gb-so": {
     "text": "{name} is groter dan 1 GB, dus is het geopend vanuit een tijdelijke kopie, niet in het geheugen. Die kopie is niet vergrendeld.",
     "source": "950f4db86aed"
+  },
+  "talk.meet-lines.name-is-paused": {
+    "text": "{name} is gepauzeerd.",
+    "source": "0ed81c3ac232"
   },
   "common.name-is-protected-with-a-password": {
     "text": "{name} is beveiligd met een wachtwoord en blijft gesloten tot het wachtwoord is opgegeven.",
@@ -37052,6 +39169,18 @@
     "text": "{name} is klaar om te verzenden",
     "source": "040cafb3a666"
   },
+  "talk.meet-lines.name-is-set-to-hold-no": {
+    "text": "{name} is ingesteld om geen vergaderingen te houden.",
+    "source": "d762cd422689"
+  },
+  "shell.tray.name-is-still-running": {
+    "text": "{name} is nog actief",
+    "source": "5e161705a5d2"
+  },
+  "talk.meet-lines.name-is-still-starting-try-again": {
+    "text": "{name} is nog aan het opstarten. Probeer het over een minuut opnieuw.",
+    "source": "281688f4544b"
+  },
   "base.name-is-unlinked-its-source-keeps": {
     "text": "{name} is ontkoppeld. De bron behoudt de records.",
     "source": "7891d7996821"
@@ -37059,6 +39188,10 @@
   "base.name-is-unlinked-the-engine-keeps": {
     "text": "{name} is ontkoppeld. De engine behoudt de records.",
     "source": "47284555955f"
+  },
+  "talk.meet-lines.name-is-waiting-for-its-code": {
+    "text": "{name} wacht tot de code is ingevoerd.",
+    "source": "a7a59d385fce"
   },
   "video.name-is-size-still-over-limit": {
     "text": "{name} is {size}, na {tries} pogingen nog boven {limit}: kleiner lukt niet bij dit beeldformaat. Probeer 720, een groter formaat of een korter stuk.",
@@ -37070,6 +39203,22 @@
       "other": "Indeling {name}: gebruikt door {count} dia's"
     },
     "source": "9d5680cc5d71"
+  },
+  "talk.meet-lines.name-lets-people-in-you-can": {
+    "text": "{name} laat mensen toe: je kunt deelnemen zodra die zelf in de vergadering is.",
+    "source": "a94d45e86dc5"
+  },
+  "talk.meet-lines.name-must-be-updated-before-it": {
+    "text": "{name} moet worden bijgewerkt voordat deze vergaderingen kan houden.",
+    "source": "f01651a198be"
+  },
+  "talk.name-muted-you-unmute-when-you": {
+    "text": "{name} heeft je gedempt. Hef het dempen op als je wilt spreken.",
+    "source": "c4b4506575d2"
+  },
+  "talk.lines.name-named-this-group-title": {
+    "text": "{name} heeft deze groep {title} genoemd",
+    "source": "c13c73b3ad29"
   },
   "template-gallery.name-needs-rutba-office-version-or": {
     "text": "{name} vereist Rutba Office {version} of nieuwer. Zoek naar updates.",
@@ -37091,9 +39240,29 @@
     "text": "{name} omgekeerd",
     "source": "fca7482294f8"
   },
+  "talk.meeting.name-started-a-meeting": {
+    "text": "{name} heeft een vergadering gestart",
+    "source": "e4652127858d"
+  },
+  "talk.meet-lines.name-started-a-meeting-title": {
+    "text": "{name} heeft een vergadering gestart: {title}",
+    "source": "0632986e996b"
+  },
   "template-help.name-template": {
     "text": "Sjabloon {name}",
     "source": "662208ece200"
+  },
+  "talk.lines.name-took-the-name-off-this": {
+    "text": "{name} heeft de naam van deze groep verwijderd",
+    "source": "5c85c87032ca"
+  },
+  "talk-words.name-took-you-out-of-the": {
+    "text": "{name} heeft je uit de vergadering gehaald.",
+    "source": "af00baa37753"
+  },
+  "talk.lines.name-took-who-out-of-this": {
+    "text": "{name} heeft {who} uit deze groep gehaald",
+    "source": "8684ebda882d"
   },
   "pdf.name-was-damaged-and-was-read": {
     "text": "{name} was beschadigd; de pagina's zijn opgezocht. Sla het op voor een hele kopie.",
@@ -37107,9 +39276,17 @@
     "text": "{name} opent zonder te vragen, en wat het wachtwoord verzegelde, blijft bewaard zoals voorheen, beschermd door Windows voor alleen jouw account.",
     "source": "bccde320f01d"
   },
+  "talk-words.name-will-record-this-meeting-on": {
+    "text": "{name} neemt deze vergadering op de eigen computer op en kan de opname delen.",
+    "source": "8e5422928873"
+  },
   "voices-dialog.name-will-show-new-labels-in": {
     "text": "{name} toont nieuwe labels in het Engels tot de versie voor {version} klaar is.",
     "source": "070ebd66c642"
+  },
+  "talk-words.name-will-stream-this-meeting-live": {
+    "text": "{name} streamt deze vergadering live op internet. Wie kijkt, kan de deelnemers zien en horen.",
+    "source": "75c94901cdd6"
   },
   "talk.invite.name-would-like-to-talk-with": {
     "text": "{name} wil graag met je praten op Rutba Talk",
@@ -37222,6 +39399,10 @@
     "text": "{name}: {width} × {height}, primair",
     "source": "4e47b0c065e3"
   },
+  "talk.meet-lines.name-s-talk-could-not-let": {
+    "text": "Talk van {name} kon je niet tot de vergadering toelaten. Probeer opnieuw deel te nemen.",
+    "source": "f2b2cb44f631"
+  },
   "studio.live-bar.name-needs-a-key": {
     "text": "{name}, heeft een sleutel nodig",
     "source": "5075d08a25f3"
@@ -37242,9 +39423,17 @@
     "text": "{name}: een vel {product}-etiketten.",
     "source": "e976719b4bd9"
   },
+  "video.library.name-added-after-the-last-clip": {
+    "text": "{name}: toegevoegd na de laatste clip",
+    "source": "3289fea3c3ec"
+  },
   "video.library.name-added-at-the-playhead": {
     "text": "{name}: toegevoegd bij de afspeelkop",
     "source": "4939aa239509"
+  },
+  "video.library.name-added-over-the-whole-project": {
+    "text": "{name}: toegevoegd over het hele project",
+    "source": "f97eee7c25f5"
   },
   "colour.palette.name-apply-colour": {
     "text": "{name}: kies {colour}",
@@ -37634,6 +39823,14 @@
     "text": "{when}, hele dag",
     "source": "ebe38401b71e"
   },
+  "talk.lines.who-cannot-be-put-in-any": {
+    "text": "{who} kan niet aan meer groepen worden toegevoegd.",
+    "source": "0f22eeabe17d"
+  },
+  "talk.lines.who-left-this-group": {
+    "text": "{who} heeft deze groep verlaten",
+    "source": "2a6e91ede760"
+  },
   "common.width-pt": {
     "text": "{width} pt",
     "source": "fd99ee034b5b"
@@ -37701,17 +39898,5 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ en hoger",
     "source": "20160df989ba"
-  },
-  "spoken.voices.words-to-say": {
-    "text": "Te zeggen woorden",
-    "source": "3353415dcf6a"
-  },
-  "studio.spoken-run.type-words-to-show-read-aloud": {
-    "text": "Typ gaandeweg woorden om weer te geven, voor te lezen of allebei",
-    "source": "ab4c38c0c662"
-  },
-  "video.spoken.the-words-land-at-the-playhead": {
-    "text": "De woorden verschijnen bij de afspeelkop, de ene regel na de andere, over het beeld.",
-    "source": "841b57677821"
   }
 }

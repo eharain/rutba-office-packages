@@ -295,6 +295,10 @@
     "text": "(sníženo, aby stačilo rychlosti odesílání)",
     "source": "38eedae0fe49"
   },
+  "print.needs-attention": {
+    "text": "(vyžaduje pozornost)",
+    "source": "3473d9cd67a1"
+  },
   "base.new": {
     "text": "(nové)",
     "source": "5bfaff83e280"
@@ -335,6 +339,10 @@
     "text": "(nic)",
     "source": "00b025711499"
   },
+  "print.offline": {
+    "text": "(offline)",
+    "source": "89aa6bd39b61"
+  },
   "sheets.dialogs.on-screen": {
     "text": "(na obrazovce)",
     "source": "b73a6fd9ad97"
@@ -342,6 +350,14 @@
   "word.dialogs.opened-from-format": {
     "text": "(otevřeno z formátu {format})",
     "source": "e4d5e69fc419"
+  },
+  "print.out-of-paper": {
+    "text": "(došel papír)",
+    "source": "7290757d105f"
+  },
+  "print.paused": {
+    "text": "(pozastaveno)",
+    "source": "41993c823e86"
   },
   "word.list-dialog.the-first-level-has-none-above": {
     "text": "(první úroveň nad sebou žádnou nemá)",
@@ -551,6 +567,10 @@
     "text": "Server TURN, který provozujete; nabízí se druhé straně pro vaše hovory",
     "source": "b95d902b9e8f"
   },
+  "calendar.a-talk-meeting-holds-four-people": {
+    "text": "Schůzka v Hovorech (Talk) pojme čtyři osoby: vás a tři další. Pozváno: {count}.",
+    "source": "12c821978260"
+  },
   "engine.a-background-is-a-png-jpeg": {
     "text": "Pozadí musí být obrázek PNG, JPEG, GIF, BMP nebo WebP.",
     "source": "453bb347e835"
@@ -570,6 +590,14 @@
   "talk.a-call-goes-straight-between-the": {
     "text": "Hovor jde přímo mezi oběma počítači. Pokud to síť nedovolí, jde přes přenosový server, stále se šifrováním mezi koncovými body.",
     "source": "2a501129710a"
+  },
+  "notify-dialog.a-call-in-talk-that-nobody": {
+    "text": "Hovor v Hovorech (Talk), který nikdo nepřijal",
+    "source": "364758cc8022"
+  },
+  "notify-dialog.a-call-in-talk-while-it": {
+    "text": "Hovor v Hovorech (Talk), dokud vyzvání",
+    "source": "3b2de9295eb7"
   },
   "calendar.a-cancellation-goes-to-the-count": {
     "forms": {
@@ -647,6 +675,10 @@
   "locker.a-copy-of-these-files-as-4": {
     "text": "Kopie těchto souborů v současném stavu, uložená ve vlastní složce Office v tomto počítači, aby se nic neztratilo, než se s Trezorem (Locker) seznámíte. Není zamčená heslem Trezoru: kdokoli, kdo se přihlásí k tomuto uživatelskému účtu, ji může obnovit.",
     "source": "2f36db57f352"
+  },
+  "studio.guests.a-copy-of-this-broadcast-is": {
+    "text": "Kopie tohoto vysílání se ukládá a tato schůzka nebyla nastavena k nahrávání. Její účastníci se nemohou připojit, dokud vysílání neskončí.",
+    "source": "b2a28db50607"
   },
   "template-gallery.a-course-session-objectives-the-agenda": {
     "text": "Lekce kurzu: cíle, program, výukové části, rychlá kontrola a shrnutí",
@@ -788,6 +820,22 @@
     "text": "Skupina nemá vlastní výplň ani obrys. Naformátujte obrazec uvnitř ní.",
     "source": "770472b604e9"
   },
+  "talk.lines.a-group-holds-count-people-at": {
+    "text": "Skupina pojme nejvýše tento počet lidí: {count}.",
+    "source": "f51448521ea4"
+  },
+  "talk.a-group-is-three-or-more": {
+    "text": "Skupinu tvoří tři nebo více lidí, kteří si navzájem píší.",
+    "source": "fec77f9d530a"
+  },
+  "talk.lines.a-group-is-three-people-or": {
+    "text": "Skupinu tvoří tři nebo více lidí: vyberte alespoň dva kontakty.",
+    "source": "6ff327466527"
+  },
+  "talk.a-group-needs-two-of-your": {
+    "text": "Skupina potřebuje alespoň dva vaše kontakty.",
+    "source": "12e0ccc49b1e"
+  },
   "base.sources.a-key-or-token": {
     "text": "Klíč nebo token",
     "source": "9949c8a23e2d"
@@ -860,6 +908,10 @@
     "text": "Zamčený soubor pro vás",
     "source": "6f0daeb85074"
   },
+  "video.a-look-changes-the-colour-of": {
+    "text": "Barevný vzhled mění barvy všech stop pod ním po celou dobu trvání svého klipu.",
+    "source": "4cffcd7c35b5"
+  },
   "sheets.a-lookup-found-nothing": {
     "text": "Vyhledávání nic nenašlo",
     "source": "9092775b9801"
@@ -867,6 +919,22 @@
   "mail.archive.a-manifest-csv-and-json-with": {
     "text": "Vždy se zapíše manifest (CSV a JSON) s datem, odesílatelem, příjemci, předmětem, Message-ID a původem každé zprávy a SHA-256 zapsaného obsahu, a také souhrnná stránka. V poštovních schránkách ani archivech se nic nezmění.",
     "source": "74f7e133138a"
+  },
+  "notify-dialog.a-meeting-a-few-minutes-before": {
+    "text": "Schůzka několik minut před začátkem, nebo když vás někdo zve k připojení",
+    "source": "eed70ee862c6"
+  },
+  "talk-words.a-meeting-held-on-a-talk": {
+    "text": "Schůzku na serveru Hovory (Talk Server) zatím nelze živě vysílat ani nahrávat.",
+    "source": "e451fe884ea2"
+  },
+  "talk.meeting.a-meeting-holds-four-people-you": {
+    "text": "Schůzka pojme čtyři lidi: vás a až tři vaše kontakty.",
+    "source": "f8fa41a7b72f"
+  },
+  "talk.meeting.a-meeting-of-more-than-four": {
+    "text": "Schůzka pro více než čtyři osoby se koná na serveru Hovory (Talk Server).",
+    "source": "b1afa34fd141"
   },
   "contacts.a-meeting-room-or-a-resource": {
     "text": "Zasedací místnost nebo prostředek, rezervuje se pozváním jeho poštovní schránky",
@@ -883,6 +951,10 @@
   "word.ribbon.a-merged-cell-back-into-its": {
     "text": "Sloučenou buňku zpět na buňky",
     "source": "3d22efeac8f7"
+  },
+  "notify-dialog.a-message-in-talk": {
+    "text": "Zpráva v Hovorech (Talk)",
+    "source": "7a338c422250"
   },
   "engine.a-message-needs-someone-to-go": {
     "text": "Zpráva musí mít alespoň jednoho příjemce.",
@@ -1069,6 +1141,10 @@
     "text": "Byla uložena obyčejná kopie. Tato kopie není zamčená.",
     "source": "ffdd0baabe66"
   },
+  "video.timeline.a-point-of-its-movement-at": {
+    "text": "Bod pohybu v čase {time}: přetažením ho přesunete",
+    "source": "055741b05a22"
+  },
   "profiles.a-profile-can-ask-for-a": {
     "text": "Profil může před otevřením vyžadovat heslo. Jeho uložená hesla, poslední soubory, pošta, kalendáře, kontakty a zprávy z aplikace Hovory (Talk) se jím pak zapečetí.",
     "source": "10ea9d3dbdec"
@@ -1144,6 +1220,10 @@
   "template-gallery.a-report-with-a-cover-page": {
     "text": "Zpráva s titulní stránkou, obsahem a číslovanými oddíly",
     "source": "54c978a78192"
+  },
+  "talk.settings.a-ring-when-someone-calls-you": {
+    "text": "Zvonění, když vám někdo volá, a krátký tón, když jste zváni na schůzku.",
+    "source": "18eb8c5e7649"
   },
   "contacts.a-room-or-a-resource-is": {
     "text": "Místnost se rezervuje, do aplikace Talk se nezve",
@@ -1707,6 +1787,10 @@
     "text": "Skutečná velikost",
     "source": "74cdbe70e394"
   },
+  "image.actual-size-over-as-many-sheets": {
+    "text": "Skutečná velikost, na potřebný počet listů",
+    "source": "0cbb4308999d"
+  },
   "common.add": {
     "text": "Přidat",
     "source": "9fd728c66c9a"
@@ -1823,6 +1907,10 @@
     "text": "Přidat WordArt",
     "source": "bd58d566c351"
   },
+  "calendar.add-a-talk-meeting": {
+    "text": "Přidat schůzku v Hovorech (Talk)",
+    "source": "e98dec0aa8f4"
+  },
   "base.documents.add-a-block": {
     "text": "Přidat blok",
     "source": "cf416ab8da83"
@@ -1838,6 +1926,10 @@
   "base.documents.add-a-calculated-column": {
     "text": "Přidat počítaný sloupec",
     "source": "40adf59ac8cc"
+  },
+  "studio.net-camera-dialog.add-a-camera-by-its-address": {
+    "text": "Přidat kameru podle adresy",
+    "source": "0dbc972ae5d6"
   },
   "contacts.add-a-card-or-bring-in": {
     "text": "Přidejte kartu nebo načtěte soubor .vcf či .csv exportovaný z jiného programu.",
@@ -1927,6 +2019,10 @@
     "text": "Přidat hlas, aby se tyto řádky četly nahlas",
     "source": "b2afe4eb368b"
   },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "Přidat hlas, který slova přečte nahlas; zobrazit je lze i bez něj.",
+    "source": "04ed3fbd74fe"
+  },
   "read-aloud.voice-offer.add-a-voice-more-natural-voices": {
     "text": "Přidat hlas: přirozenější hlasy pro funkci Číst nahlas, v okně Hlasy a jazyky",
     "source": "bfbf7111b5c5"
@@ -1983,6 +2079,10 @@
     "text": "Přidat u přehrávací hlavy",
     "source": "1e18a7648f8f"
   },
+  "studio.net-camera-find.add-by-address": {
+    "text": "Přidat podle adresy…",
+    "source": "96cd8612bd97"
+  },
   "contacts.add-email": {
     "text": "Přidat e-mail",
     "source": "bfe6b5725f30"
@@ -1990,6 +2090,10 @@
   "locker.add-files": {
     "text": "Přidat soubory",
     "source": "01792a33c228"
+  },
+  "video.library.add-files-from-this-computer": {
+    "text": "Přidat soubory z počítače…",
+    "source": "e483053aec0b"
   },
   "locker.add-files-2": {
     "text": "Přidat soubory…",
@@ -2043,6 +2147,10 @@
     "text": "Přidat cestu k názvu souboru",
     "source": "70149fb49250"
   },
+  "talk.groups.add-people": {
+    "text": "Přidat lidi",
+    "source": "6e5e1e137765"
+  },
   "contacts.add-phone": {
     "text": "Přidat telefon",
     "source": "cf095e4a7be3"
@@ -2054,6 +2162,10 @@
   "mail.accounts-bulk.add-several-accounts": {
     "text": "Přidat více účtů",
     "source": "e57b1f77b96e"
+  },
+  "video.add-sound": {
+    "text": "Přidat zvuk",
+    "source": "d14064f80f52"
   },
   "word.ribbon.add-space-after-paragraph": {
     "text": "Přidat mezeru za odstavec",
@@ -2074,6 +2186,10 @@
   "ai-tools-dialog.add-these-lines-to-the-ai": {
     "text": "Přidejte tyto řádky do seznamu serverů MCP v nastavení aplikace AI. Aplikace spouští nástroje sama, když je potřebuje.",
     "source": "9d3f923b92a8"
+  },
+  "video.library.add-this-address-to-the-list": {
+    "text": "Přidat tuto adresu do seznamu",
+    "source": "3cac92a6b605"
   },
   "contacts.add-this-card": {
     "text": "Přidat tuto kartu",
@@ -2107,6 +2223,10 @@
     "text": "Přidat do kalendáře",
     "source": "d0efffa65ea7"
   },
+  "talk.groups.add-to-group": {
+    "text": "Přidat do skupiny",
+    "source": "ea849eb70c26"
+  },
   "calendar.add-to-my-calendar": {
     "text": "Přidat do mého kalendáře",
     "source": "9d60f9126db7"
@@ -2114,6 +2234,10 @@
   "studio.setups-menu.add-to-my-setups": {
     "text": "Přidat do mých sestav",
     "source": "457927ed8bde"
+  },
+  "video.add-to-the-audio-library": {
+    "text": "Přidat do knihovny zvuků",
+    "source": "b7f10458b001"
   },
   "locker.add-to-this-folder": {
     "text": "Přidat do této složky",
@@ -2149,6 +2273,10 @@
     },
     "source": "9e93bb1f7d70"
   },
+  "video.add-name": {
+    "text": "Přidat: {name}",
+    "source": "2cc06c85e772"
+  },
   "ui.proofing.add-put-the-word-in-the": {
     "text": "Přidat: vložit slovo do slovníku",
     "source": "f696718081b5"
@@ -2168,6 +2296,10 @@
   "common.added": {
     "text": "Přidáno",
     "source": "6b02e0d363a4"
+  },
+  "studio.net-camera-find.added-before": {
+    "text": "Přidáno dříve",
+    "source": "30cab5134fea"
   },
   "voices-dialog.added-here": {
     "text": "Přidáno zde",
@@ -2679,6 +2811,10 @@
     "text": "Všechny snímky najednou: kliknutím na snímek ho otevřete",
     "source": "616a02ce06be"
   },
+  "studio.guests.all-three-seats-are-taken": {
+    "text": "Všechna tři místa jsou obsazena.",
+    "source": "e4160c80a1bb"
+  },
   "pdf.ocr.all-count-page": {
     "forms": {
       "few": "Všechny stránky: {count}",
@@ -2903,6 +3039,10 @@
   "engine.an-equation-is-edited-in-the": {
     "text": "Rovnice se upravuje v editoru rovnic. Poklikejte na ni.",
     "source": "46d7af34ac75"
+  },
+  "notify-dialog.an-event-in-calendar-at-its": {
+    "text": "Událost v Kalendáři v čase připomenutí",
+    "source": "925f040e1376"
   },
   "image.formats.an-icon-at-each-size-from": {
     "text": "Ikona v každé velikosti od 256 do 16 pixelů.",
@@ -3292,6 +3432,14 @@
     "text": "Uspořádání",
     "source": "5f33ce3fb567"
   },
+  "talk.lines.arrived": {
+    "text": "Doručeno",
+    "source": "594015196a5f"
+  },
+  "video.inspector.arrives": {
+    "text": "Průběh pohybu",
+    "source": "72c7f155f153"
+  },
   "common.arrow": {
     "text": "Šipka",
     "source": "05800e70aa10"
@@ -3420,6 +3568,14 @@
     "text": "Zeptat se jednou: jedna odpověď pro všechny záznamy",
     "source": "a999a07704c8"
   },
+  "studio.guests.ask-up-to-three-of-your": {
+    "text": "Pozvěte až tři své kontakty z Hovorů (Talk). Každý zůstane mimo nahrávku, dokud ho nevložíte do scény, a vidí a slyší, co nahráváte.",
+    "source": "e9f52fe78b27"
+  },
+  "studio.guests.ask-up-to-three-of-your-2": {
+    "text": "Pozvěte až tři své kontakty z Hovorů (Talk). Každý čeká mimo vysílání, dokud ho nevložíte do scény, a vidí a slyší váš program.",
+    "source": "8c2357cdc653"
+  },
   "talk.connect.ask-name-in-talk-now-with": {
     "text": "Požádat hned v aplikaci Hovory (Talk), bez e-mailu: {name}",
     "source": "c49711615630"
@@ -3464,9 +3620,17 @@
     "text": "Žádosti o kontakt",
     "source": "434d00f0c707"
   },
+  "talk.meet-lines.asking-to-be-let-in": {
+    "text": "Žádání o vpuštění…",
+    "source": "4a17be1898f7"
+  },
   "mail.dialogs.asking-your-mail-server": {
     "text": "Dotazování poštovního serveru…",
     "source": "b78479f59b14"
+  },
+  "talk.meet-lines.asking-name-to-let-you-in": {
+    "text": "Žádání uživatele {name} o vpuštění…",
+    "source": "d64535fbf5e2"
   },
   "contacts.asks-name-to-connect-in-talk": {
     "text": "Pozve {name} e-mailem ke spojení v aplikaci Hovory (Talk)",
@@ -3504,6 +3668,15 @@
     "text": "U každého tabulátoru",
     "source": "4414f037aa97"
   },
+  "image.print.at-its-actual-size-this-picture": {
+    "forms": {
+      "one": "Ve skutečné velikosti zabere tento obrázek {count} list, víc než maximum jednoho tisku ({most}). Zvolte „Přizpůsobit stránce“ nebo větší papír.",
+      "few": "Ve skutečné velikosti zabere tento obrázek {count} listy, víc než maximum jednoho tisku ({most}). Zvolte „Přizpůsobit stránce“ nebo větší papír.",
+      "many": "Ve skutečné velikosti zabere tento obrázek {count} listu, víc než maximum jednoho tisku ({most}). Zvolte „Přizpůsobit stránce“ nebo větší papír.",
+      "other": "Ve skutečné velikosti zabere tento obrázek {count} listů, víc než maximum jednoho tisku ({most}). Zvolte „Přizpůsobit stránce“ nebo větší papír."
+    },
+    "source": "4e1f2125523c"
+  },
   "locker.at-least-eight-characters-attach-it": {
     "text": "Alespoň osm znaků. Soubor připojte zde k e-mailu, nebo ho uložte a pošlete jinou cestou. Heslo pošlete odděleně od souboru.",
     "source": "68ec51ad042a"
@@ -3515,6 +3688,10 @@
   "talk.invite-email.at-most-max-people-at-once": {
     "text": "Počet osob najednou: nejvýše {max}.",
     "source": "0939da11b251"
+  },
+  "video.inspector.at-most-n-s-on-this": {
+    "text": "Nejvýše {n} s v tomto klipu",
+    "source": "47c6548e2318"
   },
   "image.at-most-size": {
     "text": "Nejvýše {size}",
@@ -3535,6 +3712,10 @@
   "video.export.at-limit-this-would-get-rate": {
     "text": "Při {limit} by to bylo {rate}, příliš málo pro čistý obraz při {lines}.",
     "source": "5187fb1149f9"
+  },
+  "shell.notifier.at-time": {
+    "text": "V {time}",
+    "source": "c26d3282decc"
   },
   "word.references-index.atmosphere": {
     "text": "Atmosféra",
@@ -3571,6 +3752,10 @@
   "common.audio": {
     "text": "Zvuk",
     "source": "bc1b88907d3b"
+  },
+  "video.library.audio-library": {
+    "text": "Knihovna zvuků",
+    "source": "c514fc7eae0f"
   },
   "slides.ribbon.audio-on-my-pc": {
     "text": "Zvuk v tomto počítači…",
@@ -3675,6 +3860,14 @@
   "common.automatic": {
     "text": "Automaticky",
     "source": "d461a493a375"
+  },
+  "print.automatic-landscape": {
+    "text": "Automaticky (na šířku)",
+    "source": "9f5fed9ba15b"
+  },
+  "print.automatic-portrait": {
+    "text": "Automaticky (na výšku)",
+    "source": "98d2df109b2a"
   },
   "sheets.ribbon.automatic-except-for-data-tables": {
     "text": "Automaticky kromě tabulek dat",
@@ -4056,6 +4249,10 @@
     "text": "Blokovat odesílatele",
     "source": "536fd076223c"
   },
+  "talk.report.block-name-as-well": {
+    "text": "Také zablokovat: {name}",
+    "source": "1ec80dec6724"
+  },
   "talk.block-name": {
     "text": "Blokovat kontakt {name}?",
     "source": "c8f5c7726467"
@@ -4071,6 +4268,10 @@
   "mail.dialogs.blocked-top-level-domains": {
     "text": "Blokované domény nejvyšší úrovně",
     "source": "f30b5bed850e"
+  },
+  "talk.settings.blocked-people": {
+    "text": "Blokovaní lidé",
+    "source": "e11bdf7344a1"
   },
   "talk.block-2": {
     "text": "Blokovat…",
@@ -4223,6 +4424,10 @@
   "common.bottom-right": {
     "text": "Vpravo dole",
     "source": "b4b7cb63bc9b"
+  },
+  "video.layer-names.bottom-shade": {
+    "text": "Spodní ztmavení",
+    "source": "1dffbced0f7c"
   },
   "word.ribbon.box-dashed-line": {
     "text": "Rámeček: čárkovaná čára",
@@ -4574,6 +4779,10 @@
     "text": "Volat",
     "source": "d6e645b7d2b2"
   },
+  "talk.missed.call-back": {
+    "text": "Zavolat zpět",
+    "source": "fbb0a343f691"
+  },
   "talk.call-ended": {
     "text": "Hovor skončil",
     "source": "00ff74289a12"
@@ -4630,9 +4839,41 @@
     "text": "Styly kamery",
     "source": "a02b3cbd8c0d"
   },
+  "studio.window.camera-by-address": {
+    "text": "Kamera podle adresy…",
+    "source": "576460523c95"
+  },
+  "studio.net-camera-dialog.camera-details": {
+    "text": "Podrobnosti kamery",
+    "source": "1f24717cfd41"
+  },
+  "studio.sources-column.camera-details": {
+    "text": "Podrobnosti kamery…",
+    "source": "bed02af58b25"
+  },
+  "talk.meet-lines.camera-off": {
+    "text": "Kamera vypnuta",
+    "source": "ce3ef7450f8e"
+  },
   "studio.camera-n": {
     "text": "Kamera {n}",
     "source": "76ef0b65d44f"
+  },
+  "studio.net-camera-dialog.cameras-added-before": {
+    "text": "Dříve přidané kamery",
+    "source": "0bf02739feb0"
+  },
+  "studio.net-camera-find.cameras-on-the-network": {
+    "text": "Kamery v síti",
+    "source": "138fe6865c5e"
+  },
+  "studio.window.cameras-on-the-network": {
+    "text": "Kamery v síti…",
+    "source": "fa6270f9772a"
+  },
+  "studio.net-camera-find.cameras-that-answered": {
+    "text": "Kamery, které odpověděly",
+    "source": "7126fcdc2141"
   },
   "voices-dialog.can-be-added-when-this-computer": {
     "text": "Lze přidat, až bude tento počítač online",
@@ -4665,6 +4906,10 @@
   "calendar.cancelled-summary": {
     "text": "Zrušeno: {summary}",
     "source": "bc2bf8d8ef46"
+  },
+  "talk.meet-lines.cannot-be-heard-here": {
+    "text": "Na tomto počítači není slyšet",
+    "source": "2d08a6698f09"
   },
   "image.canvas-size": {
     "text": "Velikost plátna",
@@ -4917,6 +5162,10 @@
   "locker.change-how": {
     "text": "Změnit způsob",
     "source": "7d8d41039ce4"
+  },
+  "video.inspector.change-it-at-another-time-and": {
+    "text": "Když ho změníte v jiném čase, nastaví se tam bod.",
+    "source": "71ccbebf0a7b"
   },
   "base.change-my-password": {
     "text": "Změnit moje heslo",
@@ -5201,6 +5450,10 @@
     "text": "Kontrola…",
     "source": "ec963ffc911b"
   },
+  "video.layer-names.checklist": {
+    "text": "Kontrolní seznam",
+    "source": "7346030400bf"
+  },
   "pdf.checkmark": {
     "text": "Zaškrtnutí",
     "source": "d996cc6b3522"
@@ -5381,6 +5634,14 @@
     "text": "Vybrat hudbu",
     "source": "a2758f54bb45"
   },
+  "talk.meet-lines.choose-now-a-meeting-cannot-be": {
+    "text": "Zvolte hned: po vytvoření schůzky už nelze nastavit živé vysílání.",
+    "source": "4d90fc81342e"
+  },
+  "video.ribbon.choose-one": {
+    "text": "Vyberte možnost",
+    "source": "0b24aed53ab6"
+  },
   "apps-choice.choose-one-app-at-least": {
     "text": "Vyberte alespoň jednu aplikaci.",
     "source": "6fa9e25d8f09"
@@ -5420,6 +5681,10 @@
   "base.reports.choose-the-total-under-each-number": {
     "text": "Zvolte souhrn pod každým číslem: Součet, Průměr, Počet nebo žádný",
     "source": "5d7900fb073e"
+  },
+  "talk.groups.choose-two-or-more-of-your": {
+    "text": "Vyberte dva nebo více svých kontaktů. Každý ve skupině vidí, co se v ní píše a kdo další v ní je.",
+    "source": "1504482f5063"
   },
   "studio.sources-column.choose-what-to-show": {
     "text": "Vybrat, co zobrazit",
@@ -5925,6 +6190,10 @@
     "text": "Zesvětlit barvy",
     "source": "d3939c23da55"
   },
+  "video.library.colour-looks": {
+    "text": "Barevné vzhledy",
+    "source": "1e3eace528af"
+  },
   "image.type-editor.colour-of-the-words": {
     "text": "Barva textu",
     "source": "8c6ececb4c11"
@@ -6266,13 +6535,25 @@
     "text": "Připojit se k testovacímu serveru",
     "source": "73dfcbc52547"
   },
+  "talk.settings.connect-when-rutba-office-starts": {
+    "text": "Připojit při spuštění Rutba Office",
+    "source": "fbba41a8aaa4"
+  },
   "ai-tools-dialog.connected-now": {
     "text": "Nyní připojené",
     "source": "0e31ab40ee72"
   },
+  "studio.guests.connecting": {
+    "text": "Připojování",
+    "source": "d403c686f6a1"
+  },
   "base.trust.connecting-tells-host-that-this-database": {
     "text": "Připojení sdělí serveru {host}, že tato databáze byla otevřena, a odkud.",
     "source": "d62213401992"
+  },
+  "talk.meet-lines.connecting-to-the-meetings-talk-server": {
+    "text": "Připojování k serveru Hovory (Talk Server) schůzky…",
+    "source": "dbdd1c43c358"
   },
   "common.connecting": {
     "text": "Připojování…",
@@ -6349,6 +6630,10 @@
   "image.tools.contiguous-only-the-area-joined-to": {
     "text": "Souvislé: jen oblast navazující na místo kliknutí",
     "source": "c49227ac91cd"
+  },
+  "studio.guests.continue-in-talk": {
+    "text": "Pokračovat v Talk",
+    "source": "dfe707761b26"
   },
   "common.continuous": {
     "text": "Souvislé",
@@ -6535,6 +6820,10 @@
     "text": "Kopírovat zdejší formátování na další výběr",
     "source": "385e4d1fba79"
   },
+  "studio.guests.copy-the-meeting-link": {
+    "text": "Kopírovat odkaz na schůzku",
+    "source": "dcf78a0af22e"
+  },
   "pictures.copy-the-path": {
     "text": "Kopírovat cestu",
     "source": "80c28637e6ac"
@@ -6626,6 +6915,14 @@
   "mail.accounts-bulk.could-not-be-set-up": {
     "text": "Nepodařilo se nastavit",
     "source": "15a01aadfd5a"
+  },
+  "studio.guests.could-not-connect": {
+    "text": "Nepodařilo se připojit",
+    "source": "8630b4dd33f2"
+  },
+  "talk.meet-lines.could-not-connect-to-name-the": {
+    "text": "Nepodařilo se připojit: {name}. Spojení může blokovat síť mezi vámi.",
+    "source": "6efa1c493e6c"
   },
   "mail.could-not-send-why-the-message": {
     "text": "Nepodařilo se odeslat: {why}. Zpráva je zpět v Konceptech.",
@@ -7114,6 +7411,10 @@
   "common.dashed-horizontal": {
     "text": "Čárkovaná vodorovná",
     "source": "3ae29d68684a"
+  },
+  "video.layer-names.dashed-list": {
+    "text": "Seznam s pomlčkami",
+    "source": "482bff3efb3d"
   },
   "common.dashed-upward-diagonal": {
     "text": "Čárkovaná úhlopříčka nahoru",
@@ -8938,6 +9239,10 @@
     "text": "Vyprázdnit složku",
     "source": "ca1fd4548524"
   },
+  "print.empty-prints-every-page-or-type": {
+    "text": "Prázdné pole vytiskne všechny stránky. Nebo zadejte čísla stránek a rozsahy, např. 1,2,5,6 nebo 1-5.",
+    "source": "b8b744f198bd"
+  },
   "print.empty-prints-everything-with-anything-in": {
     "text": "Prázdné vytiskne vše, co obsahuje nějaký obsah.",
     "source": "256005db29f3"
@@ -9026,17 +9331,41 @@
     "text": "Závěrečná karta",
     "source": "9b35668a9a83"
   },
+  "talk.meeting.end-for-everyone": {
+    "text": "Ukončit pro všechny",
+    "source": "e1cc5d2e7a82"
+  },
+  "studio.guests.end-meeting": {
+    "text": "Ukončit schůzku",
+    "source": "0d59fd0fca8d"
+  },
   "slides.presenter.end-of-the-deck": {
     "text": "Konec prezentace",
     "source": "1f8740414e5b"
+  },
+  "studio.guests.end-the-broadcast-first": {
+    "text": "Nejprve ukončete vysílání.",
+    "source": "cda831c6b524"
   },
   "studio.live-bar.end-the-broadcast": {
     "text": "Ukončit vysílání?",
     "source": "ac1321bf9a1a"
   },
+  "studio.guests.end-the-meeting-for-everyone": {
+    "text": "Ukončit schůzku pro všechny",
+    "source": "403b0d8e29d9"
+  },
+  "studio.guests.end-the-meeting-for-everyone-2": {
+    "text": "Ukončit schůzku pro všechny?",
+    "source": "da7516896163"
+  },
   "calendar.end-time": {
     "text": "Čas konce",
     "source": "2e46006a5eeb"
+  },
+  "talk.ended": {
+    "text": "Ukončeno",
+    "source": "7cdc804e6996"
   },
   "studio.live-bar.ending": {
     "text": "Ukončování…",
@@ -9234,9 +9563,17 @@
     "text": "Vyhodnocení",
     "source": "163e44b10262"
   },
+  "video.inspector.evenly": {
+    "text": "Rovnoměrně",
+    "source": "83f7985d2900"
+  },
   "ai-tools.event": {
     "text": "Událost",
     "source": "4e1f49a9c8ae"
+  },
+  "notify-dialog.event-reminders": {
+    "text": "Připomenutí událostí",
+    "source": "d57de2d3c6a1"
   },
   "calendar.events-from-a-ics": {
     "text": "Události ze souboru .ics",
@@ -9269,6 +9606,10 @@
   "slides.every-comment-on-this-slide-deleted": {
     "text": "Všechny komentáře na tomto snímku odstraněny",
     "source": "59f3fa1b689c"
+  },
+  "contacts.every-contact-shown-count": {
+    "text": "Všechny zobrazené kontakty ({count})",
+    "source": "7f4a5bb606e7"
   },
   "calendar.every-day": {
     "text": "Každý den",
@@ -9335,6 +9676,10 @@
     "text": "Každý odstavec s tímto stylem se změní spolu s ním.",
     "source": "9cae08c0c68b"
   },
+  "pictures.every-picture-shown-count": {
+    "text": "Všechny zobrazené obrázky ({count})",
+    "source": "904610f6a47a"
+  },
   "base.documents.every-record": {
     "text": "Každý záznam",
     "source": "f9ed7dc95615"
@@ -9342,6 +9687,10 @@
   "engine.every-row-of-the-column-is": {
     "text": "Všechny řádky sloupce jsou už vyplněné",
     "source": "c50f8a60019b"
+  },
+  "studio.guests.every-seat-is-taken": {
+    "text": "Všechna místa jsou obsazena",
+    "source": "45dd15b4dde5"
   },
   "studio.settings-dialog.every-setup": {
     "text": "Všechny sestavy",
@@ -9396,9 +9745,33 @@
     "text": "Každý rok",
     "source": "828ca0e45f14"
   },
+  "talk.server-share.everybody-in-my-organisation": {
+    "text": "Všichni v mé organizaci",
+    "source": "0fe9dfd1fb93"
+  },
+  "talk.server-share.everybody-in-the-organisation-your-rutba": {
+    "text": "Všichni v organizaci, do které patří váš účet Rutba. Pokud nepatří do žádné, nikdo jiný.",
+    "source": "05c98bea8eb0"
+  },
   "common.everyone": {
     "text": "Všichni",
     "source": "da2e5dc515b1"
+  },
+  "talk.meet-lines.everyone-asked-is-told-before-they": {
+    "text": "Všichni pozvaní se to dozvědí před připojením. Nic se nevysílá, dokud schůzku neotevřete v aplikaci Vysílání (Live Broadcast) a nespustíte tam živé vysílání.",
+    "source": "48c2b1746439"
+  },
+  "studio.guests.everyone-asked-is-told-this-before": {
+    "text": "Všichni pozvaní se to dozvědí před připojením:",
+    "source": "e2f2a4d7030e"
+  },
+  "talk.meeting.everyone-in-this-group-is-told": {
+    "text": "Všichni v této skupině dostanou oznámení a mohou se připojit. Schůzka pojme najednou čtyři lidi.",
+    "source": "44ebddf60609"
+  },
+  "studio.guests.everyone-is-taken-out-and-the": {
+    "text": "Všichni budou ze schůzky odebráni a odkaz přestane fungovat.",
+    "source": "f32662261db0"
   },
   "registry.everyone-you-write-to-in-one": {
     "text": "Všichni, komu píšete, v jednom adresáři",
@@ -9703,13 +10076,13 @@
     "text": "Stmívání",
     "source": "7d680202a523"
   },
-  "video.inspector.fade-from-black": {
-    "text": "Roztmívání z černé",
-    "source": "636fcf61e179"
+  "video.layer-names.fade-in-and-out": {
+    "text": "Roztmívání a stmívání",
+    "source": "abdc99cd0ff6"
   },
-  "video.inspector.fade-to-black": {
-    "text": "Zatmívání do černé",
-    "source": "3fc1288f194f"
+  "video.inspector.fade-length": {
+    "text": "Délka zeslabení",
+    "source": "eb1d5120984a"
   },
   "common.fade-down": {
     "text": "Zeslabení: dolů",
@@ -9730,6 +10103,10 @@
   "word.dialogs.faint-and-rising-across-every-page": {
     "text": "Světlý, šikmo stoupající přes každou stránku, za textem, vykreslený jako ve Wordu.",
     "source": "ba77601d2670"
+  },
+  "video.inspector.fall": {
+    "text": "Dopad",
+    "source": "e85a6413c1bd"
   },
   "word.mailings.fallback": {
     "text": "Náhradní text",
@@ -9762,6 +10139,10 @@
   "mail.fetching-folder-done": {
     "text": "Stahování {folder}: {done}",
     "source": "d52ad4f83a82"
+  },
+  "video.library.fetching": {
+    "text": "Načítání…",
+    "source": "8d0738c84d08"
   },
   "mail.smime.fewer-details": {
     "text": "Méně podrobností",
@@ -9842,6 +10223,10 @@
   "common.file-name": {
     "text": "Název souboru",
     "source": "3efed3de9d4b"
+  },
+  "pictures.file-names-beneath-the-pictures": {
+    "text": "Názvy souborů pod obrázky",
+    "source": "9095d26206fe"
   },
   "locker.file-names-in-the-cloud": {
     "text": "Názvy souborů v cloudu",
@@ -10151,6 +10536,10 @@
     "text": "Najít: slova na všech stránkách (Ctrl+F)",
     "source": "04805ec8b35c"
   },
+  "talk.meet-lines.finding-a-talk-server-for-the": {
+    "text": "Hledání serveru Hovory (Talk Server) pro schůzku…",
+    "source": "f13c9a98b3ca"
+  },
   "ui.proofing.finding-suggestions": {
     "text": "Hledání návrhů…",
     "source": "b5269d86a5f7"
@@ -10199,6 +10588,10 @@
     "text": "Dokončete přihlášení v prohlížeči a pak se sem vraťte.",
     "source": "07f16710fc1e"
   },
+  "talk.finish-your-call-first": {
+    "text": "Nejprve ukončete hovor.",
+    "source": "7bf710a0c972"
+  },
   "common.fire": {
     "text": "Oheň",
     "source": "c141faa80e43"
@@ -10242,6 +10635,10 @@
   "base.sources.first-page": {
     "text": "První stránka",
     "source": "0bdbb750609c"
+  },
+  "video.library.first-point": {
+    "text": "První bod",
+    "source": "29ceaa773427"
   },
   "common.first-record": {
     "text": "První záznam",
@@ -10294,6 +10691,10 @@
   "common.fit-to-window": {
     "text": "Přizpůsobit oknu",
     "source": "19707cae1f79"
+  },
+  "image.fit-to-the-page": {
+    "text": "Přizpůsobit stránce",
+    "source": "d3813ef5da30"
   },
   "common.fit-to-window-2": {
     "text": "Přizpůsobit oknu",
@@ -10596,9 +10997,17 @@
     "text": "Pro právní blokaci: mbox a PDF s manifestem hodnot hash",
     "source": "cd8cd2cc47d2"
   },
+  "talk.meet-lines.for-more-than-four-people-choose": {
+    "text": "Pro více než čtyři osoby. Zvolte teď: později už to nelze změnit.",
+    "source": "84feb33750e6"
+  },
   "studio.window.for-the-tools": {
     "text": "Pro nástroje",
     "source": "28b5d93196d6"
+  },
+  "studio.settings-dialog.for-this-session-save-the-session": {
+    "text": "Platí pro tuto relaci. Chcete-li je zachovat, uložte relaci jako sestavu.",
+    "source": "89f7e8f9bc6d"
   },
   "broadcast.live-dialog.for-wide-and-tall-on-one": {
     "text": "Pro šířku i výšku na jedné platformě ji přidejte dvakrát, s klíčem pro každou.",
@@ -10631,6 +11040,14 @@
   "slides.foreground": {
     "text": "Popředí",
     "source": "ad4e241834ec"
+  },
+  "studio.net-camera-dialog.forget": {
+    "text": "Zapomenout",
+    "source": "a6bd489d9550"
+  },
+  "studio.net-camera-dialog.forget-this-camera-and-its-password": {
+    "text": "Zapomenout tuto kameru a její heslo",
+    "source": "bbaf44180309"
   },
   "pdf.form": {
     "text": "Formulář",
@@ -10992,10 +11409,6 @@
     "text": "Zprava nahoře",
     "source": "6b697be237a3"
   },
-  "video.inspector.from-black": {
-    "text": "Z černé",
-    "source": "6b8e41a84b78"
-  },
   "talk.invite.from-no-reply-rutba-io-in": {
     "text": "Z adresy no-reply@rutba.io, vaším jménem, několik denně.",
     "source": "ca68787a47f9"
@@ -11156,6 +11569,10 @@
     "text": "GitHub kontrolu prozatím odmítl. Zkuste to znovu za hodinu.",
     "source": "607e298f1b12"
   },
+  "talk-words.give-the-meeting-a-name": {
+    "text": "Zadejte název schůzky.",
+    "source": "ca0cc479b89e"
+  },
   "locker.give-the-password-a-different-way": {
     "text": "Heslo předejte jinou cestou, například telefonicky nebo textovou zprávou, a nikdy ne ve stejném e-mailu. Druhá osoba soubor otevře ve svém Trezoru (Locker) příkazem Otevřít poslaný soubor.",
     "source": "1b7a08b8266b"
@@ -11163,6 +11580,10 @@
   "locker.give-the-password-a-different-way-2": {
     "text": "Heslo předejte jinou cestou, například telefonicky nebo textovou zprávou.",
     "source": "de572f2fb31a"
+  },
+  "studio.net-camera-find.give-the-user-name-and-password": {
+    "text": "Zadejte uživatelské jméno a heslo kamery. Office si stream vyžádá přímo od kamery.",
+    "source": "4a09aba0e547"
   },
   "slides.glow": {
     "text": "Záře",
@@ -11472,6 +11893,10 @@
     "text": "Seskupeno podle {columns}",
     "source": "a3ee8fd53ec4"
   },
+  "talk.groups": {
+    "text": "Skupiny",
+    "source": "39bbb719fa2b"
+  },
   "word.restrict.groups": {
     "text": "Skupiny:",
     "source": "914dc79e4818"
@@ -11496,9 +11921,37 @@
     "text": "Růst",
     "source": "66b06e996553"
   },
+  "studio.list.guest": {
+    "text": "Host",
+    "source": "5ed8944a85a9"
+  },
+  "studio.guests.guest-from-talk": {
+    "text": "Host z Hovorů (Talk)…",
+    "source": "793232fc0bf6"
+  },
   "base.guest-house-or-b-and-b": {
     "text": "Penzion nebo B&B",
     "source": "a0f9eeb489a3"
+  },
+  "studio.list.guest-n": {
+    "text": "Host {n}",
+    "source": "03b6865b76af"
+  },
+  "studio.guests.guests": {
+    "text": "Hosté",
+    "source": "3c8e0fde6fcc"
+  },
+  "studio.guests.guests-come-in-through-talk-open": {
+    "text": "Hosté přicházejí přes Hovory (Talk). Otevřete Hovory, přihlaste se a vraťte se sem.",
+    "source": "9eb299d4bca8"
+  },
+  "studio.guests.guests-from-talk": {
+    "text": "Hosté z Talk",
+    "source": "3d460856e536"
+  },
+  "studio.guests.guests-2": {
+    "text": "Hosté…",
+    "source": "16daa9d8055e"
   },
   "slides.ribbon.guides": {
     "text": "Vodítka",
@@ -11515,6 +11968,14 @@
   "slides.half-reflection": {
     "text": "Poloviční odraz",
     "source": "5134a8a7f210"
+  },
+  "talk.meet-lines.hand": {
+    "text": "Ruka",
+    "source": "fa18c06733fb"
+  },
+  "talk.meet-lines.hand-raised": {
+    "text": "Zvednutá ruka",
+    "source": "28a816817557"
   },
   "print.handout": {
     "text": "Podklady",
@@ -11548,6 +12009,10 @@
   "word.ruler.hanging-indent": {
     "text": "Předsazení",
     "source": "330571a6ff67"
+  },
+  "talk.lines.harassment-or-threats": {
+    "text": "Obtěžování nebo výhrůžky",
+    "source": "badb8a71f7e3"
   },
   "common.harbour": {
     "text": "Přístav",
@@ -11733,6 +12198,14 @@
     "text": "Výška: automaticky",
     "source": "72963474c164"
   },
+  "talk.meet-lines.held-on-a-talk-server-and": {
+    "text": "Koná se na serveru Hovory (Talk Server) a šifrují ji aplikace účastníků.",
+    "source": "069bbb237456"
+  },
+  "talk.meet-lines.held-on-a-talk-server-sound": {
+    "text": "Koná se na serveru Hovory (Talk Server). Zvuk, obraz a zprávy šifrují aplikace účastníků.",
+    "source": "7b770898ab95"
+  },
   "talk.invite-email.hello-name": {
     "text": "Dobrý den, {name},",
     "source": "ec6b334e36ce"
@@ -11756,6 +12229,10 @@
   "word.mailings.here-is-a-preview-from-your": {
     "text": "Zde je náhled ze seznamu příjemců:",
     "source": "e78b6ed296e4"
+  },
+  "studio.guests.here-now": {
+    "text": "Přítomní",
+    "source": "ccf67ff0cbab"
   },
   "colour.palette.hex": {
     "text": "Hex",
@@ -12005,6 +12482,10 @@
     "text": "Zastavit snímek",
     "source": "21076652231b"
   },
+  "talk.meeting.hold-it-on-a-talk-server": {
+    "text": "Konat na serveru Hovory (Talk Server)",
+    "source": "6f8881eaab59"
+  },
   "pictures.hold-this-frame": {
     "text": "Zastavit tento snímek",
     "source": "710af7ead1b9"
@@ -12040,6 +12521,10 @@
   "template-gallery.household": {
     "text": "Domácnost",
     "source": "a1c6c97f415f"
+  },
+  "notify-dialog.how": {
+    "text": "Jak",
+    "source": "7470bd3bc2ab"
   },
   "video.inspector.how-close": {
     "text": "Míra přiblížení",
@@ -12459,6 +12944,10 @@
     "text": "Před textem",
     "source": "c5e4f149a0b0"
   },
+  "talk.meeting.in-it-now-names": {
+    "text": "Právě přítomní: {names}",
+    "source": "41e0075c8bab"
+  },
   "word.in-line-with-text": {
     "text": "V řádku s textem",
     "source": "975100d147b1"
@@ -12507,6 +12996,15 @@
     "text": "V kontaktech v Hovorech (Talk)",
     "source": "6d460ac05145"
   },
+  "shell.notifier.in-count-minute": {
+    "forms": {
+      "one": "Za {count} minutu",
+      "few": "Za {count} minuty",
+      "many": "Za {count} minuty",
+      "other": "Za {count} minut"
+    },
+    "source": "575500e5bcff"
+  },
   "video.in-from-out-to": {
     "text": "Vstup {from}, výstup {to}",
     "source": "9ad2ac8a59a8"
@@ -12551,9 +13049,17 @@
     "text": "Příchozí hovor",
     "source": "a31650d84806"
   },
+  "notify-dialog.incoming-calls": {
+    "text": "Příchozí hovory",
+    "source": "820afd4a1ab6"
+  },
   "mail.dialogs.incoming-server-imap": {
     "text": "Příchozí server (IMAP)",
     "source": "dfd215e4fd24"
+  },
+  "shell.notifier.incoming-video-call": {
+    "text": "Příchozí videohovor",
+    "source": "eda8b6750322"
   },
   "sheets.ribbon.increase-decimal": {
     "text": "Přidat desetinné místo",
@@ -13347,6 +13853,10 @@
     "text": "Faktura",
     "source": "b832002da297"
   },
+  "video.iris": {
+    "text": "Clona",
+    "source": "65003c7a1864"
+  },
   "sheets.queries.is": {
     "text": "Je",
     "source": "f5985de1fd3a"
@@ -13459,9 +13969,17 @@
     "text": "Zobrazuje se jako prostý text, bez odkazů a obrázků: šifrovaná zpráva, kterou nepodepsal nikdo důvěryhodný, mohla být cestou změněna tak, aby odeslala svůj text jinam.",
     "source": "a923da16888c"
   },
+  "shell.tray.it-keeps-watch-for-calls-messages": {
+    "text": "Hlídá hovory, zprávy, poštu a připomenutí. Otevřít nebo ukončit ji můžete z její ikony u hodin.",
+    "source": "280bef469893"
+  },
   "locker.it-needs-about-size-and-free": {
     "text": "Potřebuje přibližně {size}, volné místo: {free}.",
     "source": "4b6dd24db2d1"
+  },
+  "notify-dialog.it-starts-by-the-clock-with": {
+    "text": "Při přihlášení do Windows se spustí u hodin, bez okna.",
+    "source": "6a1f3f9b4896"
   },
   "base.people.it-starts-reading-every-table-choose": {
     "text": "Zpočátku čte všechny tabulky; zvolte, co smí s každou z nich dělat.",
@@ -13470,6 +13988,10 @@
   "base.it-starts-with-an-id-that": {
     "text": "Začíná polem ID, které čísluje každý záznam; další pole přidejte v jejím návrhu.",
     "source": "021f623d5e41"
+  },
+  "notify-dialog.it-stays-by-the-clock-while": {
+    "text": "Zůstává u hodin, dokud je co hlídat: přihlášení v Hovorech (Talk), poštovní účet nebo nadcházející připomenutí. Zavře ji příkaz Ukončit v nabídce její ikony.",
+    "source": "10a5253e2f69"
   },
   "mail.dialogs.it-uses-the-encoding-encoding-which": {
     "text": "Používá kódování {encoding}, které tato verze nedokáže dekódovat.",
@@ -13581,9 +14103,37 @@
     "text": "Funkce",
     "source": "86db80a8096b"
   },
+  "common.join": {
+    "text": "Připojit se",
+    "source": "fd30fe681b4b"
+  },
+  "talk.meeting.join-a-meeting": {
+    "text": "Připojit se ke schůzce",
+    "source": "9b2a5bd7d96b"
+  },
   "sheets.queries.join-kind": {
     "text": "Druh spojení",
     "source": "a9aa54ad2dfd"
+  },
+  "calendar.join-the-meeting": {
+    "text": "Připojit se ke schůzce",
+    "source": "31310cd2645b"
+  },
+  "talk-words.join-the-meeting-in-rutba-office": {
+    "text": "Připojte se ke schůzce v Rutba Office: {link}",
+    "source": "c9c01f7d52fd"
+  },
+  "calendar.joining-needs-talk-which-is-not": {
+    "text": "Připojení vyžaduje aplikaci Hovory (Talk), která tu chybí.",
+    "source": "7870dcf0080c"
+  },
+  "talk.meeting.joining-name": {
+    "text": "Připojování: {name}…",
+    "source": "56727336c281"
+  },
+  "talk.meeting.joining": {
+    "text": "Připojování…",
+    "source": "6bbb89ee5d48"
   },
   "common.journal-article": {
     "text": "Článek v časopise",
@@ -13664,6 +14214,10 @@
   "pdf.keep-it-open": {
     "text": "Ponechat otevřené",
     "source": "458f6b681df9"
+  },
+  "notify-dialog.keep-rutba-office-running-after-its": {
+    "text": "Nechat Rutba Office běžet i po zavření posledního okna",
+    "source": "f31bfd395eab"
   },
   "sheets.queries.keep-top-rows": {
     "text": "Zachovat horní řádky",
@@ -13785,6 +14339,14 @@
     "text": "Uložit tohoto odesílatele do Kontaktů",
     "source": "dd3bb1c9952a"
   },
+  "studio.setups-menu.keep-this-session": {
+    "text": "Zachovat tuto relaci?",
+    "source": "5949e8e6390b"
+  },
+  "notify-dialog.keeping-watch": {
+    "text": "Běh v pozadí",
+    "source": "2bd2ecd98d0f"
+  },
   "sheets.dialogs.keeps": {
     "text": "Zachová",
     "source": "16aebc8dbb59"
@@ -13840,6 +14402,10 @@
   "contacts.kept-name": {
     "text": "Uloženo: {name}.",
     "source": "631191ecc875"
+  },
+  "studio.net-camera-dialog.kept-type-a-new-one-to": {
+    "text": "Uloženo. Chcete-li ho změnit, zadejte nové.",
+    "source": "94040f9b6468"
   },
   "common.key": {
     "text": "Klíč",
@@ -14109,6 +14675,10 @@
     "text": "Poslední: {tool}, {when}",
     "source": "555c3b837526"
   },
+  "video.inspector.lasts": {
+    "text": "Trvání",
+    "source": "e8d07dfabcb4"
+  },
   "packs-dialog.later": {
     "text": "Později",
     "source": "73b6e48a1b55"
@@ -14194,6 +14764,10 @@
     "text": "Nejméně",
     "source": "02610c979bd9"
   },
+  "talk.meeting.leave": {
+    "text": "Odejít",
+    "source": "fc6e4a408d56"
+  },
   "mail.dialogs.leave-blank-for-automatic-reply-and": {
     "text": "Ponecháte-li prázdné, použije se „Automatická odpověď: “ a původní předmět.",
     "source": "94aa5a2fde29"
@@ -14218,6 +14792,10 @@
     "text": "Ukončit celou obrazovku (F11)",
     "source": "f29680c41343"
   },
+  "talk.leave-group": {
+    "text": "Opustit skupinu",
+    "source": "3475393dbebd"
+  },
   "sheets.dialogs.leave-it-empty-to-keep-the": {
     "text": "Ponecháte-li pole prázdné, zůstane heslo, které tato oblast má.",
     "source": "41e0fa01d903"
@@ -14234,6 +14812,10 @@
     "text": "Vynechat, co následuje za minusem",
     "source": "fc1eecb3aa7d"
   },
+  "talk.meeting.leave-the-meeting": {
+    "text": "Odejít ze schůzky",
+    "source": "977585a92642"
+  },
   "slides.leave-the-show": {
     "text": "Ukončit promítání",
     "source": "fdc22af2a38d"
@@ -14249,6 +14831,14 @@
   "locker.leave-them-unlocked-suggested": {
     "text": "Nechat je nezamčené (doporučeno)",
     "source": "0afd256556ff"
+  },
+  "talk.leave-this-group": {
+    "text": "Opustit tuto skupinu?",
+    "source": "4ed01b5a99b2"
+  },
+  "talk.meeting.leave-or-end-the-meeting-for": {
+    "text": "Odejít, nebo ukončit schůzku pro všechny?",
+    "source": "f2d3c9b9f154"
   },
   "common.left": {
     "text": "Vlevo",
@@ -14346,6 +14936,10 @@
   "word.ribbon.legal-8-5-14-in": {
     "text": "Legal: 8,5 × 14 in",
     "source": "470239248343"
+  },
+  "video.inspector.legend": {
+    "text": "Legenda",
+    "source": "7482e374b5bd"
   },
   "base.lending-library": {
     "text": "Výpůjční knihovna",
@@ -14659,6 +15253,14 @@
     "text": "Adresa odkazu",
     "source": "13844ffc7287"
   },
+  "talk.meeting.link-copied": {
+    "text": "Odkaz byl zkopírován.",
+    "source": "71af38a2d56b"
+  },
+  "studio.guests.link-copied-paste-it-wherever-you": {
+    "text": "Odkaz byl zkopírován. Můžete ho vložit kamkoli.",
+    "source": "e62a2c262096"
+  },
   "word.list-dialog.link-level-to-style": {
     "text": "Propojit úroveň se stylem",
     "source": "ed09b5da333c"
@@ -14795,6 +15397,10 @@
     "text": "Cíle živého vysílání…",
     "source": "677788648878"
   },
+  "studio.guests.live-broadcast-with-name": {
+    "text": "Živé vysílání s {name}",
+    "source": "fed9b5301f2a"
+  },
   "base.links.live-reads-the-records-from-the": {
     "text": "Živě čte záznamy ze stroje během vaší práce. Uchovat kopii v tomto souboru je uchová i zde: můžete pracovat i bez dostupného stroje a vaše změny se do něj odešlou, až bude zpět. Když byl záznam změněn na obou místech, má přednost verze stroje a ta vaše zůstane uložena, abyste ji viděli.",
     "source": "c61357c56fe9"
@@ -14862,6 +15468,10 @@
   "image.layers-panel.lock-the-layer": {
     "text": "Zamknout vrstvu",
     "source": "7dbd5ea70c86"
+  },
+  "talk.meeting.lock-the-meeting-nobody-new-can": {
+    "text": "Zamknout schůzku: nikdo nový se nepřipojí",
+    "source": "5508fe16d924"
   },
   "locker.lock-the-rest-leave-this-one": {
     "text": "Zamknout ostatní, tento nechat nezamčený",
@@ -14987,6 +15597,10 @@
     "text": "Vzhled",
     "source": "a0de5719f595"
   },
+  "studio.net-camera-find.look-again": {
+    "text": "Hledat znovu",
+    "source": "d36feef04807"
+  },
   "video.look-here": {
     "text": "Dívejte se sem",
     "source": "a0191bf6cc06"
@@ -15010,6 +15624,10 @@
   "mail.docnote.looking-for-an-invoice-or-a": {
     "text": "Hledání faktury nebo účtenky v {name}…",
     "source": "19526ac28939"
+  },
+  "studio.net-camera-find.looking-for-cameras-on-this-network": {
+    "text": "Hledání kamer v této síti…",
+    "source": "35cf2433a990"
   },
   "slides.changes.looking-for-changes": {
     "text": "Hledání změn…",
@@ -15078,6 +15696,10 @@
   "video.inspector.lower-the-rest": {
     "text": "Ztišit ostatní",
     "source": "95be98f8b672"
+  },
+  "talk.meeting.lower-your-hand": {
+    "text": "Spustit ruku",
+    "source": "b8308c2681a2"
   },
   "common.lowercase": {
     "text": "Malá písmena",
@@ -15724,13 +16346,33 @@
     "text": "Střední, bez pruhů",
     "source": "611babdad090"
   },
+  "talk.meet-now": {
+    "text": "Sejít se hned",
+    "source": "90e040c1ceb7"
+  },
+  "common.meeting": {
+    "text": "Schůzka",
+    "source": "8b8b8871bbfb"
+  },
   "template-gallery.meeting-agenda": {
     "text": "Program schůzky",
     "source": "07d60ca4be2d"
   },
+  "talk.meeting.meeting-locked": {
+    "text": "Schůzka zamčena",
+    "source": "b91ee56f0968"
+  },
   "template-gallery.meeting-minutes": {
     "text": "Zápis ze schůzky",
     "source": "eed123b54b71"
+  },
+  "talk.meet-lines.meeting-with-name": {
+    "text": "Schůzka s {name}",
+    "source": "c77cbc09cfcf"
+  },
+  "notify-dialog.meetings-about-to-start": {
+    "text": "Blížící se schůzky",
+    "source": "5e5c76090b99"
   },
   "base.members-and-plans-payments-classes-and": {
     "text": "Členové a tarify, platby, lekce a rezervace, osobní tréninky a návštěvy.",
@@ -16012,6 +16654,18 @@
     "text": "Zrcadlit",
     "source": "90fade6fb78e"
   },
+  "common.missed-call": {
+    "text": "Zmeškaný hovor",
+    "source": "f203aff4b526"
+  },
+  "common.missed-calls": {
+    "text": "Zmeškané hovory",
+    "source": "42f59e0dcd29"
+  },
+  "talk.lines.missed-video-call": {
+    "text": "Zmeškaný videohovor",
+    "source": "73fd69f0bfa5"
+  },
   "word.ribbon.moderate": {
     "text": "Střední",
     "source": "5c42afc7a230"
@@ -16172,6 +16826,10 @@
     "text": "Další šablony: dopisy, zprávy, rozpočty, faktury, prezentace a další, i vaše vlastní",
     "source": "9633d83cbe73"
   },
+  "video.ribbon.more-transitions": {
+    "text": "Další přechody",
+    "source": "196a312ff56d"
+  },
   "sheets.more-edit-or-delete": {
     "text": "Více: upravit nebo odstranit",
     "source": "09b71b1a3f9a"
@@ -16275,6 +16933,10 @@
   "video.move-track-up": {
     "text": "Přesunout stopu nahoru",
     "source": "014314a1063e"
+  },
+  "video.timeline.move-a-point-of-movement": {
+    "text": "Přesunout bod pohybu",
+    "source": "456f30320217"
   },
   "video.move-clip": {
     "text": "Přesunout klip",
@@ -16384,6 +17046,10 @@
     "text": "Přesunuto do koše",
     "source": "4a32012fc458"
   },
+  "video.inspector.movement": {
+    "text": "Pohyb",
+    "source": "49ba63e89af6"
+  },
   "sheets.objects.multi-select-off-a-click-shows": {
     "text": "Vícenásobný výběr je vypnutý: kliknutí zobrazí jen danou položku (Ctrl+kliknutí přidá další)",
     "source": "0910783d3f55"
@@ -16432,6 +17098,10 @@
     "text": "Ztlumit tuto stopu",
     "source": "2d4449bf2a58"
   },
+  "common.muted": {
+    "text": "Ztlumeno",
+    "source": "2346f214ad56"
+  },
   "talk.address.my-address-in-talk": {
     "text": "Moje adresa v aplikaci Talk",
     "source": "c06c86b814f9"
@@ -16443,6 +17113,10 @@
   "calendar.my-calendars": {
     "text": "Moje kalendáře",
     "source": "23b77e2b7bb3"
+  },
+  "talk.server-share.my-contacts": {
+    "text": "Mé kontakty",
+    "source": "6add5927687d"
   },
   "talk.invite.my-email-app": {
     "text": "Moje e-mailová aplikace",
@@ -16508,6 +17182,14 @@
     "text": "Název webu",
     "source": "9a8a9021ffc5"
   },
+  "talk.groups.name-of-the-group": {
+    "text": "Název skupiny",
+    "source": "d692cebacdf6"
+  },
+  "talk.meeting.name-of-the-meeting": {
+    "text": "Název schůzky",
+    "source": "d944cb35604b"
+  },
   "profiles.name-of-the-new-profile": {
     "text": "Název nového profilu",
     "source": "cd872167f53f"
@@ -16531,6 +17213,10 @@
   "common.name-for-the-lower-third": {
     "text": "Jméno pro popisek v dolní třetině",
     "source": "3075123d2d1a"
+  },
+  "talk.groups.name-if-you-want-one": {
+    "text": "Název, pokud chcete",
+    "source": "70fee814f6a2"
   },
   "sheets.dialogs.named-ranges": {
     "text": "Pojmenované oblasti",
@@ -16618,6 +17304,10 @@
     "text": "Vyžaduje novější Rutba Office",
     "source": "3d61f92f62b9"
   },
+  "talk.lines.needs-a-newer-rutba-office-to": {
+    "text": "K zobrazení této skupiny je třeba novější Rutba Office",
+    "source": "e9f8d676fa25"
+  },
   "locker.needs-you": {
     "text": "Čeká na vás",
     "source": "74b6abdf5969"
@@ -16626,9 +17316,17 @@
     "text": "Dokud nebudete znovu kontakty, nemůže nikdo z vás tomu druhému psát ani volat. Vaše zprávy zde se smažou.",
     "source": "55354b8358c9"
   },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "Nezobrazují se ani nečtou nahlas: řádky si drží svůj čas. Vyberte jednu ze tří možností a vrátí se.",
+    "source": "431be017d2c5"
+  },
   "common.neon": {
     "text": "Neon",
     "source": "618484e2c549"
+  },
+  "studio.list.network-camera": {
+    "text": "Síťová kamera",
+    "source": "6e3492ed4b9b"
   },
   "sheets.ribbon.neutral": {
     "text": "Neutrální",
@@ -16810,6 +17508,10 @@
     "text": "Nové dokumenty budou začínat takto: {name}.",
     "source": "5331555ff54a"
   },
+  "common.new-email": {
+    "text": "Nový e-mail",
+    "source": "0d25c8b1db61"
+  },
   "calendar.new-event": {
     "text": "Nová událost",
     "source": "7cdc2e276045"
@@ -16838,9 +17540,17 @@
     "text": "Nový ze šablony",
     "source": "5c281f84d68c"
   },
+  "talk.groups.new-group": {
+    "text": "Nová skupina",
+    "source": "df796c655f6f"
+  },
   "mail.new-mail-goes-from-address": {
     "text": "Nová pošta se odesílá z {address}",
     "source": "75d10444c655"
+  },
+  "notify-dialog.new-mail-as-it-arrives": {
+    "text": "Nová pošta, jakmile dorazí",
+    "source": "7436e7beb576"
   },
   "mail.new-message": {
     "text": "Nová zpráva",
@@ -16881,6 +17591,10 @@
   "mail.rules.new-rule": {
     "text": "Nové pravidlo",
     "source": "99cd24efe983"
+  },
+  "studio.window.new-session": {
+    "text": "Nová relace",
+    "source": "cffdba22adf2"
   },
   "studio.new-setup": {
     "text": "Nová sestava",
@@ -17042,6 +17756,10 @@
     "text": "Další stránka (Page Down)",
     "source": "b4b926fb53d0"
   },
+  "video.inspector.next-point": {
+    "text": "Další bod",
+    "source": "ce6dcb3c9b65"
+  },
   "common.next-record": {
     "text": "Další záznam",
     "source": "72366533fb26"
@@ -17150,6 +17868,14 @@
     "text": "Ještě nemáte Rutba Office? Stejný odkaz vám umožní přijmout s bezplatným účtem Rutba a Rutba Office lze zdarma stáhnout: {join}",
     "source": "16030f970f96"
   },
+  "talk.meet-lines.no-talk-server-can-hold-this": {
+    "text": "Tuto schůzku teď nemůže hostit žádný server Hovory (Talk Server).",
+    "source": "21399cd5bfda"
+  },
+  "talk.meet-lines.no-talk-server-can-take-people": {
+    "text": "Žádný server Hovory (Talk Server) teď nemůže na schůzku přijmout lidi. Zkuste se za chvíli připojit znovu.",
+    "source": "f88a607c134e"
+  },
   "sheets.ribbon.no-title": {
     "text": "Žádný název",
     "source": "a81d00a2e03d"
@@ -17225,6 +17951,14 @@
   "ai-tools-dialog.no-call-yet": {
     "text": "Zatím žádné volání",
     "source": "a43c76129f11"
+  },
+  "studio.net-camera-find.no-camera-answered-a-camera-answers": {
+    "text": "Žádná kamera neodpověděla. Kamera odpoví, když má ve svém nastavení zapnuté ONVIF a je ve stejné síti jako tento počítač.",
+    "source": "458f70618c7d"
+  },
+  "talk.meet-lines.no-camera-was-found-on-this": {
+    "text": "V tomto počítači nebyla nalezena žádná kamera.",
+    "source": "16b044153b6f"
   },
   "common.no-camera-was-found": {
     "text": "Nebyla nalezena žádná kamera.",
@@ -17302,6 +18036,10 @@
     "text": "Zatím žádné kontakty. Přidejte někoho podle e-mailové adresy; jakmile přijme, můžete si psát a volat.",
     "source": "f6497439472d"
   },
+  "studio.guests.no-copy-is-kept-while-this": {
+    "text": "Dokud je zde tato schůzka, kopie se neukládá. Účastníkům bylo oznámeno, že je vysílána živě, ne že se nahrává.",
+    "source": "40fd5ed74db7"
+  },
   "slides.custom-shows.no-custom-shows-yet-new-makes": {
     "text": "Zatím žádné vlastní prezentace. Nová ji vytvoří.",
     "source": "8b1f3e334875"
@@ -17337,6 +18075,10 @@
   "word.mailings.no-errors-every-merge-field-has": {
     "text": "Žádné chyby: každé slučovací pole má v seznamu sloupec.",
     "source": "3d54fcdbe072"
+  },
+  "calendar.print.no-events": {
+    "text": "Žádné události",
+    "source": "2197f6207922"
   },
   "pdf.found.no-fields-were-found-recognise-text": {
     "text": "Nebyla nalezena žádná pole. Rozpoznat text se zaškrtnutou volbou Najít pole přečte pole faktury nebo účtenky a zaškrtávací políčka formuláře.",
@@ -17422,14 +18164,6 @@
     "text": "Bez omezení",
     "source": "f7fcff0d8fea"
   },
-  "spoken.voices.add-a-voice-to-read-the": {
-    "text": "Přidat hlas, který slova přečte nahlas; zobrazit je lze i bez něj.",
-    "source": "04ed3fbd74fe"
-  },
-  "spoken.voices.neither-shown-nor-read-aloud-the": {
-    "text": "Nezobrazují se ani nečtou nahlas: řádky si drží svůj čas. Vyberte jednu ze tří možností a vrátí se.",
-    "source": "431be017d2c5"
-  },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "Zatím žádné řádky: každý řádek textu se přečte postupně.",
     "source": "6c66185b20fc"
@@ -17474,9 +18208,17 @@
     "text": "Bez mikrofonu",
     "source": "618183d7ea1f"
   },
+  "talk.meet-lines.no-microphone-was-found-on-this": {
+    "text": "V tomto počítači nebyl nalezen žádný mikrofon. Ostatní vás neslyší.",
+    "source": "05f114874a3a"
+  },
   "studio.no-microphone-was-found": {
     "text": "Nebyl nalezen žádný mikrofon.",
     "source": "cf757208df0f"
+  },
+  "talk.missed.no-missed-calls": {
+    "text": "Žádné zmeškané hovory.",
+    "source": "7a78e0b6e3b9"
   },
   "word.references-toa.no-more-citations-found": {
     "text": "Nebyly nalezeny žádné další citace.",
@@ -17497,6 +18239,10 @@
   "slides.presenter.no-notes-on-this-slide-type": {
     "text": "Na tomto snímku nejsou poznámky. Napište je pod snímek v normálním zobrazení, kde je text Kliknutím přidáte poznámky.",
     "source": "fe1e3a5506f6"
+  },
+  "notify-dialog.no-notifications-between-these-times-what": {
+    "text": "Mezi těmito časy žádná oznámení. Příchozí položky se stále počítají.",
+    "source": "9bb97a080483"
   },
   "engine.no-numbers-found-a-chart-wants": {
     "text": "Nenalezena žádná čísla. Graf potřebuje, aby buňky v těle tabulky byly číselné.",
@@ -17557,6 +18303,10 @@
   "print.no-printer-is-installed": {
     "text": "Není nainstalována žádná tiskárna",
     "source": "eb71dfd30c2e"
+  },
+  "print.no-printer-is-installed-use-save": {
+    "text": "Není nainstalována žádná tiskárna. Použijte „Uložit jako PDF“ nebo přidejte tiskárnu v nastavení tohoto počítače.",
+    "source": "c8bae189ef75"
   },
   "sheets.queries.no-queries-in-this-workbook-yet": {
     "text": "V tomto sešitu zatím nejsou dotazy. Vytvoří je Data → Z tabulky/oblasti nebo Z textu/CSV.",
@@ -17621,6 +18371,10 @@
   "mail.rules.no-rules-yet": {
     "text": "Zatím žádná pravidla",
     "source": "d29cf782366d"
+  },
+  "studio.setups-menu.no-saved-setups-yet": {
+    "text": "Zatím žádné uložené sestavy",
+    "source": "abf744b63ded"
   },
   "common.no-scaling": {
     "text": "Bez změny měřítka",
@@ -17718,6 +18472,10 @@
     "text": "Zatím žádná zobrazení. Přidat… uloží aktuální vzhled sešitu.",
     "source": "233d8dca900a"
   },
+  "read-aloud.bar.no-voice-for-language-is-on": {
+    "text": "Hlas pro jazyk {language} tu není.",
+    "source": "9dae296f7e6e"
+  },
   "common.no-voice-has-been-added": {
     "text": "Nebyl přidán žádný hlas.",
     "source": "c163f326bf4d"
@@ -17754,6 +18512,14 @@
     "text": "Zatím žádné titulky {label}: přidá je Vložit titulek a Aktualizovat tabulku seznam zaktualizuje.",
     "source": "fd8ab69b9093"
   },
+  "talk.server-share.nobody-else-can-hold-a-meeting": {
+    "text": "Nikdo jiný na něm nemůže konat schůzku.",
+    "source": "2e4dc764891f"
+  },
+  "studio.guests.nobody-here-yet": {
+    "text": "Zatím tu nikdo není",
+    "source": "a142ffa894ef"
+  },
   "talk.invite-email.nobody-in-contacts-has-an-email": {
     "text": "V Kontaktech zatím nikdo nemá e-mailovou adresu.",
     "source": "7e5a82a6e3b4"
@@ -17761,6 +18527,18 @@
   "talk.invite-email.nobody-in-contacts-matches": {
     "text": "V Kontaktech nikdo neodpovídá.",
     "source": "3f4ecb0436d4"
+  },
+  "talk.settings.nobody-is-blocked": {
+    "text": "Nikdo není blokován.",
+    "source": "acecbd3f4140"
+  },
+  "talk.server-share.nobody-is-chosen-yet-tick-the": {
+    "text": "Zatím není nikdo vybrán. Zaškrtněte kontakty, které na něm smějí konat schůzky.",
+    "source": "e04b8c76ae44"
+  },
+  "talk.meeting.nobody-is-in-it-yet": {
+    "text": "Zatím tu nikdo není.",
+    "source": "7b877d971afd"
   },
   "mail.compose.nobody-on-this-line-is-visible": {
     "text": "Nikdo na tomto řádku není ostatním příjemcům vidět.",
@@ -17789,6 +18567,10 @@
   "word.references-toa.none-marked-yet": {
     "text": "Zatím nic neoznačeno.",
     "source": "fae8d5d30eb5"
+  },
+  "talk.groups.none-of-your-contacts-are-left": {
+    "text": "Nezbývají žádné vaše kontakty k přidání.",
+    "source": "849f7d80a6a0"
   },
   "studio.window.none-to-add": {
     "text": "Nic k přidání",
@@ -17853,6 +18635,10 @@
   "voices-dialog.not-added": {
     "text": "Nepřidáno",
     "source": "2460c620beba"
+  },
+  "calendar.not-among-your-talk-contacts-so": {
+    "text": "Nejsou v kontaktech Hovorů (Talk), proto se nemohou připojit: {who}",
+    "source": "6417af9e0717"
   },
   "sheets.dialogs.not-an-address-and-not-a": {
     "text": "Nejde o adresu ani o místo, které tento sešit zná.",
@@ -17926,9 +18712,17 @@
     "text": "Zde nenalezeno. Zůstává na svém místě, dokud nějaký nevyberete.",
     "source": "feb7eac96064"
   },
+  "studio.guests.not-in-talk-just-now": {
+    "text": "Právě teď není v Hovorech (Talk)",
+    "source": "e6711a24a8d7"
+  },
   "ui.proofing.not-in-dictionary": {
     "text": "Není ve slovníku",
     "source": "1642d2535d39"
+  },
+  "talk.lines.not-in-your-contacts": {
+    "text": "Není ve vašich kontaktech",
+    "source": "df22cf8f3220"
   },
   "packs-dialog.not-installed": {
     "text": "Nenainstalováno",
@@ -17987,6 +18781,10 @@
     "text": "Zatím neuloženo",
     "source": "35c5fe43950d"
   },
+  "talk.lines.not-sent": {
+    "text": "Neodesláno",
+    "source": "cd5f943d5863"
+  },
   "mail.not-sent-yet-and-still-in": {
     "text": "Zatím neodesláno, stále v Poště k odeslání.",
     "source": "a71ab808c55c"
@@ -17999,9 +18797,29 @@
     "text": "Neodesláno: Pošta nemůže odesílat z {address}, protože tento účet nemá nastavený odchozí server.",
     "source": "6f70753ecb65"
   },
+  "talk.lines.not-sent-talk-was-not-connected": {
+    "text": "Neodesláno: aplikace Hovory (Talk) nebyla celý den připojena.",
+    "source": "7c01514ece95"
+  },
+  "talk.lines.not-sent-the-message-is-too": {
+    "text": "Neodesláno: zpráva je příliš dlouhá.",
+    "source": "978afd9480df"
+  },
   "calendar.words.not-sent-there-is-no-mail": {
     "text": "Neodesláno: chybí účet v Poště, ze kterého by se dalo odeslat. Přidejte ho v Poště v části Účty.",
     "source": "6425bf6ced3e"
+  },
+  "talk.lines.not-sent-too-many-messages-in": {
+    "text": "Neodesláno: příliš mnoho zpráv za jednu minutu.",
+    "source": "3fd20957747c"
+  },
+  "talk.lines.not-sent-you-are-no-longer": {
+    "text": "Neodesláno: už nejste navzájem v kontaktech.",
+    "source": "a73aff6abeee"
+  },
+  "talk.lines.not-sent-you-are-no-longer-2": {
+    "text": "Neodesláno: už nejste v této skupině.",
+    "source": "2909d476e230"
   },
   "calendar.words.not-sent-reason": {
     "text": "Neodesláno: {reason}",
@@ -18014,6 +18832,10 @@
   "base.not-shown-as-data-files-cannot": {
     "text": "Nezobrazeno, protože je Datové soubory (Data Files) nedokážou zobrazit: {tables}.",
     "source": "ddfa2ced7beb"
+  },
+  "calendar.not-streamed-live-this-cannot-be": {
+    "text": "Bez živého vysílání. Po uložení události to nelze změnit.",
+    "source": "e75806a6a1c3"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
     "text": "Nestreamováno: {names}. Chybí klíč streamu.",
@@ -18171,6 +18993,10 @@
     "text": "Nic se neodešle, dokud nestisknete {action}. Ponechat jako koncept to místo toho ponechá na tomto počítači; Zrušit nic neprovede.",
     "source": "b045bd822cc1"
   },
+  "shell.tray.nothing-is-waiting": {
+    "text": "Nic nečeká",
+    "source": "dea4973695a6"
+  },
   "mail.nothing-is-waiting": {
     "text": "Nic nečeká.",
     "source": "ca4fb9abe74f"
@@ -18258,6 +19084,22 @@
   "common.nothing-yet": {
     "text": "Zatím nic.",
     "source": "e056734effa8"
+  },
+  "shell.tray.notification-settings": {
+    "text": "Nastavení oznámení…",
+    "source": "a936905265ce"
+  },
+  "common.notifications": {
+    "text": "Oznámení",
+    "source": "788011833a5a"
+  },
+  "shell.notifier.notifications-are-on": {
+    "text": "Oznámení jsou zapnuta",
+    "source": "ceaaed4b4f37"
+  },
+  "common.notifications-are-paused-until-time": {
+    "text": "Oznámení pozastavena do {time}",
+    "source": "1d6521f14f4e"
   },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "Nyní {width} × {height} cm. Vše na snímcích se přizpůsobí a vystředí podle nové velikosti.",
@@ -18391,6 +19233,14 @@
     "text": "Mimo osu 1: vpravo",
     "source": "958afff2aff5"
   },
+  "studio.guests.off-air": {
+    "text": "Mimo vysílání",
+    "source": "9ce17b86cfdd"
+  },
+  "studio.sources-column.off-while-guests-are-here-it": {
+    "text": "Vypnuto, dokud jsou tu hosté: jinak by přenášelo jejich hlasy do vysílání, i když čekají.",
+    "source": "b81e9a23d5ab"
+  },
   "inspect.off-slide-content": {
     "text": "Obsah mimo snímek",
     "source": "db649f82894a"
@@ -18499,6 +19349,10 @@
     "text": "Na instagram.com zvolte Add post, pak Live a zkopírujte adresu a klíč streamu. Instagram dává pokaždé nový klíč, proto ho před každým živým vysíláním přidejte znovu.",
     "source": "a6223e20cbb4"
   },
+  "video.library.on-the-frame": {
+    "text": "V obraze",
+    "source": "1853d4732661"
+  },
   "image.on-the-mask-of-name-black": {
     "text": "Na masce vrstvy {name}: černá skrývá, bílá zobrazuje",
     "source": "24aac0dd6d60"
@@ -18571,6 +19425,10 @@
     "text": "Na obrazovce jeden tok kvůli nativnímu kurzoru; rozložení pro tisk a PDF ho skutečně dělí do sloupců",
     "source": "33bd0e1b78c3"
   },
+  "studio.guests.one-guest": {
+    "text": "Jeden host",
+    "source": "f02659f62459"
+  },
   "studio.spoken-run.one-line-each-each-is-read": {
     "text": "Po jednom na řádek: každý se postupně přečte nahlas",
     "source": "f1c64f2624f8"
@@ -18603,6 +19461,14 @@
   "ai-tools-dialog.only-ai-apps-on-this-computer": {
     "text": "Tyto nástroje mohou používat jen aplikace AI na tomto počítači. Nic nenaslouchá v síti, takže se žádný jiný počítač nepřipojí.",
     "source": "96dbe7038e5b"
+  },
+  "talk-words.only-talk-contacts-of-the-organiser": {
+    "text": "Připojit se mohou jen kontakty organizátora v Hovorech (Talk). Pokud mezi ně ještě nepatříte, požádejte organizátora o přidání.",
+    "source": "c3481062b128"
+  },
+  "talk.meet-lines.only-talk-contacts-of-name-can": {
+    "text": "Připojit se mohou jen kontakty osoby {name} v Hovorech (Talk). Nejvyšší počet osob: {count}.",
+    "source": "6412aac0305f"
   },
   "common.only-word-excel-and-powerpoint-documents": {
     "text": "Vložit lze jen dokumenty Word, Excel a PowerPoint.",
@@ -18644,9 +19510,21 @@
     "text": "Po odstavcích lze přehrát jen úvodní efekt, zdůraznění nebo ukončení, které lze zapsat",
     "source": "d3d5652df5c9"
   },
+  "notify-dialog.only-an-installed-copy-of-rutba": {
+    "text": "Se systémem Windows se může spouštět jen nainstalovaná kopie Rutba Office.",
+    "source": "5d376c6f923f"
+  },
   "word.only-certain-kinds-of-changes-can": {
     "text": "V tomto dokumentu lze provádět jen určité druhy změn. Viz Revize → Omezit úpravy.",
     "source": "dd366cf8032e"
+  },
+  "talk-words.only-contacts-of-the-person-who": {
+    "text": "Připojit se mohou jen kontakty osoby, která tuto schůzku připravila.",
+    "source": "b340096d4b92"
+  },
+  "talk-words.only-contacts-of-name-can-join": {
+    "text": "Připojit se mohou jen kontakty osoby {name}. Požádejte osobu {name} o přidání v Hovorech (Talk).",
+    "source": "7c1a741c78f7"
   },
   "base.documents.only-for-records-where": {
     "text": "Jen pro záznamy, kde",
@@ -18663,6 +19541,18 @@
   "base.documents.only-lines-where": {
     "text": "Jen řádky, kde",
     "source": "7ab3bdec4e67"
+  },
+  "talk.server-share.only-me": {
+    "text": "Jen já",
+    "source": "bdc0857b99a9"
+  },
+  "talk.meet-lines.only-people-in-this-group-and": {
+    "text": "Připojit se mohou jen členové této skupiny a kontakty osoby {name} v Hovorech (Talk). Nejvyšší počet osob: {count}.",
+    "source": "d9dd584b74f6"
+  },
+  "talk.meet-lines.only-people-in-this-group-and-2": {
+    "text": "Připojit se mohou jen členové této skupiny a vaše kontakty v Hovorech (Talk). Nejvyšší počet osob: {count}.",
+    "source": "f9fcd01edae5"
   },
   "pictures.only-pictures-rated-so-many-stars": {
     "text": "Jen obrázky hodnocené tolika hvězdičkami nebo více",
@@ -18700,6 +19590,14 @@
     "text": "Čte se jen prvních {count} záznamů. Pro práci se všemi uchovejte kopii v tomto souboru.",
     "source": "df0ca43076cf"
   },
+  "talk-words.only-the-person-who-set-the": {
+    "text": "To může udělat jen osoba, která schůzku připravila.",
+    "source": "7602b02c63bd"
+  },
+  "talk.lines.only-the-person-who-started-the": {
+    "text": "Odebírat členy ze skupiny může jen osoba, která ji založila.",
+    "source": "7539223a2970"
+  },
   "locker.only-these-types": {
     "text": "Pouze tyto typy",
     "source": "ba90201d2626"
@@ -18727,6 +19625,18 @@
   "slides.only-you-see-these": {
     "text": "Vidíte jen vy",
     "source": "de3333efad62"
+  },
+  "talk-words.only-your-talk-contacts-can-join": {
+    "text": "Připojit se mohou jen vaše kontakty z Hovorů (Talk). Nejvyšší počet osob: {count}.",
+    "source": "0a88a1093f0b"
+  },
+  "talk-words.only-your-own-contacts-can-be": {
+    "text": "Na schůzku lze pozvat jen vaše vlastní kontakty.",
+    "source": "dd0661381c23"
+  },
+  "talk.lines.only-your-own-contacts-can-be": {
+    "text": "Do skupiny lze přidat jen vaše vlastní kontakty.",
+    "source": "4c15aef95595"
   },
   "common.opacity": {
     "text": "Neprůhlednost",
@@ -18759,6 +19669,10 @@
   "shell.open-recent": {
     "text": "Otevřít poslední",
     "source": "d2b9f8f8baec"
+  },
+  "common.open-talk": {
+    "text": "Otevřít Talk",
+    "source": "702312a29580"
   },
   "broadcast.live-dialog.open-youtube-studio": {
     "text": "Otevřít YouTube Studio",
@@ -18868,6 +19782,10 @@
     "text": "Otevřít v prohlížeči",
     "source": "32f8dcaafb6c"
   },
+  "talk.meeting.open-in-live-broadcast": {
+    "text": "Otevřít v Live Broadcast",
+    "source": "71788b0e6607"
+  },
   "pictures.open-in-pdf": {
     "text": "Otevřít v PDF",
     "source": "4d0c059fc5c0"
@@ -18883,6 +19801,10 @@
   "studio.window.open-in-video": {
     "text": "Otevřít v aplikaci Video…",
     "source": "8bb01e68be1b"
+  },
+  "talk.meeting.open-in-the-recorder": {
+    "text": "Otevřít v Recorder",
+    "source": "7082739e9d2c"
   },
   "home.open-in-name": {
     "text": "Otevřít v aplikaci {name}",
@@ -18915,6 +19837,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "Otevřít nástěnku Kick",
     "source": "bf6f8e9ef858"
+  },
+  "talk.open-the-browser-again": {
+    "text": "Znovu otevřít prohlížeč",
+    "source": "96e91bde168e"
   },
   "locker.open-the-locked-folder-name": {
     "text": "Otevřít zamčenou složku {name}",
@@ -19108,6 +20034,10 @@
     "text": "Uspořádat",
     "source": "21d9ac63ed66"
   },
+  "talk.meet-lines.organiser": {
+    "text": "Organizátor",
+    "source": "ed385c3688f6"
+  },
   "calendar.words.organizer-name": {
     "text": "Organizátor: {name}",
     "source": "b204de7ec321"
@@ -19276,6 +20206,10 @@
     "text": "Outlook, Thunderbird, Apple Mail a Windows Mail",
     "source": "275370d0b3be"
   },
+  "video.layer-names.outro-card": {
+    "text": "Závěrečná karta",
+    "source": "6907a3e2ea3f"
+  },
   "word.ribbon.outside-borders": {
     "text": "Vnější ohraničení",
     "source": "fcf90f7bf23e"
@@ -19295,6 +20229,10 @@
   "common.overlay": {
     "text": "Překrytí",
     "source": "2af93aeb435d"
+  },
+  "video.library.overlays": {
+    "text": "Překrytí",
+    "source": "975c5697ac19"
   },
   "mail.archive.pdf": {
     "text": "PDF",
@@ -19552,6 +20490,10 @@
     "text": "Odstavce",
     "source": "d2ef75e86bb7"
   },
+  "video.library.paragraphs-and-lists": {
+    "text": "Odstavce a seznamy",
+    "source": "939c99de9e0b"
+  },
   "common.parallelogram": {
     "text": "Rovnoběžník",
     "source": "683f94df5c58"
@@ -19691,6 +20633,10 @@
   "common.pause": {
     "text": "Pozastavit",
     "source": "858e4ba7a29f"
+  },
+  "shell.tray.pause-notifications-for-an-hour": {
+    "text": "Pozastavit oznámení na hodinu",
+    "source": "c6a2583b7f7e"
   },
   "shell.ipc.pause-recording": {
     "text": "Pozastavit nahrávání",
@@ -20004,6 +20950,10 @@
     "text": "Obrázky zobrazené s větší podrobností, než stránka potřebuje, se překreslí ve zvoleném rozlišení. Text, kresby a dostatečně malé obrázky zůstanou beze změny.",
     "source": "53b47116dc60"
   },
+  "pictures.pictures-to-a-sheet": {
+    "text": "Počet obrázků na list",
+    "source": "00d75274ddf4"
+  },
   "pictures.pictures-turns-a-jpeg-or-a": {
     "text": "JPEG a PNG otočí a uloží Obrázky. Tento soubor otočíte přes Upravit v aplikaci Grafika.",
     "source": "e30d8a205692"
@@ -20236,6 +21186,14 @@
     "text": "Přehrávat zvuk klipů v prezentaci",
     "source": "97953b6cbcb8"
   },
+  "notify-dialog.play-a-sound": {
+    "text": "Přehrát zvuk",
+    "source": "8dff69d0f091"
+  },
+  "talk.settings.play-a-sound-for-calls": {
+    "text": "Přehrát zvuk při hovorech",
+    "source": "ce1647f97917"
+  },
   "mail.play-all": {
     "text": "Přečíst vše",
     "source": "12e7b8220dc7"
@@ -20291,6 +21249,10 @@
   "slides.point-one": {
     "text": "První bod",
     "source": "2ec0675e4836"
+  },
+  "video.inspector.point-n-of-count": {
+    "text": "Bod {n} z {count}",
+    "source": "56a4587fe6bd"
   },
   "video.pointer": {
     "text": "Ukazatel",
@@ -20380,6 +21342,10 @@
     "text": "Upřednostňovaná šířka",
     "source": "5b079061e4dc"
   },
+  "pdf.preparing-to-print-page-page-of": {
+    "text": "Příprava tisku: stránka {page} z {count}…",
+    "source": "9bb1226e682b"
+  },
   "pdf.preparing-to-print": {
     "text": "Příprava tisku…",
     "source": "c59a4189b115"
@@ -20439,6 +21405,10 @@
   "calendar.press-ctrl-n-to-add-an": {
     "text": "Ctrl+N přidá událost, nebo otevřete soubor .ics.",
     "source": "e5eab9bad084"
+  },
+  "talk.lines.pretending-to-be-someone-else": {
+    "text": "Vydávání se za někoho jiného",
+    "source": "59f4886f4bb6"
   },
   "sheets.prevent-unwanted-changes-to-the-structure": {
     "text": "Zabraňte nechtěným změnám struktury sešitu, například přidávání listů.",
@@ -20573,6 +21543,10 @@
     "text": "Předchozí stránka (Page Up)",
     "source": "46cf81b2cef0"
   },
+  "video.inspector.previous-point": {
+    "text": "Předchozí bod",
+    "source": "91cc073698f7"
+  },
   "common.previous-record": {
     "text": "Předchozí záznam",
     "source": "07da30ed59d9"
@@ -20673,6 +21647,26 @@
     "text": "Tiskové šablony",
     "source": "bab0e4da816c"
   },
+  "contacts.print-the-chosen-contact-or-the": {
+    "text": "Vytisknout vybraný kontakt nebo zobrazený seznam",
+    "source": "31dc4642a37a"
+  },
+  "image.print-the-picture-as-it-is": {
+    "text": "Vytisknout obrázek v aktuální podobě",
+    "source": "0c7c09978527"
+  },
+  "calendar.print-the-view-shown": {
+    "text": "Vytisknout aktuální zobrazení",
+    "source": "99699c6c4993"
+  },
+  "pictures.print-this-picture-or-every-picture": {
+    "text": "Vytisknout tento obrázek nebo všechny zobrazené obrázky",
+    "source": "093d65442545"
+  },
+  "print.print-through-the-systems-own-dialog": {
+    "text": "Tisk přes vlastní dialogové okno systému, pro volby, které nabízí jen nastavení tiskárny: oboustranný tisk, zásobník.",
+    "source": "e89c1e415e38"
+  },
   "base.forms.print-name": {
     "text": "Vytisknout: {name}",
     "source": "9adb2fe770f7"
@@ -20692,6 +21686,10 @@
   "print.printer": {
     "text": "Tiskárna",
     "source": "024eac5b1a63"
+  },
+  "print.printing-name": {
+    "text": "Tisk: {name}",
+    "source": "a059eabd2695"
   },
   "print.printing": {
     "text": "Tisk…",
@@ -20772,6 +21770,10 @@
   "studio.window.program": {
     "text": "Program",
     "source": "90920d93e2c7"
+  },
+  "video.layer-names.progress-bar": {
+    "text": "Ukazatel průběhu",
+    "source": "88bbc75dfba2"
   },
   "video.project": {
     "text": "Projekt",
@@ -20937,6 +21939,18 @@
     "text": "Posunutí",
     "source": "731ce7ed8089"
   },
+  "video.timeline.push-down": {
+    "text": "Posunutí dolů",
+    "source": "cdba3e1d8ea7"
+  },
+  "video.timeline.push-right": {
+    "text": "Posunutí doprava",
+    "source": "2bce51eb1c20"
+  },
+  "video.timeline.push-up": {
+    "text": "Posunutí nahoru",
+    "source": "385412ecb6be"
+  },
   "base.form-designer.put-a-field-on-the-form": {
     "text": "Přidat pole na formulář",
     "source": "51273d7500b8"
@@ -20980,6 +21994,10 @@
   "image.tools.put-the-pins-back": {
     "text": "Vrátit špendlíky",
     "source": "58213ed57cab"
+  },
+  "video.inspector.put-the-playhead-on-this-clip": {
+    "text": "Chcete-li nastavit bod, umístěte přehrávací hlavu na tento klip.",
+    "source": "202e5c234e9a"
   },
   "pdf.put-the-tool-down": {
     "text": "Odložit nástroj",
@@ -21073,6 +22091,14 @@
     "text": "Rychlé styly",
     "source": "6887852d0183"
   },
+  "notify-dialog.quiet-hours": {
+    "text": "Doba klidu",
+    "source": "bf0671dd69c6"
+  },
+  "shell.tray.quit-name": {
+    "text": "Ukončit {name}",
+    "source": "c082bda435d6"
+  },
   "mail.compose.quote": {
     "text": "Citace",
     "source": "eb4cdebd82bf"
@@ -21100,6 +22126,10 @@
   "equations.radical-with-degree": {
     "text": "Odmocnina se stupněm",
     "source": "8b150a3c64cf"
+  },
+  "talk.meeting.raise-your-hand": {
+    "text": "Zvednout ruku",
+    "source": "a7d9af47bf64"
   },
   "slides.motion.random-bars": {
     "text": "Náhodné pruhy",
@@ -21172,6 +22202,10 @@
   "word.ribbon.read-aloud-2": {
     "text": "Číst nahlas",
     "source": "0791ec684798"
+  },
+  "spoken.voices.read-aloud-only": {
+    "text": "Pouze číst nahlas",
+    "source": "3953b35ec0c1"
   },
   "base.people.read-and-add": {
     "text": "Číst a přidávat",
@@ -21264,6 +22298,10 @@
   "mail.read-the-unread-messages-in-the": {
     "text": "Přečíst nahlas nepřečtené zprávy v seznamu v jejich pořadí. Každá zpráva se označí jako přečtená, jakmile je dočtena do konce.",
     "source": "dff6be303eab"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "Číst slova nahlas",
+    "source": "f8bde48fd589"
   },
   "base.links.read-what-changed-by-field": {
     "text": "Číst změny podle pole {field}",
@@ -21608,6 +22646,10 @@
   "studio.window.recording-into-name": {
     "text": "Nahrávání do: {name}",
     "source": "56b02d64afc5"
+  },
+  "studio.guests.recording-with-name": {
+    "text": "Nahrávání s {name}",
+    "source": "e6be6a2a2c15"
   },
   "video.export.recording-done-of-total": {
     "text": "Nahrávání {done} z {total}",
@@ -22043,9 +23085,17 @@
     "text": "Odebrat obsah",
     "source": "02fb6aa5132e"
   },
+  "video.remove-a-movement-point": {
+    "text": "Odebrat bod pohybu",
+    "source": "866caceec826"
+  },
   "mail.remove-account": {
     "text": "Odebrat účet…",
     "source": "f6c7b21aa0c2"
+  },
+  "video.inspector.remove-all-movement": {
+    "text": "Odebrat veškerý pohyb",
+    "source": "c117c982cedd"
   },
   "locker.remove-anyway": {
     "text": "Přesto odebrat",
@@ -22179,6 +23229,14 @@
   "redact.remove-this-mark": {
     "text": "Odebrat toto označení",
     "source": "5b7142126ca5"
+  },
+  "video.remove-this-movement-point": {
+    "text": "Odebrat tento bod pohybu",
+    "source": "5b0a79929123"
+  },
+  "video.inspector.remove-this-point": {
+    "text": "Odebrat tento bod",
+    "source": "1db17d0d592c"
   },
   "profiles.remove-this-profile": {
     "text": "Odebrat tento profil",
@@ -22522,9 +23580,29 @@
     "text": "Typ sestavy",
     "source": "6add2e391964"
   },
+  "talk.report.report-name": {
+    "text": "Nahlásit: {name}",
+    "source": "a72e14cff779"
+  },
+  "talk.report.reported-and-name-is-blocked": {
+    "text": "Nahlášeno. Blokováno: {name}.",
+    "source": "24147a41c039"
+  },
+  "talk.report.reported-thank-you": {
+    "text": "Nahlášeno. Děkujeme.",
+    "source": "e2f870ec73f5"
+  },
+  "talk.report.reported-name-could-not-be-blocked": {
+    "text": "Nahlášeno. Zablokování se teď nezdařilo: {name}.",
+    "source": "f931a2f8128d"
+  },
   "base.reports": {
     "text": "Sestavy",
     "source": "dacca3cba3f3"
+  },
+  "talk.report": {
+    "text": "Nahlásit…",
+    "source": "a89f2286bde4"
   },
   "protect.require-a-password-to-open-this": {
     "text": "Vyžadovat heslo k otevření položky {noun}.",
@@ -22566,6 +23644,10 @@
     "text": "Resetovat úrovně",
     "source": "8e4afe1ebcd7"
   },
+  "studio.window.reset-this-session": {
+    "text": "Resetovat tuto relaci?",
+    "source": "9a895f8c4a9f"
+  },
   "slides.ribbon.reset-to-cameo": {
     "text": "Resetovat na cameo",
     "source": "60043910ccf9"
@@ -22573,6 +23655,10 @@
   "slides.ribbon.reset-to-cameo-the-cameras-recording": {
     "text": "Resetovat na cameo: záznam kamery se odebere ze snímku a vrátí se živé cameo",
     "source": "d886796ba64a"
+  },
+  "studio.reset-to-a-new-session": {
+    "text": "Resetovat na novou relaci",
+    "source": "6b9c5be76d1e"
   },
   "slides.ribbon.reset-to-the-layouts": {
     "text": "Resetovat na rozložení",
@@ -22673,6 +23759,10 @@
   "shell.restart-and-update": {
     "text": "Restartovat a aktualizovat",
     "source": "78b017c77e5b"
+  },
+  "shell.tray.restart-and-update-to-version": {
+    "text": "Restartovat a aktualizovat na {version}",
+    "source": "c479443bee7d"
   },
   "word.ribbon.restart-each-page": {
     "text": "Na každé stránce znovu",
@@ -23382,6 +24472,14 @@
     "text": "Odesílání přerušilo ukončení Rutba Office, takže zpráva možná odešla a možná ne. Podívejte se do Odeslané pošty a pak ji odešlete znovu nebo odstraňte.",
     "source": "7e8c68e608d6"
   },
+  "notify-dialog.rutba-office-watches-only-while-it": {
+    "text": "Rutba Office hlídá jen tehdy, když běží. Po ukončení příkazem Ukončit vás na nic neupozorní, dokud ji znovu neotevřete.",
+    "source": "647452751dca"
+  },
+  "voices-dialog.rutba-office-version-does-not-have": {
+    "text": "Rutba Office {version} nemá {name} vestavěnou: okna budou v angličtině, dokud nebude připraven její jazykový balíček.",
+    "source": "c954897db32a"
+  },
   "shell.rutba-office-version-is-available": {
     "text": "K dispozici je Rutba Office {version}",
     "source": "cb7fd85cbfa1"
@@ -23389,10 +24487,6 @@
   "shell.rutba-office-version-is-downloaded-restart": {
     "text": "Verze Rutba Office {version} je stažená. Restartujte a aktualizujte, nebo se nainstaluje při ukončení",
     "source": "ef28bb66ae1a"
-  },
-  "voices-dialog.rutba-office-version-does-not-have": {
-    "text": "Rutba Office {version} nemá {name} vestavěnou: okna budou v angličtině, dokud nebude připraven její jazykový balíček.",
-    "source": "c954897db32a"
   },
   "voices-dialog.rutba-office-version-is-out-but": {
     "text": "Vyšla verze Rutba Office {version}, ale vaše hlasy a jazyky se pro ni nepodařilo ověřit. Ověří se znovu při další kontrole.",
@@ -23726,6 +24820,10 @@
     "text": "Uložit jako projekt…",
     "source": "aa2fcc84716b"
   },
+  "studio.setups-menu.save-as-a-setup": {
+    "text": "Uložit jako sestavu…",
+    "source": "d9ef0d0b399e"
+  },
   "studio.scene-strip.save-as-scene": {
     "text": "Uložit jako scénu",
     "source": "efdeca1676b4"
@@ -23810,6 +24908,14 @@
     "text": "Nejprve sešit uložte, aby mohlo druhé okno otevřít stejný soubor.",
     "source": "5518cf201954"
   },
+  "studio.setups-menu.save-this-session-as-a-setup": {
+    "text": "Uložit tuto relaci jako sestavu",
+    "source": "61675a542380"
+  },
+  "studio.setups-menu.save-this-session-as-a-setup-2": {
+    "text": "Uložit tuto relaci jako sestavu…",
+    "source": "dac52cb33434"
+  },
   "studio.window.save-to-a-file": {
     "text": "Uložit do souboru",
     "source": "08c57ac92835"
@@ -23821,6 +24927,10 @@
   "studio.scene-strip.save-what-the-frame-shows-as": {
     "text": "Uložit to, co plátno ukazuje, jako novou scénu",
     "source": "04d539ee1ba5"
+  },
+  "calendar.save-without-the-meeting": {
+    "text": "Uložit bez schůzky",
+    "source": "a466a78156a8"
   },
   "english-switch.save-your-changes-first-this-window": {
     "text": "Nejprve uložte změny: toto okno se při dalším otevření zobrazí v angličtině. Okna, která otevřete od této chvíle, budou v angličtině.",
@@ -24234,6 +25344,10 @@
   "image.tools.second-colour-where-a-gradient-ends": {
     "text": "Druhá barva: kde přechod končí",
     "source": "014aa91028da"
+  },
+  "video.library.second-point": {
+    "text": "Druhý bod",
+    "source": "55b07a59a655"
   },
   "calendar.second-time-zone": {
     "text": "Druhé časové pásmo",
@@ -24679,6 +25793,10 @@
     "text": "Odeslat záznamy",
     "source": "ac745ff044b3"
   },
+  "talk.report.send-report": {
+    "text": "Odeslat hlášení",
+    "source": "a44d35311325"
+  },
   "calendar.send-the-cancellation": {
     "text": "Odeslat zrušení",
     "source": "97640bdf22a3"
@@ -24704,6 +25822,10 @@
     "text": "Odeslat pozvánku?",
     "source": "d11e030a9b61"
   },
+  "studio.guests.send-the-link-to-a-contact": {
+    "text": "Pošlete odkaz kontaktu, který používá Rutba Office. Připojí se v aplikaci Hovory (Talk).",
+    "source": "ec69e7a826e5"
+  },
   "common.send-to-back": {
     "text": "Přesunout do pozadí",
     "source": "33e1c6b9be0f"
@@ -24719,6 +25841,14 @@
   "locker.send-to-someone-2": {
     "text": "Odeslat někomu…",
     "source": "40f3eb523a46"
+  },
+  "talk.lines.send-up-to-count-of-the": {
+    "text": "Přiložit k nahlášení poslední zprávy osoby {name} v této skupině (nejvýše {count})",
+    "source": "672637e06022"
+  },
+  "talk.lines.send-up-to-count-of-the-2": {
+    "text": "Přiložit k nahlášení poslední zprávy, které vám poslala osoba {name} (nejvýše {count})",
+    "source": "154b797f57b4"
   },
   "calendar.send-update": {
     "text": "Odeslat aktualizaci",
@@ -24772,6 +25902,10 @@
     "text": "Odesílá se jen na {where}",
     "source": "65fa593794d6"
   },
+  "print.sent-through-the-system-dialog": {
+    "text": "Odesláno přes dialogové okno systému.",
+    "source": "796f50686541"
+  },
   "mail.sent-to": {
     "text": "Odesláno komu",
     "source": "4e7201c7b898"
@@ -24780,6 +25914,14 @@
     "text": "Odesláno osobě, v kopii nebo ve skryté kopii",
     "source": "d55c51982d58"
   },
+  "pdf.sent-to-the-printer": {
+    "text": "Odesláno na tiskárnu.",
+    "source": "b35f62ca8b34"
+  },
+  "print.sent-to-printer": {
+    "text": "Odesláno na tiskárnu {printer}.",
+    "source": "918838f49130"
+  },
   "mail.sent-to-to": {
     "text": "Odesláno: {to}",
     "source": "f0ee21e891eb"
@@ -24787,15 +25929,6 @@
   "mail.sent-to-who-it-went-to": {
     "text": "Odesláno: komu zpráva odešla",
     "source": "31eea1f8449b"
-  },
-  "print.sent-count-page-to-the-printer": {
-    "forms": {
-      "few": "Na tiskárnu odeslány {count} stránky.",
-      "many": "Na tiskárnu odesláno {count} stránky.",
-      "one": "Na tiskárnu odeslána {count} stránka.",
-      "other": "Na tiskárnu odesláno {count} stránek."
-    },
-    "source": "01f92bc64175"
   },
   "print.sent-count-page-to-printer": {
     "forms": {
@@ -24948,6 +26081,22 @@
     "text": "Nastavit heslo…",
     "source": "0d69c19ffedf"
   },
+  "video.set-a-movement-point": {
+    "text": "Nastavit bod pohybu",
+    "source": "f2e85e0213a2"
+  },
+  "video.set-a-movement-point-here": {
+    "text": "Nastavit bod pohybu zde",
+    "source": "82a45446fe3a"
+  },
+  "video.inspector.set-a-point-here": {
+    "text": "Nastavit bod zde",
+    "source": "8d5454e6187b"
+  },
+  "video.inspector.set-a-point-here-then-move": {
+    "text": "Nastavte zde bod, pak posuňte přehrávací hlavu a změňte klip: klip se bude pohybovat od jednoho bodu k dalšímu.",
+    "source": "5cc1988df0dd"
+  },
   "word.ribbon.set-as-default": {
     "text": "Nastavit jako výchozí",
     "source": "10886554da51"
@@ -24983,6 +26132,10 @@
   "mail.accounts-bulk.set-up-by-hand": {
     "text": "Nastavit ručně",
     "source": "51e0b5053fed"
+  },
+  "talk.meeting.set-up-by-name": {
+    "text": "Organizátor: {name}",
+    "source": "f82e137b4907"
   },
   "broadcast.live-dialog.set-up-once-here-the-icons": {
     "text": "Nastavte jednou zde. Ikony na panelu Živě určují, kam se bude vysílat.",
@@ -25180,6 +26333,10 @@
     "text": "Sdílet obrazovku",
     "source": "5a271ba7ed24"
   },
+  "talk.meet-lines.sharing": {
+    "text": "Sdílení",
+    "source": "bbedc70e985f"
+  },
   "image.sharpen": {
     "text": "Zostření",
     "source": "ac6f0be1274c"
@@ -25275,6 +26432,10 @@
   "base.short-text": {
     "text": "Krátký text",
     "source": "38a11505fddd"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "Zkratka: Ctrl+Enter v poli",
+    "source": "46629f7a364b"
   },
   "word.ribbon.shortcuts": {
     "text": "Zkratky",
@@ -25373,6 +26534,10 @@
     "text": "Zobrazit rozšířené možnosti",
     "source": "da5bdeb6de5d"
   },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "Zobrazit a číst nahlas",
+    "source": "cad1b91fa8e8"
+  },
   "home.show-announcements-from-office-rutba-io": {
     "text": "Zobrazovat oznámení z office.rutba.io, nejvýše jednou denně. Odesílá se verze a operační systém a žádný identifikátor, takže na druhé straně se počítá „kopie někde otevřená“, nikdy vy. Je to také jediný způsob, jak víme, že sadu vůbec někdo používá.",
     "source": "c22ab06b6afe"
@@ -25416,6 +26581,14 @@
   "studio.sources-column.show-on-the-frame": {
     "text": "Zobrazit na plátně",
     "source": "519dcf3aea71"
+  },
+  "notify-dialog.show-one-now": {
+    "text": "Zobrazit ukázku",
+    "source": "67b49e6671f5"
+  },
+  "spoken.voices.show-only": {
+    "text": "Pouze zobrazit",
+    "source": "a8d71c961005"
   },
   "base.documents.show-only-when": {
     "text": "Zobrazit jen, když",
@@ -25477,6 +26650,10 @@
     "text": "Zobrazit záhlaví řádků a sloupců",
     "source": "4f7b9dcce409"
   },
+  "studio.spoken-run.show-the-words": {
+    "text": "Zobrazit slova",
+    "source": "a64d13b0ead9"
+  },
   "sheets.dialogs.show-them-as": {
     "text": "Zobrazit je jako",
     "source": "6380dba9f992"
@@ -25501,6 +26678,10 @@
     "text": "Typ promítání",
     "source": "5d97277b82b2"
   },
+  "notify-dialog.show-what-it-says": {
+    "text": "Zobrazit obsah zprávy",
+    "source": "01ff1c611346"
+  },
   "studio.window.show-when-this-microphone-is-heard": {
     "text": "Zobrazit, když je slyšet tento mikrofon",
     "source": "96f36148fdc1"
@@ -25513,6 +26694,10 @@
     "text": "Zobrazit bez mluveného komentáře",
     "source": "8ba4b5d237cc"
   },
+  "shell.tray.show-name": {
+    "text": "Zobrazit {name}",
+    "source": "94cf7a9396b0"
+  },
   "sheets.objects.show-draw-it-on-the-sheet": {
     "text": "Zobrazit: znovu vykreslit na listu",
     "source": "d05630721fcb"
@@ -25520,6 +26705,10 @@
   "sheets.dialogs.show-the-workbook-as-the-picked": {
     "text": "Zobrazit: sešit tak, jak ho uložilo vybrané zobrazení",
     "source": "218714768526"
+  },
+  "talk.meet-lines.showing-their-screen": {
+    "text": "Sdílí svou obrazovku",
+    "source": "1c428d39d527"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "Vidí to lidé, se kterými komunikujete",
@@ -25540,6 +26729,10 @@
   "smartart-dialog.shows-a-list-of-ideas-one": {
     "text": "Zobrazí seznam myšlenek pod sebou, každou v širokém zaobleném poli.",
     "source": "f07c241a43e6"
+  },
+  "notify-dialog.shows-a-notification-so-you-see": {
+    "text": "Zobrazí oznámení, abyste viděli a slyšeli, jak přicházejí.",
+    "source": "2d376b05d758"
   },
   "smartart-dialog.shows-each-top-item-over-the": {
     "text": "Zobrazí každou horní položku nad položkami pod ní, s čárou ke každé. Odsazením řádku tabulátorem ho umístíte pod řádek nad ním.",
@@ -25612,6 +26805,14 @@
   "base.links.sign-in-there": {
     "text": "Přihlásit se tam…",
     "source": "7c04fead2759"
+  },
+  "talk.meet-lines.sign-in-to-talk-again-then": {
+    "text": "Znovu se přihlaste do aplikace Hovory (Talk) a pak se zkuste ke schůzce připojit ještě jednou.",
+    "source": "b943c0a49ad6"
+  },
+  "calendar.sign-in-to-talk-first-then": {
+    "text": "Nejprve se přihlaste do aplikace Hovory (Talk) a pak znovu uložte.",
+    "source": "491e45adfd74"
   },
   "talk.invite.sign-in-to-talk-to-accept": {
     "text": "Chcete-li přijmout otevřenou pozvánku, přihlaste se do aplikace Hovory (Talk).",
@@ -25949,6 +27150,10 @@
     "text": "Snímek odstraněn: {title}",
     "source": "c24b313f47ef"
   },
+  "video.slide-down": {
+    "text": "Zasunutí dolů",
+    "source": "9a92bf81ad2c"
+  },
   "slides.revisions.slide-inserted": {
     "text": "Snímek vložen",
     "source": "c16c67a34fec"
@@ -25956,6 +27161,10 @@
   "slides.revisions.slide-inserted-title": {
     "text": "Snímek vložen: {title}",
     "source": "55acf25dcb94"
+  },
+  "video.inspector.slide-left": {
+    "text": "Zasunutí doleva",
+    "source": "667e27d731ed"
   },
   "slides.revisions.slide-moved-from-from-to-to": {
     "text": "Snímek přesunut z {from} na {to}",
@@ -25965,6 +27174,10 @@
     "text": "Číslo snímku",
     "source": "45f8d371aeda"
   },
+  "video.slide-right": {
+    "text": "Zasunutí doprava",
+    "source": "c21b51293031"
+  },
   "slides.custom-shows.slide-show-name": {
     "text": "Název prezentace",
     "source": "077168762d89"
@@ -25972,6 +27185,10 @@
   "review.slide-title": {
     "text": "Název snímku",
     "source": "612dadcd27d3"
+  },
+  "video.slide-up": {
+    "text": "Zasunutí nahoru",
+    "source": "d081156f5749"
   },
   "slides.slide-at-of-total": {
     "text": "Snímek {at} z {total}",
@@ -26048,6 +27265,18 @@
   "studio.prompter.slow": {
     "text": "Pomalu",
     "source": "4b2bebbf33ae"
+  },
+  "video.inspector.slowing-to-a-stop": {
+    "text": "Zpomalení až do zastavení",
+    "source": "baa524feba79"
+  },
+  "video.inspector.slowly-at-both-ends": {
+    "text": "Pomalu na obou koncích",
+    "source": "704134084b2d"
+  },
+  "video.inspector.slowly-at-first": {
+    "text": "Zpočátku pomalu",
+    "source": "db97512145ab"
   },
   "common.small": {
     "text": "Malé",
@@ -26197,13 +27426,45 @@
     "text": "Část odebraného obsahu nelze vrátit příkazem Zpět. Raději nejdříve uložte kopii.",
     "source": "a0c21edec972"
   },
+  "talk.meet-lines.somebody-in-the-meeting-cannot-be": {
+    "text": "Někoho ze schůzky zde není slyšet ani vidět: jeho kopie aplikace Hovory (Talk) má jiný klíč. Musí schůzku opustit a znovu se připojit.",
+    "source": "0e0076b93070"
+  },
+  "talk.server-share.somebody-no-longer-in-your-contacts": {
+    "text": "Někdo, kdo už není ve vašich kontaktech",
+    "source": "9487d019ebd3"
+  },
   "common.someone": {
     "text": "Někdo",
     "source": "864c855e3d64"
   },
+  "shell.notifier.someone-in-talk": {
+    "text": "Někdo v Hovorech (Talk)",
+    "source": "d3e2d6b776c6"
+  },
+  "talk.missed.someone-no-longer-in-your-contacts": {
+    "text": "Někdo, kdo už není ve vašich kontaktech",
+    "source": "42463e6dd6e8"
+  },
+  "talk.lines.someone-who-left": {
+    "text": "Někdo, kdo odešel",
+    "source": "9d5f4f09ff49"
+  },
   "base.links.someone-whose-role-may-change-the": {
     "text": "Zdroje této databáze na tomto počítači povolí někdo, jehož role smí měnit návrh.",
     "source": "3b302bdc61d2"
+  },
+  "talk.settings.someone-you-blocked": {
+    "text": "Někdo, koho jste zablokovali",
+    "source": "a9c049774e21"
+  },
+  "talk.settings.someone-you-unblock-can-ask-to": {
+    "text": "Odblokovaná osoba může znovu požádat o přidání do kontaktů. Do vašich kontaktů se sama nevrátí.",
+    "source": "e3e6c74dbcf9"
+  },
+  "talk.lines.something-else": {
+    "text": "Něco jiného",
+    "source": "cc7284314484"
   },
   "video.starters.something-new-is-here": {
     "text": "Je tu něco nového",
@@ -26313,17 +27574,21 @@
     "text": "Zvuk a kamera",
     "source": "dfc99fd3b4fc"
   },
+  "video.sound-and-video-files": {
+    "text": "Zvukové a video soubory",
+    "source": "b7c72813a878"
+  },
+  "video.library.sound-and-video-files-you-add": {
+    "text": "Zvukové a video soubory, které sem přidáte z tohoto počítače nebo z webové adresy, zůstanou v tomto seznamu pro všechny projekty.",
+    "source": "ccb27b12993d"
+  },
   "video.sound-clip": {
     "text": "Zvukový klip",
     "source": "556f55adc8bd"
   },
-  "studio.spoken-run.read-the-words-aloud": {
-    "text": "Číst slova nahlas",
-    "source": "f8bde48fd589"
-  },
-  "studio.spoken-run.show-the-words": {
-    "text": "Zobrazit slova",
-    "source": "a64d13b0ead9"
+  "video.library.sound-effects": {
+    "text": "Zvukové efekty",
+    "source": "a7180005e20c"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "Zvuk není zapnutý, takže hlas není v nahrávce ani ve streamu.",
@@ -26400,6 +27665,10 @@
   "word.ribbon.spacing-for-the-paragraphs-you-have": {
     "text": "Mezery pro odstavce, které jste vybrali",
     "source": "82c0e0a3d918"
+  },
+  "talk.lines.spam-or-advertising": {
+    "text": "Spam nebo reklama",
+    "source": "73c0fc4bd35d"
   },
   "common.sparkle": {
     "text": "Jiskra",
@@ -26586,6 +27855,10 @@
     "text": "Mluvené řádky",
     "source": "b6fcaf71e96b"
   },
+  "video.ribbon.spoken-words": {
+    "text": "Mluvená slova",
+    "source": "b5f7a276ab16"
+  },
   "slides.spring-2026": {
     "text": "Jaro 2026",
     "source": "19978811abbe"
@@ -26710,6 +27983,10 @@
     "text": "Spustit po kliknutí",
     "source": "935ac1acfac5"
   },
+  "notify-dialog.start-rutba-office-with-windows": {
+    "text": "Spouštět Rutba Office se systémem Windows",
+    "source": "54d42e160b97"
+  },
   "slides.ribbon.start-slide-show": {
     "text": "Spuštění",
     "source": "fbf318d7d0dd"
@@ -26746,6 +28023,10 @@
     "text": "Spustit od začátku (F5)",
     "source": "c87b7cf37193"
   },
+  "talk.groups.start-group": {
+    "text": "Založit skupinu",
+    "source": "37ac5a2c7c6c"
+  },
   "home.start-something": {
     "text": "Začněte tvořit",
     "source": "0c4b50ca224b"
@@ -26774,6 +28055,14 @@
     "text": "Začátek:",
     "source": "84cc09ea4cfa"
   },
+  "shell.notifier.started-at-time": {
+    "text": "Zahájeno v {time}",
+    "source": "96673d9cbad8"
+  },
+  "talk.lines.started-the-group": {
+    "text": "Skupina založena",
+    "source": "da23c27bd111"
+  },
   "base.documents.starting-from": {
     "text": "Začít od",
     "source": "8f51d73d59f4"
@@ -26785,6 +28074,10 @@
   "studio.record-panel.starting-in-n": {
     "text": "Začátek za {n}",
     "source": "bd04cbbfa525"
+  },
+  "shell.notifier.starting-now": {
+    "text": "Začíná teď",
+    "source": "11dc78f6ce9c"
   },
   "video.export.starting-the-encoder": {
     "text": "Spouštění kodéru…",
@@ -26934,6 +28227,10 @@
     "text": "Zastavit čtení",
     "source": "78be99f18a5c"
   },
+  "word.stop-reading-to-change-the-words": {
+    "text": "Chcete-li upravit text, zastavte čtení.",
+    "source": "9cfe5190d612"
+  },
   "shell.ipc.stop-recording": {
     "text": "Zastavit nahrávání",
     "source": "3d591e826d54"
@@ -26949,6 +28246,10 @@
   "talk.stop-sharing": {
     "text": "Ukončit sdílení",
     "source": "b2c78147ed57"
+  },
+  "studio.guests.stop-the-recording-first": {
+    "text": "Nejprve zastavte nahrávání.",
+    "source": "bceedc4c4eda"
   },
   "sheets.dialogs.stop-value": {
     "text": "Konečná hodnota",
@@ -27294,6 +28595,10 @@
     "text": "Synchronizace…",
     "source": "8a046cc90ab0"
   },
+  "print.system-dialog": {
+    "text": "Dialogové okno systému…",
+    "source": "67f7c0af7646"
+  },
   "read-aloud.bar.system-voice": {
     "text": "Systémový hlas",
     "source": "2d3d23392b00"
@@ -27507,6 +28812,10 @@
     "text": "Odebrat z plátna",
     "source": "a45c22273922"
   },
+  "studio.guests.take-out": {
+    "text": "Odebrat",
+    "source": "a7fc33e3bc67"
+  },
   "base.form-designer.take-the-field-picked-off-the": {
     "text": "Odebrat vybrané pole z formuláře. V tabulce zůstane.",
     "source": "4aacdaf96dce"
@@ -27555,6 +28864,14 @@
     "text": "Odebrat adresu {email}",
     "source": "dabf194f9fee"
   },
+  "studio.guests.take-name-out-of-the-meeting": {
+    "text": "Odebrat {name} ze schůzky?",
+    "source": "7c3125d540b1"
+  },
+  "talk.groups.take-name-out-of-this-group": {
+    "text": "Odebrat {name} z této skupiny?",
+    "source": "74905e01f3b4"
+  },
   "common.take-n": {
     "text": "Záběr {n}",
     "source": "26dc5b52d6c6"
@@ -27587,6 +28904,30 @@
     "text": "Talk",
     "source": "449f5a775762"
   },
+  "common.talk-cannot-do-this-yet-the": {
+    "text": "Aplikace Hovory (Talk) to zatím nedokáže: služba Talk, ke které je tato kopie připojena, potřebuje aktualizaci.",
+    "source": "4e1bd3d7d0ef"
+  },
+  "talk.invite.talk-cannot-take-invitations-yet-the": {
+    "text": "Aplikace Hovory (Talk) zatím nemůže přijímat pozvánky: služba Talk, ke které je tato kopie připojena, potřebuje aktualizaci.",
+    "source": "55636b97709a"
+  },
+  "talk.server-share.talk-could-not-change-who-may": {
+    "text": "Nepodařilo se změnit, kdo smí konat schůzky: {name}. Zkuste to za chvíli znovu.",
+    "source": "dc1ab49ae9ad"
+  },
+  "talk.meet-lines.talk-could-not-confirm-that-the": {
+    "text": "Aplikace Hovory (Talk) nemohla ověřit, že jde o server Hovory (Talk Server) této schůzky, proto se nepřipojila.",
+    "source": "9684b385d927"
+  },
+  "talk.meet-lines.talk-could-not-connect-to-the": {
+    "text": "K serveru Hovory (Talk Server) této schůzky se nepodařilo připojit. Zkuste to za chvíli znovu.",
+    "source": "703304b87918"
+  },
+  "calendar.talk-could-not-connect-so-the": {
+    "text": "Aplikace Hovory (Talk) se nemohla připojit, proto schůzka nebyla vytvořena. Zkontrolujte připojení a uložte znovu.",
+    "source": "80ec6966c483"
+  },
   "talk.address.talk-could-not-do-that-now": {
     "text": "Akce se v aplikaci Hovory (Talk) nezdařila. Zkuste to za chvíli znovu.",
     "source": "724fa466cd0e"
@@ -27595,9 +28936,41 @@
     "text": "Akce se v aplikaci Hovory (Talk) nezdařila. Zkuste to za chvíli znovu.",
     "source": "dc5636efcd10"
   },
+  "talk.meet-lines.talk-could-not-reach-the-meetings": {
+    "text": "Server Hovory (Talk Server) této schůzky se nepodařilo zastihnout. Zkontrolujte připojení a zkuste to znovu.",
+    "source": "0d4b04ba1935"
+  },
+  "talk.meet-lines.talk-could-not-use-your-camera": {
+    "text": "Aplikace Hovory (Talk) nemohla použít vaši kameru. Zkontrolujte nastavení ochrany soukromí pro kameru v tomto počítači a zda ji nepoužívá jiná aplikace.",
+    "source": "5aa2f3a5e702"
+  },
+  "talk.meet-lines.talk-could-not-use-your-microphone": {
+    "text": "Aplikace Hovory (Talk) nemohla použít váš mikrofon. Ostatní vás neslyší. Zkontrolujte nastavení ochrany soukromí pro mikrofon v tomto počítači.",
+    "source": "26e36fca513a"
+  },
+  "talk.talk-is-not-connected": {
+    "text": "Talk není připojen.",
+    "source": "ce45e3ce7fde"
+  },
   "talk.invite.talk-is-not-connected-try-again": {
     "text": "Aplikace Hovory (Talk) není připojena. Zkuste to za chvíli znovu.",
     "source": "a4eca2b3e847"
+  },
+  "calendar.talk-is-not-installed-on-this": {
+    "text": "Aplikace Hovory (Talk) není v tomto počítači nainstalována.",
+    "source": "aea90ea8e986"
+  },
+  "talk.settings.talk-settings": {
+    "text": "Nastavení Talk",
+    "source": "36e8d5e94219"
+  },
+  "talk.lines.talk-was-not-open": {
+    "text": "Hovory (Talk) nebyly otevřené",
+    "source": "62d9c8e2fe06"
+  },
+  "studio.window.talk-windows-cannot-be-shown-here": {
+    "text": "Okna Hovorů (Talk) tu nelze zobrazit. Schůzku vysílejte přes „Hosté“.",
+    "source": "76c4164f1516"
   },
   "talk.invite.talk-with-me-on-rutba-talk": {
     "text": "Mluvme spolu v Rutba Talk",
@@ -27606,6 +28979,10 @@
   "talk.talk-with-your-contacts": {
     "text": "Mluvit se svými kontakty",
     "source": "0a7725c8bf79"
+  },
+  "notify-dialog.talk-mail-and-calendar-are-what": {
+    "text": "Rutba Office hlídá Hovory (Talk), Poštu a Kalendář. V tomto profilu není zapnuto nic z toho.",
+    "source": "4dada8cac654"
   },
   "common.talking-head": {
     "text": "Mluvící hlava",
@@ -27666,6 +29043,10 @@
   "video.teleprompter-speed": {
     "text": "Rychlost teleprompteru",
     "source": "a5298db8dfb1"
+  },
+  "notify-dialog.tell-me-of": {
+    "text": "Upozorňovat na",
+    "source": "d3b27184ede8"
   },
   "calendar.tell-the-people-invited-that-it": {
     "text": "Informovat pozvané o zrušení?",
@@ -27910,6 +29291,10 @@
     "text": "Text na tabulku",
     "source": "808523cd0725"
   },
+  "common.text-to-speech": {
+    "text": "Převod textu na řeč",
+    "source": "71e02f22899a"
+  },
   "design.text-background-dark-1": {
     "text": "Text/pozadí, tmavá 1",
     "source": "c5b1de5a8e5a"
@@ -27938,10 +29323,6 @@
     "text": "Děkujeme za zhlédnutí",
     "source": "c708e3d71205"
   },
-  "common.text-to-speech": {
-    "text": "Převod textu na řeč",
-    "source": "71e02f22899a"
-  },
   "common.thanks-for-watching": {
     "text": "Děkujeme za zhlédnutí",
     "source": "2179829c978c"
@@ -27966,6 +29347,10 @@
     "text": "Tento účet není nastavený.",
     "source": "69273d39e7a6"
   },
+  "video.library.that-address-is-in-the-list": {
+    "text": "Tato adresa už v seznamu je.",
+    "source": "8aa9b6a797f1"
+  },
   "engine.that-address-is-not-one-this": {
     "text": "K této adrese se odsud nelze přihlásit.",
     "source": "1020211ad9ca"
@@ -27981,6 +29366,10 @@
   "video.that-came-out-at-size-over": {
     "text": "Výsledek má {size}, přes {limit}. Nové kódování s datovým tokem {rate}.",
     "source": "4745d07b03ec"
+  },
+  "studio.net-camera-find.that-camera-is-no-longer-in": {
+    "text": "Tato kamera už v seznamu není. Hledejte znovu.",
+    "source": "47549aa38750"
   },
   "mail.smime.that-cipher-is-too-weak-to": {
     "text": "Tato šifra je už příliš slabá, aby zprávu udržela v soukromí.",
@@ -28083,6 +29472,14 @@
     "text": "Toto není kameo",
     "source": "7aac81dea761"
   },
+  "studio.net-camera-words.that-is-not-a-camera-address": {
+    "text": "Toto není adresa kamery.",
+    "source": "e8747deb7bbd"
+  },
+  "studio.net-camera-dialog.that-is-not-a-camera-address": {
+    "text": "Toto není adresa kamery. Začíná rtsp:// a pak následuje název nebo číslo kamery.",
+    "source": "90f41611e9c4"
+  },
   "engine.that-is-not-a-picture": {
     "text": "Toto není obrázek",
     "source": "cbd382ebdc2a"
@@ -28094,6 +29491,10 @@
   "engine.that-is-not-a-picture-2": {
     "text": "Toto není obrázek.",
     "source": "53d2759ddbb2"
+  },
+  "video.library.that-is-not-a-web-address": {
+    "text": "Toto není webová adresa.",
+    "source": "a8b694cd4023"
   },
   "talk.invite.that-is-not-an-email-address": {
     "text": "Toto není e-mailová adresa.",
@@ -28111,6 +29512,10 @@
     "text": "Toto je vlastní okraj tabulky. Za ním není žádná buňka ke sloučení.",
     "source": "09b145221fad"
   },
+  "common.that-is-too-many-for-now": {
+    "text": "To je teď příliš mnoho. Zkuste to znovu za chvíli.",
+    "source": "d23549fc97f2"
+  },
   "qrcode.that-is-too-much-for-a": {
     "text": "Pro QR kód s touto úrovní opravy chyb je to příliš mnoho. Zvolte nižší úroveň nebo zkraťte text.",
     "source": "fba3deaee4e5"
@@ -28122,6 +29527,14 @@
   "mail.that-link-was-not-opened-it": {
     "text": "Odkaz nebyl otevřen: nevede na webovou stránku ani e-mailovou adresu.",
     "source": "2aea50825a3d"
+  },
+  "studio.guests.that-meeting-was-not-set-up": {
+    "text": "Tato schůzka nebyla nastavena k nahrávání, proto ji zde nelze nahrát.",
+    "source": "e6ebcbc087f2"
+  },
+  "studio.guests.that-meeting-was-not-set-up-2": {
+    "text": "Tato schůzka nebyla nastavena k živému vysílání, proto ji nelze dát do vysílání.",
+    "source": "1b3f1bf9ce65"
   },
   "engine.that-message-is-not-there-any": {
     "text": "Tato zpráva už tam není.",
@@ -28150,6 +29563,14 @@
   "shell.profile-lock.that-password-is-not-right-try": {
     "text": "Toto heslo není správné. Zkuste to znovu.",
     "source": "910f24f97048"
+  },
+  "talk.lines.that-person-cannot-be-chosen-here": {
+    "text": "Tuto osobu zde nelze vybrat.",
+    "source": "45bb91b969c3"
+  },
+  "talk-words.that-person-is-not-in-the": {
+    "text": "Tato osoba není na schůzce.",
+    "source": "7b427fee1460"
   },
   "common.that-picture-could-not-be-read": {
     "text": "Tento obrázek se nepodařilo přečíst.",
@@ -28203,9 +29624,17 @@
     "text": "S tímto krokem se konečné hodnoty nikdy nedosáhne: zadejte jiný krok, nebo vyberte buňky k vyplnění",
     "source": "e01b65075502"
   },
+  "talk-words.that-time-cannot-be-used-for": {
+    "text": "Tento čas nelze pro schůzku použít.",
+    "source": "82359a1b0796"
+  },
   "engine.that-window-has-closed-since-the": {
     "text": "Toto okno se od vytvoření seznamu zavřelo.",
     "source": "c7352c412f96"
+  },
+  "shell.ipc.that-window-is-in-a-call": {
+    "text": "Toto okno je v hovoru nebo schůzce, proto ho nelze zobrazit ani nahrát.",
+    "source": "d1e814b1090a"
   },
   "slides.that-works-on-slides-close-master": {
     "text": "Funguje to na snímcích. Nejprve zavřete zobrazení předlohy.",
@@ -28279,6 +29708,34 @@
     "text": "Průvodce aplikací Prezentace na office.rutba.io",
     "source": "87e5a0cf02ef"
   },
+  "talk.meet-lines.the-talk-server-did-not-let": {
+    "text": "Server Hovory (Talk Server) vás nevpustil. Připojte se znovu a požádejte tak o vpuštění.",
+    "source": "b14665829b5c"
+  },
+  "talk.meet-lines.the-talk-server-did-not-let-2": {
+    "text": "Server Hovory (Talk Server) vás nevpustil. Připojte se znovu, ať vás {name} může pustit.",
+    "source": "65492eb99b5e"
+  },
+  "talk.meet-lines.the-talk-server-did-not-take": {
+    "text": "Server Hovory (Talk Server) spojení nepřijal. Schůzka může být plná. Zkuste to za chvíli znovu.",
+    "source": "9db57d87fa81"
+  },
+  "talk.meet-lines.the-talk-server-did-not-take-2": {
+    "text": "Server Hovory (Talk Server) vás na schůzku nepřijal. Spusťte ji znovu.",
+    "source": "b79482615aa2"
+  },
+  "talk.meet-lines.the-talk-server-offered-a-connection": {
+    "text": "Server Hovory (Talk Server) nabídl spojení, které není šifrované, proto se aplikace Hovory (Talk) nepřipojila.",
+    "source": "f7dfc7436a07"
+  },
+  "talk.meet-lines.the-talk-servers-certificate-could-not": {
+    "text": "Certifikát serveru Hovory (Talk Server) se nepodařilo ověřit, proto nedošlo k připojení.",
+    "source": "33fd127fc503"
+  },
+  "talk.meet-lines.the-talk-service-did-not-let": {
+    "text": "Služba Talk nepovolila, aby se tato schůzka konala na serveru Hovory (Talk Server).",
+    "source": "99957ec824dd"
+  },
   "sheets.ribbon.the-worksheets-guide-on-office-rutba": {
     "text": "Průvodce aplikací Tabulky na office.rutba.io",
     "source": "de05c2d52be3"
@@ -28295,6 +29752,14 @@
     "text": "Adresa skrývá svůj cíl za jménem a znakem @: ve skutečnosti vede na {host}.",
     "source": "ad10fa26c0e8"
   },
+  "video.library.the-address-must-start-https": {
+    "text": "Adresa musí začínat https://.",
+    "source": "c83e4b4d033c"
+  },
+  "studio.net-camera-dialog.the-address-starts-rtsp-the-cameras": {
+    "text": "Adresa začíná rtsp://. Najdete ji v návodu ke kameře nebo v její vlastní aplikaci.",
+    "source": "d7f1043ad6d9"
+  },
   "calendar.invite-card.the-answer-is-on-the-meeting": {
     "text": "Odpověď je uložena u schůzky ve vašem kalendáři.",
     "source": "999de5959576"
@@ -28306,6 +29771,10 @@
   "apps-choice.the-apps-you-want-to-see": {
     "text": "Aplikace, které chcete vidět a ve kterých chcete otevírat své soubory.",
     "source": "332e5249e305"
+  },
+  "video.inspector.the-bar-fills-from-where-this": {
+    "text": "Pruh se plní od místa, kde tento klip začíná, až tam, kde končí.",
+    "source": "01d9656a5ad1"
   },
   "video.the-brand-kit-is-kept-for": {
     "text": "Sada firemního stylu je uložena a vkládá se do každé scény.",
@@ -28327,9 +29796,41 @@
     "text": "Kameru se nepodařilo otevřít, nahrává se jen váš hlas: {reason}",
     "source": "0f481ff68eb0"
   },
+  "studio.net-camera-words.the-camera-did-not-accept-the": {
+    "text": "Kamera nepřijala uživatelské jméno a heslo.",
+    "source": "0e773912d1c5"
+  },
+  "studio.net-camera-find.the-camera-did-not-give-a": {
+    "text": "Kamera nesdělila adresu streamu. Přidejte ji raději podle její adresy.",
+    "source": "362ec12ee3f5"
+  },
+  "studio.net-camera-words.the-camera-has-no-stream-at": {
+    "text": "Kamera nemá na této adrese žádný stream.",
+    "source": "bf4afbb0f55c"
+  },
   "recording.camera.the-camera-is-in-use-by": {
     "text": "Kameru právě používá jiný program.",
     "source": "8f814a035e77"
+  },
+  "studio.net-camera-words.the-camera-is-not-answering-trying": {
+    "text": "Kamera neodpovídá. Zkouší se znovu.",
+    "source": "0e5b2592941f"
+  },
+  "studio.net-camera-words.the-camera-refused-to-give-this": {
+    "text": "Kamera odmítla tento stream poskytnout.",
+    "source": "58a3f51cddf5"
+  },
+  "studio.net-camera-words.the-camera-sends-no-h-264": {
+    "text": "Kamera na této adrese neposílá žádný obraz H.264.",
+    "source": "492836237144"
+  },
+  "studio.net-camera-words.the-camera-sent-office-to-another": {
+    "text": "Kamera přesměrovala Office na jinou adresu. Takové přesměrování se nesleduje.",
+    "source": "1806cd635219"
+  },
+  "studio.net-camera-find.the-camera-stopped-answering-look-again": {
+    "text": "Kamera přestala odpovídat. Hledejte znovu.",
+    "source": "c5581f7307dc"
   },
   "slides.cameo.the-camera-stopped": {
     "text": "Kamera přestala fungovat.",
@@ -28338,6 +29839,10 @@
   "recording.camera.the-camera-was-not-allowed": {
     "text": "Přístup ke kameře nebyl povolen.",
     "source": "432525bd7e5b"
+  },
+  "studio.net-camera-words.the-cameras-certificate-could-not-be": {
+    "text": "Certifikát kamery se nepodařilo ověřit.",
+    "source": "82540f0abbcb"
   },
   "calendar.the-cancellation-is-sent-to-count": {
     "forms": {
@@ -28404,6 +29909,10 @@
     "text": "Kontrola se nemohla spojit s GitHubem, kde jsou uložena vydání. Zkontrolujte připojení a zkuste to znovu.",
     "source": "84d60dd0d3b6"
   },
+  "contacts.the-chosen-contact": {
+    "text": "Vybraný kontakt",
+    "source": "5dcc962557fb"
+  },
   "video.the-clip-could-not-be-reversed": {
     "text": "Klip se nepodařilo obrátit: {reason}",
     "source": "8fa2aa15a1ee"
@@ -28435,6 +29944,10 @@
   "ai-tools-dialog.the-connection-is-not-encrypted-use": {
     "text": "Připojení není šifrované. Používejte ho v síti, které důvěřujete, nebo se k němu připojujte přes zabezpečený tunel. Kdokoli s klíčem může nástroje používat, dokud jsou zapnuté.",
     "source": "d47063f9f70e"
+  },
+  "talk-words.the-connection-was-lost-and-the": {
+    "text": "Spojení se přerušilo a ke schůzce se nepodařilo znovu připojit.",
+    "source": "ecc583f6d5d1"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "Oblast kritérií nemůže ležet uvnitř seznamu",
@@ -28638,6 +30151,10 @@
     "text": "První znaky sloupce „{column}“",
     "source": "b944f22738f2"
   },
+  "print.the-first-page-as-it-prints": {
+    "text": "První stránka tak, jak se vytiskne",
+    "source": "714858151c3d"
+  },
   "video.the-first-try-came-out-with": {
     "text": "První pokus nevytvořil žádný obraz, a proto export začal znovu.",
     "source": "af1e9fb70b7f"
@@ -28710,6 +30227,10 @@
     "text": "Pozvánka je přiložena: kalendářový program ji zobrazí s tlačítky Přijmout, Nezávazně a Odmítnout.",
     "source": "916e39ce6f00"
   },
+  "calendar.the-invitation-says-so-and-everyone": {
+    "text": "Pozvánka to uvádí a všichni se to dozvědí znovu před připojením. Po uložení události to nelze změnit.",
+    "source": "34283da216e9"
+  },
   "talk.the-invitation-to-email-is-withdrawn": {
     "text": "Pozvánka pro {email} je odvolána.",
     "source": "e97f1c145a8b"
@@ -28761,6 +30282,10 @@
   "mail.the-link-could-not-be-opened": {
     "text": "Odkaz se nepodařilo otevřít: {reason}",
     "source": "f9feb1a56e08"
+  },
+  "calendar.the-link-goes-in-the-invitation": {
+    "text": "Po uložení události se odkaz vloží do pozvánky.",
+    "source": "6aee9a938dce"
   },
   "mail.links.the-link-goes-to-a-bare": {
     "text": "Odkaz vede na holou číselnou adresu ({host}), ne na pojmenovaný web.",
@@ -28894,6 +30419,18 @@
   "pdf.redact.the-marked-words-were-found-nowhere": {
     "text": "Označená slova nebyla jinde v souboru nalezena.",
     "source": "d6895ebf74fc"
+  },
+  "talk-words.the-meeting-has-ended": {
+    "text": "Schůzka skončila.",
+    "source": "cc0f6f1d8713"
+  },
+  "talk.meet-lines.the-meeting-is-full-on-its": {
+    "text": "Schůzka je na svém serveru Hovory (Talk Server) plná.",
+    "source": "a28293313806"
+  },
+  "talk.meet-lines.the-meetings-talk-server-is-not": {
+    "text": "Server Hovory (Talk Server) této schůzky teď nepřijímá další lidi. Zkuste to za chvíli znovu.",
+    "source": "1ba2db75411e"
   },
   "sheets.the-memo-file-was-not-beside": {
     "text": "Soubor memo nebyl vedle tabulky, proto jsou její pole memo prázdná.",
@@ -29031,6 +30568,14 @@
     "text": "Pořadí ve složce",
     "source": "30418ead37ff"
   },
+  "talk-words.the-organiser-will-record-this-meeting": {
+    "text": "Organizátor bude tuto schůzku nahrávat na svém počítači a může nahrávku sdílet.",
+    "source": "921618d46444"
+  },
+  "talk-words.the-organiser-will-stream-this-meeting": {
+    "text": "Organizátor bude tuto schůzku živě vysílat na internetu. Kdokoli ji sleduje, uvidí a uslyší všechny, kdo se připojí.",
+    "source": "b99065a333e6"
+  },
   "image.the-original-is-untouched": {
     "text": "Originál je nedotčený.",
     "source": "47a5d88b8255"
@@ -29091,6 +30636,10 @@
     "text": "Heslo bylo změněno.",
     "source": "48b340636b7a"
   },
+  "studio.the-password-is-kept-in-this": {
+    "text": "Heslo se uloží v úložišti klíčů tohoto počítače a znovu se nezobrazí. Office čte kameru jen tehdy, když je spuštěným zdrojem v otevřené scéně, a sám nic nenahrává.",
+    "source": "a06c01b372ed"
+  },
   "base.sources.the-password-is-kept-in-this": {
     "text": "Heslo je uloženo v chráněném úložišti tohoto počítače, nikdy v souboru.",
     "source": "238083babcc6"
@@ -29119,6 +30668,30 @@
     "text": "Hesla uložená v tomto profilu se na tomto počítači nepodařilo otevřít.",
     "source": "acb3592270e8"
   },
+  "talk.server-share.the-people-i-choose": {
+    "text": "Lidé, které vyberu",
+    "source": "36c32fb33927"
+  },
+  "talk.meeting.the-people-here-become-guests-of": {
+    "text": "Zdejší lidé se stanou hosty vašeho vysílání. Nic se nevysílá, dokud tam nespustíte živé vysílání.",
+    "source": "e32bdeab5f44"
+  },
+  "talk.meeting.the-people-here-become-guests-of-2": {
+    "text": "Zdejší lidé se stanou hosty vaší nahrávky. Nic se nenahrává, dokud tam nahrávání nespustíte.",
+    "source": "0029bd61f40d"
+  },
+  "talk.meet-lines.the-person-who-set-it-up": {
+    "text": "Lidi pouští osoba, která schůzku připravila: vstoupit můžete, až bude na schůzce.",
+    "source": "e3c88ab34577"
+  },
+  "video.the-picked-clip-is-held-as": {
+    "text": "Vybraný klip zůstane tak, jak je na přehrávací hlavě. Nastavte další bod v jiném čase a klip se bude pohybovat mezi nimi",
+    "source": "3750c996d700"
+  },
+  "video.the-picked-clip-no-longer-stops": {
+    "text": "Vybraný klip se tu na své cestě už nezastaví",
+    "source": "6fd09ebed34a"
+  },
   "image.the-picture": {
     "text": "Obrázek",
     "source": "4c104b5e7d1b"
@@ -29134,6 +30707,10 @@
   "studio.live-panel.the-picture-as-it-will-go": {
     "text": "Obraz tak, jak bude vysílán",
     "source": "bc06b3ee00fb"
+  },
+  "video.inspector.the-picture-comes-up-from-black": {
+    "text": "Obraz se na začátku tohoto klipu roztmívá z černé a na jeho konci stmívá do černé.",
+    "source": "2181c1078bfc"
   },
   "image.formats.the-picture-could-not-be-drawn": {
     "text": "Obrázek se v této velikosti nepodařilo vykreslit.",
@@ -29219,6 +30796,14 @@
     "text": "Prezentace není otevřená",
     "source": "f29457024833"
   },
+  "print.the-printer-did-not-accept-this": {
+    "text": "Tiskárna nepřijala tento papír nebo tato nastavení. Zvolte jiný papír nebo jinou tiskárnu.",
+    "source": "774689bf480b"
+  },
+  "print.the-printer-did-not-take-the": {
+    "text": "Tiskárna úlohu nepřijala. Zkontrolujte, zda je zapnutá a připojená, a zkuste to znovu.",
+    "source": "f4eec391cb2b"
+  },
   "base.the-program-that-made-this-database": {
     "text": "Program, který tuto databázi vytvořil, ukládá záznamy po svém. Záznam, který zde přidáte, změníte nebo odstraníte, jde přímo do jeho souboru, kde ho ten program nemusí očekávat. Nejdřív tento program zavřete, a pokud si nejste jisti, uložte kopii souboru.",
     "source": "8002f92792a1"
@@ -29264,6 +30849,10 @@
     },
     "source": "4f5d2c815440"
   },
+  "talk.meet-lines.the-recording-is-running-you-are": {
+    "text": "Nahrávání probíhá. Právě teď v nahrávce nejste.",
+    "source": "4036dc31bdb1"
+  },
   "base.links.the-records-of-table-could-not": {
     "text": "Tabulku {table} se nepodařilo načíst z {link}: {why}",
     "source": "660d34a04cc8"
@@ -29303,6 +30892,10 @@
   "slides.ribbon.the-release-notes": {
     "text": "Poznámky k verzi",
     "source": "3f798451b655"
+  },
+  "talk.report.the-report-goes-to-rutba-name": {
+    "text": "Hlášení dostane Rutba. {name} se o něm nedozví.",
+    "source": "f6c7917c49db"
   },
   "template-gallery.the-results-of-a-quarter-the": {
     "text": "Výsledky čtvrtletí: čísla, tržby po měsících, co se povedlo, poučení a cíle",
@@ -29517,6 +31110,10 @@
     "text": "Menší PDF je uloženo jako nový soubor; tento se nezmění. Nyní má {size}.",
     "source": "6442a2655dcc"
   },
+  "notify-dialog.the-sound-windows-plays-with-a": {
+    "text": "Zvuk, který Windows přehraje s oznámením",
+    "source": "653106fa20ba"
+  },
   "video.the-sound-could-not-be-added": {
     "text": "Zvuk se nepodařilo přidat: {reason}",
     "source": "35d9bcec9939"
@@ -29560,6 +31157,10 @@
   "studio.live-bar.the-stream-has-ended": {
     "text": "Stream byl ukončen.",
     "source": "d57ae372ef20"
+  },
+  "talk.meet-lines.the-stream-is-on-air-you": {
+    "text": "Stream je ve vysílání. Právě teď v něm nejste.",
+    "source": "11eb1300420f"
   },
   "ui.proofing.the-suite-has-english-dictionaries-only": {
     "text": "Sada má jen anglické slovníky, takže kontrola pravopisu slova v jazyce {language} přeskakuje, místo aby je označila jako chybná; Office je kontroluje v jazyce {language}.",
@@ -29633,6 +31234,14 @@
     "text": "Nástroj",
     "source": "597e25a2a916"
   },
+  "video.inspector.the-transition-into-the-next-clip": {
+    "text": "Přechod do dalšího klipu slouží jako odchod tohoto klipu.",
+    "source": "6f504ea49383"
+  },
+  "video.inspector.the-transition-into-this-clip-is": {
+    "text": "Přechod do tohoto klipu slouží jako jeho příchod.",
+    "source": "580927f3dd13"
+  },
   "common.the-two-passwords-are-not-the": {
     "text": "Zadaná hesla se neshodují.",
     "source": "bb612d83804d"
@@ -29652,22 +31261,6 @@
   "video.library.the-videos-sound-and-pictures-in": {
     "text": "Videa, zvuky a obrázky v tomto projektu jsou uložené zde, abyste je mohli přidat znovu.",
     "source": "4075715096b2"
-  },
-  "spoken.voices.read-aloud-only": {
-    "text": "Pouze číst nahlas",
-    "source": "3953b35ec0c1"
-  },
-  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
-    "text": "Zkratka: Ctrl+Enter v poli",
-    "source": "46629f7a364b"
-  },
-  "spoken.voices.show-and-read-aloud": {
-    "text": "Zobrazit a číst nahlas",
-    "source": "cad1b91fa8e8"
-  },
-  "spoken.voices.show-only": {
-    "text": "Pouze zobrazit",
-    "source": "a8d71c961005"
   },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "Hlas pro tento řádek nevydal žádný zvuk.",
@@ -29709,9 +31302,17 @@
     "text": "Text se změní; číslo a odkaz na něj zůstanou na svém místě.",
     "source": "a349d752c423"
   },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "Slova se objeví u přehrávací hlavy, jeden řádek za druhým, přes obraz.",
+    "source": "841b57677821"
+  },
   "pdf.redact.the-words-marked-words": {
     "text": "Označená slova: {words}",
     "source": "dc8443be756f"
+  },
+  "notify-dialog.the-words-of-a-message-and": {
+    "text": "Text zprávy a předmět e-mailu. Když je vypnuto, oznámení uvede jen odesílatele.",
+    "source": "aa2ea8a7d8f1"
   },
   "engine.the-words-to-make-a-table": {
     "text": "Text, ze kterého chcete vytvořit tabulku, už v tabulce je.",
@@ -30008,6 +31609,15 @@
     "text": "Zatím není nic ke střihu.",
     "source": "b18177f5d0d3"
   },
+  "pictures.print.there-is-count-picture-here-more": {
+    "forms": {
+      "one": "Je zde {count} obrázek, víc než maximum jednoho tisku ({most}). Vyberte méně.",
+      "few": "Jsou zde {count} obrázky, víc než maximum jednoho tisku ({most}). Vyberte méně.",
+      "many": "Je zde {count} obrázku, víc než maximum jednoho tisku ({most}). Vyberte méně.",
+      "other": "Je zde {count} obrázků, víc než maximum jednoho tisku ({most}). Vyberte méně."
+    },
+    "source": "5c9d627303d8"
+  },
   "common.thesaurus": {
     "text": "Tezaurus",
     "source": "39ee7c38435d"
@@ -30072,6 +31682,14 @@
     "text": "Osoba se odebere z vašich kontaktů a už nemůže žádat o kontakt ani vás zastihnout.",
     "source": "9f51b4fdc716"
   },
+  "talk.they-cannot-ask-to-be-in": {
+    "text": "Nemůže znovu požádat o kontakt ani vás zastihnout. Nedozví se o tom.",
+    "source": "dee1768ca554"
+  },
+  "studio.guests.they-cannot-join-this-meeting-again": {
+    "text": "K této schůzce se už nemohou znovu připojit.",
+    "source": "def7bc098df1"
+  },
   "base.ai-tools.they-may-also-add-records-and": {
     "text": "Smí také přidávat záznamy a měnit je. Nikdy nemění návrh a nikdy nic neodstraňují.",
     "source": "8b74841f0d5a"
@@ -30083,6 +31701,10 @@
   "base.ai-tools.they-may-read-its-records": {
     "text": "Smí číst její záznamy.",
     "source": "2a1104df2724"
+  },
+  "talk.groups.they-no-longer-see-what-is": {
+    "text": "Už neuvidí, co se tu píše. Již přečtené zprávy jim zůstanou.",
+    "source": "a3b27170bf21"
   },
   "talk.invite.they-see-it-in-talk-if": {
     "text": "Uvidí ji v aplikaci Hovory (Talk), pokud ji používají. Odkaz jim pak můžete poslat i sami.",
@@ -30128,6 +31750,10 @@
     "text": "Třetí",
     "source": "5e7425d72f32"
   },
+  "video.library.third-point": {
+    "text": "Třetí bod",
+    "source": "7bb2711613d0"
+  },
   "slides.ribbon.this-device": {
     "text": "Toto zařízení…",
     "source": "52daeef5cf25"
@@ -30156,9 +31782,13 @@
     "text": "Křížové odkazy tohoto PDF jsou poškozené, takže do něj nelze v tomto stavu přidat textovou vrstvu. Nejdřív uložte kopii a pak spusťte rozpoznávání na kopii.",
     "source": "1050973fa0a2"
   },
-  "talk.invite.this-talk-server-does-not-take": {
-    "text": "Tento server aplikace Hovory (Talk) zatím nepřijímá pozvánky.",
-    "source": "9b3cb2160f1c"
+  "talk.meet-lines.this-talk-service-cannot-hold-a": {
+    "text": "Tato služba Talk zatím neumí konat schůzky na serveru Hovory (Talk Server), proto jde o malou schůzku pro čtyři.",
+    "source": "c1d3029a92cf"
+  },
+  "talk.meet-lines.this-talk-service-has-no-talk": {
+    "text": "Tato služba Talk nemá žádné servery Hovory (Talk Servers), schůzku proto nelze konat na serveru.",
+    "source": "8e28496cf764"
   },
   "mail.this-account": {
     "text": "Tento účet",
@@ -30167,6 +31797,10 @@
   "word.untracked.this-action-will-not-be-marked": {
     "text": "Tato akce nebude označena jako změna.",
     "source": "7b97913a5c04"
+  },
+  "studio.net-camera-words.this-address-sends-h-265-which": {
+    "text": "Tato adresa posílá H.265, který zatím není podporován. Použijte stream kamery ve formátu H.264.",
+    "source": "651ff9635aec"
   },
   "calendar.words.this-answer-comes-from-rutba-office": {
     "text": "Tuto odpověď posílá Rutba Office, který spravuje schránku této místnosti, dokud je spuštěný.",
@@ -30195,6 +31829,26 @@
   "engine.this-calendar-comes-from-an-account": {
     "text": "Tento kalendář pochází z účtu. Chcete-li odebrat jeho kalendáře, odeberte účet.",
     "source": "98d39bbbbd5e"
+  },
+  "studio.net-camera-words.this-camera-asks-for-a-kind": {
+    "text": "Tato kamera vyžaduje způsob přihlášení, který Office nezná.",
+    "source": "6c652d14acb9"
+  },
+  "studio.net-camera-words.this-camera-asks-for-a-user": {
+    "text": "Tato kamera vyžaduje uživatelské jméno a heslo.",
+    "source": "c2cae425904b"
+  },
+  "studio.net-camera-words.this-camera-does-not-send-its": {
+    "text": "Tato kamera neposílá obraz přes připojení, které Office otevírá.",
+    "source": "6fc8cbde1c5f"
+  },
+  "studio.net-camera-words.this-camera-is-not-set-up": {
+    "text": "Tato kamera není v tomto počítači nastavena. Zadejte její adresu v okně „Podrobnosti kamery“.",
+    "source": "4bed18b10e16"
+  },
+  "studio.net-camera-dialog.this-camera-was-set-up-on": {
+    "text": "Tato kamera byla nastavena na jiném počítači. Zadejte zde její adresu a přihlašovací údaje.",
+    "source": "542ed093335d"
   },
   "mail.this-cannot-be-encrypted-for-names": {
     "text": "Pro {names} to nelze zašifrovat: nemáte zde jejich certifikát. Požádejte je o podepsanou zprávu nebo jejich certifikát importujte.",
@@ -30244,6 +31898,10 @@
     "text": "Tato volba už vychází na asi {size}, pod {limit}, takže zůstane beze změny. Zapsaný soubor se přesto zkontroluje.",
     "source": "ec9bbd250c8b"
   },
+  "studio.window.this-clears-the-sources-scenes-sounds": {
+    "text": "Tímto se vymažou zdroje, scény, zvuky a nastavení této relace, tvar obrazu i text zadaný k namluvení hlasem. Tuto akci nelze vrátit zpět. Uložené sestavy se nezmění.",
+    "source": "c68ae537b83a"
+  },
   "video.inspector.this-clip-fills-the-frame-drag": {
     "text": "Tento klip vyplňuje obraz. Chcete-li ho přesunout, změnit jeho velikost nebo otočit, přetáhněte roh v náhledu nebo z něj udělejte obraz v obraze.",
     "source": "72ea235699ae"
@@ -30276,9 +31934,21 @@
     "text": "Tento počítač neumí vytvořit obraz H.264, který živý stream potřebuje.",
     "source": "a62cd6f5be9a"
   },
+  "studio.net-camera-words.this-computer-could-not-show-the": {
+    "text": "Obraz kamery se v tomto počítači nepodařilo zobrazit.",
+    "source": "51da9c1b735e"
+  },
   "studio.media.this-computer-does-not-let-its": {
     "text": "Tento počítač neumožňuje nahrávat vlastní zvuk.",
     "source": "02a36f4d4162"
+  },
+  "notify-dialog.this-computer-does-not-show-notifications": {
+    "text": "Tento počítač nezobrazuje oznámení Rutba Office. Čekající položky se dál počítají na ikoně u hodin.",
+    "source": "0946a46fa6b1"
+  },
+  "studio.this-computer-has-no-keystore-to": {
+    "text": "Tento počítač nemá úložiště klíčů pro bezpečné uložení hesla, proto se kamera přidá bez hesla.",
+    "source": "72d201a958d1"
   },
   "profiles.this-computer-has-no-protected-store": {
     "text": "Tento počítač nemá chráněné úložiště pro uložená hesla a tento profil nemá heslo, takže je nešlo bezpečně uchovat.",
@@ -30426,6 +32096,10 @@
     "text": "Tento dokument je chráněn: lze zde jen přidávat komentáře. Revize → Omezit úpravy ukáže oblasti, které můžete upravovat.",
     "source": "b908b8376d8e"
   },
+  "calendar.this-event-has-a-talk-meeting": {
+    "text": "Událost má schůzku v Hovorech (Talk). Odkaz je v pozvánce.",
+    "source": "827f48607535"
+  },
   "word.mailings.this-field": {
     "text": "Toto pole:",
     "source": "eb8aea23f662"
@@ -30546,9 +32220,17 @@
     "text": "Toto je soubor glTF {version}; čte se jen glTF 2.0",
     "source": "4c12d7ae7e99"
   },
+  "studio.setups-menu.this-is-a-new-session-your": {
+    "text": "Toto je nová relace. Uložené sestavy nejsou otevřené.",
+    "source": "71e4928b84cd"
+  },
   "word.mailings.this-is-an-ordinary-document-again": {
     "text": "Toto je opět běžný dokument bez hromadné korespondence.",
     "source": "c3f745c78c62"
+  },
+  "shell.notifier.this-is-how-rutba-office-tells": {
+    "text": "Takto vás Rutba Office upozorní na hovor, zprávu, e-mail nebo připomenutí.",
+    "source": "950c62c3726b"
   },
   "engine.this-is-not-a-pdf-it": {
     "text": "Toto není PDF: nezačíná jako PDF.",
@@ -30631,9 +32313,41 @@
     "text": "Tato schůzka se změnila. Nové podrobnosti jsou výše a v příloze.",
     "source": "fbe9e175c1ce"
   },
+  "talk-words.this-meeting-has-ended-or-its": {
+    "text": "Tato schůzka skončila, nebo její odkaz není správný.",
+    "source": "b64eb5c26b25"
+  },
+  "talk.meet-lines.this-meeting-holds-up-to-count": {
+    "text": "Tato schůzka pojme až {count} osob: vás a kontakty, které pozvete.",
+    "source": "7ce6878459a3"
+  },
   "calendar.words.this-meeting-is-cancelled-a-calendar": {
     "text": "Tato schůzka je zrušena. Kalendářový program ji podle přiloženého souboru odebere z kalendáře.",
     "source": "6e9c1888a881"
+  },
+  "common.this-meeting-is-full-it-holds": {
+    "text": "Tato schůzka je plná: nejvyšší počet osob je {count}.",
+    "source": "3f86e11dd3c0"
+  },
+  "talk-words.this-meeting-is-locked-nobody-new": {
+    "text": "Tato schůzka je zamčená. Nikdo nový se nemůže připojit, dokud nebude odemčena.",
+    "source": "1abcf9d36011"
+  },
+  "talk.meet-lines.this-meeting-is-over-on-its": {
+    "text": "Tato schůzka na svém serveru Hovory (Talk Server) skončila.",
+    "source": "63de60cd2533"
+  },
+  "talk.meet-lines.this-meeting-was-not-set-up": {
+    "text": "Tato schůzka nebyla nastavena k živému vysílání ani k nahrávání. Později to nelze změnit.",
+    "source": "d5fcfd698087"
+  },
+  "shell.notifier.this-meeting-will-be-recorded": {
+    "text": "Tato schůzka bude nahrávána",
+    "source": "ca175df526bd"
+  },
+  "common.this-meeting-will-be-streamed-live": {
+    "text": "Tato schůzka bude vysílána živě",
+    "source": "bcb5929f8d46"
   },
   "mail.this-message-could-not-be-opened": {
     "text": "Tuto zprávu se nepodařilo otevřít",
@@ -30723,6 +32437,10 @@
     "text": "Otočení této fotky nelze změnit bez překreslení. Upravit ji otevře v aplikaci Grafika, která to umí.",
     "source": "e53774383891"
   },
+  "pictures.this-picture": {
+    "text": "Tento obrázek",
+    "source": "ee4bcbd7d2c6"
+  },
   "pictures.this-picture-could-not-be-decoded": {
     "text": "Tento obrázek se nepodařilo dekódovat.",
     "source": "3770474ba9a6"
@@ -30742,6 +32460,10 @@
   "edit-in-image.this-picture-is-kept-in-a": {
     "text": "Tento obrázek je uložen ve formě, kterou aplikace Grafika neumí upravit (například jako kresba z čar). Nejdřív ho převeďte na PNG nebo JPEG.",
     "source": "a4e03f2add1a"
+  },
+  "pictures.this-picture-all-count-pages": {
+    "text": "Tento obrázek, všechny stránky ({count})",
+    "source": "7e3a926bad3c"
   },
   "pdf.fields.this-places-a-picture-of-your": {
     "text": "Na stránku se vloží obrázek vašeho podpisu. Nejde o digitální podpis: neprokazuje, kdo PDF podepsal, ani že se od té doby nezměnilo.",
@@ -30766,6 +32488,10 @@
   "base.documents.this-print-template-is-not-in": {
     "text": "Tato tisková šablona není v databázi.",
     "source": "514256b113da"
+  },
+  "print.this-printer-is-not-ready-a": {
+    "text": "Tato tiskárna není připravena. Odeslaný tisk počká v její frontě, dokud nebude.",
+    "source": "e0ae214529a5"
   },
   "profiles.this-profile-asks-for-its-password": {
     "text": "Tento profil před otevřením vyžaduje své heslo.",
@@ -30826,6 +32552,14 @@
   "mail.this-sends-a-message-to-address": {
     "text": "Odešle zprávu na adresu {address}.",
     "source": "ff32e284a342"
+  },
+  "studio.settings-dialog.this-session": {
+    "text": "Tato relace",
+    "source": "6da6530a0728"
+  },
+  "studio.setups-menu.this-session-is-not-saved-save": {
+    "text": "Tato relace není uložena. Chcete-li ji později znovu otevřít, uložte ji jako sestavu. Jinak se vše, co jste v ní uspořádali, ztratí.",
+    "source": "47fc62aed9a4"
   },
   "studio.settings-dialog.this-setup": {
     "text": "Tato sestava",
@@ -30959,6 +32693,10 @@
     "text": "Toto okno nemá vlastní klávesové zkratky.",
     "source": "5e7d871a442c"
   },
+  "studio.guests.this-window-leaves-and-talk-comes": {
+    "text": "Okno se zavře a otevřou se Hovory (Talk): stejní lidé, jako schůzka.",
+    "source": "fa116fc70753"
+  },
   "sheets.this-workbook-has-no-comments": {
     "text": "Tento sešit nemá žádné komentáře.",
     "source": "b25f818039e3"
@@ -30995,6 +32733,15 @@
     "text": "Položka {noun} už vyžaduje heslo. Zadáním nového ho změníte, prázdnými poli ho odeberete.",
     "source": "48cc5a933316"
   },
+  "print.those-are-not-pages-of-this": {
+    "forms": {
+      "one": "Tyto stránky v tisku nejsou. Tisk má {count} stránku.",
+      "few": "Tyto stránky v tisku nejsou. Tisk má {count} stránky.",
+      "many": "Tyto stránky v tisku nejsou. Tisk má {count} stránky.",
+      "other": "Tyto stránky v tisku nejsou. Tisk má {count} stránek."
+    },
+    "source": "39e9aff4fba2"
+  },
   "talk.invite-email.those-beyond-that-are-asked-in": {
     "text": "Ti nad tento počet jsou požádáni jen v aplikaci Hovory (Talk), bez e-mailu.",
     "source": "4ac21ba884c2"
@@ -31014,6 +32761,10 @@
   "slides.ribbon.three-columns": {
     "text": "Tři sloupce",
     "source": "cd7d143da615"
+  },
+  "studio.guests.three-guests": {
+    "text": "Tři hosté",
+    "source": "41b77a9e8c88"
   },
   "word.ribbon.through": {
     "text": "Skrz",
@@ -31118,10 +32869,6 @@
   "calendar.time-zones": {
     "text": "Časová pásma",
     "source": "1b0013ea667e"
-  },
-  "video.ribbon.spoken-words": {
-    "text": "Mluvená slova",
-    "source": "b5f7a276ab16"
   },
   "video.ribbon.timeline": {
     "text": "Časová osa",
@@ -31228,10 +32975,6 @@
     "text": "Chcete-li zjistit, kdy má místnost {room} volno, napište jí zprávu s datem, například „volno 12. března?“.",
     "source": "37d6c6384e27"
   },
-  "video.inspector.to-black": {
-    "text": "Do černé",
-    "source": "96f788893ec2"
-  },
   "inspect.to-check-the-noun-for-the": {
     "text": "Chcete-li zkontrolovat položku {noun} u vybraného obsahu, klikněte na Zkontrolovat.",
     "source": "1cb2e2cb7be2"
@@ -31287,6 +33030,10 @@
   "image.tools.tolerance": {
     "text": "Tolerance",
     "source": "f71041bb481f"
+  },
+  "shell.notifier.tomorrow": {
+    "text": "Zítra",
+    "source": "456a73bbcefb"
   },
   "mail.compose.tomorrow-afternoon-1pm": {
     "text": "Zítra odpoledne, 13:00",
@@ -31644,6 +33391,10 @@
     "text": "Zkuste jiná slova.",
     "source": "2a5ed12cfe24"
   },
+  "talk.meeting.try-the-microphone-again": {
+    "text": "Zkusit mikrofon znovu",
+    "source": "a9a9b0e3cf5e"
+  },
   "image.insert.tue": {
     "text": "Út",
     "source": "d1eb39b09bf5"
@@ -31691,6 +33442,10 @@
   "pictures.batch.turn-each-picture-upright-by-its": {
     "text": "Narovnat každý obrázek podle orientace EXIF",
     "source": "54083df636d3"
+  },
+  "common.turn-notifications-back-on": {
+    "text": "Znovu zapnout oznámení",
+    "source": "d9796f6a3b48"
   },
   "common.turn-off": {
     "text": "Vypnout",
@@ -31768,6 +33523,10 @@
     "text": "Dva sloupce",
     "source": "ff4a0135d773"
   },
+  "studio.guests.two-guests": {
+    "text": "Dva hosté",
+    "source": "ebe89d0ce31d"
+  },
   "locker.two-versions": {
     "text": "Dvě verze",
     "source": "861c66ced8c2"
@@ -31795,6 +33554,10 @@
   "word.references.type-a-tag-name-for-the": {
     "text": "Zadejte název značky zástupného symbolu. Vyplníte ho později ve Spravovat zdroje. Všechny jeho citace se přizpůsobí.",
     "source": "e79a9f4c69be"
+  },
+  "video.type-a-web-address": {
+    "text": "Zadejte webovou adresu",
+    "source": "f1405e95c81b"
   },
   "equations.type-an-equation-x-b-b": {
     "text": "Zadejte rovnici: x=(-b±√(b^2-4ac))/2a, \\sum_(i=1)^n i, \\int_0^1 f(x)dx, a_i, \\alpha",
@@ -31864,6 +33627,10 @@
     "text": "Zadejte slova k hledání a znovu stiskněte Označit shody pro všechny shody.",
     "source": "534a18cc15ca"
   },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "Napište slova k vyslovení, jednu větu na řádek",
+    "source": "e794db16dbb4"
+  },
   "base.forms.type-to-find": {
     "text": "Zadejte hledaný text",
     "source": "4fbe3a9bb596"
@@ -31871,6 +33638,14 @@
   "mail.archive.type-words-to-find-them-anywhere": {
     "text": "Zadejte slova, která se mají najít kdekoli, i v textu zprávy. Přidejte kterékoli z těchto; kliknutím je přidáte do hledání.",
     "source": "e72e37f629a5"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "Průběžně pište slova k zobrazení, přečtení nahlas nebo obojímu",
+    "source": "ab4c38c0c662"
+  },
+  "video.type-words-to-show-read-aloud": {
+    "text": "Pište u přehrávací hlavy slova k zobrazení, přečtení nahlas nebo obojímu",
+    "source": "af653107afac"
   },
   "slides.comments.type-your-comment-mentions-someone": {
     "text": "Napište komentář… @ zmíní někoho",
@@ -31907,6 +33682,10 @@
   "slides.action.url": {
     "text": "URL…",
     "source": "e32d07912805"
+  },
+  "talk.settings.unblock": {
+    "text": "Odblokovat",
+    "source": "712da63171e0"
   },
   "slides.motion.uncover": {
     "text": "Odkrýt",
@@ -32196,10 +33975,6 @@
     "text": "Snímek bez názvu",
     "source": "1eadae5cbf64"
   },
-  "video.type-words-to-show-read-aloud": {
-    "text": "Pište u přehrávací hlavy slova k zobrazení, přečtení nahlas nebo obojímu",
-    "source": "af653107afac"
-  },
   "video.untitled-video": {
     "text": "Video bez názvu",
     "source": "a7e5acfa45bc"
@@ -32219,6 +33994,10 @@
   "sheets.dialogs.up-to-31-characters-none-of": {
     "text": "Nejvýše 31 znaků; bez [ ] : * ? / a zpětného lomítka. Vzorce, které list čtou, převezmou nový název.",
     "source": "dee767dc50b7"
+  },
+  "talk.meet-lines.up-to-count-people-sound-picture": {
+    "text": "Až {count} osob. Zvuk, obraz a zprávy šifrují aplikace účastníků a server je nemůže otevřít. Lidé mohou vstupovat, dokud jste na schůzce vy.",
+    "source": "ebf5b97b2304"
   },
   "talk.invite-email.up-to-max-characters-rutbas-email": {
     "text": "Počet znaků: nejvýše {max}. E-mail od Rutby přidá odkaz k přijetí.",
@@ -32428,6 +34207,10 @@
   "talk.use-my-relay": {
     "text": "Použít můj server",
     "source": "17ee03d59f24"
+  },
+  "video.library.use-only-music-you-have-the": {
+    "text": "Používejte jen hudbu, k jejímuž použití máte právo. Většinu hudby na webu nelze volně vkládat do videí.",
+    "source": "74057f0cdd05"
   },
   "word.references-toa.use-passim": {
     "text": "Použít passim",
@@ -32757,9 +34540,21 @@
     "text": "Čekání na prohlížeč…",
     "source": "8c6d350ef031"
   },
+  "talk.meet-lines.waiting-for-the-person-who-set": {
+    "text": "Čeká se na osobu, která schůzku připravila a pouští lidi dovnitř.",
+    "source": "1a25d036dddb"
+  },
+  "talk.meet-lines.waiting-for-name-who-lets-people": {
+    "text": "Čeká se na osobu {name}, která na tuto schůzku pouští lidi.",
+    "source": "1a30adcb3dae"
+  },
   "mail.dialogs.waiting-for-provider": {
     "text": "Čekání na {provider}…",
     "source": "5d80e1411830"
+  },
+  "talk.lines.waiting-talk-is-not-connected": {
+    "text": "Čeká se: aplikace Hovory (Talk) není připojena",
+    "source": "a47c46196a6f"
   },
   "base.walk-ins-and-bookings-chair-rental": {
     "text": "Zákazníci bez objednání a rezervace, nájem křesel, tržby podle holiče a věrnostní karty.",
@@ -32837,6 +34632,10 @@
     "text": "Webová adresa",
     "source": "45099c558849"
   },
+  "video.library.web-address-of-a-sound-or": {
+    "text": "Webová adresa zvukového nebo video souboru",
+    "source": "a41db93d0dad"
+  },
   "studio.list.web-page": {
     "text": "Webová stránka",
     "source": "fae9f11dea03"
@@ -32909,6 +34708,14 @@
     "text": "K čemu schůzka je, její body s časy a kdo který vede, a co si předem přečíst",
     "source": "6b2ad7b24c66"
   },
+  "studio.net-camera-words.what-answers-at-this-address-is": {
+    "text": "To, co na této adrese odpovídá, není stream kamery. Zkouší se znovu.",
+    "source": "87d5fe1b7097"
+  },
+  "talk.report.what-happened-if-you-want-to": {
+    "text": "Co se stalo, pokud to chcete uvést",
+    "source": "ad9d5c00cb5e"
+  },
   "mail.dialogs.what-is-in-junk-is-learned": {
     "text": "Obsah Nevyžádané pošty se učí jako nevyžádaný, Doručené pošty jako dobrý",
     "source": "f0f1d53224a3"
@@ -32925,6 +34732,14 @@
     "text": "Co je vidět",
     "source": "c86e86bc0f07"
   },
+  "talk.meeting.what-is-written-here-is-seen": {
+    "text": "Co se tu napíše, vidí lidé, kteří jsou právě na schůzce. Po schůzce se to neuchová.",
+    "source": "a3fd74707f8b"
+  },
+  "talk.report.what-is-wrong": {
+    "text": "Co je špatně?",
+    "source": "d23f3cbd2d83"
+  },
   "word.blocks.what-it-holds": {
     "text": "Co obsahuje",
     "source": "e0ae7a1f3f51"
@@ -32936,10 +34751,6 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "Co smí nástroje AI s každou položkou dělat. Vše je vypnuto, dokud nerozhodnete. Stejná nastavení najdete v části Nástroje AI.",
     "source": "14310670b45f"
-  },
-  "spoken.voices.type-the-words-to-say-one": {
-    "text": "Napište slova k vyslovení, jednu větu na řádek",
-    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "Co řádky dělají",
@@ -33141,6 +34952,10 @@
     "text": "Kdo je v budově, průkazy, hostitelé, vstupní školení dodavatelů a dodávky.",
     "source": "b2307ab3ac50"
   },
+  "talk.server-share.who-may-hold-meetings-on-name": {
+    "text": "Kdo smí konat schůzky: {name}",
+    "source": "d46f91bd9701"
+  },
   "base.documents.who-signs": {
     "text": "Kdo podepisuje",
     "source": "c07456c38335"
@@ -33156,6 +34971,10 @@
   "base.sources.who-you-are-where-table-is": {
     "text": "Kdo jste tam, odkud se čte tabulka {table}",
     "source": "2d7fe168e926"
+  },
+  "talk.server-share.whoever-is-a-contact-of-yours": {
+    "text": "Kdokoli, kdo je vaším kontaktem v okamžiku, kdy zahajuje schůzku.",
+    "source": "e1760ffd2218"
   },
   "pdf.whoever-protected-this-pdf-allows-only": {
     "text": "Kdo toto PDF zabezpečil, povoluje jen některé změny.",
@@ -33277,6 +35096,14 @@
     "text": "Šířka: automaticky",
     "source": "c521533693cd"
   },
+  "talk.meet-lines.will-be-recorded": {
+    "text": "Bude nahráváno",
+    "source": "2b5790d08c40"
+  },
+  "talk.meet-lines.will-be-streamed-live": {
+    "text": "Bude vysíláno živě",
+    "source": "aa193332d0ee"
+  },
   "common.window": {
     "text": "Okno",
     "source": "19734a1b58ca"
@@ -33304,6 +35131,18 @@
   "common.wipe": {
     "text": "Setření",
     "source": "3404644e0117"
+  },
+  "video.timeline.wipe-down": {
+    "text": "Setření dolů",
+    "source": "386327484bbc"
+  },
+  "video.timeline.wipe-left": {
+    "text": "Setření doleva",
+    "source": "fe6bfe761ce2"
+  },
+  "video.timeline.wipe-up": {
+    "text": "Setření nahoru",
+    "source": "37d6d465ef8a"
   },
   "slides.ribbon.with-previous": {
     "text": "S předchozím",
@@ -33416,6 +35255,10 @@
   "ui.proofing.words-for-word": {
     "text": "Slova pro „{word}“",
     "source": "6d61efe54546"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "Slova k vyslovení",
+    "source": "3353415dcf6a"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "Slova, která jste přidali, se nikdy neoznačí jako chybná, v Dokumentech, Tabulkách i Prezentacích.",
@@ -33553,6 +35396,10 @@
     "text": "Psát na celé okno",
     "source": "92a4b3023cae"
   },
+  "talk.write-the-first-message-to-this": {
+    "text": "Napište první zprávu této skupině.",
+    "source": "79c6b8f1ef84"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "Zápis zastaven: {reason}. Co bylo zapsáno předtím, zůstane uloženo.",
     "source": "9d5b1ef54387"
@@ -33615,9 +35462,21 @@
     "text": "Vy",
     "source": "08b041935798"
   },
+  "talk.lines.you-added-who": {
+    "text": "Přidali jste: {who}",
+    "source": "67412ea9fb91"
+  },
   "talk.invite.you-and-name-are-contacts-now": {
     "text": "Vy a {name} jste teď kontakty.",
     "source": "38fc20ca22cb"
+  },
+  "talk.meet-lines.you-are-being-recorded": {
+    "text": "Jste nahráváni.",
+    "source": "e527c1b5b294"
+  },
+  "talk.lines.you-are-in-as-many-groups": {
+    "text": "Jste v tolika skupinách, kolik Hovory (Talk) dovolí. Nejprve jednu opusťte.",
+    "source": "f21fa1f31c5b"
   },
   "studio.setup-panel.you-are-live-changes-here-go": {
     "text": "Vysíláte živě. Změny zde jdou do Další a do vysílání se dostanou při Střihu.",
@@ -33626,6 +35485,18 @@
   "studio.window.you-are-live-closing-this-window": {
     "text": "Vysíláte živě. Zavřením tohoto okna vysílání ukončíte.",
     "source": "fbafb6b6ab0f"
+  },
+  "common.you-are-no-longer-in-that": {
+    "text": "Už nejste v této skupině.",
+    "source": "88e19bcf810d"
+  },
+  "talk.meet-lines.you-are-not-let-into-this": {
+    "text": "Na tuto schůzku už nemáte povolen vstup, nebo už skončila.",
+    "source": "02799eaaf921"
+  },
+  "talk.meet-lines.you-are-on-air-people-watching": {
+    "text": "Jste ve vysílání. Diváci streamu vás vidí a slyší.",
+    "source": "5e22ab5c41c5"
   },
   "base.people.you-are-seeing-this-database-as": {
     "text": "Vidíte tuto databázi tak, jak ji vidí {role}. Dokud se nevrátíte, nic nelze změnit.",
@@ -33639,6 +35510,10 @@
     "text": "Znovu je můžete pozvat {when}.",
     "source": "ef7c63299976"
   },
+  "talk.meet-lines.you-cannot-hear-or-see-the": {
+    "text": "Ostatní neslyšíte ani nevidíte: tato kopie aplikace Hovory (Talk) má jiný klíč než oni. Opusťte schůzku a připojte se znovu.",
+    "source": "3baa6801ab85"
+  },
   "base.links.you-changed-it-here-and-it": {
     "text": "Záznam jste změnili zde a ve stroji byl změněn také. Ponechává se verze stroje.",
     "source": "07152f5edcaf"
@@ -33646,6 +35521,10 @@
   "base.links.you-changed-it-here-and-it-2": {
     "text": "Záznam jste změnili zde, ale ve stroji byl odstraněn. Zde je odstraněn také.",
     "source": "66e9facf3d8b"
+  },
+  "talk.meet-lines.you-could-not-be-let-into": {
+    "text": "Na schůzku se vás nepodařilo vpustit. Zkuste se připojit znovu.",
+    "source": "42a2a94fab7e"
   },
   "base.links.you-deleted-it-here-and-it": {
     "text": "Záznam jste odstranili zde, ale ve stroji byl změněn. Proto je zase zpět.",
@@ -33658,6 +35537,66 @@
   "talk.invite-email.you-have-no-mail-account-to": {
     "text": "Nemáte účet v Poště, ze kterého lze odesílat, takže jim Rutba pošle e-mail vaším jménem z adresy no-reply@rutba.io.",
     "source": "d3f332910843"
+  },
+  "studio.guests.you-have-no-other-talk-contacts": {
+    "text": "V Hovorech (Talk) nemáte žádné další kontakty k pozvání. Nejprve tam přidejte lidi.",
+    "source": "d13343a31f9d"
+  },
+  "talk.report.you-have-sent-as-many-reports": {
+    "text": "Odeslali jste tolik hlášení, kolik Hovory (Talk) za den přijmou.",
+    "source": "69666680ec59"
+  },
+  "talk-words.you-joined-this-meeting-on-another": {
+    "text": "K této schůzce jste se připojili na jiném počítači.",
+    "source": "c2cb6546c29d"
+  },
+  "talk.lines.you-named-this-group-title": {
+    "text": "Pojmenovali jste tuto skupinu: {title}",
+    "source": "83c1de004ff9"
+  },
+  "talk.lines.you-no-longer-get-what-is": {
+    "text": "Co se tu píše, už nedostáváte. Již přečtené zprávy zůstanou v tomto počítači.",
+    "source": "9fb6883a05aa"
+  },
+  "talk.meeting.you-set-this-meeting-up-if": {
+    "text": "Tuto schůzku jste připravili vy. Když odejdete, pro ostatní pokračuje a odkaz dál funguje. Když ji ukončíte, všichni budou odebráni a odkaz přestane fungovat.",
+    "source": "7b59019f65c0"
+  },
+  "talk.meet-lines.you-started-a-meeting-title": {
+    "text": "Zahájili jste schůzku: {title}",
+    "source": "5f81e73c33ca"
+  },
+  "talk.lines.you-started-this-group-once-you": {
+    "text": "Tuto skupinu jste založili. Až ji opustíte, nikdo z ní nebude moci nikoho odebrat.",
+    "source": "8411924dedab"
+  },
+  "talk.lines.you-took-the-name-off-this": {
+    "text": "Odebrali jste název této skupiny",
+    "source": "f06b2fc22dbf"
+  },
+  "talk.lines.you-took-who-out-of-this": {
+    "text": "Odebrali jste z této skupiny: {who}",
+    "source": "a112ba00bdc9"
+  },
+  "talk.lines.you-were-in-another-call": {
+    "text": "Byli jste v jiném hovoru",
+    "source": "a2976c4b12f4"
+  },
+  "talk-words.you-were-taken-out-of-the": {
+    "text": "Byli jste odebráni ze schůzky.",
+    "source": "f083ad52d66f"
+  },
+  "talk-words.you-were-taken-out-of-this": {
+    "text": "Byli jste z této schůzky odebráni a nemůžete se k ní znovu připojit.",
+    "source": "1b337da7a50e"
+  },
+  "talk-words.you-will-record-this-meeting-on": {
+    "text": "Tuto schůzku budete nahrávat na svém počítači a nahrávku můžete sdílet.",
+    "source": "358da48259cf"
+  },
+  "talk-words.you-will-stream-this-meeting-live": {
+    "text": "Tuto schůzku budete živě vysílat na internetu. Kdokoli ji sleduje, uvidí a uslyší všechny, kdo se připojí.",
+    "source": "9db07d5e52d2"
   },
   "common.youre-good-to-go": {
     "text": "Vše je připraveno.",
@@ -33674,6 +35613,14 @@
   "locker.your-locker-folder-is-ready-put": {
     "text": "Vaše složka Trezoru (Locker) je připravena. Vložte do ní soubory a pak je zde zamkněte.",
     "source": "631f0118426c"
+  },
+  "talk.meet-lines.your-talk-server": {
+    "text": "Váš server Hovory (Talk Server)",
+    "source": "88893d7ef8a9"
+  },
+  "talk.server-share.your-talk-servers": {
+    "text": "Vaše servery Hovory (Talk Servers)",
+    "source": "c93442a99df0"
   },
   "base.trust.your-answer-is-kept-for-this": {
     "text": "Vaše odpověď se uloží pro tento soubor na tomto počítači. Dokud je nepovolíte, jeho tabulky si ponechají své kopie a nečtou se.",
@@ -33711,6 +35658,10 @@
     "text": "Váš cloud vidí náhodné názvy. Názvy složek zůstávají viditelné.",
     "source": "02099b933215"
   },
+  "talk.settings.your-contacts-can-call-you-and": {
+    "text": "Vaše kontakty vám mohou volat a psát, kdykoli je Rutba Office otevřená, aniž byste nejprve otevírali Hovory (Talk). Když je vypnuto, Hovory se připojí až po otevření.",
+    "source": "a43c2ca95c26"
+  },
   "registry.your-days-on-this-computer": {
     "text": "Vaše dny, na tomto počítači",
     "source": "a19d67626067"
@@ -33735,6 +35686,14 @@
     "text": "Vaše pošta: hotovo {done} z {total} souborů",
     "source": "07866fe919f9"
   },
+  "talk.meeting.your-microphone-will-be-off-you": {
+    "text": "Váš mikrofon bude vypnutý. Zapnout ho můžete na schůzce.",
+    "source": "1601596b9635"
+  },
+  "talk.meeting.your-microphone-will-be-on-you": {
+    "text": "Váš mikrofon bude zapnutý. Vypnout ho můžete zde.",
+    "source": "b2f402cc5181"
+  },
   "common.your-name": {
     "text": "Vaše jméno",
     "source": "2c6b2e253c01"
@@ -33758,6 +35717,10 @@
   "word.ribbon.your-own-formula": {
     "text": "Vlastní vzorec…",
     "source": "a27bfd102347"
+  },
+  "talk.meet-lines.your-pass-for-this-meeting-ran": {
+    "text": "Vaše propustka na tuto schůzku vypršela dřív, než mohla být použita. Zkuste to znovu.",
+    "source": "e2a62b05fdc4"
   },
   "base.people.your-password-is-changed": {
     "text": "Vaše heslo bylo změněno.",
@@ -35063,6 +37026,10 @@
     "text": "název programu, který ho vytvořil",
     "source": "83f88e38dc1d"
   },
+  "talk.meet-lines.the-person-who-set-it-up-2": {
+    "text": "osoba, která ji připravila",
+    "source": "d0a49b27ebdc"
+  },
   "video.the-picked-clips-make-no-sound": {
     "text": "vybrané klipy nevydávají zvuk",
     "source": "69832857dde0"
@@ -35347,9 +37314,17 @@
     "text": "x na druhou",
     "source": "d81b4b9e12c8"
   },
+  "talk.lines.you": {
+    "text": "vy",
+    "source": "bb0347a468d9"
+  },
   "calendar.you-answered-answer": {
     "text": "vaše odpověď: {answer}",
     "source": "48b4629d99ee"
+  },
+  "talk.server-share.your-talk-server": {
+    "text": "váš server Hovory (Talk Server)",
+    "source": "cb7cfa2b50c6"
   },
   "talk.invite.your-account": {
     "text": "váš účet",
@@ -35496,6 +37471,15 @@
       "other": "{chosen} z {count} složek"
     },
     "source": "a6fbd6985908"
+  },
+  "print.chosen-of-count-page": {
+    "forms": {
+      "one": "{chosen} z {count} stránky",
+      "few": "{chosen} z {count} stránek",
+      "many": "{chosen} z {count} stránky",
+      "other": "{chosen} z {count} stránek"
+    },
+    "source": "fc9904833a67"
   },
   "colour.palette.colour-darker-percent": {
     "text": "{colour}, tmavší {percent} %",
@@ -36404,6 +38388,24 @@
     },
     "source": "6b221f019f66"
   },
+  "common.count-missed-call": {
+    "forms": {
+      "one": "{count} zmeškaný hovor",
+      "few": "{count} zmeškané hovory",
+      "many": "{count} zmeškaného hovoru",
+      "other": "{count} zmeškaných hovorů"
+    },
+    "source": "846840404875"
+  },
+  "shell.tray.count-more": {
+    "forms": {
+      "one": "{count} další",
+      "few": "{count} další",
+      "many": "{count} další",
+      "other": "{count} dalších"
+    },
+    "source": "fd4bfb8a8854"
+  },
   "ai-tools.count-more-waiting": {
     "forms": {
       "few": "{count} další čekají",
@@ -36422,6 +38424,15 @@
     },
     "source": "7dd71598fcd3"
   },
+  "shell.count-new-email": {
+    "forms": {
+      "one": "{count} nový e-mail",
+      "few": "{count} nové e-maily",
+      "many": "{count} nového e-mailu",
+      "other": "{count} nových e-mailů"
+    },
+    "source": "4d69c41e354b"
+  },
   "mail.count-new-message": {
     "forms": {
       "few": "{count} nové zprávy",
@@ -36430,6 +38441,14 @@
       "other": "{count} nových zpráv"
     },
     "source": "78583c23fc40"
+  },
+  "talk.count-not-looked-at": {
+    "text": "Neprohlédnuté: {count}",
+    "source": "ad2b3f56facd"
+  },
+  "talk.count-not-read": {
+    "text": "Nepřečtené: {count}",
+    "source": "bb3f670ded99"
   },
   "sheets.count-note": {
     "forms": {
@@ -36566,6 +38585,24 @@
     },
     "source": "de1ee1209774"
   },
+  "talk.count-person": {
+    "forms": {
+      "one": "{count} osoba",
+      "few": "{count} osoby",
+      "many": "{count} osoby",
+      "other": "{count} osob"
+    },
+    "source": "16eff6b45805"
+  },
+  "talk.server-share.count-person-chosen-they-are-not": {
+    "forms": {
+      "one": "Vybrána {count} osoba. Nedozví se to: když připraví schůzku, aplikace Hovory (Talk) nabídne ji konat na serveru Hovory (Talk Server) a neuvede, čí je server.",
+      "few": "Vybrány {count} osoby. Nedozvědí se to: když některá z nich připraví schůzku, aplikace Hovory (Talk) nabídne ji konat na serveru Hovory (Talk Server) a neuvede, čí je server.",
+      "many": "Vybráno {count} osoby. Nedozvědí se to: když některá z nich připraví schůzku, aplikace Hovory (Talk) nabídne ji konat na serveru Hovory (Talk Server) a neuvede, čí je server.",
+      "other": "Vybráno {count} osob. Nedozvědí se to: když některá z nich připraví schůzku, aplikace Hovory (Talk) nabídne ji konat na serveru Hovory (Talk Server) a neuvede, čí je server."
+    },
+    "source": "302f6a4e3539"
+  },
   "video.inspector.count-picked": {
     "text": "Vybráno: {count}",
     "source": "ab3b8d8f39e9"
@@ -36650,6 +38687,15 @@
       "other": "{count} míst"
     },
     "source": "8916febc49bc"
+  },
+  "video.inspector.count-point": {
+    "forms": {
+      "one": "{count} bod",
+      "few": "{count} body",
+      "many": "{count} bodu",
+      "other": "{count} bodů"
+    },
+    "source": "d29b4d920822"
   },
   "word.mailings.count-possible-duplicate-shaded": {
     "forms": {
@@ -37083,6 +39129,15 @@
     },
     "source": "ff19802b3e07"
   },
+  "shell.tray.count-unread-message": {
+    "forms": {
+      "one": "{count} nepřečtená zpráva",
+      "few": "{count} nepřečtené zprávy",
+      "many": "{count} nepřečtené zprávy",
+      "other": "{count} nepřečtených zpráv"
+    },
+    "source": "ed5e578def3e"
+  },
   "sheets.receipt-row.count-value-is-marked-to-check": {
     "forms": {
       "few": "{count} hodnoty označeny ke kontrole.",
@@ -37091,6 +39146,10 @@
       "other": "{count} hodnot označeno ke kontrole."
     },
     "source": "3c0869b67925"
+  },
+  "home.count-waiting": {
+    "text": "Čeká: {count}",
+    "source": "15c46d8024fd"
   },
   "common.count-word": {
     "forms": {
@@ -37113,6 +39172,10 @@
   "calendar.date-all-day": {
     "text": "{date}, celý den",
     "source": "01173f239092"
+  },
+  "shell.notifier.day-at-time": {
+    "text": "{day} v {time}",
+    "source": "d10a2288d770"
   },
   "slides.description-kept-as-the-file-has": {
     "text": "{description}. Ponecháno tak, jak je v souboru.",
@@ -37365,6 +39428,10 @@
     "text": "{names}: nelze otevřít. Nejde o video, zvuk ani obrázek, který tento systém umí přehrát.",
     "source": "40ec26e4b663"
   },
+  "video.names-is-not-a-sound-or": {
+    "text": "{names}: nejde o zvukový ani video soubor, proto nebyl přidán do seznamu.",
+    "source": "47fb534b82d0"
+  },
   "read-aloud.bar.name-added": {
     "text": "{name} (přidáno)",
     "source": "5e0a009f158f"
@@ -37410,6 +39477,14 @@
     "text": "{name}: přijato.",
     "source": "c3b405763345"
   },
+  "talk.lines.name-added-you-to-this-group": {
+    "text": "{name} vás přidává do této skupiny",
+    "source": "a7338dd5fd8e"
+  },
+  "talk.lines.name-added-who": {
+    "text": "{name} přidává do skupiny: {who}",
+    "source": "dbef01d937a1"
+  },
   "calendar.words.name-answered-tentative": {
     "text": "{name}: odpověď nezávazně.",
     "source": "f64c34887e80"
@@ -37418,9 +39493,25 @@
     "text": "{name}: použito na každém snímku",
     "source": "34559343d0df"
   },
+  "shell.notifier.name-asks-you-to-join": {
+    "text": "{name} vás zve k připojení",
+    "source": "452e368edfb8"
+  },
   "talk.invite-email.name-becomes-each-persons-name-the": {
     "text": "{name} se nahradí jménem každé osoby. Odkaz k přijetí a způsob, jak získat Rutba Office, se přidají pod vaši poznámku.",
     "source": "6724ae357006"
+  },
+  "video.name-cannot-be-played-on-this": {
+    "text": "{name}: v tomto počítači nelze přehrát.",
+    "source": "56c80f47dfd7"
+  },
+  "talk.meet-lines.name-cannot-be-reached-from-outside": {
+    "text": "{name} nepřijímá spojení z míst mimo vaši síť.",
+    "source": "e5702bfa3304"
+  },
+  "talk.meet-lines.name-cannot-hold-meetings-now": {
+    "text": "{name} teď nemůže hostit schůzky.",
+    "source": "ec1d5763561d"
   },
   "studio.media.name-closed-or-stopped-sharing": {
     "text": "{name}: zavřeno nebo sdílení ukončeno.",
@@ -37438,6 +39529,10 @@
     "text": "{name} se nepodařilo vykreslit: {reason}",
     "source": "65bcb558f48b"
   },
+  "video.name-could-not-be-fetched-from": {
+    "text": "{name}: z webu se nepodařilo načíst.",
+    "source": "d321465694e7"
+  },
   "locker.name-could-not-be-opened-again": {
     "text": "Soubor {name} se nepodařilo znovu otevřít: {why}",
     "source": "20ca380f0559"
@@ -37454,6 +39549,10 @@
     "text": "Nepodařilo se nahrát zdroj {name}: {reason}",
     "source": "2beda7333ef6"
   },
+  "talk.settings.name-could-not-be-unblocked-just": {
+    "text": "Odblokování se teď nezdařilo: {name}. Zkuste to za chvíli znovu.",
+    "source": "7f0f6d2fd1a8"
+  },
   "calendar.words.name-declined": {
     "text": "{name}: odmítnuto.",
     "source": "2f56155e044a"
@@ -37466,6 +39565,10 @@
     "text": "Upraveno: {name}",
     "source": "5cb4218dfd00"
   },
+  "talk-words.name-ended-the-meeting": {
+    "text": "{name}: schůzka byla ukončena.",
+    "source": "68a9df35664b"
+  },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "{name} má více než jeden list. První řádek zvoleného listu určuje názvy polí.",
     "source": "f39d7988d23f"
@@ -37477,6 +39580,10 @@
   "video.name-holds-no-captions-this-editor": {
     "text": "{name}: neobsahuje titulky, které tento editor umí přečíst.",
     "source": "992774d03cf2"
+  },
+  "shell.notifier.name-in-group": {
+    "text": "{name} ve skupině {group}",
+    "source": "c8c9e24ee27b"
   },
   "talk.invite.name-invites-you-to-talk": {
     "text": "{name} vás zve k rozhovoru",
@@ -37502,6 +39609,18 @@
     "text": "Kontakt {name} je blokován.",
     "source": "896ccbbaeef1"
   },
+  "studio.window.name-is-closed-and-stays-saved": {
+    "text": "{name}: zavřeno a zůstává uloženo beze změn. Toto je nová relace.",
+    "source": "1ac7485ab543"
+  },
+  "studio.guests.name-is-here-waiting-off-air": {
+    "text": "{name}: je zde a čeká mimo vysílání.",
+    "source": "14a190ca86f6"
+  },
+  "talk.meet-lines.name-is-holding-as-many-meetings": {
+    "text": "{name} hostí tolik schůzek, kolik má nastaveno.",
+    "source": "39d0e214aab5"
+  },
   "locker.name-is-in-an-older-format": {
     "text": "Soubor {name} je ve starším formátu. Uložením vznikne vedle něj {saved} ve stejné zamčené složce.",
     "source": "25f899dbe396"
@@ -37513,6 +39632,10 @@
   "talk.name-is-no-longer-a-contact": {
     "text": "{name} už není mezi kontakty.",
     "source": "f2f97457bba2"
+  },
+  "talk.settings.name-is-no-longer-blocked": {
+    "text": "{name}: blokování zrušeno.",
+    "source": "514ce8e795d4"
   },
   "locker.name-is-no-longer-in-the": {
     "text": "Složka {name} už není v Trezoru (Locker). Její bezpečnostní kopie je tu stále uchována.",
@@ -37530,6 +39653,10 @@
     "text": "{name}: není to video ani zvuk, který tento počítač umí přehrát. Možná chybí dekodér jeho formátu, nebo navzdory názvu nejde o médium.",
     "source": "abfeca7a30a3"
   },
+  "talk.meet-lines.name-is-not-answering-check-that": {
+    "text": "{name} neodpovídá. Zkontrolujte, zda běží a má připojení k síti.",
+    "source": "840ae75c483e"
+  },
   "talk.name-is-not-available": {
     "text": "{name}: není k dispozici.",
     "source": "aca30d15fc29"
@@ -37537,6 +39664,10 @@
   "voices-dialog.name-is-not-used-until-its": {
     "text": "Položka {name} se nepoužívá, dokud nebude připravena její verze pro {version}.",
     "source": "2f267730bc10"
+  },
+  "video.name-is-not-where-it-was": {
+    "text": "{name}: soubor není na původním místě. Mohl být přesunut, přejmenován nebo odstraněn.",
+    "source": "e5a94663e48f"
   },
   "common.name-is-not-wired-yet": {
     "text": "{name}: zatím nezapojeno.",
@@ -37554,9 +39685,17 @@
     "text": "{name}: otevřeno na místě, jen pro čtení. Indexuje se pro hledání.",
     "source": "749ec97c4e3a"
   },
+  "talk.meet-lines.name-is-outside-the-hours-it": {
+    "text": "{name} je mimo hodiny, kdy má nastaveno hostit schůzky.",
+    "source": "0fd5a4d65419"
+  },
   "locker.name-is-over-1-gb-so": {
     "text": "Soubor {name} je větší než 1 GB, proto se otevřel z dočasné nezamčené kopie, ne v paměti. Tato kopie není zamčená.",
     "source": "950f4db86aed"
+  },
+  "talk.meet-lines.name-is-paused": {
+    "text": "{name} má pozastavený provoz.",
+    "source": "0ed81c3ac232"
   },
   "common.name-is-protected-with-a-password": {
     "text": "Soubor {name} je chráněn heslem a zůstane zavřený, dokud nezadáte heslo.",
@@ -37570,6 +39709,18 @@
     "text": "Připraveno k odeslání: {name}",
     "source": "040cafb3a666"
   },
+  "talk.meet-lines.name-is-set-to-hold-no": {
+    "text": "{name} má nastaveno, že nehostí žádné schůzky.",
+    "source": "d762cd422689"
+  },
+  "shell.tray.name-is-still-running": {
+    "text": "{name} stále běží",
+    "source": "5e161705a5d2"
+  },
+  "talk.meet-lines.name-is-still-starting-try-again": {
+    "text": "{name} se ještě spouští. Zkuste to za minutu znovu.",
+    "source": "281688f4544b"
+  },
   "base.name-is-unlinked-its-source-keeps": {
     "text": "{name}: propojení zrušeno. Záznamy zůstávají ve zdroji.",
     "source": "7891d7996821"
@@ -37577,6 +39728,10 @@
   "base.name-is-unlinked-the-engine-keeps": {
     "text": "{name}: propojení zrušeno. Záznamy zůstávají ve stroji.",
     "source": "47284555955f"
+  },
+  "talk.meet-lines.name-is-waiting-for-its-code": {
+    "text": "{name} čeká, až bude zadán jeho kód.",
+    "source": "a7a59d385fce"
   },
   "video.name-is-size-still-over-limit": {
     "text": "{name} má {size} a i po pokusech ({tries}) přesahuje {limit}: tento obraz se při tomto snímku nezmenší. Zkuste 720, větší velikost nebo kratší úsek.",
@@ -37590,6 +39745,22 @@
       "other": "Rozložení {name}: používá ho {count} snímků"
     },
     "source": "9d5680cc5d71"
+  },
+  "talk.meet-lines.name-lets-people-in-you-can": {
+    "text": "Lidi na schůzku pouští {name}: vstoupit můžete, až bude na schůzce.",
+    "source": "a94d45e86dc5"
+  },
+  "talk.meet-lines.name-must-be-updated-before-it": {
+    "text": "{name} potřebuje aktualizaci, než bude moci hostit schůzky.",
+    "source": "f01651a198be"
+  },
+  "talk.name-muted-you-unmute-when-you": {
+    "text": "{name}: váš mikrofon byl ztlumen. Chcete-li mluvit, zapněte ho.",
+    "source": "c4b4506575d2"
+  },
+  "talk.lines.name-named-this-group-title": {
+    "text": "{name} mění název této skupiny na {title}",
+    "source": "c13c73b3ad29"
   },
   "template-gallery.name-needs-rutba-office-version-or": {
     "text": "{name} vyžaduje Rutba Office {version} nebo novější. Vyhledejte aktualizace.",
@@ -37611,9 +39782,29 @@
     "text": "{name}, pozpátku",
     "source": "fca7482294f8"
   },
+  "talk.meeting.name-started-a-meeting": {
+    "text": "{name} zahajuje schůzku",
+    "source": "e4652127858d"
+  },
+  "talk.meet-lines.name-started-a-meeting-title": {
+    "text": "{name} zahajuje schůzku: {title}",
+    "source": "0632986e996b"
+  },
   "template-help.name-template": {
     "text": "Šablona {name}",
     "source": "662208ece200"
+  },
+  "talk.lines.name-took-the-name-off-this": {
+    "text": "{name} odebírá název této skupiny",
+    "source": "5c85c87032ca"
+  },
+  "talk-words.name-took-you-out-of-the": {
+    "text": "{name}: byli jste odebráni ze schůzky.",
+    "source": "af00baa37753"
+  },
+  "talk.lines.name-took-who-out-of-this": {
+    "text": "{name} odebírá z této skupiny: {who}",
+    "source": "8684ebda882d"
   },
   "pdf.name-was-damaged-and-was-read": {
     "text": "{name}: soubor byl poškozený a načetl se podle stránek. Uložením získáte celou kopii.",
@@ -37627,9 +39818,17 @@
     "text": "{name} se otevře bez dotazu a to, co heslo zapečetilo, zůstane jako dřív, chráněné systémem Windows jen pro váš účet.",
     "source": "bccde320f01d"
   },
+  "talk-words.name-will-record-this-meeting-on": {
+    "text": "{name} bude tuto schůzku nahrávat na svém počítači a může nahrávku sdílet.",
+    "source": "8e5422928873"
+  },
   "voices-dialog.name-will-show-new-labels-in": {
     "text": "Jazyk {name} bude nové popisky zobrazovat anglicky, dokud nebude připravena jeho verze pro {version}.",
     "source": "070ebd66c642"
+  },
+  "talk-words.name-will-stream-this-meeting-live": {
+    "text": "{name} bude tuto schůzku živě vysílat na internetu. Kdokoli ji sleduje, uvidí a uslyší všechny, kdo se připojí.",
+    "source": "75c94901cdd6"
   },
   "talk.invite.name-would-like-to-talk-with": {
     "text": "{name} s vámi chce mluvit v Rutba Talk",
@@ -37744,6 +39943,10 @@
     "text": "{name}: {width} × {height}, hlavní",
     "source": "4e47b0c065e3"
   },
+  "talk.meet-lines.name-s-talk-could-not-let": {
+    "text": "Aplikace Hovory (Talk) uživatele {name} vás nemohla pustit na schůzku. Zkuste se připojit znovu.",
+    "source": "f2b2cb44f631"
+  },
   "studio.live-bar.name-needs-a-key": {
     "text": "{name}: chybí klíč",
     "source": "5075d08a25f3"
@@ -37764,9 +39967,17 @@
     "text": "{name}: arch štítků {product}.",
     "source": "e976719b4bd9"
   },
+  "video.library.name-added-after-the-last-clip": {
+    "text": "{name}: přidáno za poslední klip",
+    "source": "3289fea3c3ec"
+  },
   "video.library.name-added-at-the-playhead": {
     "text": "{name}: přidáno u přehrávací hlavy",
     "source": "4939aa239509"
+  },
+  "video.library.name-added-over-the-whole-project": {
+    "text": "{name}: přidáno přes celý projekt",
+    "source": "f97eee7c25f5"
   },
   "colour.palette.name-apply-colour": {
     "text": "{name}: barva {colour}",
@@ -38164,6 +40375,14 @@
     "text": "{when}, celý den",
     "source": "ebe38401b71e"
   },
+  "talk.lines.who-cannot-be-put-in-any": {
+    "text": "{who}: nelze přidat do dalších skupin.",
+    "source": "0f22eeabe17d"
+  },
+  "talk.lines.who-left-this-group": {
+    "text": "{who} už není v této skupině",
+    "source": "2a6e91ede760"
+  },
   "common.width-pt": {
     "text": "{width} pt",
     "source": "fd99ee034b5b"
@@ -38231,17 +40450,5 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ a více",
     "source": "20160df989ba"
-  },
-  "spoken.voices.words-to-say": {
-    "text": "Slova k vyslovení",
-    "source": "3353415dcf6a"
-  },
-  "studio.spoken-run.type-words-to-show-read-aloud": {
-    "text": "Průběžně pište slova k zobrazení, přečtení nahlas nebo obojímu",
-    "source": "ab4c38c0c662"
-  },
-  "video.spoken.the-words-land-at-the-playhead": {
-    "text": "Slova se objeví u přehrávací hlavy, jeden řádek za druhým, přes obraz.",
-    "source": "841b57677821"
   }
 }

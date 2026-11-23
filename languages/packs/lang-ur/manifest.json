@@ -2,7 +2,7 @@
   "id": "lang-ur",
   "kind": "language",
   "format": 2,
-  "version": "2.26.1",
+  "version": "2.27.0",
   "revision": 1,
   "tag": "ur",
   "tags": [
@@ -24,7 +24,7 @@
     "one",
     "other"
   ],
-  "labels": 9230,
+  "labels": 9768,
   "status": "draft",
   "review": "machine translation, offered as a draft until its wording is settled",
   "madeFrom": "office 2.26.0",

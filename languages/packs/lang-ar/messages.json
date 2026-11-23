@@ -295,6 +295,10 @@
     "text": "(خُفِّض ليواكب سرعة الرفع)",
     "source": "38eedae0fe49"
   },
+  "print.needs-attention": {
+    "text": "(يحتاج إلى انتباه)",
+    "source": "3473d9cd67a1"
+  },
   "base.new": {
     "text": "(جديد)",
     "source": "5bfaff83e280"
@@ -335,6 +339,10 @@
     "text": "(لا شيء)",
     "source": "00b025711499"
   },
+  "print.offline": {
+    "text": "(غير متصلة)",
+    "source": "89aa6bd39b61"
+  },
   "sheets.dialogs.on-screen": {
     "text": "(على الشاشة)",
     "source": "b73a6fd9ad97"
@@ -342,6 +350,14 @@
   "word.dialogs.opened-from-format": {
     "text": "(مفتوح من {format})",
     "source": "e4d5e69fc419"
+  },
+  "print.out-of-paper": {
+    "text": "(نفد الورق)",
+    "source": "7290757d105f"
+  },
+  "print.paused": {
+    "text": "(متوقفة مؤقتًا)",
+    "source": "41993c823e86"
   },
   "word.list-dialog.the-first-level-has-none-above": {
     "text": "(لا يوجد مستوى فوق المستوى الأول)",
@@ -551,6 +567,10 @@
     "text": "خادم TURN تديره؛ يُعرض على الطرف الآخر في مكالماتك",
     "source": "b95d902b9e8f"
   },
+  "calendar.a-talk-meeting-holds-four-people": {
+    "text": "يتسع اجتماع توك (Talk) لأربعة أشخاص في المجموع: أنت وثلاثة آخرون. يدعو هذا الحدث {count}.",
+    "source": "12c821978260"
+  },
   "engine.a-background-is-a-png-jpeg": {
     "text": "يجب أن تكون الخلفية صورة PNG أو JPEG أو GIF أو BMP أو WebP.",
     "source": "453bb347e835"
@@ -570,6 +590,14 @@
   "talk.a-call-goes-straight-between-the": {
     "text": "تمر المكالمة مباشرة بين الحاسوبين. وحين تمنع الشبكة ذلك تمر عبر مرحِّل، وتبقى مشفرة من الطرف إلى الطرف.",
     "source": "2a501129710a"
+  },
+  "notify-dialog.a-call-in-talk-that-nobody": {
+    "text": "مكالمة في توك (Talk) لم يرد عليها أحد",
+    "source": "364758cc8022"
+  },
+  "notify-dialog.a-call-in-talk-while-it": {
+    "text": "مكالمة في توك (Talk)، أثناء رنينها",
+    "source": "3b2de9295eb7"
   },
   "calendar.a-cancellation-goes-to-the-count": {
     "forms": {
@@ -649,6 +677,10 @@
   "locker.a-copy-of-these-files-as-4": {
     "text": "نسخة من هذه الملفات كما هي الآن، تُحفظ في مجلد Office الخاص على هذا الكمبيوتر، حتى لا يضيع شيء وأنت تتعرّف على الخزانة. هي غير مقفلة بكلمة مرور الخزانة: يستطيع استعادتها كل من يسجّل الدخول إلى حساب المستخدم هذا.",
     "source": "2f36db57f352"
+  },
+  "studio.guests.a-copy-of-this-broadcast-is": {
+    "text": "يتم الاحتفاظ بنسخة من هذا البث، ولم يُعدّ ذلك الاجتماع للتسجيل. لا يمكن لأشخاصه الدخول حتى ينتهي البث.",
+    "source": "b2a28db50607"
   },
   "template-gallery.a-course-session-objectives-the-agenda": {
     "text": "جلسة تدريبية: الأهداف وجدول الأعمال والدروس واختبار سريع وملخص",
@@ -790,6 +822,22 @@
     "text": "ليس للمجموعة تعبئة أو مخطط تفصيلي خاص بها. نسّق شكلًا داخلها.",
     "source": "770472b604e9"
   },
+  "talk.lines.a-group-holds-count-people-at": {
+    "text": "تتسع المجموعة لعدد {count} من الأشخاص كحد أقصى.",
+    "source": "f51448521ea4"
+  },
+  "talk.a-group-is-three-or-more": {
+    "text": "المجموعة هي ثلاثة أشخاص أو أكثر يتبادلون الرسائل فيما بينهم.",
+    "source": "fec77f9d530a"
+  },
+  "talk.lines.a-group-is-three-people-or": {
+    "text": "المجموعة ثلاثة أشخاص أو أكثر: اختر جهتي اتصال على الأقل.",
+    "source": "6ff327466527"
+  },
+  "talk.a-group-needs-two-of-your": {
+    "text": "تحتاج المجموعة إلى اثنتين من جهات اتصالك على الأقل.",
+    "source": "12e0ccc49b1e"
+  },
   "base.sources.a-key-or-token": {
     "text": "مفتاح أو رمز مميز",
     "source": "9949c8a23e2d"
@@ -862,6 +910,10 @@
     "text": "ملف مقفل لك",
     "source": "6f0daeb85074"
   },
+  "video.a-look-changes-the-colour-of": {
+    "text": "يغير المظهر اللوني لون كل مسار أسفله، طوال مدة تشغيل مقطعه.",
+    "source": "4cffcd7c35b5"
+  },
   "sheets.a-lookup-found-nothing": {
     "text": "لم يجد البحث شيئاً",
     "source": "9092775b9801"
@@ -869,6 +921,22 @@
   "mail.archive.a-manifest-csv-and-json-with": {
     "text": "يُكتب دائمًا بيان (CSV وJSON) بتاريخ كل رسالة ومرسلها ومستلميها وموضوعها ومعرّفها Message-ID ومصدرها وبصمة SHA-256 لما كُتب، وصفحة ملخص. لا يتغير شيء في صناديق البريد أو الأرشيفات.",
     "source": "74f7e133138a"
+  },
+  "notify-dialog.a-meeting-a-few-minutes-before": {
+    "text": "اجتماع قبل بدئه ببضع دقائق، أو عندما يطلب منك أحدهم الانضمام",
+    "source": "eed70ee862c6"
+  },
+  "talk-words.a-meeting-held-on-a-talk": {
+    "text": "لا يمكن بث الاجتماع المنعقد على خادم توك (Talk Server) مباشرة أو تسجيله بعد.",
+    "source": "e451fe884ea2"
+  },
+  "talk.meeting.a-meeting-holds-four-people-you": {
+    "text": "يتسع الاجتماع لأربعة أشخاص: أنت وحتى ثلاث من جهات اتصالك.",
+    "source": "f8fa41a7b72f"
+  },
+  "talk.meeting.a-meeting-of-more-than-four": {
+    "text": "يُعقد الاجتماع الذي يضم أكثر من أربعة أشخاص على خادم توك (Talk Server).",
+    "source": "b1afa34fd141"
   },
   "contacts.a-meeting-room-or-a-resource": {
     "text": "قاعة اجتماعات أو مورد، يُحجز بدعوة صندوق بريده",
@@ -885,6 +953,10 @@
   "word.ribbon.a-merged-cell-back-into-its": {
     "text": "إعادة خلية مدمجة إلى خلاياها",
     "source": "3d22efeac8f7"
+  },
+  "notify-dialog.a-message-in-talk": {
+    "text": "رسالة في توك (Talk)",
+    "source": "7a338c422250"
   },
   "engine.a-message-needs-someone-to-go": {
     "text": "تحتاج الرسالة إلى مستلم واحد على الأقل.",
@@ -1073,6 +1145,10 @@
     "text": "حُفظت نسخة عادية. هذه النسخة غير مقفلة.",
     "source": "ffdd0baabe66"
   },
+  "video.timeline.a-point-of-its-movement-at": {
+    "text": "نقطة من حركته عند {time}: اسحبها لنقلها",
+    "source": "055741b05a22"
+  },
   "profiles.a-profile-can-ask-for-a": {
     "text": "يمكن أن يطلب الملف الشخصي كلمة مرور قبل أن يُفتح. عندها تُقفل بها كلمات المرور المحفوظة فيه والملفات الأخيرة والبريد والتقويمات وجهات الاتصال ورسائل توك (Talk).",
     "source": "10ea9d3dbdec"
@@ -1148,6 +1224,10 @@
   "template-gallery.a-report-with-a-cover-page": {
     "text": "تقرير بصفحة غلاف وجدول محتويات وأقسام مرقمة",
     "source": "54c978a78192"
+  },
+  "talk.settings.a-ring-when-someone-calls-you": {
+    "text": "رنين عندما يتصل بك أحد، ونغمة قصيرة عندما تُدعى إلى اجتماع.",
+    "source": "18eb8c5e7649"
   },
   "contacts.a-room-or-a-resource-is": {
     "text": "الغرفة أو المورد يُحجز، ولا يُدعى إلى Talk",
@@ -1715,6 +1795,10 @@
     "text": "الحجم الفعلي",
     "source": "74cdbe70e394"
   },
+  "image.actual-size-over-as-many-sheets": {
+    "text": "الحجم الفعلي، على أكبر عدد لازم من الأوراق",
+    "source": "0cbb4308999d"
+  },
   "common.add": {
     "text": "إضافة",
     "source": "9fd728c66c9a"
@@ -1831,6 +1915,10 @@
     "text": "إضافة WordArt",
     "source": "bd58d566c351"
   },
+  "calendar.add-a-talk-meeting": {
+    "text": "إضافة اجتماع Talk",
+    "source": "e98dec0aa8f4"
+  },
   "base.documents.add-a-block": {
     "text": "إضافة جزء",
     "source": "cf416ab8da83"
@@ -1846,6 +1934,10 @@
   "base.documents.add-a-calculated-column": {
     "text": "إضافة عمود محسوب",
     "source": "40adf59ac8cc"
+  },
+  "studio.net-camera-dialog.add-a-camera-by-its-address": {
+    "text": "إضافة كاميرا بواسطة عنوانها",
+    "source": "0dbc972ae5d6"
   },
   "contacts.add-a-card-or-bring-in": {
     "text": "أضف بطاقة، أو استورد ملف .vcf أو .csv الذي صدّره برنامج آخر.",
@@ -1935,6 +2027,10 @@
     "text": "إضافة صوت لقراءة هذه السطور بصوت عالٍ",
     "source": "b2afe4eb368b"
   },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "أضف صوتًا لقراءة الكلمات بصوت عالٍ؛ ويمكن إظهارها من دونه.",
+    "source": "04ed3fbd74fe"
+  },
   "read-aloud.voice-offer.add-a-voice-more-natural-voices": {
     "text": "إضافة صوت: أصوات أكثر طبيعية لميزة «قراءة بصوت عالٍ»، من «الأصوات واللغات»",
     "source": "bfbf7111b5c5"
@@ -1991,6 +2087,10 @@
     "text": "إضافة عند مؤشر التشغيل",
     "source": "1e18a7648f8f"
   },
+  "studio.net-camera-find.add-by-address": {
+    "text": "إضافة بالعنوان…",
+    "source": "96cd8612bd97"
+  },
   "contacts.add-email": {
     "text": "إضافة بريد إلكتروني",
     "source": "bfe6b5725f30"
@@ -1998,6 +2098,10 @@
   "locker.add-files": {
     "text": "إضافة ملفات",
     "source": "01792a33c228"
+  },
+  "video.library.add-files-from-this-computer": {
+    "text": "إضافة ملفات من هذا الحاسوب…",
+    "source": "e483053aec0b"
   },
   "locker.add-files-2": {
     "text": "إضافة ملفات…",
@@ -2051,6 +2155,10 @@
     "text": "إضافة المسار إلى اسم الملف",
     "source": "70149fb49250"
   },
+  "talk.groups.add-people": {
+    "text": "إضافة أشخاص",
+    "source": "6e5e1e137765"
+  },
   "contacts.add-phone": {
     "text": "إضافة هاتف",
     "source": "cf095e4a7be3"
@@ -2062,6 +2170,10 @@
   "mail.accounts-bulk.add-several-accounts": {
     "text": "إضافة عدة حسابات",
     "source": "e57b1f77b96e"
+  },
+  "video.add-sound": {
+    "text": "إضافة صوت",
+    "source": "d14064f80f52"
   },
   "word.ribbon.add-space-after-paragraph": {
     "text": "إضافة مسافة بعد الفقرة",
@@ -2082,6 +2194,10 @@
   "ai-tools-dialog.add-these-lines-to-the-ai": {
     "text": "أضف هذه الأسطر إلى قائمة خوادم MCP في إعدادات تطبيق الذكاء الاصطناعي. يشغّل التطبيق الأدوات بنفسه عند الحاجة.",
     "source": "9d3f923b92a8"
+  },
+  "video.library.add-this-address-to-the-list": {
+    "text": "إضافة هذا العنوان إلى القائمة",
+    "source": "3cac92a6b605"
   },
   "contacts.add-this-card": {
     "text": "إضافة هذه البطاقة",
@@ -2115,6 +2231,10 @@
     "text": "إضافة إلى التقويم",
     "source": "d0efffa65ea7"
   },
+  "talk.groups.add-to-group": {
+    "text": "إضافة إلى المجموعة",
+    "source": "ea849eb70c26"
+  },
   "calendar.add-to-my-calendar": {
     "text": "إضافة إلى تقويمي",
     "source": "9d60f9126db7"
@@ -2122,6 +2242,10 @@
   "studio.setups-menu.add-to-my-setups": {
     "text": "إضافة إلى إعداداتي",
     "source": "457927ed8bde"
+  },
+  "video.add-to-the-audio-library": {
+    "text": "إضافة إلى مكتبة الصوت",
+    "source": "b7f10458b001"
   },
   "locker.add-to-this-folder": {
     "text": "إضافة إلى هذا المجلد",
@@ -2161,6 +2285,10 @@
     },
     "source": "9e93bb1f7d70"
   },
+  "video.add-name": {
+    "text": "إضافة {name}",
+    "source": "2cc06c85e772"
+  },
   "ui.proofing.add-put-the-word-in-the": {
     "text": "إضافة: وضع الكلمة في القاموس",
     "source": "f696718081b5"
@@ -2180,6 +2308,10 @@
   "common.added": {
     "text": "مضافة",
     "source": "6b02e0d363a4"
+  },
+  "studio.net-camera-find.added-before": {
+    "text": "مضافة سابقًا",
+    "source": "30cab5134fea"
   },
   "voices-dialog.added-here": {
     "text": "مُضاف هنا",
@@ -2695,6 +2827,10 @@
     "text": "كافة الشرائح معاً: انقر فوق إحداها لفتحها",
     "source": "616a02ce06be"
   },
+  "studio.guests.all-three-seats-are-taken": {
+    "text": "كل المقاعد الثلاثة مشغولة.",
+    "source": "e4160c80a1bb"
+  },
   "pdf.ocr.all-count-page": {
     "forms": {
       "zero": "لا صفحات",
@@ -2921,6 +3057,10 @@
   "engine.an-equation-is-edited-in-the": {
     "text": "تُحرَّر المعادلة في محرر المعادلات. انقر فوقها نقراً مزدوجاً.",
     "source": "46d7af34ac75"
+  },
+  "notify-dialog.an-event-in-calendar-at-its": {
+    "text": "حدث في التقويم، في وقت تذكيره",
+    "source": "925f040e1376"
   },
   "image.formats.an-icon-at-each-size-from": {
     "text": "أيقونة بكل حجم من 256 حتى 16 بكسل.",
@@ -3310,6 +3450,14 @@
     "text": "الترتيب",
     "source": "5f33ce3fb567"
   },
+  "talk.lines.arrived": {
+    "text": "وصلت",
+    "source": "594015196a5f"
+  },
+  "video.inspector.arrives": {
+    "text": "سرعة الوصول",
+    "source": "72c7f155f153"
+  },
   "common.arrow": {
     "text": "سهم",
     "source": "05800e70aa10"
@@ -3438,6 +3586,14 @@
     "text": "السؤال مرة واحدة: إجابة واحدة لكل السجلات",
     "source": "a999a07704c8"
   },
+  "studio.guests.ask-up-to-three-of-your": {
+    "text": "ادعُ حتى ثلاثة من جهات اتصالك في توك (Talk). يبقى كل منهم خارج التسجيل حتى تضعه في مشهد، ويرى ويسمع ما تسجله.",
+    "source": "e9f52fe78b27"
+  },
+  "studio.guests.ask-up-to-three-of-your-2": {
+    "text": "ادعُ حتى ثلاثة من جهات اتصالك في توك (Talk). ينتظر كل منهم خارج البث حتى تضعه في مشهد، ويرى ويسمع برنامجك.",
+    "source": "8c2357cdc653"
+  },
   "talk.connect.ask-name-in-talk-now-with": {
     "text": "دعوة {name} في توك (Talk) الآن، بلا بريد",
     "source": "c49711615630"
@@ -3482,9 +3638,17 @@
     "text": "طلبات التواصل",
     "source": "434d00f0c707"
   },
+  "talk.meet-lines.asking-to-be-let-in": {
+    "text": "جارٍ طلب السماح بالدخول…",
+    "source": "4a17be1898f7"
+  },
   "mail.dialogs.asking-your-mail-server": {
     "text": "جارٍ سؤال خادم بريدك…",
     "source": "b78479f59b14"
+  },
+  "talk.meet-lines.asking-name-to-let-you-in": {
+    "text": "جارٍ طلب السماح بدخولك من {name}…",
+    "source": "d64535fbf5e2"
   },
   "contacts.asks-name-to-connect-in-talk": {
     "text": "يطلب من {name} التواصل في توك (Talk)، عبر البريد الإلكتروني",
@@ -3522,6 +3686,17 @@
     "text": "عند كل علامة جدولة",
     "source": "4414f037aa97"
   },
+  "image.print.at-its-actual-size-this-picture": {
+    "forms": {
+      "zero": "بحجمها الفعلي لا تحتاج هذه الصورة إلى أي ورقة، والحد الأقصى لمهمة طباعة واحدة هو {most}. اختر «احتواء في الصفحة»، أو ورقًا أكبر.",
+      "one": "بحجمها الفعلي تحتاج هذه الصورة إلى ورقة واحدة، وهذا أكثر من الحد الأقصى لمهمة طباعة واحدة وهو {most}. اختر «احتواء في الصفحة»، أو ورقًا أكبر.",
+      "two": "بحجمها الفعلي تحتاج هذه الصورة إلى ورقتين، وهذا أكثر من الحد الأقصى لمهمة طباعة واحدة وهو {most}. اختر «احتواء في الصفحة»، أو ورقًا أكبر.",
+      "few": "بحجمها الفعلي تحتاج هذه الصورة إلى {count} أوراق، وهذا أكثر من الحد الأقصى لمهمة طباعة واحدة وهو {most}. اختر «احتواء في الصفحة»، أو ورقًا أكبر.",
+      "many": "بحجمها الفعلي تحتاج هذه الصورة إلى {count} ورقة، وهذا أكثر من الحد الأقصى لمهمة طباعة واحدة وهو {most}. اختر «احتواء في الصفحة»، أو ورقًا أكبر.",
+      "other": "بحجمها الفعلي تحتاج هذه الصورة إلى {count} ورقة، وهذا أكثر من الحد الأقصى لمهمة طباعة واحدة وهو {most}. اختر «احتواء في الصفحة»، أو ورقًا أكبر."
+    },
+    "source": "4e1f2125523c"
+  },
   "locker.at-least-eight-characters-attach-it": {
     "text": "ثمانية أحرف على الأقل. أرفقه ببريد إلكتروني هنا، أو احفظه لإرساله بطريقة أخرى. أرسل كلمة المرور منفصلة عن الملف.",
     "source": "68ec51ad042a"
@@ -3533,6 +3708,10 @@
   "talk.invite-email.at-most-max-people-at-once": {
     "text": "{max} أشخاص على الأكثر في المرة الواحدة.",
     "source": "0939da11b251"
+  },
+  "video.inspector.at-most-n-s-on-this": {
+    "text": "{n} ثانية كحد أقصى في هذا المقطع",
+    "source": "47c6548e2318"
   },
   "image.at-most-size": {
     "text": "بحد أقصى {size}",
@@ -3553,6 +3732,10 @@
   "video.export.at-limit-this-would-get-rate": {
     "text": "عند {limit} سيحصل هذا على {rate}، وهو قليل جدًا لصورة واضحة عند {lines}.",
     "source": "5187fb1149f9"
+  },
+  "shell.notifier.at-time": {
+    "text": "في الساعة {time}",
+    "source": "c26d3282decc"
   },
   "word.references-index.atmosphere": {
     "text": "الغلاف الجوي",
@@ -3589,6 +3772,10 @@
   "common.audio": {
     "text": "صوت",
     "source": "bc1b88907d3b"
+  },
+  "video.library.audio-library": {
+    "text": "مكتبة الصوت",
+    "source": "c514fc7eae0f"
   },
   "slides.ribbon.audio-on-my-pc": {
     "text": "صوت على الحاسوب الشخصي…",
@@ -3693,6 +3880,14 @@
   "common.automatic": {
     "text": "تلقائي",
     "source": "d461a493a375"
+  },
+  "print.automatic-landscape": {
+    "text": "تلقائي (أفقي)",
+    "source": "9f5fed9ba15b"
+  },
+  "print.automatic-portrait": {
+    "text": "تلقائي (عمودي)",
+    "source": "98d2df109b2a"
   },
   "sheets.ribbon.automatic-except-for-data-tables": {
     "text": "تلقائي باستثناء جداول البيانات",
@@ -4074,6 +4269,10 @@
     "text": "حظر المرسل",
     "source": "536fd076223c"
   },
+  "talk.report.block-name-as-well": {
+    "text": "حظر {name} أيضًا",
+    "source": "1ec80dec6724"
+  },
   "talk.block-name": {
     "text": "حظر {name}؟",
     "source": "c8f5c7726467"
@@ -4089,6 +4288,10 @@
   "mail.dialogs.blocked-top-level-domains": {
     "text": "نطاقات المستوى الأعلى المحظورة",
     "source": "f30b5bed850e"
+  },
+  "talk.settings.blocked-people": {
+    "text": "الأشخاص المحظورون",
+    "source": "e11bdf7344a1"
   },
   "talk.block-2": {
     "text": "حظر…",
@@ -4241,6 +4444,10 @@
   "common.bottom-right": {
     "text": "أسفل اليمين",
     "source": "b4b7cb63bc9b"
+  },
+  "video.layer-names.bottom-shade": {
+    "text": "تظليل سفلي",
+    "source": "1dffbced0f7c"
   },
   "word.ribbon.box-dashed-line": {
     "text": "مربع: خط متقطع",
@@ -4596,6 +4803,10 @@
     "text": "اتصال",
     "source": "d6e645b7d2b2"
   },
+  "talk.missed.call-back": {
+    "text": "معاودة الاتصال",
+    "source": "fbb0a343f691"
+  },
   "talk.call-ended": {
     "text": "انتهت المكالمة",
     "source": "00ff74289a12"
@@ -4652,9 +4863,41 @@
     "text": "أنماط الكاميرا",
     "source": "a02b3cbd8c0d"
   },
+  "studio.window.camera-by-address": {
+    "text": "كاميرا بواسطة العنوان…",
+    "source": "576460523c95"
+  },
+  "studio.net-camera-dialog.camera-details": {
+    "text": "تفاصيل الكاميرا",
+    "source": "1f24717cfd41"
+  },
+  "studio.sources-column.camera-details": {
+    "text": "تفاصيل الكاميرا…",
+    "source": "bed02af58b25"
+  },
+  "talk.meet-lines.camera-off": {
+    "text": "الكاميرا متوقفة",
+    "source": "ce3ef7450f8e"
+  },
   "studio.camera-n": {
     "text": "الكاميرا {n}",
     "source": "76ef0b65d44f"
+  },
+  "studio.net-camera-dialog.cameras-added-before": {
+    "text": "الكاميرات المضافة سابقًا",
+    "source": "0bf02739feb0"
+  },
+  "studio.net-camera-find.cameras-on-the-network": {
+    "text": "الكاميرات على الشبكة",
+    "source": "138fe6865c5e"
+  },
+  "studio.window.cameras-on-the-network": {
+    "text": "الكاميرات على الشبكة…",
+    "source": "fa6270f9772a"
+  },
+  "studio.net-camera-find.cameras-that-answered": {
+    "text": "الكاميرات التي استجابت",
+    "source": "7126fcdc2141"
   },
   "voices-dialog.can-be-added-when-this-computer": {
     "text": "يمكن إضافته عندما يكون هذا الكمبيوتر متصلًا بالإنترنت",
@@ -4687,6 +4930,10 @@
   "calendar.cancelled-summary": {
     "text": "أُلغي: {summary}",
     "source": "bc2bf8d8ef46"
+  },
+  "talk.meet-lines.cannot-be-heard-here": {
+    "text": "تعذر سماع الصوت هنا",
+    "source": "2d08a6698f09"
   },
   "image.canvas-size": {
     "text": "حجم اللوحة",
@@ -4939,6 +5186,10 @@
   "locker.change-how": {
     "text": "تغيير الطريقة",
     "source": "7d8d41039ce4"
+  },
+  "video.inspector.change-it-at-another-time-and": {
+    "text": "غيّره في وقت آخر، فتُعيَّن نقطة في ذلك الوقت.",
+    "source": "71ccbebf0a7b"
   },
   "base.change-my-password": {
     "text": "تغيير كلمة مروري",
@@ -5229,6 +5480,10 @@
     "text": "جارٍ التحقق…",
     "source": "ec963ffc911b"
   },
+  "video.layer-names.checklist": {
+    "text": "قائمة تحقق",
+    "source": "7346030400bf"
+  },
   "pdf.checkmark": {
     "text": "علامة صح",
     "source": "d996cc6b3522"
@@ -5409,6 +5664,14 @@
     "text": "اختيار موسيقى",
     "source": "a2758f54bb45"
   },
+  "talk.meet-lines.choose-now-a-meeting-cannot-be": {
+    "text": "اختر الآن: لا يمكن جعل الاجتماع مباشرًا بعد إعداده.",
+    "source": "4d90fc81342e"
+  },
+  "video.ribbon.choose-one": {
+    "text": "اختيار أحدها",
+    "source": "0b24aed53ab6"
+  },
   "apps-choice.choose-one-app-at-least": {
     "text": "اختر تطبيقًا واحدًا على الأقل.",
     "source": "6fa9e25d8f09"
@@ -5448,6 +5711,10 @@
   "base.reports.choose-the-total-under-each-number": {
     "text": "اختر الإجمالي أسفل كل رقم: المجموع أو المتوسط أو العدد أو بلا",
     "source": "5d7900fb073e"
+  },
+  "talk.groups.choose-two-or-more-of-your": {
+    "text": "اختر اثنتين أو أكثر من جهات اتصالك. يرى كل من في المجموعة ما يُكتب فيها ومن يوجد فيها أيضًا.",
+    "source": "1504482f5063"
   },
   "studio.sources-column.choose-what-to-show": {
     "text": "اختر ما تريد عرضه",
@@ -5953,6 +6220,10 @@
     "text": "تفادي اللون",
     "source": "d3939c23da55"
   },
+  "video.library.colour-looks": {
+    "text": "المظاهر اللونية",
+    "source": "1e3eace528af"
+  },
   "image.type-editor.colour-of-the-words": {
     "text": "لون الكلمات",
     "source": "8c6ececb4c11"
@@ -6296,13 +6567,25 @@
     "text": "الاتصال بخادم تجريبي",
     "source": "73dfcbc52547"
   },
+  "talk.settings.connect-when-rutba-office-starts": {
+    "text": "الاتصال عند بدء Rutba Office",
+    "source": "fbba41a8aaa4"
+  },
   "ai-tools-dialog.connected-now": {
     "text": "متصل الآن",
     "source": "0e31ab40ee72"
   },
+  "studio.guests.connecting": {
+    "text": "جارٍ الاتصال",
+    "source": "d403c686f6a1"
+  },
   "base.trust.connecting-tells-host-that-this-database": {
     "text": "الاتصال يُعلِم {host} بأن قاعدة البيانات هذه فُتحت، ومن أين.",
     "source": "d62213401992"
+  },
+  "talk.meet-lines.connecting-to-the-meetings-talk-server": {
+    "text": "جارٍ الاتصال بخادم توك (Talk Server) الخاص بالاجتماع…",
+    "source": "dbdd1c43c358"
   },
   "common.connecting": {
     "text": "جارٍ الاتصال…",
@@ -6379,6 +6662,10 @@
   "image.tools.contiguous-only-the-area-joined-to": {
     "text": "متجاور: المنطقة المتصلة بمكان النقر فقط",
     "source": "c49227ac91cd"
+  },
+  "studio.guests.continue-in-talk": {
+    "text": "متابعة في Talk",
+    "source": "dfe707761b26"
   },
   "common.continuous": {
     "text": "متصل",
@@ -6567,6 +6854,10 @@
     "text": "نسخ التنسيق من هنا إلى التحديد التالي",
     "source": "385e4d1fba79"
   },
+  "studio.guests.copy-the-meeting-link": {
+    "text": "نسخ ارتباط الاجتماع",
+    "source": "dcf78a0af22e"
+  },
   "pictures.copy-the-path": {
     "text": "نسخ المسار",
     "source": "80c28637e6ac"
@@ -6658,6 +6949,14 @@
   "mail.accounts-bulk.could-not-be-set-up": {
     "text": "تعذّر إعداده",
     "source": "15a01aadfd5a"
+  },
+  "studio.guests.could-not-connect": {
+    "text": "تعذر الاتصال",
+    "source": "8630b4dd33f2"
+  },
+  "talk.meet-lines.could-not-connect-to-name-the": {
+    "text": "تعذر الاتصال مع {name}. قد تكون الشبكة بينكما تحجب الاتصال.",
+    "source": "6efa1c493e6c"
   },
   "mail.could-not-send-why-the-message": {
     "text": "تعذر الإرسال: {why}. أُعيدت الرسالة إلى المسودات.",
@@ -7146,6 +7445,10 @@
   "common.dashed-horizontal": {
     "text": "أفقي متقطع",
     "source": "3ae29d68684a"
+  },
+  "video.layer-names.dashed-list": {
+    "text": "قائمة بشرطات",
+    "source": "482bff3efb3d"
   },
   "common.dashed-upward-diagonal": {
     "text": "قطري متقطع لأعلى",
@@ -8976,6 +9279,10 @@
     "text": "إفراغ المجلد",
     "source": "ca1fd4548524"
   },
+  "print.empty-prints-every-page-or-type": {
+    "text": "إذا تُرك فارغًا تُطبع كل الصفحات. أو اكتب أرقام الصفحات ونطاقاتها، مثل 1,2,5,6 أو 1-5.",
+    "source": "b8b744f198bd"
+  },
   "print.empty-prints-everything-with-anything-in": {
     "text": "إذا تُرك فارغًا، تُطبع كل الخلايا التي تحتوي على شيء.",
     "source": "256005db29f3"
@@ -9064,17 +9371,41 @@
     "text": "بطاقة الختام",
     "source": "9b35668a9a83"
   },
+  "talk.meeting.end-for-everyone": {
+    "text": "إنهاء للجميع",
+    "source": "e1cc5d2e7a82"
+  },
+  "studio.guests.end-meeting": {
+    "text": "إنهاء الاجتماع",
+    "source": "0d59fd0fca8d"
+  },
   "slides.presenter.end-of-the-deck": {
     "text": "نهاية العرض التقديمي",
     "source": "1f8740414e5b"
+  },
+  "studio.guests.end-the-broadcast-first": {
+    "text": "أنهِ البث أولًا.",
+    "source": "cda831c6b524"
   },
   "studio.live-bar.end-the-broadcast": {
     "text": "هل تريد إنهاء البث؟",
     "source": "ac1321bf9a1a"
   },
+  "studio.guests.end-the-meeting-for-everyone": {
+    "text": "إنهاء الاجتماع للجميع",
+    "source": "403b0d8e29d9"
+  },
+  "studio.guests.end-the-meeting-for-everyone-2": {
+    "text": "إنهاء الاجتماع للجميع؟",
+    "source": "da7516896163"
+  },
   "calendar.end-time": {
     "text": "وقت الانتهاء",
     "source": "2e46006a5eeb"
+  },
+  "talk.ended": {
+    "text": "انتهى",
+    "source": "7cdc804e6996"
   },
   "studio.live-bar.ending": {
     "text": "جارٍ الإنهاء…",
@@ -9272,9 +9603,17 @@
     "text": "التقييم",
     "source": "163e44b10262"
   },
+  "video.inspector.evenly": {
+    "text": "بانتظام",
+    "source": "83f7985d2900"
+  },
   "ai-tools.event": {
     "text": "حدث",
     "source": "4e1f49a9c8ae"
+  },
+  "notify-dialog.event-reminders": {
+    "text": "تذكيرات الأحداث",
+    "source": "d57de2d3c6a1"
   },
   "calendar.events-from-a-ics": {
     "text": "أحداث من ملف .ics",
@@ -9307,6 +9646,10 @@
   "slides.every-comment-on-this-slide-deleted": {
     "text": "تم حذف كل التعليقات على هذه الشريحة",
     "source": "59f3fa1b689c"
+  },
+  "contacts.every-contact-shown-count": {
+    "text": "كل جهات الاتصال المعروضة ({count})",
+    "source": "7f4a5bb606e7"
   },
   "calendar.every-day": {
     "text": "كل يوم",
@@ -9375,6 +9718,10 @@
     "text": "تتغير معه كل فقرة بهذا النمط.",
     "source": "9cae08c0c68b"
   },
+  "pictures.every-picture-shown-count": {
+    "text": "كل الصور المعروضة ({count})",
+    "source": "904610f6a47a"
+  },
   "base.documents.every-record": {
     "text": "كل السجلات",
     "source": "f9ed7dc95615"
@@ -9382,6 +9729,10 @@
   "engine.every-row-of-the-column-is": {
     "text": "كل صفوف العمود ممتلئة بالفعل",
     "source": "c50f8a60019b"
+  },
+  "studio.guests.every-seat-is-taken": {
+    "text": "كل المقاعد مشغولة",
+    "source": "45dd15b4dde5"
   },
   "studio.settings-dialog.every-setup": {
     "text": "كل الإعدادات",
@@ -9438,9 +9789,33 @@
     "text": "كل سنة",
     "source": "828ca0e45f14"
   },
+  "talk.server-share.everybody-in-my-organisation": {
+    "text": "كل من في مؤسستي",
+    "source": "0fe9dfd1fb93"
+  },
+  "talk.server-share.everybody-in-the-organisation-your-rutba": {
+    "text": "كل من في المؤسسة التي ينتمي إليها حسابك في رتبة (Rutba). إن لم ينتمِ إلى أي مؤسسة، فلا أحد غيرك.",
+    "source": "05c98bea8eb0"
+  },
   "common.everyone": {
     "text": "الجميع",
     "source": "da2e5dc515b1"
+  },
+  "talk.meet-lines.everyone-asked-is-told-before-they": {
+    "text": "يُبلَّغ كل من تمت دعوته قبل انضمامه. لا يُبث شيء حتى تفتح الاجتماع في البث المباشر (Live Broadcast) وتبدأ البث المباشر هناك.",
+    "source": "48c2b1746439"
+  },
+  "studio.guests.everyone-asked-is-told-this-before": {
+    "text": "يُبلَّغ كل من تمت دعوته بهذا قبل انضمامه:",
+    "source": "e2f2a4d7030e"
+  },
+  "talk.meeting.everyone-in-this-group-is-told": {
+    "text": "يُبلَّغ كل من في هذه المجموعة ويمكنه الانضمام. يتسع الاجتماع لأربعة أشخاص في الوقت نفسه.",
+    "source": "44ebddf60609"
+  },
+  "studio.guests.everyone-is-taken-out-and-the": {
+    "text": "يُخرَج الجميع ويتوقف الارتباط عن العمل.",
+    "source": "f32662261db0"
   },
   "registry.everyone-you-write-to-in-one": {
     "text": "كل من تراسلهم، في دفتر واحد",
@@ -9751,13 +10126,13 @@
     "text": "تلاشٍ تدريجي",
     "source": "7d680202a523"
   },
-  "video.inspector.fade-from-black": {
-    "text": "ظهور من الأسود",
-    "source": "636fcf61e179"
+  "video.layer-names.fade-in-and-out": {
+    "text": "ظهور واختفاء تدريجي",
+    "source": "abdc99cd0ff6"
   },
-  "video.inspector.fade-to-black": {
-    "text": "تلاشٍ إلى الأسود",
-    "source": "3fc1288f194f"
+  "video.inspector.fade-length": {
+    "text": "مدة التلاشي",
+    "source": "eb1d5120984a"
   },
   "common.fade-down": {
     "text": "تلاشي: لأسفل",
@@ -9778,6 +10153,10 @@
   "word.dialogs.faint-and-rising-across-every-page": {
     "text": "باهتة ومائلة صعودًا عبر كل صفحة، خلف النص، مرسومة كما يرسم Word علاماته المائية.",
     "source": "ba77601d2670"
+  },
+  "video.inspector.fall": {
+    "text": "هبوط",
+    "source": "e85a6413c1bd"
   },
   "word.mailings.fallback": {
     "text": "البديل",
@@ -9810,6 +10189,10 @@
   "mail.fetching-folder-done": {
     "text": "جارٍ جلب {folder}: {done}",
     "source": "d52ad4f83a82"
+  },
+  "video.library.fetching": {
+    "text": "جارٍ الجلب…",
+    "source": "8d0738c84d08"
   },
   "mail.smime.fewer-details": {
     "text": "تفاصيل أقل",
@@ -9890,6 +10273,10 @@
   "common.file-name": {
     "text": "اسم الملف",
     "source": "3efed3de9d4b"
+  },
+  "pictures.file-names-beneath-the-pictures": {
+    "text": "أسماء الملفات أسفل الصور",
+    "source": "9095d26206fe"
   },
   "locker.file-names-in-the-cloud": {
     "text": "أسماء الملفات في السحابة",
@@ -10199,6 +10586,10 @@
     "text": "بحث: الكلمات في كل الصفحات (Ctrl+F)",
     "source": "04805ec8b35c"
   },
+  "talk.meet-lines.finding-a-talk-server-for-the": {
+    "text": "جارٍ البحث عن خادم توك (Talk Server) للاجتماع…",
+    "source": "f13c9a98b3ca"
+  },
   "ui.proofing.finding-suggestions": {
     "text": "جارٍ البحث عن اقتراحات…",
     "source": "b5269d86a5f7"
@@ -10247,6 +10638,10 @@
     "text": "أكمل تسجيل الدخول في متصفحك، ثم عد إلى هنا.",
     "source": "07f16710fc1e"
   },
+  "talk.finish-your-call-first": {
+    "text": "أنهِ مكالمتك أولًا.",
+    "source": "7bf710a0c972"
+  },
   "common.fire": {
     "text": "نار",
     "source": "c141faa80e43"
@@ -10290,6 +10685,10 @@
   "base.sources.first-page": {
     "text": "الصفحة الأولى",
     "source": "0bdbb750609c"
+  },
+  "video.library.first-point": {
+    "text": "النقطة الأولى",
+    "source": "29ceaa773427"
   },
   "common.first-record": {
     "text": "السجل الأول",
@@ -10342,6 +10741,10 @@
   "common.fit-to-window": {
     "text": "احتواء في النافذة",
     "source": "19707cae1f79"
+  },
+  "image.fit-to-the-page": {
+    "text": "احتواء في الصفحة",
+    "source": "d3813ef5da30"
   },
   "common.fit-to-window-2": {
     "text": "احتواء في النافذة",
@@ -10646,9 +11049,17 @@
     "text": "للحفظ القانوني: mbox وPDF مع بيان بالبصمات",
     "source": "cd8cd2cc47d2"
   },
+  "talk.meet-lines.for-more-than-four-people-choose": {
+    "text": "لأكثر من أربعة أشخاص. اختر الآن: لا يمكن تغيير ذلك لاحقًا.",
+    "source": "84feb33750e6"
+  },
   "studio.window.for-the-tools": {
     "text": "للأدوات",
     "source": "28b5d93196d6"
+  },
+  "studio.settings-dialog.for-this-session-save-the-session": {
+    "text": "لهذه الجلسة فقط. احفظ الجلسة كإعداد للاحتفاظ بهذه الإعدادات.",
+    "source": "89f7e8f9bc6d"
   },
   "broadcast.live-dialog.for-wide-and-tall-on-one": {
     "text": "لبث عريض وطولي على منصة واحدة، أضفها مرتين بمفتاح لكل منهما.",
@@ -10681,6 +11092,14 @@
   "slides.foreground": {
     "text": "المقدمة",
     "source": "ad4e241834ec"
+  },
+  "studio.net-camera-dialog.forget": {
+    "text": "نسيان",
+    "source": "a6bd489d9550"
+  },
+  "studio.net-camera-dialog.forget-this-camera-and-its-password": {
+    "text": "نسيان هذه الكاميرا وكلمة مرورها",
+    "source": "bbaf44180309"
   },
   "pdf.form": {
     "text": "النموذج",
@@ -11042,10 +11461,6 @@
     "text": "من أعلى اليمين",
     "source": "6b697be237a3"
   },
-  "video.inspector.from-black": {
-    "text": "من الأسود",
-    "source": "6b8e41a84b78"
-  },
   "talk.invite.from-no-reply-rutba-io-in": {
     "text": "من no-reply@rutba.io، باسمك، عدد قليل في اليوم.",
     "source": "ca68787a47f9"
@@ -11206,6 +11621,10 @@
     "text": "رفض GitHub التحقق في الوقت الحالي. حاول مرة أخرى بعد ساعة.",
     "source": "607e298f1b12"
   },
+  "talk-words.give-the-meeting-a-name": {
+    "text": "أدخل اسمًا للاجتماع.",
+    "source": "ca0cc479b89e"
+  },
   "locker.give-the-password-a-different-way": {
     "text": "أعطِ كلمة المرور بطريقة أخرى، مثل مكالمة أو رسالة نصية، ولا تضعها أبدًا في البريد نفسه. يفتح الشخص الآخر الملف من فتح ملف مُرسل في خزانته.",
     "source": "1b7a08b8266b"
@@ -11213,6 +11632,10 @@
   "locker.give-the-password-a-different-way-2": {
     "text": "أعطِ كلمة المرور بطريقة أخرى، مثل مكالمة أو رسالة نصية.",
     "source": "de572f2fb31a"
+  },
+  "studio.net-camera-find.give-the-user-name-and-password": {
+    "text": "أدخل اسم المستخدم وكلمة المرور الخاصين بالكاميرا. يطلب Office البث من الكاميرا نفسها.",
+    "source": "4a09aba0e547"
   },
   "slides.glow": {
     "text": "توهج",
@@ -11522,6 +11945,10 @@
     "text": "تم التجميع حسب {columns}",
     "source": "a3ee8fd53ec4"
   },
+  "talk.groups": {
+    "text": "المجموعات",
+    "source": "39bbb719fa2b"
+  },
   "word.restrict.groups": {
     "text": "المجموعات:",
     "source": "914dc79e4818"
@@ -11546,9 +11973,37 @@
     "text": "نمو",
     "source": "66b06e996553"
   },
+  "studio.list.guest": {
+    "text": "ضيف",
+    "source": "5ed8944a85a9"
+  },
+  "studio.guests.guest-from-talk": {
+    "text": "ضيف من Talk…",
+    "source": "793232fc0bf6"
+  },
   "base.guest-house-or-b-and-b": {
     "text": "دار ضيافة أو مبيت مع إفطار",
     "source": "a0f9eeb489a3"
+  },
+  "studio.list.guest-n": {
+    "text": "الضيف {n}",
+    "source": "03b6865b76af"
+  },
+  "studio.guests.guests": {
+    "text": "الضيوف",
+    "source": "3c8e0fde6fcc"
+  },
+  "studio.guests.guests-come-in-through-talk-open": {
+    "text": "يدخل الضيوف عبر توك (Talk). افتح توك وسجّل الدخول، ثم عُد إلى هنا.",
+    "source": "9eb299d4bca8"
+  },
+  "studio.guests.guests-from-talk": {
+    "text": "الضيوف من Talk",
+    "source": "3d460856e536"
+  },
+  "studio.guests.guests-2": {
+    "text": "الضيوف…",
+    "source": "16daa9d8055e"
   },
   "slides.ribbon.guides": {
     "text": "الأدلة",
@@ -11565,6 +12020,14 @@
   "slides.half-reflection": {
     "text": "نصف انعكاس",
     "source": "5134a8a7f210"
+  },
+  "talk.meet-lines.hand": {
+    "text": "رفع اليد",
+    "source": "fa18c06733fb"
+  },
+  "talk.meet-lines.hand-raised": {
+    "text": "اليد مرفوعة",
+    "source": "28a816817557"
   },
   "print.handout": {
     "text": "نشرة",
@@ -11600,6 +12063,10 @@
   "word.ruler.hanging-indent": {
     "text": "مسافة بادئة معلقة",
     "source": "330571a6ff67"
+  },
+  "talk.lines.harassment-or-threats": {
+    "text": "مضايقة أو تهديدات",
+    "source": "badb8a71f7e3"
   },
   "common.harbour": {
     "text": "الميناء",
@@ -11785,6 +12252,14 @@
     "text": "الارتفاع: تلقائي",
     "source": "72963474c164"
   },
+  "talk.meet-lines.held-on-a-talk-server-and": {
+    "text": "يُعقد على خادم توك (Talk Server)، وتشفّره تطبيقات الأشخاص المشاركين فيه.",
+    "source": "069bbb237456"
+  },
+  "talk.meet-lines.held-on-a-talk-server-sound": {
+    "text": "يُعقد على خادم توك (Talk Server). تشفّر تطبيقات الأشخاص المشاركين فيه الصوت والصورة والرسائل.",
+    "source": "7b770898ab95"
+  },
   "talk.invite-email.hello-name": {
     "text": "مرحبًا {name}،",
     "source": "ec6b334e36ce"
@@ -11808,6 +12283,10 @@
   "word.mailings.here-is-a-preview-from-your": {
     "text": "إليك معاينة من قائمة المستلمين:",
     "source": "e78b6ed296e4"
+  },
+  "studio.guests.here-now": {
+    "text": "الموجودون الآن",
+    "source": "ccf67ff0cbab"
   },
   "colour.palette.hex": {
     "text": "سداسي عشري",
@@ -12057,6 +12536,10 @@
     "text": "تثبيت الإطار",
     "source": "21076652231b"
   },
+  "talk.meeting.hold-it-on-a-talk-server": {
+    "text": "عقده على خادم توك (Talk Server)",
+    "source": "6f8881eaab59"
+  },
   "pictures.hold-this-frame": {
     "text": "تثبيت هذا الإطار",
     "source": "710af7ead1b9"
@@ -12092,6 +12575,10 @@
   "template-gallery.household": {
     "text": "المنزل",
     "source": "a1c6c97f415f"
+  },
+  "notify-dialog.how": {
+    "text": "الطريقة",
+    "source": "7470bd3bc2ab"
   },
   "video.inspector.how-close": {
     "text": "مدى القرب",
@@ -12515,6 +13002,10 @@
     "text": "أمام النص",
     "source": "c5e4f149a0b0"
   },
+  "talk.meeting.in-it-now-names": {
+    "text": "الموجودون الآن: {names}",
+    "source": "41e0075c8bab"
+  },
   "word.in-line-with-text": {
     "text": "على سطر واحد مع النص",
     "source": "975100d147b1"
@@ -12563,6 +13054,17 @@
     "text": "في جهات اتصالك في توك (Talk)",
     "source": "6d460ac05145"
   },
+  "shell.notifier.in-count-minute": {
+    "forms": {
+      "zero": "بعد أقل من دقيقة",
+      "one": "بعد دقيقة واحدة",
+      "two": "بعد دقيقتين",
+      "few": "بعد {count} دقائق",
+      "many": "بعد {count} دقيقة",
+      "other": "بعد {count} دقيقة"
+    },
+    "source": "575500e5bcff"
+  },
   "video.in-from-out-to": {
     "text": "البداية {from}، النهاية {to}",
     "source": "9ad2ac8a59a8"
@@ -12607,9 +13109,17 @@
     "text": "مكالمة واردة",
     "source": "a31650d84806"
   },
+  "notify-dialog.incoming-calls": {
+    "text": "المكالمات الواردة",
+    "source": "820afd4a1ab6"
+  },
   "mail.dialogs.incoming-server-imap": {
     "text": "خادم البريد الوارد (IMAP)",
     "source": "dfd215e4fd24"
+  },
+  "shell.notifier.incoming-video-call": {
+    "text": "مكالمة فيديو واردة",
+    "source": "eda8b6750322"
   },
   "sheets.ribbon.increase-decimal": {
     "text": "زيادة المنازل العشرية",
@@ -13411,6 +13921,10 @@
     "text": "فاتورة",
     "source": "b832002da297"
   },
+  "video.iris": {
+    "text": "قزحية",
+    "source": "65003c7a1864"
+  },
   "sheets.queries.is": {
     "text": "يكون",
     "source": "f5985de1fd3a"
@@ -13523,9 +14037,17 @@
     "text": "تُعرض كنص عادي، دون روابطها وصورها: الرسالة المشفّرة غير الموقّعة من شخص موثوق ربما غُيّرت في الطريق لإرسال كلماتها إلى مكان آخر.",
     "source": "a923da16888c"
   },
+  "shell.tray.it-keeps-watch-for-calls-messages": {
+    "text": "يراقب المكالمات والرسائل والبريد والتذكيرات. افتحه أو أنهِ تشغيله من أيقونته بجوار الساعة.",
+    "source": "280bef469893"
+  },
   "locker.it-needs-about-size-and-free": {
     "text": "تحتاج إلى نحو {size}، والمساحة الفارغة {free}.",
     "source": "4b6dd24db2d1"
+  },
+  "notify-dialog.it-starts-by-the-clock-with": {
+    "text": "يبدأ بجوار الساعة، دون نافذة، عند تسجيل الدخول إلى Windows.",
+    "source": "6a1f3f9b4896"
   },
   "base.people.it-starts-reading-every-table-choose": {
     "text": "يبدأ بقراءة كل جدول؛ اختر ما يمكنه فعله بكل منها.",
@@ -13534,6 +14056,10 @@
   "base.it-starts-with-an-id-that": {
     "text": "يبدأ بمعرّف ID يرقّم كل سجل؛ أضف حقوله في تصميمه.",
     "source": "021f623d5e41"
+  },
+  "notify-dialog.it-stays-by-the-clock-while": {
+    "text": "يبقى بجوار الساعة ما دام هناك ما يراقبه: تسجيل الدخول إلى توك (Talk)، أو حساب بريد، أو تذكير قادم. يغلقه الأمر «إنهاء» في قائمة أيقونته هناك.",
+    "source": "10a5253e2f69"
   },
   "mail.dialogs.it-uses-the-encoding-encoding-which": {
     "text": "يستخدم الترميز {encoding}، الذي يتعذر على هذا الإصدار فك ترميزه.",
@@ -13649,9 +14175,37 @@
     "text": "المسمى الوظيفي",
     "source": "86db80a8096b"
   },
+  "common.join": {
+    "text": "انضمام",
+    "source": "fd30fe681b4b"
+  },
+  "talk.meeting.join-a-meeting": {
+    "text": "الانضمام إلى اجتماع",
+    "source": "9b2a5bd7d96b"
+  },
   "sheets.queries.join-kind": {
     "text": "نوع الربط",
     "source": "a9aa54ad2dfd"
+  },
+  "calendar.join-the-meeting": {
+    "text": "الانضمام إلى الاجتماع",
+    "source": "31310cd2645b"
+  },
+  "talk-words.join-the-meeting-in-rutba-office": {
+    "text": "انضم إلى الاجتماع في رتبة أوفيس (Rutba Office): {link}",
+    "source": "c9c01f7d52fd"
+  },
+  "calendar.joining-needs-talk-which-is-not": {
+    "text": "يتطلب الانضمام توك (Talk)، وهو غير مثبت على هذا الحاسوب.",
+    "source": "7870dcf0080c"
+  },
+  "talk.meeting.joining-name": {
+    "text": "جارٍ الانضمام إلى {name}…",
+    "source": "56727336c281"
+  },
+  "talk.meeting.joining": {
+    "text": "جارٍ الانضمام…",
+    "source": "6bbb89ee5d48"
   },
   "common.journal-article": {
     "text": "مقالة في مجلة",
@@ -13732,6 +14286,10 @@
   "pdf.keep-it-open": {
     "text": "إبقاؤه مفتوحًا",
     "source": "458f6b681df9"
+  },
+  "notify-dialog.keep-rutba-office-running-after-its": {
+    "text": "إبقاء Rutba Office قيد التشغيل بعد إغلاق آخر نافذة",
+    "source": "f31bfd395eab"
   },
   "sheets.queries.keep-top-rows": {
     "text": "الاحتفاظ بالصفوف العلوية",
@@ -13853,6 +14411,14 @@
     "text": "الاحتفاظ بهذا المرسل في جهات الاتصال",
     "source": "dd3bb1c9952a"
   },
+  "studio.setups-menu.keep-this-session": {
+    "text": "الاحتفاظ بهذه الجلسة؟",
+    "source": "5949e8e6390b"
+  },
+  "notify-dialog.keeping-watch": {
+    "text": "المراقبة المستمرة",
+    "source": "2bd2ecd98d0f"
+  },
   "sheets.dialogs.keeps": {
     "text": "ما يحتفظ به",
     "source": "16aebc8dbb59"
@@ -13908,6 +14474,10 @@
   "contacts.kept-name": {
     "text": "تم حفظ {name}.",
     "source": "631191ecc875"
+  },
+  "studio.net-camera-dialog.kept-type-a-new-one-to": {
+    "text": "محفوظة. اكتب كلمة مرور جديدة لتغييرها.",
+    "source": "94040f9b6468"
   },
   "common.key": {
     "text": "مفتاح",
@@ -14177,6 +14747,10 @@
     "text": "الأخير: {tool}، {when}",
     "source": "555c3b837526"
   },
+  "video.inspector.lasts": {
+    "text": "المدة",
+    "source": "e8d07dfabcb4"
+  },
   "packs-dialog.later": {
     "text": "لاحقاً",
     "source": "73b6e48a1b55"
@@ -14264,6 +14838,10 @@
     "text": "الأقل",
     "source": "02610c979bd9"
   },
+  "talk.meeting.leave": {
+    "text": "مغادرة",
+    "source": "fc6e4a408d56"
+  },
   "mail.dialogs.leave-blank-for-automatic-reply-and": {
     "text": "اتركه فارغاً لاستخدام «رد تلقائي: » متبوعاً بالموضوع الأصلي.",
     "source": "94aa5a2fde29"
@@ -14288,6 +14866,10 @@
     "text": "الخروج من ملء الشاشة (F11)",
     "source": "f29680c41343"
   },
+  "talk.leave-group": {
+    "text": "مغادرة المجموعة",
+    "source": "3475393dbebd"
+  },
   "sheets.dialogs.leave-it-empty-to-keep-the": {
     "text": "اتركه فارغاً للإبقاء على كلمة المرور الحالية لهذا النطاق.",
     "source": "41e0fa01d903"
@@ -14304,6 +14886,10 @@
     "text": "استبعد ما يلي علامة الطرح",
     "source": "fc1eecb3aa7d"
   },
+  "talk.meeting.leave-the-meeting": {
+    "text": "مغادرة الاجتماع",
+    "source": "977585a92642"
+  },
   "slides.leave-the-show": {
     "text": "مغادرة العرض",
     "source": "fdc22af2a38d"
@@ -14319,6 +14905,14 @@
   "locker.leave-them-unlocked-suggested": {
     "text": "تركها غير مقفلة (مقترح)",
     "source": "0afd256556ff"
+  },
+  "talk.leave-this-group": {
+    "text": "مغادرة هذه المجموعة؟",
+    "source": "4ed01b5a99b2"
+  },
+  "talk.meeting.leave-or-end-the-meeting-for": {
+    "text": "المغادرة، أم إنهاء الاجتماع للجميع؟",
+    "source": "f2d3c9b9f154"
   },
   "common.left": {
     "text": "يسار",
@@ -14418,6 +15012,10 @@
   "word.ribbon.legal-8-5-14-in": {
     "text": "Legal: 8.5 × 14 بوصة",
     "source": "470239248343"
+  },
+  "video.inspector.legend": {
+    "text": "وسيلة إيضاح",
+    "source": "7482e374b5bd"
   },
   "base.lending-library": {
     "text": "مكتبة الإعارة",
@@ -14731,6 +15329,14 @@
     "text": "عنوان الارتباط",
     "source": "13844ffc7287"
   },
+  "talk.meeting.link-copied": {
+    "text": "تم نسخ الارتباط.",
+    "source": "71af38a2d56b"
+  },
+  "studio.guests.link-copied-paste-it-wherever-you": {
+    "text": "تم نسخ الارتباط. الصقه في أي مكان.",
+    "source": "e62a2c262096"
+  },
   "word.list-dialog.link-level-to-style": {
     "text": "ربط المستوى بنمط",
     "source": "ed09b5da333c"
@@ -14867,6 +15473,10 @@
     "text": "وجهات البث المباشر…",
     "source": "677788648878"
   },
+  "studio.guests.live-broadcast-with-name": {
+    "text": "بث مباشر مع {name}",
+    "source": "fed9b5301f2a"
+  },
   "base.links.live-reads-the-records-from-the": {
     "text": "يقرأ «مباشر» السجلات من المحرك أثناء عملك. ويحتفظ «الاحتفاظ بنسخة في هذا الملف» بها هنا أيضًا: يمكنك العمل والمحرك بعيد المنال، وتذهب تغييراتك إليه عند عودته. وعندما يُغيَّر سجل في المكانين، تُعتمد نسخة المحرك وتُحفظ نسختك لتطّلع عليها.",
     "source": "c61357c56fe9"
@@ -14934,6 +15544,10 @@
   "image.layers-panel.lock-the-layer": {
     "text": "قفل الطبقة",
     "source": "7dbd5ea70c86"
+  },
+  "talk.meeting.lock-the-meeting-nobody-new-can": {
+    "text": "قفل الاجتماع: لا ينضم أحد جديد",
+    "source": "5508fe16d924"
   },
   "locker.lock-the-rest-leave-this-one": {
     "text": "اقفل الباقي، واترك هذا عاديًا",
@@ -15059,6 +15673,10 @@
     "text": "المظهر",
     "source": "a0de5719f595"
   },
+  "studio.net-camera-find.look-again": {
+    "text": "إعادة البحث",
+    "source": "d36feef04807"
+  },
   "video.look-here": {
     "text": "انظر هنا",
     "source": "a0191bf6cc06"
@@ -15082,6 +15700,10 @@
   "mail.docnote.looking-for-an-invoice-or-a": {
     "text": "جارٍ البحث عن فاتورة أو إيصال في {name}…",
     "source": "19526ac28939"
+  },
+  "studio.net-camera-find.looking-for-cameras-on-this-network": {
+    "text": "جارٍ البحث عن كاميرات على هذه الشبكة…",
+    "source": "35cf2433a990"
   },
   "slides.changes.looking-for-changes": {
     "text": "جارٍ البحث عن التغييرات…",
@@ -15150,6 +15772,10 @@
   "video.inspector.lower-the-rest": {
     "text": "خفض بقية الصوت",
     "source": "95be98f8b672"
+  },
+  "talk.meeting.lower-your-hand": {
+    "text": "خفض اليد",
+    "source": "b8308c2681a2"
   },
   "common.lowercase": {
     "text": "أحرف صغيرة",
@@ -15798,13 +16424,33 @@
     "text": "متوسط، صفوف عادية",
     "source": "611babdad090"
   },
+  "talk.meet-now": {
+    "text": "الاجتماع الآن",
+    "source": "90e040c1ceb7"
+  },
+  "common.meeting": {
+    "text": "اجتماع",
+    "source": "8b8b8871bbfb"
+  },
   "template-gallery.meeting-agenda": {
     "text": "جدول أعمال الاجتماع",
     "source": "07d60ca4be2d"
   },
+  "talk.meeting.meeting-locked": {
+    "text": "الاجتماع مقفل",
+    "source": "b91ee56f0968"
+  },
   "template-gallery.meeting-minutes": {
     "text": "محضر الاجتماع",
     "source": "eed123b54b71"
+  },
+  "talk.meet-lines.meeting-with-name": {
+    "text": "اجتماع مع {name}",
+    "source": "c77cbc09cfcf"
+  },
+  "notify-dialog.meetings-about-to-start": {
+    "text": "الاجتماعات التي ستبدأ قريبًا",
+    "source": "5e5c76090b99"
   },
   "base.members-and-plans-payments-classes-and": {
     "text": "الأعضاء والخطط والمدفوعات والحصص والحجوزات والتدريب الشخصي والزيارات.",
@@ -16086,6 +16732,18 @@
     "text": "عكس",
     "source": "90fade6fb78e"
   },
+  "common.missed-call": {
+    "text": "مكالمة فائتة",
+    "source": "f203aff4b526"
+  },
+  "common.missed-calls": {
+    "text": "المكالمات الفائتة",
+    "source": "42f59e0dcd29"
+  },
+  "talk.lines.missed-video-call": {
+    "text": "مكالمة فيديو فائتة",
+    "source": "73fd69f0bfa5"
+  },
   "word.ribbon.moderate": {
     "text": "معتدل",
     "source": "5c42afc7a230"
@@ -16246,6 +16904,10 @@
     "text": "مزيد من القوالب: رسائل وتقارير وميزانيات وفواتير وعروض تقديمية وغيرها، وقوالبك الخاصة",
     "source": "9633d83cbe73"
   },
+  "video.ribbon.more-transitions": {
+    "text": "المزيد من الانتقالات",
+    "source": "196a312ff56d"
+  },
   "sheets.more-edit-or-delete": {
     "text": "المزيد: تحرير أو حذف",
     "source": "09b71b1a3f9a"
@@ -16349,6 +17011,10 @@
   "video.move-track-up": {
     "text": "نقل المسار لأعلى",
     "source": "014314a1063e"
+  },
+  "video.timeline.move-a-point-of-movement": {
+    "text": "نقل نقطة حركة",
+    "source": "456f30320217"
   },
   "video.move-clip": {
     "text": "نقل المقطع",
@@ -16458,6 +17124,10 @@
     "text": "تم النقل إلى سلة المحذوفات",
     "source": "4a32012fc458"
   },
+  "video.inspector.movement": {
+    "text": "الحركة",
+    "source": "49ba63e89af6"
+  },
   "sheets.objects.multi-select-off-a-click-shows": {
     "text": "التحديد المتعدد متوقف: تُظهر النقرة هذا العنصر وحده (النقر مع Ctrl يضيف عنصراً)",
     "source": "0910783d3f55"
@@ -16506,6 +17176,10 @@
     "text": "كتم صوت هذا المسار",
     "source": "2d4449bf2a58"
   },
+  "common.muted": {
+    "text": "مكتوم الصوت",
+    "source": "2346f214ad56"
+  },
   "talk.address.my-address-in-talk": {
     "text": "عنواني في Talk",
     "source": "c06c86b814f9"
@@ -16517,6 +17191,10 @@
   "calendar.my-calendars": {
     "text": "تقويماتي",
     "source": "23b77e2b7bb3"
+  },
+  "talk.server-share.my-contacts": {
+    "text": "جهات اتصالي",
+    "source": "6add5927687d"
   },
   "talk.invite.my-email-app": {
     "text": "تطبيق البريد لديّ",
@@ -16582,6 +17260,14 @@
     "text": "اسم موقع الويب",
     "source": "9a8a9021ffc5"
   },
+  "talk.groups.name-of-the-group": {
+    "text": "اسم المجموعة",
+    "source": "d692cebacdf6"
+  },
+  "talk.meeting.name-of-the-meeting": {
+    "text": "اسم الاجتماع",
+    "source": "d944cb35604b"
+  },
   "profiles.name-of-the-new-profile": {
     "text": "اسم الملف الشخصي الجديد",
     "source": "cd872167f53f"
@@ -16605,6 +17291,10 @@
   "common.name-for-the-lower-third": {
     "text": "الاسم، للشريط السفلي",
     "source": "3075123d2d1a"
+  },
+  "talk.groups.name-if-you-want-one": {
+    "text": "الاسم، إن أردت واحدًا",
+    "source": "70fee814f6a2"
   },
   "sheets.dialogs.named-ranges": {
     "text": "النطاقات المسماة",
@@ -16696,6 +17386,10 @@
     "text": "يتطلب إصدارًا أحدث من رتبة أوفيس (Rutba Office)",
     "source": "3d61f92f62b9"
   },
+  "talk.lines.needs-a-newer-rutba-office-to": {
+    "text": "يلزم إصدار أحدث من رتبة أوفيس (Rutba Office) لعرض هذه المجموعة",
+    "source": "e9f8d676fa25"
+  },
   "locker.needs-you": {
     "text": "بحاجة إليك",
     "source": "74b6abdf5969"
@@ -16704,9 +17398,17 @@
     "text": "لا يستطيع أي منكما مراسلة الآخر أو الاتصال به حتى تعودا جهتي اتصال. تُحذف رسائلكما هنا.",
     "source": "55354b8358c9"
   },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "لا تظهر ولا تُقرأ بصوت عالٍ: تحتفظ السطور بتوقيتها. اختر واحدًا من الخيارات الثلاثة لإعادتها.",
+    "source": "431be017d2c5"
+  },
   "common.neon": {
     "text": "نيون",
     "source": "618484e2c549"
+  },
+  "studio.list.network-camera": {
+    "text": "كاميرا شبكة",
+    "source": "6e3492ed4b9b"
   },
   "sheets.ribbon.neutral": {
     "text": "محايد",
@@ -16888,6 +17590,10 @@
     "text": "ستبدأ المستندات الجديدة بـ {name}.",
     "source": "5331555ff54a"
   },
+  "common.new-email": {
+    "text": "رسالة بريد إلكتروني جديدة",
+    "source": "0d25c8b1db61"
+  },
   "calendar.new-event": {
     "text": "حدث جديد",
     "source": "7cdc2e276045"
@@ -16916,9 +17622,17 @@
     "text": "جديد من قالب",
     "source": "5c281f84d68c"
   },
+  "talk.groups.new-group": {
+    "text": "مجموعة جديدة",
+    "source": "df796c655f6f"
+  },
   "mail.new-mail-goes-from-address": {
     "text": "سيُرسل البريد الجديد من {address}",
     "source": "75d10444c655"
+  },
+  "notify-dialog.new-mail-as-it-arrives": {
+    "text": "البريد الجديد، فور وصوله",
+    "source": "7436e7beb576"
   },
   "mail.new-message": {
     "text": "رسالة جديدة",
@@ -16959,6 +17673,10 @@
   "mail.rules.new-rule": {
     "text": "قاعدة جديدة",
     "source": "99cd24efe983"
+  },
+  "studio.window.new-session": {
+    "text": "جلسة جديدة",
+    "source": "cffdba22adf2"
   },
   "studio.new-setup": {
     "text": "إعداد جديد",
@@ -17120,6 +17838,10 @@
     "text": "الصفحة التالية (Page Down)",
     "source": "b4b926fb53d0"
   },
+  "video.inspector.next-point": {
+    "text": "النقطة التالية",
+    "source": "ce6dcb3c9b65"
+  },
   "common.next-record": {
     "text": "السجل التالي",
     "source": "72366533fb26"
@@ -17228,6 +17950,14 @@
     "text": "ليس لديك رتبة أوفيس (Rutba Office) بعد؟ يتيح لك الرابط نفسه القبول بحساب رتبة مجاني، ورتبة أوفيس مجاني للتنزيل: {join}",
     "source": "16030f970f96"
   },
+  "talk.meet-lines.no-talk-server-can-hold-this": {
+    "text": "لا يمكن لأي خادم توك (Talk Server) عقد هذا الاجتماع الآن.",
+    "source": "21399cd5bfda"
+  },
+  "talk.meet-lines.no-talk-server-can-take-people": {
+    "text": "لا يمكن لأي خادم توك (Talk Server) إدخال أشخاص إلى هذا الاجتماع الآن. حاول الانضمام مرة أخرى بعد قليل.",
+    "source": "f88a607c134e"
+  },
   "sheets.ribbon.no-title": {
     "text": "بلا عنوان",
     "source": "a81d00a2e03d"
@@ -17303,6 +18033,14 @@
   "ai-tools-dialog.no-call-yet": {
     "text": "لا استدعاء بعد",
     "source": "a43c76129f11"
+  },
+  "studio.net-camera-find.no-camera-answered-a-camera-answers": {
+    "text": "لم تستجب أي كاميرا. تستجيب الكاميرا عندما يكون ONVIF مشغلًا في إعداداتها الخاصة، وتكون على الشبكة نفسها التي يتصل بها هذا الحاسوب.",
+    "source": "458f70618c7d"
+  },
+  "talk.meet-lines.no-camera-was-found-on-this": {
+    "text": "تعذر العثور على كاميرا على هذا الحاسوب.",
+    "source": "16b044153b6f"
   },
   "common.no-camera-was-found": {
     "text": "لم يتم العثور على كاميرا.",
@@ -17380,6 +18118,10 @@
     "text": "لا جهات اتصال بعد. أضف شخصًا بعنوان بريده؛ وحين يقبل يمكنك المراسلة والاتصال.",
     "source": "f6497439472d"
   },
+  "studio.guests.no-copy-is-kept-while-this": {
+    "text": "لا يُحتفظ بأي نسخة ما دام هذا الاجتماع هنا. أُبلغ المشاركون فيه بأنه يُبث مباشرة، لا بأنه يُسجَّل.",
+    "source": "40fd5ed74db7"
+  },
   "slides.custom-shows.no-custom-shows-yet-new-makes": {
     "text": "لا توجد عروض مخصصة بعد. ينشئ «جديد» عرضاً.",
     "source": "8b1f3e334875"
@@ -17415,6 +18157,10 @@
   "word.mailings.no-errors-every-merge-field-has": {
     "text": "لا توجد أخطاء: لكل حقل دمج عمود في القائمة.",
     "source": "3d54fcdbe072"
+  },
+  "calendar.print.no-events": {
+    "text": "لا توجد أحداث",
+    "source": "2197f6207922"
   },
   "pdf.found.no-fields-were-found-recognise-text": {
     "text": "لم يُعثر على حقول. التعرّف على النص مع تحديد البحث عن الحقول يقرأ حقول الفاتورة أو الإيصال ومربعات اختيار النموذج.",
@@ -17500,14 +18246,6 @@
     "text": "بلا حد",
     "source": "f7fcff0d8fea"
   },
-  "spoken.voices.add-a-voice-to-read-the": {
-    "text": "أضف صوتًا لقراءة الكلمات بصوت عالٍ؛ ويمكن إظهارها من دونه.",
-    "source": "04ed3fbd74fe"
-  },
-  "spoken.voices.neither-shown-nor-read-aloud-the": {
-    "text": "لا تظهر ولا تُقرأ بصوت عالٍ: تحتفظ السطور بتوقيتها. اختر واحدًا من الخيارات الثلاثة لإعادتها.",
-    "source": "431be017d2c5"
-  },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "لا توجد سطور بعد: يُقرأ كل سطر من الكلمات تباعًا.",
     "source": "6c66185b20fc"
@@ -17552,9 +18290,17 @@
     "text": "بلا ميكروفون",
     "source": "618183d7ea1f"
   },
+  "talk.meet-lines.no-microphone-was-found-on-this": {
+    "text": "تعذر العثور على ميكروفون على هذا الحاسوب. لا يمكن للآخرين سماعك.",
+    "source": "05f114874a3a"
+  },
   "studio.no-microphone-was-found": {
     "text": "لم يُعثر على ميكروفون.",
     "source": "cf757208df0f"
+  },
+  "talk.missed.no-missed-calls": {
+    "text": "لا توجد مكالمات فائتة.",
+    "source": "7a78e0b6e3b9"
   },
   "word.references-toa.no-more-citations-found": {
     "text": "لم يتم العثور على مزيد من الاقتباسات.",
@@ -17575,6 +18321,10 @@
   "slides.presenter.no-notes-on-this-slide-type": {
     "text": "لا ملاحظات على هذه الشريحة. اكتبها تحت الشريحة في العرض العادي، حيث تظهر عبارة «انقر لإضافة ملاحظات».",
     "source": "fe1e3a5506f6"
+  },
+  "notify-dialog.no-notifications-between-these-times-what": {
+    "text": "لا إعلامات بين هذين الوقتين. ما يصل يظل محسوبًا.",
+    "source": "9bb97a080483"
   },
   "engine.no-numbers-found-a-chart-wants": {
     "text": "لم يتم العثور على أرقام. يحتاج المخطط إلى أن تكون خلايا متن الجدول رقمية.",
@@ -17635,6 +18385,10 @@
   "print.no-printer-is-installed": {
     "text": "لا توجد طابعة مثبتة",
     "source": "eb71dfd30c2e"
+  },
+  "print.no-printer-is-installed-use-save": {
+    "text": "لا توجد طابعة مثبتة. استخدم «حفظ كملف PDF»، أو أضف طابعة من إعدادات هذا الحاسوب.",
+    "source": "c8bae189ef75"
   },
   "sheets.queries.no-queries-in-this-workbook-yet": {
     "text": "لا توجد استعلامات في هذا المصنف بعد. لإنشاء استعلام، اختر بيانات ← من جدول/نطاق أو من نص/CSV.",
@@ -17699,6 +18453,10 @@
   "mail.rules.no-rules-yet": {
     "text": "لا توجد قواعد بعد",
     "source": "d29cf782366d"
+  },
+  "studio.setups-menu.no-saved-setups-yet": {
+    "text": "لا توجد إعدادات محفوظة بعد",
+    "source": "abf744b63ded"
   },
   "common.no-scaling": {
     "text": "بلا تغيير حجم",
@@ -17796,6 +18554,10 @@
     "text": "لا توجد طرق عرض بعد. يحفظ «إضافة…» شكل المصنف الحالي.",
     "source": "233d8dca900a"
   },
+  "read-aloud.bar.no-voice-for-language-is-on": {
+    "text": "لا يوجد صوت للغة {language} على هذا الحاسوب.",
+    "source": "9dae296f7e6e"
+  },
   "common.no-voice-has-been-added": {
     "text": "لم تتم إضافة أي صوت.",
     "source": "c163f326bf4d"
@@ -17832,6 +18594,14 @@
     "text": "لا توجد تسميات توضيحية من نوع {label} بعد: يضيفها «إدراج تسمية توضيحية»، ويحدّث «تحديث الجدول» القائمة.",
     "source": "fd8ab69b9093"
   },
+  "talk.server-share.nobody-else-can-hold-a-meeting": {
+    "text": "لا يمكن لأحد غيرك عقد اجتماع عليه.",
+    "source": "2e4dc764891f"
+  },
+  "studio.guests.nobody-here-yet": {
+    "text": "لا أحد هنا بعد",
+    "source": "a142ffa894ef"
+  },
   "talk.invite-email.nobody-in-contacts-has-an-email": {
     "text": "لا أحد في جهات الاتصال له عنوان بريد بعد.",
     "source": "7e5a82a6e3b4"
@@ -17839,6 +18609,18 @@
   "talk.invite-email.nobody-in-contacts-matches": {
     "text": "لا أحد في جهات الاتصال يطابق.",
     "source": "3f4ecb0436d4"
+  },
+  "talk.settings.nobody-is-blocked": {
+    "text": "لا يوجد أي شخص محظور.",
+    "source": "acecbd3f4140"
+  },
+  "talk.server-share.nobody-is-chosen-yet-tick-the": {
+    "text": "لم يُختر أحد بعد. حدد جهات الاتصال التي يمكنها عقد اجتماعات عليه.",
+    "source": "e04b8c76ae44"
+  },
+  "talk.meeting.nobody-is-in-it-yet": {
+    "text": "لا يوجد أحد فيه بعد.",
+    "source": "7b877d971afd"
   },
   "mail.compose.nobody-on-this-line-is-visible": {
     "text": "لا يظهر أي شخص في هذا السطر للمستلمين الآخرين.",
@@ -17867,6 +18649,10 @@
   "word.references-toa.none-marked-yet": {
     "text": "لم يتم وضع علامة على أي منها بعد.",
     "source": "fae8d5d30eb5"
+  },
+  "talk.groups.none-of-your-contacts-are-left": {
+    "text": "لم تبق أي جهة اتصال لإضافتها.",
+    "source": "849f7d80a6a0"
   },
   "studio.window.none-to-add": {
     "text": "لا شيء لإضافته",
@@ -17931,6 +18717,10 @@
   "voices-dialog.not-added": {
     "text": "غير مُضاف",
     "source": "2460c620beba"
+  },
+  "calendar.not-among-your-talk-contacts-so": {
+    "text": "ليسوا ضمن جهات اتصالك في توك (Talk)، لذا لا يمكنهم الانضمام حتى يصبحوا منها: {who}",
+    "source": "6417af9e0717"
   },
   "sheets.dialogs.not-an-address-and-not-a": {
     "text": "ليس عنواناً وليس موضعاً يعرفه هذا المصنف.",
@@ -18004,9 +18794,17 @@
     "text": "لم يُعثر عليه هنا. يبقى في مكانه حتى تختار واحدًا.",
     "source": "feb7eac96064"
   },
+  "studio.guests.not-in-talk-just-now": {
+    "text": "خارج توك (Talk) حاليًا",
+    "source": "e6711a24a8d7"
+  },
   "ui.proofing.not-in-dictionary": {
     "text": "غير موجودة في القاموس",
     "source": "1642d2535d39"
+  },
+  "talk.lines.not-in-your-contacts": {
+    "text": "ليس ضمن جهات اتصالك",
+    "source": "df22cf8f3220"
   },
   "packs-dialog.not-installed": {
     "text": "غير مثبّت",
@@ -18067,6 +18865,10 @@
     "text": "لم يُحفظ بعد",
     "source": "35c5fe43950d"
   },
+  "talk.lines.not-sent": {
+    "text": "لم يتم الإرسال",
+    "source": "cd5f943d5863"
+  },
   "mail.not-sent-yet-and-still-in": {
     "text": "لم يُرسل بعد، وما زال في علبة الصادر.",
     "source": "a71ab808c55c"
@@ -18079,9 +18881,29 @@
     "text": "لم يُرسَل: لا يستطيع البريد الإرسال من {address}، إذ لا خادم صادر مُعدّ لذلك الحساب.",
     "source": "6f70753ecb65"
   },
+  "talk.lines.not-sent-talk-was-not-connected": {
+    "text": "لم يتم الإرسال: لم يكن توك (Talk) متصلًا طوال يوم.",
+    "source": "7c01514ece95"
+  },
+  "talk.lines.not-sent-the-message-is-too": {
+    "text": "لم يتم الإرسال: الرسالة طويلة جدًا.",
+    "source": "978afd9480df"
+  },
   "calendar.words.not-sent-there-is-no-mail": {
     "text": "لم يُرسَل: لا يوجد حساب بريد لإرساله منه. أضف حسابًا في البريد، ضمن الحسابات.",
     "source": "6425bf6ced3e"
+  },
+  "talk.lines.not-sent-too-many-messages-in": {
+    "text": "لم يتم الإرسال: رسائل كثيرة جدًا في دقيقة واحدة.",
+    "source": "3fd20957747c"
+  },
+  "talk.lines.not-sent-you-are-no-longer": {
+    "text": "لم يتم الإرسال: لم تعودا جهتي اتصال.",
+    "source": "a73aff6abeee"
+  },
+  "talk.lines.not-sent-you-are-no-longer-2": {
+    "text": "لم يتم الإرسال: لم تعد في هذه المجموعة.",
+    "source": "2909d476e230"
   },
   "calendar.words.not-sent-reason": {
     "text": "لم يُرسَل: {reason}",
@@ -18094,6 +18916,10 @@
   "base.not-shown-as-data-files-cannot": {
     "text": "لم تُعرض، إذ لا تستطيع ملفات البيانات (Data Files) عرضها: {tables}.",
     "source": "ddfa2ced7beb"
+  },
+  "calendar.not-streamed-live-this-cannot-be": {
+    "text": "لن يُبث مباشرة. لا يمكن تغيير ذلك بعد حفظ الحدث.",
+    "source": "e75806a6a1c3"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
     "text": "لم يُبث إلى {names}: لا يوجد مفتاح بث.",
@@ -18251,6 +19077,10 @@
     "text": "لا يُرسل شيء حتى تضغط {action}. الاحتفاظ كمسودة يبقيه على هذا الحاسوب بدلاً من ذلك؛ إلغاء لا يفعل شيئاً.",
     "source": "b045bd822cc1"
   },
+  "shell.tray.nothing-is-waiting": {
+    "text": "لا يوجد شيء في الانتظار",
+    "source": "dea4973695a6"
+  },
   "mail.nothing-is-waiting": {
     "text": "لا يوجد شيء قيد الانتظار.",
     "source": "ca4fb9abe74f"
@@ -18338,6 +19168,22 @@
   "common.nothing-yet": {
     "text": "لا شيء بعد.",
     "source": "e056734effa8"
+  },
+  "shell.tray.notification-settings": {
+    "text": "إعدادات الإعلامات…",
+    "source": "a936905265ce"
+  },
+  "common.notifications": {
+    "text": "الإعلامات",
+    "source": "788011833a5a"
+  },
+  "shell.notifier.notifications-are-on": {
+    "text": "الإعلامات قيد التشغيل",
+    "source": "ceaaed4b4f37"
+  },
+  "common.notifications-are-paused-until-time": {
+    "text": "الإعلامات متوقفة مؤقتًا حتى {time}",
+    "source": "1d6521f14f4e"
   },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "الآن {width} × {height} سم. يُغيَّر حجم كل ما على الشرائح ويوسَّط ليناسب الحجم الجديد.",
@@ -18471,6 +19317,14 @@
     "text": "خارج المحور 1: يمين",
     "source": "958afff2aff5"
   },
+  "studio.guests.off-air": {
+    "text": "خارج البث",
+    "source": "9ce17b86cfdd"
+  },
+  "studio.sources-column.off-while-guests-are-here-it": {
+    "text": "متوقف ما دام الضيوف هنا: كان سينقل أصواتهم على الهواء، حتى أثناء انتظارهم.",
+    "source": "b81e9a23d5ab"
+  },
   "inspect.off-slide-content": {
     "text": "المحتوى خارج الشريحة",
     "source": "db649f82894a"
@@ -18579,6 +19433,10 @@
     "text": "على instagram.com، اختر Add post ثم Live وانسخ العنوان ومفتاح البث. يعطي Instagram مفتاحًا جديدًا في كل مرة، فأضفه من جديد قبل بدء البث.",
     "source": "a6223e20cbb4"
   },
+  "video.library.on-the-frame": {
+    "text": "على الإطار",
+    "source": "1853d4732661"
+  },
   "image.on-the-mask-of-name-black": {
     "text": "على قناع {name}: الأسود يخفي والأبيض يُظهر",
     "source": "24aac0dd6d60"
@@ -18651,6 +19509,10 @@
     "text": "تدفق واحد على الشاشة ليعمل المؤشر الأصلي؛ أما تخطيط الطباعة وملف PDF فيقسّمه فعليًا إلى أعمدة",
     "source": "33bd0e1b78c3"
   },
+  "studio.guests.one-guest": {
+    "text": "ضيف واحد",
+    "source": "f02659f62459"
+  },
   "studio.spoken-run.one-line-each-each-is-read": {
     "text": "عبارة واحدة في كل سطر: يُقرأ كل سطر بصوت عالٍ تباعًا",
     "source": "f1c64f2624f8"
@@ -18685,6 +19547,14 @@
   "ai-tools-dialog.only-ai-apps-on-this-computer": {
     "text": "لا يستخدم هذه الأدوات إلا تطبيقات الذكاء الاصطناعي على هذا الحاسوب. لا شيء يستمع على الشبكة، فلا يمكن لأي جهاز آخر الاتصال.",
     "source": "96dbe7038e5b"
+  },
+  "talk-words.only-talk-contacts-of-the-organiser": {
+    "text": "لا يمكن الانضمام إلا لجهات اتصال المنظِّم في توك (Talk). إن لم تكن منها بعد، اطلب من المنظِّم إضافتك في توك.",
+    "source": "c3481062b128"
+  },
+  "talk.meet-lines.only-talk-contacts-of-name-can": {
+    "text": "لا يمكن الانضمام إلا لجهات اتصال {name} في توك (Talk)، والحد الأقصى للمشاركين {count}.",
+    "source": "6412aac0305f"
   },
   "common.only-word-excel-and-powerpoint-documents": {
     "text": "يمكن تضمين مستندات Word وExcel وPowerPoint فقط.",
@@ -18726,9 +19596,21 @@
     "text": "لا يمكن تشغيل حركة حسب الفقرة إلا إذا كانت حركة دخول أو تأكيد أو خروج يكتبها هذا البرنامج",
     "source": "d3d5652df5c9"
   },
+  "notify-dialog.only-an-installed-copy-of-rutba": {
+    "text": "لا تبدأ مع Windows إلا نسخة مثبتة من رتبة أوفيس (Rutba Office).",
+    "source": "5d376c6f923f"
+  },
   "word.only-certain-kinds-of-changes-can": {
     "text": "لا يُسمح إلا بأنواع معينة من التغييرات في هذا المستند: مراجعة ← تقييد التحرير.",
     "source": "dd366cf8032e"
+  },
+  "talk-words.only-contacts-of-the-person-who": {
+    "text": "لا يمكن الانضمام إلى هذا الاجتماع إلا لجهات اتصال الشخص الذي أعدّه.",
+    "source": "b340096d4b92"
+  },
+  "talk-words.only-contacts-of-name-can-join": {
+    "text": "لا يمكن الانضمام إلى هذا الاجتماع إلا لجهات اتصال {name}. اطلب من {name} إضافتك في توك (Talk).",
+    "source": "7c1a741c78f7"
   },
   "base.documents.only-for-records-where": {
     "text": "للسجلات التي فيها فقط",
@@ -18745,6 +19627,18 @@
   "base.documents.only-lines-where": {
     "text": "الأسطر التي فيها فقط",
     "source": "7ab3bdec4e67"
+  },
+  "talk.server-share.only-me": {
+    "text": "أنا فقط",
+    "source": "bdc0857b99a9"
+  },
+  "talk.meet-lines.only-people-in-this-group-and": {
+    "text": "لا يمكن الانضمام إلا لأعضاء هذه المجموعة وجهات اتصال {name} في توك (Talk)، والحد الأقصى للمشاركين {count}.",
+    "source": "d9dd584b74f6"
+  },
+  "talk.meet-lines.only-people-in-this-group-and-2": {
+    "text": "لا يمكن الانضمام إلا لأعضاء هذه المجموعة وجهات اتصالك في توك (Talk)، والحد الأقصى للمشاركين {count}.",
+    "source": "f9fcd01edae5"
   },
   "pictures.only-pictures-rated-so-many-stars": {
     "text": "الصور الحاصلة على هذا العدد من النجوم أو أكثر فقط",
@@ -18782,6 +19676,14 @@
     "text": "تُقرأ أول {count} سجل فقط. احتفظ بنسخة في هذا الملف للعمل عليها جميعًا.",
     "source": "df0ca43076cf"
   },
+  "talk-words.only-the-person-who-set-the": {
+    "text": "لا يمكن القيام بذلك إلا للشخص الذي أعدّ الاجتماع.",
+    "source": "7602b02c63bd"
+  },
+  "talk.lines.only-the-person-who-started-the": {
+    "text": "لا يمكن إخراج أحد من المجموعة إلا للشخص الذي بدأها.",
+    "source": "7539223a2970"
+  },
   "locker.only-these-types": {
     "text": "هذه الأنواع فقط",
     "source": "ba90201d2626"
@@ -18809,6 +19711,18 @@
   "slides.only-you-see-these": {
     "text": "لا يراها سواك",
     "source": "de3333efad62"
+  },
+  "talk-words.only-your-talk-contacts-can-join": {
+    "text": "لا ينضم إلا جهات اتصالك في توك (Talk)، والحد الأقصى للمشاركين {count}.",
+    "source": "0a88a1093f0b"
+  },
+  "talk-words.only-your-own-contacts-can-be": {
+    "text": "لا يمكن دعوة أحد إلى الاجتماع إلا من جهات اتصالك.",
+    "source": "dd0661381c23"
+  },
+  "talk.lines.only-your-own-contacts-can-be": {
+    "text": "لا يمكن إضافة أحد إلى المجموعة إلا من جهات اتصالك.",
+    "source": "4c15aef95595"
   },
   "common.opacity": {
     "text": "العتامة",
@@ -18841,6 +19755,10 @@
   "shell.open-recent": {
     "text": "فتح الملفات الأخيرة",
     "source": "d2b9f8f8baec"
+  },
+  "common.open-talk": {
+    "text": "فتح Talk",
+    "source": "702312a29580"
   },
   "broadcast.live-dialog.open-youtube-studio": {
     "text": "فتح YouTube Studio",
@@ -18950,6 +19868,10 @@
     "text": "فتح في المتصفح",
     "source": "32f8dcaafb6c"
   },
+  "talk.meeting.open-in-live-broadcast": {
+    "text": "فتح في Live Broadcast",
+    "source": "71788b0e6607"
+  },
   "pictures.open-in-pdf": {
     "text": "فتح في PDF",
     "source": "4d0c059fc5c0"
@@ -18965,6 +19887,10 @@
   "studio.window.open-in-video": {
     "text": "فتح في الفيديو…",
     "source": "8bb01e68be1b"
+  },
+  "talk.meeting.open-in-the-recorder": {
+    "text": "فتح في Recorder",
+    "source": "7082739e9d2c"
   },
   "home.open-in-name": {
     "text": "فتح في {name}",
@@ -18997,6 +19923,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "فتح لوحة Kick",
     "source": "bf6f8e9ef858"
+  },
+  "talk.open-the-browser-again": {
+    "text": "إعادة فتح المتصفح",
+    "source": "96e91bde168e"
   },
   "locker.open-the-locked-folder-name": {
     "text": "فتح المجلد المقفل {name}",
@@ -19190,6 +20120,10 @@
     "text": "تنظيم",
     "source": "21d9ac63ed66"
   },
+  "talk.meet-lines.organiser": {
+    "text": "المنظِّم",
+    "source": "ed385c3688f6"
+  },
   "calendar.words.organizer-name": {
     "text": "المنظِّم: {name}",
     "source": "b204de7ec321"
@@ -19358,6 +20292,10 @@
     "text": "Outlook وThunderbird وApple Mail وWindows Mail",
     "source": "275370d0b3be"
   },
+  "video.layer-names.outro-card": {
+    "text": "بطاقة الختام",
+    "source": "6907a3e2ea3f"
+  },
   "word.ribbon.outside-borders": {
     "text": "حدود خارجية",
     "source": "fcf90f7bf23e"
@@ -19377,6 +20315,10 @@
   "common.overlay": {
     "text": "تراكب",
     "source": "2af93aeb435d"
+  },
+  "video.library.overlays": {
+    "text": "تراكبات",
+    "source": "975c5697ac19"
   },
   "mail.archive.pdf": {
     "text": "ملف PDF",
@@ -19634,6 +20576,10 @@
     "text": "الفقرات",
     "source": "d2ef75e86bb7"
   },
+  "video.library.paragraphs-and-lists": {
+    "text": "الفقرات والقوائم",
+    "source": "939c99de9e0b"
+  },
   "common.parallelogram": {
     "text": "متوازي أضلاع",
     "source": "683f94df5c58"
@@ -19773,6 +20719,10 @@
   "common.pause": {
     "text": "إيقاف مؤقت",
     "source": "858e4ba7a29f"
+  },
+  "shell.tray.pause-notifications-for-an-hour": {
+    "text": "إيقاف الإعلامات مؤقتًا لمدة ساعة",
+    "source": "c6a2583b7f7e"
   },
   "shell.ipc.pause-recording": {
     "text": "إيقاف التسجيل مؤقتًا",
@@ -20086,6 +21036,10 @@
     "text": "تُرسم الصور المعروضة بتفاصيل أكثر مما تحتاجه الصفحة من جديد بالدقة المختارة. وتبقى الكلمات والرسوم والصور الصغيرة بما يكفي كما هي.",
     "source": "53b47116dc60"
   },
+  "pictures.pictures-to-a-sheet": {
+    "text": "عدد الصور في كل ورقة",
+    "source": "00d75274ddf4"
+  },
   "pictures.pictures-turns-a-jpeg-or-a": {
     "text": "يدوّر تطبيق «الصور» صور JPEG أو PNG ويحفظها. أما «تحرير» فيفتح هذه الصورة في «محرر الصور» لتدويرها وحفظها.",
     "source": "e30d8a205692"
@@ -20318,6 +21272,14 @@
     "text": "تشغيل صوت المقطع في العرض",
     "source": "97953b6cbcb8"
   },
+  "notify-dialog.play-a-sound": {
+    "text": "تشغيل صوت",
+    "source": "8dff69d0f091"
+  },
+  "talk.settings.play-a-sound-for-calls": {
+    "text": "تشغيل صوت للمكالمات",
+    "source": "ce1647f97917"
+  },
   "mail.play-all": {
     "text": "تشغيل الكل",
     "source": "12e7b8220dc7"
@@ -20373,6 +21335,10 @@
   "slides.point-one": {
     "text": "النقطة الأولى",
     "source": "2ec0675e4836"
+  },
+  "video.inspector.point-n-of-count": {
+    "text": "النقطة {n} من {count}",
+    "source": "56a4587fe6bd"
   },
   "video.pointer": {
     "text": "المؤشر",
@@ -20462,6 +21428,10 @@
     "text": "العرض المفضل",
     "source": "5b079061e4dc"
   },
+  "pdf.preparing-to-print-page-page-of": {
+    "text": "جارٍ التحضير للطباعة: الصفحة {page} من {count}…",
+    "source": "9bb1226e682b"
+  },
   "pdf.preparing-to-print": {
     "text": "جارٍ التحضير للطباعة…",
     "source": "c59a4189b115"
@@ -20521,6 +21491,10 @@
   "calendar.press-ctrl-n-to-add-an": {
     "text": "اضغط Ctrl+N لإضافة حدث، أو افتح ملف .ics.",
     "source": "e5eab9bad084"
+  },
+  "talk.lines.pretending-to-be-someone-else": {
+    "text": "انتحال شخصية شخص آخر",
+    "source": "59f4886f4bb6"
   },
   "sheets.prevent-unwanted-changes-to-the-structure": {
     "text": "منع التغييرات غير المرغوب فيها على بنية المصنف، مثل إضافة الأوراق.",
@@ -20657,6 +21631,10 @@
     "text": "الصفحة السابقة (Page Up)",
     "source": "46cf81b2cef0"
   },
+  "video.inspector.previous-point": {
+    "text": "النقطة السابقة",
+    "source": "91cc073698f7"
+  },
   "common.previous-record": {
     "text": "السجل السابق",
     "source": "07da30ed59d9"
@@ -20757,6 +21735,26 @@
     "text": "قوالب الطباعة",
     "source": "bab0e4da816c"
   },
+  "contacts.print-the-chosen-contact-or-the": {
+    "text": "طباعة جهة الاتصال المحددة أو القائمة المعروضة",
+    "source": "31dc4642a37a"
+  },
+  "image.print-the-picture-as-it-is": {
+    "text": "طباعة الصورة كما هي الآن",
+    "source": "0c7c09978527"
+  },
+  "calendar.print-the-view-shown": {
+    "text": "طباعة طريقة العرض الظاهرة",
+    "source": "99699c6c4993"
+  },
+  "pictures.print-this-picture-or-every-picture": {
+    "text": "طباعة هذه الصورة، أو كل الصور المعروضة",
+    "source": "093d65442545"
+  },
+  "print.print-through-the-systems-own-dialog": {
+    "text": "الطباعة عبر مربع حوار النظام نفسه، لما لا تقدمه إلا إعدادات الطابعة: الطباعة على وجهي الورقة، واختيار الدرج.",
+    "source": "e89c1e415e38"
+  },
   "base.forms.print-name": {
     "text": "طباعة {name}",
     "source": "9adb2fe770f7"
@@ -20776,6 +21774,10 @@
   "print.printer": {
     "text": "الطابعة",
     "source": "024eac5b1a63"
+  },
+  "print.printing-name": {
+    "text": "جارٍ الطباعة: {name}",
+    "source": "a059eabd2695"
   },
   "print.printing": {
     "text": "جارٍ الطباعة…",
@@ -20856,6 +21858,10 @@
   "studio.window.program": {
     "text": "البرنامج",
     "source": "90920d93e2c7"
+  },
+  "video.layer-names.progress-bar": {
+    "text": "شريط التقدم",
+    "source": "88bbc75dfba2"
   },
   "video.project": {
     "text": "المشروع",
@@ -21021,6 +22027,18 @@
     "text": "دفع",
     "source": "731ce7ed8089"
   },
+  "video.timeline.push-down": {
+    "text": "دفع إلى الأسفل",
+    "source": "cdba3e1d8ea7"
+  },
+  "video.timeline.push-right": {
+    "text": "دفع إلى اليمين",
+    "source": "2bce51eb1c20"
+  },
+  "video.timeline.push-up": {
+    "text": "دفع إلى الأعلى",
+    "source": "385412ecb6be"
+  },
   "base.form-designer.put-a-field-on-the-form": {
     "text": "وضع حقل في النموذج",
     "source": "51273d7500b8"
@@ -21064,6 +22082,10 @@
   "image.tools.put-the-pins-back": {
     "text": "أعد الدبابيس",
     "source": "58213ed57cab"
+  },
+  "video.inspector.put-the-playhead-on-this-clip": {
+    "text": "ضع رأس التشغيل على هذا المقطع لتعيين نقطة.",
+    "source": "202e5c234e9a"
   },
   "pdf.put-the-tool-down": {
     "text": "ترك الأداة",
@@ -21157,6 +22179,14 @@
     "text": "أنماط سريعة",
     "source": "6887852d0183"
   },
+  "notify-dialog.quiet-hours": {
+    "text": "ساعات الهدوء",
+    "source": "bf0671dd69c6"
+  },
+  "shell.tray.quit-name": {
+    "text": "إنهاء {name}",
+    "source": "c082bda435d6"
+  },
   "mail.compose.quote": {
     "text": "اقتباس",
     "source": "eb4cdebd82bf"
@@ -21184,6 +22214,10 @@
   "equations.radical-with-degree": {
     "text": "جذر مع درجة",
     "source": "8b150a3c64cf"
+  },
+  "talk.meeting.raise-your-hand": {
+    "text": "رفع اليد",
+    "source": "a7d9af47bf64"
   },
   "slides.motion.random-bars": {
     "text": "أشرطة عشوائية",
@@ -21256,6 +22290,10 @@
   "word.ribbon.read-aloud-2": {
     "text": "قراءة بصوت عالٍ",
     "source": "0791ec684798"
+  },
+  "spoken.voices.read-aloud-only": {
+    "text": "القراءة بصوت عالٍ فقط",
+    "source": "3953b35ec0c1"
   },
   "base.people.read-and-add": {
     "text": "القراءة والإضافة",
@@ -21348,6 +22386,10 @@
   "mail.read-the-unread-messages-in-the": {
     "text": "قراءة الرسائل غير المقروءة في القائمة بصوت عالٍ، بترتيب القائمة. توضع علامة «مقروءة» على كل رسالة بعد قراءتها حتى نهايتها.",
     "source": "dff6be303eab"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "قراءة الكلمات بصوت عالٍ",
+    "source": "f8bde48fd589"
   },
   "base.links.read-what-changed-by-field": {
     "text": "قراءة ما تغيّر حسب {field}",
@@ -21692,6 +22734,10 @@
   "studio.window.recording-into-name": {
     "text": "التسجيل في {name}",
     "source": "56b02d64afc5"
+  },
+  "studio.guests.recording-with-name": {
+    "text": "جارٍ التسجيل مع {name}",
+    "source": "e6be6a2a2c15"
   },
   "video.export.recording-done-of-total": {
     "text": "جارٍ تسجيل {done} من {total}",
@@ -22131,9 +23177,17 @@
     "text": "إزالة جدول المحتويات",
     "source": "02fb6aa5132e"
   },
+  "video.remove-a-movement-point": {
+    "text": "إزالة نقطة حركة",
+    "source": "866caceec826"
+  },
   "mail.remove-account": {
     "text": "إزالة الحساب…",
     "source": "f6c7b21aa0c2"
+  },
+  "video.inspector.remove-all-movement": {
+    "text": "إزالة كل الحركة",
+    "source": "c117c982cedd"
   },
   "locker.remove-anyway": {
     "text": "أزل رغم ذلك",
@@ -22269,6 +23323,14 @@
   "redact.remove-this-mark": {
     "text": "إزالة هذه العلامة",
     "source": "5b7142126ca5"
+  },
+  "video.remove-this-movement-point": {
+    "text": "إزالة نقطة الحركة هذه",
+    "source": "5b0a79929123"
+  },
+  "video.inspector.remove-this-point": {
+    "text": "إزالة هذه النقطة",
+    "source": "1db17d0d592c"
   },
   "profiles.remove-this-profile": {
     "text": "إزالة هذا الملف الشخصي",
@@ -22616,9 +23678,29 @@
     "text": "نوع التقرير",
     "source": "6add2e391964"
   },
+  "talk.report.report-name": {
+    "text": "الإبلاغ عن {name}",
+    "source": "a72e14cff779"
+  },
+  "talk.report.reported-and-name-is-blocked": {
+    "text": "تم الإبلاغ، وتم حظر {name}.",
+    "source": "24147a41c039"
+  },
+  "talk.report.reported-thank-you": {
+    "text": "تم الإبلاغ. شكرًا لك.",
+    "source": "e2f870ec73f5"
+  },
+  "talk.report.reported-name-could-not-be-blocked": {
+    "text": "تم الإبلاغ. تعذر حظر {name} في الوقت الحالي.",
+    "source": "f931a2f8128d"
+  },
   "base.reports": {
     "text": "التقارير",
     "source": "dacca3cba3f3"
+  },
+  "talk.report": {
+    "text": "إبلاغ…",
+    "source": "a89f2286bde4"
   },
   "protect.require-a-password-to-open-this": {
     "text": "طلب كلمة مرور لفتح هذا {noun}.",
@@ -22660,6 +23742,10 @@
     "text": "إعادة تعيين المستويات",
     "source": "8e4afe1ebcd7"
   },
+  "studio.window.reset-this-session": {
+    "text": "إعادة تعيين هذه الجلسة؟",
+    "source": "9a895f8c4a9f"
+  },
   "slides.ribbon.reset-to-cameo": {
     "text": "إعادة التعيين إلى كاميو",
     "source": "60043910ccf9"
@@ -22667,6 +23753,10 @@
   "slides.ribbon.reset-to-cameo-the-cameras-recording": {
     "text": "إعادة التعيين إلى كاميو: إزالة تسجيل الكاميرا من هذه الشريحة وإعادة الكاميو المباشر إليها",
     "source": "d886796ba64a"
+  },
+  "studio.reset-to-a-new-session": {
+    "text": "إعادة تعيين إلى جلسة جديدة",
+    "source": "6b9c5be76d1e"
   },
   "slides.ribbon.reset-to-the-layouts": {
     "text": "إعادة التعيين إلى خلفية التخطيط",
@@ -22767,6 +23857,10 @@
   "shell.restart-and-update": {
     "text": "إعادة التشغيل والتحديث",
     "source": "78b017c77e5b"
+  },
+  "shell.tray.restart-and-update-to-version": {
+    "text": "إعادة التشغيل والتحديث إلى {version}",
+    "source": "c479443bee7d"
   },
   "word.ribbon.restart-each-page": {
     "text": "إعادة البدء في كل صفحة",
@@ -23476,6 +24570,10 @@
     "text": "توقف رتبة أوفيس (Rutba Office) أثناء الإرسال، لذا قد تكون الرسالة أُرسلت وقد لا تكون. انظر في العناصر المرسلة، ثم أعد إرسالها أو احذفها.",
     "source": "7e8c68e608d6"
   },
+  "notify-dialog.rutba-office-watches-only-while-it": {
+    "text": "يراقب رتبة أوفيس (Rutba Office) فقط أثناء تشغيله. إذا أُغلق بالأمر «إنهاء»، فلن يُعلمك بشيء حتى يُفتح مرة أخرى.",
+    "source": "647452751dca"
+  },
   "voices-dialog.rutba-office-version-does-not-have": {
     "text": "لا يتضمّن Rutba Office {version} اللغة {name}: ستظهر النوافذ بالإنجليزية حتى تجهز حزمة اللغة الخاصة بها.",
     "source": "c954897db32a"
@@ -23820,6 +24918,10 @@
     "text": "حفظ كمشروع…",
     "source": "aa2fcc84716b"
   },
+  "studio.setups-menu.save-as-a-setup": {
+    "text": "حفظ كإعداد…",
+    "source": "d9ef0d0b399e"
+  },
   "studio.scene-strip.save-as-scene": {
     "text": "حفظ كمشهد",
     "source": "efdeca1676b4"
@@ -23904,6 +25006,14 @@
     "text": "احفظ المصنف أولاً، حتى تتمكن نافذة ثانية من فتح الملف نفسه.",
     "source": "5518cf201954"
   },
+  "studio.setups-menu.save-this-session-as-a-setup": {
+    "text": "حفظ هذه الجلسة كإعداد",
+    "source": "61675a542380"
+  },
+  "studio.setups-menu.save-this-session-as-a-setup-2": {
+    "text": "حفظ هذه الجلسة كإعداد…",
+    "source": "dac52cb33434"
+  },
   "studio.window.save-to-a-file": {
     "text": "حفظ في ملف",
     "source": "08c57ac92835"
@@ -23915,6 +25025,10 @@
   "studio.scene-strip.save-what-the-frame-shows-as": {
     "text": "حفظ ما يعرضه الإطار كمشهد جديد",
     "source": "04d539ee1ba5"
+  },
+  "calendar.save-without-the-meeting": {
+    "text": "الحفظ بدون الاجتماع",
+    "source": "a466a78156a8"
   },
   "english-switch.save-your-changes-first-this-window": {
     "text": "احفظ تغييراتك أولًا: ستُفتح هذه النافذة بالإنجليزية عند فتحها مرة أخرى. والنوافذ التي تُفتح من الآن فصاعدًا ستكون بالإنجليزية.",
@@ -24330,6 +25444,10 @@
   "image.tools.second-colour-where-a-gradient-ends": {
     "text": "اللون الثاني: حيث ينتهي التدرج",
     "source": "014aa91028da"
+  },
+  "video.library.second-point": {
+    "text": "النقطة الثانية",
+    "source": "55b07a59a655"
   },
   "calendar.second-time-zone": {
     "text": "المنطقة الزمنية الثانية",
@@ -24775,6 +25893,10 @@
     "text": "إرسال السجلات",
     "source": "ac745ff044b3"
   },
+  "talk.report.send-report": {
+    "text": "إرسال البلاغ",
+    "source": "a44d35311325"
+  },
   "calendar.send-the-cancellation": {
     "text": "إرسال الإلغاء",
     "source": "97640bdf22a3"
@@ -24802,6 +25924,10 @@
     "text": "إرسال الدعوة؟",
     "source": "d11e030a9b61"
   },
+  "studio.guests.send-the-link-to-a-contact": {
+    "text": "أرسل الارتباط إلى جهة اتصال تستخدم رتبة أوفيس (Rutba Office). ستنضم عبر توك (Talk).",
+    "source": "ec69e7a826e5"
+  },
   "common.send-to-back": {
     "text": "إرسال إلى الخلف",
     "source": "33e1c6b9be0f"
@@ -24817,6 +25943,14 @@
   "locker.send-to-someone-2": {
     "text": "إرسال إلى شخص…",
     "source": "40f3eb523a46"
+  },
+  "talk.lines.send-up-to-count-of-the": {
+    "text": "إرسال ما يصل إلى {count} من آخر رسائل {name} في هذه المجموعة مع البلاغ",
+    "source": "672637e06022"
+  },
+  "talk.lines.send-up-to-count-of-the-2": {
+    "text": "إرسال ما يصل إلى {count} من آخر رسائل {name} إليك مع البلاغ",
+    "source": "154b797f57b4"
   },
   "calendar.send-update": {
     "text": "إرسال التحديث",
@@ -24870,6 +26004,10 @@
     "text": "يُرسل إلى {where} فقط",
     "source": "65fa593794d6"
   },
+  "print.sent-through-the-system-dialog": {
+    "text": "تم الإرسال عبر مربع حوار النظام.",
+    "source": "796f50686541"
+  },
   "mail.sent-to": {
     "text": "أُرسلت إلى",
     "source": "4e7201c7b898"
@@ -24878,6 +26016,14 @@
     "text": "أُرسلت إلى شخص، أو نسخة، أو نسخة مخفية",
     "source": "d55c51982d58"
   },
+  "pdf.sent-to-the-printer": {
+    "text": "تم الإرسال إلى الطابعة.",
+    "source": "b35f62ca8b34"
+  },
+  "print.sent-to-printer": {
+    "text": "تم الإرسال إلى {printer}.",
+    "source": "918838f49130"
+  },
   "mail.sent-to-to": {
     "text": "تم الإرسال إلى {to}",
     "source": "f0ee21e891eb"
@@ -24885,17 +26031,6 @@
   "mail.sent-to-who-it-went-to": {
     "text": "أُرسلت إلى: لمن ذهبت",
     "source": "31eea1f8449b"
-  },
-  "print.sent-count-page-to-the-printer": {
-    "forms": {
-      "zero": "لم يتم إرسال أي صفحة إلى الطابعة.",
-      "one": "تم إرسال صفحة واحدة إلى الطابعة.",
-      "two": "تم إرسال صفحتين إلى الطابعة.",
-      "few": "تم إرسال {count} صفحات إلى الطابعة.",
-      "many": "تم إرسال {count} صفحة إلى الطابعة.",
-      "other": "تم إرسال {count} صفحة إلى الطابعة."
-    },
-    "source": "01f92bc64175"
   },
   "print.sent-count-page-to-printer": {
     "forms": {
@@ -25054,6 +26189,22 @@
     "text": "تعيين كلمة مرور…",
     "source": "0d69c19ffedf"
   },
+  "video.set-a-movement-point": {
+    "text": "تعيين نقطة حركة",
+    "source": "f2e85e0213a2"
+  },
+  "video.set-a-movement-point-here": {
+    "text": "تعيين نقطة حركة هنا",
+    "source": "82a45446fe3a"
+  },
+  "video.inspector.set-a-point-here": {
+    "text": "تعيين نقطة هنا",
+    "source": "8d5454e6187b"
+  },
+  "video.inspector.set-a-point-here-then-move": {
+    "text": "عيّن نقطة هنا، ثم حرّك رأس التشغيل وغيّر المقطع: سينتقل المقطع من نقطة إلى النقطة التالية.",
+    "source": "5cc1988df0dd"
+  },
   "word.ribbon.set-as-default": {
     "text": "تعيين كافتراضي",
     "source": "10886554da51"
@@ -25089,6 +26240,10 @@
   "mail.accounts-bulk.set-up-by-hand": {
     "text": "الإعداد يدويًا",
     "source": "51e0b5053fed"
+  },
+  "talk.meeting.set-up-by-name": {
+    "text": "تم الإعداد بواسطة {name}",
+    "source": "f82e137b4907"
   },
   "broadcast.live-dialog.set-up-once-here-the-icons": {
     "text": "أعدّها هنا مرة واحدة. تختار الأيقونات في لوحة البث ما يُرسل منها.",
@@ -25286,6 +26441,10 @@
     "text": "مشاركة الشاشة",
     "source": "5a271ba7ed24"
   },
+  "talk.meet-lines.sharing": {
+    "text": "مشاركة الشاشة",
+    "source": "bbedc70e985f"
+  },
   "image.sharpen": {
     "text": "زيادة الحدة",
     "source": "ac6f0be1274c"
@@ -25381,6 +26540,10 @@
   "base.short-text": {
     "text": "نص قصير",
     "source": "38a11505fddd"
+  },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "اختصار: Ctrl+Enter في المربع",
+    "source": "46629f7a364b"
   },
   "word.ribbon.shortcuts": {
     "text": "اختصارات",
@@ -25481,6 +26644,10 @@
     "text": "إظهار الخيارات المتقدمة",
     "source": "da5bdeb6de5d"
   },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "الإظهار والقراءة بصوت عالٍ",
+    "source": "cad1b91fa8e8"
+  },
   "home.show-announcements-from-office-rutba-io": {
     "text": "إظهار الإعلانات من office.rutba.io، مرة واحدة في اليوم على الأكثر. يُرسَل رقم الإصدار ونظام التشغيل، دون أي معرّف من أي نوع، لذا فإن ما يُحسب في الطرف الآخر هو «نسخة فُتحت في مكان ما»، وليس أنت أبداً. وهي أيضاً الطريقة الوحيدة التي نعرف بها أن المجموعة تُستخدم أصلاً.",
     "source": "c22ab06b6afe"
@@ -25524,6 +26691,14 @@
   "studio.sources-column.show-on-the-frame": {
     "text": "عرض على الإطار",
     "source": "519dcf3aea71"
+  },
+  "notify-dialog.show-one-now": {
+    "text": "عرض إعلام الآن",
+    "source": "67b49e6671f5"
+  },
+  "spoken.voices.show-only": {
+    "text": "الإظهار فقط",
+    "source": "a8d71c961005"
   },
   "base.documents.show-only-when": {
     "text": "إظهار فقط عندما",
@@ -25585,6 +26760,10 @@
     "text": "إظهار عناوين الصفوف والأعمدة",
     "source": "4f7b9dcce409"
   },
+  "studio.spoken-run.show-the-words": {
+    "text": "إظهار الكلمات",
+    "source": "a64d13b0ead9"
+  },
   "sheets.dialogs.show-them-as": {
     "text": "عرضها بتنسيق",
     "source": "6380dba9f992"
@@ -25609,6 +26788,10 @@
     "text": "نوع العرض",
     "source": "5d97277b82b2"
   },
+  "notify-dialog.show-what-it-says": {
+    "text": "إظهار محتوى الإعلام",
+    "source": "01ff1c611346"
+  },
   "studio.window.show-when-this-microphone-is-heard": {
     "text": "العرض عند سماع هذا الميكروفون",
     "source": "96f36148fdc1"
@@ -25621,6 +26804,10 @@
     "text": "العرض بدون سرد",
     "source": "8ba4b5d237cc"
   },
+  "shell.tray.show-name": {
+    "text": "إظهار {name}",
+    "source": "94cf7a9396b0"
+  },
   "sheets.objects.show-draw-it-on-the-sheet": {
     "text": "إظهار: رسمه على الورقة مرة أخرى",
     "source": "d05630721fcb"
@@ -25628,6 +26815,10 @@
   "sheets.dialogs.show-the-workbook-as-the-picked": {
     "text": "إظهار: المصنف كما حفظته طريقة العرض المختارة",
     "source": "218714768526"
+  },
+  "talk.meet-lines.showing-their-screen": {
+    "text": "جارٍ عرض الشاشة",
+    "source": "1c428d39d527"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "يظهر لمن تتحدث معهم",
@@ -25648,6 +26839,10 @@
   "smartart-dialog.shows-a-list-of-ideas-one": {
     "text": "يعرض قائمة من الأفكار واحدة تحت الأخرى، كل منها في مربع عريض مستدير الزوايا.",
     "source": "f07c241a43e6"
+  },
+  "notify-dialog.shows-a-notification-so-you-see": {
+    "text": "يعرض إعلامًا، لترى وتسمع كيف تصل الإعلامات.",
+    "source": "2d376b05d758"
   },
   "smartart-dialog.shows-each-top-item-over-the": {
     "text": "يعرض كل عنصر علوي فوق العناصر التابعة له، مع خط إلى كل منها. اضغط Tab لإزاحة سطر إلى الداخل ووضعه تحت السطر الذي يعلوه.",
@@ -25720,6 +26915,14 @@
   "base.links.sign-in-there": {
     "text": "تسجيل الدخول هناك…",
     "source": "7c04fead2759"
+  },
+  "talk.meet-lines.sign-in-to-talk-again-then": {
+    "text": "سجّل الدخول إلى توك (Talk) مرة أخرى، ثم حاول الانضمام إلى الاجتماع مجددًا.",
+    "source": "b943c0a49ad6"
+  },
+  "calendar.sign-in-to-talk-first-then": {
+    "text": "سجّل الدخول إلى توك (Talk) أولًا، ثم احفظ مرة أخرى.",
+    "source": "491e45adfd74"
   },
   "talk.invite.sign-in-to-talk-to-accept": {
     "text": "سجّل الدخول إلى توك (Talk) لقبول الدعوة التي فتحتها.",
@@ -26057,6 +27260,10 @@
     "text": "حُذفت الشريحة: {title}",
     "source": "c24b313f47ef"
   },
+  "video.slide-down": {
+    "text": "انزلاق إلى الأسفل",
+    "source": "9a92bf81ad2c"
+  },
   "slides.revisions.slide-inserted": {
     "text": "أُدرجت شريحة",
     "source": "c16c67a34fec"
@@ -26064,6 +27271,10 @@
   "slides.revisions.slide-inserted-title": {
     "text": "أُدرجت شريحة: {title}",
     "source": "55acf25dcb94"
+  },
+  "video.inspector.slide-left": {
+    "text": "انزلاق إلى اليسار",
+    "source": "667e27d731ed"
   },
   "slides.revisions.slide-moved-from-from-to-to": {
     "text": "نُقلت الشريحة من {from} إلى {to}",
@@ -26073,6 +27284,10 @@
     "text": "رقم الشريحة",
     "source": "45f8d371aeda"
   },
+  "video.slide-right": {
+    "text": "انزلاق إلى اليمين",
+    "source": "c21b51293031"
+  },
   "slides.custom-shows.slide-show-name": {
     "text": "اسم عرض الشرائح",
     "source": "077168762d89"
@@ -26080,6 +27295,10 @@
   "review.slide-title": {
     "text": "عنوان الشريحة",
     "source": "612dadcd27d3"
+  },
+  "video.slide-up": {
+    "text": "انزلاق إلى الأعلى",
+    "source": "d081156f5749"
   },
   "slides.slide-at-of-total": {
     "text": "الشريحة {at} من {total}",
@@ -26156,6 +27375,18 @@
   "studio.prompter.slow": {
     "text": "بطيء",
     "source": "4b2bebbf33ae"
+  },
+  "video.inspector.slowing-to-a-stop": {
+    "text": "تباطؤ حتى التوقف",
+    "source": "baa524feba79"
+  },
+  "video.inspector.slowly-at-both-ends": {
+    "text": "ببطء عند البداية والنهاية",
+    "source": "704134084b2d"
+  },
+  "video.inspector.slowly-at-first": {
+    "text": "ببطء في البداية",
+    "source": "db97512145ab"
   },
   "common.small": {
     "text": "صغير",
@@ -26305,13 +27536,45 @@
     "text": "لا يمكن إرجاع بعض المحتوى المُزال بالتراجع. احفظ نسخة أولًا إن كنت قد تحتاجه مرة أخرى.",
     "source": "a0c21edec972"
   },
+  "talk.meet-lines.somebody-in-the-meeting-cannot-be": {
+    "text": "تعذر سماع أحد المشاركين في الاجتماع أو رؤيته هنا: نسخة توك (Talk) لديه تحمل مفتاحًا آخر. يجب أن يغادر وينضم مرة أخرى.",
+    "source": "0e0076b93070"
+  },
+  "talk.server-share.somebody-no-longer-in-your-contacts": {
+    "text": "شخص لم يعد ضمن جهات اتصالك",
+    "source": "9487d019ebd3"
+  },
   "common.someone": {
     "text": "شخص ما",
     "source": "864c855e3d64"
   },
+  "shell.notifier.someone-in-talk": {
+    "text": "شخص ما في توك (Talk)",
+    "source": "d3e2d6b776c6"
+  },
+  "talk.missed.someone-no-longer-in-your-contacts": {
+    "text": "شخص لم يعد ضمن جهات اتصالك",
+    "source": "42463e6dd6e8"
+  },
+  "talk.lines.someone-who-left": {
+    "text": "شخص غادر",
+    "source": "9d5f4f09ff49"
+  },
   "base.links.someone-whose-role-may-change-the": {
     "text": "يسمح بمصادر قاعدة البيانات هذه على هذا الحاسوب شخصٌ يتيح له دوره تغيير التصميم.",
     "source": "3b302bdc61d2"
+  },
+  "talk.settings.someone-you-blocked": {
+    "text": "شخص حظرته",
+    "source": "a9c049774e21"
+  },
+  "talk.settings.someone-you-unblock-can-ask-to": {
+    "text": "يمكن للشخص الذي تلغي حظره أن يطلب أن يكون جهة اتصال لك مرة أخرى. لا تتم إعادته إلى جهات اتصالك.",
+    "source": "e3e6c74dbcf9"
+  },
+  "talk.lines.something-else": {
+    "text": "سبب آخر",
+    "source": "cc7284314484"
   },
   "video.starters.something-new-is-here": {
     "text": "وصل شيء جديد",
@@ -26421,17 +27684,21 @@
     "text": "الصوت والكاميرا",
     "source": "dfc99fd3b4fc"
   },
+  "video.sound-and-video-files": {
+    "text": "ملفات الصوت والفيديو",
+    "source": "b7c72813a878"
+  },
+  "video.library.sound-and-video-files-you-add": {
+    "text": "ملفات الصوت والفيديو التي تضيفها هنا، من هذا الحاسوب أو من عنوان ويب، تبقى في هذه القائمة لكل المشاريع.",
+    "source": "ccb27b12993d"
+  },
   "video.sound-clip": {
     "text": "مقطع صوتي",
     "source": "556f55adc8bd"
   },
-  "studio.spoken-run.read-the-words-aloud": {
-    "text": "قراءة الكلمات بصوت عالٍ",
-    "source": "f8bde48fd589"
-  },
-  "studio.spoken-run.show-the-words": {
-    "text": "إظهار الكلمات",
-    "source": "a64d13b0ead9"
+  "video.library.sound-effects": {
+    "text": "المؤثرات الصوتية",
+    "source": "a7180005e20c"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "الصوت غير مُفعّل، لذا لا تُسمع القراءة في التسجيل ولا في البث.",
@@ -26508,6 +27775,10 @@
   "word.ribbon.spacing-for-the-paragraphs-you-have": {
     "text": "التباعد للفقرات التي حددتها",
     "source": "82c0e0a3d918"
+  },
+  "talk.lines.spam-or-advertising": {
+    "text": "رسائل غير مرغوب فيها أو إعلانات",
+    "source": "73c0fc4bd35d"
   },
   "common.sparkle": {
     "text": "بريق",
@@ -26696,6 +27967,10 @@
     "text": "السطور المنطوقة",
     "source": "b6fcaf71e96b"
   },
+  "video.ribbon.spoken-words": {
+    "text": "الكلمات المنطوقة",
+    "source": "b5f7a276ab16"
+  },
   "slides.spring-2026": {
     "text": "ربيع 2026",
     "source": "19978811abbe"
@@ -26820,6 +28095,10 @@
     "text": "البدء عند النقر",
     "source": "935ac1acfac5"
   },
+  "notify-dialog.start-rutba-office-with-windows": {
+    "text": "بدء Rutba Office مع Windows",
+    "source": "54d42e160b97"
+  },
   "slides.ribbon.start-slide-show": {
     "text": "بدء عرض الشرائح",
     "source": "fbf318d7d0dd"
@@ -26856,6 +28135,10 @@
     "text": "البدء من البداية (F5)",
     "source": "c87b7cf37193"
   },
+  "talk.groups.start-group": {
+    "text": "بدء المجموعة",
+    "source": "37ac5a2c7c6c"
+  },
   "home.start-something": {
     "text": "ابدأ عملاً جديداً",
     "source": "0c4b50ca224b"
@@ -26884,6 +28167,14 @@
     "text": "البدء:",
     "source": "84cc09ea4cfa"
   },
+  "shell.notifier.started-at-time": {
+    "text": "بدأ في الساعة {time}",
+    "source": "96673d9cbad8"
+  },
+  "talk.lines.started-the-group": {
+    "text": "بدأ المجموعة",
+    "source": "da23c27bd111"
+  },
   "base.documents.starting-from": {
     "text": "بدءًا من",
     "source": "8f51d73d59f4"
@@ -26895,6 +28186,10 @@
   "studio.record-panel.starting-in-n": {
     "text": "يبدأ بعد {n}",
     "source": "bd04cbbfa525"
+  },
+  "shell.notifier.starting-now": {
+    "text": "يبدأ الآن",
+    "source": "11dc78f6ce9c"
   },
   "video.export.starting-the-encoder": {
     "text": "جارٍ بدء الترميز…",
@@ -27044,6 +28339,10 @@
     "text": "إيقاف القراءة",
     "source": "78be99f18a5c"
   },
+  "word.stop-reading-to-change-the-words": {
+    "text": "أوقف القراءة بصوت عالٍ لتغيير النص.",
+    "source": "9cfe5190d612"
+  },
   "shell.ipc.stop-recording": {
     "text": "إنهاء التسجيل",
     "source": "3d591e826d54"
@@ -27059,6 +28358,10 @@
   "talk.stop-sharing": {
     "text": "إيقاف المشاركة",
     "source": "b2c78147ed57"
+  },
+  "studio.guests.stop-the-recording-first": {
+    "text": "أوقف التسجيل أولًا.",
+    "source": "bceedc4c4eda"
   },
   "sheets.dialogs.stop-value": {
     "text": "قيمة التوقف",
@@ -27404,6 +28707,10 @@
     "text": "جارٍ المزامنة…",
     "source": "8a046cc90ab0"
   },
+  "print.system-dialog": {
+    "text": "مربع حوار النظام…",
+    "source": "67f7c0af7646"
+  },
   "read-aloud.bar.system-voice": {
     "text": "صوت النظام",
     "source": "2d3d23392b00"
@@ -27619,6 +28926,10 @@
     "text": "إزالة من الإطار",
     "source": "a45c22273922"
   },
+  "studio.guests.take-out": {
+    "text": "إخراج",
+    "source": "a7fc33e3bc67"
+  },
   "base.form-designer.take-the-field-picked-off-the": {
     "text": "إزالة الحقل المحدد من النموذج. يبقى في الجدول.",
     "source": "4aacdaf96dce"
@@ -27667,6 +28978,14 @@
     "text": "إزالة {email}",
     "source": "dabf194f9fee"
   },
+  "studio.guests.take-name-out-of-the-meeting": {
+    "text": "إخراج {name} من الاجتماع؟",
+    "source": "7c3125d540b1"
+  },
+  "talk.groups.take-name-out-of-this-group": {
+    "text": "إخراج {name} من هذه المجموعة؟",
+    "source": "74905e01f3b4"
+  },
   "common.take-n": {
     "text": "اللقطة {n}",
     "source": "26dc5b52d6c6"
@@ -27699,6 +29018,30 @@
     "text": "Talk",
     "source": "449f5a775762"
   },
+  "common.talk-cannot-do-this-yet-the": {
+    "text": "لا يستطيع توك (Talk) القيام بهذا بعد: خدمة توك التي تتصل بها هذه النسخة تحتاج إلى تحديث.",
+    "source": "4e1bd3d7d0ef"
+  },
+  "talk.invite.talk-cannot-take-invitations-yet-the": {
+    "text": "لا يستطيع توك (Talk) استقبال الدعوات بعد: خدمة توك التي تتصل بها هذه النسخة تحتاج إلى تحديث.",
+    "source": "55636b97709a"
+  },
+  "talk.server-share.talk-could-not-change-who-may": {
+    "text": "تعذر على توك (Talk) تغيير من يمكنه عقد اجتماعات على {name}. حاول بعد قليل.",
+    "source": "dc1ab49ae9ad"
+  },
+  "talk.meet-lines.talk-could-not-confirm-that-the": {
+    "text": "تعذر على توك (Talk) التأكد من أن خادم توك (Talk Server) هو الخادم الذي يُعقد عليه هذا الاجتماع، لذا لم يتصل به.",
+    "source": "9684b385d927"
+  },
+  "talk.meet-lines.talk-could-not-connect-to-the": {
+    "text": "تعذر على توك (Talk) الاتصال بخادم توك (Talk Server) الخاص بالاجتماع. حاول مرة أخرى بعد قليل.",
+    "source": "703304b87918"
+  },
+  "calendar.talk-could-not-connect-so-the": {
+    "text": "تعذر اتصال توك (Talk)، لذا لم يتم إعداد الاجتماع. تحقق من الاتصال، ثم احفظ مرة أخرى.",
+    "source": "80ec6966c483"
+  },
   "talk.address.talk-could-not-do-that-now": {
     "text": "تعذر على توك (Talk) فعل ذلك الآن. حاول بعد قليل.",
     "source": "724fa466cd0e"
@@ -27707,9 +29050,41 @@
     "text": "تعذر على توك (Talk) فعل ذلك. حاول مرة أخرى بعد قليل.",
     "source": "dc5636efcd10"
   },
+  "talk.meet-lines.talk-could-not-reach-the-meetings": {
+    "text": "تعذر على توك (Talk) الوصول إلى خادم توك (Talk Server) الخاص بالاجتماع. تحقق من اتصالك، ثم حاول مرة أخرى.",
+    "source": "0d4b04ba1935"
+  },
+  "talk.meet-lines.talk-could-not-use-your-camera": {
+    "text": "تعذر على توك (Talk) استخدام الكاميرا. تحقق من إعدادات الخصوصية للكاميرا على هذا الحاسوب، ومن عدم استخدام تطبيق آخر لها.",
+    "source": "5aa2f3a5e702"
+  },
+  "talk.meet-lines.talk-could-not-use-your-microphone": {
+    "text": "تعذر على توك (Talk) استخدام الميكروفون. لا يمكن للآخرين سماعك. تحقق من إعدادات الخصوصية للميكروفون على هذا الحاسوب.",
+    "source": "26e36fca513a"
+  },
+  "talk.talk-is-not-connected": {
+    "text": "Talk غير متصل.",
+    "source": "ce45e3ce7fde"
+  },
   "talk.invite.talk-is-not-connected-try-again": {
     "text": "توك (Talk) غير متصل. حاول مرة أخرى بعد قليل.",
     "source": "a4eca2b3e847"
+  },
+  "calendar.talk-is-not-installed-on-this": {
+    "text": "توك (Talk) غير مثبت على هذا الحاسوب.",
+    "source": "aea90ea8e986"
+  },
+  "talk.settings.talk-settings": {
+    "text": "إعدادات Talk",
+    "source": "36e8d5e94219"
+  },
+  "talk.lines.talk-was-not-open": {
+    "text": "لم يكن توك (Talk) مفتوحًا",
+    "source": "62d9c8e2fe06"
+  },
+  "studio.window.talk-windows-cannot-be-shown-here": {
+    "text": "لا يمكن عرض نوافذ توك (Talk) هنا. ضع اجتماعًا على الهواء من «الضيوف».",
+    "source": "76c4164f1516"
   },
   "talk.invite.talk-with-me-on-rutba-talk": {
     "text": "تحدث معي على رتبة توك (Rutba Talk)",
@@ -27718,6 +29093,10 @@
   "talk.talk-with-your-contacts": {
     "text": "تحدث مع جهات اتصالك",
     "source": "0a7725c8bf79"
+  },
+  "notify-dialog.talk-mail-and-calendar-are-what": {
+    "text": "يراقب رتبة أوفيس (Rutba Office) توك (Talk) والبريد والتقويم. لا شيء منها مفعّل في ملف التعريف هذا.",
+    "source": "4dada8cac654"
   },
   "common.talking-head": {
     "text": "متحدّث أمام الكاميرا",
@@ -27778,6 +29157,10 @@
   "video.teleprompter-speed": {
     "text": "سرعة الملقّن",
     "source": "a5298db8dfb1"
+  },
+  "notify-dialog.tell-me-of": {
+    "text": "الإعلام عن",
+    "source": "d3b27184ede8"
   },
   "calendar.tell-the-people-invited-that-it": {
     "text": "هل تريد إبلاغ المدعوين بأنه أُلغي؟",
@@ -28028,6 +29411,10 @@
     "text": "تحويل النص إلى جدول",
     "source": "808523cd0725"
   },
+  "common.text-to-speech": {
+    "text": "تحويل النص إلى كلام",
+    "source": "71e02f22899a"
+  },
   "design.text-background-dark-1": {
     "text": "نص/خلفية، داكن 1",
     "source": "c5b1de5a8e5a"
@@ -28056,10 +29443,6 @@
     "text": "شكرًا على المشاهدة",
     "source": "c708e3d71205"
   },
-  "common.text-to-speech": {
-    "text": "تحويل النص إلى كلام",
-    "source": "71e02f22899a"
-  },
   "common.thanks-for-watching": {
     "text": "شكراً للمشاهدة",
     "source": "2179829c978c"
@@ -28084,6 +29467,10 @@
     "text": "لم يتم إعداد هذا الحساب.",
     "source": "69273d39e7a6"
   },
+  "video.library.that-address-is-in-the-list": {
+    "text": "هذا العنوان موجود في القائمة بالفعل.",
+    "source": "8aa9b6a797f1"
+  },
   "engine.that-address-is-not-one-this": {
     "text": "لا يمكن تسجيل الدخول إلى هذا العنوان من هنا.",
     "source": "1020211ad9ca"
@@ -28099,6 +29486,10 @@
   "video.that-came-out-at-size-over": {
     "text": "جاء الناتج {size}، أكبر من {limit}. تجري إعادة الترميز عند {rate}.",
     "source": "4745d07b03ec"
+  },
+  "studio.net-camera-find.that-camera-is-no-longer-in": {
+    "text": "لم تعد تلك الكاميرا في القائمة. ابحث مرة أخرى.",
+    "source": "47549aa38750"
   },
   "mail.smime.that-cipher-is-too-weak-to": {
     "text": "هذا التشفير أضعف من أن يحفظ خصوصية رسالة اليوم.",
@@ -28203,6 +29594,14 @@
     "text": "هذا ليس كاميو",
     "source": "7aac81dea761"
   },
+  "studio.net-camera-words.that-is-not-a-camera-address": {
+    "text": "هذا ليس عنوان كاميرا.",
+    "source": "e8747deb7bbd"
+  },
+  "studio.net-camera-dialog.that-is-not-a-camera-address": {
+    "text": "هذا ليس عنوان كاميرا. يبدأ العنوان بالبادئة rtsp:// ثم اسم الكاميرا أو رقمها.",
+    "source": "90f41611e9c4"
+  },
   "engine.that-is-not-a-picture": {
     "text": "هذه ليست صورة",
     "source": "cbd382ebdc2a"
@@ -28214,6 +29613,10 @@
   "engine.that-is-not-a-picture-2": {
     "text": "هذه ليست صورة.",
     "source": "53d2759ddbb2"
+  },
+  "video.library.that-is-not-a-web-address": {
+    "text": "هذا ليس عنوان ويب.",
+    "source": "a8b694cd4023"
   },
   "talk.invite.that-is-not-an-email-address": {
     "text": "هذا ليس عنوان بريد إلكتروني.",
@@ -28231,6 +29634,10 @@
     "text": "هذه حافة الجدول نفسها. لا توجد خلية بعدها للدمج معها.",
     "source": "09b145221fad"
   },
+  "common.that-is-too-many-for-now": {
+    "text": "هذا عدد كبير جدًا في الوقت الحالي. حاول مرة أخرى بعد قليل.",
+    "source": "d23549fc97f2"
+  },
   "qrcode.that-is-too-much-for-a": {
     "text": "هذا أكثر مما يتسع له رمز QR بهذا المستوى من تصحيح الأخطاء. اختر مستوى أقل، أو اختصر النص.",
     "source": "fba3deaee4e5"
@@ -28242,6 +29649,14 @@
   "mail.that-link-was-not-opened-it": {
     "text": "لم يُفتح هذا الرابط: فهو ليس لصفحة ويب ولا لعنوان بريد إلكتروني.",
     "source": "2aea50825a3d"
+  },
+  "studio.guests.that-meeting-was-not-set-up": {
+    "text": "لم يُعدّ ذلك الاجتماع ليُسجَّل، لذا لا يمكن تسجيله هنا.",
+    "source": "e6ebcbc087f2"
+  },
+  "studio.guests.that-meeting-was-not-set-up-2": {
+    "text": "لم يُعدّ ذلك الاجتماع ليُبث مباشرة، لذا لا يمكن وضعه على الهواء.",
+    "source": "1b3f1bf9ce65"
   },
   "engine.that-message-is-not-there-any": {
     "text": "لم تعد تلك الرسالة موجودة.",
@@ -28270,6 +29685,14 @@
   "shell.profile-lock.that-password-is-not-right-try": {
     "text": "كلمة المرور هذه غير صحيحة. حاول مرة أخرى.",
     "source": "910f24f97048"
+  },
+  "talk.lines.that-person-cannot-be-chosen-here": {
+    "text": "لا يمكن اختيار هذا الشخص هنا.",
+    "source": "45bb91b969c3"
+  },
+  "talk-words.that-person-is-not-in-the": {
+    "text": "هذا الشخص ليس في الاجتماع.",
+    "source": "7b427fee1460"
   },
   "common.that-picture-could-not-be-read": {
     "text": "تعذرت قراءة هذه الصورة.",
@@ -28323,9 +29746,17 @@
     "text": "قيمة الخطوة هذه لا تصل أبدًا إلى قيمة الإيقاف: أدخل خطوة أخرى، أو حدد الخلايا المراد تعبئتها",
     "source": "e01b65075502"
   },
+  "talk-words.that-time-cannot-be-used-for": {
+    "text": "لا يمكن استخدام هذا الوقت لاجتماع.",
+    "source": "82359a1b0796"
+  },
   "engine.that-window-has-closed-since-the": {
     "text": "أُغلقت هذه النافذة منذ إعداد القائمة.",
     "source": "c7352c412f96"
+  },
+  "shell.ipc.that-window-is-in-a-call": {
+    "text": "تلك النافذة في مكالمة أو اجتماع، لذا لا يمكن عرضها أو تسجيلها.",
+    "source": "d1e814b1090a"
   },
   "slides.that-works-on-slides-close-master": {
     "text": "يعمل ذلك على الشرائح. انقر «إغلاق طريقة العرض الرئيسية» أولًا.",
@@ -28399,6 +29830,34 @@
     "text": "دليل العروض التقديمية على office.rutba.io",
     "source": "87e5a0cf02ef"
   },
+  "talk.meet-lines.the-talk-server-did-not-let": {
+    "text": "لم يسمح لك خادم توك (Talk Server) بالدخول. انضم مرة أخرى ليُسمح لك بالدخول.",
+    "source": "b14665829b5c"
+  },
+  "talk.meet-lines.the-talk-server-did-not-let-2": {
+    "text": "لم يسمح لك خادم توك (Talk Server) بالدخول. انضم مرة أخرى ليكون بإمكان {name} السماح لك بالدخول.",
+    "source": "65492eb99b5e"
+  },
+  "talk.meet-lines.the-talk-server-did-not-take": {
+    "text": "لم يقبل خادم توك (Talk Server) الاتصال. ربما يكون الاجتماع ممتلئًا. حاول مرة أخرى بعد قليل.",
+    "source": "9db57d87fa81"
+  },
+  "talk.meet-lines.the-talk-server-did-not-take-2": {
+    "text": "لم يُدخلك خادم توك (Talk Server) إلى الاجتماع. ابدأ الاجتماع مرة أخرى.",
+    "source": "b79482615aa2"
+  },
+  "talk.meet-lines.the-talk-server-offered-a-connection": {
+    "text": "عرض خادم توك (Talk Server) اتصالًا غير مشفّر، لذا لم يتصل به توك (Talk).",
+    "source": "f7dfc7436a07"
+  },
+  "talk.meet-lines.the-talk-servers-certificate-could-not": {
+    "text": "تعذر التحقق من شهادة خادم توك (Talk Server)، لذا لم يتصل به توك (Talk).",
+    "source": "33fd127fc503"
+  },
+  "talk.meet-lines.the-talk-service-did-not-let": {
+    "text": "لم تسمح خدمة توك (Talk) بعقد هذا الاجتماع على خادم توك (Talk Server).",
+    "source": "99957ec824dd"
+  },
   "sheets.ribbon.the-worksheets-guide-on-office-rutba": {
     "text": "دليل أوراق العمل على office.rutba.io",
     "source": "de05c2d52be3"
@@ -28415,6 +29874,14 @@
     "text": "يخفي العنوان وجهته خلف اسم وعلامة @: إنه يذهب فعلًا إلى {host}.",
     "source": "ad10fa26c0e8"
   },
+  "video.library.the-address-must-start-https": {
+    "text": "يجب أن يبدأ العنوان بالبادئة https://.",
+    "source": "c83e4b4d033c"
+  },
+  "studio.net-camera-dialog.the-address-starts-rtsp-the-cameras": {
+    "text": "يبدأ العنوان بالبادئة rtsp://. تجده في دليل الكاميرا أو في تطبيقها الخاص.",
+    "source": "d7f1043ad6d9"
+  },
   "calendar.invite-card.the-answer-is-on-the-meeting": {
     "text": "الرد مسجّل على الاجتماع في تقويمك.",
     "source": "999de5959576"
@@ -28426,6 +29893,10 @@
   "apps-choice.the-apps-you-want-to-see": {
     "text": "التطبيقات التي تريد أن تراها وأن تفتح ملفاتك.",
     "source": "332e5249e305"
+  },
+  "video.inspector.the-bar-fills-from-where-this": {
+    "text": "يمتلئ الشريط من حيث يبدأ هذا المقطع إلى حيث ينتهي.",
+    "source": "01d9656a5ad1"
   },
   "video.the-brand-kit-is-kept-for": {
     "text": "عُدّة العلامة محفوظة لك ومرسومة في كل مشهد.",
@@ -28447,9 +29918,41 @@
     "text": "تعذر فتح الكاميرا، لذا يُسجَّل صوتك فقط: {reason}",
     "source": "0f481ff68eb0"
   },
+  "studio.net-camera-words.the-camera-did-not-accept-the": {
+    "text": "لم تقبل الكاميرا اسم المستخدم وكلمة المرور.",
+    "source": "0e773912d1c5"
+  },
+  "studio.net-camera-find.the-camera-did-not-give-a": {
+    "text": "لم تقدم الكاميرا عنوان بث. أضفها بواسطة عنوانها بدلًا من ذلك.",
+    "source": "362ec12ee3f5"
+  },
+  "studio.net-camera-words.the-camera-has-no-stream-at": {
+    "text": "لا يوجد بث للكاميرا على هذا العنوان.",
+    "source": "bf4afbb0f55c"
+  },
   "recording.camera.the-camera-is-in-use-by": {
     "text": "الكاميرا قيد الاستخدام من قِبل برنامج آخر.",
     "source": "8f814a035e77"
+  },
+  "studio.net-camera-words.the-camera-is-not-answering-trying": {
+    "text": "الكاميرا لا تستجيب. جارٍ إعادة المحاولة.",
+    "source": "0e5b2592941f"
+  },
+  "studio.net-camera-words.the-camera-refused-to-give-this": {
+    "text": "رفضت الكاميرا تقديم هذا البث.",
+    "source": "58a3f51cddf5"
+  },
+  "studio.net-camera-words.the-camera-sends-no-h-264": {
+    "text": "لا ترسل الكاميرا صورة H.264 على هذا العنوان.",
+    "source": "492836237144"
+  },
+  "studio.net-camera-words.the-camera-sent-office-to-another": {
+    "text": "أحالت الكاميرا Office إلى عنوان آخر، ولا تتم متابعة هذه الإحالة.",
+    "source": "1806cd635219"
+  },
+  "studio.net-camera-find.the-camera-stopped-answering-look-again": {
+    "text": "توقفت الكاميرا عن الاستجابة. ابحث مجددًا.",
+    "source": "c5581f7307dc"
   },
   "slides.cameo.the-camera-stopped": {
     "text": "توقفت الكاميرا.",
@@ -28458,6 +29961,10 @@
   "recording.camera.the-camera-was-not-allowed": {
     "text": "لم يُسمح باستخدام الكاميرا.",
     "source": "432525bd7e5b"
+  },
+  "studio.net-camera-words.the-cameras-certificate-could-not-be": {
+    "text": "تعذر التحقق من شهادة الكاميرا.",
+    "source": "82540f0abbcb"
   },
   "calendar.the-cancellation-is-sent-to-count": {
     "forms": {
@@ -28526,6 +30033,10 @@
     "text": "تعذر على التحقق الوصول إلى GitHub حيث تُحفظ الإصدارات. تحقق من اتصالك وحاول مرة أخرى.",
     "source": "84d60dd0d3b6"
   },
+  "contacts.the-chosen-contact": {
+    "text": "جهة الاتصال المحددة",
+    "source": "5dcc962557fb"
+  },
   "video.the-clip-could-not-be-reversed": {
     "text": "تعذّر عكس المقطع: {reason}",
     "source": "8fa2aa15a1ee"
@@ -28557,6 +30068,10 @@
   "ai-tools-dialog.the-connection-is-not-encrypted-use": {
     "text": "الاتصال غير مشفر. استخدمه على شبكة تثق بها، أو صِل إليه عبر نفق آمن. يمكن لأي شخص لديه المفتاح استخدام الأدوات ما دامت تعمل.",
     "source": "d47063f9f70e"
+  },
+  "talk-words.the-connection-was-lost-and-the": {
+    "text": "انقطع الاتصال وتعذر الانضمام إلى الاجتماع مرة أخرى.",
+    "source": "ecc583f6d5d1"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "لا يمكن أن يقع نطاق المعايير داخل القائمة",
@@ -28764,6 +30279,10 @@
     "text": "الأحرف الأولى من «{column}»",
     "source": "b944f22738f2"
   },
+  "print.the-first-page-as-it-prints": {
+    "text": "الصفحة الأولى، كما ستُطبع",
+    "source": "714858151c3d"
+  },
   "video.the-first-try-came-out-with": {
     "text": "خرجت المحاولة الأولى دون صورة، لذا بدأ التصدير من جديد.",
     "source": "af1e9fb70b7f"
@@ -28836,6 +30355,10 @@
     "text": "الدعوة مرفقة: يعرضها برنامج التقويم مع «قبول» و«مبدئي» و«رفض».",
     "source": "916e39ce6f00"
   },
+  "calendar.the-invitation-says-so-and-everyone": {
+    "text": "تذكر الدعوة ذلك، ويُبلَّغ الجميع مرة أخرى قبل الانضمام. لا يمكن تغيير ذلك بعد حفظ الحدث.",
+    "source": "34283da216e9"
+  },
   "talk.the-invitation-to-email-is-withdrawn": {
     "text": "سُحبت الدعوة الموجهة إلى {email}.",
     "source": "e97f1c145a8b"
@@ -28887,6 +30410,10 @@
   "mail.the-link-could-not-be-opened": {
     "text": "تعذّر فتح الرابط: {reason}",
     "source": "f9feb1a56e08"
+  },
+  "calendar.the-link-goes-in-the-invitation": {
+    "text": "يُضاف الارتباط إلى الدعوة عند حفظ الحدث.",
+    "source": "6aee9a938dce"
   },
   "mail.links.the-link-goes-to-a-bare": {
     "text": "يذهب الرابط إلى رقم مجرد ({host})، لا إلى موقع له اسم.",
@@ -29022,6 +30549,18 @@
   "pdf.redact.the-marked-words-were-found-nowhere": {
     "text": "لم يُعثر على الكلمات المعلَّمة في أي موضع آخر من الملف.",
     "source": "d6895ebf74fc"
+  },
+  "talk-words.the-meeting-has-ended": {
+    "text": "انتهى الاجتماع.",
+    "source": "cc0f6f1d8713"
+  },
+  "talk.meet-lines.the-meeting-is-full-on-its": {
+    "text": "الاجتماع ممتلئ على خادم توك (Talk Server) الخاص به.",
+    "source": "a28293313806"
+  },
+  "talk.meet-lines.the-meetings-talk-server-is-not": {
+    "text": "لا يقبل خادم توك (Talk Server) الخاص بالاجتماع أشخاصًا الآن. حاول مرة أخرى بعد قليل.",
+    "source": "1ba2db75411e"
   },
   "sheets.the-memo-file-was-not-beside": {
     "text": "لم يكن ملف المذكرات بجانب الجدول، لذا حقول المذكرات فارغة.",
@@ -29159,6 +30698,14 @@
     "text": "ترتيب المجلد",
     "source": "30418ead37ff"
   },
+  "talk-words.the-organiser-will-record-this-meeting": {
+    "text": "سيسجل المنظِّم هذا الاجتماع على حاسوبه، وقد يشارك التسجيل.",
+    "source": "921618d46444"
+  },
+  "talk-words.the-organiser-will-stream-this-meeting": {
+    "text": "سيبث المنظِّم هذا الاجتماع مباشرة على الإنترنت. يمكن لأي مشاهد أن يرى ويسمع من ينضمون.",
+    "source": "b99065a333e6"
+  },
   "image.the-original-is-untouched": {
     "text": "يبقى الأصل دون تغيير.",
     "source": "47a5d88b8255"
@@ -29219,6 +30766,10 @@
     "text": "تم تغيير كلمة المرور.",
     "source": "48b340636b7a"
   },
+  "studio.the-password-is-kept-in-this": {
+    "text": "تُحفظ كلمة المرور في مخزن المفاتيح على هذا الحاسوب ولا تُعرض مرة أخرى. يقرأ Office الكاميرا فقط عندما تكون مصدرًا قيد التشغيل في المشهد المفتوح، ولا يسجل شيئًا من تلقاء نفسه.",
+    "source": "a06c01b372ed"
+  },
   "base.sources.the-password-is-kept-in-this": {
     "text": "تُحفظ كلمة المرور في المخزن المحمي لهذا الحاسوب، لا في الملف أبدًا.",
     "source": "238083babcc6"
@@ -29247,6 +30798,30 @@
     "text": "تعذّر فتح كلمات المرور المحفوظة في هذا الملف الشخصي على هذا الحاسوب.",
     "source": "acb3592270e8"
   },
+  "talk.server-share.the-people-i-choose": {
+    "text": "الأشخاص الذين أختارهم",
+    "source": "36c32fb33927"
+  },
+  "talk.meeting.the-people-here-become-guests-of": {
+    "text": "يصبح الأشخاص هنا ضيوفًا في بثك. لا يُبث شيء حتى تبدأ البث المباشر هناك.",
+    "source": "e32bdeab5f44"
+  },
+  "talk.meeting.the-people-here-become-guests-of-2": {
+    "text": "يصبح الأشخاص هنا ضيوفًا في تسجيلك. لا يُسجَّل شيء حتى تبدأ التسجيل هناك.",
+    "source": "0029bd61f40d"
+  },
+  "talk.meet-lines.the-person-who-set-it-up": {
+    "text": "الشخص الذي أعدّ الاجتماع هو من يسمح بالدخول: يمكنك الدخول بعد انضمام هذا الشخص إلى الاجتماع.",
+    "source": "e3c88ab34577"
+  },
+  "video.the-picked-clip-is-held-as": {
+    "text": "يُثبَّت المقطع المحدد كما هو عند رأس التشغيل؛ عيّن نقطة أخرى في وقت آخر، فينتقل المقطع بين النقطتين",
+    "source": "3750c996d700"
+  },
+  "video.the-picked-clip-no-longer-stops": {
+    "text": "لم يعد المقطع المحدد يتوقف هنا في طريقه",
+    "source": "6fd09ebed34a"
+  },
   "image.the-picture": {
     "text": "الصورة",
     "source": "4c104b5e7d1b"
@@ -29262,6 +30837,10 @@
   "studio.live-panel.the-picture-as-it-will-go": {
     "text": "الصورة كما ستُبث",
     "source": "bc06b3ee00fb"
+  },
+  "video.inspector.the-picture-comes-up-from-black": {
+    "text": "تظهر الصورة تدريجيًا من الأسود عند بداية هذا المقطع، وتتلاشى إلى الأسود عند نهايته.",
+    "source": "2181c1078bfc"
   },
   "image.formats.the-picture-could-not-be-drawn": {
     "text": "تعذّر رسم الصورة بهذا الحجم.",
@@ -29347,6 +30926,14 @@
     "text": "العرض التقديمي غير مفتوح",
     "source": "f29457024833"
   },
+  "print.the-printer-did-not-accept-this": {
+    "text": "لم تقبل الطابعة هذا الورق أو هذه الإعدادات. اختر ورقًا آخر، أو طابعة أخرى.",
+    "source": "774689bf480b"
+  },
+  "print.the-printer-did-not-take-the": {
+    "text": "لم تستلم الطابعة المهمة. تحقق من أنها قيد التشغيل ومتصلة، ثم حاول مرة أخرى.",
+    "source": "f4eec391cb2b"
+  },
   "base.the-program-that-made-this-database": {
     "text": "البرنامج الذي أنشأ قاعدة البيانات هذه يحفظ سجلاته بطريقته. أي سجل تضيفه أو تغيّره أو تحذفه هنا يذهب مباشرة إلى ملفه، حيث قد لا يتوقعه ذلك البرنامج. أغلق ذلك البرنامج أولاً، واحتفظ بنسخة من الملف إن لم تكن متأكداً.",
     "source": "8002f92792a1"
@@ -29394,6 +30981,10 @@
     },
     "source": "4f5d2c815440"
   },
+  "talk.meet-lines.the-recording-is-running-you-are": {
+    "text": "التسجيل قيد التشغيل. لست ضمنه في الوقت الحالي.",
+    "source": "4036dc31bdb1"
+  },
   "base.links.the-records-of-table-could-not": {
     "text": "تعذّرت قراءة سجلات {table} من {link}: {why}",
     "source": "660d34a04cc8"
@@ -29433,6 +31024,10 @@
   "slides.ribbon.the-release-notes": {
     "text": "ملاحظات الإصدار",
     "source": "3f798451b655"
+  },
+  "talk.report.the-report-goes-to-rutba-name": {
+    "text": "يُرسل البلاغ إلى Rutba. لن يتم إخبار {name}.",
+    "source": "f6c7917c49db"
   },
   "template-gallery.the-results-of-a-quarter-the": {
     "text": "نتائج ربع سنة: الأرقام والإيرادات شهريًا وما نجح والدروس والأهداف",
@@ -29649,6 +31244,10 @@
     "text": "يُحفظ ملف PDF الأصغر ملفًا جديدًا؛ ولا يتغير هذا. حجمه الآن {size}.",
     "source": "6442a2655dcc"
   },
+  "notify-dialog.the-sound-windows-plays-with-a": {
+    "text": "الصوت الذي يشغله Windows مع الإعلام",
+    "source": "653106fa20ba"
+  },
   "video.the-sound-could-not-be-added": {
     "text": "تعذّرت إضافة الصوت: {reason}",
     "source": "35d9bcec9939"
@@ -29692,6 +31291,10 @@
   "studio.live-bar.the-stream-has-ended": {
     "text": "انتهى البث.",
     "source": "d57ae372ef20"
+  },
+  "talk.meet-lines.the-stream-is-on-air-you": {
+    "text": "البث على الهواء. لست ضمنه في الوقت الحالي.",
+    "source": "11eb1300420f"
   },
   "ui.proofing.the-suite-has-english-dictionaries-only": {
     "text": "لا تحتوي المجموعة إلا على قواميس إنجليزية، لذا يتخطى التدقيق الإملائي الكلمات المكتوبة باللغة {language} بدلاً من تمييزها كأخطاء؛ أما Office فيدققها باللغة {language}.",
@@ -29765,6 +31368,14 @@
     "text": "الأداة",
     "source": "597e25a2a916"
   },
+  "video.inspector.the-transition-into-the-next-clip": {
+    "text": "الانتقال إلى المقطع التالي هو طريقة خروج هذا المقطع.",
+    "source": "6f504ea49383"
+  },
+  "video.inspector.the-transition-into-this-clip-is": {
+    "text": "الانتقال إلى هذا المقطع هو طريقة دخوله.",
+    "source": "580927f3dd13"
+  },
   "common.the-two-passwords-are-not-the": {
     "text": "كلمتا المرور غير متطابقتين.",
     "source": "bb612d83804d"
@@ -29784,22 +31395,6 @@
   "video.library.the-videos-sound-and-pictures-in": {
     "text": "تُحفظ هنا مقاطع الفيديو والأصوات والصور في هذا المشروع، لإضافتها مرة أخرى.",
     "source": "4075715096b2"
-  },
-  "spoken.voices.read-aloud-only": {
-    "text": "القراءة بصوت عالٍ فقط",
-    "source": "3953b35ec0c1"
-  },
-  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
-    "text": "اختصار: Ctrl+Enter في المربع",
-    "source": "46629f7a364b"
-  },
-  "spoken.voices.show-and-read-aloud": {
-    "text": "الإظهار والقراءة بصوت عالٍ",
-    "source": "cad1b91fa8e8"
-  },
-  "spoken.voices.show-only": {
-    "text": "الإظهار فقط",
-    "source": "a8d71c961005"
   },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "لم يُنتج الصوت أي إخراج صوتي لهذا السطر.",
@@ -29841,9 +31436,17 @@
     "text": "يتغيّر النص؛ ويبقى الرقم ومرجعه في مكانهما.",
     "source": "a349d752c423"
   },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "تظهر الكلمات عند رأس التشغيل، سطرًا تلو الآخر، فوق الصورة.",
+    "source": "841b57677821"
+  },
   "pdf.redact.the-words-marked-words": {
     "text": "الكلمات المعلَّمة: {words}",
     "source": "dc8443be756f"
+  },
+  "notify-dialog.the-words-of-a-message-and": {
+    "text": "نص الرسالة وموضوع البريد الإلكتروني. عند إيقافه، يذكر الإعلام اسم المرسل فقط.",
+    "source": "aa2ea8a7d8f1"
   },
   "engine.the-words-to-make-a-table": {
     "text": "النص المراد تحويله إلى جدول موجود في جدول بالفعل.",
@@ -30146,6 +31749,17 @@
     "text": "لا يوجد ما يُبث بعد.",
     "source": "b18177f5d0d3"
   },
+  "pictures.print.there-is-count-picture-here-more": {
+    "forms": {
+      "zero": "لا صور هنا، والحد الأقصى لمهمة طباعة واحدة هو {most}. اختر عددًا أقل.",
+      "one": "هنا صورة واحدة، وهذا أكثر من الحد الأقصى لمهمة طباعة واحدة وهو {most}. اختر عددًا أقل.",
+      "two": "هنا صورتان، وهذا أكثر من الحد الأقصى لمهمة طباعة واحدة وهو {most}. اختر عددًا أقل.",
+      "few": "هنا {count} صور، وهذا أكثر من الحد الأقصى لمهمة طباعة واحدة وهو {most}. اختر عددًا أقل.",
+      "many": "هنا {count} صورة، وهذا أكثر من الحد الأقصى لمهمة طباعة واحدة وهو {most}. اختر عددًا أقل.",
+      "other": "هنا {count} صورة، وهذا أكثر من الحد الأقصى لمهمة طباعة واحدة وهو {most}. اختر عددًا أقل."
+    },
+    "source": "5c9d627303d8"
+  },
   "common.thesaurus": {
     "text": "قاموس المرادفات",
     "source": "39ee7c38435d"
@@ -30210,6 +31824,14 @@
     "text": "يُزالون من جهات اتصالك ولا يمكنهم طلب الاتصال مجددًا أو الوصول إليك.",
     "source": "9f51b4fdc716"
   },
+  "talk.they-cannot-ask-to-be-in": {
+    "text": "لا يمكن لهذا الشخص طلب التواصل معك مرة أخرى أو الوصول إليك. لن يتم إبلاغه بذلك.",
+    "source": "dee1768ca554"
+  },
+  "studio.guests.they-cannot-join-this-meeting-again": {
+    "text": "لا يمكن لهذا الشخص الانضمام مجددًا.",
+    "source": "def7bc098df1"
+  },
   "base.ai-tools.they-may-also-add-records-and": {
     "text": "ويمكنها أيضاً إضافة السجلات وتغييرها. لا تغيّر التصميم أبداً، ولا تحذف أبداً.",
     "source": "8b74841f0d5a"
@@ -30221,6 +31843,10 @@
   "base.ai-tools.they-may-read-its-records": {
     "text": "يمكنها قراءة سجلاتها.",
     "source": "2a1104df2724"
+  },
+  "talk.groups.they-no-longer-see-what-is": {
+    "text": "لن يرى هذا الشخص ما يُكتب هنا بعد الآن. ما قرأه من قبل يبقى لديه.",
+    "source": "a3b27170bf21"
   },
   "talk.invite.they-see-it-in-talk-if": {
     "text": "يرونها في توك (Talk) إن كانوا يستخدمونه. يمكنك إرسال الرابط إليهم بنفسك لاحقًا.",
@@ -30266,6 +31892,10 @@
     "text": "الثالث",
     "source": "5e7425d72f32"
   },
+  "video.library.third-point": {
+    "text": "النقطة الثالثة",
+    "source": "7bb2711613d0"
+  },
   "slides.ribbon.this-device": {
     "text": "هذا الجهاز…",
     "source": "52daeef5cf25"
@@ -30294,9 +31924,13 @@
     "text": "جداول الإسناد الترافقي في ملف PDF هذا تالفة، لذا لا يمكن إضافة طبقة نص إليه كما هو. احفظ نسخة أولًا، ثم تعرّف على نص النسخة.",
     "source": "1050973fa0a2"
   },
-  "talk.invite.this-talk-server-does-not-take": {
-    "text": "خادم توك (Talk) هذا لا يقبل الدعوات بعد.",
-    "source": "9b3cb2160f1c"
+  "talk.meet-lines.this-talk-service-cannot-hold-a": {
+    "text": "لا يمكن لخدمة توك (Talk) هذه عقد اجتماع على خادم توك (Talk Server) بعد، لذا فهذا اجتماع صغير يتسع لأربعة أشخاص.",
+    "source": "c1d3029a92cf"
+  },
+  "talk.meet-lines.this-talk-service-has-no-talk": {
+    "text": "لا توجد خوادم توك (Talk Servers) لدى خدمة توك هذه، لذا لا يمكن عقد الاجتماع على أحدها.",
+    "source": "8e28496cf764"
   },
   "mail.this-account": {
     "text": "هذا الحساب",
@@ -30305,6 +31939,10 @@
   "word.untracked.this-action-will-not-be-marked": {
     "text": "لن يتم تمييز هذا الإجراء كتغيير.",
     "source": "7b97913a5c04"
+  },
+  "studio.net-camera-words.this-address-sends-h-265-which": {
+    "text": "يرسل هذا العنوان H.265، وهو غير مدعوم بعد. استخدم بث H.264 من الكاميرا.",
+    "source": "651ff9635aec"
   },
   "calendar.words.this-answer-comes-from-rutba-office": {
     "text": "يأتي هذا الرد من رتبة أوفيس (Rutba Office)، الذي يتولى صندوق بريد هذه القاعة ما دام مفتوحًا.",
@@ -30333,6 +31971,26 @@
   "engine.this-calendar-comes-from-an-account": {
     "text": "يأتي هذا التقويم من حساب. قم بإزالة الحساب لإزالة تقويماته.",
     "source": "98d39bbbbd5e"
+  },
+  "studio.net-camera-words.this-camera-asks-for-a-kind": {
+    "text": "تطلب هذه الكاميرا نوعًا من تسجيل الدخول لا يعرفه Office.",
+    "source": "6c652d14acb9"
+  },
+  "studio.net-camera-words.this-camera-asks-for-a-user": {
+    "text": "تطلب هذه الكاميرا اسم مستخدم وكلمة مرور.",
+    "source": "c2cae425904b"
+  },
+  "studio.net-camera-words.this-camera-does-not-send-its": {
+    "text": "لا ترسل هذه الكاميرا صورتها عبر الاتصال الذي يفتحه Office.",
+    "source": "6fc8cbde1c5f"
+  },
+  "studio.net-camera-words.this-camera-is-not-set-up": {
+    "text": "هذه الكاميرا غير مُعدّة على هذا الحاسوب. أدخل عنوانها في «تفاصيل الكاميرا».",
+    "source": "4bed18b10e16"
+  },
+  "studio.net-camera-dialog.this-camera-was-set-up-on": {
+    "text": "أُعدّت هذه الكاميرا على حاسوب آخر. أدخل عنوانها وبيانات تسجيل الدخول إليها هنا.",
+    "source": "542ed093335d"
   },
   "mail.this-cannot-be-encrypted-for-names": {
     "text": "لا يمكن تشفير هذه الرسالة إلى {names}: لا توجد لهم شهادة هنا. اطلب منهم رسالة موقَّعة، أو استورد شهادتهم.",
@@ -30382,6 +32040,10 @@
     "text": "يبلغ هذا الخيار حوالي {size} أصلًا، أي أقل من {limit}، لذا يبقى كما هو. ويُفحص الملف المكتوب مع ذلك.",
     "source": "ec9bbd250c8b"
   },
+  "studio.window.this-clears-the-sources-scenes-sounds": {
+    "text": "يمسح هذا المصادر والمشاهد والأصوات والإعدادات في هذه الجلسة، وشكل الإطار وأي نص مكتوب ليقرأه صوت. لا يمكن التراجع عن هذا الإجراء. لا تتغير الإعدادات المحفوظة.",
+    "source": "c68ae537b83a"
+  },
   "video.inspector.this-clip-fills-the-frame-drag": {
     "text": "يملأ هذا المقطع الإطار. اسحب زاوية في المعاينة، أو اجعله صورة داخل صورة، لنقله وتغيير حجمه وتدويره.",
     "source": "72ea235699ae"
@@ -30414,9 +32076,21 @@
     "text": "لا يستطيع هذا الحاسوب إنشاء صورة H.264 التي يحتاجها البث المباشر.",
     "source": "a62cd6f5be9a"
   },
+  "studio.net-camera-words.this-computer-could-not-show-the": {
+    "text": "تعذر على هذا الحاسوب عرض صورة الكاميرا.",
+    "source": "51da9c1b735e"
+  },
   "studio.media.this-computer-does-not-let-its": {
     "text": "هذا الحاسوب لا يسمح بتسجيل صوته.",
     "source": "02a36f4d4162"
+  },
+  "notify-dialog.this-computer-does-not-show-notifications": {
+    "text": "لا يعرض هذا الحاسوب إعلامات رتبة أوفيس (Rutba Office). يظل المنتظر محسوبًا على أيقونته بجوار الساعة.",
+    "source": "0946a46fa6b1"
+  },
+  "studio.this-computer-has-no-keystore-to": {
+    "text": "لا يحتوي هذا الحاسوب على مخزن مفاتيح لحفظ كلمة المرور بأمان، لذا لا تُضاف الكاميرا بكلمة مرور.",
+    "source": "72d201a958d1"
   },
   "profiles.this-computer-has-no-protected-store": {
     "text": "لا يملك هذا الحاسوب مخزناً محمياً لكلمات المرور المحفوظة، وليس لهذا الملف الشخصي كلمة مرور، لذا تعذّر حفظها بأمان.",
@@ -30568,6 +32242,10 @@
     "text": "هذا المستند محمي: لا يمكن هنا سوى إضافة تعليقات. اختر مراجعة ← تقييد التحرير لعرض المناطق التي يمكنك تحريرها.",
     "source": "b908b8376d8e"
   },
+  "calendar.this-event-has-a-talk-meeting": {
+    "text": "لهذا الحدث اجتماع توك (Talk). ارتباطه موجود في الدعوة.",
+    "source": "827f48607535"
+  },
   "word.mailings.this-field": {
     "text": "هذا الحقل:",
     "source": "eb8aea23f662"
@@ -30688,9 +32366,17 @@
     "text": "هذا ملف glTF {version}؛ تتم قراءة glTF 2.0 فقط",
     "source": "4c12d7ae7e99"
   },
+  "studio.setups-menu.this-is-a-new-session-your": {
+    "text": "هذه جلسة جديدة. إعداداتك المحفوظة ليست مفتوحة.",
+    "source": "71e4928b84cd"
+  },
   "word.mailings.this-is-an-ordinary-document-again": {
     "text": "أصبح هذا مستنداً عادياً مرة أخرى، بلا دمج مراسلات.",
     "source": "c3f745c78c62"
+  },
+  "shell.notifier.this-is-how-rutba-office-tells": {
+    "text": "هكذا يُعلمك رتبة أوفيس (Rutba Office) بمكالمة، أو رسالة، أو بريد إلكتروني، أو تذكير.",
+    "source": "950c62c3726b"
   },
   "engine.this-is-not-a-pdf-it": {
     "text": "هذا ليس ملف PDF: لا يبدأ كما يبدأ ملف PDF.",
@@ -30775,9 +32461,41 @@
     "text": "تغيّر هذا الاجتماع. التفاصيل الجديدة أعلاه وفي المرفق.",
     "source": "fbe9e175c1ce"
   },
+  "talk-words.this-meeting-has-ended-or-its": {
+    "text": "انتهى هذا الاجتماع، أو أن ارتباطه غير صحيح.",
+    "source": "b64eb5c26b25"
+  },
+  "talk.meet-lines.this-meeting-holds-up-to-count": {
+    "text": "يتسع هذا الاجتماع لعدد يصل إلى {count} من الأشخاص: أنت وجهات الاتصال التي تدعوها.",
+    "source": "7ce6878459a3"
+  },
   "calendar.words.this-meeting-is-cancelled-a-calendar": {
     "text": "أُلغي هذا الاجتماع. يزيله برنامج التقويم من التقويم بالملف المرفق.",
     "source": "6e9c1888a881"
+  },
+  "common.this-meeting-is-full-it-holds": {
+    "text": "هذا الاجتماع ممتلئ: يتسع لعدد {count} من الأشخاص.",
+    "source": "3f86e11dd3c0"
+  },
+  "talk-words.this-meeting-is-locked-nobody-new": {
+    "text": "هذا الاجتماع مقفل. لا يمكن لأي شخص جديد الانضمام حتى يُلغى قفله.",
+    "source": "1abcf9d36011"
+  },
+  "talk.meet-lines.this-meeting-is-over-on-its": {
+    "text": "انتهى هذا الاجتماع على خادم توك (Talk Server) الخاص به.",
+    "source": "63de60cd2533"
+  },
+  "talk.meet-lines.this-meeting-was-not-set-up": {
+    "text": "لم يُعدّ هذا الاجتماع ليُبث مباشرة أو ليُسجَّل. لا يمكن تغيير ذلك لاحقًا.",
+    "source": "d5fcfd698087"
+  },
+  "shell.notifier.this-meeting-will-be-recorded": {
+    "text": "سيُسجَّل هذا الاجتماع",
+    "source": "ca175df526bd"
+  },
+  "common.this-meeting-will-be-streamed-live": {
+    "text": "سيُبث هذا الاجتماع مباشرة",
+    "source": "bcb5929f8d46"
   },
   "mail.this-message-could-not-be-opened": {
     "text": "تعذّر فتح هذه الرسالة",
@@ -30867,6 +32585,10 @@
     "text": "دوران هذه الصورة محفوظ بطريقة لا يمكن تغييرها دون إعادة رسمها. يفتحها الأمر «تحرير» في محرر الصور، الذي يستطيع ذلك.",
     "source": "e53774383891"
   },
+  "pictures.this-picture": {
+    "text": "هذه الصورة",
+    "source": "ee4bcbd7d2c6"
+  },
   "pictures.this-picture-could-not-be-decoded": {
     "text": "تعذر فك ترميز هذه الصورة.",
     "source": "3770474ba9a6"
@@ -30886,6 +32608,10 @@
   "edit-in-image.this-picture-is-kept-in-a": {
     "text": "هذه الصورة محفوظة بصيغة لا يستطيع محرر الصور تحريرها (مثل رسم من خطوط). حوّلها إلى PNG أو JPEG أولًا.",
     "source": "a4e03f2add1a"
+  },
+  "pictures.this-picture-all-count-pages": {
+    "text": "هذه الصورة، بكل صفحاتها ({count})",
+    "source": "7e3a926bad3c"
   },
   "pdf.fields.this-places-a-picture-of-your": {
     "text": "يضع هذا صورة لتوقيعك على الصفحة. وهو ليس توقيعًا رقميًا: لا يثبت من وقّع ملف PDF، ولا أن الملف لم يتغير منذ ذلك.",
@@ -30910,6 +32636,10 @@
   "base.documents.this-print-template-is-not-in": {
     "text": "قالب الطباعة هذا غير موجود في قاعدة البيانات.",
     "source": "514256b113da"
+  },
+  "print.this-printer-is-not-ready-a": {
+    "text": "هذه الطابعة غير جاهزة. أي طباعة تُرسل إليها تنتظر في قائمة الانتظار حتى تجهز.",
+    "source": "e0ae214529a5"
   },
   "profiles.this-profile-asks-for-its-password": {
     "text": "يطلب هذا الملف الشخصي كلمة مروره قبل أن يُفتح.",
@@ -30970,6 +32700,14 @@
   "mail.this-sends-a-message-to-address": {
     "text": "يؤدي هذا إلى إرسال رسالة إلى {address}.",
     "source": "ff32e284a342"
+  },
+  "studio.settings-dialog.this-session": {
+    "text": "هذه الجلسة",
+    "source": "6da6530a0728"
+  },
+  "studio.setups-menu.this-session-is-not-saved-save": {
+    "text": "هذه الجلسة غير محفوظة. احفظها كإعداد لتفتحها مرة أخرى لاحقًا. إن لم تفعل، يضيع كل ما رتبته فيها.",
+    "source": "47fc62aed9a4"
   },
   "studio.settings-dialog.this-setup": {
     "text": "هذا الإعداد",
@@ -31103,6 +32841,10 @@
     "text": "لا اختصارات لوحة مفاتيح خاصة بهذه النافذة.",
     "source": "5e7d871a442c"
   },
+  "studio.guests.this-window-leaves-and-talk-comes": {
+    "text": "تُغلق هذه النافذة ويحل توك (Talk) محلها: الأشخاص أنفسهم، في اجتماع.",
+    "source": "fa116fc70753"
+  },
   "sheets.this-workbook-has-no-comments": {
     "text": "لا يحتوي هذا المصنف على تعليقات.",
     "source": "b25f818039e3"
@@ -31139,6 +32881,17 @@
     "text": "يتطلب فتح هذا {noun} كلمة مرور بالفعل. اكتب كلمة مرور جديدة لتغييرها، أو اترك المربعين فارغين لإزالتها.",
     "source": "48cc5a933316"
   },
+  "print.those-are-not-pages-of-this": {
+    "forms": {
+      "zero": "هذه ليست صفحات من هذه الطباعة، التي لا تحتوي على أي صفحة.",
+      "one": "هذه ليست صفحات من هذه الطباعة، التي تحتوي على صفحة واحدة.",
+      "two": "هذه ليست صفحات من هذه الطباعة، التي تحتوي على صفحتين.",
+      "few": "هذه ليست صفحات من هذه الطباعة، التي تحتوي على {count} صفحات.",
+      "many": "هذه ليست صفحات من هذه الطباعة، التي تحتوي على {count} صفحة.",
+      "other": "هذه ليست صفحات من هذه الطباعة، التي تحتوي على {count} صفحة."
+    },
+    "source": "39e9aff4fba2"
+  },
   "talk.invite-email.those-beyond-that-are-asked-in": {
     "text": "من يزيدون على ذلك يُدعَون في توك (Talk) فقط، بلا بريد.",
     "source": "4ac21ba884c2"
@@ -31158,6 +32911,10 @@
   "slides.ribbon.three-columns": {
     "text": "ثلاثة أعمدة",
     "source": "cd7d143da615"
+  },
+  "studio.guests.three-guests": {
+    "text": "ثلاثة ضيوف",
+    "source": "41b77a9e8c88"
   },
   "word.ribbon.through": {
     "text": "خلال",
@@ -31262,10 +33019,6 @@
   "calendar.time-zones": {
     "text": "المناطق الزمنية",
     "source": "1b0013ea667e"
-  },
-  "video.ribbon.spoken-words": {
-    "text": "الكلمات المنطوقة",
-    "source": "b5f7a276ab16"
   },
   "video.ribbon.timeline": {
     "text": "المخطط الزمني",
@@ -31374,10 +33127,6 @@
     "text": "لتسأل متى تكون {room} متاحة، راسلها بتاريخ، مثل «متاحة في 12 مارس؟».",
     "source": "37d6c6384e27"
   },
-  "video.inspector.to-black": {
-    "text": "إلى الأسود",
-    "source": "96f788893ec2"
-  },
   "inspect.to-check-the-noun-for-the": {
     "text": "لفحص {noun} بحثًا عن المحتوى المحدد، انقر على فحص.",
     "source": "1cb2e2cb7be2"
@@ -31433,6 +33182,10 @@
   "image.tools.tolerance": {
     "text": "التفاوت",
     "source": "f71041bb481f"
+  },
+  "shell.notifier.tomorrow": {
+    "text": "غدًا",
+    "source": "456a73bbcefb"
   },
   "mail.compose.tomorrow-afternoon-1pm": {
     "text": "غداً بعد الظهر، 1 م",
@@ -31790,6 +33543,10 @@
     "text": "جرّب كلمات أخرى.",
     "source": "2a5ed12cfe24"
   },
+  "talk.meeting.try-the-microphone-again": {
+    "text": "إعادة تجربة الميكروفون",
+    "source": "a9a9b0e3cf5e"
+  },
   "image.insert.tue": {
     "text": "الثلاثاء",
     "source": "d1eb39b09bf5"
@@ -31837,6 +33594,10 @@
   "pictures.batch.turn-each-picture-upright-by-its": {
     "text": "اجعل كل صورة معتدلة حسب اتجاه EXIF الخاص بها",
     "source": "54083df636d3"
+  },
+  "common.turn-notifications-back-on": {
+    "text": "إعادة تشغيل الإعلامات",
+    "source": "d9796f6a3b48"
   },
   "common.turn-off": {
     "text": "إيقاف التشغيل",
@@ -31914,6 +33675,10 @@
     "text": "عمودان",
     "source": "ff4a0135d773"
   },
+  "studio.guests.two-guests": {
+    "text": "ضيفان",
+    "source": "ebe89d0ce31d"
+  },
   "locker.two-versions": {
     "text": "إصداران",
     "source": "861c66ced8c2"
@@ -31941,6 +33706,10 @@
   "word.references.type-a-tag-name-for-the": {
     "text": "اكتب اسم علامة للعنصر النائب. يمكنك تعبئته لاحقاً من «إدارة المصادر»، وستتبعه كل اقتباساته.",
     "source": "e79a9f4c69be"
+  },
+  "video.type-a-web-address": {
+    "text": "اكتب عنوان ويب",
+    "source": "f1405e95c81b"
   },
   "equations.type-an-equation-x-b-b": {
     "text": "اكتب معادلة، مثل x=(-b±√(b^2-4ac))/2a، \\sum_(i=1)^n i، \\int_0^1 f(x)dx، a_i، \\alpha",
@@ -32010,6 +33779,10 @@
     "text": "اكتب الكلمات المراد البحث عنها، ثم اضغط تعليم النتائج مرة أخرى لتعليم كل تطابق.",
     "source": "534a18cc15ca"
   },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "اكتب الكلمات المراد نطقها، عبارة واحدة في كل سطر",
+    "source": "e794db16dbb4"
+  },
   "base.forms.type-to-find": {
     "text": "اكتب للبحث",
     "source": "4fbe3a9bb596"
@@ -32017,6 +33790,14 @@
   "mail.archive.type-words-to-find-them-anywhere": {
     "text": "اكتب كلمات لتجدها في أي مكان، بما في ذلك نص الرسالة. أضف أيًّا من هذه؛ انقر أحدها لإضافته إلى البحث.",
     "source": "e72e37f629a5"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "اكتب كلمات لإظهارها أو قراءتها بصوت عالٍ أو كليهما، أثناء العمل",
+    "source": "ab4c38c0c662"
+  },
+  "video.type-words-to-show-read-aloud": {
+    "text": "اكتب كلمات لإظهارها أو قراءتها بصوت عالٍ أو كليهما، عند رأس التشغيل",
+    "source": "af653107afac"
   },
   "slides.comments.type-your-comment-mentions-someone": {
     "text": "اكتب تعليقك… @ للإشارة إلى شخص",
@@ -32053,6 +33834,10 @@
   "slides.action.url": {
     "text": "عنوان URL…",
     "source": "e32d07912805"
+  },
+  "talk.settings.unblock": {
+    "text": "إلغاء الحظر",
+    "source": "712da63171e0"
   },
   "slides.motion.uncover": {
     "text": "كشف",
@@ -32342,10 +34127,6 @@
     "text": "شريحة بلا عنوان",
     "source": "1eadae5cbf64"
   },
-  "video.type-words-to-show-read-aloud": {
-    "text": "اكتب كلمات لإظهارها أو قراءتها بصوت عالٍ أو كليهما، عند رأس التشغيل",
-    "source": "af653107afac"
-  },
   "video.untitled-video": {
     "text": "فيديو بلا عنوان",
     "source": "a7e5acfa45bc"
@@ -32365,6 +34146,10 @@
   "sheets.dialogs.up-to-31-characters-none-of": {
     "text": "حتى 31 حرفاً؛ دون أيٍّ من [ ] : * ? / أو الشرطة المائلة العكسية. الصيغ التي تقرأ الورقة تتبع الاسم الجديد.",
     "source": "dee767dc50b7"
+  },
+  "talk.meet-lines.up-to-count-people-sound-picture": {
+    "text": "يتسع لعدد يصل إلى {count} من الأشخاص. تشفّر تطبيقات الأشخاص المشاركين الصوت والصورة والرسائل، ولا يمكن للخادم فتحها. يمكن للأشخاص الدخول أثناء وجودك في الاجتماع.",
+    "source": "ebf5b97b2304"
   },
   "talk.invite-email.up-to-max-characters-rutbas-email": {
     "text": "حتى {max} حرف. يضيف بريد رتبة (Rutba) رابط القبول.",
@@ -32576,6 +34361,10 @@
   "talk.use-my-relay": {
     "text": "استخدام مرحِّلي",
     "source": "17ee03d59f24"
+  },
+  "video.library.use-only-music-you-have-the": {
+    "text": "استخدم فقط الموسيقى التي يحق لك استخدامها. معظم الموسيقى على الويب ليست متاحة مجانًا لوضعها في مقاطع الفيديو الخاصة بك.",
+    "source": "74057f0cdd05"
   },
   "word.references-toa.use-passim": {
     "text": "استخدام passim",
@@ -32905,9 +34694,21 @@
     "text": "بانتظار المتصفح…",
     "source": "8c6d350ef031"
   },
+  "talk.meet-lines.waiting-for-the-person-who-set": {
+    "text": "في انتظار الشخص الذي أعدّ الاجتماع، للسماح للأشخاص بالدخول.",
+    "source": "1a25d036dddb"
+  },
+  "talk.meet-lines.waiting-for-name-who-lets-people": {
+    "text": "في انتظار {name} للسماح للأشخاص بدخول هذا الاجتماع.",
+    "source": "1a30adcb3dae"
+  },
   "mail.dialogs.waiting-for-provider": {
     "text": "في انتظار {provider}…",
     "source": "5d80e1411830"
+  },
+  "talk.lines.waiting-talk-is-not-connected": {
+    "text": "في الانتظار: توك (Talk) غير متصل",
+    "source": "a47c46196a6f"
   },
   "base.walk-ins-and-bookings-chair-rental": {
     "text": "الزبائن دون حجز والحجوزات، وتأجير الكراسي، وإيرادات كل حلاق، وبطاقات الولاء.",
@@ -32985,6 +34786,10 @@
     "text": "عنوان الويب",
     "source": "45099c558849"
   },
+  "video.library.web-address-of-a-sound-or": {
+    "text": "عنوان ويب لملف صوت أو فيديو",
+    "source": "a41db93d0dad"
+  },
   "studio.list.web-page": {
     "text": "صفحة ويب",
     "source": "fae9f11dea03"
@@ -33057,6 +34862,14 @@
     "text": "الغرض من الاجتماع وبنوده بأوقاتها ومن يقود كلًّا منها وما يُقرأ أولًا",
     "source": "6b2ad7b24c66"
   },
+  "studio.net-camera-words.what-answers-at-this-address-is": {
+    "text": "ما يستجيب على هذا العنوان ليس بث كاميرا. جارٍ إعادة المحاولة.",
+    "source": "87d5fe1b7097"
+  },
+  "talk.report.what-happened-if-you-want-to": {
+    "text": "ما حدث، إن أردت أن تذكره",
+    "source": "ad9d5c00cb5e"
+  },
   "mail.dialogs.what-is-in-junk-is-learned": {
     "text": "يُتعلَّم مما في «البريد غير الهام» على أنه بريد غير هام، ومما في «علبة الوارد» على أنه بريد جيد",
     "source": "f0f1d53224a3"
@@ -33073,6 +34886,14 @@
     "text": "ما يُعرض",
     "source": "c86e86bc0f07"
   },
+  "talk.meeting.what-is-written-here-is-seen": {
+    "text": "ما يُكتب هنا يراه الموجودون في الاجتماع الآن. لا يُحتفظ به بعد انتهاء الاجتماع.",
+    "source": "a3fd74707f8b"
+  },
+  "talk.report.what-is-wrong": {
+    "text": "ما المشكلة؟",
+    "source": "d23f3cbd2d83"
+  },
   "word.blocks.what-it-holds": {
     "text": "محتواه",
     "source": "e0ae7a1f3f51"
@@ -33084,10 +34905,6 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "ما يمكن لأدوات الذكاء الاصطناعي فعله بكل منها. كل شيء متوقف حتى تختار. الإعدادات نفسها موجودة في أدوات الذكاء الاصطناعي.",
     "source": "14310670b45f"
-  },
-  "spoken.voices.type-the-words-to-say-one": {
-    "text": "اكتب الكلمات المراد نطقها، عبارة واحدة في كل سطر",
-    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "وظيفة السطور",
@@ -33289,6 +35106,10 @@
     "text": "من في المبنى، والتصاريح، والمضيفون، وتعريف المقاولين، والطرود.",
     "source": "b2307ab3ac50"
   },
+  "talk.server-share.who-may-hold-meetings-on-name": {
+    "text": "من يمكنه عقد اجتماعات على {name}",
+    "source": "d46f91bd9701"
+  },
   "base.documents.who-signs": {
     "text": "من يوقّع",
     "source": "c07456c38335"
@@ -33304,6 +35125,10 @@
   "base.sources.who-you-are-where-table-is": {
     "text": "هويتك حيث يُقرأ {table}",
     "source": "2d7fe168e926"
+  },
+  "talk.server-share.whoever-is-a-contact-of-yours": {
+    "text": "كل من يكون من جهات اتصالك لحظة بدء الاجتماع.",
+    "source": "e1760ffd2218"
   },
   "pdf.whoever-protected-this-pdf-allows-only": {
     "text": "من حمى ملف PDF هذا يسمح ببعض التغييرات عليه فقط.",
@@ -33425,6 +35250,14 @@
     "text": "العرض: تلقائي",
     "source": "c521533693cd"
   },
+  "talk.meet-lines.will-be-recorded": {
+    "text": "سيتم التسجيل",
+    "source": "2b5790d08c40"
+  },
+  "talk.meet-lines.will-be-streamed-live": {
+    "text": "سيتم البث مباشرة",
+    "source": "aa193332d0ee"
+  },
   "common.window": {
     "text": "نافذة",
     "source": "19734a1b58ca"
@@ -33452,6 +35285,18 @@
   "common.wipe": {
     "text": "مسح",
     "source": "3404644e0117"
+  },
+  "video.timeline.wipe-down": {
+    "text": "مسح إلى الأسفل",
+    "source": "386327484bbc"
+  },
+  "video.timeline.wipe-left": {
+    "text": "مسح إلى اليسار",
+    "source": "fe6bfe761ce2"
+  },
+  "video.timeline.wipe-up": {
+    "text": "مسح إلى الأعلى",
+    "source": "37d6d465ef8a"
   },
   "slides.ribbon.with-previous": {
     "text": "مع السابق",
@@ -33564,6 +35409,10 @@
   "ui.proofing.words-for-word": {
     "text": "مرادفات «{word}»",
     "source": "6d61efe54546"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "الكلمات المراد نطقها",
+    "source": "3353415dcf6a"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "لا يتم أبداً تمييز الكلمات التي أضفتها على أنها أخطاء إملائية، في المستندات وأوراق العمل والعروض التقديمية على حد سواء.",
@@ -33701,6 +35550,10 @@
     "text": "اكتبها في النافذة كلها",
     "source": "92a4b3023cae"
   },
+  "talk.write-the-first-message-to-this": {
+    "text": "اكتب أول رسالة إلى هذه المجموعة.",
+    "source": "79c6b8f1ef84"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "توقفت الكتابة: {reason}. ما كُتب قبل ذلك محفوظ.",
     "source": "9d5b1ef54387"
@@ -33767,9 +35620,21 @@
     "text": "أنت",
     "source": "08b041935798"
   },
+  "talk.lines.you-added-who": {
+    "text": "أضفت {who}",
+    "source": "67412ea9fb91"
+  },
   "talk.invite.you-and-name-are-contacts-now": {
     "text": "أنت و{name} جهتا اتصال الآن.",
     "source": "38fc20ca22cb"
+  },
+  "talk.meet-lines.you-are-being-recorded": {
+    "text": "يتم تسجيلك الآن.",
+    "source": "e527c1b5b294"
+  },
+  "talk.lines.you-are-in-as-many-groups": {
+    "text": "أنت في الحد الأقصى من المجموعات الذي يسمح به توك (Talk). غادر إحداها أولًا.",
+    "source": "f21fa1f31c5b"
   },
   "studio.setup-panel.you-are-live-changes-here-go": {
     "text": "أنت على الهواء. تذهب التغييرات هنا إلى التالي، وتُبث عند الضغط على بث.",
@@ -33778,6 +35643,18 @@
   "studio.window.you-are-live-closing-this-window": {
     "text": "أنت على الهواء. إغلاق هذه النافذة ينهي البث.",
     "source": "fbafb6b6ab0f"
+  },
+  "common.you-are-no-longer-in-that": {
+    "text": "لم تعد عضوًا في تلك المجموعة.",
+    "source": "88e19bcf810d"
+  },
+  "talk.meet-lines.you-are-not-let-into-this": {
+    "text": "لم يعد مسموحًا لك بدخول هذا الاجتماع، أو أنه انتهى.",
+    "source": "02799eaaf921"
+  },
+  "talk.meet-lines.you-are-on-air-people-watching": {
+    "text": "أنت على الهواء. يراك مشاهدو البث ويسمعونك.",
+    "source": "5e22ab5c41c5"
   },
   "base.people.you-are-seeing-this-database-as": {
     "text": "أنت ترى قاعدة البيانات هذه كما يراها {role}. لا يمكن تغيير شيء حتى تعود.",
@@ -33791,6 +35668,10 @@
     "text": "يمكنك دعوتهم مجددًا {when}.",
     "source": "ef7c63299976"
   },
+  "talk.meet-lines.you-cannot-hear-or-see-the": {
+    "text": "لا يمكنك سماع الآخرين أو رؤيتهم: نسخة توك (Talk) هذه تحمل مفتاحًا غير مفتاحهم. غادر الاجتماع وانضم مرة أخرى.",
+    "source": "3baa6801ab85"
+  },
   "base.links.you-changed-it-here-and-it": {
     "text": "غيّرته هنا، وتغيّر في المحرك أيضًا. احتُفظ بنسخة المحرك.",
     "source": "07152f5edcaf"
@@ -33798,6 +35679,10 @@
   "base.links.you-changed-it-here-and-it-2": {
     "text": "غيّرته هنا، وحُذف في المحرك. وقد زال من هنا أيضًا.",
     "source": "66e9facf3d8b"
+  },
+  "talk.meet-lines.you-could-not-be-let-into": {
+    "text": "تعذر السماح لك بدخول الاجتماع. حاول الانضمام مرة أخرى.",
+    "source": "42a2a94fab7e"
   },
   "base.links.you-deleted-it-here-and-it": {
     "text": "حذفته هنا، وتغيّر في المحرك. وقد عاد.",
@@ -33810,6 +35695,66 @@
   "talk.invite-email.you-have-no-mail-account-to": {
     "text": "ليس لديك حساب بريد للإرسال منه، لذا ترسل رتبة (Rutba) إليهم باسمك من no-reply@rutba.io.",
     "source": "d3f332910843"
+  },
+  "studio.guests.you-have-no-other-talk-contacts": {
+    "text": "ليست لديك جهات اتصال أخرى في توك (Talk) لدعوتها. أضف أشخاصًا في توك أولًا.",
+    "source": "d13343a31f9d"
+  },
+  "talk.report.you-have-sent-as-many-reports": {
+    "text": "أرسلت الحد الأقصى من البلاغات الذي يقبله توك (Talk) في اليوم.",
+    "source": "69666680ec59"
+  },
+  "talk-words.you-joined-this-meeting-on-another": {
+    "text": "انضممت إلى هذا الاجتماع من حاسوب آخر.",
+    "source": "c2cb6546c29d"
+  },
+  "talk.lines.you-named-this-group-title": {
+    "text": "سمّيت هذه المجموعة «{title}»",
+    "source": "83c1de004ff9"
+  },
+  "talk.lines.you-no-longer-get-what-is": {
+    "text": "لن يصلك ما يُكتب هنا بعد الآن. ما قرأته من قبل يبقى على هذا الحاسوب.",
+    "source": "9fb6883a05aa"
+  },
+  "talk.meeting.you-set-this-meeting-up-if": {
+    "text": "أنت من أعدّ هذا الاجتماع. إذا غادرت، يستمر الاجتماع للآخرين ويظل ارتباطه يعمل. إذا أنهيته، يُخرَج الجميع ويتوقف الارتباط عن العمل.",
+    "source": "7b59019f65c0"
+  },
+  "talk.meet-lines.you-started-a-meeting-title": {
+    "text": "بدأت اجتماعًا: {title}",
+    "source": "5f81e73c33ca"
+  },
+  "talk.lines.you-started-this-group-once-you": {
+    "text": "أنت من بدأ هذه المجموعة. بعد مغادرتك، لن يستطيع أحد إخراج أي شخص منها.",
+    "source": "8411924dedab"
+  },
+  "talk.lines.you-took-the-name-off-this": {
+    "text": "أزلت اسم هذه المجموعة",
+    "source": "f06b2fc22dbf"
+  },
+  "talk.lines.you-took-who-out-of-this": {
+    "text": "أخرجت {who} من هذه المجموعة",
+    "source": "a112ba00bdc9"
+  },
+  "talk.lines.you-were-in-another-call": {
+    "text": "كنت في مكالمة أخرى",
+    "source": "a2976c4b12f4"
+  },
+  "talk-words.you-were-taken-out-of-the": {
+    "text": "تم إخراجك من الاجتماع.",
+    "source": "f083ad52d66f"
+  },
+  "talk-words.you-were-taken-out-of-this": {
+    "text": "تم إخراجك من هذا الاجتماع، ولا يمكنك الانضمام إليه مرة أخرى.",
+    "source": "1b337da7a50e"
+  },
+  "talk-words.you-will-record-this-meeting-on": {
+    "text": "ستسجل هذا الاجتماع على حاسوبك، وقد تشارك التسجيل.",
+    "source": "358da48259cf"
+  },
+  "talk-words.you-will-stream-this-meeting-live": {
+    "text": "ستبث هذا الاجتماع مباشرة على الإنترنت. يمكن لأي مشاهد أن يرى ويسمع من ينضمون.",
+    "source": "9db07d5e52d2"
   },
   "common.youre-good-to-go": {
     "text": "كل شيء جاهز.",
@@ -33826,6 +35771,14 @@
   "locker.your-locker-folder-is-ready-put": {
     "text": "مجلد خزانتك جاهز. ضع فيه الملفات، ثم اقفلها هنا.",
     "source": "631f0118426c"
+  },
+  "talk.meet-lines.your-talk-server": {
+    "text": "خادم توك (Talk Server) الخاص بك",
+    "source": "88893d7ef8a9"
+  },
+  "talk.server-share.your-talk-servers": {
+    "text": "خوادم توك (Talk Servers) لديك",
+    "source": "c93442a99df0"
   },
   "base.trust.your-answer-is-kept-for-this": {
     "text": "تُحفظ إجابتك لهذا الملف على هذا الحاسوب. وإلى أن تسمح بها، تحتفظ جداوله بالنسخ التي لديها ولا تُقرأ.",
@@ -33863,6 +35816,10 @@
     "text": "ترى سحابتك أسماء عشوائية. تبقى أسماء المجلدات ظاهرة.",
     "source": "02099b933215"
   },
+  "talk.settings.your-contacts-can-call-you-and": {
+    "text": "يمكن لجهات اتصالك الاتصال بك ومراسلتك كلما كان رتبة أوفيس (Rutba Office) مفتوحًا، دون الحاجة إلى فتح توك (Talk) أولًا. عند إيقاف هذا الخيار، يتصل توك عند فتحه.",
+    "source": "a43c2ca95c26"
+  },
   "registry.your-days-on-this-computer": {
     "text": "أيامك، على هذا الحاسوب",
     "source": "a19d67626067"
@@ -33887,6 +35844,14 @@
     "text": "بريدك: اكتمل {done} من {total} ملفاً",
     "source": "07866fe919f9"
   },
+  "talk.meeting.your-microphone-will-be-off-you": {
+    "text": "سيكون الميكروفون متوقفًا. يمكنك تشغيله أثناء الاجتماع.",
+    "source": "1601596b9635"
+  },
+  "talk.meeting.your-microphone-will-be-on-you": {
+    "text": "سيكون الميكروفون قيد التشغيل. يمكنك إيقافه هنا.",
+    "source": "b2f402cc5181"
+  },
   "common.your-name": {
     "text": "اسمك",
     "source": "2c6b2e253c01"
@@ -33910,6 +35875,10 @@
   "word.ribbon.your-own-formula": {
     "text": "صيغة خاصة بك…",
     "source": "a27bfd102347"
+  },
+  "talk.meet-lines.your-pass-for-this-meeting-ran": {
+    "text": "انتهت صلاحية تصريح دخولك إلى هذا الاجتماع قبل استخدامه. حاول مرة أخرى.",
+    "source": "e2a62b05fdc4"
   },
   "base.people.your-password-is-changed": {
     "text": "تم تغيير كلمة مرورك.",
@@ -35231,6 +37200,10 @@
     "text": "اسم البرنامج الذي أنشأه",
     "source": "83f88e38dc1d"
   },
+  "talk.meet-lines.the-person-who-set-it-up-2": {
+    "text": "الشخص الذي أعدّه",
+    "source": "d0a49b27ebdc"
+  },
   "video.the-picked-clips-make-no-sound": {
     "text": "لا يصدر صوت من المقاطع المحددة",
     "source": "69832857dde0"
@@ -35515,9 +37488,17 @@
     "text": "x تربيع",
     "source": "d81b4b9e12c8"
   },
+  "talk.lines.you": {
+    "text": "أنت",
+    "source": "bb0347a468d9"
+  },
   "calendar.you-answered-answer": {
     "text": "ردك: {answer}",
     "source": "48b4629d99ee"
+  },
+  "talk.server-share.your-talk-server": {
+    "text": "خادم توك (Talk Server) الخاص بك",
+    "source": "cb7cfa2b50c6"
   },
   "talk.invite.your-account": {
     "text": "حسابك",
@@ -35668,6 +37649,17 @@
       "other": "{chosen} من {count} مجلد"
     },
     "source": "a6fbd6985908"
+  },
+  "print.chosen-of-count-page": {
+    "forms": {
+      "zero": "{chosen}، ولا صفحات",
+      "one": "{chosen} من صفحة واحدة",
+      "two": "{chosen} من صفحتين",
+      "few": "{chosen} من {count} صفحات",
+      "many": "{chosen} من {count} صفحة",
+      "other": "{chosen} من {count} صفحة"
+    },
+    "source": "fc9904833a67"
   },
   "colour.palette.colour-darker-percent": {
     "text": "{colour}، أغمق بنسبة {percent}%",
@@ -36758,6 +38750,28 @@
     },
     "source": "6b221f019f66"
   },
+  "common.count-missed-call": {
+    "forms": {
+      "zero": "لا مكالمات فائتة",
+      "one": "مكالمة فائتة واحدة",
+      "two": "مكالمتان فائتتان",
+      "few": "{count} مكالمات فائتة",
+      "many": "{count} مكالمة فائتة",
+      "other": "{count} مكالمة فائتة"
+    },
+    "source": "846840404875"
+  },
+  "shell.tray.count-more": {
+    "forms": {
+      "zero": "لا مزيد",
+      "one": "واحد آخر",
+      "two": "اثنان آخران",
+      "few": "{count} أخرى",
+      "many": "{count} أخرى",
+      "other": "{count} أخرى"
+    },
+    "source": "fd4bfb8a8854"
+  },
   "ai-tools.count-more-waiting": {
     "forms": {
       "zero": "لا شيء آخر ينتظر",
@@ -36780,6 +38794,17 @@
     },
     "source": "7dd71598fcd3"
   },
+  "shell.count-new-email": {
+    "forms": {
+      "zero": "لا رسائل بريد جديدة",
+      "one": "رسالة بريد جديدة واحدة",
+      "two": "رسالتا بريد جديدتان",
+      "few": "{count} رسائل بريد جديدة",
+      "many": "{count} رسالة بريد جديدة",
+      "other": "{count} رسالة بريد جديدة"
+    },
+    "source": "4d69c41e354b"
+  },
   "mail.count-new-message": {
     "forms": {
       "zero": "لا توجد رسائل جديدة",
@@ -36790,6 +38815,14 @@
       "other": "{count} رسالة جديدة"
     },
     "source": "78583c23fc40"
+  },
+  "talk.count-not-looked-at": {
+    "text": "{count} لم تطّلع عليها بعد",
+    "source": "ad2b3f56facd"
+  },
+  "talk.count-not-read": {
+    "text": "{count} غير مقروءة",
+    "source": "bb3f670ded99"
   },
   "sheets.count-note": {
     "forms": {
@@ -36956,6 +38989,28 @@
     },
     "source": "de1ee1209774"
   },
+  "talk.count-person": {
+    "forms": {
+      "zero": "لا أحد",
+      "one": "شخص واحد",
+      "two": "شخصان",
+      "few": "{count} أشخاص",
+      "many": "{count} شخصًا",
+      "other": "{count} شخص"
+    },
+    "source": "16eff6b45805"
+  },
+  "talk.server-share.count-person-chosen-they-are-not": {
+    "forms": {
+      "zero": "تم اختيار {count} من الأشخاص. لن يُبلَّغوا بذلك: عندما يُعدّ أحدهم اجتماعًا، يعرض توك (Talk) عقده على خادم توك (Talk Server) دون ذكر صاحب الخادم.",
+      "one": "تم اختيار {count} شخص. لن يُبلَّغ بذلك: عندما يُعدّ اجتماعًا، يعرض توك (Talk) عقده على خادم توك (Talk Server) دون ذكر صاحب الخادم.",
+      "two": "تم اختيار {count} من الأشخاص. لن يُبلَّغا بذلك: عندما يُعدّ أحدهما اجتماعًا، يعرض توك (Talk) عقده على خادم توك (Talk Server) دون ذكر صاحب الخادم.",
+      "few": "تم اختيار {count} أشخاص. لن يُبلَّغوا بذلك: عندما يُعدّ أحدهم اجتماعًا، يعرض توك (Talk) عقده على خادم توك (Talk Server) دون ذكر صاحب الخادم.",
+      "many": "تم اختيار {count} شخصًا. لن يُبلَّغوا بذلك: عندما يُعدّ أحدهم اجتماعًا، يعرض توك (Talk) عقده على خادم توك (Talk Server) دون ذكر صاحب الخادم.",
+      "other": "تم اختيار {count} شخص. لن يُبلَّغوا بذلك: عندما يُعدّ أحدهم اجتماعًا، يعرض توك (Talk) عقده على خادم توك (Talk Server) دون ذكر صاحب الخادم."
+    },
+    "source": "302f6a4e3539"
+  },
   "video.inspector.count-picked": {
     "text": "{count} محدد",
     "source": "ab3b8d8f39e9"
@@ -37058,6 +39113,17 @@
       "other": "{count} منزلة عشرية"
     },
     "source": "8916febc49bc"
+  },
+  "video.inspector.count-point": {
+    "forms": {
+      "zero": "لا نقاط",
+      "one": "نقطة واحدة",
+      "two": "نقطتان",
+      "few": "{count} نقاط",
+      "many": "{count} نقطة",
+      "other": "{count} نقطة"
+    },
+    "source": "d29b4d920822"
   },
   "word.mailings.count-possible-duplicate-shaded": {
     "forms": {
@@ -37587,6 +39653,17 @@
     },
     "source": "ff19802b3e07"
   },
+  "shell.tray.count-unread-message": {
+    "forms": {
+      "zero": "لا رسائل غير مقروءة",
+      "one": "رسالة واحدة غير مقروءة",
+      "two": "رسالتان غير مقروءتين",
+      "few": "{count} رسائل غير مقروءة",
+      "many": "{count} رسالة غير مقروءة",
+      "other": "{count} رسالة غير مقروءة"
+    },
+    "source": "ed5e578def3e"
+  },
   "sheets.receipt-row.count-value-is-marked-to-check": {
     "forms": {
       "zero": "لا قيم معلّمة للمراجعة.",
@@ -37597,6 +39674,10 @@
       "other": "{count} قيمة معلّمة للمراجعة."
     },
     "source": "3c0869b67925"
+  },
+  "home.count-waiting": {
+    "text": "{count} في الانتظار",
+    "source": "15c46d8024fd"
   },
   "common.count-word": {
     "forms": {
@@ -37623,6 +39704,10 @@
   "calendar.date-all-day": {
     "text": "{date}، طوال اليوم",
     "source": "01173f239092"
+  },
+  "shell.notifier.day-at-time": {
+    "text": "{day} في الساعة {time}",
+    "source": "d10a2288d770"
   },
   "slides.description-kept-as-the-file-has": {
     "text": "{description}. يُحتفظ به كما هو في الملف.",
@@ -37881,6 +39966,10 @@
     "text": "تعذّر فتح {names}: ليس فيديو أو صوتاً أو صورة يمكن لهذا النظام تشغيلها.",
     "source": "40ec26e4b663"
   },
+  "video.names-is-not-a-sound-or": {
+    "text": "{names} ليس ملف صوت أو فيديو، لذا لم تتم إضافته إلى القائمة.",
+    "source": "47fb534b82d0"
+  },
   "read-aloud.bar.name-added": {
     "text": "{name} (مُضاف)",
     "source": "5e0a009f158f"
@@ -37928,6 +40017,14 @@
     "text": "وافق {name}.",
     "source": "c3b405763345"
   },
+  "talk.lines.name-added-you-to-this-group": {
+    "text": "تمت إضافتك إلى هذه المجموعة بواسطة {name}",
+    "source": "a7338dd5fd8e"
+  },
+  "talk.lines.name-added-who": {
+    "text": "تمت إضافة {who} بواسطة {name}",
+    "source": "dbef01d937a1"
+  },
   "calendar.words.name-answered-tentative": {
     "text": "أجاب {name} بأنه مبدئي.",
     "source": "f64c34887e80"
@@ -37936,9 +40033,25 @@
     "text": "تم تطبيق {name} على كل الشرائح",
     "source": "34559343d0df"
   },
+  "shell.notifier.name-asks-you-to-join": {
+    "text": "دعوة للانضمام من {name}",
+    "source": "452e368edfb8"
+  },
   "talk.invite-email.name-becomes-each-persons-name-the": {
     "text": "يحل اسم كل شخص محل {name}. يأتي رابط القبول وطريقة الحصول على رتبة أوفيس (Rutba Office) تحت ملاحظتك.",
     "source": "6724ae357006"
+  },
+  "video.name-cannot-be-played-on-this": {
+    "text": "لا يمكن تشغيل {name} على هذا الحاسوب.",
+    "source": "56c80f47dfd7"
+  },
+  "talk.meet-lines.name-cannot-be-reached-from-outside": {
+    "text": "لا يمكن الوصول إلى {name} من خارج شبكتك.",
+    "source": "e5702bfa3304"
+  },
+  "talk.meet-lines.name-cannot-hold-meetings-now": {
+    "text": "لا يمكن عقد اجتماعات على {name} الآن.",
+    "source": "ec1d5763561d"
   },
   "studio.media.name-closed-or-stopped-sharing": {
     "text": "أُغلق المصدر {name} أو توقف عن المشاركة.",
@@ -37956,6 +40069,10 @@
     "text": "تعذّر رسم {name}: {reason}",
     "source": "65bcb558f48b"
   },
+  "video.name-could-not-be-fetched-from": {
+    "text": "تعذر جلب {name} من الويب.",
+    "source": "d321465694e7"
+  },
   "locker.name-could-not-be-opened-again": {
     "text": "تعذّرت إعادة فتح {name}: {why}",
     "source": "20ca380f0559"
@@ -37972,6 +40089,10 @@
     "text": "تعذر تسجيل {name}: {reason}",
     "source": "2beda7333ef6"
   },
+  "talk.settings.name-could-not-be-unblocked-just": {
+    "text": "تعذر إلغاء حظر {name} في الوقت الحالي. حاول مرة أخرى بعد قليل.",
+    "source": "7f0f6d2fd1a8"
+  },
   "calendar.words.name-declined": {
     "text": "رفض {name}.",
     "source": "2f56155e044a"
@@ -37984,6 +40105,10 @@
     "text": "{name} بعد التعديل",
     "source": "5cb4218dfd00"
   },
+  "talk-words.name-ended-the-meeting": {
+    "text": "تم إنهاء الاجتماع بواسطة {name}.",
+    "source": "68a9df35664b"
+  },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "يحتوي {name} على أكثر من ورقة. يحدد الصف الأول من الورقة التي تختارها أسماء الحقول.",
     "source": "f39d7988d23f"
@@ -37995,6 +40120,10 @@
   "video.name-holds-no-captions-this-editor": {
     "text": "لا يحتوي {name} على ترجمات يستطيع هذا المحرر قراءتها.",
     "source": "992774d03cf2"
+  },
+  "shell.notifier.name-in-group": {
+    "text": "{name} في {group}",
+    "source": "c8c9e24ee27b"
   },
   "talk.invite.name-invites-you-to-talk": {
     "text": "يدعوك {name} إلى التحدث",
@@ -38020,6 +40149,18 @@
     "text": "حُظر {name}.",
     "source": "896ccbbaeef1"
   },
+  "studio.window.name-is-closed-and-stays-saved": {
+    "text": "أُغلق الإعداد {name} ويبقى محفوظًا كما هو. هذه جلسة جديدة.",
+    "source": "1ac7485ab543"
+  },
+  "studio.guests.name-is-here-waiting-off-air": {
+    "text": "{name} هنا، في الانتظار خارج البث.",
+    "source": "14a190ca86f6"
+  },
+  "talk.meet-lines.name-is-holding-as-many-meetings": {
+    "text": "يستضيف {name} أقصى عدد من الاجتماعات المحدد له.",
+    "source": "39d0e214aab5"
+  },
   "locker.name-is-in-an-older-format": {
     "text": "{name} بتنسيق قديم. حفظه يُنشئ {saved} بجانبه، في المجلد المقفل نفسه.",
     "source": "25f899dbe396"
@@ -38031,6 +40172,10 @@
   "talk.name-is-no-longer-a-contact": {
     "text": "لم يعد {name} جهة اتصال.",
     "source": "f2f97457bba2"
+  },
+  "talk.settings.name-is-no-longer-blocked": {
+    "text": "تم إلغاء حظر {name}.",
+    "source": "514ce8e795d4"
   },
   "locker.name-is-no-longer-in-the": {
     "text": "لم يعد {name} في الخزانة. لا تزال نسخته الاحتياطية محفوظة هنا.",
@@ -38048,6 +40193,10 @@
     "text": "{name} ليس ملف فيديو أو صوت يمكن لهذا الجهاز تشغيله. ربما يكون بتنسيق لا يتوفر له برنامج فك ترميز مثبت، أو قد لا يكون ملف وسائط على الإطلاق رغم اسمه.",
     "source": "abfeca7a30a3"
   },
+  "talk.meet-lines.name-is-not-answering-check-that": {
+    "text": "لا يستجيب {name}. تأكد من أنه قيد التشغيل ومتصل.",
+    "source": "840ae75c483e"
+  },
   "talk.name-is-not-available": {
     "text": "{name} غير متاح.",
     "source": "aca30d15fc29"
@@ -38055,6 +40204,10 @@
   "voices-dialog.name-is-not-used-until-its": {
     "text": "لا يُستخدم {name} حتى يجهز إصداره المخصص للإصدار {version}.",
     "source": "2f267730bc10"
+  },
+  "video.name-is-not-where-it-was": {
+    "text": "الملف {name} ليس في مكانه السابق. ربما تم نقله أو إعادة تسميته أو حذفه.",
+    "source": "e5a94663e48f"
   },
   "common.name-is-not-wired-yet": {
     "text": "{name} غير مفعّل بعد.",
@@ -38072,9 +40225,17 @@
     "text": "{name} مفتوح في مكانه، للقراءة فقط. تجري فهرسته للبحث.",
     "source": "749ec97c4e3a"
   },
+  "talk.meet-lines.name-is-outside-the-hours-it": {
+    "text": "{name} خارج الساعات المضبوطة له لعقد الاجتماعات.",
+    "source": "0fd5a4d65419"
+  },
   "locker.name-is-over-1-gb-so": {
     "text": "{name} أكبر من 1 غيغابايت، لذا فُتح من نسخة عادية مؤقتة لا في الذاكرة. هذه النسخة غير مقفلة.",
     "source": "950f4db86aed"
+  },
+  "talk.meet-lines.name-is-paused": {
+    "text": "{name} متوقف مؤقتًا.",
+    "source": "0ed81c3ac232"
   },
   "common.name-is-protected-with-a-password": {
     "text": "{name} محمي بكلمة مرور، ويبقى مغلقًا إلى أن تُدخل كلمة المرور.",
@@ -38088,6 +40249,18 @@
     "text": "{name} جاهز للإرسال",
     "source": "040cafb3a666"
   },
+  "talk.meet-lines.name-is-set-to-hold-no": {
+    "text": "{name} مضبوط على عدم عقد أي اجتماعات.",
+    "source": "d762cd422689"
+  },
+  "shell.tray.name-is-still-running": {
+    "text": "{name} لا يزال قيد التشغيل",
+    "source": "5e161705a5d2"
+  },
+  "talk.meet-lines.name-is-still-starting-try-again": {
+    "text": "{name} لا يزال قيد البدء. حاول مرة أخرى بعد دقيقة.",
+    "source": "281688f4544b"
+  },
   "base.name-is-unlinked-its-source-keeps": {
     "text": "فُك ربط {name}. يحتفظ مصدره بسجلاته.",
     "source": "7891d7996821"
@@ -38095,6 +40268,10 @@
   "base.name-is-unlinked-the-engine-keeps": {
     "text": "فُك ربط {name}. يحتفظ المحرك بسجلاته.",
     "source": "47284555955f"
+  },
+  "talk.meet-lines.name-is-waiting-for-its-code": {
+    "text": "{name} في انتظار إدخال رمزه.",
+    "source": "a7a59d385fce"
   },
   "video.name-is-size-still-over-limit": {
     "text": "{name} حجمه {size}، ولا يزال أكبر من {limit} بعد {tries} محاولات: لن تصغر هذه الصورة أكثر عند هذا الإطار. جرّب 720، أو حجمًا أكبر، أو مقطعًا أقصر.",
@@ -38110,6 +40287,22 @@
       "other": "تخطيط {name}: تستخدمه {count} شريحة"
     },
     "source": "9d5680cc5d71"
+  },
+  "talk.meet-lines.name-lets-people-in-you-can": {
+    "text": "السماح بالدخول بيد {name}: يمكنك الدخول بعد انضمام هذا الشخص إلى الاجتماع.",
+    "source": "a94d45e86dc5"
+  },
+  "talk.meet-lines.name-must-be-updated-before-it": {
+    "text": "يجب تحديث {name} قبل أن يتمكن من عقد الاجتماعات.",
+    "source": "f01651a198be"
+  },
+  "talk.name-muted-you-unmute-when-you": {
+    "text": "تم كتم صوتك بواسطة {name}. ألغِ الكتم عندما تريد التحدث.",
+    "source": "c4b4506575d2"
+  },
+  "talk.lines.name-named-this-group-title": {
+    "text": "تمت تسمية هذه المجموعة «{title}» بواسطة {name}",
+    "source": "c13c73b3ad29"
   },
   "template-gallery.name-needs-rutba-office-version-or": {
     "text": "يحتاج {name} إلى الإصدار {version} أو أحدث من رتبة أوفيس (Rutba Office). ابحث عن التحديثات.",
@@ -38131,9 +40324,29 @@
     "text": "{name} معكوس",
     "source": "fca7482294f8"
   },
+  "talk.meeting.name-started-a-meeting": {
+    "text": "تم بدء اجتماع بواسطة {name}",
+    "source": "e4652127858d"
+  },
+  "talk.meet-lines.name-started-a-meeting-title": {
+    "text": "تم بدء اجتماع بواسطة {name}: {title}",
+    "source": "0632986e996b"
+  },
   "template-help.name-template": {
     "text": "قالب {name}",
     "source": "662208ece200"
+  },
+  "talk.lines.name-took-the-name-off-this": {
+    "text": "تمت إزالة اسم هذه المجموعة بواسطة {name}",
+    "source": "5c85c87032ca"
+  },
+  "talk-words.name-took-you-out-of-the": {
+    "text": "تم إخراجك من الاجتماع بواسطة {name}.",
+    "source": "af00baa37753"
+  },
+  "talk.lines.name-took-who-out-of-this": {
+    "text": "تم إخراج {who} من هذه المجموعة بواسطة {name}",
+    "source": "8684ebda882d"
   },
   "pdf.name-was-damaged-and-was-read": {
     "text": "كان {name} تالفًا، وقُرئ بالعثور على صفحاته. احفظه للاحتفاظ بنسخة سليمة.",
@@ -38147,9 +40360,17 @@
     "text": "سيُفتح {name} دون سؤال، ويُحفظ ما أقفلته كلمة المرور كما كان من قبل، تحميه Windows لحسابك وحدك.",
     "source": "bccde320f01d"
   },
+  "talk-words.name-will-record-this-meeting-on": {
+    "text": "سيُسجَّل هذا الاجتماع على حاسوب {name}، وقد تتم مشاركة التسجيل.",
+    "source": "8e5422928873"
+  },
   "voices-dialog.name-will-show-new-labels-in": {
     "text": "ستظهر التسميات الجديدة في {name} باللغة الإنجليزية حتى يجهز إصداره المخصص للإصدار {version}.",
     "source": "070ebd66c642"
+  },
+  "talk-words.name-will-stream-this-meeting-live": {
+    "text": "سيُبث هذا الاجتماع مباشرة على الإنترنت بواسطة {name}. يمكن لأي مشاهد أن يرى ويسمع من ينضمون.",
+    "source": "75c94901cdd6"
   },
   "talk.invite.name-would-like-to-talk-with": {
     "text": "يود {name} التحدث معك على رتبة توك (Rutba Talk)",
@@ -38266,6 +40487,10 @@
     "text": "{name}: {width} × {height}، الشاشة الأساسية",
     "source": "4e47b0c065e3"
   },
+  "talk.meet-lines.name-s-talk-could-not-let": {
+    "text": "تعذر على توك (Talk) لدى {name} إدخالك إلى الاجتماع. حاول الانضمام مرة أخرى.",
+    "source": "f2b2cb44f631"
+  },
   "studio.live-bar.name-needs-a-key": {
     "text": "{name}، يحتاج إلى مفتاح",
     "source": "5075d08a25f3"
@@ -38286,9 +40511,17 @@
     "text": "{name}: ورقة من تسميات {product}.",
     "source": "e976719b4bd9"
   },
+  "video.library.name-added-after-the-last-clip": {
+    "text": "{name}: تمت الإضافة بعد آخر مقطع",
+    "source": "3289fea3c3ec"
+  },
   "video.library.name-added-at-the-playhead": {
     "text": "{name}: تمت الإضافة عند مؤشر التشغيل",
     "source": "4939aa239509"
+  },
+  "video.library.name-added-over-the-whole-project": {
+    "text": "{name}: تمت الإضافة على امتداد المشروع كله",
+    "source": "f97eee7c25f5"
   },
   "colour.palette.name-apply-colour": {
     "text": "{name}: تطبيق {colour}",
@@ -38694,6 +40927,14 @@
     "text": "{when}، طوال اليوم",
     "source": "ebe38401b71e"
   },
+  "talk.lines.who-cannot-be-put-in-any": {
+    "text": "لا يمكن إضافة {who} إلى أي مجموعات أخرى.",
+    "source": "0f22eeabe17d"
+  },
+  "talk.lines.who-left-this-group": {
+    "text": "مغادرة {who} لهذه المجموعة",
+    "source": "2a6e91ede760"
+  },
   "common.width-pt": {
     "text": "{width} pt",
     "source": "fd99ee034b5b"
@@ -38761,17 +41002,5 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ فأعلى",
     "source": "20160df989ba"
-  },
-  "spoken.voices.words-to-say": {
-    "text": "الكلمات المراد نطقها",
-    "source": "3353415dcf6a"
-  },
-  "studio.spoken-run.type-words-to-show-read-aloud": {
-    "text": "اكتب كلمات لإظهارها أو قراءتها بصوت عالٍ أو كليهما، أثناء العمل",
-    "source": "ab4c38c0c662"
-  },
-  "video.spoken.the-words-land-at-the-playhead": {
-    "text": "تظهر الكلمات عند رأس التشغيل، سطرًا تلو الآخر، فوق الصورة.",
-    "source": "841b57677821"
   }
 }

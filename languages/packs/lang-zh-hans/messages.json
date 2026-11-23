@@ -295,6 +295,10 @@
     "text": "（已降低以适应上传速度）",
     "source": "38eedae0fe49"
   },
+  "print.needs-attention": {
+    "text": "（需要注意）",
+    "source": "3473d9cd67a1"
+  },
   "base.new": {
     "text": "（新）",
     "source": "5bfaff83e280"
@@ -335,6 +339,10 @@
     "text": "（无）",
     "source": "00b025711499"
   },
+  "print.offline": {
+    "text": "（脱机）",
+    "source": "89aa6bd39b61"
+  },
   "sheets.dialogs.on-screen": {
     "text": "（屏幕上）",
     "source": "b73a6fd9ad97"
@@ -342,6 +350,14 @@
   "word.dialogs.opened-from-format": {
     "text": "（从 {format} 打开）",
     "source": "e4d5e69fc419"
+  },
+  "print.out-of-paper": {
+    "text": "（缺纸）",
+    "source": "7290757d105f"
+  },
+  "print.paused": {
+    "text": "（已暂停）",
+    "source": "41993c823e86"
   },
   "word.list-dialog.the-first-level-has-none-above": {
     "text": "（第一级上方没有级别）",
@@ -551,6 +567,10 @@
     "text": "你自己运行的 TURN 服务器；在你的通话中提供给对方使用",
     "source": "b95d902b9e8f"
   },
+  "calendar.a-talk-meeting-holds-four-people": {
+    "text": "“通话”（Talk）会议最多容纳四人：你和另外三人。此事件邀请了 {count} 人。",
+    "source": "12c821978260"
+  },
   "engine.a-background-is-a-png-jpeg": {
     "text": "背景必须是 PNG、JPEG、GIF、BMP 或 WebP 图片。",
     "source": "453bb347e835"
@@ -570,6 +590,14 @@
   "talk.a-call-goes-straight-between-the": {
     "text": "通话直接在两台电脑之间进行。如果网络阻止直接连接，通话将通过中继进行，仍保持端到端加密。",
     "source": "2a501129710a"
+  },
+  "notify-dialog.a-call-in-talk-that-nobody": {
+    "text": "“通话”（Talk）中无人接听的来电",
+    "source": "364758cc8022"
+  },
+  "notify-dialog.a-call-in-talk-while-it": {
+    "text": "“通话”（Talk）中正在响铃的来电",
+    "source": "3b2de9295eb7"
   },
   "calendar.a-cancellation-goes-to-the-count": {
     "forms": {
@@ -644,6 +672,10 @@
   "locker.a-copy-of-these-files-as-4": {
     "text": "这些文件当前状态的副本，保存在这台电脑上 Office 自己的文件夹中，以便你在熟悉保险箱（Locker）期间不会丢失任何内容。此副本未使用你的保险箱密码锁定：任何登录此用户帐户的人都可以还原它。",
     "source": "2f36db57f352"
+  },
+  "studio.guests.a-copy-of-this-broadcast-is": {
+    "text": "正在保留此直播的副本，而该会议未设置为可录制。在直播结束前，会议中的人员无法进入。",
+    "source": "b2a28db50607"
   },
   "template-gallery.a-course-session-objectives-the-agenda": {
     "text": "课程单元：目标、议程、课程内容、快速测验和总结",
@@ -785,6 +817,22 @@
     "text": "组合本身没有填充或轮廓：请设置其中某个形状的格式。",
     "source": "770472b604e9"
   },
+  "talk.lines.a-group-holds-count-people-at": {
+    "text": "一个群组最多容纳 {count} 人。",
+    "source": "f51448521ea4"
+  },
+  "talk.a-group-is-three-or-more": {
+    "text": "群组是三人或以上互相发送消息的对话。",
+    "source": "fec77f9d530a"
+  },
+  "talk.lines.a-group-is-three-people-or": {
+    "text": "群组需三人或以上：请至少选择两位联系人。",
+    "source": "6ff327466527"
+  },
+  "talk.a-group-needs-two-of-your": {
+    "text": "群组至少需要你的两位联系人。",
+    "source": "12e0ccc49b1e"
+  },
   "base.sources.a-key-or-token": {
     "text": "密钥或令牌",
     "source": "9949c8a23e2d"
@@ -857,6 +905,10 @@
     "text": "发给你的已锁定文件",
     "source": "6f0daeb85074"
   },
+  "video.a-look-changes-the-colour-of": {
+    "text": "色彩风格会在其剪辑播放期间，更改其下方所有轨道的颜色。",
+    "source": "4cffcd7c35b5"
+  },
   "sheets.a-lookup-found-nothing": {
     "text": "查找函数未找到结果",
     "source": "9092775b9801"
@@ -864,6 +916,22 @@
   "mail.archive.a-manifest-csv-and-json-with": {
     "text": "始终会写入一份清单（CSV 和 JSON），其中包含每封邮件的日期、发件人、收件人、主题、Message-ID、来源以及所写内容的 SHA-256，同时写入一份摘要页。邮箱或存档中的任何内容都不会更改。",
     "source": "74f7e133138a"
+  },
+  "notify-dialog.a-meeting-a-few-minutes-before": {
+    "text": "即将开始的会议（提前几分钟），或有人邀请你加入的会议",
+    "source": "eed70ee862c6"
+  },
+  "talk-words.a-meeting-held-on-a-talk": {
+    "text": "在通话服务器（Talk Server）上举行的会议暂时无法直播或录制。",
+    "source": "e451fe884ea2"
+  },
+  "talk.meeting.a-meeting-holds-four-people-you": {
+    "text": "一个会议最多容纳四人：你和最多三位联系人。",
+    "source": "f8fa41a7b72f"
+  },
+  "talk.meeting.a-meeting-of-more-than-four": {
+    "text": "超过 4 人的会议将在通话服务器（Talk Server）上举行。",
+    "source": "b1afa34fd141"
   },
   "contacts.a-meeting-room-or-a-resource": {
     "text": "会议室或资源，通过邀请其邮箱进行预订",
@@ -880,6 +948,10 @@
   "word.ribbon.a-merged-cell-back-into-its": {
     "text": "将合并的单元格还原为原来的单元格",
     "source": "3d22efeac8f7"
+  },
+  "notify-dialog.a-message-in-talk": {
+    "text": "“通话”（Talk）中的消息",
+    "source": "7a338c422250"
   },
   "engine.a-message-needs-someone-to-go": {
     "text": "邮件需要收件人。",
@@ -1063,6 +1135,10 @@
     "text": "已保存一份普通副本。该副本未锁定。",
     "source": "ffdd0baabe66"
   },
+  "video.timeline.a-point-of-its-movement-at": {
+    "text": "位于 {time} 的运动点：拖动可移动",
+    "source": "055741b05a22"
+  },
   "profiles.a-profile-can-ask-for-a": {
     "text": "配置文件可以在打开前要求输入密码。之后，其保存的密码、最近使用的文件、邮件、日历、联系人和通话（Talk）消息都会使用该密码加密。",
     "source": "10ea9d3dbdec"
@@ -1138,6 +1214,10 @@
   "template-gallery.a-report-with-a-cover-page": {
     "text": "带封面、目录和编号章节的报告",
     "source": "54c978a78192"
+  },
+  "talk.settings.a-ring-when-someone-calls-you": {
+    "text": "有人呼叫你时响铃，有人邀请你加入会议时播放短提示音。",
+    "source": "18eb8c5e7649"
   },
   "contacts.a-room-or-a-resource-is": {
     "text": "会议室或资源用于预订，不能邀请加入 Talk",
@@ -1695,6 +1775,10 @@
     "text": "实际大小",
     "source": "74cdbe70e394"
   },
+  "image.actual-size-over-as-many-sheets": {
+    "text": "实际大小，按需使用多张纸",
+    "source": "0cbb4308999d"
+  },
   "common.add": {
     "text": "添加",
     "source": "9fd728c66c9a"
@@ -1811,6 +1895,10 @@
     "text": "添加艺术字",
     "source": "bd58d566c351"
   },
+  "calendar.add-a-talk-meeting": {
+    "text": "添加 Talk 会议",
+    "source": "e98dec0aa8f4"
+  },
   "base.documents.add-a-block": {
     "text": "添加块",
     "source": "cf416ab8da83"
@@ -1826,6 +1914,10 @@
   "base.documents.add-a-calculated-column": {
     "text": "添加计算列",
     "source": "40adf59ac8cc"
+  },
+  "studio.net-camera-dialog.add-a-camera-by-its-address": {
+    "text": "按地址添加摄像头",
+    "source": "0dbc972ae5d6"
   },
   "contacts.add-a-card-or-bring-in": {
     "text": "添加卡片，或导入其他程序导出的 .vcf 或 .csv 文件。",
@@ -1915,6 +2007,10 @@
     "text": "添加语音以大声朗读这些行",
     "source": "b2afe4eb368b"
   },
+  "spoken.voices.add-a-voice-to-read-the": {
+    "text": "添加语音即可大声朗读这些文字；没有语音时也可以只显示。",
+    "source": "04ed3fbd74fe"
+  },
   "read-aloud.voice-offer.add-a-voice-more-natural-voices": {
     "text": "添加语音：从“语音和语言”中为大声朗读添加更自然的语音",
     "source": "bfbf7111b5c5"
@@ -1971,6 +2067,10 @@
     "text": "在播放头处添加",
     "source": "1e18a7648f8f"
   },
+  "studio.net-camera-find.add-by-address": {
+    "text": "按地址添加…",
+    "source": "96cd8612bd97"
+  },
   "contacts.add-email": {
     "text": "添加电子邮件",
     "source": "bfe6b5725f30"
@@ -1978,6 +2078,10 @@
   "locker.add-files": {
     "text": "添加文件",
     "source": "01792a33c228"
+  },
+  "video.library.add-files-from-this-computer": {
+    "text": "从这台电脑添加文件…",
+    "source": "e483053aec0b"
   },
   "locker.add-files-2": {
     "text": "添加文件…",
@@ -2031,6 +2135,10 @@
     "text": "在文件名后添加路径",
     "source": "70149fb49250"
   },
+  "talk.groups.add-people": {
+    "text": "添加成员",
+    "source": "6e5e1e137765"
+  },
   "contacts.add-phone": {
     "text": "添加电话",
     "source": "cf095e4a7be3"
@@ -2042,6 +2150,10 @@
   "mail.accounts-bulk.add-several-accounts": {
     "text": "添加多个帐户",
     "source": "e57b1f77b96e"
+  },
+  "video.add-sound": {
+    "text": "添加声音",
+    "source": "d14064f80f52"
   },
   "word.ribbon.add-space-after-paragraph": {
     "text": "在段落后添加空格",
@@ -2062,6 +2174,10 @@
   "ai-tools-dialog.add-these-lines-to-the-ai": {
     "text": "将以下几行添加到 AI 应用设置中的 MCP 服务器列表。该应用会在需要时自行启动这些工具。",
     "source": "9d3f923b92a8"
+  },
+  "video.library.add-this-address-to-the-list": {
+    "text": "将此地址添加到列表",
+    "source": "3cac92a6b605"
   },
   "contacts.add-this-card": {
     "text": "添加此卡片",
@@ -2095,6 +2211,10 @@
     "text": "添加到日历",
     "source": "d0efffa65ea7"
   },
+  "talk.groups.add-to-group": {
+    "text": "添加到群组",
+    "source": "ea849eb70c26"
+  },
   "calendar.add-to-my-calendar": {
     "text": "添加到我的日历",
     "source": "9d60f9126db7"
@@ -2102,6 +2222,10 @@
   "studio.setups-menu.add-to-my-setups": {
     "text": "添加到我的设置",
     "source": "457927ed8bde"
+  },
+  "video.add-to-the-audio-library": {
+    "text": "添加到音频库",
+    "source": "b7f10458b001"
   },
   "locker.add-to-this-folder": {
     "text": "添加到此文件夹",
@@ -2131,6 +2255,10 @@
     },
     "source": "9e93bb1f7d70"
   },
+  "video.add-name": {
+    "text": "添加 {name}",
+    "source": "2cc06c85e772"
+  },
   "ui.proofing.add-put-the-word-in-the": {
     "text": "添加：将字词添加到词典",
     "source": "f696718081b5"
@@ -2150,6 +2278,10 @@
   "common.added": {
     "text": "已添加",
     "source": "6b02e0d363a4"
+  },
+  "studio.net-camera-find.added-before": {
+    "text": "之前已添加",
+    "source": "30cab5134fea"
   },
   "voices-dialog.added-here": {
     "text": "已在此处添加",
@@ -2655,6 +2787,10 @@
     "text": "同时显示所有幻灯片：单击其中一张可将其打开",
     "source": "616a02ce06be"
   },
+  "studio.guests.all-three-seats-are-taken": {
+    "text": "三个席位均已占用。",
+    "source": "e4160c80a1bb"
+  },
   "pdf.ocr.all-count-page": {
     "forms": {
       "other": "全部 {count} 页"
@@ -2876,6 +3012,10 @@
   "engine.an-equation-is-edited-in-the": {
     "text": "公式在公式编辑器中编辑：双击它即可。",
     "source": "46d7af34ac75"
+  },
+  "notify-dialog.an-event-in-calendar-at-its": {
+    "text": "“日历”中的事件，在其提醒时间",
+    "source": "925f040e1376"
   },
   "image.formats.an-icon-at-each-size-from": {
     "text": "图标，包含从 256 到 16 像素的各种尺寸。",
@@ -3265,6 +3405,14 @@
     "text": "排列方式",
     "source": "5f33ce3fb567"
   },
+  "talk.lines.arrived": {
+    "text": "已送达",
+    "source": "594015196a5f"
+  },
+  "video.inspector.arrives": {
+    "text": "到达方式",
+    "source": "72c7f155f153"
+  },
   "common.arrow": {
     "text": "箭头",
     "source": "05800e70aa10"
@@ -3393,6 +3541,14 @@
     "text": "仅询问一次：所有记录使用同一个答案",
     "source": "a999a07704c8"
   },
+  "studio.guests.ask-up-to-three-of-your": {
+    "text": "最多可邀请三位“通话”（Talk）联系人加入。在你将其放入场景之前，每位嘉宾都不会出现在录制内容中，并能看到和听到你录制的内容。",
+    "source": "e9f52fe78b27"
+  },
+  "studio.guests.ask-up-to-three-of-your-2": {
+    "text": "最多可邀请三位“通话”（Talk）联系人加入。在你将其放入场景之前，每位嘉宾都在未上播状态下等待，并能看到和听到你的节目。",
+    "source": "8c2357cdc653"
+  },
   "talk.connect.ask-name-in-talk-now-with": {
     "text": "现在在“通话”（Talk）中邀请 {name}，不发送电子邮件",
     "source": "c49711615630"
@@ -3437,9 +3593,17 @@
     "text": "请求成为联系人",
     "source": "434d00f0c707"
   },
+  "talk.meet-lines.asking-to-be-let-in": {
+    "text": "正在请求准许进入…",
+    "source": "4a17be1898f7"
+  },
   "mail.dialogs.asking-your-mail-server": {
     "text": "正在询问你的邮件服务器…",
     "source": "b78479f59b14"
+  },
+  "talk.meet-lines.asking-name-to-let-you-in": {
+    "text": "正在请求 {name} 准许你进入…",
+    "source": "d64535fbf5e2"
   },
   "contacts.asks-name-to-connect-in-talk": {
     "text": "通过电子邮件邀请 {name} 在“通话”（Talk）中联系",
@@ -3477,6 +3641,12 @@
     "text": "按每个制表符",
     "source": "4414f037aa97"
   },
+  "image.print.at-its-actual-size-this-picture": {
+    "forms": {
+      "other": "按实际大小，此图片需要 {count} 张纸，超出单次打印的上限 {most} 张。请选择“适应页面”或更大的纸张。"
+    },
+    "source": "4e1f2125523c"
+  },
   "locker.at-least-eight-characters-attach-it": {
     "text": "至少八个字符。可以在此将其附加到电子邮件，或保存后通过其他方式发送。密码要与文件分开发送。",
     "source": "68ec51ad042a"
@@ -3488,6 +3658,10 @@
   "talk.invite-email.at-most-max-people-at-once": {
     "text": "一次最多 {max} 人。",
     "source": "0939da11b251"
+  },
+  "video.inspector.at-most-n-s-on-this": {
+    "text": "此剪辑最多 {n} 秒",
+    "source": "47c6548e2318"
   },
   "image.at-most-size": {
     "text": "最多 {size}",
@@ -3508,6 +3682,10 @@
   "video.export.at-limit-this-would-get-rate": {
     "text": "在 {limit} 下码率只有 {rate}，不足以在 {lines} 下获得清晰画面。",
     "source": "5187fb1149f9"
+  },
+  "shell.notifier.at-time": {
+    "text": "于 {time}",
+    "source": "c26d3282decc"
   },
   "word.references-index.atmosphere": {
     "text": "大气层",
@@ -3544,6 +3722,10 @@
   "common.audio": {
     "text": "音频",
     "source": "bc1b88907d3b"
+  },
+  "video.library.audio-library": {
+    "text": "音频库",
+    "source": "c514fc7eae0f"
   },
   "slides.ribbon.audio-on-my-pc": {
     "text": "PC 上的音频…",
@@ -3648,6 +3830,14 @@
   "common.automatic": {
     "text": "自动",
     "source": "d461a493a375"
+  },
+  "print.automatic-landscape": {
+    "text": "自动（横向）",
+    "source": "9f5fed9ba15b"
+  },
+  "print.automatic-portrait": {
+    "text": "自动（纵向）",
+    "source": "98d2df109b2a"
   },
   "sheets.ribbon.automatic-except-for-data-tables": {
     "text": "除模拟运算表外，自动重算",
@@ -4029,6 +4219,10 @@
     "text": "阻止发件人",
     "source": "536fd076223c"
   },
+  "talk.report.block-name-as-well": {
+    "text": "同时阻止 {name}",
+    "source": "1ec80dec6724"
+  },
   "talk.block-name": {
     "text": "是否阻止 {name}？",
     "source": "c8f5c7726467"
@@ -4044,6 +4238,10 @@
   "mail.dialogs.blocked-top-level-domains": {
     "text": "阻止的顶级域",
     "source": "f30b5bed850e"
+  },
+  "talk.settings.blocked-people": {
+    "text": "已阻止的人",
+    "source": "e11bdf7344a1"
   },
   "talk.block-2": {
     "text": "阻止…",
@@ -4196,6 +4394,10 @@
   "common.bottom-right": {
     "text": "右下",
     "source": "b4b7cb63bc9b"
+  },
+  "video.layer-names.bottom-shade": {
+    "text": "底部暗色遮罩",
+    "source": "1dffbced0f7c"
   },
   "word.ribbon.box-dashed-line": {
     "text": "方框：虚线",
@@ -4541,6 +4743,10 @@
     "text": "通话",
     "source": "d6e645b7d2b2"
   },
+  "talk.missed.call-back": {
+    "text": "回拨",
+    "source": "fbb0a343f691"
+  },
   "talk.call-ended": {
     "text": "通话已结束",
     "source": "00ff74289a12"
@@ -4597,9 +4803,41 @@
     "text": "相机样式",
     "source": "a02b3cbd8c0d"
   },
+  "studio.window.camera-by-address": {
+    "text": "按地址添加摄像头…",
+    "source": "576460523c95"
+  },
+  "studio.net-camera-dialog.camera-details": {
+    "text": "摄像头详细信息",
+    "source": "1f24717cfd41"
+  },
+  "studio.sources-column.camera-details": {
+    "text": "摄像头详细信息…",
+    "source": "bed02af58b25"
+  },
+  "talk.meet-lines.camera-off": {
+    "text": "摄像头已关闭",
+    "source": "ce3ef7450f8e"
+  },
   "studio.camera-n": {
     "text": "摄像头 {n}",
     "source": "76ef0b65d44f"
+  },
+  "studio.net-camera-dialog.cameras-added-before": {
+    "text": "之前添加的摄像头",
+    "source": "0bf02739feb0"
+  },
+  "studio.net-camera-find.cameras-on-the-network": {
+    "text": "网络上的摄像头",
+    "source": "138fe6865c5e"
+  },
+  "studio.window.cameras-on-the-network": {
+    "text": "网络上的摄像头…",
+    "source": "fa6270f9772a"
+  },
+  "studio.net-camera-find.cameras-that-answered": {
+    "text": "已响应的摄像头",
+    "source": "7126fcdc2141"
   },
   "voices-dialog.can-be-added-when-this-computer": {
     "text": "可在这台电脑联网后添加",
@@ -4632,6 +4870,10 @@
   "calendar.cancelled-summary": {
     "text": "已取消：{summary}",
     "source": "bc2bf8d8ef46"
+  },
+  "talk.meet-lines.cannot-be-heard-here": {
+    "text": "此处无法听到",
+    "source": "2d08a6698f09"
   },
   "image.canvas-size": {
     "text": "画布大小",
@@ -4884,6 +5126,10 @@
   "locker.change-how": {
     "text": "更改方式",
     "source": "7d8d41039ce4"
+  },
+  "video.inspector.change-it-at-another-time-and": {
+    "text": "在其他时间更改它，即会在该处设置一个点。",
+    "source": "71ccbebf0a7b"
   },
   "base.change-my-password": {
     "text": "更改我的密码",
@@ -5159,6 +5405,10 @@
     "text": "正在检查…",
     "source": "ec963ffc911b"
   },
+  "video.layer-names.checklist": {
+    "text": "清单",
+    "source": "7346030400bf"
+  },
   "pdf.checkmark": {
     "text": "对勾",
     "source": "d996cc6b3522"
@@ -5339,6 +5589,14 @@
     "text": "选择音乐",
     "source": "a2758f54bb45"
   },
+  "talk.meet-lines.choose-now-a-meeting-cannot-be": {
+    "text": "现在就选择：会议设置好后无法再改为直播。",
+    "source": "4d90fc81342e"
+  },
+  "video.ribbon.choose-one": {
+    "text": "选择一项",
+    "source": "0b24aed53ab6"
+  },
   "apps-choice.choose-one-app-at-least": {
     "text": "至少选择一个应用。",
     "source": "6fa9e25d8f09"
@@ -5378,6 +5636,10 @@
   "base.reports.choose-the-total-under-each-number": {
     "text": "选择每个数字下方的合计：求和、平均值、计数或无",
     "source": "5d7900fb073e"
+  },
+  "talk.groups.choose-two-or-more-of-your": {
+    "text": "选择两位或以上联系人。群组中的每个人都能看到其中的消息以及群组中的其他成员。",
+    "source": "1504482f5063"
   },
   "studio.sources-column.choose-what-to-show": {
     "text": "选择要显示的内容",
@@ -5883,6 +6145,10 @@
     "text": "颜色减淡",
     "source": "d3939c23da55"
   },
+  "video.library.colour-looks": {
+    "text": "色彩风格",
+    "source": "1e3eace528af"
+  },
   "image.type-editor.colour-of-the-words": {
     "text": "文字颜色",
     "source": "8c6ececb4c11"
@@ -6221,13 +6487,25 @@
     "text": "连接到测试服务器",
     "source": "73dfcbc52547"
   },
+  "talk.settings.connect-when-rutba-office-starts": {
+    "text": "Rutba Office 启动时连接",
+    "source": "fbba41a8aaa4"
+  },
   "ai-tools-dialog.connected-now": {
     "text": "当前已连接",
     "source": "0e31ab40ee72"
   },
+  "studio.guests.connecting": {
+    "text": "正在连接",
+    "source": "d403c686f6a1"
+  },
   "base.trust.connecting-tells-host-that-this-database": {
     "text": "连接时会告知 {host} 此数据库已打开以及打开的位置。",
     "source": "d62213401992"
+  },
+  "talk.meet-lines.connecting-to-the-meetings-talk-server": {
+    "text": "正在连接到会议的通话服务器（Talk Server）…",
+    "source": "dbdd1c43c358"
   },
   "common.connecting": {
     "text": "正在连接…",
@@ -6304,6 +6582,10 @@
   "image.tools.contiguous-only-the-area-joined-to": {
     "text": "连续：仅限与单击位置相连的区域",
     "source": "c49227ac91cd"
+  },
+  "studio.guests.continue-in-talk": {
+    "text": "在 Talk 中继续",
+    "source": "dfe707761b26"
   },
   "common.continuous": {
     "text": "连续",
@@ -6487,6 +6769,10 @@
     "text": "将此处的格式复制到下一个所选内容",
     "source": "385e4d1fba79"
   },
+  "studio.guests.copy-the-meeting-link": {
+    "text": "复制会议链接",
+    "source": "dcf78a0af22e"
+  },
   "pictures.copy-the-path": {
     "text": "复制路径",
     "source": "80c28637e6ac"
@@ -6578,6 +6864,14 @@
   "mail.accounts-bulk.could-not-be-set-up": {
     "text": "无法设置",
     "source": "15a01aadfd5a"
+  },
+  "studio.guests.could-not-connect": {
+    "text": "无法连接",
+    "source": "8630b4dd33f2"
+  },
+  "talk.meet-lines.could-not-connect-to-name-the": {
+    "text": "无法连接到 {name}。你们之间的网络可能阻止了连接。",
+    "source": "6efa1c493e6c"
   },
   "mail.could-not-send-why-the-message": {
     "text": "无法发送：{why}。该邮件已退回“草稿”。",
@@ -7066,6 +7360,10 @@
   "common.dashed-horizontal": {
     "text": "横虚线",
     "source": "3ae29d68684a"
+  },
+  "video.layer-names.dashed-list": {
+    "text": "短横线列表",
+    "source": "482bff3efb3d"
   },
   "common.dashed-upward-diagonal": {
     "text": "上对角虚线",
@@ -8881,6 +9179,10 @@
     "text": "清空文件夹",
     "source": "ca1fd4548524"
   },
+  "print.empty-prints-every-page-or-type": {
+    "text": "留空则打印所有页面。也可以输入页码和范围，例如 1,2,5,6 或 1-5。",
+    "source": "b8b744f198bd"
+  },
   "print.empty-prints-everything-with-anything-in": {
     "text": "留空则打印所有包含内容的区域。",
     "source": "256005db29f3"
@@ -8969,17 +9271,41 @@
     "text": "片尾卡",
     "source": "9b35668a9a83"
   },
+  "talk.meeting.end-for-everyone": {
+    "text": "为所有人结束",
+    "source": "e1cc5d2e7a82"
+  },
+  "studio.guests.end-meeting": {
+    "text": "结束会议",
+    "source": "0d59fd0fca8d"
+  },
   "slides.presenter.end-of-the-deck": {
     "text": "演示文稿结束",
     "source": "1f8740414e5b"
+  },
+  "studio.guests.end-the-broadcast-first": {
+    "text": "先结束直播。",
+    "source": "cda831c6b524"
   },
   "studio.live-bar.end-the-broadcast": {
     "text": "是否结束直播？",
     "source": "ac1321bf9a1a"
   },
+  "studio.guests.end-the-meeting-for-everyone": {
+    "text": "为所有人结束会议",
+    "source": "403b0d8e29d9"
+  },
+  "studio.guests.end-the-meeting-for-everyone-2": {
+    "text": "是否为所有人结束会议？",
+    "source": "da7516896163"
+  },
   "calendar.end-time": {
     "text": "结束时间",
     "source": "2e46006a5eeb"
+  },
+  "talk.ended": {
+    "text": "已结束",
+    "source": "7cdc804e6996"
   },
   "studio.live-bar.ending": {
     "text": "正在结束…",
@@ -9177,9 +9503,17 @@
     "text": "求值",
     "source": "163e44b10262"
   },
+  "video.inspector.evenly": {
+    "text": "匀速",
+    "source": "83f7985d2900"
+  },
   "ai-tools.event": {
     "text": "事件",
     "source": "4e1f49a9c8ae"
+  },
+  "notify-dialog.event-reminders": {
+    "text": "事件提醒",
+    "source": "d57de2d3c6a1"
   },
   "calendar.events-from-a-ics": {
     "text": "来自 .ics 的事件",
@@ -9212,6 +9546,10 @@
   "slides.every-comment-on-this-slide-deleted": {
     "text": "已删除此幻灯片上的所有批注",
     "source": "59f3fa1b689c"
+  },
+  "contacts.every-contact-shown-count": {
+    "text": "显示的所有联系人（{count}）",
+    "source": "7f4a5bb606e7"
   },
   "calendar.every-day": {
     "text": "每天",
@@ -9275,6 +9613,10 @@
     "text": "使用此样式的所有段落都会随之更改。",
     "source": "9cae08c0c68b"
   },
+  "pictures.every-picture-shown-count": {
+    "text": "显示的所有图片（{count}）",
+    "source": "904610f6a47a"
+  },
   "base.documents.every-record": {
     "text": "每条记录",
     "source": "f9ed7dc95615"
@@ -9282,6 +9624,10 @@
   "engine.every-row-of-the-column-is": {
     "text": "该列的每一行都已填充",
     "source": "c50f8a60019b"
+  },
+  "studio.guests.every-seat-is-taken": {
+    "text": "所有席位均已占用",
+    "source": "45dd15b4dde5"
   },
   "studio.settings-dialog.every-setup": {
     "text": "所有设置",
@@ -9333,9 +9679,33 @@
     "text": "每年",
     "source": "828ca0e45f14"
   },
+  "talk.server-share.everybody-in-my-organisation": {
+    "text": "我的组织中的所有人",
+    "source": "0fe9dfd1fb93"
+  },
+  "talk.server-share.everybody-in-the-organisation-your-rutba": {
+    "text": "你的 Rutba 帐户所属组织中的所有人。如果帐户不属于任何组织，则除你之外没有其他人。",
+    "source": "05c98bea8eb0"
+  },
   "common.everyone": {
     "text": "所有人",
     "source": "da2e5dc515b1"
+  },
+  "talk.meet-lines.everyone-asked-is-told-before-they": {
+    "text": "每位受邀者在加入前都会收到告知。在你于“直播”（Live Broadcast）中打开会议并开始直播之前，不会直播任何内容。",
+    "source": "48c2b1746439"
+  },
+  "studio.guests.everyone-asked-is-told-this-before": {
+    "text": "每位受邀者在加入前都会收到以下告知：",
+    "source": "e2f2a4d7030e"
+  },
+  "talk.meeting.everyone-in-this-group-is-told": {
+    "text": "此群组中的每个人都会收到通知并可加入。一个会议同时最多容纳四人。",
+    "source": "44ebddf60609"
+  },
+  "studio.guests.everyone-is-taken-out-and-the": {
+    "text": "所有人都会被移出，链接将失效。",
+    "source": "f32662261db0"
   },
   "registry.everyone-you-write-to-in-one": {
     "text": "你联系的每个人，都在一本通讯簿中",
@@ -9631,13 +10001,13 @@
     "text": "淡出",
     "source": "7d680202a523"
   },
-  "video.inspector.fade-from-black": {
-    "text": "从黑场淡入",
-    "source": "636fcf61e179"
+  "video.layer-names.fade-in-and-out": {
+    "text": "淡入淡出",
+    "source": "abdc99cd0ff6"
   },
-  "video.inspector.fade-to-black": {
-    "text": "淡出到黑场",
-    "source": "3fc1288f194f"
+  "video.inspector.fade-length": {
+    "text": "淡化时长",
+    "source": "eb1d5120984a"
   },
   "common.fade-down": {
     "text": "下远",
@@ -9658,6 +10028,10 @@
   "word.dialogs.faint-and-rising-across-every-page": {
     "text": "在每页文字后方斜向显示的浅色文字，与 Word 自身的绘制方式相同。",
     "source": "ba77601d2670"
+  },
+  "video.inspector.fall": {
+    "text": "下落",
+    "source": "e85a6413c1bd"
   },
   "word.mailings.fallback": {
     "text": "备用",
@@ -9690,6 +10064,10 @@
   "mail.fetching-folder-done": {
     "text": "正在收取 {folder}：{done}",
     "source": "d52ad4f83a82"
+  },
+  "video.library.fetching": {
+    "text": "正在获取…",
+    "source": "8d0738c84d08"
   },
   "mail.smime.fewer-details": {
     "text": "收起详细信息",
@@ -9770,6 +10148,10 @@
   "common.file-name": {
     "text": "文件名",
     "source": "3efed3de9d4b"
+  },
+  "pictures.file-names-beneath-the-pictures": {
+    "text": "图片下方的文件名",
+    "source": "9095d26206fe"
   },
   "locker.file-names-in-the-cloud": {
     "text": "云中的文件名",
@@ -10079,6 +10461,10 @@
     "text": "查找：在所有页面中查找文字（Ctrl+F）",
     "source": "04805ec8b35c"
   },
+  "talk.meet-lines.finding-a-talk-server-for-the": {
+    "text": "正在为会议查找通话服务器（Talk Server）…",
+    "source": "f13c9a98b3ca"
+  },
   "ui.proofing.finding-suggestions": {
     "text": "正在查找建议…",
     "source": "b5269d86a5f7"
@@ -10127,6 +10513,10 @@
     "text": "请在浏览器中完成登录，然后返回此处。",
     "source": "07f16710fc1e"
   },
+  "talk.finish-your-call-first": {
+    "text": "先结束当前通话。",
+    "source": "7bf710a0c972"
+  },
   "common.fire": {
     "text": "火焰",
     "source": "c141faa80e43"
@@ -10170,6 +10560,10 @@
   "base.sources.first-page": {
     "text": "第一页",
     "source": "0bdbb750609c"
+  },
+  "video.library.first-point": {
+    "text": "第一个点",
+    "source": "29ceaa773427"
   },
   "common.first-record": {
     "text": "第一条记录",
@@ -10222,6 +10616,10 @@
   "common.fit-to-window": {
     "text": "适应窗口大小",
     "source": "19707cae1f79"
+  },
+  "image.fit-to-the-page": {
+    "text": "适应页面",
+    "source": "d3813ef5da30"
   },
   "common.fit-to-window-2": {
     "text": "适应窗口大小",
@@ -10521,9 +10919,17 @@
     "text": "用于法律保留：mbox 和 PDF，并附带哈希清单",
     "source": "cd8cd2cc47d2"
   },
+  "talk.meet-lines.for-more-than-four-people-choose": {
+    "text": "适用于超过 4 人的会议。须现在选择：以后无法更改。",
+    "source": "84feb33750e6"
+  },
   "studio.window.for-the-tools": {
     "text": "用于工具",
     "source": "28b5d93196d6"
+  },
+  "studio.settings-dialog.for-this-session-save-the-session": {
+    "text": "仅用于此会话。将会话另存为设置即可保留这些内容。",
+    "source": "89f7e8f9bc6d"
   },
   "broadcast.live-dialog.for-wide-and-tall-on-one": {
     "text": "若要在同一平台上同时横屏和竖屏直播，请添加两次，每次使用一个密钥。",
@@ -10556,6 +10962,14 @@
   "slides.foreground": {
     "text": "前景",
     "source": "ad4e241834ec"
+  },
+  "studio.net-camera-dialog.forget": {
+    "text": "忘记",
+    "source": "a6bd489d9550"
+  },
+  "studio.net-camera-dialog.forget-this-camera-and-its-password": {
+    "text": "忘记此摄像头及其密码",
+    "source": "bbaf44180309"
   },
   "pdf.form": {
     "text": "表单",
@@ -10917,10 +11331,6 @@
     "text": "自右上部",
     "source": "6b697be237a3"
   },
-  "video.inspector.from-black": {
-    "text": "从黑场",
-    "source": "6b8e41a84b78"
-  },
   "talk.invite.from-no-reply-rutba-io-in": {
     "text": "从 no-reply@rutba.io 以你的名义发送，每天少量。",
     "source": "ca68787a47f9"
@@ -11081,6 +11491,10 @@
     "text": "GitHub 暂时拒绝了检查。请一小时后重试。",
     "source": "607e298f1b12"
   },
+  "talk-words.give-the-meeting-a-name": {
+    "text": "为会议命名。",
+    "source": "ca0cc479b89e"
+  },
   "locker.give-the-password-a-different-way": {
     "text": "通过其他方式提供密码，例如电话或短信，切勿写在同一封电子邮件中。对方在其“保险箱”（Locker）中使用“打开发送的文件”来打开该文件。",
     "source": "1b7a08b8266b"
@@ -11088,6 +11502,10 @@
   "locker.give-the-password-a-different-way-2": {
     "text": "通过其他方式提供密码，例如电话或短信。",
     "source": "de572f2fb31a"
+  },
+  "studio.net-camera-find.give-the-user-name-and-password": {
+    "text": "输入摄像头的用户名和密码。Office 会直接向摄像头请求其视频流。",
+    "source": "4a09aba0e547"
   },
   "slides.glow": {
     "text": "发光",
@@ -11397,6 +11815,10 @@
     "text": "已按 {columns} 分组",
     "source": "a3ee8fd53ec4"
   },
+  "talk.groups": {
+    "text": "群组",
+    "source": "39bbb719fa2b"
+  },
   "word.restrict.groups": {
     "text": "组：",
     "source": "914dc79e4818"
@@ -11421,9 +11843,37 @@
     "text": "等比序列",
     "source": "66b06e996553"
   },
+  "studio.list.guest": {
+    "text": "嘉宾",
+    "source": "5ed8944a85a9"
+  },
+  "studio.guests.guest-from-talk": {
+    "text": "来自 Talk 的嘉宾…",
+    "source": "793232fc0bf6"
+  },
   "base.guest-house-or-b-and-b": {
     "text": "宾馆或民宿",
     "source": "a0f9eeb489a3"
+  },
+  "studio.list.guest-n": {
+    "text": "嘉宾 {n}",
+    "source": "03b6865b76af"
+  },
+  "studio.guests.guests": {
+    "text": "嘉宾",
+    "source": "3c8e0fde6fcc"
+  },
+  "studio.guests.guests-come-in-through-talk-open": {
+    "text": "嘉宾通过“通话”（Talk）进入。打开通话并登录，然后回到这里。",
+    "source": "9eb299d4bca8"
+  },
+  "studio.guests.guests-from-talk": {
+    "text": "来自 Talk 的嘉宾",
+    "source": "3d460856e536"
+  },
+  "studio.guests.guests-2": {
+    "text": "嘉宾…",
+    "source": "16daa9d8055e"
   },
   "slides.ribbon.guides": {
     "text": "参考线",
@@ -11440,6 +11890,14 @@
   "slides.half-reflection": {
     "text": "半映像",
     "source": "5134a8a7f210"
+  },
+  "talk.meet-lines.hand": {
+    "text": "举手",
+    "source": "fa18c06733fb"
+  },
+  "talk.meet-lines.hand-raised": {
+    "text": "已举手",
+    "source": "28a816817557"
   },
   "print.handout": {
     "text": "讲义",
@@ -11470,6 +11928,10 @@
   "word.ruler.hanging-indent": {
     "text": "悬挂缩进",
     "source": "330571a6ff67"
+  },
+  "talk.lines.harassment-or-threats": {
+    "text": "骚扰或威胁",
+    "source": "badb8a71f7e3"
   },
   "common.harbour": {
     "text": "港湾",
@@ -11655,6 +12117,14 @@
     "text": "高度：自动",
     "source": "72963474c164"
   },
+  "talk.meet-lines.held-on-a-talk-server-and": {
+    "text": "在通话服务器（Talk Server）上举行，由参会者的应用加密。",
+    "source": "069bbb237456"
+  },
+  "talk.meet-lines.held-on-a-talk-server-sound": {
+    "text": "在通话服务器（Talk Server）上举行。声音、画面和消息由参会者的应用加密。",
+    "source": "7b770898ab95"
+  },
   "talk.invite-email.hello-name": {
     "text": "{name}，你好：",
     "source": "ec6b334e36ce"
@@ -11678,6 +12148,10 @@
   "word.mailings.here-is-a-preview-from-your": {
     "text": "以下是收件人列表中的预览：",
     "source": "e78b6ed296e4"
+  },
+  "studio.guests.here-now": {
+    "text": "当前在场",
+    "source": "ccf67ff0cbab"
   },
   "colour.palette.hex": {
     "text": "十六进制",
@@ -11927,6 +12401,10 @@
     "text": "停在此帧",
     "source": "21076652231b"
   },
+  "talk.meeting.hold-it-on-a-talk-server": {
+    "text": "在通话服务器（Talk Server）上举行",
+    "source": "6f8881eaab59"
+  },
   "pictures.hold-this-frame": {
     "text": "停在此帧",
     "source": "710af7ead1b9"
@@ -11962,6 +12440,10 @@
   "template-gallery.household": {
     "text": "家庭",
     "source": "a1c6c97f415f"
+  },
+  "notify-dialog.how": {
+    "text": "方式",
+    "source": "7470bd3bc2ab"
   },
   "video.inspector.how-close": {
     "text": "缩放程度",
@@ -12375,6 +12857,10 @@
     "text": "浮于文字上方",
     "source": "c5e4f149a0b0"
   },
+  "talk.meeting.in-it-now-names": {
+    "text": "当前在场：{names}",
+    "source": "41e0075c8bab"
+  },
   "word.in-line-with-text": {
     "text": "嵌入型",
     "source": "975100d147b1"
@@ -12423,6 +12909,12 @@
     "text": "在你的“通话”（Talk）联系人中",
     "source": "6d460ac05145"
   },
+  "shell.notifier.in-count-minute": {
+    "forms": {
+      "other": "{count} 分钟后"
+    },
+    "source": "575500e5bcff"
+  },
   "video.in-from-out-to": {
     "text": "入点 {from}，出点 {to}",
     "source": "9ad2ac8a59a8"
@@ -12467,9 +12959,17 @@
     "text": "来电",
     "source": "a31650d84806"
   },
+  "notify-dialog.incoming-calls": {
+    "text": "来电",
+    "source": "820afd4a1ab6"
+  },
   "mail.dialogs.incoming-server-imap": {
     "text": "接收服务器（IMAP）",
     "source": "dfd215e4fd24"
+  },
+  "shell.notifier.incoming-video-call": {
+    "text": "视频来电",
+    "source": "eda8b6750322"
   },
   "sheets.ribbon.increase-decimal": {
     "text": "增加小数位数",
@@ -13251,6 +13751,10 @@
     "text": "发票",
     "source": "b832002da297"
   },
+  "video.iris": {
+    "text": "光圈",
+    "source": "65003c7a1864"
+  },
   "sheets.queries.is": {
     "text": "是",
     "source": "f5985de1fd3a"
@@ -13363,9 +13867,17 @@
     "text": "它以纯文本显示，并省略了其中的链接和图片：未由可信者签名的加密邮件可能在传输途中被篡改，从而将其内容发送到别处。",
     "source": "a923da16888c"
   },
+  "shell.tray.it-keeps-watch-for-calls-messages": {
+    "text": "它会留意来电、消息、邮件和提醒。可通过时钟旁的图标打开或退出它。",
+    "source": "280bef469893"
+  },
   "locker.it-needs-about-size-and-free": {
     "text": "大约需要 {size}，可用空间为 {free}。",
     "source": "4b6dd24db2d1"
+  },
+  "notify-dialog.it-starts-by-the-clock-with": {
+    "text": "登录 Windows 时，它会在时钟旁自动启动，不打开窗口。",
+    "source": "6a1f3f9b4896"
   },
   "base.people.it-starts-reading-every-table-choose": {
     "text": "它开始时可读取每个表；选择它可以对每个表执行的操作。",
@@ -13374,6 +13886,10 @@
   "base.it-starts-with-an-id-that": {
     "text": "它以一个为每条记录编号的 ID 开始；在其设计中添加字段。",
     "source": "021f623d5e41"
+  },
+  "notify-dialog.it-stays-by-the-clock-while": {
+    "text": "只要有需要留意的内容（已登录“通话”（Talk）、有邮件帐户或有即将到来的提醒），它就会留在时钟旁。点击那里的图标菜单中的“退出”即可关闭它。",
+    "source": "10a5253e2f69"
   },
   "mail.dialogs.it-uses-the-encoding-encoding-which": {
     "text": "它使用 {encoding} 编码，此版本无法解码。",
@@ -13479,9 +13995,37 @@
     "text": "职务",
     "source": "86db80a8096b"
   },
+  "common.join": {
+    "text": "加入",
+    "source": "fd30fe681b4b"
+  },
+  "talk.meeting.join-a-meeting": {
+    "text": "加入会议",
+    "source": "9b2a5bd7d96b"
+  },
   "sheets.queries.join-kind": {
     "text": "联接种类",
     "source": "a9aa54ad2dfd"
+  },
+  "calendar.join-the-meeting": {
+    "text": "加入会议",
+    "source": "31310cd2645b"
+  },
+  "talk-words.join-the-meeting-in-rutba-office": {
+    "text": "在 Rutba Office 中加入会议：{link}",
+    "source": "c9c01f7d52fd"
+  },
+  "calendar.joining-needs-talk-which-is-not": {
+    "text": "加入需要“通话”（Talk），但这台电脑上未安装。",
+    "source": "7870dcf0080c"
+  },
+  "talk.meeting.joining-name": {
+    "text": "正在加入 {name}…",
+    "source": "56727336c281"
+  },
+  "talk.meeting.joining": {
+    "text": "正在加入…",
+    "source": "6bbb89ee5d48"
   },
   "common.journal-article": {
     "text": "期刊文章",
@@ -13562,6 +14106,10 @@
   "pdf.keep-it-open": {
     "text": "保持打开",
     "source": "458f6b681df9"
+  },
+  "notify-dialog.keep-rutba-office-running-after-its": {
+    "text": "最后一个窗口关闭后仍保持 Rutba Office 运行",
+    "source": "f31bfd395eab"
   },
   "sheets.queries.keep-top-rows": {
     "text": "保留最前面几行",
@@ -13683,6 +14231,14 @@
     "text": "将此发件人保存到“联系人”",
     "source": "dd3bb1c9952a"
   },
+  "studio.setups-menu.keep-this-session": {
+    "text": "是否保留此会话？",
+    "source": "5949e8e6390b"
+  },
+  "notify-dialog.keeping-watch": {
+    "text": "保持运行以接收通知",
+    "source": "2bd2ecd98d0f"
+  },
   "sheets.dialogs.keeps": {
     "text": "保留",
     "source": "16aebc8dbb59"
@@ -13738,6 +14294,10 @@
   "contacts.kept-name": {
     "text": "已保存 {name}。",
     "source": "631191ecc875"
+  },
+  "studio.net-camera-dialog.kept-type-a-new-one-to": {
+    "text": "已保存。输入新密码可更改。",
+    "source": "94040f9b6468"
   },
   "common.key": {
     "text": "密钥",
@@ -14007,6 +14567,10 @@
     "text": "最近：{tool}，{when}",
     "source": "555c3b837526"
   },
+  "video.inspector.lasts": {
+    "text": "持续时间",
+    "source": "e8d07dfabcb4"
+  },
   "packs-dialog.later": {
     "text": "稍后",
     "source": "73b6e48a1b55"
@@ -14089,6 +14653,10 @@
     "text": "最少",
     "source": "02610c979bd9"
   },
+  "talk.meeting.leave": {
+    "text": "离开",
+    "source": "fc6e4a408d56"
+  },
   "mail.dialogs.leave-blank-for-automatic-reply-and": {
     "text": "留空则使用“自动答复：”加原始主题。",
     "source": "94aa5a2fde29"
@@ -14113,6 +14681,10 @@
     "text": "退出全屏 (F11)",
     "source": "f29680c41343"
   },
+  "talk.leave-group": {
+    "text": "退出群组",
+    "source": "3475393dbebd"
+  },
   "sheets.dialogs.leave-it-empty-to-keep-the": {
     "text": "留空则保留此区域现有的密码。",
     "source": "41e0fa01d903"
@@ -14129,6 +14701,10 @@
     "text": "排除减号后面的内容",
     "source": "fc1eecb3aa7d"
   },
+  "talk.meeting.leave-the-meeting": {
+    "text": "离开会议",
+    "source": "977585a92642"
+  },
   "slides.leave-the-show": {
     "text": "退出放映",
     "source": "fdc22af2a38d"
@@ -14144,6 +14720,14 @@
   "locker.leave-them-unlocked-suggested": {
     "text": "保持未锁定（建议）",
     "source": "0afd256556ff"
+  },
+  "talk.leave-this-group": {
+    "text": "是否退出此群组？",
+    "source": "4ed01b5a99b2"
+  },
+  "talk.meeting.leave-or-end-the-meeting-for": {
+    "text": "是否离开会议，或为所有人结束会议？",
+    "source": "f2d3c9b9f154"
   },
   "common.left": {
     "text": "左",
@@ -14238,6 +14822,10 @@
   "word.ribbon.legal-8-5-14-in": {
     "text": "Legal（8.5 × 14 英寸）",
     "source": "470239248343"
+  },
+  "video.inspector.legend": {
+    "text": "图例",
+    "source": "7482e374b5bd"
   },
   "base.lending-library": {
     "text": "借阅图书馆",
@@ -14551,6 +15139,14 @@
     "text": "链接地址",
     "source": "13844ffc7287"
   },
+  "talk.meeting.link-copied": {
+    "text": "链接已复制。",
+    "source": "71af38a2d56b"
+  },
+  "studio.guests.link-copied-paste-it-wherever-you": {
+    "text": "链接已复制。可粘贴到任意位置。",
+    "source": "e62a2c262096"
+  },
   "word.list-dialog.link-level-to-style": {
     "text": "将级别链接到样式",
     "source": "ed09b5da333c"
@@ -14687,6 +15283,10 @@
     "text": "直播目标…",
     "source": "677788648878"
   },
+  "studio.guests.live-broadcast-with-name": {
+    "text": "与 {name} 直播",
+    "source": "fed9b5301f2a"
+  },
   "base.links.live-reads-the-records-from-the": {
     "text": "“实时”会在你工作时从引擎读取记录。“在此文件中保存副本”还会将其保存在此处：引擎无法访问时你也能工作，恢复连接后你的更改会发送到引擎。如果某条记录在两处都被更改，以引擎的版本为准，你的版本会保留供你查看。",
     "source": "c61357c56fe9"
@@ -14754,6 +15354,10 @@
   "image.layers-panel.lock-the-layer": {
     "text": "锁定图层",
     "source": "7dbd5ea70c86"
+  },
+  "talk.meeting.lock-the-meeting-nobody-new-can": {
+    "text": "锁定会议：不允许新成员加入",
+    "source": "5508fe16d924"
   },
   "locker.lock-the-rest-leave-this-one": {
     "text": "锁定其余文件，不锁定此文件",
@@ -14879,6 +15483,10 @@
     "text": "外观",
     "source": "a0de5719f595"
   },
+  "studio.net-camera-find.look-again": {
+    "text": "重新查找",
+    "source": "d36feef04807"
+  },
   "video.look-here": {
     "text": "看这里",
     "source": "a0191bf6cc06"
@@ -14902,6 +15510,10 @@
   "mail.docnote.looking-for-an-invoice-or-a": {
     "text": "正在 {name} 中查找发票或收据…",
     "source": "19526ac28939"
+  },
+  "studio.net-camera-find.looking-for-cameras-on-this-network": {
+    "text": "正在此网络上查找摄像头…",
+    "source": "35cf2433a990"
   },
   "slides.changes.looking-for-changes": {
     "text": "正在查找更改…",
@@ -14970,6 +15582,10 @@
   "video.inspector.lower-the-rest": {
     "text": "降低其他音量",
     "source": "95be98f8b672"
+  },
+  "talk.meeting.lower-your-hand": {
+    "text": "放下手",
+    "source": "b8308c2681a2"
   },
   "common.lowercase": {
     "text": "小写",
@@ -15613,13 +16229,33 @@
     "text": "中等色，无镶边行",
     "source": "611babdad090"
   },
+  "talk.meet-now": {
+    "text": "立即开会",
+    "source": "90e040c1ceb7"
+  },
+  "common.meeting": {
+    "text": "会议",
+    "source": "8b8b8871bbfb"
+  },
   "template-gallery.meeting-agenda": {
     "text": "会议议程",
     "source": "07d60ca4be2d"
   },
+  "talk.meeting.meeting-locked": {
+    "text": "会议已锁定",
+    "source": "b91ee56f0968"
+  },
   "template-gallery.meeting-minutes": {
     "text": "会议纪要",
     "source": "eed123b54b71"
+  },
+  "talk.meet-lines.meeting-with-name": {
+    "text": "与 {name} 的会议",
+    "source": "c77cbc09cfcf"
+  },
+  "notify-dialog.meetings-about-to-start": {
+    "text": "即将开始的会议",
+    "source": "5e5c76090b99"
   },
   "base.members-and-plans-payments-classes-and": {
     "text": "会员和套餐、付款、课程和预约、私教和到访。",
@@ -15901,6 +16537,18 @@
     "text": "镜像",
     "source": "90fade6fb78e"
   },
+  "common.missed-call": {
+    "text": "未接来电",
+    "source": "f203aff4b526"
+  },
+  "common.missed-calls": {
+    "text": "未接来电",
+    "source": "42f59e0dcd29"
+  },
+  "talk.lines.missed-video-call": {
+    "text": "未接视频来电",
+    "source": "73fd69f0bfa5"
+  },
   "word.ribbon.moderate": {
     "text": "适中",
     "source": "5c42afc7a230"
@@ -16061,6 +16709,10 @@
     "text": "更多模板：信函、报告、预算、发票、演示文稿等，以及你自己的模板",
     "source": "9633d83cbe73"
   },
+  "video.ribbon.more-transitions": {
+    "text": "其他切换效果",
+    "source": "196a312ff56d"
+  },
   "sheets.more-edit-or-delete": {
     "text": "更多：编辑或删除",
     "source": "09b71b1a3f9a"
@@ -16164,6 +16816,10 @@
   "video.move-track-up": {
     "text": "上移轨道",
     "source": "014314a1063e"
+  },
+  "video.timeline.move-a-point-of-movement": {
+    "text": "移动运动点",
+    "source": "456f30320217"
   },
   "video.move-clip": {
     "text": "移动剪辑",
@@ -16273,6 +16929,10 @@
     "text": "已移到回收站",
     "source": "4a32012fc458"
   },
+  "video.inspector.movement": {
+    "text": "运动",
+    "source": "49ba63e89af6"
+  },
   "sheets.objects.multi-select-off-a-click-shows": {
     "text": "多选：关闭时，单击仅显示该项（按 Ctrl 并单击可添加一项）",
     "source": "0910783d3f55"
@@ -16321,6 +16981,10 @@
     "text": "将此轨道静音",
     "source": "2d4449bf2a58"
   },
+  "common.muted": {
+    "text": "已静音",
+    "source": "2346f214ad56"
+  },
   "talk.address.my-address-in-talk": {
     "text": "我在 Talk 中的地址",
     "source": "c06c86b814f9"
@@ -16332,6 +16996,10 @@
   "calendar.my-calendars": {
     "text": "我的日历",
     "source": "23b77e2b7bb3"
+  },
+  "talk.server-share.my-contacts": {
+    "text": "我的联系人",
+    "source": "6add5927687d"
   },
   "talk.invite.my-email-app": {
     "text": "我的电子邮件应用",
@@ -16397,6 +17065,14 @@
     "text": "网站名称",
     "source": "9a8a9021ffc5"
   },
+  "talk.groups.name-of-the-group": {
+    "text": "群组名称",
+    "source": "d692cebacdf6"
+  },
+  "talk.meeting.name-of-the-meeting": {
+    "text": "会议名称",
+    "source": "d944cb35604b"
+  },
   "profiles.name-of-the-new-profile": {
     "text": "新配置文件的名称",
     "source": "cd872167f53f"
@@ -16420,6 +17096,10 @@
   "common.name-for-the-lower-third": {
     "text": "姓名，用于下方字幕条",
     "source": "3075123d2d1a"
+  },
+  "talk.groups.name-if-you-want-one": {
+    "text": "名称（可选）",
+    "source": "70fee814f6a2"
   },
   "sheets.dialogs.named-ranges": {
     "text": "命名区域",
@@ -16501,6 +17181,10 @@
     "text": "需要更新版本的 Rutba Office",
     "source": "3d61f92f62b9"
   },
+  "talk.lines.needs-a-newer-rutba-office-to": {
+    "text": "需要更新版本的 Rutba Office 才能查看此群组",
+    "source": "e9f8d676fa25"
+  },
   "locker.needs-you": {
     "text": "需要你处理",
     "source": "74b6abdf5969"
@@ -16509,9 +17193,17 @@
     "text": "在你们重新成为联系人之前，双方都无法给对方发消息或通话。你在此处的消息将被删除。",
     "source": "55354b8358c9"
   },
+  "spoken.voices.neither-shown-nor-read-aloud-the": {
+    "text": "既不显示也不朗读：这些行保留其时间。请从三个选项中选择一个来恢复它们。",
+    "source": "431be017d2c5"
+  },
   "common.neon": {
     "text": "霓虹",
     "source": "618484e2c549"
+  },
+  "studio.list.network-camera": {
+    "text": "网络摄像头",
+    "source": "6e3492ed4b9b"
   },
   "sheets.ribbon.neutral": {
     "text": "适中",
@@ -16693,6 +17385,10 @@
     "text": "新文档将以 {name} 开始。",
     "source": "5331555ff54a"
   },
+  "common.new-email": {
+    "text": "新建邮件",
+    "source": "0d25c8b1db61"
+  },
   "calendar.new-event": {
     "text": "新建事件",
     "source": "7cdc2e276045"
@@ -16721,9 +17417,17 @@
     "text": "根据模板新建",
     "source": "5c281f84d68c"
   },
+  "talk.groups.new-group": {
+    "text": "新建群组",
+    "source": "df796c655f6f"
+  },
   "mail.new-mail-goes-from-address": {
     "text": "新邮件从 {address} 发出",
     "source": "75d10444c655"
+  },
+  "notify-dialog.new-mail-as-it-arrives": {
+    "text": "新邮件到达时",
+    "source": "7436e7beb576"
   },
   "mail.new-message": {
     "text": "新邮件",
@@ -16764,6 +17468,10 @@
   "mail.rules.new-rule": {
     "text": "新建规则",
     "source": "99cd24efe983"
+  },
+  "studio.window.new-session": {
+    "text": "新建会话",
+    "source": "cffdba22adf2"
   },
   "studio.new-setup": {
     "text": "新建设置",
@@ -16925,6 +17633,10 @@
     "text": "下一页（Page Down）",
     "source": "b4b926fb53d0"
   },
+  "video.inspector.next-point": {
+    "text": "下一个点",
+    "source": "ce6dcb3c9b65"
+  },
   "common.next-record": {
     "text": "下一条记录",
     "source": "72366533fb26"
@@ -17033,6 +17745,14 @@
     "text": "还没有 Rutba Office？使用同一链接即可通过免费 Rutba 帐户接受，Rutba Office 也可免费下载：{join}",
     "source": "16030f970f96"
   },
+  "talk.meet-lines.no-talk-server-can-hold-this": {
+    "text": "目前没有通话服务器（Talk Server）可以举行此会议。",
+    "source": "21399cd5bfda"
+  },
+  "talk.meet-lines.no-talk-server-can-take-people": {
+    "text": "目前没有通话服务器（Talk Server）可以接纳人员进入此会议。稍后再次尝试加入。",
+    "source": "f88a607c134e"
+  },
   "sheets.ribbon.no-title": {
     "text": "无",
     "source": "a81d00a2e03d"
@@ -17108,6 +17828,14 @@
   "ai-tools-dialog.no-call-yet": {
     "text": "尚无调用",
     "source": "a43c76129f11"
+  },
+  "studio.net-camera-find.no-camera-answered-a-camera-answers": {
+    "text": "没有摄像头响应。摄像头需要在其自身设置中开启 ONVIF，并与这台电脑位于同一网络中，才会响应。",
+    "source": "458f70618c7d"
+  },
+  "talk.meet-lines.no-camera-was-found-on-this": {
+    "text": "这台电脑上找不到摄像头。",
+    "source": "16b044153b6f"
   },
   "common.no-camera-was-found": {
     "text": "未找到相机。",
@@ -17185,6 +17913,10 @@
     "text": "还没有联系人。通过电子邮件地址添加联系人；对方接受后，你们就可以发消息和通话。",
     "source": "f6497439472d"
   },
+  "studio.guests.no-copy-is-kept-while-this": {
+    "text": "此会议在这里时不保留副本。其参与者被告知会议将直播，而不是录制。",
+    "source": "40fd5ed74db7"
+  },
   "slides.custom-shows.no-custom-shows-yet-new-makes": {
     "text": "还没有自定义放映。“新建”可创建一个。",
     "source": "8b1f3e334875"
@@ -17220,6 +17952,10 @@
   "word.mailings.no-errors-every-merge-field-has": {
     "text": "没有错误：每个合并域在列表中都有对应的列。",
     "source": "3d54fcdbe072"
+  },
+  "calendar.print.no-events": {
+    "text": "无事件",
+    "source": "2197f6207922"
   },
   "pdf.found.no-fields-were-found-recognise-text": {
     "text": "未找到字段。勾选“查找字段”后运行“识别文本”，可读取发票或收据的字段以及表单的勾选框。",
@@ -17305,14 +18041,6 @@
     "text": "无限制",
     "source": "f7fcff0d8fea"
   },
-  "spoken.voices.add-a-voice-to-read-the": {
-    "text": "添加语音即可大声朗读这些文字；没有语音时也可以只显示。",
-    "source": "04ed3fbd74fe"
-  },
-  "spoken.voices.neither-shown-nor-read-aloud-the": {
-    "text": "既不显示也不朗读：这些行保留其时间。请从三个选项中选择一个来恢复它们。",
-    "source": "431be017d2c5"
-  },
   "spoken.voices.no-lines-yet-each-line-of": {
     "text": "尚无文本行：文字的每一行会依次朗读。",
     "source": "6c66185b20fc"
@@ -17357,9 +18085,17 @@
     "text": "无麦克风",
     "source": "618183d7ea1f"
   },
+  "talk.meet-lines.no-microphone-was-found-on-this": {
+    "text": "这台电脑上找不到麦克风。其他人听不到你的声音。",
+    "source": "05f114874a3a"
+  },
   "studio.no-microphone-was-found": {
     "text": "未找到麦克风。",
     "source": "cf757208df0f"
+  },
+  "talk.missed.no-missed-calls": {
+    "text": "没有未接来电。",
+    "source": "7a78e0b6e3b9"
   },
   "word.references-toa.no-more-citations-found": {
     "text": "未找到更多引文。",
@@ -17380,6 +18116,10 @@
   "slides.presenter.no-notes-on-this-slide-type": {
     "text": "此幻灯片没有备注。请在普通视图中幻灯片下方显示“单击此处添加备注”的位置输入备注。",
     "source": "fe1e3a5506f6"
+  },
+  "notify-dialog.no-notifications-between-these-times-what": {
+    "text": "这些时间段内不显示通知。收到的内容仍会计数。",
+    "source": "9bb97a080483"
   },
   "engine.no-numbers-found-a-chart-wants": {
     "text": "未找到数字：图表要求表格的正文单元格为数值。",
@@ -17440,6 +18180,10 @@
   "print.no-printer-is-installed": {
     "text": "未安装打印机",
     "source": "eb71dfd30c2e"
+  },
+  "print.no-printer-is-installed-use-save": {
+    "text": "未安装打印机。可使用“另存为 PDF”，或在这台电脑的设置中添加打印机。",
+    "source": "c8bae189ef75"
   },
   "sheets.queries.no-queries-in-this-workbook-yet": {
     "text": "此工作簿中还没有查询。“数据”→“来自表格/区域”或“从文本/CSV”可创建查询。",
@@ -17504,6 +18248,10 @@
   "mail.rules.no-rules-yet": {
     "text": "还没有规则",
     "source": "d29cf782366d"
+  },
+  "studio.setups-menu.no-saved-setups-yet": {
+    "text": "尚无已保存的设置",
+    "source": "abf744b63ded"
   },
   "common.no-scaling": {
     "text": "不缩放",
@@ -17601,6 +18349,10 @@
     "text": "还没有视图。“添加…”可保存工作簿当前的外观。",
     "source": "233d8dca900a"
   },
+  "read-aloud.bar.no-voice-for-language-is-on": {
+    "text": "这台电脑上没有 {language} 语音。",
+    "source": "9dae296f7e6e"
+  },
   "common.no-voice-has-been-added": {
     "text": "尚未添加语音。",
     "source": "c163f326bf4d"
@@ -17637,6 +18389,14 @@
     "text": "还没有 {label} 题注：“插入题注”可添加题注，“更新表格”可更新列表。",
     "source": "fd8ab69b9093"
   },
+  "talk.server-share.nobody-else-can-hold-a-meeting": {
+    "text": "其他人均无法在此服务器上举行会议。",
+    "source": "2e4dc764891f"
+  },
+  "studio.guests.nobody-here-yet": {
+    "text": "尚无人到场",
+    "source": "a142ffa894ef"
+  },
   "talk.invite-email.nobody-in-contacts-has-an-email": {
     "text": "“联系人”中还没有人有电子邮件地址。",
     "source": "7e5a82a6e3b4"
@@ -17644,6 +18404,18 @@
   "talk.invite-email.nobody-in-contacts-matches": {
     "text": "“联系人”中没有匹配的人。",
     "source": "3f4ecb0436d4"
+  },
+  "talk.settings.nobody-is-blocked": {
+    "text": "没有已阻止的人。",
+    "source": "acecbd3f4140"
+  },
+  "talk.server-share.nobody-is-chosen-yet-tick-the": {
+    "text": "尚未选择任何人。勾选可在此服务器上举行会议的联系人。",
+    "source": "e04b8c76ae44"
+  },
+  "talk.meeting.nobody-is-in-it-yet": {
+    "text": "尚无人加入。",
+    "source": "7b877d971afd"
   },
   "mail.compose.nobody-on-this-line-is-visible": {
     "text": "此行中的人员对其他收件人均不可见。",
@@ -17672,6 +18444,10 @@
   "word.references-toa.none-marked-yet": {
     "text": "尚未标记任何内容。",
     "source": "fae8d5d30eb5"
+  },
+  "talk.groups.none-of-your-contacts-are-left": {
+    "text": "没有可添加的联系人了。",
+    "source": "849f7d80a6a0"
   },
   "studio.window.none-to-add": {
     "text": "没有可添加的项",
@@ -17736,6 +18512,10 @@
   "voices-dialog.not-added": {
     "text": "未添加",
     "source": "2460c620beba"
+  },
+  "calendar.not-among-your-talk-contacts-so": {
+    "text": "不是你的“通话”（Talk）联系人，成为联系人后才能加入：{who}",
+    "source": "6417af9e0717"
   },
   "sheets.dialogs.not-an-address-and-not-a": {
     "text": "不是地址，也不是此工作簿中已知的位置。",
@@ -17809,9 +18589,17 @@
     "text": "此处未找到。在你选择一个之前保留其位置。",
     "source": "feb7eac96064"
   },
+  "studio.guests.not-in-talk-just-now": {
+    "text": "暂时不在 Talk 中",
+    "source": "e6711a24a8d7"
+  },
   "ui.proofing.not-in-dictionary": {
     "text": "词典中没有",
     "source": "1642d2535d39"
+  },
+  "talk.lines.not-in-your-contacts": {
+    "text": "不在你的联系人中",
+    "source": "df22cf8f3220"
   },
   "packs-dialog.not-installed": {
     "text": "未安装",
@@ -17867,6 +18655,10 @@
     "text": "尚未保存",
     "source": "35c5fe43950d"
   },
+  "talk.lines.not-sent": {
+    "text": "未发送",
+    "source": "cd5f943d5863"
+  },
   "mail.not-sent-yet-and-still-in": {
     "text": "尚未发送，仍在“发件箱”中。",
     "source": "a71ab808c55c"
@@ -17879,9 +18671,29 @@
     "text": "未发送：“邮件”无法从 {address} 发送，因为该帐户未设置发送服务器。",
     "source": "6f70753ecb65"
   },
+  "talk.lines.not-sent-talk-was-not-connected": {
+    "text": "未发送：“通话”（Talk）已有一天未连接。",
+    "source": "7c01514ece95"
+  },
+  "talk.lines.not-sent-the-message-is-too": {
+    "text": "未发送：消息过长。",
+    "source": "978afd9480df"
+  },
   "calendar.words.not-sent-there-is-no-mail": {
     "text": "未发送：没有可用于发送的“邮件”帐户。在“邮件”的“帐户”下添加一个。",
     "source": "6425bf6ced3e"
+  },
+  "talk.lines.not-sent-too-many-messages-in": {
+    "text": "未发送：一分钟内消息过多。",
+    "source": "3fd20957747c"
+  },
+  "talk.lines.not-sent-you-are-no-longer": {
+    "text": "未发送：你们已不再是联系人。",
+    "source": "a73aff6abeee"
+  },
+  "talk.lines.not-sent-you-are-no-longer-2": {
+    "text": "未发送：你已不在此群组中。",
+    "source": "2909d476e230"
   },
   "calendar.words.not-sent-reason": {
     "text": "未发送：{reason}",
@@ -17894,6 +18706,10 @@
   "base.not-shown-as-data-files-cannot": {
     "text": "未显示，因为“数据文件”（Data Files）无法显示它们：{tables}。",
     "source": "ddfa2ced7beb"
+  },
+  "calendar.not-streamed-live-this-cannot-be": {
+    "text": "不直播。保存事件后无法更改此设置。",
+    "source": "e75806a6a1c3"
   },
   "studio.live-bar.not-streamed-to-names-no-stream": {
     "text": "未推流到 {names}：没有推流密钥。",
@@ -18051,6 +18867,10 @@
     "text": "在你按下 {action} 之前不会发送任何内容。“保留为草稿”会改为将其保存在这台电脑上；“取消”不会执行任何操作。",
     "source": "b045bd822cc1"
   },
+  "shell.tray.nothing-is-waiting": {
+    "text": "没有等待处理的内容",
+    "source": "dea4973695a6"
+  },
   "mail.nothing-is-waiting": {
     "text": "没有等待发送的内容。",
     "source": "ca4fb9abe74f"
@@ -18138,6 +18958,22 @@
   "common.nothing-yet": {
     "text": "尚无内容。",
     "source": "e056734effa8"
+  },
+  "shell.tray.notification-settings": {
+    "text": "通知设置…",
+    "source": "a936905265ce"
+  },
+  "common.notifications": {
+    "text": "通知",
+    "source": "788011833a5a"
+  },
+  "shell.notifier.notifications-are-on": {
+    "text": "通知已开启",
+    "source": "ceaaed4b4f37"
+  },
+  "common.notifications-are-paused-until-time": {
+    "text": "通知已暂停至 {time}",
+    "source": "1d6521f14f4e"
   },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "当前为 {width} × {height} 厘米。幻灯片上的所有内容已缩放并居中，以适应新大小。",
@@ -18271,6 +19107,14 @@
     "text": "离轴 1 右",
     "source": "958afff2aff5"
   },
+  "studio.guests.off-air": {
+    "text": "未上播",
+    "source": "9ce17b86cfdd"
+  },
+  "studio.sources-column.off-while-guests-are-here-it": {
+    "text": "嘉宾在场时关闭：否则会将他们的声音带上直播，包括他们等待时。",
+    "source": "b81e9a23d5ab"
+  },
   "inspect.off-slide-content": {
     "text": "幻灯片外内容",
     "source": "db649f82894a"
@@ -18379,6 +19223,10 @@
     "text": "在 instagram.com 上，选择 Add post，然后选择 Live，并复制地址和推流密钥。Instagram 每次都会提供新密钥，因此请在开始直播前重新添加。",
     "source": "a6223e20cbb4"
   },
+  "video.library.on-the-frame": {
+    "text": "在画面上",
+    "source": "1853d4732661"
+  },
   "image.on-the-mask-of-name-black": {
     "text": "在 {name} 的蒙版上：黑色隐藏，白色显示",
     "source": "24aac0dd6d60"
@@ -18451,6 +19299,10 @@
     "text": "屏幕上显示为一个整体以便使用原生光标；打印和 PDF 版式会实际分栏",
     "source": "33bd0e1b78c3"
   },
+  "studio.guests.one-guest": {
+    "text": "一位嘉宾",
+    "source": "f02659f62459"
+  },
   "studio.spoken-run.one-line-each-each-is-read": {
     "text": "每行一句：每一行会依次大声朗读",
     "source": "f1c64f2624f8"
@@ -18480,6 +19332,14 @@
   "ai-tools-dialog.only-ai-apps-on-this-computer": {
     "text": "只有这台电脑上的 AI 应用可以使用这些工具。不在网络上侦听，因此其他计算机无法连接。",
     "source": "96dbe7038e5b"
+  },
+  "talk-words.only-talk-contacts-of-the-organiser": {
+    "text": "只有组织者的“通话”（Talk）联系人才能加入。如果你还不是，请组织者在通话中添加你。",
+    "source": "c3481062b128"
+  },
+  "talk.meet-lines.only-talk-contacts-of-name-can": {
+    "text": "只有 {name} 的“通话”（Talk）联系人才能加入，总共最多 {count} 人。",
+    "source": "6412aac0305f"
   },
   "common.only-word-excel-and-powerpoint-documents": {
     "text": "只能嵌入 Word、Excel 和 PowerPoint 文档。",
@@ -18521,9 +19381,21 @@
     "text": "只有此处可写入的进入、强调或退出动画才能按段落播放",
     "source": "d3d5652df5c9"
   },
+  "notify-dialog.only-an-installed-copy-of-rutba": {
+    "text": "只有安装版 Rutba Office 才能随 Windows 启动。",
+    "source": "5d376c6f923f"
+  },
   "word.only-certain-kinds-of-changes-can": {
     "text": "此文档仅允许进行特定类型的更改：“审阅”→“限制编辑”。",
     "source": "dd366cf8032e"
+  },
+  "talk-words.only-contacts-of-the-person-who": {
+    "text": "只有设置此会议的人的联系人才能加入。",
+    "source": "b340096d4b92"
+  },
+  "talk-words.only-contacts-of-name-can-join": {
+    "text": "只有 {name} 的联系人才能加入此会议。请 {name} 在“通话”（Talk）中添加你。",
+    "source": "7c1a741c78f7"
   },
   "base.documents.only-for-records-where": {
     "text": "仅限以下记录：",
@@ -18540,6 +19412,18 @@
   "base.documents.only-lines-where": {
     "text": "仅限以下明细行：",
     "source": "7ab3bdec4e67"
+  },
+  "talk.server-share.only-me": {
+    "text": "仅我自己",
+    "source": "bdc0857b99a9"
+  },
+  "talk.meet-lines.only-people-in-this-group-and": {
+    "text": "只有此群组中的人员和 {name} 的“通话”（Talk）联系人才能加入，总共最多 {count} 人。",
+    "source": "d9dd584b74f6"
+  },
+  "talk.meet-lines.only-people-in-this-group-and-2": {
+    "text": "只有此群组中的人员和你的“通话”（Talk）联系人才能加入，总共最多 {count} 人。",
+    "source": "f9fcd01edae5"
   },
   "pictures.only-pictures-rated-so-many-stars": {
     "text": "仅显示达到指定星级或更高的图片",
@@ -18577,6 +19461,14 @@
     "text": "仅读取前 {count} 条记录。在此文件中保存副本即可使用全部记录。",
     "source": "df0ca43076cf"
   },
+  "talk-words.only-the-person-who-set-the": {
+    "text": "只有设置会议的人才能执行此操作。",
+    "source": "7602b02c63bd"
+  },
+  "talk.lines.only-the-person-who-started-the": {
+    "text": "只有创建群组的人才能将他人移出群组。",
+    "source": "7539223a2970"
+  },
   "locker.only-these-types": {
     "text": "仅这些类型",
     "source": "ba90201d2626"
@@ -18604,6 +19496,18 @@
   "slides.only-you-see-these": {
     "text": "只有你能看到这些内容",
     "source": "de3333efad62"
+  },
+  "talk-words.only-your-talk-contacts-can-join": {
+    "text": "只有你的“通话”（Talk）联系人才能加入，总共最多 {count} 人。",
+    "source": "0a88a1093f0b"
+  },
+  "talk-words.only-your-own-contacts-can-be": {
+    "text": "只能邀请你自己的联系人加入会议。",
+    "source": "dd0661381c23"
+  },
+  "talk.lines.only-your-own-contacts-can-be": {
+    "text": "只能将你自己的联系人加入群组。",
+    "source": "4c15aef95595"
   },
   "common.opacity": {
     "text": "不透明度",
@@ -18636,6 +19540,10 @@
   "shell.open-recent": {
     "text": "打开最近使用的文件",
     "source": "d2b9f8f8baec"
+  },
+  "common.open-talk": {
+    "text": "打开 Talk",
+    "source": "702312a29580"
   },
   "broadcast.live-dialog.open-youtube-studio": {
     "text": "打开 YouTube Studio",
@@ -18745,6 +19653,10 @@
     "text": "在浏览器中打开",
     "source": "32f8dcaafb6c"
   },
+  "talk.meeting.open-in-live-broadcast": {
+    "text": "在 Live Broadcast 中打开",
+    "source": "71788b0e6607"
+  },
   "pictures.open-in-pdf": {
     "text": "在 PDF 中打开",
     "source": "4d0c059fc5c0"
@@ -18760,6 +19672,10 @@
   "studio.window.open-in-video": {
     "text": "在“视频”中打开…",
     "source": "8bb01e68be1b"
+  },
+  "talk.meeting.open-in-the-recorder": {
+    "text": "在 Recorder 中打开",
+    "source": "7082739e9d2c"
   },
   "home.open-in-name": {
     "text": "在 {name} 中打开",
@@ -18792,6 +19708,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "打开 Kick 仪表板",
     "source": "bf6f8e9ef858"
+  },
+  "talk.open-the-browser-again": {
+    "text": "再次打开浏览器",
+    "source": "96e91bde168e"
   },
   "locker.open-the-locked-folder-name": {
     "text": "打开已锁定的文件夹 {name}",
@@ -18985,6 +19905,10 @@
     "text": "整理",
     "source": "21d9ac63ed66"
   },
+  "talk.meet-lines.organiser": {
+    "text": "组织者",
+    "source": "ed385c3688f6"
+  },
   "calendar.words.organizer-name": {
     "text": "组织者：{name}",
     "source": "b204de7ec321"
@@ -19153,6 +20077,10 @@
     "text": "Outlook、Thunderbird、Apple Mail 和 Windows Mail",
     "source": "275370d0b3be"
   },
+  "video.layer-names.outro-card": {
+    "text": "片尾卡",
+    "source": "6907a3e2ea3f"
+  },
   "word.ribbon.outside-borders": {
     "text": "外侧框线",
     "source": "fcf90f7bf23e"
@@ -19172,6 +20100,10 @@
   "common.overlay": {
     "text": "叠加",
     "source": "2af93aeb435d"
+  },
+  "video.library.overlays": {
+    "text": "叠加",
+    "source": "975c5697ac19"
   },
   "mail.archive.pdf": {
     "text": "PDF",
@@ -19429,6 +20361,10 @@
     "text": "段落数",
     "source": "d2ef75e86bb7"
   },
+  "video.library.paragraphs-and-lists": {
+    "text": "段落和列表",
+    "source": "939c99de9e0b"
+  },
   "common.parallelogram": {
     "text": "平行四边形",
     "source": "683f94df5c58"
@@ -19568,6 +20504,10 @@
   "common.pause": {
     "text": "暂停",
     "source": "858e4ba7a29f"
+  },
+  "shell.tray.pause-notifications-for-an-hour": {
+    "text": "暂停通知一小时",
+    "source": "c6a2583b7f7e"
   },
   "shell.ipc.pause-recording": {
     "text": "暂停录制",
@@ -19881,6 +20821,10 @@
     "text": "图片显示的细节超出页面所需时，会按所选分辨率重新绘制。文字、绘图以及已经足够小的图片保持不变。",
     "source": "53b47116dc60"
   },
+  "pictures.pictures-to-a-sheet": {
+    "text": "每张纸的图片数",
+    "source": "00d75274ddf4"
+  },
   "pictures.pictures-turns-a-jpeg-or-a": {
     "text": "“图片”可以旋转 JPEG 或 PNG 并保存。“编辑”会在“图像”中打开此图片，以便旋转并保存。",
     "source": "e30d8a205692"
@@ -20113,6 +21057,14 @@
     "text": "放映时播放剪辑的声音",
     "source": "97953b6cbcb8"
   },
+  "notify-dialog.play-a-sound": {
+    "text": "播放声音",
+    "source": "8dff69d0f091"
+  },
+  "talk.settings.play-a-sound-for-calls": {
+    "text": "来电时播放声音",
+    "source": "ce1647f97917"
+  },
   "mail.play-all": {
     "text": "全部播放",
     "source": "12e7b8220dc7"
@@ -20168,6 +21120,10 @@
   "slides.point-one": {
     "text": "要点一",
     "source": "2ec0675e4836"
+  },
+  "video.inspector.point-n-of-count": {
+    "text": "第 {n} 个点，共 {count} 个",
+    "source": "56a4587fe6bd"
   },
   "video.pointer": {
     "text": "指针",
@@ -20257,6 +21213,10 @@
     "text": "首选宽度",
     "source": "5b079061e4dc"
   },
+  "pdf.preparing-to-print-page-page-of": {
+    "text": "正在准备打印：第 {page} 页，共 {count} 页…",
+    "source": "9bb1226e682b"
+  },
   "pdf.preparing-to-print": {
     "text": "正在准备打印…",
     "source": "c59a4189b115"
@@ -20316,6 +21276,10 @@
   "calendar.press-ctrl-n-to-add-an": {
     "text": "按 Ctrl+N 添加事件，或打开 .ics 文件。",
     "source": "e5eab9bad084"
+  },
+  "talk.lines.pretending-to-be-someone-else": {
+    "text": "冒充他人",
+    "source": "59f4886f4bb6"
   },
   "sheets.prevent-unwanted-changes-to-the-structure": {
     "text": "防止对工作簿结构进行不需要的更改，例如添加工作表。",
@@ -20447,6 +21411,10 @@
     "text": "上一页（Page Up）",
     "source": "46cf81b2cef0"
   },
+  "video.inspector.previous-point": {
+    "text": "上一个点",
+    "source": "91cc073698f7"
+  },
   "common.previous-record": {
     "text": "上一条记录",
     "source": "07da30ed59d9"
@@ -20547,6 +21515,26 @@
     "text": "打印模板",
     "source": "bab0e4da816c"
   },
+  "contacts.print-the-chosen-contact-or-the": {
+    "text": "打印所选联系人或显示的列表",
+    "source": "31dc4642a37a"
+  },
+  "image.print-the-picture-as-it-is": {
+    "text": "按当前状态打印图片",
+    "source": "0c7c09978527"
+  },
+  "calendar.print-the-view-shown": {
+    "text": "打印当前显示的视图",
+    "source": "99699c6c4993"
+  },
+  "pictures.print-this-picture-or-every-picture": {
+    "text": "打印此图片或显示的所有图片",
+    "source": "093d65442545"
+  },
+  "print.print-through-the-systems-own-dialog": {
+    "text": "通过系统自带的对话框打印，以使用只有打印机设置才提供的选项：双面打印、纸盒。",
+    "source": "e89c1e415e38"
+  },
   "base.forms.print-name": {
     "text": "打印 {name}",
     "source": "9adb2fe770f7"
@@ -20566,6 +21554,10 @@
   "print.printer": {
     "text": "打印机",
     "source": "024eac5b1a63"
+  },
+  "print.printing-name": {
+    "text": "正在打印：{name}",
+    "source": "a059eabd2695"
   },
   "print.printing": {
     "text": "正在打印…",
@@ -20646,6 +21638,10 @@
   "studio.window.program": {
     "text": "节目",
     "source": "90920d93e2c7"
+  },
+  "video.layer-names.progress-bar": {
+    "text": "进度条",
+    "source": "88bbc75dfba2"
   },
   "video.project": {
     "text": "项目",
@@ -20811,6 +21807,18 @@
     "text": "推入",
     "source": "731ce7ed8089"
   },
+  "video.timeline.push-down": {
+    "text": "向下推入",
+    "source": "cdba3e1d8ea7"
+  },
+  "video.timeline.push-right": {
+    "text": "向右推入",
+    "source": "2bce51eb1c20"
+  },
+  "video.timeline.push-up": {
+    "text": "向上推入",
+    "source": "385412ecb6be"
+  },
   "base.form-designer.put-a-field-on-the-form": {
     "text": "将字段放到窗体上",
     "source": "51273d7500b8"
@@ -20854,6 +21862,10 @@
   "image.tools.put-the-pins-back": {
     "text": "重置定位针",
     "source": "58213ed57cab"
+  },
+  "video.inspector.put-the-playhead-on-this-clip": {
+    "text": "将播放头置于此剪辑上以设置点。",
+    "source": "202e5c234e9a"
   },
   "pdf.put-the-tool-down": {
     "text": "放下工具",
@@ -20947,6 +21959,14 @@
     "text": "快速样式",
     "source": "6887852d0183"
   },
+  "notify-dialog.quiet-hours": {
+    "text": "免打扰时段",
+    "source": "bf0671dd69c6"
+  },
+  "shell.tray.quit-name": {
+    "text": "退出 {name}",
+    "source": "c082bda435d6"
+  },
   "mail.compose.quote": {
     "text": "引用",
     "source": "eb4cdebd82bf"
@@ -20974,6 +21994,10 @@
   "equations.radical-with-degree": {
     "text": "带次数的根式",
     "source": "8b150a3c64cf"
+  },
+  "talk.meeting.raise-your-hand": {
+    "text": "举手",
+    "source": "a7d9af47bf64"
   },
   "slides.motion.random-bars": {
     "text": "随机线条",
@@ -21046,6 +22070,10 @@
   "word.ribbon.read-aloud-2": {
     "text": "大声朗读",
     "source": "0791ec684798"
+  },
+  "spoken.voices.read-aloud-only": {
+    "text": "仅朗读",
+    "source": "3953b35ec0c1"
   },
   "base.people.read-and-add": {
     "text": "读取和添加",
@@ -21138,6 +22166,10 @@
   "mail.read-the-unread-messages-in-the": {
     "text": "按列表顺序大声朗读列表中的未读邮件。每封邮件朗读到末尾后，会标记为已读。",
     "source": "dff6be303eab"
+  },
+  "studio.spoken-run.read-the-words-aloud": {
+    "text": "大声朗读文字",
+    "source": "f8bde48fd589"
   },
   "base.links.read-what-changed-by-field": {
     "text": "按 {field} 读取更改的内容",
@@ -21482,6 +22514,10 @@
   "studio.window.recording-into-name": {
     "text": "正在录制到 {name}",
     "source": "56b02d64afc5"
+  },
+  "studio.guests.recording-with-name": {
+    "text": "与 {name} 录制",
+    "source": "e6be6a2a2c15"
   },
   "video.export.recording-done-of-total": {
     "text": "正在录制 {done}/{total}",
@@ -21911,9 +22947,17 @@
     "text": "删除目录",
     "source": "02fb6aa5132e"
   },
+  "video.remove-a-movement-point": {
+    "text": "移除运动点",
+    "source": "866caceec826"
+  },
   "mail.remove-account": {
     "text": "移除帐户…",
     "source": "f6c7b21aa0c2"
+  },
+  "video.inspector.remove-all-movement": {
+    "text": "移除所有运动",
+    "source": "c117c982cedd"
   },
   "locker.remove-anyway": {
     "text": "仍然移除",
@@ -22044,6 +23088,14 @@
   "redact.remove-this-mark": {
     "text": "删除此标记",
     "source": "5b7142126ca5"
+  },
+  "video.remove-this-movement-point": {
+    "text": "移除此运动点",
+    "source": "5b0a79929123"
+  },
+  "video.inspector.remove-this-point": {
+    "text": "移除此点",
+    "source": "1db17d0d592c"
   },
   "profiles.remove-this-profile": {
     "text": "移除此配置文件",
@@ -22381,9 +23433,29 @@
     "text": "报告类型",
     "source": "6add2e391964"
   },
+  "talk.report.report-name": {
+    "text": "举报 {name}",
+    "source": "a72e14cff779"
+  },
+  "talk.report.reported-and-name-is-blocked": {
+    "text": "已举报，并已阻止 {name}。",
+    "source": "24147a41c039"
+  },
+  "talk.report.reported-thank-you": {
+    "text": "已举报。谢谢。",
+    "source": "e2f870ec73f5"
+  },
+  "talk.report.reported-name-could-not-be-blocked": {
+    "text": "已举报。暂时无法阻止 {name}。",
+    "source": "f931a2f8128d"
+  },
   "base.reports": {
     "text": "报表",
     "source": "dacca3cba3f3"
+  },
+  "talk.report": {
+    "text": "举报…",
+    "source": "a89f2286bde4"
   },
   "protect.require-a-password-to-open-this": {
     "text": "打开此 {noun} 时需要密码。",
@@ -22425,6 +23497,10 @@
     "text": "重置色阶",
     "source": "8e4afe1ebcd7"
   },
+  "studio.window.reset-this-session": {
+    "text": "是否重置此会话？",
+    "source": "9a895f8c4a9f"
+  },
   "slides.ribbon.reset-to-cameo": {
     "text": "重置为客串",
     "source": "60043910ccf9"
@@ -22432,6 +23508,10 @@
   "slides.ribbon.reset-to-cameo-the-cameras-recording": {
     "text": "重置为客串：从此幻灯片删除摄像头录制，恢复实时客串",
     "source": "d886796ba64a"
+  },
+  "studio.reset-to-a-new-session": {
+    "text": "重置为新会话",
+    "source": "6b9c5be76d1e"
   },
   "slides.ribbon.reset-to-the-layouts": {
     "text": "重置为版式的设置",
@@ -22532,6 +23612,10 @@
   "shell.restart-and-update": {
     "text": "重新启动并更新",
     "source": "78b017c77e5b"
+  },
+  "shell.tray.restart-and-update-to-version": {
+    "text": "重启并更新到 {version}",
+    "source": "c479443bee7d"
   },
   "word.ribbon.restart-each-page": {
     "text": "每页重新编号",
@@ -23241,6 +24325,14 @@
     "text": "发送此邮件时 Rutba Office 停止了运行，因此它可能已发出，也可能未发出。查看“已发送邮件”，然后重新发送或将其删除。",
     "source": "7e8c68e608d6"
   },
+  "notify-dialog.rutba-office-watches-only-while-it": {
+    "text": "Rutba Office 仅在运行时进行留意。使用“退出”关闭后，在再次打开前不会通知你任何内容。",
+    "source": "647452751dca"
+  },
+  "voices-dialog.rutba-office-version-does-not-have": {
+    "text": "Rutba Office {version} 未内置{name}：在其语言包准备好之前，窗口将显示为英文。",
+    "source": "c954897db32a"
+  },
   "shell.rutba-office-version-is-available": {
     "text": "Rutba Office {version} 可用",
     "source": "cb7fd85cbfa1"
@@ -23248,10 +24340,6 @@
   "shell.rutba-office-version-is-downloaded-restart": {
     "text": "Rutba Office {version} 已下载：重新启动即可更新，否则将在你退出时安装",
     "source": "ef28bb66ae1a"
-  },
-  "voices-dialog.rutba-office-version-does-not-have": {
-    "text": "Rutba Office {version} 未内置{name}：在其语言包准备好之前，窗口将显示为英文。",
-    "source": "c954897db32a"
   },
   "voices-dialog.rutba-office-version-is-out-but": {
     "text": "Rutba Office {version} 已发布，但无法检查你的语音和语言是否适用于该版本。将在下次检查时再次询问。",
@@ -23585,6 +24673,10 @@
     "text": "另存为项目…",
     "source": "aa2fcc84716b"
   },
+  "studio.setups-menu.save-as-a-setup": {
+    "text": "另存为设置…",
+    "source": "d9ef0d0b399e"
+  },
   "studio.scene-strip.save-as-scene": {
     "text": "另存为场景",
     "source": "efdeca1676b4"
@@ -23669,6 +24761,14 @@
     "text": "先保存工作簿，以便在第二个窗口中打开同一文件。",
     "source": "5518cf201954"
   },
+  "studio.setups-menu.save-this-session-as-a-setup": {
+    "text": "将此会话另存为设置",
+    "source": "61675a542380"
+  },
+  "studio.setups-menu.save-this-session-as-a-setup-2": {
+    "text": "将此会话另存为设置…",
+    "source": "dac52cb33434"
+  },
   "studio.window.save-to-a-file": {
     "text": "保存到文件",
     "source": "08c57ac92835"
@@ -23680,6 +24780,10 @@
   "studio.scene-strip.save-what-the-frame-shows-as": {
     "text": "将画面当前显示的内容保存为新场景",
     "source": "04d539ee1ba5"
+  },
+  "calendar.save-without-the-meeting": {
+    "text": "保存但不含会议",
+    "source": "a466a78156a8"
   },
   "english-switch.save-your-changes-first-this-window": {
     "text": "请先保存你的更改：此窗口再次打开时将以英语显示。从现在起打开的窗口都将以英语显示。",
@@ -24090,6 +25194,10 @@
   "image.tools.second-colour-where-a-gradient-ends": {
     "text": "第二颜色：渐变结束处的颜色",
     "source": "014aa91028da"
+  },
+  "video.library.second-point": {
+    "text": "第二个点",
+    "source": "55b07a59a655"
   },
   "calendar.second-time-zone": {
     "text": "第二时区",
@@ -24535,6 +25643,10 @@
     "text": "发送记录",
     "source": "ac745ff044b3"
   },
+  "talk.report.send-report": {
+    "text": "发送举报",
+    "source": "a44d35311325"
+  },
   "calendar.send-the-cancellation": {
     "text": "发送取消通知",
     "source": "97640bdf22a3"
@@ -24557,6 +25669,10 @@
     "text": "发送邀请？",
     "source": "d11e030a9b61"
   },
+  "studio.guests.send-the-link-to-a-contact": {
+    "text": "将链接发送给使用 Rutba Office 的联系人。对方在“通话”（Talk）中加入。",
+    "source": "ec69e7a826e5"
+  },
   "common.send-to-back": {
     "text": "置于底层",
     "source": "33e1c6b9be0f"
@@ -24572,6 +25688,14 @@
   "locker.send-to-someone-2": {
     "text": "发送给他人…",
     "source": "40f3eb523a46"
+  },
+  "talk.lines.send-up-to-count-of-the": {
+    "text": "随举报一起发送 {name} 在此群组中最近发送的最多 {count} 条消息",
+    "source": "672637e06022"
+  },
+  "talk.lines.send-up-to-count-of-the-2": {
+    "text": "随举报一起发送 {name} 最近发给你的最多 {count} 条消息",
+    "source": "154b797f57b4"
   },
   "calendar.send-update": {
     "text": "发送更新",
@@ -24625,6 +25749,10 @@
     "text": "仅发送到 {where}",
     "source": "65fa593794d6"
   },
+  "print.sent-through-the-system-dialog": {
+    "text": "已通过系统对话框发送。",
+    "source": "796f50686541"
+  },
   "mail.sent-to": {
     "text": "发送给",
     "source": "4e7201c7b898"
@@ -24633,6 +25761,14 @@
     "text": "发送给某人、抄送或密件抄送",
     "source": "d55c51982d58"
   },
+  "pdf.sent-to-the-printer": {
+    "text": "已发送到打印机。",
+    "source": "b35f62ca8b34"
+  },
+  "print.sent-to-printer": {
+    "text": "已发送到 {printer}。",
+    "source": "918838f49130"
+  },
   "mail.sent-to-to": {
     "text": "已发送给 {to}",
     "source": "f0ee21e891eb"
@@ -24640,12 +25776,6 @@
   "mail.sent-to-who-it-went-to": {
     "text": "收件人：发送给谁",
     "source": "31eea1f8449b"
-  },
-  "print.sent-count-page-to-the-printer": {
-    "forms": {
-      "other": "已将 {count} 页发送到打印机。"
-    },
-    "source": "01f92bc64175"
   },
   "print.sent-count-page-to-printer": {
     "forms": {
@@ -24789,6 +25919,22 @@
     "text": "设置密码…",
     "source": "0d69c19ffedf"
   },
+  "video.set-a-movement-point": {
+    "text": "设置运动点",
+    "source": "f2e85e0213a2"
+  },
+  "video.set-a-movement-point-here": {
+    "text": "在此设置运动点",
+    "source": "82a45446fe3a"
+  },
+  "video.inspector.set-a-point-here": {
+    "text": "在此设置点",
+    "source": "8d5454e6187b"
+  },
+  "video.inspector.set-a-point-here-then-move": {
+    "text": "在此设置一个点，然后移动播放头并更改剪辑：剪辑会从一个点移动到下一个点。",
+    "source": "5cc1988df0dd"
+  },
   "word.ribbon.set-as-default": {
     "text": "设为默认值",
     "source": "10886554da51"
@@ -24824,6 +25970,10 @@
   "mail.accounts-bulk.set-up-by-hand": {
     "text": "手动设置",
     "source": "51e0b5053fed"
+  },
+  "talk.meeting.set-up-by-name": {
+    "text": "由 {name} 设置",
+    "source": "f82e137b4907"
   },
   "broadcast.live-dialog.set-up-once-here-the-icons": {
     "text": "在此设置一次即可。“直播”面板上的图标决定推送到哪些平台。",
@@ -25021,6 +26171,10 @@
     "text": "共享屏幕",
     "source": "5a271ba7ed24"
   },
+  "talk.meet-lines.sharing": {
+    "text": "正在共享",
+    "source": "bbedc70e985f"
+  },
   "image.sharpen": {
     "text": "锐化",
     "source": "ac6f0be1274c"
@@ -25117,6 +26271,10 @@
     "text": "短文本",
     "source": "38a11505fddd"
   },
+  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
+    "text": "快捷键：在框中按 Ctrl+Enter",
+    "source": "46629f7a364b"
+  },
   "word.ribbon.shortcuts": {
     "text": "快捷方式",
     "source": "46e978d0c193"
@@ -25211,6 +26369,10 @@
     "text": "显示高级选项",
     "source": "da5bdeb6de5d"
   },
+  "spoken.voices.show-and-read-aloud": {
+    "text": "显示并朗读",
+    "source": "cad1b91fa8e8"
+  },
   "home.show-announcements-from-office-rutba-io": {
     "text": "显示来自 office.rutba.io 的公告，每天最多一次。它会发送版本和操作系统，不发送任何标识符，因此另一端统计的是“某处打开了一个副本”，而绝不是你本人。这也是我们了解此套件是否有人使用的唯一途径。",
     "source": "c22ab06b6afe"
@@ -25254,6 +26416,14 @@
   "studio.sources-column.show-on-the-frame": {
     "text": "在画面中显示",
     "source": "519dcf3aea71"
+  },
+  "notify-dialog.show-one-now": {
+    "text": "立即显示一条",
+    "source": "67b49e6671f5"
+  },
+  "spoken.voices.show-only": {
+    "text": "仅显示",
+    "source": "a8d71c961005"
   },
   "base.documents.show-only-when": {
     "text": "仅在以下情况下显示",
@@ -25315,6 +26485,10 @@
     "text": "显示行号列标",
     "source": "4f7b9dcce409"
   },
+  "studio.spoken-run.show-the-words": {
+    "text": "显示文字",
+    "source": "a64d13b0ead9"
+  },
   "sheets.dialogs.show-them-as": {
     "text": "显示为",
     "source": "6380dba9f992"
@@ -25339,6 +26513,10 @@
     "text": "放映类型",
     "source": "5d97277b82b2"
   },
+  "notify-dialog.show-what-it-says": {
+    "text": "显示内容",
+    "source": "01ff1c611346"
+  },
   "studio.window.show-when-this-microphone-is-heard": {
     "text": "听到此麦克风的声音时显示",
     "source": "96f36148fdc1"
@@ -25351,6 +26529,10 @@
     "text": "放映时不加旁白",
     "source": "8ba4b5d237cc"
   },
+  "shell.tray.show-name": {
+    "text": "显示 {name}",
+    "source": "94cf7a9396b0"
+  },
   "sheets.objects.show-draw-it-on-the-sheet": {
     "text": "显示：重新在工作表上绘制",
     "source": "d05630721fcb"
@@ -25358,6 +26540,10 @@
   "sheets.dialogs.show-the-workbook-as-the-picked": {
     "text": "显示：按选中视图保存的状态显示工作簿",
     "source": "218714768526"
+  },
+  "talk.meet-lines.showing-their-screen": {
+    "text": "正在共享屏幕",
+    "source": "1c428d39d527"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "向与你交谈的人显示",
@@ -25378,6 +26564,10 @@
   "smartart-dialog.shows-a-list-of-ideas-one": {
     "text": "将一系列想法上下排列，每个想法位于一个宽圆角框中。",
     "source": "f07c241a43e6"
+  },
+  "notify-dialog.shows-a-notification-so-you-see": {
+    "text": "显示一条通知，以便你查看和收听通知的效果",
+    "source": "2d376b05d758"
   },
   "smartart-dialog.shows-each-top-item-over-the": {
     "text": "将每个顶层项目显示在其下属项目之上，并用线条连接。按 Tab 键可将某行缩进到上一行之下。",
@@ -25450,6 +26640,14 @@
   "base.links.sign-in-there": {
     "text": "在那里登录…",
     "source": "7c04fead2759"
+  },
+  "talk.meet-lines.sign-in-to-talk-again-then": {
+    "text": "重新登录“通话”（Talk），然后再次尝试加入会议。",
+    "source": "b943c0a49ad6"
+  },
+  "calendar.sign-in-to-talk-first-then": {
+    "text": "先登录“通话”（Talk），然后再次保存。",
+    "source": "491e45adfd74"
   },
   "talk.invite.sign-in-to-talk-to-accept": {
     "text": "登录“通话”（Talk）以接受你打开的邀请。",
@@ -25787,6 +26985,10 @@
     "text": "已删除幻灯片：{title}",
     "source": "c24b313f47ef"
   },
+  "video.slide-down": {
+    "text": "向下滑动",
+    "source": "9a92bf81ad2c"
+  },
   "slides.revisions.slide-inserted": {
     "text": "已插入幻灯片",
     "source": "c16c67a34fec"
@@ -25794,6 +26996,10 @@
   "slides.revisions.slide-inserted-title": {
     "text": "已插入幻灯片：{title}",
     "source": "55acf25dcb94"
+  },
+  "video.inspector.slide-left": {
+    "text": "向左滑动",
+    "source": "667e27d731ed"
   },
   "slides.revisions.slide-moved-from-from-to-to": {
     "text": "幻灯片已从 {from} 移至 {to}",
@@ -25803,6 +27009,10 @@
     "text": "幻灯片编号",
     "source": "45f8d371aeda"
   },
+  "video.slide-right": {
+    "text": "向右滑动",
+    "source": "c21b51293031"
+  },
   "slides.custom-shows.slide-show-name": {
     "text": "幻灯片放映名称",
     "source": "077168762d89"
@@ -25810,6 +27020,10 @@
   "review.slide-title": {
     "text": "幻灯片标题",
     "source": "612dadcd27d3"
+  },
+  "video.slide-up": {
+    "text": "向上滑动",
+    "source": "d081156f5749"
   },
   "slides.slide-at-of-total": {
     "text": "第 {at} 张幻灯片，共 {total} 张",
@@ -25886,6 +27100,18 @@
   "studio.prompter.slow": {
     "text": "慢",
     "source": "4b2bebbf33ae"
+  },
+  "video.inspector.slowing-to-a-stop": {
+    "text": "减速停止",
+    "source": "baa524feba79"
+  },
+  "video.inspector.slowly-at-both-ends": {
+    "text": "两端缓慢",
+    "source": "704134084b2d"
+  },
+  "video.inspector.slowly-at-first": {
+    "text": "开始时缓慢",
+    "source": "db97512145ab"
   },
   "common.small": {
     "text": "小",
@@ -26035,13 +27261,45 @@
     "text": "某些已删除的内容无法通过撤消恢复。如果以后可能还需要，先保存一份副本。",
     "source": "a0c21edec972"
   },
+  "talk.meet-lines.somebody-in-the-meeting-cannot-be": {
+    "text": "此处无法听到或看到会议中的某位参会者：其“通话”（Talk）副本持有不同的密钥。此人需要离开会议后重新加入。",
+    "source": "0e0076b93070"
+  },
+  "talk.server-share.somebody-no-longer-in-your-contacts": {
+    "text": "已不在你的联系人中的某人",
+    "source": "9487d019ebd3"
+  },
   "common.someone": {
     "text": "某人",
     "source": "864c855e3d64"
   },
+  "shell.notifier.someone-in-talk": {
+    "text": "“通话”（Talk）中的某人",
+    "source": "d3e2d6b776c6"
+  },
+  "talk.missed.someone-no-longer-in-your-contacts": {
+    "text": "已不在你联系人中的某人",
+    "source": "42463e6dd6e8"
+  },
+  "talk.lines.someone-who-left": {
+    "text": "已离开的人",
+    "source": "9d5f4f09ff49"
+  },
   "base.links.someone-whose-role-may-change-the": {
     "text": "角色可以更改设计的人员可以在这台电脑上允许此数据库的源。",
     "source": "3b302bdc61d2"
+  },
+  "talk.settings.someone-you-blocked": {
+    "text": "你阻止的人",
+    "source": "a9c049774e21"
+  },
+  "talk.settings.someone-you-unblock-can-ask-to": {
+    "text": "取消阻止后，对方可以再次请求成为你的联系人。对方不会被重新加入你的联系人。",
+    "source": "e3e6c74dbcf9"
+  },
+  "talk.lines.something-else": {
+    "text": "其他",
+    "source": "cc7284314484"
   },
   "video.starters.something-new-is-here": {
     "text": "新功能来了",
@@ -26151,17 +27409,21 @@
     "text": "声音和摄像头",
     "source": "dfc99fd3b4fc"
   },
+  "video.sound-and-video-files": {
+    "text": "声音和视频文件",
+    "source": "b7c72813a878"
+  },
+  "video.library.sound-and-video-files-you-add": {
+    "text": "你在此处添加的声音和视频文件（来自这台电脑或网址）会保留在此列表中，供所有项目使用。",
+    "source": "ccb27b12993d"
+  },
   "video.sound-clip": {
     "text": "声音剪辑",
     "source": "556f55adc8bd"
   },
-  "studio.spoken-run.read-the-words-aloud": {
-    "text": "大声朗读文字",
-    "source": "f8bde48fd589"
-  },
-  "studio.spoken-run.show-the-words": {
-    "text": "显示文字",
-    "source": "a64d13b0ead9"
+  "video.library.sound-effects": {
+    "text": "音效",
+    "source": "a7180005e20c"
   },
   "studio.spoken-run.sound-is-not-on-so-the": {
     "text": "音频未开启，因此录制内容和直播中都没有语音。",
@@ -26238,6 +27500,10 @@
   "word.ribbon.spacing-for-the-paragraphs-you-have": {
     "text": "所选段落的间距",
     "source": "82c0e0a3d918"
+  },
+  "talk.lines.spam-or-advertising": {
+    "text": "垃圾信息或广告",
+    "source": "73c0fc4bd35d"
   },
   "common.sparkle": {
     "text": "闪光",
@@ -26421,6 +27687,10 @@
     "text": "朗读文本行",
     "source": "b6fcaf71e96b"
   },
+  "video.ribbon.spoken-words": {
+    "text": "朗读文字",
+    "source": "b5f7a276ab16"
+  },
   "slides.spring-2026": {
     "text": "2026 年春季",
     "source": "19978811abbe"
@@ -26545,6 +27815,10 @@
     "text": "单击时开始",
     "source": "935ac1acfac5"
   },
+  "notify-dialog.start-rutba-office-with-windows": {
+    "text": "随 Windows 启动 Rutba Office",
+    "source": "54d42e160b97"
+  },
   "slides.ribbon.start-slide-show": {
     "text": "开始幻灯片放映",
     "source": "fbf318d7d0dd"
@@ -26581,6 +27855,10 @@
     "text": "从头开始 (F5)",
     "source": "c87b7cf37193"
   },
+  "talk.groups.start-group": {
+    "text": "创建群组",
+    "source": "37ac5a2c7c6c"
+  },
   "home.start-something": {
     "text": "开始创作",
     "source": "0c4b50ca224b"
@@ -26609,6 +27887,14 @@
     "text": "开始：",
     "source": "84cc09ea4cfa"
   },
+  "shell.notifier.started-at-time": {
+    "text": "开始于 {time}",
+    "source": "96673d9cbad8"
+  },
+  "talk.lines.started-the-group": {
+    "text": "创建了群组",
+    "source": "da23c27bd111"
+  },
   "base.documents.starting-from": {
     "text": "起始值",
     "source": "8f51d73d59f4"
@@ -26620,6 +27906,10 @@
   "studio.record-panel.starting-in-n": {
     "text": "{n} 秒后开始",
     "source": "bd04cbbfa525"
+  },
+  "shell.notifier.starting-now": {
+    "text": "现在开始",
+    "source": "11dc78f6ce9c"
   },
   "video.export.starting-the-encoder": {
     "text": "正在启动编码器…",
@@ -26769,6 +28059,10 @@
     "text": "停止朗读",
     "source": "78be99f18a5c"
   },
+  "word.stop-reading-to-change-the-words": {
+    "text": "停止朗读后才能更改文字。",
+    "source": "9cfe5190d612"
+  },
   "shell.ipc.stop-recording": {
     "text": "停止录制",
     "source": "3d591e826d54"
@@ -26784,6 +28078,10 @@
   "talk.stop-sharing": {
     "text": "停止共享",
     "source": "b2c78147ed57"
+  },
+  "studio.guests.stop-the-recording-first": {
+    "text": "先停止录制。",
+    "source": "bceedc4c4eda"
   },
   "sheets.dialogs.stop-value": {
     "text": "终止值",
@@ -27129,6 +28427,10 @@
     "text": "正在同步…",
     "source": "8a046cc90ab0"
   },
+  "print.system-dialog": {
+    "text": "系统对话框…",
+    "source": "67f7c0af7646"
+  },
   "read-aloud.bar.system-voice": {
     "text": "系统语音",
     "source": "2d3d23392b00"
@@ -27339,6 +28641,10 @@
     "text": "从画面中移除",
     "source": "a45c22273922"
   },
+  "studio.guests.take-out": {
+    "text": "移出",
+    "source": "a7fc33e3bc67"
+  },
   "base.form-designer.take-the-field-picked-off-the": {
     "text": "将所选字段从窗体中移除。它仍保留在表中。",
     "source": "4aacdaf96dce"
@@ -27387,6 +28693,14 @@
     "text": "移除 {email}",
     "source": "dabf194f9fee"
   },
+  "studio.guests.take-name-out-of-the-meeting": {
+    "text": "是否将 {name} 移出会议？",
+    "source": "7c3125d540b1"
+  },
+  "talk.groups.take-name-out-of-this-group": {
+    "text": "是否将 {name} 移出此群组？",
+    "source": "74905e01f3b4"
+  },
   "common.take-n": {
     "text": "第 {n} 条",
     "source": "26dc5b52d6c6"
@@ -27419,6 +28733,30 @@
     "text": "Talk",
     "source": "449f5a775762"
   },
+  "common.talk-cannot-do-this-yet-the": {
+    "text": "“通话”（Talk）暂时无法执行此操作：此副本所连接的通话服务需要更新。",
+    "source": "4e1bd3d7d0ef"
+  },
+  "talk.invite.talk-cannot-take-invitations-yet-the": {
+    "text": "“通话”（Talk）暂时无法接收邀请：此副本所连接的通话服务需要更新。",
+    "source": "55636b97709a"
+  },
+  "talk.server-share.talk-could-not-change-who-may": {
+    "text": "“通话”（Talk）无法更改谁可以在 {name} 上举行会议。请稍后重试。",
+    "source": "dc1ab49ae9ad"
+  },
+  "talk.meet-lines.talk-could-not-confirm-that-the": {
+    "text": "“通话”（Talk）无法确认该通话服务器（Talk Server）就是举行此会议的服务器，因此未连接。",
+    "source": "9684b385d927"
+  },
+  "talk.meet-lines.talk-could-not-connect-to-the": {
+    "text": "“通话”（Talk）无法连接到会议的通话服务器（Talk Server）。稍后重试。",
+    "source": "703304b87918"
+  },
+  "calendar.talk-could-not-connect-so-the": {
+    "text": "“通话”（Talk）无法连接，因此未设置会议。检查连接，然后再次保存。",
+    "source": "80ec6966c483"
+  },
   "talk.address.talk-could-not-do-that-now": {
     "text": "“通话”（Talk）现在无法执行此操作。请稍后重试。",
     "source": "724fa466cd0e"
@@ -27427,9 +28765,41 @@
     "text": "“通话”（Talk）无法执行此操作。请稍后重试。",
     "source": "dc5636efcd10"
   },
+  "talk.meet-lines.talk-could-not-reach-the-meetings": {
+    "text": "“通话”（Talk）无法访问会议的通话服务器（Talk Server）。检查你的连接，然后重试。",
+    "source": "0d4b04ba1935"
+  },
+  "talk.meet-lines.talk-could-not-use-your-camera": {
+    "text": "“通话”（Talk）无法使用你的摄像头。检查这台电脑中摄像头的隐私设置，并确认没有其他应用正在使用它。",
+    "source": "5aa2f3a5e702"
+  },
+  "talk.meet-lines.talk-could-not-use-your-microphone": {
+    "text": "“通话”（Talk）无法使用你的麦克风。其他人听不到你的声音。检查这台电脑中麦克风的隐私设置。",
+    "source": "26e36fca513a"
+  },
+  "talk.talk-is-not-connected": {
+    "text": "“通话”（Talk）未连接。",
+    "source": "ce45e3ce7fde"
+  },
   "talk.invite.talk-is-not-connected-try-again": {
     "text": "“通话”（Talk）未连接。请稍后重试。",
     "source": "a4eca2b3e847"
+  },
+  "calendar.talk-is-not-installed-on-this": {
+    "text": "这台电脑上未安装“通话”（Talk）。",
+    "source": "aea90ea8e986"
+  },
+  "talk.settings.talk-settings": {
+    "text": "Talk 设置",
+    "source": "36e8d5e94219"
+  },
+  "talk.lines.talk-was-not-open": {
+    "text": "Talk 未打开",
+    "source": "62d9c8e2fe06"
+  },
+  "studio.window.talk-windows-cannot-be-shown-here": {
+    "text": "无法在此显示“通话”（Talk）窗口。可通过“嘉宾”将会议推上直播。",
+    "source": "76c4164f1516"
   },
   "talk.invite.talk-with-me-on-rutba-talk": {
     "text": "在 Rutba 通话（Rutba Talk）上与我交流",
@@ -27438,6 +28808,10 @@
   "talk.talk-with-your-contacts": {
     "text": "与你的联系人交谈",
     "source": "0a7725c8bf79"
+  },
+  "notify-dialog.talk-mail-and-calendar-are-what": {
+    "text": "Rutba Office 留意的是“通话”（Talk）、“邮件”和“日历”。此配置文件中均未开启。",
+    "source": "4dada8cac654"
   },
   "common.talking-head": {
     "text": "口播",
@@ -27498,6 +28872,10 @@
   "video.teleprompter-speed": {
     "text": "提词器速度",
     "source": "a5298db8dfb1"
+  },
+  "notify-dialog.tell-me-of": {
+    "text": "通知我",
+    "source": "d3b27184ede8"
   },
   "calendar.tell-the-people-invited-that-it": {
     "text": "告诉受邀者此事件已取消？",
@@ -27733,6 +29111,10 @@
     "text": "文本转换成表格",
     "source": "808523cd0725"
   },
+  "common.text-to-speech": {
+    "text": "文本转语音",
+    "source": "71e02f22899a"
+  },
   "design.text-background-dark-1": {
     "text": "文字/背景 - 深色 1",
     "source": "c5b1de5a8e5a"
@@ -27761,10 +29143,6 @@
     "text": "感谢观看",
     "source": "c708e3d71205"
   },
-  "common.text-to-speech": {
-    "text": "文本转语音",
-    "source": "71e02f22899a"
-  },
   "common.thanks-for-watching": {
     "text": "感谢观看",
     "source": "2179829c978c"
@@ -27789,6 +29167,10 @@
     "text": "该帐户尚未设置。",
     "source": "69273d39e7a6"
   },
+  "video.library.that-address-is-in-the-list": {
+    "text": "该地址已在列表中。",
+    "source": "8aa9b6a797f1"
+  },
   "engine.that-address-is-not-one-this": {
     "text": "此功能无法登录到该地址。",
     "source": "1020211ad9ca"
@@ -27804,6 +29186,10 @@
   "video.that-came-out-at-size-over": {
     "text": "生成的文件为 {size}，超过 {limit}。正在以 {rate} 重新编码。",
     "source": "4745d07b03ec"
+  },
+  "studio.net-camera-find.that-camera-is-no-longer-in": {
+    "text": "该摄像头已不在列表中。重新查找。",
+    "source": "47549aa38750"
   },
   "mail.smime.that-cipher-is-too-weak-to": {
     "text": "该加密算法太弱，已无法保护邮件隐私。",
@@ -27903,6 +29289,14 @@
     "text": "这不是浮窗",
     "source": "7aac81dea761"
   },
+  "studio.net-camera-words.that-is-not-a-camera-address": {
+    "text": "这不是摄像头地址。",
+    "source": "e8747deb7bbd"
+  },
+  "studio.net-camera-dialog.that-is-not-a-camera-address": {
+    "text": "这不是摄像头地址。地址以 rtsp:// 开头，后跟摄像头的名称或编号。",
+    "source": "90f41611e9c4"
+  },
   "engine.that-is-not-a-picture": {
     "text": "这不是图片",
     "source": "cbd382ebdc2a"
@@ -27914,6 +29308,10 @@
   "engine.that-is-not-a-picture-2": {
     "text": "这不是图片。",
     "source": "53d2759ddbb2"
+  },
+  "video.library.that-is-not-a-web-address": {
+    "text": "这不是网址。",
+    "source": "a8b694cd4023"
   },
   "talk.invite.that-is-not-an-email-address": {
     "text": "这不是电子邮件地址。",
@@ -27931,6 +29329,10 @@
     "text": "这是表格本身的边缘：其外没有可合并的单元格。",
     "source": "09b145221fad"
   },
+  "common.that-is-too-many-for-now": {
+    "text": "当前请求过多。请稍后再试。",
+    "source": "d23549fc97f2"
+  },
   "qrcode.that-is-too-much-for-a": {
     "text": "在此纠错级别下，二维码无法容纳这么多内容。选择较低的级别，或缩短文本。",
     "source": "fba3deaee4e5"
@@ -27942,6 +29344,14 @@
   "mail.that-link-was-not-opened-it": {
     "text": "未打开该链接：它不指向网页或电子邮件地址。",
     "source": "2aea50825a3d"
+  },
+  "studio.guests.that-meeting-was-not-set-up": {
+    "text": "该会议未设置为可录制，因此无法在此录制。",
+    "source": "e6ebcbc087f2"
+  },
+  "studio.guests.that-meeting-was-not-set-up-2": {
+    "text": "该会议未设置为可直播，因此无法上播。",
+    "source": "1b3f1bf9ce65"
   },
   "engine.that-message-is-not-there-any": {
     "text": "该邮件已不存在。",
@@ -27970,6 +29380,14 @@
   "shell.profile-lock.that-password-is-not-right-try": {
     "text": "密码不正确，再试一次。",
     "source": "910f24f97048"
+  },
+  "talk.lines.that-person-cannot-be-chosen-here": {
+    "text": "无法在此选择此人。",
+    "source": "45bb91b969c3"
+  },
+  "talk-words.that-person-is-not-in-the": {
+    "text": "此人不在会议中。",
+    "source": "7b427fee1460"
   },
   "common.that-picture-could-not-be-read": {
     "text": "无法读取该图片。",
@@ -28023,9 +29441,17 @@
     "text": "该步长永远无法达到终止值：请指定其他步长，或选择要填充的单元格",
     "source": "e01b65075502"
   },
+  "talk-words.that-time-cannot-be-used-for": {
+    "text": "该时间不能用于会议。",
+    "source": "82359a1b0796"
+  },
   "engine.that-window-has-closed-since-the": {
     "text": "自列表生成以来，该窗口已关闭。",
     "source": "c7352c412f96"
+  },
+  "shell.ipc.that-window-is-in-a-call": {
+    "text": "该窗口正在通话或会议中，因此无法显示或录制。",
+    "source": "d1e814b1090a"
   },
   "slides.that-works-on-slides-close-master": {
     "text": "此操作仅适用于幻灯片，请先关闭母版视图。",
@@ -28099,6 +29525,34 @@
     "text": "office.rutba.io 上的“演示文稿”指南",
     "source": "87e5a0cf02ef"
   },
+  "talk.meet-lines.the-talk-server-did-not-let": {
+    "text": "通话服务器（Talk Server）未准许你进入。重新加入以获准进入。",
+    "source": "b14665829b5c"
+  },
+  "talk.meet-lines.the-talk-server-did-not-let-2": {
+    "text": "通话服务器（Talk Server）未准许你进入。重新加入，以便 {name} 准许你进入。",
+    "source": "65492eb99b5e"
+  },
+  "talk.meet-lines.the-talk-server-did-not-take": {
+    "text": "通话服务器（Talk Server）未接受连接。会议可能已满员。稍后重试。",
+    "source": "9db57d87fa81"
+  },
+  "talk.meet-lines.the-talk-server-did-not-take-2": {
+    "text": "通话服务器（Talk Server）未让你进入会议。重新开始会议。",
+    "source": "b79482615aa2"
+  },
+  "talk.meet-lines.the-talk-server-offered-a-connection": {
+    "text": "通话服务器（Talk Server）提供的连接未加密，因此“通话”（Talk）未连接。",
+    "source": "f7dfc7436a07"
+  },
+  "talk.meet-lines.the-talk-servers-certificate-could-not": {
+    "text": "无法检查通话服务器（Talk Server）的证书，因此“通话”（Talk）未连接。",
+    "source": "33fd127fc503"
+  },
+  "talk.meet-lines.the-talk-service-did-not-let": {
+    "text": "通话服务未允许在通话服务器（Talk Server）上举行此会议。",
+    "source": "99957ec824dd"
+  },
   "sheets.ribbon.the-worksheets-guide-on-office-rutba": {
     "text": "office.rutba.io 上的“工作表”指南",
     "source": "de05c2d52be3"
@@ -28115,6 +29569,14 @@
     "text": "该地址在名称和 @ 后面隐藏了真实去向：它实际指向 {host}。",
     "source": "ad10fa26c0e8"
   },
+  "video.library.the-address-must-start-https": {
+    "text": "地址必须以 https:// 开头。",
+    "source": "c83e4b4d033c"
+  },
+  "studio.net-camera-dialog.the-address-starts-rtsp-the-cameras": {
+    "text": "地址以 rtsp:// 开头。可在摄像头的说明书或其自带应用中找到。",
+    "source": "d7f1043ad6d9"
+  },
   "calendar.invite-card.the-answer-is-on-the-meeting": {
     "text": "答复已记录在你日历中的会议上。",
     "source": "999de5959576"
@@ -28126,6 +29588,10 @@
   "apps-choice.the-apps-you-want-to-see": {
     "text": "你想看到并用来打开文件的应用。",
     "source": "332e5249e305"
+  },
+  "video.inspector.the-bar-fills-from-where-this": {
+    "text": "进度条从此剪辑的开头填充到结尾。",
+    "source": "01d9656a5ad1"
   },
   "video.the-brand-kit-is-kept-for": {
     "text": "品牌套件会为你保留，并应用到每个场景中。",
@@ -28147,9 +29613,41 @@
     "text": "无法打开摄像头，因此只录制你的声音：{reason}",
     "source": "0f481ff68eb0"
   },
+  "studio.net-camera-words.the-camera-did-not-accept-the": {
+    "text": "摄像头不接受该用户名和密码。",
+    "source": "0e773912d1c5"
+  },
+  "studio.net-camera-find.the-camera-did-not-give-a": {
+    "text": "摄像头未提供流地址。改为按地址添加。",
+    "source": "362ec12ee3f5"
+  },
+  "studio.net-camera-words.the-camera-has-no-stream-at": {
+    "text": "摄像头在此地址上没有视频流。",
+    "source": "bf4afbb0f55c"
+  },
   "recording.camera.the-camera-is-in-use-by": {
     "text": "摄像头正被其他程序使用。",
     "source": "8f814a035e77"
+  },
+  "studio.net-camera-words.the-camera-is-not-answering-trying": {
+    "text": "摄像头没有响应。正在重试。",
+    "source": "0e5b2592941f"
+  },
+  "studio.net-camera-words.the-camera-refused-to-give-this": {
+    "text": "摄像头拒绝提供此视频流。",
+    "source": "58a3f51cddf5"
+  },
+  "studio.net-camera-words.the-camera-sends-no-h-264": {
+    "text": "摄像头在此地址上不发送 H.264 画面。",
+    "source": "492836237144"
+  },
+  "studio.net-camera-words.the-camera-sent-office-to-another": {
+    "text": "摄像头将 Office 转到另一个地址，Office 不会跟随该地址。",
+    "source": "1806cd635219"
+  },
+  "studio.net-camera-find.the-camera-stopped-answering-look-again": {
+    "text": "摄像头已停止响应。重新查找。",
+    "source": "c5581f7307dc"
   },
   "slides.cameo.the-camera-stopped": {
     "text": "摄像头已停止。",
@@ -28158,6 +29656,10 @@
   "recording.camera.the-camera-was-not-allowed": {
     "text": "摄像头未获允许。",
     "source": "432525bd7e5b"
+  },
+  "studio.net-camera-words.the-cameras-certificate-could-not-be": {
+    "text": "无法验证摄像头的证书。",
+    "source": "82540f0abbcb"
   },
   "calendar.the-cancellation-is-sent-to-count": {
     "forms": {
@@ -28221,6 +29723,10 @@
     "text": "检查无法连接到存放版本的 GitHub。请检查你的网络连接，然后重试。",
     "source": "84d60dd0d3b6"
   },
+  "contacts.the-chosen-contact": {
+    "text": "所选联系人",
+    "source": "5dcc962557fb"
+  },
   "video.the-clip-could-not-be-reversed": {
     "text": "无法倒放剪辑：{reason}",
     "source": "8fa2aa15a1ee"
@@ -28252,6 +29758,10 @@
   "ai-tools-dialog.the-connection-is-not-encrypted-use": {
     "text": "连接未加密。请在你信任的网络上使用，或通过安全隧道访问。工具开启时，任何拥有密钥的人都可以使用它们。",
     "source": "d47063f9f70e"
+  },
+  "talk-words.the-connection-was-lost-and-the": {
+    "text": "连接已断开，无法重新加入会议。",
+    "source": "ecc583f6d5d1"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "条件区域不能位于列表内",
@@ -28449,6 +29959,10 @@
     "text": "“{column}”的首字符",
     "source": "b944f22738f2"
   },
+  "print.the-first-page-as-it-prints": {
+    "text": "打印时的第一页",
+    "source": "714858151c3d"
+  },
   "video.the-first-try-came-out-with": {
     "text": "第一次尝试的结果没有画面，因此已重新开始导出。",
     "source": "af1e9fb70b7f"
@@ -28521,6 +30035,10 @@
     "text": "邀请已附上：日历程序会显示它，并提供“接受”、“暂定”和“拒绝”。",
     "source": "916e39ce6f00"
   },
+  "calendar.the-invitation-says-so-and-everyone": {
+    "text": "邀请中会注明这一点，每个人在加入前还会再次收到告知。保存事件后无法更改此设置。",
+    "source": "34283da216e9"
+  },
   "talk.the-invitation-to-email-is-withdrawn": {
     "text": "已撤回发给 {email} 的邀请。",
     "source": "e97f1c145a8b"
@@ -28572,6 +30090,10 @@
   "mail.the-link-could-not-be-opened": {
     "text": "无法打开该链接：{reason}",
     "source": "f9feb1a56e08"
+  },
+  "calendar.the-link-goes-in-the-invitation": {
+    "text": "保存事件时，链接会放入邀请中。",
+    "source": "6aee9a938dce"
   },
   "mail.links.the-link-goes-to-a-bare": {
     "text": "该链接指向一个纯数字地址（{host}），而不是有名称的网站。",
@@ -28702,6 +30224,18 @@
   "pdf.redact.the-marked-words-were-found-nowhere": {
     "text": "在文件的其他位置未找到标记的文字。",
     "source": "d6895ebf74fc"
+  },
+  "talk-words.the-meeting-has-ended": {
+    "text": "会议已结束。",
+    "source": "cc0f6f1d8713"
+  },
+  "talk.meet-lines.the-meeting-is-full-on-its": {
+    "text": "此会议在其通话服务器（Talk Server）上已满员。",
+    "source": "a28293313806"
+  },
+  "talk.meet-lines.the-meetings-talk-server-is-not": {
+    "text": "会议的通话服务器（Talk Server）目前不接纳人员。稍后重试。",
+    "source": "1ba2db75411e"
   },
   "sheets.the-memo-file-was-not-beside": {
     "text": "备注文件不在表旁边，因此其备注字段为空。",
@@ -28839,6 +30373,14 @@
     "text": "文件夹的顺序",
     "source": "30418ead37ff"
   },
+  "talk-words.the-organiser-will-record-this-meeting": {
+    "text": "组织者将在其电脑上录制此会议，并可能共享录制内容。",
+    "source": "921618d46444"
+  },
+  "talk-words.the-organiser-will-stream-this-meeting": {
+    "text": "组织者将在互联网上直播此会议。任何观看者都能看到和听到加入的人。",
+    "source": "b99065a333e6"
+  },
   "image.the-original-is-untouched": {
     "text": "原始文件未受影响。",
     "source": "47a5d88b8255"
@@ -28899,6 +30441,10 @@
     "text": "密码已更改。",
     "source": "48b340636b7a"
   },
+  "studio.the-password-is-kept-in-this": {
+    "text": "密码保存在这台电脑的密钥存储中，不会再次显示。仅当摄像头是当前打开场景中已启动的源时，Office 才会读取它，且自身不会录制任何内容。",
+    "source": "a06c01b372ed"
+  },
   "base.sources.the-password-is-kept-in-this": {
     "text": "密码保存在这台电脑的受保护存储中，绝不保存在文件中。",
     "source": "238083babcc6"
@@ -28927,6 +30473,30 @@
     "text": "无法在这台电脑上打开此配置文件中保存的密码。",
     "source": "acb3592270e8"
   },
+  "talk.server-share.the-people-i-choose": {
+    "text": "我选择的人",
+    "source": "36c32fb33927"
+  },
+  "talk.meeting.the-people-here-become-guests-of": {
+    "text": "此处的人员将成为你直播的嘉宾。在你于该处开始直播之前，不会直播任何内容。",
+    "source": "e32bdeab5f44"
+  },
+  "talk.meeting.the-people-here-become-guests-of-2": {
+    "text": "此处的人员将成为你录制的嘉宾。在你于该处开始录制之前，不会录制任何内容。",
+    "source": "0029bd61f40d"
+  },
+  "talk.meet-lines.the-person-who-set-it-up": {
+    "text": "由设置会议的人准许他人进入：待其进入会议后，你即可进入。",
+    "source": "e3c88ab34577"
+  },
+  "video.the-picked-clip-is-held-as": {
+    "text": "所选剪辑保持其在播放头处的状态；在另一时间设置另一个点，它就会在两点之间移动",
+    "source": "3750c996d700"
+  },
+  "video.the-picked-clip-no-longer-stops": {
+    "text": "所选剪辑不再在此处途中停留",
+    "source": "6fd09ebed34a"
+  },
   "image.the-picture": {
     "text": "图片",
     "source": "4c104b5e7d1b"
@@ -28942,6 +30512,10 @@
   "studio.live-panel.the-picture-as-it-will-go": {
     "text": "将要输出的画面",
     "source": "bc06b3ee00fb"
+  },
+  "video.inspector.the-picture-comes-up-from-black": {
+    "text": "画面在此剪辑开始处从黑色淡入，在结束处淡出为黑色。",
+    "source": "2181c1078bfc"
   },
   "image.formats.the-picture-could-not-be-drawn": {
     "text": "无法以该尺寸绘制图片。",
@@ -29027,6 +30601,14 @@
     "text": "演示文稿未打开",
     "source": "f29457024833"
   },
+  "print.the-printer-did-not-accept-this": {
+    "text": "打印机不接受此纸张或这些设置。选择其他纸张或其他打印机。",
+    "source": "774689bf480b"
+  },
+  "print.the-printer-did-not-take-the": {
+    "text": "打印机未接受此作业。检查打印机是否已开启并连接，然后重试。",
+    "source": "f4eec391cb2b"
+  },
   "base.the-program-that-made-this-database": {
     "text": "创建此数据库的程序以自己的方式保存记录。你在此处添加、更改或删除的记录会直接写入其文件，而该程序可能无法预料。请先关闭该程序；如果不确定，请保留该文件的副本。",
     "source": "8002f92792a1"
@@ -29069,6 +30651,10 @@
     },
     "source": "4f5d2c815440"
   },
+  "talk.meet-lines.the-recording-is-running-you-are": {
+    "text": "正在录制。你当前不在录制画面中。",
+    "source": "4036dc31bdb1"
+  },
   "base.links.the-records-of-table-could-not": {
     "text": "无法从 {link} 读取 {table} 的记录：{why}",
     "source": "660d34a04cc8"
@@ -29108,6 +30694,10 @@
   "slides.ribbon.the-release-notes": {
     "text": "发行说明",
     "source": "3f798451b655"
+  },
+  "talk.report.the-report-goes-to-rutba-name": {
+    "text": "举报将发送给 Rutba。{name} 不会收到通知。",
+    "source": "f6c7917c49db"
   },
   "template-gallery.the-results-of-a-quarter-the": {
     "text": "季度业绩：数据、每月收入、亮点、经验教训和目标",
@@ -29319,6 +30909,10 @@
     "text": "较小的 PDF 将另存为新文件；此文件不会更改。现在它的大小为 {size}。",
     "source": "6442a2655dcc"
   },
+  "notify-dialog.the-sound-windows-plays-with-a": {
+    "text": "Windows 显示通知时播放的声音",
+    "source": "653106fa20ba"
+  },
   "video.the-sound-could-not-be-added": {
     "text": "无法添加声音：{reason}",
     "source": "35d9bcec9939"
@@ -29362,6 +30956,10 @@
   "studio.live-bar.the-stream-has-ended": {
     "text": "直播已结束。",
     "source": "d57ae372ef20"
+  },
+  "talk.meet-lines.the-stream-is-on-air-you": {
+    "text": "正在直播。你当前不在直播画面中。",
+    "source": "11eb1300420f"
   },
   "ui.proofing.the-suite-has-english-dictionaries-only": {
     "text": "套件只有英语词典，因此拼写检查会跳过{language}字词，而不将其标记为错误；Office 会以{language}校对这些字词。",
@@ -29435,6 +31033,14 @@
     "text": "工具",
     "source": "597e25a2a916"
   },
+  "video.inspector.the-transition-into-the-next-clip": {
+    "text": "进入下一个剪辑的切换是它的退出方式。",
+    "source": "6f504ea49383"
+  },
+  "video.inspector.the-transition-into-this-clip-is": {
+    "text": "进入此剪辑的切换是它的进入方式。",
+    "source": "580927f3dd13"
+  },
   "common.the-two-passwords-are-not-the": {
     "text": "两次输入的密码不一致。",
     "source": "bb612d83804d"
@@ -29454,22 +31060,6 @@
   "video.library.the-videos-sound-and-pictures-in": {
     "text": "此项目中的视频、声音和图片保存在这里，可再次添加。",
     "source": "4075715096b2"
-  },
-  "spoken.voices.read-aloud-only": {
-    "text": "仅朗读",
-    "source": "3953b35ec0c1"
-  },
-  "spoken.voices.shortcut-ctrl-enter-in-the-box": {
-    "text": "快捷键：在框中按 Ctrl+Enter",
-    "source": "46629f7a364b"
-  },
-  "spoken.voices.show-and-read-aloud": {
-    "text": "显示并朗读",
-    "source": "cad1b91fa8e8"
-  },
-  "spoken.voices.show-only": {
-    "text": "仅显示",
-    "source": "a8d71c961005"
   },
   "spoken.voices.the-voice-gave-no-sound-for": {
     "text": "此行的语音没有发出声音。",
@@ -29511,9 +31101,17 @@
     "text": "文字会更改；编号及其引用位置保持不变。",
     "source": "a349d752c423"
   },
+  "video.spoken.the-words-land-at-the-playhead": {
+    "text": "文字出现在播放头处，一行接一行，叠加在画面上。",
+    "source": "841b57677821"
+  },
   "pdf.redact.the-words-marked-words": {
     "text": "标记的文字：{words}",
     "source": "dc8443be756f"
+  },
+  "notify-dialog.the-words-of-a-message-and": {
+    "text": "消息的文字和电子邮件的主题。关闭后，通知只显示发件人。",
+    "source": "aa2ea8a7d8f1"
   },
   "engine.the-words-to-make-a-table": {
     "text": "要转换为表格的文字已在表格中。",
@@ -29801,6 +31399,12 @@
     "text": "还没有可切换的内容。",
     "source": "b18177f5d0d3"
   },
+  "pictures.print.there-is-count-picture-here-more": {
+    "forms": {
+      "other": "此处有 {count} 张图片，超出单次打印的上限 {most} 张。请减少选择。"
+    },
+    "source": "5c9d627303d8"
+  },
   "common.thesaurus": {
     "text": "同义词库",
     "source": "39ee7c38435d"
@@ -29865,6 +31469,14 @@
     "text": "对方将从你的联系人中删除，且无法再次请求成为联系人或联系你。",
     "source": "9f51b4fdc716"
   },
+  "talk.they-cannot-ask-to-be-in": {
+    "text": "对方无法再请求与你联系，也无法联系到你。对方不会收到通知。",
+    "source": "dee1768ca554"
+  },
+  "studio.guests.they-cannot-join-this-meeting-again": {
+    "text": "对方无法再次加入此会议。",
+    "source": "def7bc098df1"
+  },
   "base.ai-tools.they-may-also-add-records-and": {
     "text": "它们还可以添加和更改记录。它们绝不会更改设计，也绝不会删除。",
     "source": "8b74841f0d5a"
@@ -29876,6 +31488,10 @@
   "base.ai-tools.they-may-read-its-records": {
     "text": "它们可以读取其记录。",
     "source": "2a1104df2724"
+  },
+  "talk.groups.they-no-longer-see-what-is": {
+    "text": "对方将无法再看到这里的消息。已读的内容仍会保留在对方那里。",
+    "source": "a3b27170bf21"
   },
   "talk.invite.they-see-it-in-talk-if": {
     "text": "如果对方使用“通话”（Talk），会在其中看到邀请。之后你也可以自己把链接发给对方。",
@@ -29921,6 +31537,10 @@
     "text": "第三",
     "source": "5e7425d72f32"
   },
+  "video.library.third-point": {
+    "text": "第三个点",
+    "source": "7bb2711613d0"
+  },
   "slides.ribbon.this-device": {
     "text": "此设备…",
     "source": "52daeef5cf25"
@@ -29949,9 +31569,13 @@
     "text": "此 PDF 的交叉引用已损坏，因此无法直接为其添加文本层。请先保存一个副本，然后识别该副本。",
     "source": "1050973fa0a2"
   },
-  "talk.invite.this-talk-server-does-not-take": {
-    "text": "此“通话”（Talk）服务器尚不支持邀请。",
-    "source": "9b3cb2160f1c"
+  "talk.meet-lines.this-talk-service-cannot-hold-a": {
+    "text": "此通话服务暂时无法在通话服务器（Talk Server）上举行会议，因此本次会议为最多 4 人的小型会议。",
+    "source": "c1d3029a92cf"
+  },
+  "talk.meet-lines.this-talk-service-has-no-talk": {
+    "text": "此通话服务没有通话服务器（Talk Server），因此无法在通话服务器上举行会议。",
+    "source": "8e28496cf764"
   },
   "mail.this-account": {
     "text": "此帐户",
@@ -29960,6 +31584,10 @@
   "word.untracked.this-action-will-not-be-marked": {
     "text": "此操作不会标记为更改。",
     "source": "7b97913a5c04"
+  },
+  "studio.net-camera-words.this-address-sends-h-265-which": {
+    "text": "此地址发送的是 H.265，目前尚不支持读取。使用摄像头的 H.264 流。",
+    "source": "651ff9635aec"
   },
   "calendar.words.this-answer-comes-from-rutba-office": {
     "text": "此答复来自 Rutba Office，它在打开时负责管理此会议室的邮箱。",
@@ -29988,6 +31616,26 @@
   "engine.this-calendar-comes-from-an-account": {
     "text": "此日历来自某个帐户：移除该帐户即可移除其日历。",
     "source": "98d39bbbbd5e"
+  },
+  "studio.net-camera-words.this-camera-asks-for-a-kind": {
+    "text": "此摄像头要求的登录方式 Office 无法识别。",
+    "source": "6c652d14acb9"
+  },
+  "studio.net-camera-words.this-camera-asks-for-a-user": {
+    "text": "此摄像头要求输入用户名和密码。",
+    "source": "c2cae425904b"
+  },
+  "studio.net-camera-words.this-camera-does-not-send-its": {
+    "text": "此摄像头不通过 Office 打开的连接发送画面。",
+    "source": "6fc8cbde1c5f"
+  },
+  "studio.net-camera-words.this-camera-is-not-set-up": {
+    "text": "此摄像头未在这台电脑上设置。在“摄像头详细信息”中输入其地址。",
+    "source": "4bed18b10e16"
+  },
+  "studio.net-camera-dialog.this-camera-was-set-up-on": {
+    "text": "此摄像头是在另一台电脑上设置的。在此处输入其地址和登录信息。",
+    "source": "542ed093335d"
   },
   "mail.this-cannot-be-encrypted-for-names": {
     "text": "无法为 {names} 加密：此处没有其证书。向对方索取一封签名邮件，或导入其证书。",
@@ -30037,6 +31685,10 @@
     "text": "此选项已约为 {size}，低于 {limit}，因此保持不变。仍会检查写入的文件。",
     "source": "ec9bbd250c8b"
   },
+  "studio.window.this-clears-the-sources-scenes-sounds": {
+    "text": "这会清除此会话的源、场景、声音和设置、画面形状以及输入的供语音播报的文字。此操作无法撤消。已保存的设置不会更改。",
+    "source": "c68ae537b83a"
+  },
   "video.inspector.this-clip-fills-the-frame-drag": {
     "text": "此剪辑填满画面。在预览中拖动角，或将其设为画中画，即可移动、调整大小和旋转。",
     "source": "72ea235699ae"
@@ -30069,9 +31721,21 @@
     "text": "这台电脑无法生成直播所需的 H.264 画面。",
     "source": "a62cd6f5be9a"
   },
+  "studio.net-camera-words.this-computer-could-not-show-the": {
+    "text": "这台电脑无法显示摄像头的画面。",
+    "source": "51da9c1b735e"
+  },
   "studio.media.this-computer-does-not-let-its": {
     "text": "这台电脑不允许录制其自身的声音。",
     "source": "02a36f4d4162"
+  },
+  "notify-dialog.this-computer-does-not-show-notifications": {
+    "text": "这台电脑不显示来自 Rutba Office 的通知。等待处理的内容仍会在时钟旁的图标上计数。",
+    "source": "0946a46fa6b1"
+  },
+  "studio.this-computer-has-no-keystore-to": {
+    "text": "这台电脑没有可安全保存密码的密钥存储，因此添加摄像头时不带密码。",
+    "source": "72d201a958d1"
   },
   "profiles.this-computer-has-no-protected-store": {
     "text": "这台电脑没有用于保存密码的受保护存储，而此配置文件也没有密码，因此无法安全保存它们。",
@@ -30213,6 +31877,10 @@
     "text": "此文档受保护：此处只能添加批注。“审阅”→“限制编辑”可显示你可以编辑的区域。",
     "source": "b908b8376d8e"
   },
+  "calendar.this-event-has-a-talk-meeting": {
+    "text": "此事件包含“通话”（Talk）会议。会议链接在邀请中。",
+    "source": "827f48607535"
+  },
   "word.mailings.this-field": {
     "text": "此域：",
     "source": "eb8aea23f662"
@@ -30333,9 +32001,17 @@
     "text": "这是 glTF {version} 文件；仅读取 glTF 2.0",
     "source": "4c12d7ae7e99"
   },
+  "studio.setups-menu.this-is-a-new-session-your": {
+    "text": "这是一个新会话。你保存的设置未打开。",
+    "source": "71e4928b84cd"
+  },
   "word.mailings.this-is-an-ordinary-document-again": {
     "text": "此文档已恢复为普通文档，不再进行邮件合并。",
     "source": "c3f745c78c62"
+  },
+  "shell.notifier.this-is-how-rutba-office-tells": {
+    "text": "Rutba Office 通过这种方式通知你来电、消息、电子邮件或提醒。",
+    "source": "950c62c3726b"
   },
   "engine.this-is-not-a-pdf-it": {
     "text": "这不是 PDF：其开头不符合 PDF 格式。",
@@ -30415,9 +32091,41 @@
     "text": "此会议已更改。新的详细信息见上方及附件。",
     "source": "fbe9e175c1ce"
   },
+  "talk-words.this-meeting-has-ended-or-its": {
+    "text": "此会议已结束，或其链接不正确。",
+    "source": "b64eb5c26b25"
+  },
+  "talk.meet-lines.this-meeting-holds-up-to-count": {
+    "text": "此会议最多可容纳 {count} 人：你和你邀请的联系人。",
+    "source": "7ce6878459a3"
+  },
   "calendar.words.this-meeting-is-cancelled-a-calendar": {
     "text": "此会议已取消。日历程序会根据附件将其从日历中移除。",
     "source": "6e9c1888a881"
+  },
+  "common.this-meeting-is-full-it-holds": {
+    "text": "此会议已满：最多容纳 {count} 人。",
+    "source": "3f86e11dd3c0"
+  },
+  "talk-words.this-meeting-is-locked-nobody-new": {
+    "text": "此会议已锁定。解锁前任何新成员都无法加入。",
+    "source": "1abcf9d36011"
+  },
+  "talk.meet-lines.this-meeting-is-over-on-its": {
+    "text": "此会议在其通话服务器（Talk Server）上已结束。",
+    "source": "63de60cd2533"
+  },
+  "talk.meet-lines.this-meeting-was-not-set-up": {
+    "text": "此会议未设置为直播或录制。以后无法更改。",
+    "source": "d5fcfd698087"
+  },
+  "shell.notifier.this-meeting-will-be-recorded": {
+    "text": "此会议将被录制",
+    "source": "ca175df526bd"
+  },
+  "common.this-meeting-will-be-streamed-live": {
+    "text": "此会议将进行直播",
+    "source": "bcb5929f8d46"
   },
   "mail.this-message-could-not-be-opened": {
     "text": "无法打开此邮件",
@@ -30507,6 +32215,10 @@
     "text": "此照片的旋转信息位于不重绘就无法更改的位置。“编辑”会在“图像”中打开它，“图像”可以处理。",
     "source": "e53774383891"
   },
+  "pictures.this-picture": {
+    "text": "此图片",
+    "source": "ee4bcbd7d2c6"
+  },
   "pictures.this-picture-could-not-be-decoded": {
     "text": "无法解码此图片。",
     "source": "3770474ba9a6"
@@ -30526,6 +32238,10 @@
   "edit-in-image.this-picture-is-kept-in-a": {
     "text": "此图片以“图像”无法编辑的形式保存（例如线条绘图）。请先将其转换为 PNG 或 JPEG。",
     "source": "a4e03f2add1a"
+  },
+  "pictures.this-picture-all-count-pages": {
+    "text": "此图片，全部 {count} 页",
+    "source": "7e3a926bad3c"
   },
   "pdf.fields.this-places-a-picture-of-your": {
     "text": "这会在页面上放置你的签名图片。它不是数字签名：它不能证明是谁签署了此 PDF，也不能证明 PDF 在此后未被更改。",
@@ -30550,6 +32266,10 @@
   "base.documents.this-print-template-is-not-in": {
     "text": "此打印模板不在数据库中。",
     "source": "514256b113da"
+  },
+  "print.this-printer-is-not-ready-a": {
+    "text": "此打印机未就绪。发送到它的打印作业会在队列中等待，直到它就绪。",
+    "source": "e0ae214529a5"
   },
   "profiles.this-profile-asks-for-its-password": {
     "text": "此配置文件在打开前会要求输入密码。",
@@ -30610,6 +32330,14 @@
   "mail.this-sends-a-message-to-address": {
     "text": "这将向 {address} 发送一封邮件。",
     "source": "ff32e284a342"
+  },
+  "studio.settings-dialog.this-session": {
+    "text": "此会话",
+    "source": "6da6530a0728"
+  },
+  "studio.setups-menu.this-session-is-not-saved-save": {
+    "text": "此会话尚未保存。将其另存为设置，以便以后再次打开。否则，你在其中所做的安排将会丢失。",
+    "source": "47fc62aed9a4"
   },
   "studio.settings-dialog.this-setup": {
     "text": "此设置",
@@ -30743,6 +32471,10 @@
     "text": "此窗口没有自己的键盘快捷方式。",
     "source": "5e7d871a442c"
   },
+  "studio.guests.this-window-leaves-and-talk-comes": {
+    "text": "此窗口将关闭，由“通话”（Talk）接手：相同的人员，以会议形式进行。",
+    "source": "fa116fc70753"
+  },
   "sheets.this-workbook-has-no-comments": {
     "text": "此工作簿没有批注。",
     "source": "b25f818039e3"
@@ -30779,6 +32511,12 @@
     "text": "此 {noun} 已需要密码才能打开。键入新密码可更改密码，两个框都留空则删除密码。",
     "source": "48cc5a933316"
   },
+  "print.those-are-not-pages-of-this": {
+    "forms": {
+      "other": "此打印内容中没有这些页：共 {count} 页。"
+    },
+    "source": "39e9aff4fba2"
+  },
   "talk.invite-email.those-beyond-that-are-asked-in": {
     "text": "超出部分只在“通话”（Talk）中邀请，不发送电子邮件。",
     "source": "4ac21ba884c2"
@@ -30798,6 +32536,10 @@
   "slides.ribbon.three-columns": {
     "text": "三栏",
     "source": "cd7d143da615"
+  },
+  "studio.guests.three-guests": {
+    "text": "三位嘉宾",
+    "source": "41b77a9e8c88"
   },
   "word.ribbon.through": {
     "text": "穿越型",
@@ -30903,10 +32645,6 @@
     "text": "时区",
     "source": "1b0013ea667e"
   },
-  "video.ribbon.spoken-words": {
-    "text": "朗读文字",
-    "source": "b5f7a276ab16"
-  },
   "video.ribbon.timeline": {
     "text": "时间线",
     "source": "9dcff98e275f"
@@ -31009,10 +32747,6 @@
     "text": "若要询问 {room} 何时空闲，请写信给它并注明日期，例如“3月12日有空吗？”。",
     "source": "37d6c6384e27"
   },
-  "video.inspector.to-black": {
-    "text": "到黑场",
-    "source": "96f788893ec2"
-  },
   "inspect.to-check-the-noun-for-the": {
     "text": "要检查所选内容的 {noun}，单击“检查”。",
     "source": "1cb2e2cb7be2"
@@ -31068,6 +32802,10 @@
   "image.tools.tolerance": {
     "text": "容差",
     "source": "f71041bb481f"
+  },
+  "shell.notifier.tomorrow": {
+    "text": "明天",
+    "source": "456a73bbcefb"
   },
   "mail.compose.tomorrow-afternoon-1pm": {
     "text": "明天下午 1 点",
@@ -31425,6 +33163,10 @@
     "text": "请尝试其他字词。",
     "source": "2a5ed12cfe24"
   },
+  "talk.meeting.try-the-microphone-again": {
+    "text": "重新试用麦克风",
+    "source": "a9a9b0e3cf5e"
+  },
   "image.insert.tue": {
     "text": "周二",
     "source": "d1eb39b09bf5"
@@ -31472,6 +33214,10 @@
   "pictures.batch.turn-each-picture-upright-by-its": {
     "text": "按 EXIF 方向将每张图片转正",
     "source": "54083df636d3"
+  },
+  "common.turn-notifications-back-on": {
+    "text": "重新开启通知",
+    "source": "d9796f6a3b48"
   },
   "common.turn-off": {
     "text": "关闭",
@@ -31549,6 +33295,10 @@
     "text": "两栏",
     "source": "ff4a0135d773"
   },
+  "studio.guests.two-guests": {
+    "text": "两位嘉宾",
+    "source": "ebe89d0ce31d"
+  },
   "locker.two-versions": {
     "text": "两个版本",
     "source": "861c66ced8c2"
@@ -31576,6 +33326,10 @@
   "word.references.type-a-tag-name-for-the": {
     "text": "为占位符键入标记名称。稍后可在“管理源”中填写，所有对它的引用都会随之更新。",
     "source": "e79a9f4c69be"
+  },
+  "video.type-a-web-address": {
+    "text": "输入网址",
+    "source": "f1405e95c81b"
   },
   "equations.type-an-equation-x-b-b": {
     "text": "键入公式，例如 x=(-b±√(b^2-4ac))/2a、\\sum_(i=1)^n i、\\int_0^1 f(x)dx、a_i、\\alpha",
@@ -31645,6 +33399,10 @@
     "text": "键入要查找的文字，然后再次按“标记匹配项”以标记每处匹配项。",
     "source": "534a18cc15ca"
   },
+  "spoken.voices.type-the-words-to-say-one": {
+    "text": "输入要朗读的文字，每行一句",
+    "source": "e794db16dbb4"
+  },
   "base.forms.type-to-find": {
     "text": "键入以查找",
     "source": "4fbe3a9bb596"
@@ -31652,6 +33410,14 @@
   "mail.archive.type-words-to-find-them-anywhere": {
     "text": "键入字词即可在任意位置（包括正文）查找。可以添加以下任意条件；单击一项即可将其添加到搜索中。",
     "source": "e72e37f629a5"
+  },
+  "studio.spoken-run.type-words-to-show-read-aloud": {
+    "text": "随时输入要显示、朗读或既显示又朗读的文字",
+    "source": "ab4c38c0c662"
+  },
+  "video.type-words-to-show-read-aloud": {
+    "text": "在播放头处输入要显示、朗读或既显示又朗读的文字",
+    "source": "af653107afac"
   },
   "slides.comments.type-your-comment-mentions-someone": {
     "text": "键入批注… 使用 @ 提及某人",
@@ -31688,6 +33454,10 @@
   "slides.action.url": {
     "text": "URL…",
     "source": "e32d07912805"
+  },
+  "talk.settings.unblock": {
+    "text": "取消阻止",
+    "source": "712da63171e0"
   },
   "slides.motion.uncover": {
     "text": "揭开",
@@ -31977,10 +33747,6 @@
     "text": "无标题幻灯片",
     "source": "1eadae5cbf64"
   },
-  "video.type-words-to-show-read-aloud": {
-    "text": "在播放头处输入要显示、朗读或既显示又朗读的文字",
-    "source": "af653107afac"
-  },
   "video.untitled-video": {
     "text": "无标题视频",
     "source": "a7e5acfa45bc"
@@ -32000,6 +33766,10 @@
   "sheets.dialogs.up-to-31-characters-none-of": {
     "text": "最多 31 个字符；不能包含 [ ] : * ? / 或反斜杠。引用该工作表的公式会随新名称更新。",
     "source": "dee767dc50b7"
+  },
+  "talk.meet-lines.up-to-count-people-sound-picture": {
+    "text": "最多 {count} 人。声音、画面和消息由参会者的应用加密，服务器无法打开。你在会议中时，其他人可以进入。",
+    "source": "ebf5b97b2304"
   },
   "talk.invite-email.up-to-max-characters-rutbas-email": {
     "text": "最多 {max} 个字符。Rutba 的电子邮件会附上接受链接。",
@@ -32206,6 +33976,10 @@
   "talk.use-my-relay": {
     "text": "使用我的中继",
     "source": "17ee03d59f24"
+  },
+  "video.library.use-only-music-you-have-the": {
+    "text": "只使用你有权使用的音乐。网络上的大多数音乐都不能免费用于你的视频。",
+    "source": "74057f0cdd05"
   },
   "word.references-toa.use-passim": {
     "text": "使用“各处”",
@@ -32535,9 +34309,21 @@
     "text": "正在等待浏览器…",
     "source": "8c6d350ef031"
   },
+  "talk.meet-lines.waiting-for-the-person-who-set": {
+    "text": "正在等待设置会议的人，由其准许他人进入。",
+    "source": "1a25d036dddb"
+  },
+  "talk.meet-lines.waiting-for-name-who-lets-people": {
+    "text": "正在等待 {name}，由其准许他人进入此会议。",
+    "source": "1a30adcb3dae"
+  },
   "mail.dialogs.waiting-for-provider": {
     "text": "正在等待 {provider}…",
     "source": "5d80e1411830"
+  },
+  "talk.lines.waiting-talk-is-not-connected": {
+    "text": "等待中：“通话”（Talk）未连接",
+    "source": "a47c46196a6f"
   },
   "base.walk-ins-and-bookings-chair-rental": {
     "text": "无预约顾客和预约、座位租赁、按理发师统计的营业额和会员卡。",
@@ -32615,6 +34401,10 @@
     "text": "网址",
     "source": "45099c558849"
   },
+  "video.library.web-address-of-a-sound-or": {
+    "text": "声音或视频文件的网址",
+    "source": "a41db93d0dad"
+  },
   "studio.list.web-page": {
     "text": "网页",
     "source": "fae9f11dea03"
@@ -32687,6 +34477,14 @@
     "text": "会议目的、各议题及其时间和负责人，以及会前需阅读的材料",
     "source": "6b2ad7b24c66"
   },
+  "studio.net-camera-words.what-answers-at-this-address-is": {
+    "text": "此地址上响应的不是摄像头视频流。正在重试。",
+    "source": "87d5fe1b7097"
+  },
+  "talk.report.what-happened-if-you-want-to": {
+    "text": "发生了什么（可选）",
+    "source": "ad9d5c00cb5e"
+  },
   "mail.dialogs.what-is-in-junk-is-learned": {
     "text": "“垃圾邮件”中的邮件作为垃圾邮件学习，“收件箱”中的作为正常邮件学习",
     "source": "f0f1d53224a3"
@@ -32703,6 +34501,14 @@
     "text": "显示的内容",
     "source": "c86e86bc0f07"
   },
+  "talk.meeting.what-is-written-here-is-seen": {
+    "text": "此处的消息只有当前在会议中的人能看到。会议结束后不会保留。",
+    "source": "a3fd74707f8b"
+  },
+  "talk.report.what-is-wrong": {
+    "text": "有什么问题？",
+    "source": "d23f3cbd2d83"
+  },
   "word.blocks.what-it-holds": {
     "text": "内容",
     "source": "e0ae7a1f3f51"
@@ -32714,10 +34520,6 @@
   "ai-tools.what-the-ai-tools-may-do": {
     "text": "AI 工具可以对每一项执行的操作。在你选择之前，所有设置均为“关”。“AI 工具”中有相同的设置。",
     "source": "14310670b45f"
-  },
-  "spoken.voices.type-the-words-to-say-one": {
-    "text": "输入要朗读的文字，每行一句",
-    "source": "e794db16dbb4"
   },
   "spoken.voices.what-the-lines-do": {
     "text": "文本行的作用",
@@ -32919,6 +34721,10 @@
     "text": "楼内人员、通行证、接待人、承包商入场培训和送货。",
     "source": "b2307ab3ac50"
   },
+  "talk.server-share.who-may-hold-meetings-on-name": {
+    "text": "谁可以在 {name} 上举行会议",
+    "source": "d46f91bd9701"
+  },
   "base.documents.who-signs": {
     "text": "签署人",
     "source": "c07456c38335"
@@ -32934,6 +34740,10 @@
   "base.sources.who-you-are-where-table-is": {
     "text": "在读取 {table} 的位置你的身份",
     "source": "2d7fe168e926"
+  },
+  "talk.server-share.whoever-is-a-contact-of-yours": {
+    "text": "在发起会议时已是你的联系人的任何人。",
+    "source": "e1760ffd2218"
   },
   "pdf.whoever-protected-this-pdf-allows-only": {
     "text": "此 PDF 的保护者仅允许对其进行部分更改。",
@@ -33055,6 +34865,14 @@
     "text": "宽度：自动",
     "source": "c521533693cd"
   },
+  "talk.meet-lines.will-be-recorded": {
+    "text": "将被录制",
+    "source": "2b5790d08c40"
+  },
+  "talk.meet-lines.will-be-streamed-live": {
+    "text": "将进行直播",
+    "source": "aa193332d0ee"
+  },
   "common.window": {
     "text": "窗口",
     "source": "19734a1b58ca"
@@ -33082,6 +34900,18 @@
   "common.wipe": {
     "text": "擦除",
     "source": "3404644e0117"
+  },
+  "video.timeline.wipe-down": {
+    "text": "向下擦除",
+    "source": "386327484bbc"
+  },
+  "video.timeline.wipe-left": {
+    "text": "向左擦除",
+    "source": "fe6bfe761ce2"
+  },
+  "video.timeline.wipe-up": {
+    "text": "向上擦除",
+    "source": "37d6d465ef8a"
   },
   "slides.ribbon.with-previous": {
     "text": "与上一动画同时",
@@ -33194,6 +35024,10 @@
   "ui.proofing.words-for-word": {
     "text": "“{word}”的相关字词",
     "source": "6d61efe54546"
+  },
+  "spoken.voices.words-to-say": {
+    "text": "要朗读的文字",
+    "source": "3353415dcf6a"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "你添加的字词在“文档”“工作表”和“演示文稿”中都不会被标记为拼写错误。",
@@ -33331,6 +35165,10 @@
     "text": "在整个窗口中撰写",
     "source": "92a4b3023cae"
   },
+  "talk.write-the-first-message-to-this": {
+    "text": "向此群组发送第一条消息。",
+    "source": "79c6b8f1ef84"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "写入已停止：{reason}。之前已写入的内容会保留。",
     "source": "9d5b1ef54387"
@@ -33387,9 +35225,21 @@
     "text": "你",
     "source": "08b041935798"
   },
+  "talk.lines.you-added-who": {
+    "text": "你添加了 {who}",
+    "source": "67412ea9fb91"
+  },
   "talk.invite.you-and-name-are-contacts-now": {
     "text": "你和 {name} 现在是联系人了。",
     "source": "38fc20ca22cb"
+  },
+  "talk.meet-lines.you-are-being-recorded": {
+    "text": "你正在被录制。",
+    "source": "e527c1b5b294"
+  },
+  "talk.lines.you-are-in-as-many-groups": {
+    "text": "你加入的群组数已达到“通话”（Talk）的上限。请先退出一个群组。",
+    "source": "f21fa1f31c5b"
   },
   "studio.setup-panel.you-are-live-changes-here-go": {
     "text": "你正在直播。此处的更改会进入“下一个”，单击“切换”后开始直播。",
@@ -33398,6 +35248,18 @@
   "studio.window.you-are-live-closing-this-window": {
     "text": "你正在直播。关闭此窗口将结束直播。",
     "source": "fbafb6b6ab0f"
+  },
+  "common.you-are-no-longer-in-that": {
+    "text": "你已不在该群组中。",
+    "source": "88e19bcf810d"
+  },
+  "talk.meet-lines.you-are-not-let-into-this": {
+    "text": "你已不再获准进入此会议，或会议已结束。",
+    "source": "02799eaaf921"
+  },
+  "talk.meet-lines.you-are-on-air-people-watching": {
+    "text": "你正在直播中。观看直播的人能看到和听到你。",
+    "source": "5e22ab5c41c5"
   },
   "base.people.you-are-seeing-this-database-as": {
     "text": "你正在以 {role} 的视角查看此数据库。返回之前无法更改任何内容。",
@@ -33411,6 +35273,10 @@
     "text": "你可以在 {when}再次邀请对方。",
     "source": "ef7c63299976"
   },
+  "talk.meet-lines.you-cannot-hear-or-see-the": {
+    "text": "你无法听到或看到其他人：此“通话”（Talk）副本持有的密钥与他们的不同。离开会议后重新加入。",
+    "source": "3baa6801ab85"
+  },
   "base.links.you-changed-it-here-and-it": {
     "text": "你在此处更改了它，而它在引擎中也被更改。已保留引擎的版本。",
     "source": "07152f5edcaf"
@@ -33418,6 +35284,10 @@
   "base.links.you-changed-it-here-and-it-2": {
     "text": "你在此处更改了它，而它在引擎中已被删除。此处也已删除。",
     "source": "66e9facf3d8b"
+  },
+  "talk.meet-lines.you-could-not-be-let-into": {
+    "text": "你未能获准进入会议。再次尝试加入。",
+    "source": "42a2a94fab7e"
   },
   "base.links.you-deleted-it-here-and-it": {
     "text": "你在此处删除了它，而它在引擎中已被更改。它已恢复。",
@@ -33430,6 +35300,66 @@
   "talk.invite-email.you-have-no-mail-account-to": {
     "text": "你没有可用于发送的“邮件”帐户，因此 Rutba 将以你的名义从 no-reply@rutba.io 发送电子邮件给他们。",
     "source": "d3f332910843"
+  },
+  "studio.guests.you-have-no-other-talk-contacts": {
+    "text": "没有其他可邀请的“通话”（Talk）联系人。先在通话中添加联系人。",
+    "source": "d13343a31f9d"
+  },
+  "talk.report.you-have-sent-as-many-reports": {
+    "text": "你今天发送的举报数已达到“通话”（Talk）的上限。",
+    "source": "69666680ec59"
+  },
+  "talk-words.you-joined-this-meeting-on-another": {
+    "text": "你已在另一台电脑上加入此会议。",
+    "source": "c2cb6546c29d"
+  },
+  "talk.lines.you-named-this-group-title": {
+    "text": "你将此群组命名为 {title}",
+    "source": "83c1de004ff9"
+  },
+  "talk.lines.you-no-longer-get-what-is": {
+    "text": "你将无法再收到这里的消息。已读的内容仍保留在这台电脑上。",
+    "source": "9fb6883a05aa"
+  },
+  "talk.meeting.you-set-this-meeting-up-if": {
+    "text": "此会议由你设置。如果你离开，会议将为其他人继续进行，链接仍然有效。如果你结束会议，所有人都会被移出，链接将失效。",
+    "source": "7b59019f65c0"
+  },
+  "talk.meet-lines.you-started-a-meeting-title": {
+    "text": "你发起了会议：{title}",
+    "source": "5f81e73c33ca"
+  },
+  "talk.lines.you-started-this-group-once-you": {
+    "text": "此群组由你创建。你退出后，将没有人能把成员移出群组。",
+    "source": "8411924dedab"
+  },
+  "talk.lines.you-took-the-name-off-this": {
+    "text": "你移除了此群组的名称",
+    "source": "f06b2fc22dbf"
+  },
+  "talk.lines.you-took-who-out-of-this": {
+    "text": "你将 {who} 移出了此群组",
+    "source": "a112ba00bdc9"
+  },
+  "talk.lines.you-were-in-another-call": {
+    "text": "你正在另一个通话中",
+    "source": "a2976c4b12f4"
+  },
+  "talk-words.you-were-taken-out-of-the": {
+    "text": "你已被移出会议。",
+    "source": "f083ad52d66f"
+  },
+  "talk-words.you-were-taken-out-of-this": {
+    "text": "你已被移出此会议，无法再次加入。",
+    "source": "1b337da7a50e"
+  },
+  "talk-words.you-will-record-this-meeting-on": {
+    "text": "你将在自己的电脑上录制此会议，并可能共享录制内容。",
+    "source": "358da48259cf"
+  },
+  "talk-words.you-will-stream-this-meeting-live": {
+    "text": "你将在互联网上直播此会议。任何观看者都能看到和听到加入的人。",
+    "source": "9db07d5e52d2"
   },
   "common.youre-good-to-go": {
     "text": "一切就绪。",
@@ -33446,6 +35376,14 @@
   "locker.your-locker-folder-is-ready-put": {
     "text": "你的 Locker 文件夹已准备就绪。将文件放入其中，然后在此处锁定它们。",
     "source": "631f0118426c"
+  },
+  "talk.meet-lines.your-talk-server": {
+    "text": "你的通话服务器（Talk Server）",
+    "source": "88893d7ef8a9"
+  },
+  "talk.server-share.your-talk-servers": {
+    "text": "你的通话服务器（Talk Server）",
+    "source": "c93442a99df0"
   },
   "base.trust.your-answer-is-kept-for-this": {
     "text": "你的选择会针对这台电脑上的此文件保存。在你允许之前，其表保留现有副本，不会读取。",
@@ -33483,6 +35421,10 @@
     "text": "你的云看到的是随机名称。文件夹名称仍然可见。",
     "source": "02099b933215"
   },
+  "talk.settings.your-contacts-can-call-you-and": {
+    "text": "只要 Rutba Office 处于打开状态，你的联系人就可以呼叫你并给你发消息，无需先打开“通话”（Talk）。关闭后，通话会在你打开它时连接。",
+    "source": "a43c2ca95c26"
+  },
   "registry.your-days-on-this-computer": {
     "text": "你的日程，就在这台电脑上",
     "source": "a19d67626067"
@@ -33507,6 +35449,14 @@
     "text": "你的邮件：已完成 {done}/{total} 个文件",
     "source": "07866fe919f9"
   },
+  "talk.meeting.your-microphone-will-be-off-you": {
+    "text": "你的麦克风将关闭。你可以在会议中开启它。",
+    "source": "1601596b9635"
+  },
+  "talk.meeting.your-microphone-will-be-on-you": {
+    "text": "你的麦克风将开启。你可以在此处关闭它。",
+    "source": "b2f402cc5181"
+  },
   "common.your-name": {
     "text": "你的姓名",
     "source": "2c6b2e253c01"
@@ -33530,6 +35480,10 @@
   "word.ribbon.your-own-formula": {
     "text": "自定义公式…",
     "source": "a27bfd102347"
+  },
+  "talk.meet-lines.your-pass-for-this-meeting-ran": {
+    "text": "此会议的入场凭证在使用前已过期。重试。",
+    "source": "e2a62b05fdc4"
   },
   "base.people.your-password-is-changed": {
     "text": "你的密码已更改。",
@@ -34811,6 +36765,10 @@
     "text": "创建该文件的程序名称",
     "source": "83f88e38dc1d"
   },
+  "talk.meet-lines.the-person-who-set-it-up-2": {
+    "text": "设置会议的人",
+    "source": "d0a49b27ebdc"
+  },
   "video.the-picked-clips-make-no-sound": {
     "text": "所选剪辑不发出声音",
     "source": "69832857dde0"
@@ -35095,9 +37053,17 @@
     "text": "x 的平方",
     "source": "d81b4b9e12c8"
   },
+  "talk.lines.you": {
+    "text": "你",
+    "source": "bb0347a468d9"
+  },
   "calendar.you-answered-answer": {
     "text": "你已答复：{answer}",
     "source": "48b4629d99ee"
+  },
+  "talk.server-share.your-talk-server": {
+    "text": "你的通话服务器（Talk Server）",
+    "source": "cb7cfa2b50c6"
   },
   "talk.invite.your-account": {
     "text": "你的帐户",
@@ -35238,6 +37204,12 @@
       "other": "{count} 个文件夹中的 {chosen} 个"
     },
     "source": "a6fbd6985908"
+  },
+  "print.chosen-of-count-page": {
+    "forms": {
+      "other": "{count} 页中的 {chosen}"
+    },
+    "source": "fc9904833a67"
   },
   "colour.palette.colour-darker-percent": {
     "text": "{colour}，深色 {percent}%",
@@ -35873,6 +37845,18 @@
     },
     "source": "6b221f019f66"
   },
+  "common.count-missed-call": {
+    "forms": {
+      "other": "{count} 个未接来电"
+    },
+    "source": "846840404875"
+  },
+  "shell.tray.count-more": {
+    "forms": {
+      "other": "还有 {count} 个"
+    },
+    "source": "fd4bfb8a8854"
+  },
   "ai-tools.count-more-waiting": {
     "forms": {
       "other": "还有 {count} 项正在等待"
@@ -35885,11 +37869,25 @@
     },
     "source": "7dd71598fcd3"
   },
+  "shell.count-new-email": {
+    "forms": {
+      "other": "{count} 封新邮件"
+    },
+    "source": "4d69c41e354b"
+  },
   "mail.count-new-message": {
     "forms": {
       "other": "{count} 封新邮件"
     },
     "source": "78583c23fc40"
+  },
+  "talk.count-not-looked-at": {
+    "text": "{count} 项未查看",
+    "source": "ad2b3f56facd"
+  },
+  "talk.count-not-read": {
+    "text": "{count} 条未读",
+    "source": "bb3f670ded99"
   },
   "sheets.count-note": {
     "forms": {
@@ -35981,6 +37979,18 @@
     },
     "source": "de1ee1209774"
   },
+  "talk.count-person": {
+    "forms": {
+      "other": "{count} 人"
+    },
+    "source": "16eff6b45805"
+  },
+  "talk.server-share.count-person-chosen-they-are-not": {
+    "forms": {
+      "other": "已选择 {count} 人。所选的人不会收到通知：其中有人设置会议时，“通话”（Talk）会提议在通话服务器（Talk Server）上举行，但不会说明是谁的服务器。"
+    },
+    "source": "302f6a4e3539"
+  },
   "video.inspector.count-picked": {
     "text": "已选择 {count} 个",
     "source": "ab3b8d8f39e9"
@@ -36038,6 +38048,12 @@
       "other": "{count} 位小数"
     },
     "source": "8916febc49bc"
+  },
+  "video.inspector.count-point": {
+    "forms": {
+      "other": "{count} 个点"
+    },
+    "source": "d29b4d920822"
   },
   "word.mailings.count-possible-duplicate-shaded": {
     "forms": {
@@ -36327,11 +38343,21 @@
     },
     "source": "ff19802b3e07"
   },
+  "shell.tray.count-unread-message": {
+    "forms": {
+      "other": "{count} 条未读消息"
+    },
+    "source": "ed5e578def3e"
+  },
   "sheets.receipt-row.count-value-is-marked-to-check": {
     "forms": {
       "other": "{count} 个值已标记为待检查。"
     },
     "source": "3c0869b67925"
+  },
+  "home.count-waiting": {
+    "text": "{count} 项待处理",
+    "source": "15c46d8024fd"
   },
   "common.count-word": {
     "forms": {
@@ -36348,6 +38374,10 @@
   "calendar.date-all-day": {
     "text": "{date}，全天",
     "source": "01173f239092"
+  },
+  "shell.notifier.day-at-time": {
+    "text": "{day} {time}",
+    "source": "d10a2288d770"
   },
   "slides.description-kept-as-the-file-has": {
     "text": "{description}。按文件中的原样保留。",
@@ -36591,6 +38621,10 @@
     "text": "无法打开 {names}：这不是此系统可播放的视频、声音或图片。",
     "source": "40ec26e4b663"
   },
+  "video.names-is-not-a-sound-or": {
+    "text": "{names} 不是声音或视频文件，因此未添加到列表中。",
+    "source": "47fb534b82d0"
+  },
   "read-aloud.bar.name-added": {
     "text": "{name}（已添加）",
     "source": "5e0a009f158f"
@@ -36633,6 +38667,14 @@
     "text": "{name} 已接受。",
     "source": "c3b405763345"
   },
+  "talk.lines.name-added-you-to-this-group": {
+    "text": "{name} 将你添加到了此群组",
+    "source": "a7338dd5fd8e"
+  },
+  "talk.lines.name-added-who": {
+    "text": "{name} 添加了 {who}",
+    "source": "dbef01d937a1"
+  },
   "calendar.words.name-answered-tentative": {
     "text": "{name} 已暂定。",
     "source": "f64c34887e80"
@@ -36641,9 +38683,25 @@
     "text": "{name} 已应用于所有幻灯片",
     "source": "34559343d0df"
   },
+  "shell.notifier.name-asks-you-to-join": {
+    "text": "{name} 邀请你加入",
+    "source": "452e368edfb8"
+  },
   "talk.invite-email.name-becomes-each-persons-name-the": {
     "text": "{name} 会替换为每个人的姓名。接受链接和获取 Rutba Office 的方法位于你的留言下方。",
     "source": "6724ae357006"
+  },
+  "video.name-cannot-be-played-on-this": {
+    "text": "无法在这台电脑上播放 {name}。",
+    "source": "56c80f47dfd7"
+  },
+  "talk.meet-lines.name-cannot-be-reached-from-outside": {
+    "text": "{name} 无法从你的网络外部访问。",
+    "source": "e5702bfa3304"
+  },
+  "talk.meet-lines.name-cannot-hold-meetings-now": {
+    "text": "{name} 目前无法举行会议。",
+    "source": "ec1d5763561d"
   },
   "studio.media.name-closed-or-stopped-sharing": {
     "text": "{name} 已关闭或已停止共享。",
@@ -36661,6 +38719,10 @@
     "text": "无法绘制 {name}：{reason}",
     "source": "65bcb558f48b"
   },
+  "video.name-could-not-be-fetched-from": {
+    "text": "无法从网络获取 {name}。",
+    "source": "d321465694e7"
+  },
   "locker.name-could-not-be-opened-again": {
     "text": "无法再次打开 {name}：{why}",
     "source": "20ca380f0559"
@@ -36677,6 +38739,10 @@
     "text": "无法录制 {name}：{reason}",
     "source": "2beda7333ef6"
   },
+  "talk.settings.name-could-not-be-unblocked-just": {
+    "text": "暂时无法取消阻止 {name}。稍后重试。",
+    "source": "7f0f6d2fd1a8"
+  },
   "calendar.words.name-declined": {
     "text": "{name} 已拒绝。",
     "source": "2f56155e044a"
@@ -36689,6 +38755,10 @@
     "text": "已编辑 {name}",
     "source": "5cb4218dfd00"
   },
+  "talk-words.name-ended-the-meeting": {
+    "text": "{name} 已结束会议。",
+    "source": "68a9df35664b"
+  },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "{name} 有多个工作表。所选工作表的第一行将作为域名。",
     "source": "f39d7988d23f"
@@ -36700,6 +38770,10 @@
   "video.name-holds-no-captions-this-editor": {
     "text": "{name} 中没有此编辑器可读取的字幕。",
     "source": "992774d03cf2"
+  },
+  "shell.notifier.name-in-group": {
+    "text": "{group} 中的 {name}",
+    "source": "c8c9e24ee27b"
   },
   "talk.invite.name-invites-you-to-talk": {
     "text": "{name} 邀请你交谈",
@@ -36725,6 +38799,18 @@
     "text": "已阻止 {name}。",
     "source": "896ccbbaeef1"
   },
+  "studio.window.name-is-closed-and-stays-saved": {
+    "text": "{name} 已关闭，并按原样保存。这是一个新会话。",
+    "source": "1ac7485ab543"
+  },
+  "studio.guests.name-is-here-waiting-off-air": {
+    "text": "{name} 已到场，正在等待上播。",
+    "source": "14a190ca86f6"
+  },
+  "talk.meet-lines.name-is-holding-as-many-meetings": {
+    "text": "{name} 正在举行的会议数量已达到设定上限。",
+    "source": "39d0e214aab5"
+  },
   "locker.name-is-in-an-older-format": {
     "text": "{name} 采用较旧的格式。保存它会在同一锁定文件夹中、其旁边生成 {saved}。",
     "source": "25f899dbe396"
@@ -36736,6 +38822,10 @@
   "talk.name-is-no-longer-a-contact": {
     "text": "{name} 已不再是联系人。",
     "source": "f2f97457bba2"
+  },
+  "talk.settings.name-is-no-longer-blocked": {
+    "text": "已取消阻止 {name}。",
+    "source": "514ce8e795d4"
   },
   "locker.name-is-no-longer-in-the": {
     "text": "{name} 已不在保险箱（Locker）中。其安全副本仍保存在这里。",
@@ -36753,6 +38843,10 @@
     "text": "{name} 不是这台电脑可以播放的视频或声音文件。它可能采用了未安装解码器的格式，也可能尽管名称如此但根本不是媒体文件。",
     "source": "abfeca7a30a3"
   },
+  "talk.meet-lines.name-is-not-answering-check-that": {
+    "text": "{name} 未响应。检查其是否正在运行且已连接。",
+    "source": "840ae75c483e"
+  },
   "talk.name-is-not-available": {
     "text": "{name} 无法接听。",
     "source": "aca30d15fc29"
@@ -36760,6 +38854,10 @@
   "voices-dialog.name-is-not-used-until-its": {
     "text": "在 {name} 适用于 {version} 的版本就绪之前，不会使用它。",
     "source": "2f267730bc10"
+  },
+  "video.name-is-not-where-it-was": {
+    "text": "{name} 已不在原来的位置。它可能已被移动、重命名或删除。",
+    "source": "e5a94663e48f"
   },
   "common.name-is-not-wired-yet": {
     "text": "{name} 尚未接通。",
@@ -36777,9 +38875,17 @@
     "text": "{name} 已在原位置以只读方式打开。正在为搜索编制索引。",
     "source": "749ec97c4e3a"
   },
+  "talk.meet-lines.name-is-outside-the-hours-it": {
+    "text": "{name} 当前不在设定的会议举行时段内。",
+    "source": "0fd5a4d65419"
+  },
   "locker.name-is-over-1-gb-so": {
     "text": "{name} 超过 1 GB，因此它是从临时明文副本打开的，而不是在内存中打开。该副本未锁定。",
     "source": "950f4db86aed"
+  },
+  "talk.meet-lines.name-is-paused": {
+    "text": "{name} 已暂停。",
+    "source": "0ed81c3ac232"
   },
   "common.name-is-protected-with-a-password": {
     "text": "{name} 受密码保护，在提供密码之前保持关闭。",
@@ -36793,6 +38899,18 @@
     "text": "{name} 已准备好发送",
     "source": "040cafb3a666"
   },
+  "talk.meet-lines.name-is-set-to-hold-no": {
+    "text": "{name} 已设置为不举行会议。",
+    "source": "d762cd422689"
+  },
+  "shell.tray.name-is-still-running": {
+    "text": "{name} 仍在运行",
+    "source": "5e161705a5d2"
+  },
+  "talk.meet-lines.name-is-still-starting-try-again": {
+    "text": "{name} 仍在启动。1 分钟后重试。",
+    "source": "281688f4544b"
+  },
   "base.name-is-unlinked-its-source-keeps": {
     "text": "已取消链接 {name}。其源保留其记录。",
     "source": "7891d7996821"
@@ -36800,6 +38918,10 @@
   "base.name-is-unlinked-the-engine-keeps": {
     "text": "已取消链接 {name}。引擎保留其记录。",
     "source": "47284555955f"
+  },
+  "talk.meet-lines.name-is-waiting-for-its-code": {
+    "text": "{name} 正在等待输入验证码。",
+    "source": "a7a59d385fce"
   },
   "video.name-is-size-still-over-limit": {
     "text": "{name} 为 {size}，尝试 {tries} 次后仍超过 {limit}：此画面在此帧尺寸下无法再缩小。请尝试 720、更大的大小或更短的片段。",
@@ -36810,6 +38932,22 @@
       "other": "{name} 版式：由 {count} 张幻灯片使用"
     },
     "source": "9d5680cc5d71"
+  },
+  "talk.meet-lines.name-lets-people-in-you-can": {
+    "text": "{name} 负责准许他人进入：待其进入会议后，你即可进入。",
+    "source": "a94d45e86dc5"
+  },
+  "talk.meet-lines.name-must-be-updated-before-it": {
+    "text": "{name} 必须先更新，才能举行会议。",
+    "source": "f01651a198be"
+  },
+  "talk.name-muted-you-unmute-when-you": {
+    "text": "{name} 将你设为静音。想发言时可取消静音。",
+    "source": "c4b4506575d2"
+  },
+  "talk.lines.name-named-this-group-title": {
+    "text": "{name} 将此群组命名为 {title}",
+    "source": "c13c73b3ad29"
   },
   "template-gallery.name-needs-rutba-office-version-or": {
     "text": "{name} 需要 Rutba Office {version} 或更高版本。请检查更新。",
@@ -36831,9 +38969,29 @@
     "text": "{name}（倒放）",
     "source": "fca7482294f8"
   },
+  "talk.meeting.name-started-a-meeting": {
+    "text": "{name} 发起了会议",
+    "source": "e4652127858d"
+  },
+  "talk.meet-lines.name-started-a-meeting-title": {
+    "text": "{name} 发起了会议：{title}",
+    "source": "0632986e996b"
+  },
   "template-help.name-template": {
     "text": "{name} 模板",
     "source": "662208ece200"
+  },
+  "talk.lines.name-took-the-name-off-this": {
+    "text": "{name} 移除了此群组的名称",
+    "source": "5c85c87032ca"
+  },
+  "talk-words.name-took-you-out-of-the": {
+    "text": "{name} 已将你移出会议。",
+    "source": "af00baa37753"
+  },
+  "talk.lines.name-took-who-out-of-this": {
+    "text": "{name} 将 {who} 移出了此群组",
+    "source": "8684ebda882d"
   },
   "pdf.name-was-damaged-and-was-read": {
     "text": "{name} 已损坏，已通过查找其页面进行读取。保存即可保留完整副本。",
@@ -36847,9 +39005,17 @@
     "text": "{name} 将不经询问直接打开，密码加密的内容会照旧保留，并由 Windows 保护，仅你的帐户可以访问。",
     "source": "bccde320f01d"
   },
+  "talk-words.name-will-record-this-meeting-on": {
+    "text": "{name} 将在其电脑上录制此会议，并可能共享录制内容。",
+    "source": "8e5422928873"
+  },
   "voices-dialog.name-will-show-new-labels-in": {
     "text": "在 {name} 适用于 {version} 的版本就绪之前，新标签将以英语显示。",
     "source": "070ebd66c642"
+  },
+  "talk-words.name-will-stream-this-meeting-live": {
+    "text": "{name} 将在互联网上直播此会议。任何观看者都能看到和听到加入的人。",
+    "source": "75c94901cdd6"
   },
   "talk.invite.name-would-like-to-talk-with": {
     "text": "{name} 想在 Rutba 通话（Rutba Talk）上与你交流",
@@ -36961,6 +39127,10 @@
     "text": "{name}：{width} × {height}，主显示器",
     "source": "4e47b0c065e3"
   },
+  "talk.meet-lines.name-s-talk-could-not-let": {
+    "text": "{name} 的“通话”（Talk）未能让你进入会议。再次尝试加入。",
+    "source": "f2b2cb44f631"
+  },
   "studio.live-bar.name-needs-a-key": {
     "text": "{name}，需要密钥",
     "source": "5075d08a25f3"
@@ -36981,9 +39151,17 @@
     "text": "{name}：一页 {product} 标签。",
     "source": "e976719b4bd9"
   },
+  "video.library.name-added-after-the-last-clip": {
+    "text": "{name}：已添加到最后一个剪辑之后",
+    "source": "3289fea3c3ec"
+  },
   "video.library.name-added-at-the-playhead": {
     "text": "{name}：已添加到播放头处",
     "source": "4939aa239509"
+  },
+  "video.library.name-added-over-the-whole-project": {
+    "text": "{name}：已添加到整个项目上",
+    "source": "f97eee7c25f5"
   },
   "colour.palette.name-apply-colour": {
     "text": "{name}：应用 {colour}",
@@ -37369,6 +39547,14 @@
     "text": "{when}，全天",
     "source": "ebe38401b71e"
   },
+  "talk.lines.who-cannot-be-put-in-any": {
+    "text": "无法再将 {who} 加入更多群组。",
+    "source": "0f22eeabe17d"
+  },
+  "talk.lines.who-left-this-group": {
+    "text": "{who} 已退出此群组",
+    "source": "2a6e91ede760"
+  },
   "common.width-pt": {
     "text": "{width} 磅",
     "source": "fd99ee034b5b"
@@ -37436,17 +39622,5 @@
   "pictures.library.and-up-4": {
     "text": "★★★★ 及以上",
     "source": "20160df989ba"
-  },
-  "spoken.voices.words-to-say": {
-    "text": "要朗读的文字",
-    "source": "3353415dcf6a"
-  },
-  "studio.spoken-run.type-words-to-show-read-aloud": {
-    "text": "随时输入要显示、朗读或既显示又朗读的文字",
-    "source": "ab4c38c0c662"
-  },
-  "video.spoken.the-words-land-at-the-playhead": {
-    "text": "文字出现在播放头处，一行接一行，叠加在画面上。",
-    "source": "841b57677821"
   }
 }

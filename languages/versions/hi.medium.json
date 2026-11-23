@@ -731,7 +731,6 @@
   "engine.these-cells-are-part-of-a": {"text":"ये कक्ष एक लंबवत मर्ज का हिस्सा हैं। इसकी एक पंक्ति को चौड़ा करने से श्रेणी टूट जाएगी।","source":"75122648d3df"},
   "base.ai-tools.they-may-also-write-records-to": {"text":"वे डेटाबेस इंजन से जुड़ी तालिकाओं में रिकॉर्ड भी लिख सकते हैं। हर बदलाव पहले आपको रुतबा ऑफ़िस (Rutba Office) में दिखाया जाता है और तभी लिखा जाता है जब आप उसका बटन दबाएँ।","source":"5768e9512307"},
   "talk.invite.they-see-it-in-talk-if": {"text":"अगर वे टॉक (Talk) इस्तेमाल करते हैं तो इसे टॉक में देखेंगे। बाद में आप खुद उन्हें लिंक भेज सकते हैं।","source":"36b885210dfa"},
-  "talk.invite.this-talk-server-does-not-take": {"text":"यह टॉक (Talk) सर्वर अभी आमंत्रण नहीं लेता।","source":"9b3cb2160f1c"},
   "calendar.words.this-answer-comes-from-rutba-office": {"text":"यह उत्तर रुतबा ऑफ़िस (Rutba Office) से आया है, जो खुला रहने तक इस कमरे का मेलबॉक्स संभालता है।","source":"fbd460985ab8"},
   "engine.this-calendar-comes-from-an-account": {"text":"यह कैलेंडर किसी खाते से आता है। इसके कैलेंडर निकालने के लिए खाता निकालें।","source":"98d39bbbbd5e"},
   "engine.this-cell-is-merged-down-its": {"text":"यह कक्ष अपने स्तंभ में नीचे की ओर मर्ज है। इसे विभाजित करने से पहले इसका मर्ज हटाएँ।","source":"5666110dd32d"},

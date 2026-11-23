@@ -745,7 +745,6 @@
   "mail.dialogs.these-settings-came-from-source-on": {"text":"جاءت هذه الإعدادات من {source} على هذا الحاسوب؛ ويتم التحقق منها عند اكتمال العنوان.","source":"22565709a102"},
   "base.ai-tools.they-may-also-write-records-to": {"text":"ويمكنها أيضاً كتابة السجلات في جداول مرتبطة بمحرك قاعدة بيانات. يُعرض عليك كل تغيير في رتبة أوفيس (Rutba Office) أولاً ولا يُكتب إلا عندما تضغط زره.","source":"5768e9512307"},
   "talk.invite.they-see-it-in-talk-if": {"text":"يرونها في توك (Talk) إن كانوا يستخدمونه. يمكنك إرسال الرابط إليهم بنفسك لاحقًا.","source":"36b885210dfa"},
-  "talk.invite.this-talk-server-does-not-take": {"text":"خادم توك (Talk) هذا لا يقبل الدعوات بعد.","source":"9b3cb2160f1c"},
   "calendar.words.this-answer-comes-from-rutba-office": {"text":"يأتي هذا الرد من رتبة أوفيس (Rutba Office)، الذي يتولى صندوق بريد هذه القاعة ما دام مفتوحًا.","source":"fbd460985ab8"},
   "mail.dialogs.this-build-has-no-provider-client": {"text":"لا يحتوي هذا الإصدار على معرّف عميل للمزوّد {provider}، لذا لم يتم إعداد تسجيل الدخول. راجع docs/OAUTH.md.","source":"8f52d323ebc7"},
   "engine.this-calendar-comes-from-an-account": {"text":"يأتي هذا التقويم من حساب. قم بإزالة الحساب لإزالة تقويماته.","source":"98d39bbbbd5e"},
