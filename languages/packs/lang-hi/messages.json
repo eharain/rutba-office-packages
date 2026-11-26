@@ -207,6 +207,18 @@
     "text": "\"{word}\" आपके शब्दकोश में है।",
     "source": "b9aeb4fc656c"
   },
+  "sheets.pivot-fields.of-column-total": {
+    "text": "स्तंभ योग का %",
+    "source": "eab72b338837"
+  },
+  "sheets.pivot-fields.of-grand-total": {
+    "text": "कुल योग का %",
+    "source": "ad881b0c599c"
+  },
+  "sheets.pivot-fields.of-row-total": {
+    "text": "पंक्ति योग का %",
+    "source": "97a366055762"
+  },
   "word.list-dialog.2-is-this-levels-number-1": {
     "text": "%2 इस स्तर की संख्या है; %1 इसके ऊपर वाले स्तर की संख्या।",
     "source": "9cbc5138d80a"
@@ -391,6 +403,10 @@
     "text": "1 दिन पहले",
     "source": "a8b499336a9e"
   },
+  "sheets.1-duplicate-row-removed-kept-rows": {
+    "text": "1 डुप्लिकेट पंक्ति निकाली गई; {kept} पंक्तियाँ बची हैं।",
+    "source": "f63cb027fc81"
+  },
   "calendar.1-hour-before": {
     "text": "1 घंटा पहले",
     "source": "5104b6b7955e"
@@ -562,6 +578,10 @@
   "engine.a-pdf-with-no-pages-is": {
     "text": "बिना पृष्ठों वाला PDF दस्तावेज़ नहीं होता। पहले एक पृष्ठ जोड़ें।",
     "source": "df7ad0646756"
+  },
+  "video.library.a-qr-code-type-the-address": {
+    "text": "एक QR कोड; वह पता टाइप करें जो यह खोलता है।",
+    "source": "3c11f5898b54"
   },
   "talk.a-turn-server-you-run-offered": {
     "text": "आपका अपना TURN सर्वर; आपकी कॉल के लिए दूसरी ओर को दिया जाता है",
@@ -810,6 +830,10 @@
     "text": "यहाँ सूत्र में संख्याएँ, B2 या B2:B4 जैसे कक्ष, + - * / और कोष्ठक, तथा इनके या ABOVE, LEFT, BELOW या RIGHT के SUM, AVERAGE, COUNT, MAX, MIN, PRODUCT या ABS हो सकते हैं, जैसे =SUM(ABOVE)।",
     "source": "74a836a73c62"
   },
+  "sheets.dialogs.a-formula-is-true": {
+    "text": "सूत्र सत्य है",
+    "source": "77bbea0fd15f"
+  },
   "home.a-free-office-suite-mail-documents": {
     "text": "एक निःशुल्क ऑफ़िस सुइट: मेल, दस्तावेज़, कार्यपत्रक, प्रस्तुतियाँ, चित्र, इमेज और वीडियो, हमारे अपने इंजन पर।",
     "source": "cbecbd51dbc1"
@@ -974,6 +998,10 @@
     "text": "प्रत्येक स्तंभ के लिए उसके शीर्षलेख से एक नाम। नाम प्रबंधक इन्हें सूचीबद्ध करता है",
     "source": "9a8020d11b5d"
   },
+  "sheets.a-name-starts-with-a-letter": {
+    "text": "नाम किसी अक्षर से शुरू होता है और उसमें रिक्त स्थान नहीं होते, जैसे Sales_May। पता B7 या B2:D9 जैसा होता है।",
+    "source": "e623278e0626"
+  },
   "review.a-name-that-says-what-is": {
     "text": "ऐसा नाम जो बताए कि \"{sheet}\" पर क्या है:",
     "source": "818eb2db1790"
@@ -1128,6 +1156,14 @@
   "slides.a-pie-chart-draws-only-its": {
     "text": "पाई चार्ट केवल अपनी पहली श्रृंखला बनाता है।",
     "source": "f51e19a20a49"
+  },
+  "video.inspector.a-piece-for-each-clip": {
+    "text": "हर क्लिप के लिए एक भाग",
+    "source": "aceec9902c4c"
+  },
+  "video.inspector.a-piece-for-each-marker": {
+    "text": "हर मार्कर के लिए एक भाग",
+    "source": "cb5ab8475fd9"
   },
   "engine.a-pivot-needs-at-least-one": {
     "text": "पिवट के लिए “मान” में कम से कम एक फ़ील्ड आवश्यक है।",
@@ -1300,6 +1336,10 @@
     "text": "टीम के लिए एक छोटा नोट: किसको, किससे, विषय, पृष्ठभूमि और अब क्या होगा",
     "source": "7cbd8d22f139"
   },
+  "video.library.a-short-word-on-a-coloured": {
+    "text": "गोली आकार की रंगीन पट्टी पर एक छोटा शब्द, जैसे NEW या SALE।",
+    "source": "440aa0204a24"
+  },
   "word.drawings.a-sidebar-stands-beside-the-story": {
     "text": "साइडबार मुख्य लेख के बगल में उससे जुड़े शब्दों के साथ रहता है: एक सारांश, बिंदुओं की सूची, पाठक के लिए एक नोट।",
     "source": "f84097aa22f7"
@@ -1331,6 +1371,10 @@
   "slides.export-video.a-slide-with-a-timing-of": {
     "text": "समय का उपयोग होने पर, जिस स्लाइड का अपना समय है वह उसी को रखती है; बाकी स्लाइड ऊपर दिए गए सेकंड तक दिखती हैं। एनिमेशन पूरे हुए रूप में दिखाए जाते हैं।",
     "source": "8e642bc4c741"
+  },
+  "video.library.a-small-line-along-the-foot": {
+    "text": "फ़्रेम के निचले भाग में एक छोटी पंक्ति, जैसे आपका वेब पता।",
+    "source": "9e6f80e3ef70"
   },
   "studio.scene-strip.a-source": {
     "text": "एक स्रोत",
@@ -1594,6 +1638,10 @@
   "common.above-front-right": {
     "text": "ऊपर सामने दाएँ",
     "source": "0edd0b82de7b"
+  },
+  "sheets.dialogs.above-average": {
+    "text": "औसत से ऊपर",
+    "source": "98ca5f459314"
   },
   "equations.absolute-value": {
     "text": "निरपेक्ष मान",
@@ -2495,6 +2543,10 @@
     "text": "उन्नत…",
     "source": "1de3a18e329f"
   },
+  "sheets.filter-panel.after": {
+    "text": "बाद में",
+    "source": "7b68fe551085"
+  },
   "word.ribbon.after-pt": {
     "text": "बाद में (pt)",
     "source": "19ec57700505"
@@ -2702,6 +2754,10 @@
   "slides.ribbon.all-at-once": {
     "text": "सभी एक साथ",
     "source": "c9d506ca2d68"
+  },
+  "video.inspector.all-at-once": {
+    "text": "सब एक साथ",
+    "source": "f90683717cd2"
   },
   "sheets.ribbon.all-borders": {
     "text": "सभी बॉर्डर",
@@ -3189,6 +3245,10 @@
   "engine.another-program-opens-mail-links-on": {
     "text": "इस कंप्यूटर पर मेल लिंक कोई दूसरा प्रोग्राम खोलता है।",
     "source": "1a1b9963a277"
+  },
+  "sheets.dialogs.another-rule": {
+    "text": "अन्य नियम",
+    "source": "35c09b4d7aef"
   },
   "common.answer": {
     "text": "उत्तर दें",
@@ -3929,6 +3989,14 @@
     "text": "दूर",
     "source": "af16c830c510"
   },
+  "sheets.dialogs.axis": {
+    "text": "अक्ष",
+    "source": "32b73caefac1"
+  },
+  "sheets.ribbon.axis-titles": {
+    "text": "अक्ष शीर्षक",
+    "source": "900f286eac2b"
+  },
   "common.b5-176-250-mm": {
     "text": "B5: 176 × 250 mm",
     "source": "344900110be7"
@@ -4045,6 +4113,10 @@
     "text": "बैंडेड पंक्तियाँ: हर दूसरी पंक्ति छायांकित, जैसा शैली उन्हें बैंड करती है",
     "source": "f6ced0fcf385"
   },
+  "sheets.ribbon.banded-rows": {
+    "text": "बैंडेड पंक्तियाँ",
+    "source": "6e9aa5474c82"
+  },
   "common.banner": {
     "text": "बैनर",
     "source": "b7f4d98f98d5"
@@ -4101,6 +4173,10 @@
     "text": "बीप",
     "source": "4ccb3fb5330b"
   },
+  "sheets.filter-panel.before": {
+    "text": "पहले",
+    "source": "9bb725005055"
+  },
   "word.ribbon.before-pt": {
     "text": "पहले (pt)",
     "source": "bba72e0923a5"
@@ -4112,6 +4188,10 @@
   "protect.before-sharing-this-file-check-it": {
     "text": "यह फ़ाइल साझा करने से पहले इसमें ऐसी सामग्री जाँच लें जो आप दूसरों को न दिखाना चाहें: टिप्पणियाँ, परिवर्तन, छिपे शब्द और व्यक्तिगत जानकारी।",
     "source": "56f7599f4157"
+  },
+  "sheets.filter-panel.begins-with": {
+    "text": "इससे शुरू होता है",
+    "source": "853978f44eaf"
   },
   "word.ribbon.behind-text": {
     "text": "टेक्स्ट के पीछे",
@@ -4132,6 +4212,10 @@
   "common.below-front-right": {
     "text": "नीचे सामने दाएँ",
     "source": "31fedbb2729e"
+  },
+  "sheets.dialogs.below-average": {
+    "text": "औसत से नीचे",
+    "source": "8f2f0fa9a074"
   },
   "common.berry": {
     "text": "बेरी",
@@ -4397,9 +4481,17 @@
     "text": "निचला बॉर्डर",
     "source": "0dc79f4813a3"
   },
+  "sheets.dialogs.bottom-items": {
+    "text": "निचले आइटम",
+    "source": "aa9e5db6f818"
+  },
   "common.bottom-left": {
     "text": "नीचे बाएँ",
     "source": "f5a57b969150"
+  },
+  "sheets.dialogs.bottom-per-cent": {
+    "text": "निचला प्रतिशत",
+    "source": "10bad9a09d6f"
   },
   "common.bottom-right": {
     "text": "नीचे दाएँ",
@@ -4408,6 +4500,14 @@
   "video.layer-names.bottom-shade": {
     "text": "नीचे की छाया",
     "source": "1dffbced0f7c"
+  },
+  "sheets.dialogs.bottom-count": {
+    "text": "निचले {count}",
+    "source": "54119ed17f6b"
+  },
+  "sheets.dialogs.bottom-count-2": {
+    "text": "निचले {count}%",
+    "source": "658e45ae01eb"
   },
   "word.ribbon.box-dashed-line": {
     "text": "बॉक्स: डैश रेखा",
@@ -4931,6 +5031,10 @@
     "text": "कैप्शन (.srt, .vtt)",
     "source": "1c941a0a4cea"
   },
+  "video.library.captions-and-quick-adds": {
+    "text": "कैप्शन और त्वरित जोड़",
+    "source": "d062fc34102e"
+  },
   "slides.album.captions-below-all-pictures": {
     "text": "सभी चित्रों के नीचे कैप्शन",
     "source": "dd686df00caf"
@@ -5214,6 +5318,10 @@
     "text": "बदलें…",
     "source": "a6b4705c6883"
   },
+  "video.chapter-n": {
+    "text": "अध्याय {n}",
+    "source": "816e97139189"
+  },
   "sheets.queries.character": {
     "text": "वर्ण",
     "source": "1405a63e8a78"
@@ -5241,6 +5349,10 @@
   "sheets.ribbon.chart-design": {
     "text": "चार्ट डिज़ाइन",
     "source": "d41692080652"
+  },
+  "sheets.ribbon.chart-elements": {
+    "text": "चार्ट तत्व",
+    "source": "b2c3cce9d69c"
   },
   "sheets.ribbon.chart-title": {
     "text": "चार्ट शीर्षक",
@@ -5639,6 +5751,10 @@
   "image.choose-the-layer-to-clear-the": {
     "text": "वह परत चुनें जिससे चयन साफ़ करना है।",
     "source": "04a21a186397"
+  },
+  "video.choose-the-logo": {
+    "text": "लोगो चुनें",
+    "source": "0240baf232cc"
   },
   "studio.bottom-bar.choose-the-microphone": {
     "text": "माइक्रोफ़ोन चुनें",
@@ -6168,6 +6284,14 @@
     "text": "शब्दों का रंग",
     "source": "8c6ececb4c11"
   },
+  "sheets.dialogs.colour-of-those-points": {
+    "text": "उन बिंदुओं का रंग",
+    "source": "898998460449"
+  },
+  "sheets.dialogs.colour-scale": {
+    "text": "रंग स्केल",
+    "source": "000799f1a3ef"
+  },
   "sheets.dialogs.colour-scale-green-yellow-red-low": {
     "text": "रंग स्केल: हरा, पीला, लाल (कम से अधिक)",
     "source": "234d0c0e170a"
@@ -6426,6 +6550,10 @@
   "locker.compare": {
     "text": "तुलना करें…",
     "source": "219ddc366d9d"
+  },
+  "sheets.filter-panel.comparison": {
+    "text": "तुलना",
+    "source": "571527339d0e"
   },
   "word.mailings.comparison": {
     "text": "तुलना:",
@@ -6782,6 +6910,10 @@
     "text": "पथ की प्रतिलिपि बनाएँ",
     "source": "720ff4160412"
   },
+  "sheets.copy-sheet": {
+    "text": "शीट की प्रतिलिपि बनाएँ",
+    "source": "c9a0f392b71f"
+  },
   "sheets.ribbon.copy-the-formatting-here-to-the": {
     "text": "यहाँ के स्वरूपण की प्रतिलिपि बनाकर अगले चयन पर लागू करें",
     "source": "385e4d1fba79"
@@ -6905,6 +7037,10 @@
   "word.ribbon.count-above": {
     "text": "ऊपर की गणना",
     "source": "33e9e80a1691"
+  },
+  "sheets.ribbon.count-numbers": {
+    "text": "संख्याओं की गणना",
+    "source": "f6b68195bdad"
   },
   "sheets.queries.count-rows": {
     "text": "पंक्तियों की गणना करें",
@@ -7298,6 +7434,10 @@
     "text": "गहरा नीला",
     "source": "6c12f1ca1641"
   },
+  "sheets.dialogs.dark-blue-grey": {
+    "text": "गहरा नीला-धूसर",
+    "source": "744e37be8716"
+  },
   "qrcode.dark-brown": {
     "text": "गहरा भूरा",
     "source": "f22b68958bf5"
@@ -7406,6 +7546,10 @@
     "text": "डेटा फ़ाइलें (Data Files) के डेटाबेस",
     "source": "24e8c9743f1a"
   },
+  "sheets.ribbon.data-labels": {
+    "text": "डेटा लेबल",
+    "source": "78023df4505c"
+  },
   "sheets.ribbon.data-table": {
     "text": "डेटा तालिका…",
     "source": "fedeed59d538"
@@ -7421,6 +7565,10 @@
   "sheets.ribbon.data-validation": {
     "text": "डेटा सत्यापन",
     "source": "28971fd398d1"
+  },
+  "sheets.dialogs.data-bars": {
+    "text": "डेटा बार",
+    "source": "e7a181724128"
   },
   "sheets.dialogs.data-bars-blue": {
     "text": "डेटा बार: नीला",
@@ -7469,6 +7617,10 @@
   "slides.ribbon.date-and-time-a-date-along": {
     "text": "दिनांक और समय: नीचे की ओर एक दिनांक, जो हमेशा वर्तमान रहे या स्थिर रहे",
     "source": "f94ad5295f5d"
+  },
+  "sheets.filter-panel.date-filters": {
+    "text": "दिनांक फ़िल्टर",
+    "source": "bacb61184a41"
   },
   "word.forms.date-picker-content-control": {
     "text": "तारीख़ चयनकर्ता सामग्री नियंत्रण",
@@ -8144,6 +8296,10 @@
     "text": "अंतर",
     "source": "4d280a451d04"
   },
+  "sheets.pivot-fields.difference-from-previous": {
+    "text": "पिछले से अंतर",
+    "source": "4473ab760db3"
+  },
   "slides.different-since-this-deck-was-last": {
     "text": "पिछली बार यह प्रस्तुति यहाँ खुलने के बाद से बदली हुई",
     "source": "da4a123f25df"
@@ -8155,6 +8311,10 @@
   "shell.digits": {
     "text": "अंक",
     "source": "9cd500d3d69f"
+  },
+  "video.inspector.dim": {
+    "text": "मंद",
+    "source": "ea53b1cb304d"
   },
   "pictures.dimensions": {
     "text": "आयाम",
@@ -8335,6 +8495,14 @@
   "home.documents-mail-and-media-all-work": {
     "text": "दस्तावेज़, मेल और मीडिया सभी बिना नेटवर्क कनेक्शन के काम करते हैं",
     "source": "e815503e3abf"
+  },
+  "sheets.filter-panel.does-not-contain": {
+    "text": "इसमें शामिल नहीं है",
+    "source": "56fe07f0e32e"
+  },
+  "sheets.filter-panel.does-not-equal": {
+    "text": "बराबर नहीं है",
+    "source": "e47c3280f3bf"
   },
   "calendar.does-not-repeat": {
     "text": "दोहराया नहीं जाता",
@@ -8683,10 +8851,6 @@
     "text": "डुप्लिकेट पंक्तियाँ निकाली गईं",
     "source": "e606bafdbd22"
   },
-  "sheets.duplicate-rows-removed-the-rest-closed": {
-    "text": "डुप्लिकेट पंक्तियाँ निकाली गईं; शेष पंक्तियाँ खिसकाकर सटा दी गईं",
-    "source": "0827cbb28e3a"
-  },
   "slides.duplicate-slide": {
     "text": "स्लाइड का डुप्लिकेट बनाएँ",
     "source": "ab7940817995"
@@ -8787,6 +8951,10 @@
     "text": "हर पंक्ति ज़ोर से पढ़ी जाती है और उसकी आवाज़ चलते समय उसके शब्द दिखाए जाते हैं, एक के बाद एक",
     "source": "282adc866b4a"
   },
+  "studio.spoken-run.each-line-types-in-letter-by": {
+    "text": "अगली बोली गई पंक्ति से, हर पंक्ति अक्षर-दर-अक्षर टाइप होती है।",
+    "source": "a390f5fb2388"
+  },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "हर मेल खाते, कैलेंडर, पता पुस्तिका, डेटाबेस और फ़ोल्डर की अपनी सेटिंग है, जो उसके अपने ऐप में भी दिखती है, और रिकॉर्डर (Recorder) की भी। जब तक आप न चुनें सब कुछ बंद है। कभी कुछ हटाया या ले जाया नहीं जाता, और जो कुछ भेजा जाए वह पहले यहाँ आपके दबाने का इंतज़ार करता है।",
     "source": "0fd0a5b12aaa"
@@ -8831,6 +8999,10 @@
     "text": "हर स्रोत अपनी अलग फ़ाइल में",
     "source": "87ba78fbecfd"
   },
+  "sheets.dialogs.each-sparkline-its-own-lowest-and": {
+    "text": "हर स्पार्कलाइन का अपना न्यूनतम और अधिकतम",
+    "source": "6a9c83cdf903"
+  },
   "sheets.objects.each-ticked-field-gets-a-panel": {
     "text": "प्रत्येक चयनित फ़ील्ड को बटनों का एक पैनल मिलता है, हर आइटम के लिए एक बटन, जो PivotTable को फ़िल्टर करता है।",
     "source": "57b495c85a7a"
@@ -8850,6 +9022,10 @@
   "slides.custom-shows.earlier-in-the-show": {
     "text": "शो में पहले",
     "source": "c75dff7e0d23"
+  },
+  "sheets.dialogs.earliest-date": {
+    "text": "सबसे पहला दिनांक",
+    "source": "82a5aebc403c"
   },
   "word.references-index.earth": {
     "text": "पृथ्वी",
@@ -9343,6 +9519,10 @@
     "text": "समाप्ति",
     "source": "e98982c9f2ba"
   },
+  "sheets.filter-panel.ends-with": {
+    "text": "इससे समाप्त होता है",
+    "source": "fc203569fa85"
+  },
   "base.links.engine": {
     "text": "इंजन",
     "source": "8e75ebbdb215"
@@ -9418,6 +9598,10 @@
   "common.equal-to": {
     "text": "के बराबर",
     "source": "6a26ff8ea94b"
+  },
+  "sheets.filter-panel.equals": {
+    "text": "बराबर है",
+    "source": "f939ae3d30c6"
   },
   "common.equation": {
     "text": "समीकरण",
@@ -9555,6 +9739,10 @@
     "text": "हर बटन पर केवल उसका चित्र; पॉइंटर उस पर रुकने पर उसका नाम दिखता है",
     "source": "21abdd3708ee"
   },
+  "video.inspector.every-caption-in-the-film-types": {
+    "text": "फ़िल्म का हर कैप्शन इसी गति से टाइप होता है।",
+    "source": "330cbb6a15e3"
+  },
   "slides.every-comment-here-was-already-read": {
     "text": "यहाँ हर टिप्पणी पहले ही पढ़ी जा चुकी थी।",
     "source": "47ca1a3a2589"
@@ -9637,6 +9825,10 @@
   "pictures.every-picture-shown-count": {
     "text": "दिखाए गए सभी चित्र ({count})",
     "source": "904610f6a47a"
+  },
+  "sheets.dialogs.every-point-line-only": {
+    "text": "हर बिंदु (केवल रेखा)",
+    "source": "88f8f754acf4"
   },
   "base.documents.every-record": {
     "text": "हर रिकॉर्ड",
@@ -11109,6 +11301,10 @@
     "text": "सूत्र: कर्सर वाले कक्ष में एक फ़ील्ड, जिसकी गणना उसके ऊपर या बाईं ओर की संख्याओं से, या B2 और B2:B4 जैसे कक्षों से होती है, जैसे Word का =SUM(ABOVE)",
     "source": "ac4ef0433793"
   },
+  "sheets.dialogs.formula-formula": {
+    "text": "सूत्र: {formula}",
+    "source": "373a77366380"
+  },
   "sheets.formulas": {
     "text": "सूत्र",
     "source": "098baf95d843"
@@ -11692,6 +11888,10 @@
   "word.mailings.greater-than-or-equal": {
     "text": "इससे अधिक या बराबर",
     "source": "4df4f066c9c1"
+  },
+  "sheets.filter-panel.greater-than-or-equal-to": {
+    "text": "इससे बड़ा या बराबर",
+    "source": "85d08e847878"
   },
   "common.greek": {
     "text": "ग्रीक",
@@ -12284,6 +12484,10 @@
     "text": "स्लाइड छिपाएँ: यह स्लाइड शो से छिपी हुई है; इसे दिखाने के लिए फिर से दबाएँ",
     "source": "7d777db556ab"
   },
+  "sheets.hide-columns": {
+    "text": "स्तंभ छिपाएँ",
+    "source": "9d5c93b12237"
+  },
   "image.layers-panel.hide-its-layers": {
     "text": "इसकी परतें छिपाएँ",
     "source": "e3c527659d85"
@@ -12291,6 +12495,10 @@
   "protect.hide-password": {
     "text": "पासवर्ड छिपाएँ",
     "source": "a60a56c584b3"
+  },
+  "sheets.hide-rows": {
+    "text": "पंक्तियाँ छिपाएँ",
+    "source": "6e6875f9e909"
   },
   "talk.invite.hide-the-code": {
     "text": "कोड छिपाएँ",
@@ -12343,6 +12551,10 @@
   "qrcode.high-30": {
     "text": "उच्च (30%)",
     "source": "652a05d1ae51"
+  },
+  "sheets.dialogs.high-point": {
+    "text": "उच्च बिंदु",
+    "source": "80ab296d2b33"
   },
   "pdf.export.high-quality-225-dots-per-inch": {
     "text": "उच्च गुणवत्ता (225 बिंदु प्रति इंच)",
@@ -12455,6 +12667,10 @@
   "slides.horizontal-out": {
     "text": "क्षैतिज बाहर",
     "source": "51081ab58752"
+  },
+  "sheets.ribbon.horizontal-axis-title": {
+    "text": "क्षैतिज अक्ष शीर्षक",
+    "source": "b3c89eb1f3c0"
   },
   "common.horizontal-brick": {
     "text": "क्षैतिज ईंट",
@@ -12615,6 +12831,10 @@
   "common.icon": {
     "text": "आइकन",
     "source": "a35abcd6dac9"
+  },
+  "sheets.dialogs.icon-set": {
+    "text": "आइकन सेट",
+    "source": "a3ae5ca177a0"
   },
   "common.icons": {
     "text": "आइकन",
@@ -12902,6 +13122,10 @@
     "text": "किसी एक खाते या संग्रह में",
     "source": "be358173c89a"
   },
+  "video.inspector.in-pieces": {
+    "text": "भागों में",
+    "source": "786b72b37492"
+  },
   "video.in-point": {
     "text": "इन पॉइंट",
     "source": "9c1d42b38a85"
@@ -12948,6 +13172,10 @@
   "video.in-from-out-to": {
     "text": "इन {from}, आउट {to}",
     "source": "9ad2ac8a59a8"
+  },
+  "sheets.dialogs.in-range-a-row-that-repeats": {
+    "text": "{range} में, जो पंक्ति हर चिह्नित स्तंभ में किसी पिछली पंक्ति को दोहराती है, उसे निकाल दिया जाता है। हर एक की पहली पंक्ति बनी रहती है।",
+    "source": "ac1519f6f42d"
   },
   "studio.shared.in-seconds-s": {
     "text": "{seconds} सेकंड में",
@@ -13945,6 +14173,14 @@
     "text": "इटैलिक (Ctrl+I)",
     "source": "ccc60dff1674"
   },
+  "sheets.filter-panel.items": {
+    "text": "आइटम",
+    "source": "fb8e7a1a3cb7"
+  },
+  "sheets.filter-panel.items-or-percent": {
+    "text": "आइटम या प्रतिशत",
+    "source": "14cded7778d2"
+  },
   "template-gallery.items-counts-and-reorder-levels-the": {
     "text": "वस्तुएँ, गिनती और पुनः ऑर्डर स्तर, स्टॉक का मूल्य और क्या फिर से मँगाना है",
     "source": "a704276dd164"
@@ -13975,6 +14211,10 @@
   "slides.ribbon.its-notes": {
     "text": "इसके नोट्स",
     "source": "a316f96e4b04"
+  },
+  "sheets.dialogs.its-own-lowest-and-highest-shows": {
+    "text": "अपना न्यूनतम और अधिकतम हर पंक्ति के उतार-चढ़ाव दिखाता है; सभी के लिए एक अक्ष उनके आकार की तुलना करता है।",
+    "source": "2a62e687c030"
   },
   "mail.smime.its-password": {
     "text": "इसका पासवर्ड",
@@ -14134,6 +14374,10 @@
   "word.ribbon.justify-with-kashida-stretch-the-letters": {
     "text": "कशीदा के साथ संरेखित करें: पंक्ति भरने के लिए अक्षरों को खींचें, जैसे अरबी को संरेखित किया जाता है",
     "source": "b7ba4e7d59c4"
+  },
+  "video.inspector.karaoke": {
+    "text": "कराओके",
+    "source": "34cd21fcc55b"
   },
   "common.keep": {
     "text": "रखें",
@@ -14575,6 +14819,10 @@
     "text": "उपनाम",
     "source": "7b4888049459"
   },
+  "sheets.dialogs.last-point": {
+    "text": "अंतिम बिंदु",
+    "source": "430de8dd535b"
+  },
   "common.last-record": {
     "text": "अंतिम रिकॉर्ड",
     "source": "27fef2475093"
@@ -14618,6 +14866,10 @@
   "mail.compose.later-today-9pm": {
     "text": "आज बाद में, रात 9 बजे",
     "source": "1c66a953a2b9"
+  },
+  "sheets.dialogs.latest-date": {
+    "text": "सबसे बाद का दिनांक",
+    "source": "a9de7221765f"
   },
   "image.layer": {
     "text": "परत",
@@ -14889,6 +15141,10 @@
     "text": "इससे कम या बराबर",
     "source": "ee8df42e1687"
   },
+  "sheets.filter-panel.less-than-or-equal-to": {
+    "text": "इससे छोटा या बराबर",
+    "source": "ae1564a79ff3"
+  },
   "template-gallery.lesson": {
     "text": "पाठ",
     "source": "6e2b26d9de40"
@@ -15097,6 +15353,10 @@
     "text": "बीच में रेखा",
     "source": "1bac593d7aea"
   },
+  "video.inspector.line-by-line": {
+    "text": "पंक्ति दर पंक्ति",
+    "source": "d69a37385809"
+  },
   "sheets.dialogs.line-chart": {
     "text": "रेखा चार्ट",
     "source": "22089151613f"
@@ -15156,6 +15416,10 @@
   "base.documents.lines-from": {
     "text": "पंक्तियाँ यहाँ से",
     "source": "dc6d35c2f93b"
+  },
+  "video.inspector.lines-one-at-a-time": {
+    "text": "एक बार में एक पंक्ति",
+    "source": "e30051392bb1"
   },
   "locker.lines-say-what-to-lock-a": {
     "text": "पंक्तियाँ बताती हैं क्या लॉक करना है; ! से शुरू होने वाली पंक्ति अपवाद बनाती है। कोई पंक्ति न हो तो हर फ़ाइल लॉक होगी।",
@@ -15608,6 +15872,10 @@
   "video.export.low-smaller-file": {
     "text": "निम्न (छोटी फ़ाइल)",
     "source": "e585bb7bd95c"
+  },
+  "sheets.dialogs.low-point": {
+    "text": "निम्न बिंदु",
+    "source": "2529ac347b3d"
   },
   "video.ribbon.lower-third": {
     "text": "निचली पट्टी",
@@ -17040,6 +17308,10 @@
     "text": "मेरे संपर्क",
     "source": "6add5927687d"
   },
+  "sheets.dialogs.my-data-has-headers": {
+    "text": "मेरे डेटा में शीर्षलेख हैं",
+    "source": "e917f14e7d6e"
+  },
   "talk.invite.my-email-app": {
     "text": "मेरा ईमेल ऐप",
     "source": "c7aaaf0507c4"
@@ -17083,6 +17355,10 @@
   "broadcast.live-dialog.name-optional": {
     "text": "नाम (वैकल्पिक)",
     "source": "e09b37bcc4f3"
+  },
+  "sheets.name-box.name-box": {
+    "text": "नाम बॉक्स",
+    "source": "730b51d34ee3"
   },
   "sheets.ribbon.name-manager": {
     "text": "नाम प्रबंधक",
@@ -17229,6 +17505,10 @@
   "locker.needs-you": {
     "text": "आपकी ज़रूरत है",
     "source": "74b6abdf5969"
+  },
+  "sheets.dialogs.negative-points": {
+    "text": "ऋणात्मक बिंदु",
+    "source": "6963e8f96ed2"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "जब तक आप फिर से संपर्क न बनें, आपमें से कोई दूसरे को न लिख सकेगा न कॉल कर सकेगा। यहाँ आपके संदेश हटा दिए जाते हैं।",
@@ -17862,6 +18142,10 @@
     "text": "अभी तक कोई बिल्डिंग ब्लॉक नहीं",
     "source": "ee11b12ee206"
   },
+  "sheets.pivot-fields.no-calculation": {
+    "text": "कोई गणना नहीं",
+    "source": "5da6f87ac7cb"
+  },
   "engine.no-calendars-or-address-books-were": {
     "text": "उस पते पर कोई कैलेंडर या पता पुस्तिका नहीं मिली।",
     "source": "6b303bb9fae7"
@@ -17970,9 +18254,9 @@
     "text": "इस स्लाइड के लिए कोई डिज़ाइन विचार नहीं: इसे एक शीर्षक, कुछ शब्द या एक चित्र दें।",
     "source": "1f07475c0307"
   },
-  "sheets.no-duplicate-rows-in-the-selection": {
-    "text": "चयन में कोई डुप्लिकेट पंक्ति नहीं",
-    "source": "47e580620f2e"
+  "sheets.no-duplicate-rows-found-kept-rows": {
+    "text": "कोई डुप्लिकेट पंक्ति नहीं मिली; {kept} पंक्तियाँ बची हैं।",
+    "source": "a032b583b3d3"
   },
   "word.mailings.no-duplicates": {
     "text": "कोई डुप्लिकेट नहीं",
@@ -19017,6 +19301,18 @@
     "text": "सूचनाएँ {time} तक रोकी गई हैं",
     "source": "1d6521f14f4e"
   },
+  "notify-dialog.notifications-are-turned-off-in-windows": {
+    "text": "Windows में सूचनाएँ बंद हैं, इसलिए वह रुतबा ऑफ़िस (Rutba Office) की कोई सूचना नहीं दिखाता। उन्हें Windows की सेटिंग्स में, सिस्टम, सूचनाएँ के अंतर्गत चालू करें।",
+    "source": "a652d04931a6"
+  },
+  "notify-dialog.notifications-are-turned-off-on-this": {
+    "text": "इस कंप्यूटर के व्यवस्थापक ने सूचनाएँ बंद की हैं, इसलिए Windows रुतबा ऑफ़िस (Rutba Office) की कोई सूचना नहीं दिखाता। जो प्रतीक्षा में है, उसकी गिनती घड़ी के पास उसके आइकन पर अब भी दिखती है।",
+    "source": "76e702238671"
+  },
+  "notify-dialog.notifications-from-rutba-office-are-turned": {
+    "text": "Windows में रुतबा ऑफ़िस (Rutba Office) की सूचनाएँ बंद हैं। उन्हें Windows की सेटिंग्स में, सिस्टम, सूचनाएँ, Rutba Office के अंतर्गत चालू करें।",
+    "source": "e19167006214"
+  },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "अभी {width} x {height} cm। स्लाइडों पर सब कुछ नए आकार के अनुसार घटाया-बढ़ाया और बीच में किया जाता है।",
     "source": "4e0c85185863"
@@ -19036,6 +19332,10 @@
   "common.number": {
     "text": "संख्या",
     "source": "bd82cf16699b"
+  },
+  "sheets.filter-panel.number-filters": {
+    "text": "संख्या फ़िल्टर",
+    "source": "13fe0c5baab5"
   },
   "pictures.batch.number-as-001": {
     "text": "संख्या 001 की तरह",
@@ -19241,6 +19541,10 @@
     "text": "नई पेंट परत पर",
     "source": "0501424bc7c7"
   },
+  "video.inspector.on-a-panel": {
+    "text": "पैनल पर",
+    "source": "e8787dfd4dc5"
+  },
   "studio.live-panel.on-air": {
     "text": "प्रसारण पर",
     "source": "c2332b223176"
@@ -19333,6 +19637,14 @@
     "text": "एक ही उत्तर में सब हैं",
     "source": "0670ff9a00aa"
   },
+  "video.inspector.one-bar": {
+    "text": "एक पट्टी",
+    "source": "4bfa8b51bda1"
+  },
+  "video.inspector.one-caption-a-line-one-after": {
+    "text": "हर पंक्ति के लिए एक कैप्शन, एक के बाद एक, हर एक अपने ट्रैक पर।",
+    "source": "01dc9af7bfb6"
+  },
   "slides.ribbon.one-column": {
     "text": "एक स्तंभ",
     "source": "4af4c82acab4"
@@ -19352,6 +19664,10 @@
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "हर पंक्ति के लिए एक पंक्ति। पहला टैब केंद्र में ले जाता है, दूसरा दाईं ओर।",
     "source": "80be2d4cf6a5"
+  },
+  "video.inspector.one-line-there-is-nothing-to": {
+    "text": "एक पंक्ति: विभाजित करने के लिए कुछ नहीं है।",
+    "source": "c2918f5eb39b"
   },
   "image.layers-panel.one-name-and-one-number-on": {
     "text": "हर पंक्ति में एक नाम और एक संख्या, जैसे: सोम, 12",
@@ -19427,6 +19743,10 @@
   "notify-dialog.only-an-installed-copy-of-rutba": {
     "text": "केवल रुतबा ऑफ़िस (Rutba Office) की स्थापित प्रति ही Windows के साथ शुरू हो सकती है।",
     "source": "5d376c6f923f"
+  },
+  "notify-dialog.only-an-installed-copy-of-rutba-2": {
+    "text": "केवल रुतबा ऑफ़िस (Rutba Office) की इंस्टॉल की गई प्रति ही Windows सूचनाएँ दिखाती है। जो प्रतीक्षा में है, उसकी गिनती घड़ी के पास उसके आइकन पर अब भी दिखती है।",
+    "source": "5fedb6d63e92"
   },
   "word.only-certain-kinds-of-changes-can": {
     "text": "इस दस्तावेज़ में केवल कुछ प्रकार के परिवर्तन ही किए जा सकते हैं। देखें: समीक्षा → संपादन प्रतिबंधित करें।",
@@ -19751,6 +20071,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "Kick डैशबोर्ड खोलें",
     "source": "bf6f8e9ef858"
+  },
+  "notify-dialog.open-the-settings-of-windows": {
+    "text": "Windows सेटिंग्स खोलें",
+    "source": "5af9b33ed216"
   },
   "talk.open-the-browser-again": {
     "text": "ब्राउज़र फिर से खोलें",
@@ -20740,6 +21064,10 @@
     "text": "किसी क्लिप की सेटिंग देखने के लिए उसे चुनें।",
     "source": "6eb0903d3b41"
   },
+  "sheets.dialogs.pick-a-colour-for-the-tab": {
+    "text": "{name} के टैब के लिए रंग चुनें।",
+    "source": "e9df2741dc65"
+  },
   "slides.pick-a-comment-first-in-the": {
     "text": "पहले कोई टिप्पणी चुनें, फलक में या स्लाइड पर।",
     "source": "f5e1dbf895bc"
@@ -20759,6 +21087,14 @@
   "talk.invite-email.pick-from-contacts": {
     "text": "संपर्कों में से चुनें",
     "source": "e44028663b60"
+  },
+  "sheets.pick-from-the-list": {
+    "text": "सूची से चुनें",
+    "source": "a8fc191ece74"
+  },
+  "sheets.pick-one-of-list": {
+    "text": "इनमें से एक चुनें: {list}।",
+    "source": "77094891e902"
   },
   "contacts.pick-one-on-the-left-or": {
     "text": "बाईं ओर से कोई एक चुनें, या नए कार्ड के लिए Ctrl+N दबाएँ।",
@@ -21902,6 +22238,10 @@
   "sheets.put-the-cursor-in-a-table": {
     "text": "कर्सर को किसी तालिका या PivotTable में रखें। स्लाइसर इनमें से किसी एक को फ़िल्टर करता है।",
     "source": "906ca4fd2842"
+  },
+  "sheets.ribbon.put-the-legend-at-a-side": {
+    "text": "चार्ट लेजेंड को चार्ट के किसी किनारे पर रखें, या उसे निकालें।",
+    "source": "f49a59ee7c72"
   },
   "image.tools.put-the-pins-back": {
     "text": "पिन वापस रखें",
@@ -23156,6 +23496,10 @@
     "text": "यह पंक्ति हटाएँ",
     "source": "9b034cbd964e"
   },
+  "sheets.dialogs.remove-this-rule": {
+    "text": "यह नियम निकालें",
+    "source": "006122390887"
+  },
   "sheets.remove-this-watch": {
     "text": "यह वॉच निकालें",
     "source": "7c1c8bf08b8c"
@@ -24254,6 +24598,10 @@
     "text": "नियम",
     "source": "4228aeb07c41"
   },
+  "sheets.dialogs.rules-on-this-sheet": {
+    "text": "इस शीट पर नियम",
+    "source": "febf492f1ab9"
+  },
   "mail.rules.rules-run-when-mail-arrives-and": {
     "text": "मेल आने पर नियम चलते हैं, और आप जब चाहें उन्हें किसी फ़ोल्डर पर चला सकते हैं।",
     "source": "6045d8d52773"
@@ -25245,6 +25593,10 @@
     "text": "दूसरा रंग: जहाँ ग्रेडिएंट ख़त्म होता है",
     "source": "014aa91028da"
   },
+  "video.inspector.second-line": {
+    "text": "दूसरी पंक्ति",
+    "source": "c8b588f708d6"
+  },
   "video.library.second-point": {
     "text": "दूसरा बिंदु",
     "source": "55b07a59a655"
@@ -25252,6 +25604,10 @@
   "calendar.second-time-zone": {
     "text": "दूसरा समय क्षेत्र",
     "source": "49755d0fec21"
+  },
+  "sheets.filter-panel.second-value": {
+    "text": "दूसरा मान",
+    "source": "c4a53a97a697"
   },
   "slides.export-video.seconds-spent-on-each-slide": {
     "text": "प्रत्येक स्लाइड पर बिताए गए सेकंड",
@@ -25641,6 +25997,10 @@
     "text": "दोस्तों को जैसे चाहें लिंक भेजें। जो भी इसे खोले, स्वीकार करते ही आपका संपर्क बन जाता है, रुतबा ऑफ़िस (Rutba Office) से या उसके बिना मुफ़्त रुतबा खाते से। काम हो जाए तो इसे वापस ले लें।",
     "source": "bd1c97fbc637"
   },
+  "talk.send-again": {
+    "text": "फिर से भेजें",
+    "source": "feead925e260"
+  },
   "mail.send-and-receive": {
     "text": "भेजें और प्राप्त करें",
     "source": "ffcf0846896c"
@@ -25877,9 +26237,9 @@
     "text": "अल्पविराम से अलग किए गए",
     "source": "1d7e4e1cdf8b"
   },
-  "sheets.dialogs.separated-by-commas-or-a-range": {
-    "text": "अल्पविराम से अलग किए गए, या $H$1:$H$9 जैसी कोई श्रेणी।",
-    "source": "66ebf7c18623"
+  "sheets.dialogs.separated-by-commas-or-a-range-2": {
+    "text": "अल्पविराम से अलग किए गए मान, या $H$1:$H$9 या Products!A2:A11 जैसी श्रेणी।",
+    "source": "deed8689a130"
   },
   "word.ribbon.separated-by-tabs": {
     "text": "टैब से अलग किए गए",
@@ -25901,9 +26261,17 @@
     "text": "श्रृंखला",
     "source": "a8295e08ff7a"
   },
+  "sheets.ribbon.series-colour": {
+    "text": "श्रृंखला का रंग",
+    "source": "3989e7fea65a"
+  },
   "sheets.dialogs.series-in": {
     "text": "श्रृंखला इसमें",
     "source": "ceaab7f3e90b"
+  },
+  "sheets.ribbon.series-to-colour": {
+    "text": "रंगने के लिए श्रृंखला",
+    "source": "aa8f68cf8f3b"
   },
   "slides.series-number": {
     "text": "श्रृंखला {number}",
@@ -26568,6 +26936,10 @@
     "text": "शो प्रकार",
     "source": "5d97277b82b2"
   },
+  "sheets.pivot-fields.show-values-as": {
+    "text": "मानों को इस रूप में दिखाएँ",
+    "source": "bb7cc9d7da0d"
+  },
   "notify-dialog.show-what-it-says": {
     "text": "जो लिखा है वह दिखाएँ",
     "source": "01ff1c611346"
@@ -26599,6 +26971,10 @@
   "talk.meet-lines.showing-their-screen": {
     "text": "स्क्रीन दिखाई जा रही है",
     "source": "1c428d39d527"
+  },
+  "studio.spoken-run.shown-only-the-words-type-at": {
+    "text": "केवल दिखाए जाने पर, शब्द मानक गति से टाइप होते हैं।",
+    "source": "25a457d9d675"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "जिनसे आप बात करते हैं उन्हें दिखता है",
@@ -26651,6 +27027,10 @@
   "word.ribbon.shrink-font": {
     "text": "फ़ॉन्ट छोटा करें",
     "source": "176934670a3e"
+  },
+  "video.inspector.shrink-to-fit": {
+    "text": "छोटा करके फ़िट करें",
+    "source": "e65455733f3a"
   },
   "image.tools.shrink-narrow-the-selection-by-that": {
     "text": "घटाएँ: चयन को इतने पिक्सेल संकरा करें",
@@ -27220,6 +27600,10 @@
     "text": "ऊपर का सबसे छोटा",
     "source": "b66a27b2ba69"
   },
+  "sheets.pivot-fields.smallest-first": {
+    "text": "सबसे छोटा पहले",
+    "source": "4b15d87c3abc"
+  },
   "common.smartart": {
     "text": "SmartArt",
     "source": "fe46ea12fa77"
@@ -27420,6 +27804,10 @@
     "text": "अनुच्छेद सॉर्ट करें: A से Z या Z से A; कुछ भी चयनित न होने पर पूरा दस्तावेज़",
     "source": "bd64668cb009"
   },
+  "sheets.pivot-fields.sort-the-items": {
+    "text": "आइटम सॉर्ट करें",
+    "source": "8f5ac57242b2"
+  },
   "sheets.ribbon.sort-the-list-a-to-z": {
     "text": "सूची को स्तंभ {name}, यानी सक्रिय कक्ष के स्तंभ, के अनुसार A से Z तक सॉर्ट करें; शीर्षक पंक्ति ऊपर रहती है",
     "source": "121020686363"
@@ -27564,6 +27952,10 @@
     "text": "चमक-दमक",
     "source": "abac3d1ed392"
   },
+  "sheets.sparkline-options": {
+    "text": "स्पार्कलाइन विकल्प",
+    "source": "7660b0f99e6b"
+  },
   "sheets.ribbon.sparklines": {
     "text": "स्पार्कलाइन",
     "source": "a77d2f6f62bf"
@@ -27707,6 +28099,10 @@
   "word.split-cells": {
     "text": "कक्ष विभाजित करें",
     "source": "ec306591839f"
+  },
+  "video.inspector.split-into-lines": {
+    "text": "पंक्तियों में विभाजित करें",
+    "source": "2b164901b73d"
   },
   "sheets.split-into-the-cells-to-the": {
     "text": "दाईं ओर के कक्षों में विभाजित किया गया",
@@ -27898,6 +28294,10 @@
   "word.list-dialog.start-at": {
     "text": "इससे प्रारंभ करें",
     "source": "334c284f438c"
+  },
+  "sheets.dialogs.start-at-nought": {
+    "text": "शून्य से शुरू करें",
+    "source": "8e5da7fea6e5"
   },
   "word.restrict.start-enforcement": {
     "text": "लागू करना प्रारंभ करें",
@@ -28503,6 +28903,14 @@
     "text": "टैब से अलग किए गए मान (.tsv)",
     "source": "8015e916b0d7"
   },
+  "sheets.dialogs.tab-colour": {
+    "text": "टैब का रंग",
+    "source": "5ea3b6dde585"
+  },
+  "sheets.tab-colour": {
+    "text": "टैब का रंग…",
+    "source": "2dc7ab1e9dc6"
+  },
   "word.tab-leader": {
     "text": "टैब लीडर",
     "source": "4c13c6224502"
@@ -29022,6 +29430,10 @@
     "text": "टेक्स्ट प्रभाव: रूपांतरण",
     "source": "788f2d5eb581"
   },
+  "sheets.filter-panel.text-filters": {
+    "text": "टेक्स्ट फ़िल्टर",
+    "source": "ab3c6a9c325c"
+  },
   "word.forms.text-form-field": {
     "text": "टेक्स्ट फ़ॉर्म फ़ील्ड",
     "source": "c493dd6ddde9"
@@ -29065,6 +29477,10 @@
   "slides.revisions.text-changed": {
     "text": "टेक्स्ट बदला गया",
     "source": "26c7b5775381"
+  },
+  "video.inspector.text-colour": {
+    "text": "टेक्स्ट का रंग",
+    "source": "25e9c8090de7"
   },
   "sheets.dialogs.text-contains": {
     "text": "टेक्स्ट में शामिल है",
@@ -29650,6 +30066,10 @@
     "text": "वे ऐप जिन्हें आप देखना चाहें और जिनसे अपनी फ़ाइलें खोलना चाहें।",
     "source": "332e5249e305"
   },
+  "video.inspector.the-bar-covers-the-whole-film": {
+    "text": "बढ़ते हुए पट्टी पूरी फ़िल्म को ढकती है, जब तक उसकी लंबाई बदली न जाए।",
+    "source": "da0ae4020925"
+  },
   "video.inspector.the-bar-fills-from-where-this": {
     "text": "पट्टी वहाँ से भरती है जहाँ यह क्लिप शुरू होती है, और वहाँ तक जहाँ यह समाप्त होती है।",
     "source": "01d9656a5ad1"
@@ -29657,6 +30077,10 @@
   "video.the-brand-kit-is-kept-for": {
     "text": "ब्रांड किट आपके लिए सहेजी गई है और हर दृश्य में बनाई गई है।",
     "source": "3180710525cd"
+  },
+  "video.inspector.the-brand-kit-logo": {
+    "text": "ब्रांड किट का लोगो",
+    "source": "cee5b3c1d63e"
   },
   "word.list-dialog.the-bullet-character": {
     "text": "बुलेट वर्ण।",
@@ -29824,6 +30248,10 @@
   "talk-words.the-connection-was-lost-and-the": {
     "text": "कनेक्शन टूट गया और मीटिंग में दोबारा शामिल नहीं हुआ जा सका।",
     "source": "ecc583f6d5d1"
+  },
+  "sheets.the-copy-has-the-cells-and": {
+    "text": "प्रतिलिपि में कक्ष और उनके स्वरूप हैं। चार्ट, चित्र, तालिकाएँ और PivotTable पहली शीट पर ही रहते हैं।",
+    "source": "dad761a634d9"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "मानदंड श्रेणी सूची के अंदर नहीं हो सकती",
@@ -30210,6 +30638,10 @@
     "text": "लॉक प्रति सहेजी गई। जैसे चाहें भेजें।",
     "source": "bbfae89220a6"
   },
+  "video.library.the-logo-from-your-brand-kit": {
+    "text": "आपकी ब्रांड किट का लोगो, कोने में, या आपके द्वारा चुना गया चित्र।",
+    "source": "9323498bce87"
+  },
   "engine.the-mail-app-is-chosen-in": {
     "text": "इस कंप्यूटर पर मेल ऐप सिस्टम की अपनी सेटिंग में चुना जाता है।",
     "source": "5141d3af3f67"
@@ -30249,6 +30681,10 @@
   "mail.parts.the-mail-server-would-not-keep": {
     "text": "मेल सर्वर ने आपके भेजे गए संदेश की कॉपी {folder} में नहीं रखी। यहाँ की कॉपी रखी गई है।",
     "source": "59af5bb0cb8f"
+  },
+  "mail.parts.the-mail-server-would-not-keep-2": {
+    "text": "मेल सर्वर ने ड्राफ़्ट को {folder} में नहीं रखा। यह अभी भी इस कंप्यूटर पर है।",
+    "source": "2304437141a3"
   },
   "mail.parts.the-mail-server-would-not-make": {
     "text": "मेल सर्वर ने यहाँ किया गया एक बदलाव स्वीकार नहीं किया। मेल वही दिखाता है जो सर्वर पर है।",
@@ -30297,6 +30733,10 @@
   "talk.meet-lines.the-meeting-is-full-on-its": {
     "text": "मीटिंग अपने टॉक सर्वर (Talk Server) पर भर चुकी है।",
     "source": "a28293313806"
+  },
+  "talk.the-meeting-stays-here-reason": {
+    "text": "मीटिंग यहीं रहेगी: {reason}",
+    "source": "2f8fd822d081"
   },
   "talk.meet-lines.the-meetings-talk-server-is-not": {
     "text": "मीटिंग का टॉक सर्वर (Talk Server) अभी लोगों को शामिल नहीं कर रहा है। थोड़ी देर में फिर से प्रयास करें।",
@@ -30797,6 +31237,10 @@
     "text": "{name} की सुरक्षा प्रति {when} बनी थी। उसकी {n} फ़ाइलें अनलॉक रूप में, आपके चुने फ़ोल्डर के अंदर एक नए फ़ोल्डर में लिखी जाती हैं। वहाँ पहले से मौजूद कुछ नहीं बदलता।",
     "source": "a34f0ed2f93a"
   },
+  "sheets.dialogs.the-same-for-all-of-them": {
+    "text": "सभी के लिए एक जैसा",
+    "source": "eef1cb1cfa61"
+  },
   "locker.the-same-password-again": {
     "text": "वही पासवर्ड फिर से",
     "source": "cfd750367fe1"
@@ -30851,6 +31295,10 @@
   "sheets.dialogs.the-selection-holds-a-formula-in": {
     "text": "चयन के कोने में एक सूत्र होता है और उसके किनारों पर आज़माए जाने वाले मान। प्रत्येक कक्ष उस संयोजन के लिए सूत्र के परिणाम से भरा जाता है।",
     "source": "fe7e0163219d"
+  },
+  "sheets.the-selection-is-now-named-name": {
+    "text": "चयन का नाम अब {name} है।",
+    "source": "c3c614e5e0f0"
   },
   "mail.the-sender-supports-one-click-unsubscribe": {
     "text": "प्रेषक एक-क्लिक सदस्यता समाप्ति का समर्थन करता है। उसे केवल एक अनुरोध भेजा जाता है और इस कंप्यूटर से और कुछ नहीं जाता।",
@@ -31059,6 +31507,10 @@
   "engine.the-text-recognition-model-for-key": {
     "text": "{key} के लिए टेक्स्ट पहचान मॉडल लोड नहीं हो सका।",
     "source": "44a1288700c8"
+  },
+  "video.inspector.the-theme-colour": {
+    "text": "थीम का रंग",
+    "source": "c9c8ab182186"
   },
   "slides.ribbon.the-themes-own-looks-filled-in": {
     "text": "थीम की अपनी शैलियाँ: किसी एक्सेंट रंग से भरी, और उसी रंग की रूपरेखा के साथ",
@@ -31495,6 +31947,10 @@
   "mail.these-accounts": {
     "text": "ये खाते",
     "source": "0eca400d4be1"
+  },
+  "sheets.dialogs.these-apply-to-every-sparkline-made": {
+    "text": "ये विकल्प इसके साथ बनाई गई हर स्पार्कलाइन पर लागू होते हैं।",
+    "source": "a459084b0d0c"
   },
   "mail.these-are-imported-archives-there-is": {
     "text": "ये आयात किए गए संग्रह हैं, इसलिए लाने के लिए कुछ नहीं है।",
@@ -31949,6 +32405,10 @@
   "word.restrict.this-document-is-protected-only-comments": {
     "text": "यह दस्तावेज़ सुरक्षित है: यहाँ केवल टिप्पणियाँ जोड़ी जा सकती हैं। समीक्षा → संपादन प्रतिबंधित करें उन क्षेत्रों को दिखाता है जिन्हें आप संपादित कर सकते हैं।",
     "source": "b908b8376d8e"
+  },
+  "sheets.this-entry-does-not-match-the": {
+    "text": "यह प्रविष्टि इस कक्ष के लिए तय नियम से मेल नहीं खाती।",
+    "source": "64430678bcb5"
   },
   "calendar.this-event-has-a-talk-meeting": {
     "text": "इस ईवेंट में टॉक (Talk) मीटिंग है। इसका लिंक आमंत्रण में है।",
@@ -32429,6 +32889,10 @@
     "text": "इस शीट में साफ़ करने के लिए कोई रूपरेखा नहीं है",
     "source": "a80699366a86"
   },
+  "sheets.dialogs.this-sheet-has-no-rules-yet": {
+    "text": "इस शीट पर अभी कोई नियम नहीं है।",
+    "source": "735960d6edfc"
+  },
   "sheets.this-sheet-is-protected-with-a": {
     "text": "यह शीट पासवर्ड से सुरक्षित है। सुरक्षा हटाने के लिए पासवर्ड टाइप करें।",
     "source": "368023c3045c"
@@ -32548,6 +33012,10 @@
   "studio.guests.this-window-leaves-and-talk-comes": {
     "text": "यह विंडो हटती है और टॉक (Talk) आता है: वही लोग, एक मीटिंग के रूप में।",
     "source": "fa116fc70753"
+  },
+  "talk.this-window-leaves-the-meeting-once": {
+    "text": "दूसरी विंडो खुलने के बाद यह विंडो मीटिंग छोड़ देती है, और आप मीटिंग को वहीं से व्यवस्थित करते हैं।",
+    "source": "fb83b9a3480f"
   },
   "sheets.this-workbook-has-no-comments": {
     "text": "इस कार्यपुस्तिका में कोई टिप्पणी नहीं है।",
@@ -32951,6 +33419,10 @@
     "text": "ऊपरी बॉर्डर",
     "source": "79775184aaa3"
   },
+  "sheets.dialogs.top-items": {
+    "text": "शीर्ष आइटम",
+    "source": "af3865aa2315"
+  },
   "common.top-left": {
     "text": "ऊपर बाएँ",
     "source": "a0eda50fb155"
@@ -32959,6 +33431,10 @@
     "text": "सूची में सबसे ऊपर वाला सामने होता है। क्रम बदलने के लिए खींचें।",
     "source": "428a0adb9e63"
   },
+  "sheets.dialogs.top-per-cent": {
+    "text": "शीर्ष प्रतिशत",
+    "source": "fa0e93898958"
+  },
   "common.top-right": {
     "text": "ऊपर दाएँ",
     "source": "d83cbef9db1b"
@@ -32966,6 +33442,14 @@
   "sheets.dialogs.top-row": {
     "text": "शीर्ष पंक्ति",
     "source": "5c027c33bb97"
+  },
+  "sheets.dialogs.top-count": {
+    "text": "शीर्ष {count}",
+    "source": "b6783f4fd940"
+  },
+  "sheets.dialogs.top-count-2": {
+    "text": "शीर्ष {count}%",
+    "source": "ea8f8cc99e8d"
   },
   "common.total": {
     "text": "कुल",
@@ -32979,9 +33463,17 @@
     "text": "कुल पंक्ति: अंतिम पंक्ति, अपनी शैली के कुल वाले रूप में",
     "source": "46fd3713529a"
   },
+  "sheets.ribbon.total-of-column-none": {
+    "text": "{column} का योग: कोई नहीं",
+    "source": "1676db04c840"
+  },
   "base.reports.total-of-field": {
     "text": "{field} का कुल",
     "source": "f3956fd5d7dd"
+  },
+  "sheets.ribbon.total-row": {
+    "text": "कुल पंक्ति",
+    "source": "3c3cb9cbf619"
   },
   "base.totals": {
     "text": "योग",
@@ -33439,6 +33931,10 @@
     "text": "पते लिखें या चिपकाएँ",
     "source": "ddf091a93d83"
   },
+  "video.type-or-paste-your-words-here": {
+    "text": "अपने शब्द यहाँ टाइप करें या चिपकाएँ।",
+    "source": "2d8717ac7291"
+  },
   "sheets.dialogs.type-part-of-a-name": {
     "text": "नाम का कोई भाग टाइप करें",
     "source": "7602842c7ce4"
@@ -33511,9 +34007,17 @@
     "text": "टाइप किया",
     "source": "bff482dbe92b"
   },
+  "common.typewriter": {
+    "text": "टाइपराइटर",
+    "source": "b15b792b2b10"
+  },
   "video.inspector.typing": {
     "text": "टाइपिंग",
     "source": "25dfb9b4b32f"
+  },
+  "video.inspector.typing-speed": {
+    "text": "टाइपिंग गति",
+    "source": "9d1ff237078a"
   },
   "common.uppercase": {
     "text": "अपरकेस",
@@ -33598,6 +34102,18 @@
   "sheets.unhide-name": {
     "text": "\"{name}\" को सामने लाएँ",
     "source": "efad2d4bb2b6"
+  },
+  "sheets.ribbon.unhide-all-rows-and-columns": {
+    "text": "सभी पंक्तियाँ और स्तंभ सामने लाएँ",
+    "source": "e996d6d88a04"
+  },
+  "sheets.unhide-columns": {
+    "text": "स्तंभ सामने लाएँ",
+    "source": "2aee4f4f679d"
+  },
+  "sheets.unhide-rows": {
+    "text": "पंक्तियाँ सामने लाएँ",
+    "source": "783840178245"
   },
   "sheets.ribbon.unhide-a-hidden-worksheets-window-back": {
     "text": "सामने लाएँ: कार्यपत्रक की छिपी हुई विंडो को वापस स्क्रीन पर लाएँ",
@@ -33939,6 +34455,10 @@
     "text": "चयन से मिलाने के लिए {style} अद्यतन करें",
     "source": "e65ad4674254"
   },
+  "sheets.ribbon.update-style-to-match-this-cell": {
+    "text": "{style} को इस कक्ष जैसा अद्यतन करें",
+    "source": "ab2583743d9d"
+  },
   "shell.updated-from-version-what-changed-is": {
     "text": "{version} से अद्यतन किया गया। क्या बदला है, यह देखने के लिए बस एक क्लिक करें।",
     "source": "d4f81a14fa5f"
@@ -34226,6 +34746,10 @@
     "text": "वर्टिकल सोशल",
     "source": "06b16b68f5bb"
   },
+  "sheets.ribbon.vertical-axis-title": {
+    "text": "लंबवत अक्ष शीर्षक",
+    "source": "350384e51fb0"
+  },
   "sheets.ribbon.vertical-text": {
     "text": "लंबवत टेक्स्ट",
     "source": "623bb53bc829"
@@ -34353,6 +34877,10 @@
   "common.voice": {
     "text": "आवाज़",
     "source": "87bf2bc08589"
+  },
+  "common.voice-first": {
+    "text": "पहले आवाज़",
+    "source": "e03a9afde9bd"
   },
   "voices-dialog.voices": {
     "text": "आवाज़ें",
@@ -34962,6 +35490,10 @@
     "text": "विंडो",
     "source": "d598026a9cbc"
   },
+  "notify-dialog.windows-did-not-show-the-last": {
+    "text": "Windows ने पिछली सूचना नहीं दिखाई। Windows की सेटिंग्स में, सिस्टम, सूचनाएँ के अंतर्गत देखें कि Windows और रुतबा ऑफ़िस (Rutba Office) के लिए सूचनाएँ चालू हैं, और परेशान न करें बंद है।",
+    "source": "8663439dc961"
+  },
   "engine.windows-keeps-this-choice-for-you": {
     "text": "Windows यह विकल्प आपके लिए रखता है: सेटिंग्स › डिफ़ॉल्ट ऐप्स में रुतबा ऑफ़िस (Rutba Office) चुनें। नीचे दिया गया बटन इसे वहीं खोलता है।",
     "source": "954691d41579"
@@ -35014,6 +35546,14 @@
     "text": "टेक्स्ट रैपिंग के साथ",
     "source": "1c19fe80875f"
   },
+  "common.with-the-voice": {
+    "text": "आवाज़ के साथ",
+    "source": "a0c88e3ba266"
+  },
+  "video.spoken.with-the-words-shown-only-they": {
+    "text": "जब शब्द केवल दिखाए जाते हैं, तो वे फ़िल्म की अपनी गति से टाइप होते हैं।",
+    "source": "a1da8c430dfa"
+  },
   "talk.with-video": {
     "text": "वीडियो के साथ",
     "source": "d530d62be3b5"
@@ -35062,6 +35602,10 @@
     "text": "WordArt",
     "source": "ae16a048a626"
   },
+  "video.inspector.word-by-word": {
+    "text": "शब्द दर शब्द",
+    "source": "ddbaf8c9f91a"
+  },
   "word.dialogs.word-count": {
     "text": "शब्द गणना",
     "source": "653913ac0e67"
@@ -35098,13 +35642,25 @@
     "text": "शब्द",
     "source": "0a8be89a52a8"
   },
+  "video.inspector.words-alone": {
+    "text": "केवल शब्द",
+    "source": "ddf082782ed5"
+  },
   "ui.proofing.words-for-word": {
     "text": "“{word}” के लिए शब्द",
     "source": "6d61efe54546"
   },
+  "video.library.words-on-a-pill": {
+    "text": "गोली आकार की पट्टी पर शब्द",
+    "source": "c3b9558baaef"
+  },
   "spoken.voices.words-to-say": {
     "text": "बोलने के लिए शब्द",
     "source": "3353415dcf6a"
+  },
+  "video.library.words-typed-in-over-the-pictures": {
+    "text": "चित्रों के ऊपर टाइप होते शब्द, आपकी पसंद से: टाइप होते हुए, शब्द दर शब्द, पंक्ति दर पंक्ति, कराओके या सब एक साथ।",
+    "source": "bbe7cf532cfb"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "आपके जोड़े गए शब्दों को कभी भी गलत वर्तनी वाला चिह्नित नहीं किया जाता, दस्तावेज़, कार्यपत्रक और प्रस्तुतियाँ, सभी में।",
@@ -35230,6 +35786,10 @@
     "text": "हर संदेश के अनुलग्नक उसके साथ लिखें",
     "source": "e456d4b9b1fd"
   },
+  "sheets.ribbon.write-each-value-beside-its-bar": {
+    "text": "हर मान को उसके बार या बिंदु के पास लिखें।",
+    "source": "026231f2c863"
+  },
   "mail.compose.write-it-in-a-window-of": {
     "text": "इसे अलग विंडो में लिखें",
     "source": "76eb5c9c5448"
@@ -35246,9 +35806,17 @@
     "text": "इस समूह को पहला संदेश लिखें।",
     "source": "79c6b8f1ef84"
   },
+  "sheets.ribbon.write-the-share-of-each-slice": {
+    "text": "हर स्लाइस का हिस्सा उस पर लिखें।",
+    "source": "d494df2a096c"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "लिखना रुक गया: {reason}। उससे पहले जो लिखा गया वह सुरक्षित है।",
     "source": "9d5b1ef54387"
+  },
+  "sheets.dialogs.written-for-the-first-cell-of": {
+    "text": "चयन के पहले कक्ष के लिए लिखा जाता है, जैसे =$C2>100। डॉलर चिह्न स्तंभ या पंक्ति को उसके स्थान पर स्थिर रखता है।",
+    "source": "d7d6c2376a68"
   },
   "contacts.wrote-count-card-to-file": {
     "forms": {
@@ -35611,6 +36179,10 @@
   "video.your-title-here": {
     "text": "आपका शीर्षक यहाँ",
     "source": "66094e7e6215"
+  },
+  "video.your-web-address": {
+    "text": "आपका वेब पता",
+    "source": "0bceb158232c"
   },
   "video.library.your-words": {
     "text": "आपके शब्द",
@@ -37271,6 +37843,10 @@
     "text": "{calendars}, {books} · {when} सिंक किया गया",
     "source": "e74fd34182ad"
   },
+  "sheets.cell-was-not-changed-reason": {
+    "text": "{cell} को नहीं बदला गया। {reason}",
+    "source": "c6587d02f21f"
+  },
   "engine.changed-file-types-now-open-with": {
     "text": "{changed} फ़ाइल प्रकार अब रुतबा ऑफ़िस (Rutba Office) में खुलते हैं।",
     "source": "aac86dd995be"
@@ -37888,6 +38464,10 @@
       "other": "{count} जैसे थे वैसे ही छोड़े गए"
     },
     "source": "58f6eb7ce109"
+  },
+  "video.inspector.count-letters-a-second": {
+    "text": "{count} अक्षर प्रति सेकंड",
+    "source": "8492559d17f5"
   },
   "base.documents.count-line": {
     "forms": {
@@ -38867,6 +39447,10 @@
     "text": "{look} समायोजन",
     "source": "eb6eabf53c50"
   },
+  "video.made-the-chapters-are-in-name": {
+    "text": "{made} अध्याय {name} में हैं।",
+    "source": "fe36caf0e53c"
+  },
   "video.made-the-first-go-came-out": {
     "text": "{made}। पहली बार यह {limit} से ज़्यादा निकली, इसलिए इसे कम पर दोबारा एन्कोड किया गया।",
     "source": "17043b2efde8"
@@ -38961,6 +39545,10 @@
     "text": "{name} की जगह हर व्यक्ति का नाम आता है। स्वीकार करने का लिंक और रुतबा ऑफ़िस (Rutba Office) पाने का तरीक़ा आपके नोट के नीचे लगता है।",
     "source": "6724ae357006"
   },
+  "talk.name-called-while-you-were-on": {
+    "text": "आपके प्रसारण पर रहते हुए {name} ने कॉल किया। कॉल को व्यस्त बताकर लौटा दिया गया और यह छूटी हुई कॉल में है।",
+    "source": "2a0990e6e9e1"
+  },
   "video.name-cannot-be-played-on-this": {
     "text": "{name} को इस कंप्यूटर पर नहीं चलाया जा सकता।",
     "source": "56c80f47dfd7"
@@ -39028,6 +39616,10 @@
   "talk-words.name-ended-the-meeting": {
     "text": "{name} ने मीटिंग समाप्त कर दी।",
     "source": "68a9df35664b"
+  },
+  "studio.guests.name-has-left-the-meeting-their": {
+    "text": "{name} ने मीटिंग छोड़ दी है। उनका स्थान अब खाली है।",
+    "source": "7ff12fec0c3b"
   },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "{name} में एक से अधिक शीट हैं। आप जो शीट चुनेंगे, उसकी पहली पंक्ति से फ़ील्ड के नाम लिए जाएँगे।",
@@ -39660,6 +40252,10 @@
     "text": "{recipient} को सुरक्षित प्राप्तकर्ताओं में जोड़ा गया",
     "source": "0b01f434a11b"
   },
+  "sheets.removed-duplicate-rows-removed-kept-rows": {
+    "text": "{removed} डुप्लिकेट पंक्तियाँ निकाली गईं; {kept} पंक्तियाँ बची हैं।",
+    "source": "7299a779b8cc"
+  },
   "calendar.words.room-is-booked-for-when": {
     "text": "{room} {when} के लिए बुक है।",
     "source": "6c97b843b2c6"
@@ -39691,6 +40287,10 @@
   "common.seconds-s": {
     "text": "{seconds} s",
     "source": "fde82d3dd95e"
+  },
+  "video.inspector.seconds-s-apart": {
+    "text": "{seconds} सेकंड के अंतर पर",
+    "source": "f04806f51dbb"
   },
   "pictures.seconds-s": {
     "text": "{seconds}s",

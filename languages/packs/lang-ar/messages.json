@@ -207,6 +207,18 @@
     "text": "«{word}» موجودة في قاموسك.",
     "source": "b9aeb4fc656c"
   },
+  "sheets.pivot-fields.of-column-total": {
+    "text": "% من إجمالي العمود",
+    "source": "eab72b338837"
+  },
+  "sheets.pivot-fields.of-grand-total": {
+    "text": "% من المجموع الكلي",
+    "source": "ad881b0c599c"
+  },
+  "sheets.pivot-fields.of-row-total": {
+    "text": "% من إجمالي الصف",
+    "source": "97a366055762"
+  },
   "word.list-dialog.2-is-this-levels-number-1": {
     "text": "%2 رقم هذا المستوى؛ و%1 رقم المستوى الذي فوقه.",
     "source": "9cbc5138d80a"
@@ -391,6 +403,10 @@
     "text": "قبل يوم واحد",
     "source": "a8b499336a9e"
   },
+  "sheets.1-duplicate-row-removed-kept-rows": {
+    "text": "تمت إزالة صف مكرر واحد؛ الصفوف المتبقية: {kept}.",
+    "source": "f63cb027fc81"
+  },
   "calendar.1-hour-before": {
     "text": "قبل ساعة واحدة",
     "source": "5104b6b7955e"
@@ -562,6 +578,10 @@
   "engine.a-pdf-with-no-pages-is": {
     "text": "ملف PDF بلا صفحات ليس مستندًا. أضف صفحة أولاً.",
     "source": "df7ad0646756"
+  },
+  "video.library.a-qr-code-type-the-address": {
+    "text": "رمز QR؛ اكتب العنوان الذي يفتحه.",
+    "source": "3c11f5898b54"
   },
   "talk.a-turn-server-you-run-offered": {
     "text": "خادم TURN تديره؛ يُعرض على الطرف الآخر في مكالماتك",
@@ -814,6 +834,10 @@
     "text": "تتكون الصيغة هنا من أرقام، وخلايا مثل B2 أو B2:B4، والعلامات + - * / والأقواس، والدوال SUM أو AVERAGE أو COUNT أو MAX أو MIN أو PRODUCT أو ABS لها أو للمواضع ABOVE أو LEFT أو BELOW أو RIGHT، مثل =SUM(ABOVE).",
     "source": "74a836a73c62"
   },
+  "sheets.dialogs.a-formula-is-true": {
+    "text": "نتيجة الصيغة صواب",
+    "source": "77bbea0fd15f"
+  },
   "home.a-free-office-suite-mail-documents": {
     "text": "مجموعة مكتبية مجانية: البريد والمستندات وأوراق العمل والعروض التقديمية والصور ومحرر الصور والفيديو، على محرك خاص بنا.",
     "source": "cbecbd51dbc1"
@@ -978,6 +1002,10 @@
     "text": "اسم لكل عمود، من رأسه. تسردها «إدارة الأسماء»",
     "source": "9a8020d11b5d"
   },
+  "sheets.a-name-starts-with-a-letter": {
+    "text": "يبدأ الاسم بحرف ولا يحتوي على مسافات، مثل Sales_May. ويكون العنوان مثل B7 أو B2:D9.",
+    "source": "e623278e0626"
+  },
   "review.a-name-that-says-what-is": {
     "text": "اسم يصف محتوى «{sheet}»:",
     "source": "818eb2db1790"
@@ -1136,6 +1164,14 @@
   "slides.a-pie-chart-draws-only-its": {
     "text": "لا يرسم المخطط الدائري إلا سلسلته الأولى.",
     "source": "f51e19a20a49"
+  },
+  "video.inspector.a-piece-for-each-clip": {
+    "text": "جزء لكل مقطع",
+    "source": "aceec9902c4c"
+  },
+  "video.inspector.a-piece-for-each-marker": {
+    "text": "جزء لكل علامة",
+    "source": "cb5ab8475fd9"
   },
   "engine.a-pivot-needs-at-least-one": {
     "text": "يحتاج PivotTable إلى حقل واحد على الأقل في «القيم».",
@@ -1312,6 +1348,10 @@
     "text": "مذكرة قصيرة لفريق: إلى ومن والموضوع والخلفية وما سيحدث الآن",
     "source": "7cbd8d22f139"
   },
+  "video.library.a-short-word-on-a-coloured": {
+    "text": "كلمة قصيرة على كبسولة ملونة، مثل NEW أو SALE.",
+    "source": "440aa0204a24"
+  },
   "word.drawings.a-sidebar-stands-beside-the-story": {
     "text": "يقف الشريط الجانبي بجوار النص الرئيسي ويحمل ما يتصل به: ملخصًا، أو قائمة نقاط، أو ملاحظة للقارئ.",
     "source": "f84097aa22f7"
@@ -1343,6 +1383,10 @@
   "slides.export-video.a-slide-with-a-timing-of": {
     "text": "تحتفظ الشريحة التي لها توقيت خاص بتوقيتها عند استخدام التوقيتات؛ وتبقى بقية الشرائح معروضة عدد الثواني المحدد أعلاه. وتُعرض الحركات مكتملة.",
     "source": "8e642bc4c741"
+  },
+  "video.library.a-small-line-along-the-foot": {
+    "text": "سطر صغير على طول أسفل الإطار، مثل عنوان موقعك على الويب.",
+    "source": "9e6f80e3ef70"
   },
   "studio.scene-strip.a-source": {
     "text": "مصدر",
@@ -1610,6 +1654,10 @@
   "common.above-front-right": {
     "text": "علوي أمامي أيمن",
     "source": "0edd0b82de7b"
+  },
+  "sheets.dialogs.above-average": {
+    "text": "أعلى من المتوسط",
+    "source": "98ca5f459314"
   },
   "equations.absolute-value": {
     "text": "القيمة المطلقة",
@@ -2527,6 +2575,10 @@
     "text": "خيارات متقدمة…",
     "source": "1de3a18e329f"
   },
+  "sheets.filter-panel.after": {
+    "text": "بعد",
+    "source": "7b68fe551085"
+  },
   "word.ribbon.after-pt": {
     "text": "بعد (pt)",
     "source": "19ec57700505"
@@ -2734,6 +2786,10 @@
   "slides.ribbon.all-at-once": {
     "text": "دفعة واحدة",
     "source": "c9d506ca2d68"
+  },
+  "video.inspector.all-at-once": {
+    "text": "دفعة واحدة",
+    "source": "f90683717cd2"
   },
   "sheets.ribbon.all-borders": {
     "text": "كافة الحدود",
@@ -3225,6 +3281,10 @@
   "engine.another-program-opens-mail-links-on": {
     "text": "برنامج آخر يفتح روابط البريد على هذا الحاسوب.",
     "source": "1a1b9963a277"
+  },
+  "sheets.dialogs.another-rule": {
+    "text": "قاعدة أخرى",
+    "source": "35c09b4d7aef"
   },
   "common.answer": {
     "text": "رد",
@@ -3969,6 +4029,14 @@
     "text": "بعيد",
     "source": "af16c830c510"
   },
+  "sheets.dialogs.axis": {
+    "text": "المحور",
+    "source": "32b73caefac1"
+  },
+  "sheets.ribbon.axis-titles": {
+    "text": "عناوين المحاور",
+    "source": "900f286eac2b"
+  },
   "common.b5-176-250-mm": {
     "text": "B5: 176 × 250 mm",
     "source": "344900110be7"
@@ -4085,6 +4153,10 @@
     "text": "صفوف ذات شرائط: تظليل صف بعد صف، وفق شرائط النمط",
     "source": "f6ced0fcf385"
   },
+  "sheets.ribbon.banded-rows": {
+    "text": "صفوف ذات نطاقات",
+    "source": "6e9aa5474c82"
+  },
   "common.banner": {
     "text": "شريط",
     "source": "b7f4d98f98d5"
@@ -4141,6 +4213,10 @@
     "text": "صفير",
     "source": "4ccb3fb5330b"
   },
+  "sheets.filter-panel.before": {
+    "text": "قبل",
+    "source": "9bb725005055"
+  },
   "word.ribbon.before-pt": {
     "text": "قبل (pt)",
     "source": "bba72e0923a5"
@@ -4152,6 +4228,10 @@
   "protect.before-sharing-this-file-check-it": {
     "text": "قبل مشاركة هذا الملف، افحصه بحثًا عن محتوى قد لا تريد أن يراه الآخرون: التعليقات والتغييرات والكلمات المخفية والمعلومات الشخصية.",
     "source": "56f7599f4157"
+  },
+  "sheets.filter-panel.begins-with": {
+    "text": "يبدأ بـ",
+    "source": "853978f44eaf"
   },
   "word.ribbon.behind-text": {
     "text": "خلف النص",
@@ -4172,6 +4252,10 @@
   "common.below-front-right": {
     "text": "أسفل الأمام من اليمين",
     "source": "31fedbb2729e"
+  },
+  "sheets.dialogs.below-average": {
+    "text": "أقل من المتوسط",
+    "source": "8f2f0fa9a074"
   },
   "common.berry": {
     "text": "توت",
@@ -4437,9 +4521,17 @@
     "text": "حد سفلي",
     "source": "0dc79f4813a3"
   },
+  "sheets.dialogs.bottom-items": {
+    "text": "أدنى العناصر",
+    "source": "aa9e5db6f818"
+  },
   "common.bottom-left": {
     "text": "أسفل اليسار",
     "source": "f5a57b969150"
+  },
+  "sheets.dialogs.bottom-per-cent": {
+    "text": "أدنى نسبة مئوية",
+    "source": "10bad9a09d6f"
   },
   "common.bottom-right": {
     "text": "أسفل اليمين",
@@ -4448,6 +4540,14 @@
   "video.layer-names.bottom-shade": {
     "text": "تظليل سفلي",
     "source": "1dffbced0f7c"
+  },
+  "sheets.dialogs.bottom-count": {
+    "text": "أدنى {count}",
+    "source": "54119ed17f6b"
+  },
+  "sheets.dialogs.bottom-count-2": {
+    "text": "أدنى {count}%",
+    "source": "658e45ae01eb"
   },
   "word.ribbon.box-dashed-line": {
     "text": "مربع: خط متقطع",
@@ -4979,6 +5079,10 @@
     "text": "الترجمات المصاحبة (.srt، .vtt)",
     "source": "1c941a0a4cea"
   },
+  "video.library.captions-and-quick-adds": {
+    "text": "التسميات التوضيحية والإضافات السريعة",
+    "source": "d062fc34102e"
+  },
   "slides.album.captions-below-all-pictures": {
     "text": "تسميات توضيحية أسفل كل الصور",
     "source": "dd686df00caf"
@@ -5266,6 +5370,10 @@
     "text": "تغيير…",
     "source": "a6b4705c6883"
   },
+  "video.chapter-n": {
+    "text": "الفصل {n}",
+    "source": "816e97139189"
+  },
   "sheets.queries.character": {
     "text": "حرف",
     "source": "1405a63e8a78"
@@ -5293,6 +5401,10 @@
   "sheets.ribbon.chart-design": {
     "text": "تصميم المخطط",
     "source": "d41692080652"
+  },
+  "sheets.ribbon.chart-elements": {
+    "text": "عناصر المخطط",
+    "source": "b2c3cce9d69c"
   },
   "sheets.ribbon.chart-title": {
     "text": "عنوان المخطط",
@@ -5699,6 +5811,10 @@
   "image.choose-the-layer-to-clear-the": {
     "text": "اختر الطبقة التي تريد مسح التحديد منها.",
     "source": "04a21a186397"
+  },
+  "video.choose-the-logo": {
+    "text": "اختيار الشعار",
+    "source": "0240baf232cc"
   },
   "studio.bottom-bar.choose-the-microphone": {
     "text": "اختيار الميكروفون",
@@ -6228,6 +6344,14 @@
     "text": "لون الكلمات",
     "source": "8c6ececb4c11"
   },
+  "sheets.dialogs.colour-of-those-points": {
+    "text": "لون تلك النقاط",
+    "source": "898998460449"
+  },
+  "sheets.dialogs.colour-scale": {
+    "text": "تدرج الألوان",
+    "source": "000799f1a3ef"
+  },
   "sheets.dialogs.colour-scale-green-yellow-red-low": {
     "text": "تدرج الألوان: أخضر، أصفر، أحمر (من الأدنى إلى الأعلى)",
     "source": "234d0c0e170a"
@@ -6490,6 +6614,10 @@
   "locker.compare": {
     "text": "مقارنة…",
     "source": "219ddc366d9d"
+  },
+  "sheets.filter-panel.comparison": {
+    "text": "المقارنة",
+    "source": "571527339d0e"
   },
   "word.mailings.comparison": {
     "text": "المقارنة:",
@@ -6850,6 +6978,10 @@
     "text": "نسخ المسار",
     "source": "720ff4160412"
   },
+  "sheets.copy-sheet": {
+    "text": "نسخ الورقة",
+    "source": "c9a0f392b71f"
+  },
   "sheets.ribbon.copy-the-formatting-here-to-the": {
     "text": "نسخ التنسيق من هنا إلى التحديد التالي",
     "source": "385e4d1fba79"
@@ -6973,6 +7105,10 @@
   "word.ribbon.count-above": {
     "text": "العدد أعلاه",
     "source": "33e9e80a1691"
+  },
+  "sheets.ribbon.count-numbers": {
+    "text": "عدد الأرقام",
+    "source": "f6b68195bdad"
   },
   "sheets.queries.count-rows": {
     "text": "حساب عدد الصفوف",
@@ -7366,6 +7502,10 @@
     "text": "أزرق داكن",
     "source": "6c12f1ca1641"
   },
+  "sheets.dialogs.dark-blue-grey": {
+    "text": "رمادي مزرق داكن",
+    "source": "744e37be8716"
+  },
   "qrcode.dark-brown": {
     "text": "بني داكن",
     "source": "f22b68958bf5"
@@ -7474,6 +7614,10 @@
     "text": "قواعد البيانات في ملفات البيانات (Data Files)",
     "source": "24e8c9743f1a"
   },
+  "sheets.ribbon.data-labels": {
+    "text": "تسميات البيانات",
+    "source": "78023df4505c"
+  },
   "sheets.ribbon.data-table": {
     "text": "جدول البيانات…",
     "source": "fedeed59d538"
@@ -7489,6 +7633,10 @@
   "sheets.ribbon.data-validation": {
     "text": "التحقق من صحة البيانات",
     "source": "28971fd398d1"
+  },
+  "sheets.dialogs.data-bars": {
+    "text": "أشرطة البيانات",
+    "source": "e7a181724128"
   },
   "sheets.dialogs.data-bars-blue": {
     "text": "أشرطة البيانات: أزرق",
@@ -7537,6 +7685,10 @@
   "slides.ribbon.date-and-time-a-date-along": {
     "text": "التاريخ والوقت: تاريخ في الأسفل، يُحدَّث تلقائيًا أو يبقى ثابتًا",
     "source": "f94ad5295f5d"
+  },
+  "sheets.filter-panel.date-filters": {
+    "text": "عوامل تصفية التاريخ",
+    "source": "bacb61184a41"
   },
   "word.forms.date-picker-content-control": {
     "text": "عنصر تحكم منتقي التاريخ",
@@ -8220,6 +8372,10 @@
     "text": "الفرق",
     "source": "4d280a451d04"
   },
+  "sheets.pivot-fields.difference-from-previous": {
+    "text": "الفرق عن العنصر السابق",
+    "source": "4473ab760db3"
+  },
   "slides.different-since-this-deck-was-last": {
     "text": "تغيّرت منذ آخر مرة فُتح فيها هذا العرض التقديمي هنا",
     "source": "da4a123f25df"
@@ -8231,6 +8387,10 @@
   "shell.digits": {
     "text": "الأرقام",
     "source": "9cd500d3d69f"
+  },
+  "video.inspector.dim": {
+    "text": "خافت",
+    "source": "ea53b1cb304d"
   },
   "pictures.dimensions": {
     "text": "الأبعاد",
@@ -8411,6 +8571,14 @@
   "home.documents-mail-and-media-all-work": {
     "text": "تعمل المستندات والبريد والوسائط كلها دون اتصال بالشبكة",
     "source": "e815503e3abf"
+  },
+  "sheets.filter-panel.does-not-contain": {
+    "text": "لا يحتوي على",
+    "source": "56fe07f0e32e"
+  },
+  "sheets.filter-panel.does-not-equal": {
+    "text": "لا يساوي",
+    "source": "e47c3280f3bf"
   },
   "calendar.does-not-repeat": {
     "text": "لا يتكرر",
@@ -8763,10 +8931,6 @@
     "text": "تمت إزالة الصفوف المكررة",
     "source": "e606bafdbd22"
   },
-  "sheets.duplicate-rows-removed-the-rest-closed": {
-    "text": "تمت إزالة الصفوف المكررة؛ وضُمّت الصفوف المتبقية",
-    "source": "0827cbb28e3a"
-  },
   "slides.duplicate-slide": {
     "text": "تكرار الشريحة",
     "source": "ab7940817995"
@@ -8867,6 +9031,10 @@
     "text": "يُقرأ كل سطر بصوت عالٍ وتظهر كلماته أثناء تشغيل صوته، سطرًا تلو الآخر",
     "source": "282adc866b4a"
   },
+  "studio.spoken-run.each-line-types-in-letter-by": {
+    "text": "يُكتب كل سطر حرفًا حرفًا، بدءًا من السطر المنطوق التالي.",
+    "source": "a390f5fb2388"
+  },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "لكل حساب بريد وتقويم ودفتر عناوين وقاعدة بيانات ومجلد إعداده الخاص، ويظهر أيضاً في تطبيقه، وكذلك المسجّل (Recorder). كل شيء متوقف حتى تختار. لا يُحذف شيء ولا يُنقل أبداً، وكل ما يُرسل ينتظر ضغطتك هنا أولاً.",
     "source": "0fd0a5b12aaa"
@@ -8911,6 +9079,10 @@
     "text": "كل مصدر في ملف خاص به",
     "source": "87ba78fbecfd"
   },
+  "sheets.dialogs.each-sparkline-its-own-lowest-and": {
+    "text": "لكل خط مؤشر أدنى وأعلى قيمة له",
+    "source": "6a9c83cdf903"
+  },
   "sheets.objects.each-ticked-field-gets-a-panel": {
     "text": "يحصل كل حقل محدد على لوحة أزرار، زر لكل عنصر، تقوم بتصفية جدول PivotTable.",
     "source": "57b495c85a7a"
@@ -8930,6 +9102,10 @@
   "slides.custom-shows.earlier-in-the-show": {
     "text": "أبكر في العرض",
     "source": "c75dff7e0d23"
+  },
+  "sheets.dialogs.earliest-date": {
+    "text": "أقدم تاريخ",
+    "source": "82a5aebc403c"
   },
   "word.references-index.earth": {
     "text": "الأرض",
@@ -9423,6 +9599,10 @@
     "text": "ينتهي",
     "source": "e98982c9f2ba"
   },
+  "sheets.filter-panel.ends-with": {
+    "text": "ينتهي بـ",
+    "source": "fc203569fa85"
+  },
   "base.links.engine": {
     "text": "المحرك",
     "source": "8e75ebbdb215"
@@ -9498,6 +9678,10 @@
   "common.equal-to": {
     "text": "يساوي",
     "source": "6a26ff8ea94b"
+  },
+  "sheets.filter-panel.equals": {
+    "text": "يساوي",
+    "source": "f939ae3d30c6"
   },
   "common.equation": {
     "text": "معادلة",
@@ -9635,6 +9819,10 @@
     "text": "كل زر بصورته وحدها؛ ويظهر اسمه حين يستقر المؤشر عليه",
     "source": "21abdd3708ee"
   },
+  "video.inspector.every-caption-in-the-film-types": {
+    "text": "تُكتب كل التسميات التوضيحية في الفيلم بهذه السرعة.",
+    "source": "330cbb6a15e3"
+  },
   "slides.every-comment-here-was-already-read": {
     "text": "كل تعليق هنا مقروء من قبل.",
     "source": "47ca1a3a2589"
@@ -9721,6 +9909,10 @@
   "pictures.every-picture-shown-count": {
     "text": "كل الصور المعروضة ({count})",
     "source": "904610f6a47a"
+  },
+  "sheets.dialogs.every-point-line-only": {
+    "text": "كل النقاط (للخط فقط)",
+    "source": "88f8f754acf4"
   },
   "base.documents.every-record": {
     "text": "كل السجلات",
@@ -11213,6 +11405,10 @@
     "text": "صيغة: حقل في الخلية التي بها المؤشر يُحسب من الأرقام الموجودة فوقه أو إلى يساره، أو من خلايا مثل B2 أو B2:B4، كما في =SUM(ABOVE) في Word",
     "source": "ac4ef0433793"
   },
+  "sheets.dialogs.formula-formula": {
+    "text": "الصيغة: {formula}",
+    "source": "373a77366380"
+  },
   "sheets.formulas": {
     "text": "الصيغ",
     "source": "098baf95d843"
@@ -11796,6 +11992,10 @@
   "word.mailings.greater-than-or-equal": {
     "text": "أكبر من أو يساوي",
     "source": "4df4f066c9c1"
+  },
+  "sheets.filter-panel.greater-than-or-equal-to": {
+    "text": "أكبر من أو يساوي",
+    "source": "85d08e847878"
   },
   "common.greek": {
     "text": "يوناني",
@@ -12392,6 +12592,10 @@
     "text": "إخفاء الشريحة: هذه الشريحة مخفية من العرض؛ اضغط مرة أخرى لإظهارها",
     "source": "7d777db556ab"
   },
+  "sheets.hide-columns": {
+    "text": "إخفاء الأعمدة",
+    "source": "9d5c93b12237"
+  },
   "image.layers-panel.hide-its-layers": {
     "text": "إخفاء طبقاته",
     "source": "e3c527659d85"
@@ -12399,6 +12603,10 @@
   "protect.hide-password": {
     "text": "إخفاء كلمة المرور",
     "source": "a60a56c584b3"
+  },
+  "sheets.hide-rows": {
+    "text": "إخفاء الصفوف",
+    "source": "6e6875f9e909"
   },
   "talk.invite.hide-the-code": {
     "text": "إخفاء الرمز",
@@ -12451,6 +12659,10 @@
   "qrcode.high-30": {
     "text": "عالٍ (30%)",
     "source": "652a05d1ae51"
+  },
+  "sheets.dialogs.high-point": {
+    "text": "النقطة العالية",
+    "source": "80ab296d2b33"
   },
   "pdf.export.high-quality-225-dots-per-inch": {
     "text": "جودة عالية (225 نقطة لكل بوصة)",
@@ -12563,6 +12775,10 @@
   "slides.horizontal-out": {
     "text": "أفقي للخارج",
     "source": "51081ab58752"
+  },
+  "sheets.ribbon.horizontal-axis-title": {
+    "text": "عنوان المحور الأفقي",
+    "source": "b3c89eb1f3c0"
   },
   "common.horizontal-brick": {
     "text": "طوب أفقي",
@@ -12723,6 +12939,10 @@
   "common.icon": {
     "text": "أيقونة",
     "source": "a35abcd6dac9"
+  },
+  "sheets.dialogs.icon-set": {
+    "text": "مجموعة أيقونات",
+    "source": "a3ae5ca177a0"
   },
   "common.icons": {
     "text": "أيقونات",
@@ -13018,6 +13238,10 @@
     "text": "في حساب أو أرشيف واحد",
     "source": "be358173c89a"
   },
+  "video.inspector.in-pieces": {
+    "text": "على أجزاء",
+    "source": "786b72b37492"
+  },
   "video.in-point": {
     "text": "نقطة البداية",
     "source": "9c1d42b38a85"
@@ -13068,6 +13292,10 @@
   "video.in-from-out-to": {
     "text": "البداية {from}، النهاية {to}",
     "source": "9ad2ac8a59a8"
+  },
+  "sheets.dialogs.in-range-a-row-that-repeats": {
+    "text": "في {range}، تتم إزالة كل صف يكرر صفًا سابقًا في جميع الأعمدة المحددة. ويبقى أول صف من كل مجموعة.",
+    "source": "ac1519f6f42d"
   },
   "studio.shared.in-seconds-s": {
     "text": "خلال {seconds} ثانية",
@@ -14081,6 +14309,14 @@
     "text": "مائل (Ctrl+I)",
     "source": "ccc60dff1674"
   },
+  "sheets.filter-panel.items": {
+    "text": "عناصر",
+    "source": "fb8e7a1a3cb7"
+  },
+  "sheets.filter-panel.items-or-percent": {
+    "text": "عناصر أم نسبة مئوية",
+    "source": "14cded7778d2"
+  },
   "template-gallery.items-counts-and-reorder-levels-the": {
     "text": "الأصناف والكميات وحدود إعادة الطلب وقيمة المخزون وما يلزم طلبه مجددًا",
     "source": "a704276dd164"
@@ -14115,6 +14351,10 @@
   "slides.ribbon.its-notes": {
     "text": "ملاحظاتها",
     "source": "a316f96e4b04"
+  },
+  "sheets.dialogs.its-own-lowest-and-highest-shows": {
+    "text": "تُظهر الحدود الخاصة بكل خط ارتفاعات كل صف وانخفاضاته؛ ويقارن المحور الموحد للجميع بين أحجامها.",
+    "source": "2a62e687c030"
   },
   "mail.smime.its-password": {
     "text": "كلمة مروره",
@@ -14278,6 +14518,10 @@
   "word.ribbon.justify-with-kashida-stretch-the-letters": {
     "text": "الضبط بالكشيدة: مدّ الحروف لملء السطر، كما يُضبط النص العربي",
     "source": "b7ba4e7d59c4"
+  },
+  "video.inspector.karaoke": {
+    "text": "كاريوكي",
+    "source": "34cd21fcc55b"
   },
   "common.keep": {
     "text": "احتفاظ",
@@ -14719,6 +14963,10 @@
     "text": "اسم العائلة",
     "source": "7b4888049459"
   },
+  "sheets.dialogs.last-point": {
+    "text": "النقطة الأخيرة",
+    "source": "430de8dd535b"
+  },
   "common.last-record": {
     "text": "السجل الأخير",
     "source": "27fef2475093"
@@ -14762,6 +15010,10 @@
   "mail.compose.later-today-9pm": {
     "text": "لاحقاً اليوم، 9 مساءً",
     "source": "1c66a953a2b9"
+  },
+  "sheets.dialogs.latest-date": {
+    "text": "أحدث تاريخ",
+    "source": "a9de7221765f"
   },
   "image.layer": {
     "text": "الطبقة",
@@ -15041,6 +15293,10 @@
     "text": "أقل من أو يساوي",
     "source": "ee8df42e1687"
   },
+  "sheets.filter-panel.less-than-or-equal-to": {
+    "text": "أصغر من أو يساوي",
+    "source": "ae1564a79ff3"
+  },
   "template-gallery.lesson": {
     "text": "درس",
     "source": "6e2b26d9de40"
@@ -15249,6 +15505,10 @@
     "text": "خط فاصل",
     "source": "1bac593d7aea"
   },
+  "video.inspector.line-by-line": {
+    "text": "سطرًا سطرًا",
+    "source": "d69a37385809"
+  },
   "sheets.dialogs.line-chart": {
     "text": "مخطط خطي",
     "source": "22089151613f"
@@ -15308,6 +15568,10 @@
   "base.documents.lines-from": {
     "text": "السطور من",
     "source": "dc6d35c2f93b"
+  },
+  "video.inspector.lines-one-at-a-time": {
+    "text": "السطور واحدًا تلو الآخر",
+    "source": "e30051392bb1"
   },
   "locker.lines-say-what-to-lock-a": {
     "text": "تحدد الأسطر ما يُقفل؛ والسطر الذي يبدأ بعلامة ! يصنع استثناءً. دون أسطر يُقفل كل ملف.",
@@ -15760,6 +16024,10 @@
   "video.export.low-smaller-file": {
     "text": "منخفضة (ملف أصغر)",
     "source": "e585bb7bd95c"
+  },
+  "sheets.dialogs.low-point": {
+    "text": "النقطة المنخفضة",
+    "source": "2529ac347b3d"
   },
   "video.ribbon.lower-third": {
     "text": "شريط سفلي",
@@ -17196,6 +17464,10 @@
     "text": "جهات اتصالي",
     "source": "6add5927687d"
   },
+  "sheets.dialogs.my-data-has-headers": {
+    "text": "تحتوي بياناتي على رؤوس",
+    "source": "e917f14e7d6e"
+  },
   "talk.invite.my-email-app": {
     "text": "تطبيق البريد لديّ",
     "source": "c7aaaf0507c4"
@@ -17239,6 +17511,10 @@
   "broadcast.live-dialog.name-optional": {
     "text": "الاسم (اختياري)",
     "source": "e09b37bcc4f3"
+  },
+  "sheets.name-box.name-box": {
+    "text": "مربع الاسم",
+    "source": "730b51d34ee3"
   },
   "sheets.ribbon.name-manager": {
     "text": "إدارة الأسماء",
@@ -17393,6 +17669,10 @@
   "locker.needs-you": {
     "text": "بحاجة إليك",
     "source": "74b6abdf5969"
+  },
+  "sheets.dialogs.negative-points": {
+    "text": "النقاط السالبة",
+    "source": "6963e8f96ed2"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "لا يستطيع أي منكما مراسلة الآخر أو الاتصال به حتى تعودا جهتي اتصال. تُحذف رسائلكما هنا.",
@@ -18026,6 +18306,10 @@
     "text": "لا توجد أجزاء أساسية بعد",
     "source": "ee11b12ee206"
   },
+  "sheets.pivot-fields.no-calculation": {
+    "text": "بلا حساب",
+    "source": "5da6f87ac7cb"
+  },
   "engine.no-calendars-or-address-books-were": {
     "text": "لم يتم العثور على تقويمات أو دفاتر عناوين على هذا العنوان.",
     "source": "6b303bb9fae7"
@@ -18134,9 +18418,9 @@
     "text": "لا توجد أفكار تصميم لهذه الشريحة: أضف إليها عنواناً أو بعض الكلمات أو صورة.",
     "source": "1f07475c0307"
   },
-  "sheets.no-duplicate-rows-in-the-selection": {
-    "text": "لا توجد صفوف مكررة في التحديد",
-    "source": "47e580620f2e"
+  "sheets.no-duplicate-rows-found-kept-rows": {
+    "text": "لم يتم العثور على صفوف مكررة؛ الصفوف المتبقية: {kept}.",
+    "source": "a032b583b3d3"
   },
   "word.mailings.no-duplicates": {
     "text": "لا توجد تكرارات",
@@ -19185,6 +19469,18 @@
     "text": "الإعلامات متوقفة مؤقتًا حتى {time}",
     "source": "1d6521f14f4e"
   },
+  "notify-dialog.notifications-are-turned-off-in-windows": {
+    "text": "الإعلامات متوقفة في Windows، لذا لا يعرض أي إعلام من رتبة أوفيس (Rutba Office). شغّلها في إعدادات Windows، ضمن النظام، ثم الإعلامات.",
+    "source": "a652d04931a6"
+  },
+  "notify-dialog.notifications-are-turned-off-on-this": {
+    "text": "أوقف مسؤول هذا الكمبيوتر الإعلامات، لذا لا يعرض Windows أي إعلام من رتبة أوفيس (Rutba Office). يبقى عدد ما ينتظرك ظاهرًا على أيقونته بجانب الساعة.",
+    "source": "76e702238671"
+  },
+  "notify-dialog.notifications-from-rutba-office-are-turned": {
+    "text": "إعلامات رتبة أوفيس (Rutba Office) متوقفة في Windows. شغّلها في إعدادات Windows، ضمن النظام، ثم الإعلامات، ثم رتبة أوفيس.",
+    "source": "e19167006214"
+  },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "الآن {width} × {height} سم. يُغيَّر حجم كل ما على الشرائح ويوسَّط ليناسب الحجم الجديد.",
     "source": "4e0c85185863"
@@ -19204,6 +19500,10 @@
   "common.number": {
     "text": "رقم",
     "source": "bd82cf16699b"
+  },
+  "sheets.filter-panel.number-filters": {
+    "text": "عوامل تصفية الأرقام",
+    "source": "13fe0c5baab5"
   },
   "pictures.batch.number-as-001": {
     "text": "الرقم مثل 001",
@@ -19409,6 +19709,10 @@
     "text": "على طبقة رسم جديدة",
     "source": "0501424bc7c7"
   },
+  "video.inspector.on-a-panel": {
+    "text": "على لوحة",
+    "source": "e8787dfd4dc5"
+  },
   "studio.live-panel.on-air": {
     "text": "على الهواء",
     "source": "c2332b223176"
@@ -19501,6 +19805,14 @@
     "text": "إجابة واحدة تضم كل السجلات",
     "source": "0670ff9a00aa"
   },
+  "video.inspector.one-bar": {
+    "text": "شريط واحد",
+    "source": "4bfa8b51bda1"
+  },
+  "video.inspector.one-caption-a-line-one-after": {
+    "text": "تسمية توضيحية لكل سطر، واحدة تلو الأخرى، كل منها على مسارها الخاص.",
+    "source": "01dc9af7bfb6"
+  },
   "slides.ribbon.one-column": {
     "text": "عمود واحد",
     "source": "4af4c82acab4"
@@ -19520,6 +19832,10 @@
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "كل سطر هنا سطر في الصفحة. تنقل علامة الجدولة النص إلى الوسط، وتنقله الثانية إلى اليمين.",
     "source": "80be2d4cf6a5"
+  },
+  "video.inspector.one-line-there-is-nothing-to": {
+    "text": "سطر واحد: لا يوجد ما يمكن تقسيمه.",
+    "source": "c2918f5eb39b"
   },
   "image.layers-panel.one-name-and-one-number-on": {
     "text": "اسم ورقم في كل سطر، مثل: الاثنين، 12",
@@ -19599,6 +19915,10 @@
   "notify-dialog.only-an-installed-copy-of-rutba": {
     "text": "لا تبدأ مع Windows إلا نسخة مثبتة من رتبة أوفيس (Rutba Office).",
     "source": "5d376c6f923f"
+  },
+  "notify-dialog.only-an-installed-copy-of-rutba-2": {
+    "text": "لا تعرض إعلامات Windows إلا نسخة مثبتة من رتبة أوفيس (Rutba Office). يبقى عدد ما ينتظرك ظاهرًا على أيقونته بجانب الساعة.",
+    "source": "5fedb6d63e92"
   },
   "word.only-certain-kinds-of-changes-can": {
     "text": "لا يُسمح إلا بأنواع معينة من التغييرات في هذا المستند: مراجعة ← تقييد التحرير.",
@@ -19923,6 +20243,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "فتح لوحة Kick",
     "source": "bf6f8e9ef858"
+  },
+  "notify-dialog.open-the-settings-of-windows": {
+    "text": "فتح إعدادات Windows",
+    "source": "5af9b33ed216"
   },
   "talk.open-the-browser-again": {
     "text": "إعادة فتح المتصفح",
@@ -20912,6 +21236,10 @@
     "text": "اختر مقطعاً لعرض إعداداته.",
     "source": "6eb0903d3b41"
   },
+  "sheets.dialogs.pick-a-colour-for-the-tab": {
+    "text": "اختر لونًا لعلامة تبويب {name}.",
+    "source": "e9df2741dc65"
+  },
   "slides.pick-a-comment-first-in-the": {
     "text": "اختر تعليقًا أولًا، في الجزء أو على الشريحة.",
     "source": "f5e1dbf895bc"
@@ -20931,6 +21259,14 @@
   "talk.invite-email.pick-from-contacts": {
     "text": "اختر من جهات الاتصال",
     "source": "e44028663b60"
+  },
+  "sheets.pick-from-the-list": {
+    "text": "الاختيار من القائمة",
+    "source": "a8fc191ece74"
+  },
+  "sheets.pick-one-of-list": {
+    "text": "اختر واحدًا من: {list}.",
+    "source": "77094891e902"
   },
   "contacts.pick-one-on-the-left-or": {
     "text": "اختر جهة اتصال من القائمة الجانبية، أو اضغط Ctrl+N لإنشاء بطاقة جديدة.",
@@ -22078,6 +22414,10 @@
   "sheets.put-the-cursor-in-a-table": {
     "text": "ضع المؤشر في جدول أو PivotTable. تقوم أداة تقسيم البيانات بتصفية أحدهما.",
     "source": "906ca4fd2842"
+  },
+  "sheets.ribbon.put-the-legend-at-a-side": {
+    "text": "ضع وسيلة الإيضاح على أحد جوانب المخطط، أو أزلها.",
+    "source": "f49a59ee7c72"
   },
   "image.tools.put-the-pins-back": {
     "text": "أعد الدبابيس",
@@ -23344,6 +23684,10 @@
     "text": "إزالة هذا الصف",
     "source": "9b034cbd964e"
   },
+  "sheets.dialogs.remove-this-rule": {
+    "text": "إزالة هذه القاعدة",
+    "source": "006122390887"
+  },
   "sheets.remove-this-watch": {
     "text": "إزالة هذه المراقبة",
     "source": "7c1c8bf08b8c"
@@ -24450,6 +24794,10 @@
     "text": "قواعد",
     "source": "4228aeb07c41"
   },
+  "sheets.dialogs.rules-on-this-sheet": {
+    "text": "القواعد في هذه الورقة",
+    "source": "febf492f1ab9"
+  },
   "mail.rules.rules-run-when-mail-arrives-and": {
     "text": "تعمل القواعد عند وصول البريد، ويمكن تشغيلها على أي مجلد متى شئت.",
     "source": "6045d8d52773"
@@ -25445,6 +25793,10 @@
     "text": "اللون الثاني: حيث ينتهي التدرج",
     "source": "014aa91028da"
   },
+  "video.inspector.second-line": {
+    "text": "السطر الثاني",
+    "source": "c8b588f708d6"
+  },
   "video.library.second-point": {
     "text": "النقطة الثانية",
     "source": "55b07a59a655"
@@ -25452,6 +25804,10 @@
   "calendar.second-time-zone": {
     "text": "المنطقة الزمنية الثانية",
     "source": "49755d0fec21"
+  },
+  "sheets.filter-panel.second-value": {
+    "text": "القيمة الثانية",
+    "source": "c4a53a97a697"
   },
   "slides.export-video.seconds-spent-on-each-slide": {
     "text": "الثواني المستغرقة على كل شريحة",
@@ -25841,6 +26197,10 @@
     "text": "أرسل رابطًا إلى أصدقائك بالطريقة التي تحبها. من يفتحه يصبح جهة اتصال لديك حين يقبل، باستخدام رتبة أوفيس (Rutba Office) أو، من دونه، بحساب رتبة مجاني. اسحبه حين تنتهي.",
     "source": "bd1c97fbc637"
   },
+  "talk.send-again": {
+    "text": "إعادة الإرسال",
+    "source": "feead925e260"
+  },
   "mail.send-and-receive": {
     "text": "إرسال وتلقي",
     "source": "ffcf0846896c"
@@ -26093,9 +26453,9 @@
     "text": "مفصولة بفواصل",
     "source": "1d7e4e1cdf8b"
   },
-  "sheets.dialogs.separated-by-commas-or-a-range": {
-    "text": "مفصولة بفواصل، أو نطاق مثل $H$1:$H$9.",
-    "source": "66ebf7c18623"
+  "sheets.dialogs.separated-by-commas-or-a-range-2": {
+    "text": "قيم مفصولة بفواصل، أو نطاق مثل $H$1:$H$9 أو Products!A2:A11.",
+    "source": "deed8689a130"
   },
   "word.ribbon.separated-by-tabs": {
     "text": "مفصولة بعلامات جدولة",
@@ -26117,9 +26477,17 @@
     "text": "سلسلة",
     "source": "a8295e08ff7a"
   },
+  "sheets.ribbon.series-colour": {
+    "text": "لون السلسلة",
+    "source": "3989e7fea65a"
+  },
   "sheets.dialogs.series-in": {
     "text": "السلسلة في",
     "source": "ceaab7f3e90b"
+  },
+  "sheets.ribbon.series-to-colour": {
+    "text": "السلسلة المراد تلوينها",
+    "source": "aa8f68cf8f3b"
   },
   "slides.series-number": {
     "text": "سلسلة {number}",
@@ -26788,6 +27156,10 @@
     "text": "نوع العرض",
     "source": "5d97277b82b2"
   },
+  "sheets.pivot-fields.show-values-as": {
+    "text": "إظهار القيم كـ",
+    "source": "bb7cc9d7da0d"
+  },
   "notify-dialog.show-what-it-says": {
     "text": "إظهار محتوى الإعلام",
     "source": "01ff1c611346"
@@ -26819,6 +27191,10 @@
   "talk.meet-lines.showing-their-screen": {
     "text": "جارٍ عرض الشاشة",
     "source": "1c428d39d527"
+  },
+  "studio.spoken-run.shown-only-the-words-type-at": {
+    "text": "عند الإظهار فقط، تُكتب الكلمات بالسرعة العادية.",
+    "source": "25a457d9d675"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "يظهر لمن تتحدث معهم",
@@ -26871,6 +27247,10 @@
   "word.ribbon.shrink-font": {
     "text": "تصغير الخط",
     "source": "176934670a3e"
+  },
+  "video.inspector.shrink-to-fit": {
+    "text": "تصغير للاحتواء",
+    "source": "e65455733f3a"
   },
   "image.tools.shrink-narrow-the-selection-by-that": {
     "text": "تقليص: ضيّق التحديد بهذا العدد من البكسلات",
@@ -27440,6 +27820,10 @@
     "text": "أصغر قيمة أعلاه",
     "source": "b66a27b2ba69"
   },
+  "sheets.pivot-fields.smallest-first": {
+    "text": "الأصغر أولًا",
+    "source": "4b15d87c3abc"
+  },
   "common.smartart": {
     "text": "SmartArt",
     "source": "fe46ea12fa77"
@@ -27640,6 +28024,10 @@
     "text": "فرز الفقرات: من أ إلى ي أو من ي إلى أ؛ المستند بأكمله عند عدم تحديد أي شيء",
     "source": "bd64668cb009"
   },
+  "sheets.pivot-fields.sort-the-items": {
+    "text": "فرز العناصر",
+    "source": "8f5ac57242b2"
+  },
   "sheets.ribbon.sort-the-list-a-to-z": {
     "text": "فرز القائمة من أ إلى ي حسب العمود {name}، عمود الخلية النشطة؛ ويبقى صف العناوين في الأعلى",
     "source": "121020686363"
@@ -27784,6 +28172,10 @@
     "text": "بريق",
     "source": "abac3d1ed392"
   },
+  "sheets.sparkline-options": {
+    "text": "خيارات خط المؤشر",
+    "source": "7660b0f99e6b"
+  },
   "sheets.ribbon.sparklines": {
     "text": "خطوط المؤشر",
     "source": "a77d2f6f62bf"
@@ -27927,6 +28319,10 @@
   "word.split-cells": {
     "text": "تقسيم الخلايا",
     "source": "ec306591839f"
+  },
+  "video.inspector.split-into-lines": {
+    "text": "تقسيم إلى أسطر",
+    "source": "2b164901b73d"
   },
   "sheets.split-into-the-cells-to-the": {
     "text": "تقسيم إلى الخلايا الموجودة على اليمين",
@@ -28122,6 +28518,10 @@
   "word.list-dialog.start-at": {
     "text": "البدء عند",
     "source": "334c284f438c"
+  },
+  "sheets.dialogs.start-at-nought": {
+    "text": "بدء المحور من الصفر",
+    "source": "8e5da7fea6e5"
   },
   "word.restrict.start-enforcement": {
     "text": "بدء الفرض",
@@ -28727,6 +29127,14 @@
     "text": "قيم مفصولة بعلامات جدولة (.tsv)",
     "source": "8015e916b0d7"
   },
+  "sheets.dialogs.tab-colour": {
+    "text": "لون علامة التبويب",
+    "source": "5ea3b6dde585"
+  },
+  "sheets.tab-colour": {
+    "text": "لون علامة التبويب…",
+    "source": "2dc7ab1e9dc6"
+  },
   "word.tab-leader": {
     "text": "السابقة لعلامة الجدولة",
     "source": "4c13c6224502"
@@ -29250,6 +29658,10 @@
     "text": "تأثيرات النص: تحويل",
     "source": "788f2d5eb581"
   },
+  "sheets.filter-panel.text-filters": {
+    "text": "عوامل تصفية النصوص",
+    "source": "ab3c6a9c325c"
+  },
   "word.forms.text-form-field": {
     "text": "حقل نموذج نصي",
     "source": "c493dd6ddde9"
@@ -29293,6 +29705,10 @@
   "slides.revisions.text-changed": {
     "text": "تغيّر النص",
     "source": "26c7b5775381"
+  },
+  "video.inspector.text-colour": {
+    "text": "لون النص",
+    "source": "25e9c8090de7"
   },
   "sheets.dialogs.text-contains": {
     "text": "النص يحتوي على",
@@ -29894,6 +30310,10 @@
     "text": "التطبيقات التي تريد أن تراها وأن تفتح ملفاتك.",
     "source": "332e5249e305"
   },
+  "video.inspector.the-bar-covers-the-whole-film": {
+    "text": "يغطي الشريط الفيلم كله أثناء تقدمه، إلى أن يُغيَّر طوله.",
+    "source": "da0ae4020925"
+  },
   "video.inspector.the-bar-fills-from-where-this": {
     "text": "يمتلئ الشريط من حيث يبدأ هذا المقطع إلى حيث ينتهي.",
     "source": "01d9656a5ad1"
@@ -29901,6 +30321,10 @@
   "video.the-brand-kit-is-kept-for": {
     "text": "عُدّة العلامة محفوظة لك ومرسومة في كل مشهد.",
     "source": "3180710525cd"
+  },
+  "video.inspector.the-brand-kit-logo": {
+    "text": "شعار العلامة التجارية",
+    "source": "cee5b3c1d63e"
   },
   "word.list-dialog.the-bullet-character": {
     "text": "حرف التعداد النقطي.",
@@ -30072,6 +30496,10 @@
   "talk-words.the-connection-was-lost-and-the": {
     "text": "انقطع الاتصال وتعذر الانضمام إلى الاجتماع مرة أخرى.",
     "source": "ecc583f6d5d1"
+  },
+  "sheets.the-copy-has-the-cells-and": {
+    "text": "تحتوي النسخة على الخلايا وتنسيقاتها. أما المخططات والصور والجداول وجداول PivotTable فتبقى في الورقة الأولى.",
+    "source": "dad761a634d9"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "لا يمكن أن يقع نطاق المعايير داخل القائمة",
@@ -30470,6 +30898,10 @@
     "text": "حُفظت النسخة المقفلة. أرسلها بأي طريقة تريد.",
     "source": "bbfae89220a6"
   },
+  "video.library.the-logo-from-your-brand-kit": {
+    "text": "الشعار من مجموعة علامتك التجارية في الزاوية، أو صورة تختارها.",
+    "source": "9323498bce87"
+  },
   "engine.the-mail-app-is-chosen-in": {
     "text": "يُختار تطبيق البريد في إعدادات النظام نفسه على هذا الحاسوب.",
     "source": "5141d3af3f67"
@@ -30509,6 +30941,10 @@
   "mail.parts.the-mail-server-would-not-keep": {
     "text": "رفض خادم البريد حفظ نسخة من رسالتك المرسلة في {folder}. النسخة هنا محفوظة.",
     "source": "59af5bb0cb8f"
+  },
+  "mail.parts.the-mail-server-would-not-keep-2": {
+    "text": "لم يقبل خادم البريد حفظ المسودة في {folder}. لا تزال على هذا الكمبيوتر.",
+    "source": "2304437141a3"
   },
   "mail.parts.the-mail-server-would-not-make": {
     "text": "رفض خادم البريد تغييراً أُجري هنا. يعرض البريد ما على الخادم.",
@@ -30557,6 +30993,10 @@
   "talk.meet-lines.the-meeting-is-full-on-its": {
     "text": "الاجتماع ممتلئ على خادم توك (Talk Server) الخاص به.",
     "source": "a28293313806"
+  },
+  "talk.the-meeting-stays-here-reason": {
+    "text": "يبقى الاجتماع هنا: {reason}",
+    "source": "2f8fd822d081"
   },
   "talk.meet-lines.the-meetings-talk-server-is-not": {
     "text": "لا يقبل خادم توك (Talk Server) الخاص بالاجتماع أشخاصًا الآن. حاول مرة أخرى بعد قليل.",
@@ -31061,6 +31501,10 @@
     "text": "أُنشئت النسخة الاحتياطية من {name} في {when}. تُكتب ملفاتها الـ {n} غير مقفلة في مجلد جديد داخل المجلد الذي تختاره. لا يتغيّر شيء موجود هناك.",
     "source": "a34f0ed2f93a"
   },
+  "sheets.dialogs.the-same-for-all-of-them": {
+    "text": "موحد لجميع خطوط المؤشر",
+    "source": "eef1cb1cfa61"
+  },
   "locker.the-same-password-again": {
     "text": "كلمة المرور نفسها مرة أخرى",
     "source": "cfd750367fe1"
@@ -31119,6 +31563,10 @@
   "sheets.dialogs.the-selection-holds-a-formula-in": {
     "text": "يحتوي التحديد على صيغة في زاويته وعلى القيم المراد تجربتها على امتداد حوافه. وتُملأ كل خلية بالنتيجة التي تعطيها الصيغة لتلك التركيبة من القيم.",
     "source": "fe7e0163219d"
+  },
+  "sheets.the-selection-is-now-named-name": {
+    "text": "أصبح اسم التحديد الآن {name}.",
+    "source": "c3c614e5e0f0"
   },
   "mail.the-sender-supports-one-click-unsubscribe": {
     "text": "يدعم المرسل إلغاء الاشتراك بنقرة واحدة. يُرسل إليه طلب واحد فقط ولا يغادر هذا الحاسوب أي شيء آخر.",
@@ -31327,6 +31775,10 @@
   "engine.the-text-recognition-model-for-key": {
     "text": "تعذر تحميل نموذج التعرف على النص لـ {key}.",
     "source": "44a1288700c8"
+  },
+  "video.inspector.the-theme-colour": {
+    "text": "لون النسق",
+    "source": "c9c8ab182186"
   },
   "slides.ribbon.the-themes-own-looks-filled-in": {
     "text": "مظاهر النسق نفسه: تعبئة بلون تمييز، ومخطط تفصيلي باللون ذاته",
@@ -31779,6 +32231,10 @@
   "mail.these-accounts": {
     "text": "هذه الحسابات",
     "source": "0eca400d4be1"
+  },
+  "sheets.dialogs.these-apply-to-every-sparkline-made": {
+    "text": "تنطبق هذه الخيارات على كل خطوط المؤشر التي أُنشئت مع هذا الخط.",
+    "source": "a459084b0d0c"
   },
   "mail.these-are-imported-archives-there-is": {
     "text": "هذه أرشيفات مستوردة، لذا لا يوجد ما يمكن جلبه.",
@@ -32241,6 +32697,10 @@
   "word.restrict.this-document-is-protected-only-comments": {
     "text": "هذا المستند محمي: لا يمكن هنا سوى إضافة تعليقات. اختر مراجعة ← تقييد التحرير لعرض المناطق التي يمكنك تحريرها.",
     "source": "b908b8376d8e"
+  },
+  "sheets.this-entry-does-not-match-the": {
+    "text": "لا يطابق هذا الإدخال القاعدة المعينة لهذه الخلية.",
+    "source": "64430678bcb5"
   },
   "calendar.this-event-has-a-talk-meeting": {
     "text": "لهذا الحدث اجتماع توك (Talk). ارتباطه موجود في الدعوة.",
@@ -32725,6 +33185,10 @@
     "text": "لا تحتوي هذه الورقة على مخطط تفصيلي لمسحه",
     "source": "a80699366a86"
   },
+  "sheets.dialogs.this-sheet-has-no-rules-yet": {
+    "text": "لا توجد قواعد في هذه الورقة بعد.",
+    "source": "735960d6edfc"
+  },
   "sheets.this-sheet-is-protected-with-a": {
     "text": "هذه الورقة محمية بكلمة مرور. اكتبها لإلغاء الحماية.",
     "source": "368023c3045c"
@@ -32844,6 +33308,10 @@
   "studio.guests.this-window-leaves-and-talk-comes": {
     "text": "تُغلق هذه النافذة ويحل توك (Talk) محلها: الأشخاص أنفسهم، في اجتماع.",
     "source": "fa116fc70753"
+  },
+  "talk.this-window-leaves-the-meeting-once": {
+    "text": "تغادر هذه النافذة الاجتماع بعد فتح النافذة الأخرى، وتتولى تنظيمه من هناك.",
+    "source": "fb83b9a3480f"
   },
   "sheets.this-workbook-has-no-comments": {
     "text": "لا يحتوي هذا المصنف على تعليقات.",
@@ -33255,6 +33723,10 @@
     "text": "حد علوي",
     "source": "79775184aaa3"
   },
+  "sheets.dialogs.top-items": {
+    "text": "أعلى العناصر",
+    "source": "af3865aa2315"
+  },
   "common.top-left": {
     "text": "أعلى اليسار",
     "source": "a0eda50fb155"
@@ -33263,6 +33735,10 @@
     "text": "أعلى القائمة هو الأمامي. اسحب لتغيير الترتيب.",
     "source": "428a0adb9e63"
   },
+  "sheets.dialogs.top-per-cent": {
+    "text": "أعلى نسبة مئوية",
+    "source": "fa0e93898958"
+  },
   "common.top-right": {
     "text": "أعلى اليمين",
     "source": "d83cbef9db1b"
@@ -33270,6 +33746,14 @@
   "sheets.dialogs.top-row": {
     "text": "الصف العلوي",
     "source": "5c027c33bb97"
+  },
+  "sheets.dialogs.top-count": {
+    "text": "أعلى {count}",
+    "source": "b6783f4fd940"
+  },
+  "sheets.dialogs.top-count-2": {
+    "text": "أعلى {count}%",
+    "source": "ea8f8cc99e8d"
   },
   "common.total": {
     "text": "الإجمالي",
@@ -33283,9 +33767,17 @@
     "text": "صف الإجمالي: الصف الأخير بمظهر الإجمالي في نمطه",
     "source": "46fd3713529a"
   },
+  "sheets.ribbon.total-of-column-none": {
+    "text": "إجمالي {column}: بلا",
+    "source": "1676db04c840"
+  },
   "base.reports.total-of-field": {
     "text": "إجمالي {field}",
     "source": "f3956fd5d7dd"
+  },
+  "sheets.ribbon.total-row": {
+    "text": "صف الإجمالي",
+    "source": "3c3cb9cbf619"
   },
   "base.totals": {
     "text": "الإجماليات",
@@ -33743,6 +34235,10 @@
     "text": "اكتب العناوين أو الصقها",
     "source": "ddf091a93d83"
   },
+  "video.type-or-paste-your-words-here": {
+    "text": "اكتب كلماتك أو الصقها هنا.",
+    "source": "2d8717ac7291"
+  },
   "sheets.dialogs.type-part-of-a-name": {
     "text": "اكتب جزءاً من اسم",
     "source": "7602842c7ce4"
@@ -33815,9 +34311,17 @@
     "text": "مكتوب",
     "source": "bff482dbe92b"
   },
+  "common.typewriter": {
+    "text": "الآلة الكاتبة",
+    "source": "b15b792b2b10"
+  },
   "video.inspector.typing": {
     "text": "الكتابة",
     "source": "25dfb9b4b32f"
+  },
+  "video.inspector.typing-speed": {
+    "text": "سرعة الكتابة",
+    "source": "9d1ff237078a"
   },
   "common.uppercase": {
     "text": "أحرف كبيرة",
@@ -33902,6 +34406,18 @@
   "sheets.unhide-name": {
     "text": "إظهار «{name}»",
     "source": "efad2d4bb2b6"
+  },
+  "sheets.ribbon.unhide-all-rows-and-columns": {
+    "text": "إظهار كل الصفوف والأعمدة",
+    "source": "e996d6d88a04"
+  },
+  "sheets.unhide-columns": {
+    "text": "إظهار الأعمدة",
+    "source": "2aee4f4f679d"
+  },
+  "sheets.unhide-rows": {
+    "text": "إظهار الصفوف",
+    "source": "783840178245"
   },
   "sheets.ribbon.unhide-a-hidden-worksheets-window-back": {
     "text": "إظهار: إعادة نافذة أوراق العمل المخفية إلى الشاشة",
@@ -34243,6 +34759,10 @@
     "text": "تحديث {style} لمطابقة التحديد",
     "source": "e65ad4674254"
   },
+  "sheets.ribbon.update-style-to-match-this-cell": {
+    "text": "تحديث {style} ليطابق هذه الخلية",
+    "source": "ab2583743d9d"
+  },
   "shell.updated-from-version-what-changed-is": {
     "text": "تم التحديث من الإصدار {version}. يمكنك معرفة ما تغيّر بنقرة واحدة.",
     "source": "d4f81a14fa5f"
@@ -34534,6 +35054,10 @@
     "text": "اجتماعي عمودي",
     "source": "06b16b68f5bb"
   },
+  "sheets.ribbon.vertical-axis-title": {
+    "text": "عنوان المحور العمودي",
+    "source": "350384e51fb0"
+  },
   "sheets.ribbon.vertical-text": {
     "text": "نص عمودي",
     "source": "623bb53bc829"
@@ -34661,6 +35185,10 @@
   "common.voice": {
     "text": "صوت",
     "source": "87bf2bc08589"
+  },
+  "common.voice-first": {
+    "text": "الصوت أولًا",
+    "source": "e03a9afde9bd"
   },
   "voices-dialog.voices": {
     "text": "الأصوات",
@@ -35270,6 +35798,10 @@
     "text": "النوافذ",
     "source": "d598026a9cbc"
   },
+  "notify-dialog.windows-did-not-show-the-last": {
+    "text": "لم يعرض Windows آخر إعلام. في إعدادات Windows، ضمن النظام، ثم الإعلامات، تأكد من تشغيل الإعلامات في Windows وفي رتبة أوفيس (Rutba Office)، ومن إيقاف «عدم الإزعاج».",
+    "source": "8663439dc961"
+  },
   "engine.windows-keeps-this-choice-for-you": {
     "text": "يحتفظ Windows بهذا الاختيار نيابةً عنك: اختر رتبة أوفيس (Rutba Office) في الإعدادات ‹ التطبيقات الافتراضية. يفتح الزر أدناه هذا الإعداد هناك.",
     "source": "954691d41579"
@@ -35322,6 +35854,14 @@
     "text": "مع التفاف النص",
     "source": "1c19fe80875f"
   },
+  "common.with-the-voice": {
+    "text": "مع الصوت",
+    "source": "a0c88e3ba266"
+  },
+  "video.spoken.with-the-words-shown-only-they": {
+    "text": "عند إظهار الكلمات فقط، تُكتب بسرعة الفيلم نفسه.",
+    "source": "a1da8c430dfa"
+  },
   "talk.with-video": {
     "text": "بالفيديو",
     "source": "d530d62be3b5"
@@ -35370,6 +35910,10 @@
     "text": "WordArt",
     "source": "ae16a048a626"
   },
+  "video.inspector.word-by-word": {
+    "text": "كلمة كلمة",
+    "source": "ddbaf8c9f91a"
+  },
   "word.dialogs.word-count": {
     "text": "عدد الكلمات",
     "source": "653913ac0e67"
@@ -35406,13 +35950,25 @@
     "text": "الكلمات",
     "source": "0a8be89a52a8"
   },
+  "video.inspector.words-alone": {
+    "text": "الكلمات وحدها",
+    "source": "ddf082782ed5"
+  },
   "ui.proofing.words-for-word": {
     "text": "مرادفات «{word}»",
     "source": "6d61efe54546"
   },
+  "video.library.words-on-a-pill": {
+    "text": "كلمات على كبسولة",
+    "source": "c3b9558baaef"
+  },
   "spoken.voices.words-to-say": {
     "text": "الكلمات المراد نطقها",
     "source": "3353415dcf6a"
+  },
+  "video.library.words-typed-in-over-the-pictures": {
+    "text": "كلمات تُكتب فوق الصور بالطريقة التي تختارها: كتابة تدريجية، أو كلمة كلمة، أو سطرًا سطرًا، أو كاريوكي، أو دفعة واحدة.",
+    "source": "bbe7cf532cfb"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "لا يتم أبداً تمييز الكلمات التي أضفتها على أنها أخطاء إملائية، في المستندات وأوراق العمل والعروض التقديمية على حد سواء.",
@@ -35538,6 +36094,10 @@
     "text": "اكتب مرفقات كل رسالة بجانبها",
     "source": "e456d4b9b1fd"
   },
+  "sheets.ribbon.write-each-value-beside-its-bar": {
+    "text": "كتابة كل قيمة بجانب شريطها أو نقطتها.",
+    "source": "026231f2c863"
+  },
   "mail.compose.write-it-in-a-window-of": {
     "text": "اكتبها في نافذة خاصة بها",
     "source": "76eb5c9c5448"
@@ -35554,9 +36114,17 @@
     "text": "اكتب أول رسالة إلى هذه المجموعة.",
     "source": "79c6b8f1ef84"
   },
+  "sheets.ribbon.write-the-share-of-each-slice": {
+    "text": "كتابة نسبة كل شريحة عليها.",
+    "source": "d494df2a096c"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "توقفت الكتابة: {reason}. ما كُتب قبل ذلك محفوظ.",
     "source": "9d5b1ef54387"
+  },
+  "sheets.dialogs.written-for-the-first-cell-of": {
+    "text": "تُكتب للخلية الأولى من التحديد، مثل =$C2>100. وتُثبّت علامة الدولار العمود أو الصف في مكانه.",
+    "source": "d7d6c2376a68"
   },
   "contacts.wrote-count-card-to-file": {
     "forms": {
@@ -35927,6 +36495,10 @@
   "video.your-title-here": {
     "text": "عنوانك هنا",
     "source": "66094e7e6215"
+  },
+  "video.your-web-address": {
+    "text": "عنوان موقعك على الويب",
+    "source": "0bceb158232c"
   },
   "video.library.your-words": {
     "text": "كلماتك",
@@ -37623,6 +38195,10 @@
     "text": "{calendars}، {books} · تمت المزامنة {when}",
     "source": "e74fd34182ad"
   },
+  "sheets.cell-was-not-changed-reason": {
+    "text": "لم يتم تغيير {cell}. {reason}",
+    "source": "c6587d02f21f"
+  },
   "engine.changed-file-types-now-open-with": {
     "text": "أصبح {changed} من أنواع الملفات يُفتح باستخدام رتبة أوفيس (Rutba Office).",
     "source": "aac86dd995be"
@@ -38536,6 +39112,10 @@
       "other": "بقي {count} حساب دون تغيير"
     },
     "source": "58f6eb7ce109"
+  },
+  "video.inspector.count-letters-a-second": {
+    "text": "عدد الحروف في الثانية: {count}",
+    "source": "8492559d17f5"
   },
   "base.documents.count-line": {
     "forms": {
@@ -39939,6 +40519,10 @@
     "text": "ضبط {look}",
     "source": "eb6eabf53c50"
   },
+  "video.made-the-chapters-are-in-name": {
+    "text": "{made} الفصول موجودة في {name}.",
+    "source": "fe36caf0e53c"
+  },
   "video.made-the-first-go-came-out": {
     "text": "{made}. جاءت المحاولة الأولى أكبر من {limit}، فأُعيد ترميزها بمعدل أقل.",
     "source": "17043b2efde8"
@@ -40041,6 +40625,10 @@
     "text": "يحل اسم كل شخص محل {name}. يأتي رابط القبول وطريقة الحصول على رتبة أوفيس (Rutba Office) تحت ملاحظتك.",
     "source": "6724ae357006"
   },
+  "talk.name-called-while-you-were-on": {
+    "text": "وردت مكالمة من {name} أثناء البث على الهواء. رُفضت بحالة مشغول، وهي في المكالمات الفائتة.",
+    "source": "2a0990e6e9e1"
+  },
   "video.name-cannot-be-played-on-this": {
     "text": "لا يمكن تشغيل {name} على هذا الحاسوب.",
     "source": "56c80f47dfd7"
@@ -40108,6 +40696,10 @@
   "talk-words.name-ended-the-meeting": {
     "text": "تم إنهاء الاجتماع بواسطة {name}.",
     "source": "68a9df35664b"
+  },
+  "studio.guests.name-has-left-the-meeting-their": {
+    "text": "انتهت مشاركة {name} في الاجتماع. مقعد الضيف فارغ الآن.",
+    "source": "7ff12fec0c3b"
   },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "يحتوي {name} على أكثر من ورقة. يحدد الصف الأول من الورقة التي تختارها أسماء الحقول.",
@@ -40760,6 +41352,10 @@
     "text": "تمت إضافة {recipient} إلى المستلمين الآمنين",
     "source": "0b01f434a11b"
   },
+  "sheets.removed-duplicate-rows-removed-kept-rows": {
+    "text": "الصفوف المكررة التي تمت إزالتها: {removed}؛ الصفوف المتبقية: {kept}.",
+    "source": "7299a779b8cc"
+  },
   "calendar.words.room-is-booked-for-when": {
     "text": "حُجزت {room} لـ {when}.",
     "source": "6c97b843b2c6"
@@ -40791,6 +41387,10 @@
   "common.seconds-s": {
     "text": "{seconds} s",
     "source": "fde82d3dd95e"
+  },
+  "video.inspector.seconds-s-apart": {
+    "text": "بفاصل {seconds} ثانية",
+    "source": "f04806f51dbb"
   },
   "pictures.seconds-s": {
     "text": "{seconds} ثانية",

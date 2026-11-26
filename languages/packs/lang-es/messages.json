@@ -207,6 +207,18 @@
     "text": "«{word}» está en tu diccionario.",
     "source": "b9aeb4fc656c"
   },
+  "sheets.pivot-fields.of-column-total": {
+    "text": "% del total de columnas",
+    "source": "eab72b338837"
+  },
+  "sheets.pivot-fields.of-grand-total": {
+    "text": "% del total general",
+    "source": "ad881b0c599c"
+  },
+  "sheets.pivot-fields.of-row-total": {
+    "text": "% del total de filas",
+    "source": "97a366055762"
+  },
   "word.list-dialog.2-is-this-levels-number-1": {
     "text": "%2 es el número de este nivel; %1, el número del nivel superior.",
     "source": "9cbc5138d80a"
@@ -391,6 +403,10 @@
     "text": "1 día antes",
     "source": "a8b499336a9e"
   },
+  "sheets.1-duplicate-row-removed-kept-rows": {
+    "text": "Se quitó 1 fila duplicada; quedan {kept} filas.",
+    "source": "f63cb027fc81"
+  },
   "calendar.1-hour-before": {
     "text": "1 hora antes",
     "source": "5104b6b7955e"
@@ -562,6 +578,10 @@
   "engine.a-pdf-with-no-pages-is": {
     "text": "Un PDF sin páginas no es un documento. Agrega primero una página.",
     "source": "df7ad0646756"
+  },
+  "video.library.a-qr-code-type-the-address": {
+    "text": "Un código QR; escribe la dirección que abre.",
+    "source": "3c11f5898b54"
   },
   "talk.a-turn-server-you-run-offered": {
     "text": "Un servidor TURN que gestionas tú; se ofrece al otro lado para tus llamadas",
@@ -811,6 +831,10 @@
     "text": "Una fórmula aquí está formada por números, celdas como B2 o B2:B4, + - * / y paréntesis, y SUM, AVERAGE, COUNT, MAX, MIN, PRODUCT o ABS de ellos o de ABOVE, LEFT, BELOW o RIGHT; por ejemplo, =SUM(ABOVE).",
     "source": "74a836a73c62"
   },
+  "sheets.dialogs.a-formula-is-true": {
+    "text": "La fórmula es verdadera",
+    "source": "77bbea0fd15f"
+  },
   "home.a-free-office-suite-mail-documents": {
     "text": "Una suite ofimática gratuita: correo, documentos, hojas de cálculo, presentaciones, fotos, imágenes y vídeo, sobre un motor propio.",
     "source": "cbecbd51dbc1"
@@ -975,6 +999,10 @@
     "text": "Un nombre para cada columna, tomado de su encabezado: el Administrador de nombres los muestra",
     "source": "9a8020d11b5d"
   },
+  "sheets.a-name-starts-with-a-letter": {
+    "text": "Un nombre empieza por una letra y no tiene espacios, como Sales_May. Una dirección es como B7 o B2:D9.",
+    "source": "e623278e0626"
+  },
   "review.a-name-that-says-what-is": {
     "text": "Un nombre que diga lo que hay en «{sheet}»:",
     "source": "818eb2db1790"
@@ -1130,6 +1158,14 @@
   "slides.a-pie-chart-draws-only-its": {
     "text": "Un gráfico circular solo dibuja su primera serie.",
     "source": "f51e19a20a49"
+  },
+  "video.inspector.a-piece-for-each-clip": {
+    "text": "Un segmento por cada clip",
+    "source": "aceec9902c4c"
+  },
+  "video.inspector.a-piece-for-each-marker": {
+    "text": "Un segmento por cada marcador",
+    "source": "cb5ab8475fd9"
   },
   "engine.a-pivot-needs-at-least-one": {
     "text": "Una tabla dinámica necesita al menos un campo en Valores.",
@@ -1303,6 +1339,10 @@
     "text": "Una nota breve para un equipo: para, de, el asunto, los antecedentes y lo que ocurre ahora",
     "source": "7cbd8d22f139"
   },
+  "video.library.a-short-word-on-a-coloured": {
+    "text": "Una palabra corta sobre una píldora de color, como NEW o SALE.",
+    "source": "440aa0204a24"
+  },
   "word.drawings.a-sidebar-stands-beside-the-story": {
     "text": "Una barra lateral se coloca junto al texto principal con el contenido que lo acompaña: un resumen, una lista de puntos, una nota para el lector.",
     "source": "f84097aa22f7"
@@ -1334,6 +1374,10 @@
   "slides.export-video.a-slide-with-a-timing-of": {
     "text": "Una diapositiva con intervalo propio lo conserva cuando se usan los intervalos; las demás se muestran durante los segundos indicados arriba. Las animaciones se muestran terminadas.",
     "source": "8e642bc4c741"
+  },
+  "video.library.a-small-line-along-the-foot": {
+    "text": "Una línea pequeña a lo largo del pie del fotograma, como tu dirección web.",
+    "source": "9e6f80e3ef70"
   },
   "studio.scene-strip.a-source": {
     "text": "Una fuente",
@@ -1598,6 +1642,10 @@
   "common.above-front-right": {
     "text": "Superior frontal derecha",
     "source": "0edd0b82de7b"
+  },
+  "sheets.dialogs.above-average": {
+    "text": "Por encima del promedio",
+    "source": "98ca5f459314"
   },
   "equations.absolute-value": {
     "text": "Valor absoluto",
@@ -2503,6 +2551,10 @@
     "text": "Avanzado…",
     "source": "1de3a18e329f"
   },
+  "sheets.filter-panel.after": {
+    "text": "Después de",
+    "source": "7b68fe551085"
+  },
   "word.ribbon.after-pt": {
     "text": "Después (pt)",
     "source": "19ec57700505"
@@ -2710,6 +2762,10 @@
   "slides.ribbon.all-at-once": {
     "text": "Todo a la vez",
     "source": "c9d506ca2d68"
+  },
+  "video.inspector.all-at-once": {
+    "text": "Todo a la vez",
+    "source": "f90683717cd2"
   },
   "sheets.ribbon.all-borders": {
     "text": "Todos los bordes",
@@ -3198,6 +3254,10 @@
   "engine.another-program-opens-mail-links-on": {
     "text": "Otro programa abre los vínculos de correo en este ordenador.",
     "source": "1a1b9963a277"
+  },
+  "sheets.dialogs.another-rule": {
+    "text": "Otra regla",
+    "source": "35c09b4d7aef"
   },
   "common.answer": {
     "text": "Respuesta",
@@ -3939,6 +3999,14 @@
     "text": "Ausente",
     "source": "af16c830c510"
   },
+  "sheets.dialogs.axis": {
+    "text": "Eje",
+    "source": "32b73caefac1"
+  },
+  "sheets.ribbon.axis-titles": {
+    "text": "Títulos de ejes",
+    "source": "900f286eac2b"
+  },
   "common.b5-176-250-mm": {
     "text": "B5 (176 × 250 mm)",
     "source": "344900110be7"
@@ -4055,6 +4123,10 @@
     "text": "Filas con bandas: una de cada dos filas sombreada, según las bandas del estilo",
     "source": "f6ced0fcf385"
   },
+  "sheets.ribbon.banded-rows": {
+    "text": "Filas con bandas",
+    "source": "6e9aa5474c82"
+  },
   "common.banner": {
     "text": "Pancarta",
     "source": "b7f4d98f98d5"
@@ -4111,6 +4183,10 @@
     "text": "Pitido",
     "source": "4ccb3fb5330b"
   },
+  "sheets.filter-panel.before": {
+    "text": "Antes de",
+    "source": "9bb725005055"
+  },
   "word.ribbon.before-pt": {
     "text": "Antes (pt)",
     "source": "bba72e0923a5"
@@ -4122,6 +4198,10 @@
   "protect.before-sharing-this-file-check-it": {
     "text": "Antes de compartir este archivo, comprueba si tiene contenido que no quieras que vean otras personas: comentarios, cambios, texto oculto e información personal.",
     "source": "56f7599f4157"
+  },
+  "sheets.filter-panel.begins-with": {
+    "text": "Comienza por",
+    "source": "853978f44eaf"
   },
   "word.ribbon.behind-text": {
     "text": "Detrás del texto",
@@ -4142,6 +4222,10 @@
   "common.below-front-right": {
     "text": "Inferior frontal derecha",
     "source": "31fedbb2729e"
+  },
+  "sheets.dialogs.below-average": {
+    "text": "Por debajo del promedio",
+    "source": "8f2f0fa9a074"
   },
   "common.berry": {
     "text": "Baya",
@@ -4407,9 +4491,17 @@
     "text": "Borde inferior",
     "source": "0dc79f4813a3"
   },
+  "sheets.dialogs.bottom-items": {
+    "text": "Elementos inferiores",
+    "source": "aa9e5db6f818"
+  },
   "common.bottom-left": {
     "text": "Inferior izquierda",
     "source": "f5a57b969150"
+  },
+  "sheets.dialogs.bottom-per-cent": {
+    "text": "Porcentaje inferior",
+    "source": "10bad9a09d6f"
   },
   "common.bottom-right": {
     "text": "Inferior derecha",
@@ -4418,6 +4510,14 @@
   "video.layer-names.bottom-shade": {
     "text": "Sombra inferior",
     "source": "1dffbced0f7c"
+  },
+  "sheets.dialogs.bottom-count": {
+    "text": "{count} inferiores",
+    "source": "54119ed17f6b"
+  },
+  "sheets.dialogs.bottom-count-2": {
+    "text": "{count} % inferiores",
+    "source": "658e45ae01eb"
   },
   "word.ribbon.box-dashed-line": {
     "text": "Cuadro: línea discontinua",
@@ -4943,6 +5043,10 @@
     "text": "Subtítulos (.srt, .vtt)",
     "source": "1c941a0a4cea"
   },
+  "video.library.captions-and-quick-adds": {
+    "text": "Subtítulos y elementos rápidos",
+    "source": "d062fc34102e"
+  },
   "slides.album.captions-below-all-pictures": {
     "text": "Títulos debajo de todas las imágenes",
     "source": "dd686df00caf"
@@ -5227,6 +5331,10 @@
     "text": "Cambiar…",
     "source": "a6b4705c6883"
   },
+  "video.chapter-n": {
+    "text": "Capítulo {n}",
+    "source": "816e97139189"
+  },
   "sheets.queries.character": {
     "text": "Carácter",
     "source": "1405a63e8a78"
@@ -5254,6 +5362,10 @@
   "sheets.ribbon.chart-design": {
     "text": "Diseño de gráfico",
     "source": "d41692080652"
+  },
+  "sheets.ribbon.chart-elements": {
+    "text": "Elementos de gráfico",
+    "source": "b2c3cce9d69c"
   },
   "sheets.ribbon.chart-title": {
     "text": "Título del gráfico",
@@ -5654,6 +5766,10 @@
   "image.choose-the-layer-to-clear-the": {
     "text": "Elige la capa de la que borrar la selección.",
     "source": "04a21a186397"
+  },
+  "video.choose-the-logo": {
+    "text": "Elegir el logotipo",
+    "source": "0240baf232cc"
   },
   "studio.bottom-bar.choose-the-microphone": {
     "text": "Elegir el micrófono",
@@ -6183,6 +6299,14 @@
     "text": "Color del texto",
     "source": "8c6ececb4c11"
   },
+  "sheets.dialogs.colour-of-those-points": {
+    "text": "Color de esos puntos",
+    "source": "898998460449"
+  },
+  "sheets.dialogs.colour-scale": {
+    "text": "Escala de color",
+    "source": "000799f1a3ef"
+  },
   "sheets.dialogs.colour-scale-green-yellow-red-low": {
     "text": "Escala de color: verde, amarillo, rojo (de menor a mayor)",
     "source": "234d0c0e170a"
@@ -6442,6 +6566,10 @@
   "locker.compare": {
     "text": "Comparar…",
     "source": "219ddc366d9d"
+  },
+  "sheets.filter-panel.comparison": {
+    "text": "Comparación",
+    "source": "571527339d0e"
   },
   "word.mailings.comparison": {
     "text": "Comparación:",
@@ -6799,6 +6927,10 @@
     "text": "Copiar ruta",
     "source": "720ff4160412"
   },
+  "sheets.copy-sheet": {
+    "text": "Copiar hoja",
+    "source": "c9a0f392b71f"
+  },
   "sheets.ribbon.copy-the-formatting-here-to-the": {
     "text": "Copiar el formato de aquí a la siguiente selección",
     "source": "385e4d1fba79"
@@ -6922,6 +7054,10 @@
   "word.ribbon.count-above": {
     "text": "Recuento de arriba",
     "source": "33e9e80a1691"
+  },
+  "sheets.ribbon.count-numbers": {
+    "text": "Contar números",
+    "source": "f6b68195bdad"
   },
   "sheets.queries.count-rows": {
     "text": "Contar filas",
@@ -7315,6 +7451,10 @@
     "text": "Azul oscuro",
     "source": "6c12f1ca1641"
   },
+  "sheets.dialogs.dark-blue-grey": {
+    "text": "Gris azulado oscuro",
+    "source": "744e37be8716"
+  },
   "qrcode.dark-brown": {
     "text": "Marrón oscuro",
     "source": "f22b68958bf5"
@@ -7423,6 +7563,10 @@
     "text": "Bases de datos de Data Files",
     "source": "24e8c9743f1a"
   },
+  "sheets.ribbon.data-labels": {
+    "text": "Etiquetas de datos",
+    "source": "78023df4505c"
+  },
   "sheets.ribbon.data-table": {
     "text": "Tabla de datos…",
     "source": "fedeed59d538"
@@ -7438,6 +7582,10 @@
   "sheets.ribbon.data-validation": {
     "text": "Validación de datos",
     "source": "28971fd398d1"
+  },
+  "sheets.dialogs.data-bars": {
+    "text": "Barras de datos",
+    "source": "e7a181724128"
   },
   "sheets.dialogs.data-bars-blue": {
     "text": "Barras de datos: azul",
@@ -7486,6 +7634,10 @@
   "slides.ribbon.date-and-time-a-date-along": {
     "text": "Fecha y hora: una fecha en la parte inferior, actualizada o fija",
     "source": "f94ad5295f5d"
+  },
+  "sheets.filter-panel.date-filters": {
+    "text": "Filtros de fecha",
+    "source": "bacb61184a41"
   },
   "word.forms.date-picker-content-control": {
     "text": "Control de contenido de selector de fecha",
@@ -8163,6 +8315,10 @@
     "text": "Diferencia",
     "source": "4d280a451d04"
   },
+  "sheets.pivot-fields.difference-from-previous": {
+    "text": "Diferencia con el anterior",
+    "source": "4473ab760db3"
+  },
   "slides.different-since-this-deck-was-last": {
     "text": "Con cambios desde la última vez que se abrió esta presentación aquí",
     "source": "da4a123f25df"
@@ -8174,6 +8330,10 @@
   "shell.digits": {
     "text": "Dígitos",
     "source": "9cd500d3d69f"
+  },
+  "video.inspector.dim": {
+    "text": "Tenue",
+    "source": "ea53b1cb304d"
   },
   "pictures.dimensions": {
     "text": "Dimensiones",
@@ -8354,6 +8514,14 @@
   "home.documents-mail-and-media-all-work": {
     "text": "Los documentos, el correo y los archivos multimedia funcionan sin conexión de red",
     "source": "e815503e3abf"
+  },
+  "sheets.filter-panel.does-not-contain": {
+    "text": "No contiene",
+    "source": "56fe07f0e32e"
+  },
+  "sheets.filter-panel.does-not-equal": {
+    "text": "No es igual a",
+    "source": "e47c3280f3bf"
   },
   "calendar.does-not-repeat": {
     "text": "No se repite",
@@ -8703,10 +8871,6 @@
     "text": "Filas duplicadas quitadas",
     "source": "e606bafdbd22"
   },
-  "sheets.duplicate-rows-removed-the-rest-closed": {
-    "text": "Se quitaron las filas duplicadas; el resto se desplazó para cerrar los huecos",
-    "source": "0827cbb28e3a"
-  },
   "slides.duplicate-slide": {
     "text": "Duplicar diapositiva",
     "source": "ab7940817995"
@@ -8807,6 +8971,10 @@
     "text": "Cada línea leída en voz alta, una tras otra, con su texto a la vista mientras suena su voz",
     "source": "282adc866b4a"
   },
+  "studio.spoken-run.each-line-types-in-letter-by": {
+    "text": "Cada línea se escribe letra a letra, a partir de la siguiente línea que se diga.",
+    "source": "a390f5fb2388"
+  },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "Cada cuenta de correo, calendario, libreta de direcciones, base de datos y carpeta tiene su propia configuración, que también se muestra en su propia aplicación, y lo mismo ocurre con Grabadora (Recorder). Todo está desactivado hasta que elijas. Nunca se elimina ni se mueve nada, y todo lo que se envíe espera primero a que pulses aquí.",
     "source": "0fd0a5b12aaa"
@@ -8851,6 +9019,10 @@
     "text": "Cada fuente en su propio archivo",
     "source": "87ba78fbecfd"
   },
+  "sheets.dialogs.each-sparkline-its-own-lowest-and": {
+    "text": "Cada minigráfico con su propio mínimo y máximo",
+    "source": "6a9c83cdf903"
+  },
   "sheets.objects.each-ticked-field-gets-a-panel": {
     "text": "Cada campo marcado recibe un panel de botones, uno por elemento, que filtra la tabla dinámica.",
     "source": "57b495c85a7a"
@@ -8870,6 +9042,10 @@
   "slides.custom-shows.earlier-in-the-show": {
     "text": "Antes en la presentación",
     "source": "c75dff7e0d23"
+  },
+  "sheets.dialogs.earliest-date": {
+    "text": "Fecha más antigua",
+    "source": "82a5aebc403c"
   },
   "word.references-index.earth": {
     "text": "Tierra",
@@ -9363,6 +9539,10 @@
     "text": "Termina",
     "source": "e98982c9f2ba"
   },
+  "sheets.filter-panel.ends-with": {
+    "text": "Termina con",
+    "source": "fc203569fa85"
+  },
   "base.links.engine": {
     "text": "Motor",
     "source": "8e75ebbdb215"
@@ -9438,6 +9618,10 @@
   "common.equal-to": {
     "text": "Igual a",
     "source": "6a26ff8ea94b"
+  },
+  "sheets.filter-panel.equals": {
+    "text": "Es igual a",
+    "source": "f939ae3d30c6"
   },
   "common.equation": {
     "text": "Ecuación",
@@ -9575,6 +9759,10 @@
     "text": "Cada botón solo con su imagen; su nombre aparece al dejar el puntero encima",
     "source": "21abdd3708ee"
   },
+  "video.inspector.every-caption-in-the-film-types": {
+    "text": "Todos los subtítulos de la película se escriben a esta velocidad.",
+    "source": "330cbb6a15e3"
+  },
   "slides.every-comment-here-was-already-read": {
     "text": "Todos los comentarios de aquí ya estaban leídos.",
     "source": "47ca1a3a2589"
@@ -9658,6 +9846,10 @@
   "pictures.every-picture-shown-count": {
     "text": "Todas las imágenes mostradas ({count})",
     "source": "904610f6a47a"
+  },
+  "sheets.dialogs.every-point-line-only": {
+    "text": "Todos los puntos (solo línea)",
+    "source": "88f8f754acf4"
   },
   "base.documents.every-record": {
     "text": "Todos los registros",
@@ -11135,6 +11327,10 @@
     "text": "Fórmula: un campo en la celda del punto de inserción calculado a partir de los números de arriba o de la izquierda, o de celdas como B2 y B2:B4, como =SUM(ABOVE) de Word",
     "source": "ac4ef0433793"
   },
+  "sheets.dialogs.formula-formula": {
+    "text": "Fórmula: {formula}",
+    "source": "373a77366380"
+  },
   "sheets.formulas": {
     "text": "Fórmulas",
     "source": "098baf95d843"
@@ -11718,6 +11914,10 @@
   "word.mailings.greater-than-or-equal": {
     "text": "Mayor o igual que",
     "source": "4df4f066c9c1"
+  },
+  "sheets.filter-panel.greater-than-or-equal-to": {
+    "text": "Mayor o igual que",
+    "source": "85d08e847878"
   },
   "common.greek": {
     "text": "Griego",
@@ -12311,6 +12511,10 @@
     "text": "Ocultar diapositiva: esta diapositiva está oculta en la presentación; pulsa otra vez para mostrarla",
     "source": "7d777db556ab"
   },
+  "sheets.hide-columns": {
+    "text": "Ocultar columnas",
+    "source": "9d5c93b12237"
+  },
   "image.layers-panel.hide-its-layers": {
     "text": "Ocultar sus capas",
     "source": "e3c527659d85"
@@ -12318,6 +12522,10 @@
   "protect.hide-password": {
     "text": "Ocultar contraseña",
     "source": "a60a56c584b3"
+  },
+  "sheets.hide-rows": {
+    "text": "Ocultar filas",
+    "source": "6e6875f9e909"
   },
   "talk.invite.hide-the-code": {
     "text": "Ocultar el código",
@@ -12370,6 +12578,10 @@
   "qrcode.high-30": {
     "text": "Alta (30 %)",
     "source": "652a05d1ae51"
+  },
+  "sheets.dialogs.high-point": {
+    "text": "Punto alto",
+    "source": "80ab296d2b33"
   },
   "pdf.export.high-quality-225-dots-per-inch": {
     "text": "Alta calidad (225 puntos por pulgada)",
@@ -12482,6 +12694,10 @@
   "slides.horizontal-out": {
     "text": "Horizontal hacia fuera",
     "source": "51081ab58752"
+  },
+  "sheets.ribbon.horizontal-axis-title": {
+    "text": "Título del eje horizontal",
+    "source": "b3c89eb1f3c0"
   },
   "common.horizontal-brick": {
     "text": "Ladrillo horizontal",
@@ -12642,6 +12858,10 @@
   "common.icon": {
     "text": "Icono",
     "source": "a35abcd6dac9"
+  },
+  "sheets.dialogs.icon-set": {
+    "text": "Conjunto de iconos",
+    "source": "a3ae5ca177a0"
   },
   "common.icons": {
     "text": "Iconos",
@@ -12931,6 +13151,10 @@
     "text": "En una cuenta o archivo de correo",
     "source": "be358173c89a"
   },
+  "video.inspector.in-pieces": {
+    "text": "En segmentos",
+    "source": "786b72b37492"
+  },
   "video.in-point": {
     "text": "Punto de entrada",
     "source": "9c1d42b38a85"
@@ -12978,6 +13202,10 @@
   "video.in-from-out-to": {
     "text": "Entrada {from}, salida {to}",
     "source": "9ad2ac8a59a8"
+  },
+  "sheets.dialogs.in-range-a-row-that-repeats": {
+    "text": "En {range}, se quita cada fila que repite una fila anterior en todas las columnas marcadas. Se conserva la primera de cada una.",
+    "source": "ac1519f6f42d"
   },
   "studio.shared.in-seconds-s": {
     "text": "En {seconds} s",
@@ -13979,6 +14207,14 @@
     "text": "Cursiva (Ctrl+I)",
     "source": "ccc60dff1674"
   },
+  "sheets.filter-panel.items": {
+    "text": "Elementos",
+    "source": "fb8e7a1a3cb7"
+  },
+  "sheets.filter-panel.items-or-percent": {
+    "text": "Elementos o porcentaje",
+    "source": "14cded7778d2"
+  },
   "template-gallery.items-counts-and-reorder-levels-the": {
     "text": "Artículos, cantidades y niveles de nuevo pedido, el valor de las existencias y lo que hay que volver a pedir",
     "source": "a704276dd164"
@@ -14010,6 +14246,10 @@
   "slides.ribbon.its-notes": {
     "text": "Las notas",
     "source": "a316f96e4b04"
+  },
+  "sheets.dialogs.its-own-lowest-and-highest-shows": {
+    "text": "Su propio mínimo y máximo muestra las subidas y bajadas de cada fila; un eje para todos compara sus tamaños.",
+    "source": "2a62e687c030"
   },
   "mail.smime.its-password": {
     "text": "Su contraseña",
@@ -14170,6 +14410,10 @@
   "word.ribbon.justify-with-kashida-stretch-the-letters": {
     "text": "Justificar con kashida: estira las letras para llenar la línea, como se justifica el árabe",
     "source": "b7ba4e7d59c4"
+  },
+  "video.inspector.karaoke": {
+    "text": "Karaoke",
+    "source": "34cd21fcc55b"
   },
   "common.keep": {
     "text": "Conservar",
@@ -14611,6 +14855,10 @@
     "text": "Apellidos",
     "source": "7b4888049459"
   },
+  "sheets.dialogs.last-point": {
+    "text": "Último punto",
+    "source": "430de8dd535b"
+  },
   "common.last-record": {
     "text": "Último registro",
     "source": "27fef2475093"
@@ -14654,6 +14902,10 @@
   "mail.compose.later-today-9pm": {
     "text": "Hoy más tarde, 21:00",
     "source": "1c66a953a2b9"
+  },
+  "sheets.dialogs.latest-date": {
+    "text": "Fecha más reciente",
+    "source": "a9de7221765f"
   },
   "image.layer": {
     "text": "Capa",
@@ -14927,6 +15179,10 @@
     "text": "Menor o igual que",
     "source": "ee8df42e1687"
   },
+  "sheets.filter-panel.less-than-or-equal-to": {
+    "text": "Menor o igual que",
+    "source": "ae1564a79ff3"
+  },
   "template-gallery.lesson": {
     "text": "Lección",
     "source": "6e2b26d9de40"
@@ -15135,6 +15391,10 @@
     "text": "Línea entre columnas",
     "source": "1bac593d7aea"
   },
+  "video.inspector.line-by-line": {
+    "text": "Línea a línea",
+    "source": "d69a37385809"
+  },
   "sheets.dialogs.line-chart": {
     "text": "Gráfico de líneas",
     "source": "22089151613f"
@@ -15194,6 +15454,10 @@
   "base.documents.lines-from": {
     "text": "Líneas de",
     "source": "dc6d35c2f93b"
+  },
+  "video.inspector.lines-one-at-a-time": {
+    "text": "Líneas de una en una",
+    "source": "e30051392bb1"
   },
   "locker.lines-say-what-to-lock-a": {
     "text": "Cada línea indica qué bloquear; una línea que empieza por ! crea una excepción. Sin líneas, se bloquean todos los archivos.",
@@ -15646,6 +15910,10 @@
   "video.export.low-smaller-file": {
     "text": "Baja (archivo más pequeño)",
     "source": "e585bb7bd95c"
+  },
+  "sheets.dialogs.low-point": {
+    "text": "Punto bajo",
+    "source": "2529ac347b3d"
   },
   "video.ribbon.lower-third": {
     "text": "Rótulo inferior",
@@ -17079,6 +17347,10 @@
     "text": "Mis contactos",
     "source": "6add5927687d"
   },
+  "sheets.dialogs.my-data-has-headers": {
+    "text": "Mis datos tienen encabezados",
+    "source": "e917f14e7d6e"
+  },
   "talk.invite.my-email-app": {
     "text": "Mi aplicación de correo",
     "source": "c7aaaf0507c4"
@@ -17122,6 +17394,10 @@
   "broadcast.live-dialog.name-optional": {
     "text": "Nombre (opcional)",
     "source": "e09b37bcc4f3"
+  },
+  "sheets.name-box.name-box": {
+    "text": "Cuadro de nombres",
+    "source": "730b51d34ee3"
   },
   "sheets.ribbon.name-manager": {
     "text": "Administrador de nombres",
@@ -17270,6 +17546,10 @@
   "locker.needs-you": {
     "text": "Requiere tu atención",
     "source": "74b6abdf5969"
+  },
+  "sheets.dialogs.negative-points": {
+    "text": "Puntos negativos",
+    "source": "6963e8f96ed2"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "Ninguno de los dos podrá escribir ni llamar al otro hasta que volváis a ser contactos. Tus mensajes de aquí se eliminan.",
@@ -17903,6 +18183,10 @@
     "text": "Aún no hay bloques de creación",
     "source": "ee11b12ee206"
   },
+  "sheets.pivot-fields.no-calculation": {
+    "text": "Sin cálculo",
+    "source": "5da6f87ac7cb"
+  },
   "engine.no-calendars-or-address-books-were": {
     "text": "No se encontraron calendarios ni libretas de direcciones en esa dirección.",
     "source": "6b303bb9fae7"
@@ -18011,9 +18295,9 @@
     "text": "No hay ideas de diseño para esta diapositiva: ponle un título, algo de texto o una imagen.",
     "source": "1f07475c0307"
   },
-  "sheets.no-duplicate-rows-in-the-selection": {
-    "text": "No hay filas duplicadas en la selección",
-    "source": "47e580620f2e"
+  "sheets.no-duplicate-rows-found-kept-rows": {
+    "text": "No se encontraron filas duplicadas; quedan {kept} filas.",
+    "source": "a032b583b3d3"
   },
   "word.mailings.no-duplicates": {
     "text": "Sin duplicados",
@@ -19059,6 +19343,18 @@
     "text": "Notificaciones en pausa hasta las {time}",
     "source": "1d6521f14f4e"
   },
+  "notify-dialog.notifications-are-turned-off-in-windows": {
+    "text": "Las notificaciones están desactivadas en Windows, por lo que no muestra ninguna de Rutba Office. Actívalas en la Configuración de Windows, en Sistema, Notificaciones.",
+    "source": "a652d04931a6"
+  },
+  "notify-dialog.notifications-are-turned-off-on-this": {
+    "text": "El administrador de este ordenador ha desactivado las notificaciones, por lo que Windows no muestra ninguna de Rutba Office. Lo pendiente sigue apareciendo en el contador de su icono, junto al reloj.",
+    "source": "76e702238671"
+  },
+  "notify-dialog.notifications-from-rutba-office-are-turned": {
+    "text": "Las notificaciones de Rutba Office están desactivadas en Windows. Actívalas en la Configuración de Windows, en Sistema, Notificaciones, Rutba Office.",
+    "source": "e19167006214"
+  },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "Ahora {width} por {height} cm. Todo lo que hay en las diapositivas se ajusta a escala y se centra según el nuevo tamaño.",
     "source": "4e0c85185863"
@@ -19078,6 +19374,10 @@
   "common.number": {
     "text": "Número",
     "source": "bd82cf16699b"
+  },
+  "sheets.filter-panel.number-filters": {
+    "text": "Filtros de número",
+    "source": "13fe0c5baab5"
   },
   "pictures.batch.number-as-001": {
     "text": "Numerar como 001",
@@ -19283,6 +19583,10 @@
     "text": "En una nueva capa de pintura",
     "source": "0501424bc7c7"
   },
+  "video.inspector.on-a-panel": {
+    "text": "Sobre un panel",
+    "source": "e8787dfd4dc5"
+  },
   "studio.live-panel.on-air": {
     "text": "En antena",
     "source": "c2332b223176"
@@ -19375,6 +19679,14 @@
     "text": "Una respuesta las contiene todas",
     "source": "0670ff9a00aa"
   },
+  "video.inspector.one-bar": {
+    "text": "Una barra",
+    "source": "4bfa8b51bda1"
+  },
+  "video.inspector.one-caption-a-line-one-after": {
+    "text": "Un subtítulo por línea, uno tras otro, cada uno en su propia pista.",
+    "source": "01dc9af7bfb6"
+  },
   "slides.ribbon.one-column": {
     "text": "Una columna",
     "source": "4af4c82acab4"
@@ -19394,6 +19706,10 @@
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "Una línea por línea. Una tabulación lleva al centro, una segunda a la derecha.",
     "source": "80be2d4cf6a5"
+  },
+  "video.inspector.one-line-there-is-nothing-to": {
+    "text": "Una línea: no hay nada que dividir.",
+    "source": "c2918f5eb39b"
   },
   "image.layers-panel.one-name-and-one-number-on": {
     "text": "Un nombre y un número en cada línea, por ejemplo: lun, 12",
@@ -19470,6 +19786,10 @@
   "notify-dialog.only-an-installed-copy-of-rutba": {
     "text": "Solo una copia instalada de Rutba Office puede iniciarse con Windows.",
     "source": "5d376c6f923f"
+  },
+  "notify-dialog.only-an-installed-copy-of-rutba-2": {
+    "text": "Solo una copia instalada de Rutba Office muestra notificaciones de Windows. Lo pendiente sigue apareciendo en el contador de su icono, junto al reloj.",
+    "source": "5fedb6d63e92"
   },
   "word.only-certain-kinds-of-changes-can": {
     "text": "Solo se pueden hacer ciertos tipos de cambios en este documento: Revisar → Restringir edición.",
@@ -19794,6 +20114,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "Abrir el panel de Kick",
     "source": "bf6f8e9ef858"
+  },
+  "notify-dialog.open-the-settings-of-windows": {
+    "text": "Abrir la Configuración de Windows",
+    "source": "5af9b33ed216"
   },
   "talk.open-the-browser-again": {
     "text": "Volver a abrir el navegador",
@@ -20783,6 +21107,10 @@
     "text": "Elige un clip para ver su configuración.",
     "source": "6eb0903d3b41"
   },
+  "sheets.dialogs.pick-a-colour-for-the-tab": {
+    "text": "Elige un color para la pestaña de la hoja {name}.",
+    "source": "e9df2741dc65"
+  },
   "slides.pick-a-comment-first-in-the": {
     "text": "Elige primero un comentario, en el panel o en la diapositiva.",
     "source": "f5e1dbf895bc"
@@ -20802,6 +21130,14 @@
   "talk.invite-email.pick-from-contacts": {
     "text": "Elegir en Contactos",
     "source": "e44028663b60"
+  },
+  "sheets.pick-from-the-list": {
+    "text": "Elegir de la lista",
+    "source": "a8fc191ece74"
+  },
+  "sheets.pick-one-of-list": {
+    "text": "Elige uno de estos: {list}.",
+    "source": "77094891e902"
   },
   "contacts.pick-one-on-the-left-or": {
     "text": "Elige uno a la izquierda o pulsa Ctrl+N para crear una tarjeta nueva.",
@@ -21946,6 +22282,10 @@
   "sheets.put-the-cursor-in-a-table": {
     "text": "Coloca el cursor en una tabla o en una tabla dinámica: una segmentación de datos filtra una de ellas.",
     "source": "906ca4fd2842"
+  },
+  "sheets.ribbon.put-the-legend-at-a-side": {
+    "text": "Coloca la leyenda a un lado del gráfico o quítala.",
+    "source": "f49a59ee7c72"
   },
   "image.tools.put-the-pins-back": {
     "text": "Restablecer los puntos de anclaje",
@@ -23203,6 +23543,10 @@
     "text": "Quitar esta fila",
     "source": "9b034cbd964e"
   },
+  "sheets.dialogs.remove-this-rule": {
+    "text": "Quitar esta regla",
+    "source": "006122390887"
+  },
   "sheets.remove-this-watch": {
     "text": "Quitar esta inspección",
     "source": "7c1c8bf08b8c"
@@ -24303,6 +24647,10 @@
     "text": "Reglas",
     "source": "4228aeb07c41"
   },
+  "sheets.dialogs.rules-on-this-sheet": {
+    "text": "Reglas de esta hoja",
+    "source": "febf492f1ab9"
+  },
   "mail.rules.rules-run-when-mail-arrives-and": {
     "text": "Las reglas se aplican cuando llega correo y pueden ejecutarse en una carpeta cuando quieras.",
     "source": "6045d8d52773"
@@ -25295,6 +25643,10 @@
     "text": "Segundo color: donde termina un degradado",
     "source": "014aa91028da"
   },
+  "video.inspector.second-line": {
+    "text": "Segunda línea",
+    "source": "c8b588f708d6"
+  },
   "video.library.second-point": {
     "text": "Segundo punto",
     "source": "55b07a59a655"
@@ -25302,6 +25654,10 @@
   "calendar.second-time-zone": {
     "text": "Segunda zona horaria",
     "source": "49755d0fec21"
+  },
+  "sheets.filter-panel.second-value": {
+    "text": "Segundo valor",
+    "source": "c4a53a97a697"
   },
   "slides.export-video.seconds-spent-on-each-slide": {
     "text": "Segundos en cada diapositiva",
@@ -25691,6 +26047,10 @@
     "text": "Envía un vínculo a tus amigos como quieras. Quien lo abra se convierte en tu contacto cuando acepte, con Rutba Office o, si no lo tiene, con una cuenta gratuita de Rutba. Retíralo cuando hayas terminado.",
     "source": "bd1c97fbc637"
   },
+  "talk.send-again": {
+    "text": "Volver a enviar",
+    "source": "feead925e260"
+  },
   "mail.send-and-receive": {
     "text": "Enviar y recibir",
     "source": "ffcf0846896c"
@@ -25931,9 +26291,9 @@
     "text": "Separado por comas",
     "source": "1d7e4e1cdf8b"
   },
-  "sheets.dialogs.separated-by-commas-or-a-range": {
-    "text": "Separados por comas, o un rango como $H$1:$H$9.",
-    "source": "66ebf7c18623"
+  "sheets.dialogs.separated-by-commas-or-a-range-2": {
+    "text": "Separados por comas, o un rango como $H$1:$H$9 o Products!A2:A11.",
+    "source": "deed8689a130"
   },
   "word.ribbon.separated-by-tabs": {
     "text": "Separado por tabulaciones",
@@ -25955,9 +26315,17 @@
     "text": "Series",
     "source": "a8295e08ff7a"
   },
+  "sheets.ribbon.series-colour": {
+    "text": "Color de la serie",
+    "source": "3989e7fea65a"
+  },
   "sheets.dialogs.series-in": {
     "text": "Series en",
     "source": "ceaab7f3e90b"
+  },
+  "sheets.ribbon.series-to-colour": {
+    "text": "Serie que colorear",
+    "source": "aa8f68cf8f3b"
   },
   "slides.series-number": {
     "text": "Serie {number}",
@@ -26623,6 +26991,10 @@
     "text": "Tipo de presentación",
     "source": "5d97277b82b2"
   },
+  "sheets.pivot-fields.show-values-as": {
+    "text": "Mostrar valores como",
+    "source": "bb7cc9d7da0d"
+  },
   "notify-dialog.show-what-it-says": {
     "text": "Mostrar su contenido",
     "source": "01ff1c611346"
@@ -26654,6 +27026,10 @@
   "talk.meet-lines.showing-their-screen": {
     "text": "Compartiendo su pantalla",
     "source": "1c428d39d527"
+  },
+  "studio.spoken-run.shown-only-the-words-type-at": {
+    "text": "Si solo se muestran, las palabras se escriben a la velocidad estándar.",
+    "source": "25a457d9d675"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "Visible para las personas con las que hablas",
@@ -26706,6 +27082,10 @@
   "word.ribbon.shrink-font": {
     "text": "Disminuir tamaño de fuente",
     "source": "176934670a3e"
+  },
+  "video.inspector.shrink-to-fit": {
+    "text": "Reducir hasta ajustar",
+    "source": "e65455733f3a"
   },
   "image.tools.shrink-narrow-the-selection-by-that": {
     "text": "Contraer: estrecha la selección esa cantidad de píxeles",
@@ -27275,6 +27655,10 @@
     "text": "Mínimo de arriba",
     "source": "b66a27b2ba69"
   },
+  "sheets.pivot-fields.smallest-first": {
+    "text": "De menor a mayor",
+    "source": "4b15d87c3abc"
+  },
   "common.smartart": {
     "text": "SmartArt",
     "source": "fe46ea12fa77"
@@ -27475,6 +27859,10 @@
     "text": "Ordenar párrafos: de la A a la Z o de la Z a la A; todo el documento si no hay nada seleccionado",
     "source": "bd64668cb009"
   },
+  "sheets.pivot-fields.sort-the-items": {
+    "text": "Ordenar los elementos",
+    "source": "8f5ac57242b2"
+  },
   "sheets.ribbon.sort-the-list-a-to-z": {
     "text": "Ordenar la lista de la A a la Z por la columna {name}, la de la celda activa; la fila de encabezado se queda arriba",
     "source": "121020686363"
@@ -27619,6 +28007,10 @@
     "text": "Destello",
     "source": "abac3d1ed392"
   },
+  "sheets.sparkline-options": {
+    "text": "Opciones de minigráfico",
+    "source": "7660b0f99e6b"
+  },
   "sheets.ribbon.sparklines": {
     "text": "Minigráficos",
     "source": "a77d2f6f62bf"
@@ -27762,6 +28154,10 @@
   "word.split-cells": {
     "text": "Dividir celdas",
     "source": "ec306591839f"
+  },
+  "video.inspector.split-into-lines": {
+    "text": "Dividir en líneas",
+    "source": "2b164901b73d"
   },
   "sheets.split-into-the-cells-to-the": {
     "text": "Dividir en las celdas de la derecha",
@@ -27954,6 +28350,10 @@
   "word.list-dialog.start-at": {
     "text": "Iniciar en",
     "source": "334c284f438c"
+  },
+  "sheets.dialogs.start-at-nought": {
+    "text": "Empezar en cero",
+    "source": "8e5da7fea6e5"
   },
   "word.restrict.start-enforcement": {
     "text": "Comenzar a aplicar",
@@ -28559,6 +28959,14 @@
     "text": "Valores separados por tabulaciones (.tsv)",
     "source": "8015e916b0d7"
   },
+  "sheets.dialogs.tab-colour": {
+    "text": "Color de pestaña",
+    "source": "5ea3b6dde585"
+  },
+  "sheets.tab-colour": {
+    "text": "Color de pestaña…",
+    "source": "2dc7ab1e9dc6"
+  },
   "word.tab-leader": {
     "text": "Carácter de relleno",
     "source": "4c13c6224502"
@@ -29079,6 +29487,10 @@
     "text": "Efectos de texto: transformar",
     "source": "788f2d5eb581"
   },
+  "sheets.filter-panel.text-filters": {
+    "text": "Filtros de texto",
+    "source": "ab3c6a9c325c"
+  },
   "word.forms.text-form-field": {
     "text": "Campo de formulario de texto",
     "source": "c493dd6ddde9"
@@ -29122,6 +29534,10 @@
   "slides.revisions.text-changed": {
     "text": "Texto cambiado",
     "source": "26c7b5775381"
+  },
+  "video.inspector.text-colour": {
+    "text": "Color del texto",
+    "source": "25e9c8090de7"
   },
   "sheets.dialogs.text-contains": {
     "text": "El texto contiene",
@@ -29711,6 +30127,10 @@
     "text": "Las aplicaciones que quieres ver y con las que abrir tus archivos.",
     "source": "332e5249e305"
   },
+  "video.inspector.the-bar-covers-the-whole-film": {
+    "text": "La barra cubre toda la película a medida que crece, hasta que se cambie su longitud.",
+    "source": "da0ae4020925"
+  },
   "video.inspector.the-bar-fills-from-where-this": {
     "text": "La barra se llena desde el inicio de este clip hasta su final.",
     "source": "01d9656a5ad1"
@@ -29718,6 +30138,10 @@
   "video.the-brand-kit-is-kept-for": {
     "text": "El kit de marca se guarda para ti y se aplica en todas las escenas.",
     "source": "3180710525cd"
+  },
+  "video.inspector.the-brand-kit-logo": {
+    "text": "El logotipo del kit de marca",
+    "source": "cee5b3c1d63e"
   },
   "word.list-dialog.the-bullet-character": {
     "text": "El carácter de viñeta.",
@@ -29886,6 +30310,10 @@
   "talk-words.the-connection-was-lost-and-the": {
     "text": "Se perdió la conexión y no fue posible volver a entrar en la reunión.",
     "source": "ecc583f6d5d1"
+  },
+  "sheets.the-copy-has-the-cells-and": {
+    "text": "La copia tiene las celdas y sus formatos. Los gráficos, las imágenes, las tablas y las tablas dinámicas se quedan en la primera hoja.",
+    "source": "dad761a634d9"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "El rango de criterios no puede estar dentro de la lista",
@@ -30275,6 +30703,10 @@
     "text": "La copia bloqueada se ha guardado. Envíala como quieras.",
     "source": "bbfae89220a6"
   },
+  "video.library.the-logo-from-your-brand-kit": {
+    "text": "El logotipo de tu kit de marca, en la esquina, o una imagen que elijas.",
+    "source": "9323498bce87"
+  },
   "engine.the-mail-app-is-chosen-in": {
     "text": "La aplicación de correo se elige en la configuración del propio sistema de este ordenador.",
     "source": "5141d3af3f67"
@@ -30314,6 +30746,10 @@
   "mail.parts.the-mail-server-would-not-keep": {
     "text": "El servidor de correo no guardó una copia del mensaje enviado en {folder}. Se conserva la copia de aquí.",
     "source": "59af5bb0cb8f"
+  },
+  "mail.parts.the-mail-server-would-not-keep-2": {
+    "text": "El servidor de correo no guardó el borrador en {folder}. Sigue en este ordenador.",
+    "source": "2304437141a3"
   },
   "mail.parts.the-mail-server-would-not-make": {
     "text": "El servidor de correo no aplicó un cambio hecho aquí. Correo muestra lo que tiene el servidor.",
@@ -30362,6 +30798,10 @@
   "talk.meet-lines.the-meeting-is-full-on-its": {
     "text": "La reunión está completa en su Talk Server.",
     "source": "a28293313806"
+  },
+  "talk.the-meeting-stays-here-reason": {
+    "text": "La reunión se queda aquí: {reason}",
+    "source": "2f8fd822d081"
   },
   "talk.meet-lines.the-meetings-talk-server-is-not": {
     "text": "El Talk Server de la reunión no está admitiendo personas ahora. Vuelve a intentarlo en un momento.",
@@ -30863,6 +31303,10 @@
     "text": "La copia de seguridad de la carpeta {name} se hizo {when}. Sus {n} archivos se escriben, sin bloquear, en una carpeta nueva dentro de la que elijas. No se cambia nada de lo que ya hay allí.",
     "source": "a34f0ed2f93a"
   },
+  "sheets.dialogs.the-same-for-all-of-them": {
+    "text": "El mismo para todos",
+    "source": "eef1cb1cfa61"
+  },
   "locker.the-same-password-again": {
     "text": "La misma contraseña otra vez",
     "source": "cfd750367fe1"
@@ -30918,6 +31362,10 @@
   "sheets.dialogs.the-selection-holds-a-formula-in": {
     "text": "La selección contiene una fórmula en su esquina y los valores que probar a lo largo de sus bordes. Cada celda se rellena con lo que da la fórmula para esa combinación.",
     "source": "fe7e0163219d"
+  },
+  "sheets.the-selection-is-now-named-name": {
+    "text": "La selección se llama ahora {name}.",
+    "source": "c3c614e5e0f0"
   },
   "mail.the-sender-supports-one-click-unsubscribe": {
     "text": "El remitente admite cancelar la suscripción con un clic. Se le envía una sola solicitud y nada más sale de este ordenador.",
@@ -31126,6 +31574,10 @@
   "engine.the-text-recognition-model-for-key": {
     "text": "No se pudo cargar el modelo de reconocimiento de texto para {key}.",
     "source": "44a1288700c8"
+  },
+  "video.inspector.the-theme-colour": {
+    "text": "El color del tema",
+    "source": "c9c8ab182186"
   },
   "slides.ribbon.the-themes-own-looks-filled-in": {
     "text": "Los aspectos propios del tema: relleno de un color de énfasis y contorno del mismo color",
@@ -31566,6 +32018,10 @@
   "mail.these-accounts": {
     "text": "Estas cuentas",
     "source": "0eca400d4be1"
+  },
+  "sheets.dialogs.these-apply-to-every-sparkline-made": {
+    "text": "Se aplican a todos los minigráficos creados junto con este.",
+    "source": "a459084b0d0c"
   },
   "mail.these-are-imported-archives-there-is": {
     "text": "Son archivos de correo importados: no hay nada que recibir.",
@@ -32022,6 +32478,10 @@
   "word.restrict.this-document-is-protected-only-comments": {
     "text": "Este documento está protegido: aquí solo se pueden agregar comentarios. Revisar → Restringir edición muestra las regiones que puedes editar.",
     "source": "b908b8376d8e"
+  },
+  "sheets.this-entry-does-not-match-the": {
+    "text": "Esta entrada no coincide con la regla establecida para esta celda.",
+    "source": "64430678bcb5"
   },
   "calendar.this-event-has-a-talk-meeting": {
     "text": "Este evento tiene una reunión de Talk. Su vínculo está en la invitación.",
@@ -32503,6 +32963,10 @@
     "text": "Esta hoja no tiene ningún esquema que borrar",
     "source": "a80699366a86"
   },
+  "sheets.dialogs.this-sheet-has-no-rules-yet": {
+    "text": "Esta hoja aún no tiene reglas.",
+    "source": "735960d6edfc"
+  },
   "sheets.this-sheet-is-protected-with-a": {
     "text": "Esta hoja está protegida con contraseña. Escríbela para quitar la protección.",
     "source": "368023c3045c"
@@ -32622,6 +33086,10 @@
   "studio.guests.this-window-leaves-and-talk-comes": {
     "text": "Esta ventana se cierra y entra Talk: las mismas personas, como reunión.",
     "source": "fa116fc70753"
+  },
+  "talk.this-window-leaves-the-meeting-once": {
+    "text": "Esta ventana sale de la reunión cuando se abre la otra, y la organizas desde allí.",
+    "source": "fb83b9a3480f"
   },
   "sheets.this-workbook-has-no-comments": {
     "text": "Este libro no tiene comentarios.",
@@ -33027,6 +33495,10 @@
     "text": "Borde superior",
     "source": "79775184aaa3"
   },
+  "sheets.dialogs.top-items": {
+    "text": "Elementos superiores",
+    "source": "af3865aa2315"
+  },
   "common.top-left": {
     "text": "Superior izquierda",
     "source": "a0eda50fb155"
@@ -33035,6 +33507,10 @@
     "text": "Lo que está arriba en la lista queda delante. Arrastra para cambiar el orden.",
     "source": "428a0adb9e63"
   },
+  "sheets.dialogs.top-per-cent": {
+    "text": "Porcentaje superior",
+    "source": "fa0e93898958"
+  },
   "common.top-right": {
     "text": "Superior derecha",
     "source": "d83cbef9db1b"
@@ -33042,6 +33518,14 @@
   "sheets.dialogs.top-row": {
     "text": "Fila superior",
     "source": "5c027c33bb97"
+  },
+  "sheets.dialogs.top-count": {
+    "text": "{count} superiores",
+    "source": "b6783f4fd940"
+  },
+  "sheets.dialogs.top-count-2": {
+    "text": "{count} % superiores",
+    "source": "ea8f8cc99e8d"
   },
   "common.total": {
     "text": "Total",
@@ -33055,9 +33539,17 @@
     "text": "Fila de totales: la última fila con el aspecto de totales de su estilo",
     "source": "46fd3713529a"
   },
+  "sheets.ribbon.total-of-column-none": {
+    "text": "Total de {column}: ninguno",
+    "source": "1676db04c840"
+  },
   "base.reports.total-of-field": {
     "text": "Total del campo {field}",
     "source": "f3956fd5d7dd"
+  },
+  "sheets.ribbon.total-row": {
+    "text": "Fila de totales",
+    "source": "3c3cb9cbf619"
   },
   "base.totals": {
     "text": "Totales",
@@ -33515,6 +34007,10 @@
     "text": "Escribe o pega direcciones",
     "source": "ddf091a93d83"
   },
+  "video.type-or-paste-your-words-here": {
+    "text": "Escribe o pega aquí tus palabras.",
+    "source": "2d8717ac7291"
+  },
   "sheets.dialogs.type-part-of-a-name": {
     "text": "Escribe parte de un nombre",
     "source": "7602842c7ce4"
@@ -33587,9 +34083,17 @@
     "text": "Escrita",
     "source": "bff482dbe92b"
   },
+  "common.typewriter": {
+    "text": "Máquina de escribir",
+    "source": "b15b792b2b10"
+  },
   "video.inspector.typing": {
     "text": "Escritura",
     "source": "25dfb9b4b32f"
+  },
+  "video.inspector.typing-speed": {
+    "text": "Velocidad de escritura",
+    "source": "9d1ff237078a"
   },
   "common.uppercase": {
     "text": "MAYÚSCULAS",
@@ -33674,6 +34178,18 @@
   "sheets.unhide-name": {
     "text": "Mostrar «{name}»",
     "source": "efad2d4bb2b6"
+  },
+  "sheets.ribbon.unhide-all-rows-and-columns": {
+    "text": "Mostrar todas las filas y columnas",
+    "source": "e996d6d88a04"
+  },
+  "sheets.unhide-columns": {
+    "text": "Mostrar columnas",
+    "source": "2aee4f4f679d"
+  },
+  "sheets.unhide-rows": {
+    "text": "Mostrar filas",
+    "source": "783840178245"
   },
   "sheets.ribbon.unhide-a-hidden-worksheets-window-back": {
     "text": "Mostrar: una ventana oculta de Hojas de cálculo, de nuevo en pantalla",
@@ -34015,6 +34531,10 @@
     "text": "Actualizar {style} para que coincida con la selección",
     "source": "e65ad4674254"
   },
+  "sheets.ribbon.update-style-to-match-this-cell": {
+    "text": "Actualizar {style} para que coincida con esta celda",
+    "source": "ab2583743d9d"
+  },
   "shell.updated-from-version-what-changed-is": {
     "text": "Actualizado desde la versión {version}. Las novedades están a un clic.",
     "source": "d4f81a14fa5f"
@@ -34303,6 +34823,10 @@
     "text": "Vertical para redes sociales",
     "source": "06b16b68f5bb"
   },
+  "sheets.ribbon.vertical-axis-title": {
+    "text": "Título del eje vertical",
+    "source": "350384e51fb0"
+  },
   "sheets.ribbon.vertical-text": {
     "text": "Texto vertical",
     "source": "623bb53bc829"
@@ -34430,6 +34954,10 @@
   "common.voice": {
     "text": "Voz",
     "source": "87bf2bc08589"
+  },
+  "common.voice-first": {
+    "text": "Primero la voz",
+    "source": "e03a9afde9bd"
   },
   "voices-dialog.voices": {
     "text": "Voces",
@@ -35039,6 +35567,10 @@
     "text": "Ventanas",
     "source": "d598026a9cbc"
   },
+  "notify-dialog.windows-did-not-show-the-last": {
+    "text": "Windows no mostró la última notificación. En la Configuración de Windows, en Sistema, Notificaciones, comprueba que las notificaciones estén activadas para Windows y para Rutba Office, y que No molestar esté desactivado.",
+    "source": "8663439dc961"
+  },
   "engine.windows-keeps-this-choice-for-you": {
     "text": "Windows guarda esta opción por ti: elige Rutba Office en Configuración › Aplicaciones predeterminadas. El botón de abajo lo abre ahí.",
     "source": "954691d41579"
@@ -35091,6 +35623,14 @@
     "text": "Con ajuste de texto",
     "source": "1c19fe80875f"
   },
+  "common.with-the-voice": {
+    "text": "Con la voz",
+    "source": "a0c88e3ba266"
+  },
+  "video.spoken.with-the-words-shown-only-they": {
+    "text": "Si solo se muestran las palabras, se escriben a la velocidad propia de la película.",
+    "source": "a1da8c430dfa"
+  },
   "talk.with-video": {
     "text": "Con vídeo",
     "source": "d530d62be3b5"
@@ -35139,6 +35679,10 @@
     "text": "WordArt",
     "source": "ae16a048a626"
   },
+  "video.inspector.word-by-word": {
+    "text": "Palabra a palabra",
+    "source": "ddbaf8c9f91a"
+  },
   "word.dialogs.word-count": {
     "text": "Contar palabras",
     "source": "653913ac0e67"
@@ -35175,13 +35719,25 @@
     "text": "Palabras",
     "source": "0a8be89a52a8"
   },
+  "video.inspector.words-alone": {
+    "text": "Solo las palabras",
+    "source": "ddf082782ed5"
+  },
   "ui.proofing.words-for-word": {
     "text": "Palabras para «{word}»",
     "source": "6d61efe54546"
   },
+  "video.library.words-on-a-pill": {
+    "text": "Palabras en una píldora",
+    "source": "c3b9558baaef"
+  },
   "spoken.voices.words-to-say": {
     "text": "Palabras que decir",
     "source": "3353415dcf6a"
+  },
+  "video.library.words-typed-in-over-the-pictures": {
+    "text": "Palabras escritas sobre las imágenes, como elijas: escritura, palabra a palabra, línea a línea, karaoke o todo a la vez.",
+    "source": "bbe7cf532cfb"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "Las palabras que has agregado nunca se marcan como mal escritas, ni en Documentos, ni en Hojas de cálculo, ni en Presentaciones.",
@@ -35307,6 +35863,10 @@
     "text": "Escribir los datos adjuntos de cada mensaje junto a él",
     "source": "e456d4b9b1fd"
   },
+  "sheets.ribbon.write-each-value-beside-its-bar": {
+    "text": "Escribir cada valor junto a su barra o punto.",
+    "source": "026231f2c863"
+  },
   "mail.compose.write-it-in-a-window-of": {
     "text": "Escribirlo en una ventana propia",
     "source": "76eb5c9c5448"
@@ -35323,9 +35883,17 @@
     "text": "Escribe el primer mensaje a este grupo.",
     "source": "79c6b8f1ef84"
   },
+  "sheets.ribbon.write-the-share-of-each-slice": {
+    "text": "Escribir el porcentaje de cada sector sobre él.",
+    "source": "d494df2a096c"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "La escritura se detuvo: {reason}. Lo que se escribió antes se conserva.",
     "source": "9d5b1ef54387"
+  },
+  "sheets.dialogs.written-for-the-first-cell-of": {
+    "text": "Se escribe para la primera celda de la selección, como =$C2>100. Un signo de dólar mantiene fija una columna o una fila.",
+    "source": "d7d6c2376a68"
   },
   "contacts.wrote-count-card-to-file": {
     "forms": {
@@ -35690,6 +36258,10 @@
   "video.your-title-here": {
     "text": "Tu título aquí",
     "source": "66094e7e6215"
+  },
+  "video.your-web-address": {
+    "text": "Tu dirección web",
+    "source": "0bceb158232c"
   },
   "video.library.your-words": {
     "text": "Tu texto",
@@ -37359,6 +37931,10 @@
     "text": "{calendars}, {books} · sincronizado {when}",
     "source": "e74fd34182ad"
   },
+  "sheets.cell-was-not-changed-reason": {
+    "text": "No se cambió {cell}. {reason}",
+    "source": "c6587d02f21f"
+  },
   "engine.changed-file-types-now-open-with": {
     "text": "Ahora se abren con Rutba Office {changed} tipos de archivo.",
     "source": "aac86dd995be"
@@ -38050,6 +38626,10 @@
       "other": "{count} se quedaron como estaban"
     },
     "source": "58f6eb7ce109"
+  },
+  "video.inspector.count-letters-a-second": {
+    "text": "{count} letras por segundo",
+    "source": "8492559d17f5"
   },
   "base.documents.count-line": {
     "forms": {
@@ -39135,6 +39715,10 @@
     "text": "Ajuste {look}",
     "source": "eb6eabf53c50"
   },
+  "video.made-the-chapters-are-in-name": {
+    "text": "{made} Los capítulos están en {name}.",
+    "source": "fe36caf0e53c"
+  },
   "video.made-the-first-go-came-out": {
     "text": "{made}. La primera pasada superó {limit}, así que se volvió a codificar con menos calidad.",
     "source": "17043b2efde8"
@@ -39231,6 +39815,10 @@
     "text": "{name} se sustituye por el nombre de cada persona. El vínculo para aceptar y la forma de obtener Rutba Office van debajo de tu nota.",
     "source": "6724ae357006"
   },
+  "talk.name-called-while-you-were-on": {
+    "text": "{name} llamó mientras estabas en antena. La llamada se rechazó como ocupado y está en Llamadas perdidas.",
+    "source": "2a0990e6e9e1"
+  },
   "video.name-cannot-be-played-on-this": {
     "text": "No se puede reproducir {name} en este ordenador.",
     "source": "56c80f47dfd7"
@@ -39298,6 +39886,10 @@
   "talk-words.name-ended-the-meeting": {
     "text": "{name} finalizó la reunión.",
     "source": "68a9df35664b"
+  },
+  "studio.guests.name-has-left-the-meeting-their": {
+    "text": "{name} ha salido de la reunión. Su lugar está ahora vacío.",
+    "source": "7ff12fec0c3b"
   },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "{name} tiene más de una hoja. La primera fila de la que elijas da nombre a los campos.",
@@ -39935,6 +40527,10 @@
     "text": "{recipient} agregado a Destinatarios seguros",
     "source": "0b01f434a11b"
   },
+  "sheets.removed-duplicate-rows-removed-kept-rows": {
+    "text": "Se quitaron {removed} filas duplicadas; quedan {kept} filas.",
+    "source": "7299a779b8cc"
+  },
   "calendar.words.room-is-booked-for-when": {
     "text": "Sala {room}: reservada para {when}.",
     "source": "6c97b843b2c6"
@@ -39966,6 +40562,10 @@
   "common.seconds-s": {
     "text": "{seconds} s",
     "source": "fde82d3dd95e"
+  },
+  "video.inspector.seconds-s-apart": {
+    "text": "{seconds} s de separación",
+    "source": "f04806f51dbb"
   },
   "pictures.seconds-s": {
     "text": "{seconds} s",

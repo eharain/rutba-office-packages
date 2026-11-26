@@ -207,6 +207,18 @@
     "text": "“{word}” staat in je woordenboek.",
     "source": "b9aeb4fc656c"
   },
+  "sheets.pivot-fields.of-column-total": {
+    "text": "% van kolomtotaal",
+    "source": "eab72b338837"
+  },
+  "sheets.pivot-fields.of-grand-total": {
+    "text": "% van eindtotaal",
+    "source": "ad881b0c599c"
+  },
+  "sheets.pivot-fields.of-row-total": {
+    "text": "% van rijtotaal",
+    "source": "97a366055762"
+  },
   "word.list-dialog.2-is-this-levels-number-1": {
     "text": "%2 is het nummer van dit niveau; %1 het nummer van het niveau erboven.",
     "source": "9cbc5138d80a"
@@ -391,6 +403,10 @@
     "text": "1 dag ervoor",
     "source": "a8b499336a9e"
   },
+  "sheets.1-duplicate-row-removed-kept-rows": {
+    "text": "1 dubbele rij verwijderd; {kept} rijen blijven over.",
+    "source": "f63cb027fc81"
+  },
   "calendar.1-hour-before": {
     "text": "1 uur ervoor",
     "source": "5104b6b7955e"
@@ -562,6 +578,10 @@
   "engine.a-pdf-with-no-pages-is": {
     "text": "Een PDF zonder pagina's is geen document. Voeg eerst een pagina toe.",
     "source": "df7ad0646756"
+  },
+  "video.library.a-qr-code-type-the-address": {
+    "text": "Een QR-code; typ het adres dat hij opent.",
+    "source": "3c11f5898b54"
   },
   "talk.a-turn-server-you-run-offered": {
     "text": "Een TURN-server die je zelf draait; aangeboden aan de andere kant voor je gesprekken",
@@ -810,6 +830,10 @@
     "text": "Een formule hier bestaat uit getallen, cellen zoals B2 of B2:B4, de tekens +, -, * en /, haakjes, en SUM, AVERAGE, COUNT, MAX, MIN, PRODUCT of ABS daarvan of van ABOVE, LEFT, BELOW of RIGHT, zoals =SUM(ABOVE).",
     "source": "74a836a73c62"
   },
+  "sheets.dialogs.a-formula-is-true": {
+    "text": "Een formule is waar",
+    "source": "77bbea0fd15f"
+  },
   "home.a-free-office-suite-mail-documents": {
     "text": "Een gratis kantoorpakket: e-mail, documenten, werkbladen, presentaties, foto's, afbeeldingen en video, op een eigen engine.",
     "source": "cbecbd51dbc1"
@@ -974,6 +998,10 @@
     "text": "Een naam voor elke kolom, uit de kolomkop. Namen beheren toont ze",
     "source": "9a8020d11b5d"
   },
+  "sheets.a-name-starts-with-a-letter": {
+    "text": "Een naam begint met een letter, zonder spaties, zoals Sales_May. Een adres lijkt op B7 of B2:D9.",
+    "source": "e623278e0626"
+  },
   "review.a-name-that-says-what-is": {
     "text": "Naam die zegt wat op “{sheet}” staat:",
     "source": "818eb2db1790"
@@ -1128,6 +1156,14 @@
   "slides.a-pie-chart-draws-only-its": {
     "text": "Een cirkeldiagram tekent alleen de eerste reeks.",
     "source": "f51e19a20a49"
+  },
+  "video.inspector.a-piece-for-each-clip": {
+    "text": "Een deel per clip",
+    "source": "aceec9902c4c"
+  },
+  "video.inspector.a-piece-for-each-marker": {
+    "text": "Een deel per markering",
+    "source": "cb5ab8475fd9"
   },
   "engine.a-pivot-needs-at-least-one": {
     "text": "Een draaitabel heeft minstens één veld in Waarden nodig.",
@@ -1300,6 +1336,10 @@
     "text": "Een korte notitie aan een team: aan, van, het onderwerp, de achtergrond en wat er nu gebeurt",
     "source": "7cbd8d22f139"
   },
+  "video.library.a-short-word-on-a-coloured": {
+    "text": "Een kort woord op een gekleurde pil, zoals NEW of SALE.",
+    "source": "440aa0204a24"
+  },
   "word.drawings.a-sidebar-stands-beside-the-story": {
     "text": "Een zijbalk staat naast het verhaal met wat erbij hoort: een samenvatting, een puntenlijst, een notitie voor lezers.",
     "source": "f84097aa22f7"
@@ -1331,6 +1371,10 @@
   "slides.export-video.a-slide-with-a-timing-of": {
     "text": "Een dia met een eigen tijdsinstelling houdt die als tijdsinstellingen worden gebruikt; de rest blijft de seconden hierboven staan. Animaties worden voltooid getoond.",
     "source": "8e642bc4c741"
+  },
+  "video.library.a-small-line-along-the-foot": {
+    "text": "Een kleine regel onder in het beeld, zoals je webadres.",
+    "source": "9e6f80e3ef70"
   },
   "studio.scene-strip.a-source": {
     "text": "Een bron",
@@ -1594,6 +1638,10 @@
   "common.above-front-right": {
     "text": "Boven voor rechts",
     "source": "0edd0b82de7b"
+  },
+  "sheets.dialogs.above-average": {
+    "text": "Boven gemiddelde",
+    "source": "98ca5f459314"
   },
   "equations.absolute-value": {
     "text": "Absolute waarde",
@@ -2495,6 +2543,10 @@
     "text": "Geavanceerd…",
     "source": "1de3a18e329f"
   },
+  "sheets.filter-panel.after": {
+    "text": "Na",
+    "source": "7b68fe551085"
+  },
   "word.ribbon.after-pt": {
     "text": "Na (pt)",
     "source": "19ec57700505"
@@ -2702,6 +2754,10 @@
   "slides.ribbon.all-at-once": {
     "text": "Alles tegelijk",
     "source": "c9d506ca2d68"
+  },
+  "video.inspector.all-at-once": {
+    "text": "In één keer",
+    "source": "f90683717cd2"
   },
   "sheets.ribbon.all-borders": {
     "text": "Alle randen",
@@ -3189,6 +3245,10 @@
   "engine.another-program-opens-mail-links-on": {
     "text": "Een ander programma opent e-mailkoppelingen op deze computer.",
     "source": "1a1b9963a277"
+  },
+  "sheets.dialogs.another-rule": {
+    "text": "Andere regel",
+    "source": "35c09b4d7aef"
   },
   "common.answer": {
     "text": "Aannemen",
@@ -3929,6 +3989,14 @@
     "text": "Afwezig",
     "source": "af16c830c510"
   },
+  "sheets.dialogs.axis": {
+    "text": "As",
+    "source": "32b73caefac1"
+  },
+  "sheets.ribbon.axis-titles": {
+    "text": "Astitels",
+    "source": "900f286eac2b"
+  },
   "common.b5-176-250-mm": {
     "text": "B5: 176 × 250 mm",
     "source": "344900110be7"
@@ -4045,6 +4113,10 @@
     "text": "Gestreepte rijen: om de andere rij gearceerd, zoals de stijl dat doet",
     "source": "f6ced0fcf385"
   },
+  "sheets.ribbon.banded-rows": {
+    "text": "Gestreepte rijen",
+    "source": "6e9aa5474c82"
+  },
   "common.banner": {
     "text": "Banier",
     "source": "b7f4d98f98d5"
@@ -4101,6 +4173,10 @@
     "text": "Piep",
     "source": "4ccb3fb5330b"
   },
+  "sheets.filter-panel.before": {
+    "text": "Voor",
+    "source": "9bb725005055"
+  },
   "word.ribbon.before-pt": {
     "text": "Vóór (pt)",
     "source": "bba72e0923a5"
@@ -4112,6 +4188,10 @@
   "protect.before-sharing-this-file-check-it": {
     "text": "Controleer dit bestand voordat je het deelt op inhoud die anderen misschien niet mogen zien: opmerkingen, wijzigingen, verborgen woorden en persoonlijke gegevens.",
     "source": "56f7599f4157"
+  },
+  "sheets.filter-panel.begins-with": {
+    "text": "Begint met",
+    "source": "853978f44eaf"
   },
   "word.ribbon.behind-text": {
     "text": "Achter tekst",
@@ -4132,6 +4212,10 @@
   "common.below-front-right": {
     "text": "Onder voor rechts",
     "source": "31fedbb2729e"
+  },
+  "sheets.dialogs.below-average": {
+    "text": "Onder gemiddelde",
+    "source": "8f2f0fa9a074"
   },
   "common.berry": {
     "text": "Bessen",
@@ -4397,9 +4481,17 @@
     "text": "Onderrand",
     "source": "0dc79f4813a3"
   },
+  "sheets.dialogs.bottom-items": {
+    "text": "Onderste items",
+    "source": "aa9e5db6f818"
+  },
   "common.bottom-left": {
     "text": "Linksonder",
     "source": "f5a57b969150"
+  },
+  "sheets.dialogs.bottom-per-cent": {
+    "text": "Onderste procent",
+    "source": "10bad9a09d6f"
   },
   "common.bottom-right": {
     "text": "Rechtsonder",
@@ -4408,6 +4500,14 @@
   "video.layer-names.bottom-shade": {
     "text": "Schaduw onderaan",
     "source": "1dffbced0f7c"
+  },
+  "sheets.dialogs.bottom-count": {
+    "text": "Onderste {count}",
+    "source": "54119ed17f6b"
+  },
+  "sheets.dialogs.bottom-count-2": {
+    "text": "Onderste {count}%",
+    "source": "658e45ae01eb"
   },
   "word.ribbon.box-dashed-line": {
     "text": "Kader: streepjeslijn",
@@ -4931,6 +5031,10 @@
     "text": "Ondertitels (.srt, .vtt)",
     "source": "1c941a0a4cea"
   },
+  "video.library.captions-and-quick-adds": {
+    "text": "Bijschriften en snelle toevoegingen",
+    "source": "d062fc34102e"
+  },
   "slides.album.captions-below-all-pictures": {
     "text": "Bijschriften onder alle afbeeldingen",
     "source": "dd686df00caf"
@@ -5214,6 +5318,10 @@
     "text": "Wijzigen…",
     "source": "a6b4705c6883"
   },
+  "video.chapter-n": {
+    "text": "Hoofdstuk {n}",
+    "source": "816e97139189"
+  },
   "sheets.queries.character": {
     "text": "Teken",
     "source": "1405a63e8a78"
@@ -5241,6 +5349,10 @@
   "sheets.ribbon.chart-design": {
     "text": "Grafiekontwerp",
     "source": "d41692080652"
+  },
+  "sheets.ribbon.chart-elements": {
+    "text": "Grafiekelementen",
+    "source": "b2c3cce9d69c"
   },
   "sheets.ribbon.chart-title": {
     "text": "Grafiektitel",
@@ -5639,6 +5751,10 @@
   "image.choose-the-layer-to-clear-the": {
     "text": "Kies de laag waaruit je de selectie wilt wissen.",
     "source": "04a21a186397"
+  },
+  "video.choose-the-logo": {
+    "text": "Logo kiezen",
+    "source": "0240baf232cc"
   },
   "studio.bottom-bar.choose-the-microphone": {
     "text": "De microfoon kiezen",
@@ -6168,6 +6284,14 @@
     "text": "Kleur van de woorden",
     "source": "8c6ececb4c11"
   },
+  "sheets.dialogs.colour-of-those-points": {
+    "text": "Kleur van die punten",
+    "source": "898998460449"
+  },
+  "sheets.dialogs.colour-scale": {
+    "text": "Kleurenschaal",
+    "source": "000799f1a3ef"
+  },
   "sheets.dialogs.colour-scale-green-yellow-red-low": {
     "text": "Kleurenschaal: groen, geel, rood (laag naar hoog)",
     "source": "234d0c0e170a"
@@ -6426,6 +6550,10 @@
   "locker.compare": {
     "text": "Vergelijken…",
     "source": "219ddc366d9d"
+  },
+  "sheets.filter-panel.comparison": {
+    "text": "Vergelijking",
+    "source": "571527339d0e"
   },
   "word.mailings.comparison": {
     "text": "Vergelijking:",
@@ -6782,6 +6910,10 @@
     "text": "Pad kopiëren",
     "source": "720ff4160412"
   },
+  "sheets.copy-sheet": {
+    "text": "Blad kopiëren",
+    "source": "c9a0f392b71f"
+  },
   "sheets.ribbon.copy-the-formatting-here-to-the": {
     "text": "De opmaak hier kopiëren naar de volgende selectie",
     "source": "385e4d1fba79"
@@ -6905,6 +7037,10 @@
   "word.ribbon.count-above": {
     "text": "Aantal erboven",
     "source": "33e9e80a1691"
+  },
+  "sheets.ribbon.count-numbers": {
+    "text": "Aantal getallen",
+    "source": "f6b68195bdad"
   },
   "sheets.queries.count-rows": {
     "text": "Rijen tellen",
@@ -7298,6 +7434,10 @@
     "text": "Donkerblauw",
     "source": "6c12f1ca1641"
   },
+  "sheets.dialogs.dark-blue-grey": {
+    "text": "Donker blauwgrijs",
+    "source": "744e37be8716"
+  },
   "qrcode.dark-brown": {
     "text": "Donkerbruin",
     "source": "f22b68958bf5"
@@ -7406,6 +7546,10 @@
     "text": "Data Files-databases",
     "source": "24e8c9743f1a"
   },
+  "sheets.ribbon.data-labels": {
+    "text": "Gegevenslabels",
+    "source": "78023df4505c"
+  },
   "sheets.ribbon.data-table": {
     "text": "Gegevenstabel…",
     "source": "fedeed59d538"
@@ -7421,6 +7565,10 @@
   "sheets.ribbon.data-validation": {
     "text": "Gegevensvalidatie",
     "source": "28971fd398d1"
+  },
+  "sheets.dialogs.data-bars": {
+    "text": "Gegevensbalken",
+    "source": "e7a181724128"
   },
   "sheets.dialogs.data-bars-blue": {
     "text": "Gegevensbalken: blauw",
@@ -7469,6 +7617,10 @@
   "slides.ribbon.date-and-time-a-date-along": {
     "text": "Datum en tijd: een datum onderaan, actueel gehouden of vast",
     "source": "f94ad5295f5d"
+  },
+  "sheets.filter-panel.date-filters": {
+    "text": "Datumfilters",
+    "source": "bacb61184a41"
   },
   "word.forms.date-picker-content-control": {
     "text": "Besturingselement datumkiezer",
@@ -8144,6 +8296,10 @@
     "text": "Verschil",
     "source": "4d280a451d04"
   },
+  "sheets.pivot-fields.difference-from-previous": {
+    "text": "Verschil met vorige",
+    "source": "4473ab760db3"
+  },
   "slides.different-since-this-deck-was-last": {
     "text": "Anders sinds deze presentatie hier laatst open was",
     "source": "da4a123f25df"
@@ -8155,6 +8311,10 @@
   "shell.digits": {
     "text": "Cijfers",
     "source": "9cd500d3d69f"
+  },
+  "video.inspector.dim": {
+    "text": "Gedempt",
+    "source": "ea53b1cb304d"
   },
   "pictures.dimensions": {
     "text": "Afmetingen",
@@ -8335,6 +8495,14 @@
   "home.documents-mail-and-media-all-work": {
     "text": "Documenten, e-mail en media werken allemaal zonder netwerkverbinding",
     "source": "e815503e3abf"
+  },
+  "sheets.filter-panel.does-not-contain": {
+    "text": "Bevat niet",
+    "source": "56fe07f0e32e"
+  },
+  "sheets.filter-panel.does-not-equal": {
+    "text": "Is niet gelijk aan",
+    "source": "e47c3280f3bf"
   },
   "calendar.does-not-repeat": {
     "text": "Herhaalt niet",
@@ -8683,10 +8851,6 @@
     "text": "Dubbele rijen verwijderd",
     "source": "e606bafdbd22"
   },
-  "sheets.duplicate-rows-removed-the-rest-closed": {
-    "text": "Dubbele rijen verwijderd; de rest is aangesloten",
-    "source": "0827cbb28e3a"
-  },
   "slides.duplicate-slide": {
     "text": "Dia dupliceren",
     "source": "ab7940817995"
@@ -8787,6 +8951,10 @@
     "text": "Elke regel na elkaar voorgelezen, met de woorden in beeld terwijl de stem klinkt",
     "source": "282adc866b4a"
   },
+  "studio.spoken-run.each-line-types-in-letter-by": {
+    "text": "Vanaf de volgende gesproken regel wordt elke regel letter voor letter getypt.",
+    "source": "a390f5fb2388"
+  },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "Elk e-mailaccount, elke agenda, elk adresboek, elke database en elke map heeft een eigen instelling, die ook in de eigen app wordt getoond, en de Recorder ook. Alles staat op Uit totdat je kiest. Er wordt nooit iets verwijderd of verplaatst, en alles wat wordt verzonden wacht eerst tot je hier op de knop drukt.",
     "source": "0fd0a5b12aaa"
@@ -8831,6 +8999,10 @@
     "text": "Elke bron als eigen bestand",
     "source": "87ba78fbecfd"
   },
+  "sheets.dialogs.each-sparkline-its-own-lowest-and": {
+    "text": "Elke sparkline eigen laagste en hoogste",
+    "source": "6a9c83cdf903"
+  },
   "sheets.objects.each-ticked-field-gets-a-panel": {
     "text": "Elk aangevinkt veld krijgt een paneel met knoppen, één per item, dat de draaitabel filtert.",
     "source": "57b495c85a7a"
@@ -8850,6 +9022,10 @@
   "slides.custom-shows.earlier-in-the-show": {
     "text": "Eerder in de voorstelling",
     "source": "c75dff7e0d23"
+  },
+  "sheets.dialogs.earliest-date": {
+    "text": "Vroegste datum",
+    "source": "82a5aebc403c"
   },
   "word.references-index.earth": {
     "text": "Aarde",
@@ -9343,6 +9519,10 @@
     "text": "Eindigt",
     "source": "e98982c9f2ba"
   },
+  "sheets.filter-panel.ends-with": {
+    "text": "Eindigt op",
+    "source": "fc203569fa85"
+  },
   "base.links.engine": {
     "text": "Engine",
     "source": "8e75ebbdb215"
@@ -9418,6 +9598,10 @@
   "common.equal-to": {
     "text": "Gelijk aan",
     "source": "6a26ff8ea94b"
+  },
+  "sheets.filter-panel.equals": {
+    "text": "Is gelijk aan",
+    "source": "f939ae3d30c6"
   },
   "common.equation": {
     "text": "Vergelijking",
@@ -9555,6 +9739,10 @@
     "text": "Elke knop alleen als pictogram; de naam verschijnt als de aanwijzer erop rust",
     "source": "21abdd3708ee"
   },
+  "video.inspector.every-caption-in-the-film-types": {
+    "text": "Elk bijschrift in de film wordt met deze snelheid getypt.",
+    "source": "330cbb6a15e3"
+  },
   "slides.every-comment-here-was-already-read": {
     "text": "Elke opmerking hier was al gelezen.",
     "source": "47ca1a3a2589"
@@ -9637,6 +9825,10 @@
   "pictures.every-picture-shown-count": {
     "text": "Alle getoonde afbeeldingen ({count})",
     "source": "904610f6a47a"
+  },
+  "sheets.dialogs.every-point-line-only": {
+    "text": "Elk punt (alleen bij lijn)",
+    "source": "88f8f754acf4"
   },
   "base.documents.every-record": {
     "text": "Elk record",
@@ -11109,6 +11301,10 @@
     "text": "Formule: een veld in de cel van de cursor, berekend uit de getallen erboven of links ervan, of uit cellen zoals B2 en B2:B4, zoals =SUM(ABOVE) van Word",
     "source": "ac4ef0433793"
   },
+  "sheets.dialogs.formula-formula": {
+    "text": "Formule: {formula}",
+    "source": "373a77366380"
+  },
   "sheets.formulas": {
     "text": "Formules",
     "source": "098baf95d843"
@@ -11692,6 +11888,10 @@
   "word.mailings.greater-than-or-equal": {
     "text": "Groter dan of gelijk aan",
     "source": "4df4f066c9c1"
+  },
+  "sheets.filter-panel.greater-than-or-equal-to": {
+    "text": "Is groter dan of gelijk aan",
+    "source": "85d08e847878"
   },
   "common.greek": {
     "text": "Grieks",
@@ -12284,6 +12484,10 @@
     "text": "Dia verbergen: deze dia is verborgen in de voorstelling; druk nogmaals om hem te tonen",
     "source": "7d777db556ab"
   },
+  "sheets.hide-columns": {
+    "text": "Kolommen verbergen",
+    "source": "9d5c93b12237"
+  },
   "image.layers-panel.hide-its-layers": {
     "text": "De lagen ervan verbergen",
     "source": "e3c527659d85"
@@ -12291,6 +12495,10 @@
   "protect.hide-password": {
     "text": "Wachtwoord verbergen",
     "source": "a60a56c584b3"
+  },
+  "sheets.hide-rows": {
+    "text": "Rijen verbergen",
+    "source": "6e6875f9e909"
   },
   "talk.invite.hide-the-code": {
     "text": "Code verbergen",
@@ -12343,6 +12551,10 @@
   "qrcode.high-30": {
     "text": "Hoog (30%)",
     "source": "652a05d1ae51"
+  },
+  "sheets.dialogs.high-point": {
+    "text": "Hoogste punt",
+    "source": "80ab296d2b33"
   },
   "pdf.export.high-quality-225-dots-per-inch": {
     "text": "Hoge kwaliteit (225 punten per inch)",
@@ -12455,6 +12667,10 @@
   "slides.horizontal-out": {
     "text": "Horizontaal naar buiten",
     "source": "51081ab58752"
+  },
+  "sheets.ribbon.horizontal-axis-title": {
+    "text": "Horizontale astitel",
+    "source": "b3c89eb1f3c0"
   },
   "common.horizontal-brick": {
     "text": "Horizontale bakstenen",
@@ -12615,6 +12831,10 @@
   "common.icon": {
     "text": "Pictogram",
     "source": "a35abcd6dac9"
+  },
+  "sheets.dialogs.icon-set": {
+    "text": "Pictogramserie",
+    "source": "a3ae5ca177a0"
   },
   "common.icons": {
     "text": "Pictogrammen",
@@ -12902,6 +13122,10 @@
     "text": "In één account of archief",
     "source": "be358173c89a"
   },
+  "video.inspector.in-pieces": {
+    "text": "In delen",
+    "source": "786b72b37492"
+  },
   "video.in-point": {
     "text": "In-punt",
     "source": "9c1d42b38a85"
@@ -12948,6 +13172,10 @@
   "video.in-from-out-to": {
     "text": "In {from}, Uit {to}",
     "source": "9ad2ac8a59a8"
+  },
+  "sheets.dialogs.in-range-a-row-that-repeats": {
+    "text": "In {range} wordt een rij verwijderd die in elke aangevinkte kolom gelijk is aan een eerdere rij. De eerste van elk blijft staan.",
+    "source": "ac1519f6f42d"
   },
   "studio.shared.in-seconds-s": {
     "text": "Over {seconds} s",
@@ -13945,6 +14173,14 @@
     "text": "Cursief (Ctrl+I)",
     "source": "ccc60dff1674"
   },
+  "sheets.filter-panel.items": {
+    "text": "Items",
+    "source": "fb8e7a1a3cb7"
+  },
+  "sheets.filter-panel.items-or-percent": {
+    "text": "Items of procent",
+    "source": "14cded7778d2"
+  },
   "template-gallery.items-counts-and-reorder-levels-the": {
     "text": "Artikelen, aantallen en bestelniveaus, de voorraadwaarde en wat je opnieuw moet bestellen",
     "source": "a704276dd164"
@@ -13975,6 +14211,10 @@
   "slides.ribbon.its-notes": {
     "text": "De notities",
     "source": "a316f96e4b04"
+  },
+  "sheets.dialogs.its-own-lowest-and-highest-shows": {
+    "text": "Eigen laagste en hoogste toont de stijgingen en dalingen van elke rij; één as voor alle vergelijkt hun grootte.",
+    "source": "2a62e687c030"
   },
   "mail.smime.its-password": {
     "text": "Het wachtwoord",
@@ -14134,6 +14374,10 @@
   "word.ribbon.justify-with-kashida-stretch-the-letters": {
     "text": "Uitvullen met kashida: de letters uitrekken om de regel te vullen, zoals bij Arabisch",
     "source": "b7ba4e7d59c4"
+  },
+  "video.inspector.karaoke": {
+    "text": "Karaoke",
+    "source": "34cd21fcc55b"
   },
   "common.keep": {
     "text": "Houden",
@@ -14575,6 +14819,10 @@
     "text": "Achternaam",
     "source": "7b4888049459"
   },
+  "sheets.dialogs.last-point": {
+    "text": "Laatste punt",
+    "source": "430de8dd535b"
+  },
   "common.last-record": {
     "text": "Laatste record",
     "source": "27fef2475093"
@@ -14618,6 +14866,10 @@
   "mail.compose.later-today-9pm": {
     "text": "Later vandaag, 21:00",
     "source": "1c66a953a2b9"
+  },
+  "sheets.dialogs.latest-date": {
+    "text": "Laatste datum",
+    "source": "a9de7221765f"
   },
   "image.layer": {
     "text": "Laag",
@@ -14889,6 +15141,10 @@
     "text": "Kleiner dan of gelijk aan",
     "source": "ee8df42e1687"
   },
+  "sheets.filter-panel.less-than-or-equal-to": {
+    "text": "Is kleiner dan of gelijk aan",
+    "source": "ae1564a79ff3"
+  },
   "template-gallery.lesson": {
     "text": "Les",
     "source": "6e2b26d9de40"
@@ -15097,6 +15353,10 @@
     "text": "Lijn ertussen",
     "source": "1bac593d7aea"
   },
+  "video.inspector.line-by-line": {
+    "text": "Regel voor regel",
+    "source": "d69a37385809"
+  },
   "sheets.dialogs.line-chart": {
     "text": "Lijngrafiek",
     "source": "22089151613f"
@@ -15156,6 +15416,10 @@
   "base.documents.lines-from": {
     "text": "Regels uit",
     "source": "dc6d35c2f93b"
+  },
+  "video.inspector.lines-one-at-a-time": {
+    "text": "Regels één voor één",
+    "source": "e30051392bb1"
   },
   "locker.lines-say-what-to-lock-a": {
     "text": "Regels geven aan wat wordt vergrendeld; een regel die met ! begint, maakt een uitzondering. Zonder regels wordt alles vergrendeld.",
@@ -15608,6 +15872,10 @@
   "video.export.low-smaller-file": {
     "text": "Laag (kleiner bestand)",
     "source": "e585bb7bd95c"
+  },
+  "sheets.dialogs.low-point": {
+    "text": "Laagste punt",
+    "source": "2529ac347b3d"
   },
   "video.ribbon.lower-third": {
     "text": "Naambalk",
@@ -17040,6 +17308,10 @@
     "text": "Mijn contactpersonen",
     "source": "6add5927687d"
   },
+  "sheets.dialogs.my-data-has-headers": {
+    "text": "Mijn gegevens bevatten kopteksten",
+    "source": "e917f14e7d6e"
+  },
   "talk.invite.my-email-app": {
     "text": "Mijn e-mailapp",
     "source": "c7aaaf0507c4"
@@ -17083,6 +17355,10 @@
   "broadcast.live-dialog.name-optional": {
     "text": "Naam (optioneel)",
     "source": "e09b37bcc4f3"
+  },
+  "sheets.name-box.name-box": {
+    "text": "Naamvak",
+    "source": "730b51d34ee3"
   },
   "sheets.ribbon.name-manager": {
     "text": "Namen beheren",
@@ -17229,6 +17505,10 @@
   "locker.needs-you": {
     "text": "Heeft je nodig",
     "source": "74b6abdf5969"
+  },
+  "sheets.dialogs.negative-points": {
+    "text": "Negatieve punten",
+    "source": "6963e8f96ed2"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "Geen van jullie kan de ander schrijven of bellen tot jullie weer contactpersonen zijn. Je berichten hier worden verwijderd.",
@@ -17862,6 +18142,10 @@
     "text": "Nog geen bouwstenen",
     "source": "ee11b12ee206"
   },
+  "sheets.pivot-fields.no-calculation": {
+    "text": "Geen berekening",
+    "source": "5da6f87ac7cb"
+  },
   "engine.no-calendars-or-address-books-were": {
     "text": "Er zijn geen agenda's of adresboeken gevonden op dat adres.",
     "source": "6b303bb9fae7"
@@ -17970,9 +18254,9 @@
     "text": "Geen ontwerpideeën voor deze dia: geef hem een titel, wat tekst of een afbeelding.",
     "source": "1f07475c0307"
   },
-  "sheets.no-duplicate-rows-in-the-selection": {
-    "text": "Geen dubbele rijen in de selectie",
-    "source": "47e580620f2e"
+  "sheets.no-duplicate-rows-found-kept-rows": {
+    "text": "Geen dubbele rijen gevonden; {kept} rijen blijven over.",
+    "source": "a032b583b3d3"
   },
   "word.mailings.no-duplicates": {
     "text": "Geen duplicaten",
@@ -19017,6 +19301,18 @@
     "text": "Meldingen gepauzeerd tot {time}",
     "source": "1d6521f14f4e"
   },
+  "notify-dialog.notifications-are-turned-off-in-windows": {
+    "text": "Meldingen zijn uitgeschakeld in Windows, dus Windows toont geen meldingen van Rutba Office. Zet ze aan in Windows-instellingen, onder Systeem, Meldingen.",
+    "source": "a652d04931a6"
+  },
+  "notify-dialog.notifications-are-turned-off-on-this": {
+    "text": "De beheerder van deze computer heeft meldingen uitgeschakeld, dus Windows toont geen meldingen van Rutba Office. Het pictogram bij de klok telt nog wel wat er wacht.",
+    "source": "76e702238671"
+  },
+  "notify-dialog.notifications-from-rutba-office-are-turned": {
+    "text": "Meldingen van Rutba Office zijn uitgeschakeld in Windows. Zet ze aan in Windows-instellingen, onder Systeem, Meldingen, Rutba Office.",
+    "source": "e19167006214"
+  },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "Nu {width} bij {height} cm. Alles op de dia's is geschaald en gecentreerd voor het nieuwe formaat.",
     "source": "4e0c85185863"
@@ -19036,6 +19332,10 @@
   "common.number": {
     "text": "Nummer",
     "source": "bd82cf16699b"
+  },
+  "sheets.filter-panel.number-filters": {
+    "text": "Getalfilters",
+    "source": "13fe0c5baab5"
   },
   "pictures.batch.number-as-001": {
     "text": "Nummeren als 001",
@@ -19241,6 +19541,10 @@
     "text": "Op een nieuwe verflaag",
     "source": "0501424bc7c7"
   },
+  "video.inspector.on-a-panel": {
+    "text": "Op een paneel",
+    "source": "e8787dfd4dc5"
+  },
   "studio.live-panel.on-air": {
     "text": "Live",
     "source": "c2332b223176"
@@ -19333,6 +19637,14 @@
     "text": "Eén antwoord bevat ze allemaal",
     "source": "0670ff9a00aa"
   },
+  "video.inspector.one-bar": {
+    "text": "Eén balk",
+    "source": "4bfa8b51bda1"
+  },
+  "video.inspector.one-caption-a-line-one-after": {
+    "text": "Eén bijschrift per regel, na elkaar, elk op een eigen spoor.",
+    "source": "01dc9af7bfb6"
+  },
   "slides.ribbon.one-column": {
     "text": "Eén kolom",
     "source": "4af4c82acab4"
@@ -19352,6 +19664,10 @@
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "Eén regel per regel. Een tab gaat naar het midden, een tweede naar rechts.",
     "source": "80be2d4cf6a5"
+  },
+  "video.inspector.one-line-there-is-nothing-to": {
+    "text": "Eén regel: er valt niets te splitsen.",
+    "source": "c2918f5eb39b"
   },
   "image.layers-panel.one-name-and-one-number-on": {
     "text": "Eén naam en één getal op elke regel, bijvoorbeeld: Ma, 12",
@@ -19427,6 +19743,10 @@
   "notify-dialog.only-an-installed-copy-of-rutba": {
     "text": "Alleen een geïnstalleerde versie van Rutba Office kan met Windows starten.",
     "source": "5d376c6f923f"
+  },
+  "notify-dialog.only-an-installed-copy-of-rutba-2": {
+    "text": "Alleen een geïnstalleerde versie van Rutba Office toont Windows-meldingen. Het pictogram bij de klok telt nog wel wat er wacht.",
+    "source": "5fedb6d63e92"
   },
   "word.only-certain-kinds-of-changes-can": {
     "text": "In dit document zijn alleen bepaalde soorten wijzigingen toegestaan. Zie Controleren → Bewerking beperken.",
@@ -19751,6 +20071,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "Het Kick-dashboard openen",
     "source": "bf6f8e9ef858"
+  },
+  "notify-dialog.open-the-settings-of-windows": {
+    "text": "Windows-instellingen openen",
+    "source": "5af9b33ed216"
   },
   "talk.open-the-browser-again": {
     "text": "Browser opnieuw openen",
@@ -20740,6 +21064,10 @@
     "text": "Kies een clip om de instellingen te zien.",
     "source": "6eb0903d3b41"
   },
+  "sheets.dialogs.pick-a-colour-for-the-tab": {
+    "text": "Kies een kleur voor het tabblad van {name}.",
+    "source": "e9df2741dc65"
+  },
   "slides.pick-a-comment-first-in-the": {
     "text": "Kies eerst een opmerking, in het deelvenster of op de dia.",
     "source": "f5e1dbf895bc"
@@ -20759,6 +21087,14 @@
   "talk.invite-email.pick-from-contacts": {
     "text": "Kiezen uit Contactpersonen",
     "source": "e44028663b60"
+  },
+  "sheets.pick-from-the-list": {
+    "text": "Kiezen uit de lijst",
+    "source": "a8fc191ece74"
+  },
+  "sheets.pick-one-of-list": {
+    "text": "Kies een van deze: {list}.",
+    "source": "77094891e902"
   },
   "contacts.pick-one-on-the-left-or": {
     "text": "Kies links een kaart of maak met Ctrl+N een nieuwe.",
@@ -21902,6 +22238,10 @@
   "sheets.put-the-cursor-in-a-table": {
     "text": "Zet de cursor in een tabel of draaitabel. Een slicer filtert een van beide.",
     "source": "906ca4fd2842"
+  },
+  "sheets.ribbon.put-the-legend-at-a-side": {
+    "text": "Zet de legenda aan een kant van de grafiek, of haal hem weg.",
+    "source": "f49a59ee7c72"
   },
   "image.tools.put-the-pins-back": {
     "text": "De pinnen terugzetten",
@@ -23156,6 +23496,10 @@
     "text": "Deze rij verwijderen",
     "source": "9b034cbd964e"
   },
+  "sheets.dialogs.remove-this-rule": {
+    "text": "Deze regel verwijderen",
+    "source": "006122390887"
+  },
   "sheets.remove-this-watch": {
     "text": "Dit controlepunt verwijderen",
     "source": "7c1c8bf08b8c"
@@ -24254,6 +24598,10 @@
     "text": "Regels",
     "source": "4228aeb07c41"
   },
+  "sheets.dialogs.rules-on-this-sheet": {
+    "text": "Regels op dit blad",
+    "source": "febf492f1ab9"
+  },
   "mail.rules.rules-run-when-mail-arrives-and": {
     "text": "Regels werken als e-mail binnenkomt, en je kunt ze altijd op een map uitvoeren.",
     "source": "6045d8d52773"
@@ -25245,6 +25593,10 @@
     "text": "Tweede kleur: waar een verloop eindigt",
     "source": "014aa91028da"
   },
+  "video.inspector.second-line": {
+    "text": "Tweede regel",
+    "source": "c8b588f708d6"
+  },
   "video.library.second-point": {
     "text": "Tweede punt",
     "source": "55b07a59a655"
@@ -25252,6 +25604,10 @@
   "calendar.second-time-zone": {
     "text": "Tweede tijdzone",
     "source": "49755d0fec21"
+  },
+  "sheets.filter-panel.second-value": {
+    "text": "Tweede waarde",
+    "source": "c4a53a97a697"
   },
   "slides.export-video.seconds-spent-on-each-slide": {
     "text": "Seconden voor elke dia",
@@ -25641,6 +25997,10 @@
     "text": "Stuur vrienden een link op elke manier die je wilt. Wie hem opent, wordt je contactpersoon zodra die accepteert, met Rutba Office of, zonder, een gratis Rutba-account. Trek hem in als je klaar bent.",
     "source": "bd1c97fbc637"
   },
+  "talk.send-again": {
+    "text": "Opnieuw verzenden",
+    "source": "feead925e260"
+  },
   "mail.send-and-receive": {
     "text": "Verzenden/ontvangen",
     "source": "ffcf0846896c"
@@ -25877,9 +26237,9 @@
     "text": "Komma als scheiding",
     "source": "1d7e4e1cdf8b"
   },
-  "sheets.dialogs.separated-by-commas-or-a-range": {
-    "text": "Gescheiden door komma's, of een bereik zoals $H$1:$H$9.",
-    "source": "66ebf7c18623"
+  "sheets.dialogs.separated-by-commas-or-a-range-2": {
+    "text": "Gescheiden door komma's, of een bereik zoals $H$1:$H$9 of Products!A2:A11.",
+    "source": "deed8689a130"
   },
   "word.ribbon.separated-by-tabs": {
     "text": "Gescheiden door tabs",
@@ -25901,9 +26261,17 @@
     "text": "Reeks",
     "source": "a8295e08ff7a"
   },
+  "sheets.ribbon.series-colour": {
+    "text": "Reekskleur",
+    "source": "3989e7fea65a"
+  },
   "sheets.dialogs.series-in": {
     "text": "Reeks in",
     "source": "ceaab7f3e90b"
+  },
+  "sheets.ribbon.series-to-colour": {
+    "text": "Reeks om te kleuren",
+    "source": "aa8f68cf8f3b"
   },
   "slides.series-number": {
     "text": "Reeks {number}",
@@ -26568,6 +26936,10 @@
     "text": "Type voorstelling",
     "source": "5d97277b82b2"
   },
+  "sheets.pivot-fields.show-values-as": {
+    "text": "Waarden weergeven als",
+    "source": "bb7cc9d7da0d"
+  },
   "notify-dialog.show-what-it-says": {
     "text": "Weergeven wat erin staat",
     "source": "01ff1c611346"
@@ -26599,6 +26971,10 @@
   "talk.meet-lines.showing-their-screen": {
     "text": "Deelt het eigen scherm",
     "source": "1c428d39d527"
+  },
+  "studio.spoken-run.shown-only-the-words-type-at": {
+    "text": "Alleen weergegeven: typen op standaardsnelheid.",
+    "source": "25a457d9d675"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "Zichtbaar voor de mensen met wie je praat",
@@ -26651,6 +27027,10 @@
   "word.ribbon.shrink-font": {
     "text": "Lettertype kleiner",
     "source": "176934670a3e"
+  },
+  "video.inspector.shrink-to-fit": {
+    "text": "Verkleinen om te passen",
+    "source": "e65455733f3a"
   },
   "image.tools.shrink-narrow-the-selection-by-that": {
     "text": "Inkrimpen: de selectie zoveel pixels verkleinen",
@@ -27220,6 +27600,10 @@
     "text": "Kleinste erboven",
     "source": "b66a27b2ba69"
   },
+  "sheets.pivot-fields.smallest-first": {
+    "text": "Kleinste eerst",
+    "source": "4b15d87c3abc"
+  },
   "common.smartart": {
     "text": "SmartArt",
     "source": "fe46ea12fa77"
@@ -27420,6 +27804,10 @@
     "text": "Alinea's sorteren: A tot Z of Z tot A; het hele document als niets is geselecteerd",
     "source": "bd64668cb009"
   },
+  "sheets.pivot-fields.sort-the-items": {
+    "text": "Items sorteren",
+    "source": "8f5ac57242b2"
+  },
   "sheets.ribbon.sort-the-list-a-to-z": {
     "text": "De lijst A tot Z sorteren op kolom {name}, de kolom van de actieve cel; een kopregel blijft bovenaan",
     "source": "121020686363"
@@ -27564,6 +27952,10 @@
     "text": "Fonkeling",
     "source": "abac3d1ed392"
   },
+  "sheets.sparkline-options": {
+    "text": "Sparkline-opties",
+    "source": "7660b0f99e6b"
+  },
   "sheets.ribbon.sparklines": {
     "text": "Sparklines",
     "source": "a77d2f6f62bf"
@@ -27707,6 +28099,10 @@
   "word.split-cells": {
     "text": "Cellen splitsen",
     "source": "ec306591839f"
+  },
+  "video.inspector.split-into-lines": {
+    "text": "In regels splitsen",
+    "source": "2b164901b73d"
   },
   "sheets.split-into-the-cells-to-the": {
     "text": "Gesplitst in de cellen rechts",
@@ -27898,6 +28294,10 @@
   "word.list-dialog.start-at": {
     "text": "Beginnen bij",
     "source": "334c284f438c"
+  },
+  "sheets.dialogs.start-at-nought": {
+    "text": "Beginnen bij nul",
+    "source": "8e5da7fea6e5"
   },
   "word.restrict.start-enforcement": {
     "text": "Afdwingen starten",
@@ -28503,6 +28903,14 @@
     "text": "Door tabs gescheiden waarden (.tsv)",
     "source": "8015e916b0d7"
   },
+  "sheets.dialogs.tab-colour": {
+    "text": "Tabkleur",
+    "source": "5ea3b6dde585"
+  },
+  "sheets.tab-colour": {
+    "text": "Tabkleur…",
+    "source": "2dc7ab1e9dc6"
+  },
   "word.tab-leader": {
     "text": "Opvulteken",
     "source": "4c13c6224502"
@@ -29022,6 +29430,10 @@
     "text": "Teksteffect: vervormen",
     "source": "788f2d5eb581"
   },
+  "sheets.filter-panel.text-filters": {
+    "text": "Tekstfilters",
+    "source": "ab3c6a9c325c"
+  },
   "word.forms.text-form-field": {
     "text": "Tekstformulierveld",
     "source": "c493dd6ddde9"
@@ -29065,6 +29477,10 @@
   "slides.revisions.text-changed": {
     "text": "Tekst gewijzigd",
     "source": "26c7b5775381"
+  },
+  "video.inspector.text-colour": {
+    "text": "Tekstkleur",
+    "source": "25e9c8090de7"
   },
   "sheets.dialogs.text-contains": {
     "text": "Tekst bevat",
@@ -29650,6 +30066,10 @@
     "text": "De apps die je wilt zien en waarmee je je bestanden opent.",
     "source": "332e5249e305"
   },
+  "video.inspector.the-bar-covers-the-whole-film": {
+    "text": "De balk loopt over de hele film terwijl hij groeit, tot de lengte wordt gewijzigd.",
+    "source": "da0ae4020925"
+  },
   "video.inspector.the-bar-fills-from-where-this": {
     "text": "De balk vult zich van het begin tot het einde van deze clip.",
     "source": "01d9656a5ad1"
@@ -29657,6 +30077,10 @@
   "video.the-brand-kit-is-kept-for": {
     "text": "De merkkit wordt voor je bewaard en in elke scène verwerkt.",
     "source": "3180710525cd"
+  },
+  "video.inspector.the-brand-kit-logo": {
+    "text": "Het logo uit de merkkit",
+    "source": "cee5b3c1d63e"
   },
   "word.list-dialog.the-bullet-character": {
     "text": "Het opsommingsteken.",
@@ -29824,6 +30248,10 @@
   "talk-words.the-connection-was-lost-and-the": {
     "text": "De verbinding is verbroken en opnieuw deelnemen aan de vergadering is niet gelukt.",
     "source": "ecc583f6d5d1"
+  },
+  "sheets.the-copy-has-the-cells-and": {
+    "text": "Cellen en opmaak zijn gekopieerd. Grafieken, afbeeldingen, tabellen en draaitabellen blijven achter.",
+    "source": "dad761a634d9"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "Het criteriabereik mag niet in de lijst liggen",
@@ -30210,6 +30638,10 @@
     "text": "De vergrendelde kopie is opgeslagen. Verstuur hem zoals je wilt.",
     "source": "bbfae89220a6"
   },
+  "video.library.the-logo-from-your-brand-kit": {
+    "text": "Het logo uit je merkkit, in de hoek, of een afbeelding die je kiest.",
+    "source": "9323498bce87"
+  },
   "engine.the-mail-app-is-chosen-in": {
     "text": "De e-mailapp kies je in de eigen instellingen van het systeem op deze computer.",
     "source": "5141d3af3f67"
@@ -30249,6 +30681,10 @@
   "mail.parts.the-mail-server-would-not-keep": {
     "text": "De mailserver wilde geen kopie van je verzonden bericht bewaren in {folder}. De kopie hier blijft bewaard.",
     "source": "59af5bb0cb8f"
+  },
+  "mail.parts.the-mail-server-would-not-keep-2": {
+    "text": "De mailserver kon het concept niet bewaren in {folder}. Het staat nog op deze computer.",
+    "source": "2304437141a3"
   },
   "mail.parts.the-mail-server-would-not-make": {
     "text": "De mailserver nam een wijziging van hier niet over. E-mail toont wat de server heeft.",
@@ -30297,6 +30733,10 @@
   "talk.meet-lines.the-meeting-is-full-on-its": {
     "text": "De vergadering is vol op de Talk Server.",
     "source": "a28293313806"
+  },
+  "talk.the-meeting-stays-here-reason": {
+    "text": "De vergadering blijft hier: {reason}",
+    "source": "2f8fd822d081"
   },
   "talk.meet-lines.the-meetings-talk-server-is-not": {
     "text": "De Talk Server van de vergadering laat nu niemand toe. Probeer het zo opnieuw.",
@@ -30797,6 +31237,10 @@
     "text": "De veiligheidskopie van {name} is {when} gemaakt. De {n} bestanden ervan worden onvergrendeld weggeschreven in een nieuwe map binnen de map die je kiest. Wat er al staat, blijft ongewijzigd.",
     "source": "a34f0ed2f93a"
   },
+  "sheets.dialogs.the-same-for-all-of-them": {
+    "text": "Hetzelfde voor alle sparklines",
+    "source": "eef1cb1cfa61"
+  },
   "locker.the-same-password-again": {
     "text": "Hetzelfde wachtwoord nogmaals",
     "source": "cfd750367fe1"
@@ -30851,6 +31295,10 @@
   "sheets.dialogs.the-selection-holds-a-formula-in": {
     "text": "De selectie bevat een formule in de hoek en de te testen waarden langs de randen. Elke cel krijgt wat de formule voor die combinatie oplevert.",
     "source": "fe7e0163219d"
+  },
+  "sheets.the-selection-is-now-named-name": {
+    "text": "De selectie heet nu {name}.",
+    "source": "c3c614e5e0f0"
   },
   "mail.the-sender-supports-one-click-unsubscribe": {
     "text": "De afzender ondersteunt afmelden met één klik. Er gaat één verzoek naar hen en verder verlaat niets deze computer.",
@@ -31059,6 +31507,10 @@
   "engine.the-text-recognition-model-for-key": {
     "text": "Het tekstherkenningsmodel voor {key} kon niet worden geladen.",
     "source": "44a1288700c8"
+  },
+  "video.inspector.the-theme-colour": {
+    "text": "De themakleur",
+    "source": "c9c8ab182186"
   },
   "slides.ribbon.the-themes-own-looks-filled-in": {
     "text": "De themastijlen: gevuld met een accent, omlijnd in hetzelfde",
@@ -31495,6 +31947,10 @@
   "mail.these-accounts": {
     "text": "Deze accounts",
     "source": "0eca400d4be1"
+  },
+  "sheets.dialogs.these-apply-to-every-sparkline-made": {
+    "text": "Deze gelden voor elke sparkline die samen met deze is gemaakt.",
+    "source": "a459084b0d0c"
   },
   "mail.these-are-imported-archives-there-is": {
     "text": "Dit zijn geïmporteerde archieven, dus er valt niets op te halen.",
@@ -31949,6 +32405,10 @@
   "word.restrict.this-document-is-protected-only-comments": {
     "text": "Dit document is beveiligd: hier kunnen alleen opmerkingen worden toegevoegd. Controleren → Bewerking beperken toont de gebieden die je mag bewerken.",
     "source": "b908b8376d8e"
+  },
+  "sheets.this-entry-does-not-match-the": {
+    "text": "Deze invoer voldoet niet aan de regel voor deze cel.",
+    "source": "64430678bcb5"
   },
   "calendar.this-event-has-a-talk-meeting": {
     "text": "Deze gebeurtenis heeft een Talk-vergadering. De koppeling staat in de uitnodiging.",
@@ -32429,6 +32889,10 @@
     "text": "Dit blad heeft geen overzicht om te wissen",
     "source": "a80699366a86"
   },
+  "sheets.dialogs.this-sheet-has-no-rules-yet": {
+    "text": "Dit blad heeft nog geen regels.",
+    "source": "735960d6edfc"
+  },
   "sheets.this-sheet-is-protected-with-a": {
     "text": "Dit blad is beveiligd met een wachtwoord. Typ het om de beveiliging op te heffen.",
     "source": "368023c3045c"
@@ -32548,6 +33012,10 @@
   "studio.guests.this-window-leaves-and-talk-comes": {
     "text": "Dit venster sluit en Talk neemt het over: dezelfde mensen, als vergadering.",
     "source": "fa116fc70753"
+  },
+  "talk.this-window-leaves-the-meeting-once": {
+    "text": "Dit venster verlaat de vergadering zodra het andere is geopend, en daar leid je de vergadering verder.",
+    "source": "fb83b9a3480f"
   },
   "sheets.this-workbook-has-no-comments": {
     "text": "Deze werkmap heeft geen opmerkingen.",
@@ -32951,6 +33419,10 @@
     "text": "Bovenrand",
     "source": "79775184aaa3"
   },
+  "sheets.dialogs.top-items": {
+    "text": "Bovenste items",
+    "source": "af3865aa2315"
+  },
   "common.top-left": {
     "text": "Linksboven",
     "source": "a0eda50fb155"
@@ -32959,6 +33431,10 @@
     "text": "Bovenaan de lijst staat vooraan. Sleep om de volgorde te wijzigen.",
     "source": "428a0adb9e63"
   },
+  "sheets.dialogs.top-per-cent": {
+    "text": "Bovenste procent",
+    "source": "fa0e93898958"
+  },
   "common.top-right": {
     "text": "Rechtsboven",
     "source": "d83cbef9db1b"
@@ -32966,6 +33442,14 @@
   "sheets.dialogs.top-row": {
     "text": "Bovenste rij",
     "source": "5c027c33bb97"
+  },
+  "sheets.dialogs.top-count": {
+    "text": "Bovenste {count}",
+    "source": "b6783f4fd940"
+  },
+  "sheets.dialogs.top-count-2": {
+    "text": "Bovenste {count}%",
+    "source": "ea8f8cc99e8d"
   },
   "common.total": {
     "text": "Totaal",
@@ -32979,9 +33463,17 @@
     "text": "Totaalrij: de laatste rij in de totaalopmaak van de stijl",
     "source": "46fd3713529a"
   },
+  "sheets.ribbon.total-of-column-none": {
+    "text": "Totaal {column}: geen",
+    "source": "1676db04c840"
+  },
   "base.reports.total-of-field": {
     "text": "Totaal van {field}",
     "source": "f3956fd5d7dd"
+  },
+  "sheets.ribbon.total-row": {
+    "text": "Totaalrij",
+    "source": "3c3cb9cbf619"
   },
   "base.totals": {
     "text": "Totalen",
@@ -33439,6 +33931,10 @@
     "text": "Adressen typen of plakken",
     "source": "ddf091a93d83"
   },
+  "video.type-or-paste-your-words-here": {
+    "text": "Typ of plak hier je tekst.",
+    "source": "2d8717ac7291"
+  },
   "sheets.dialogs.type-part-of-a-name": {
     "text": "Typ een deel van een naam",
     "source": "7602842c7ce4"
@@ -33511,9 +34007,17 @@
     "text": "Getypt",
     "source": "bff482dbe92b"
   },
+  "common.typewriter": {
+    "text": "Typemachine",
+    "source": "b15b792b2b10"
+  },
   "video.inspector.typing": {
     "text": "Typen",
     "source": "25dfb9b4b32f"
+  },
+  "video.inspector.typing-speed": {
+    "text": "Typsnelheid",
+    "source": "9d1ff237078a"
   },
   "common.uppercase": {
     "text": "HOOFDLETTERS",
@@ -33598,6 +34102,18 @@
   "sheets.unhide-name": {
     "text": "“{name}” zichtbaar maken",
     "source": "efad2d4bb2b6"
+  },
+  "sheets.ribbon.unhide-all-rows-and-columns": {
+    "text": "Rijen en kolommen zichtbaar maken",
+    "source": "e996d6d88a04"
+  },
+  "sheets.unhide-columns": {
+    "text": "Kolommen zichtbaar maken",
+    "source": "2aee4f4f679d"
+  },
+  "sheets.unhide-rows": {
+    "text": "Rijen zichtbaar maken",
+    "source": "783840178245"
   },
   "sheets.ribbon.unhide-a-hidden-worksheets-window-back": {
     "text": "Zichtbaar maken: een verborgen venster van Werkbladen, terug op het scherm",
@@ -33939,6 +34455,10 @@
     "text": "{style} bijwerken naar selectie",
     "source": "e65ad4674254"
   },
+  "sheets.ribbon.update-style-to-match-this-cell": {
+    "text": "{style} bijwerken naar deze cel",
+    "source": "ab2583743d9d"
+  },
   "shell.updated-from-version-what-changed-is": {
     "text": "Bijgewerkt van {version}. Wat er is veranderd, zie je met één klik.",
     "source": "d4f81a14fa5f"
@@ -34226,6 +34746,10 @@
     "text": "Staand sociaal",
     "source": "06b16b68f5bb"
   },
+  "sheets.ribbon.vertical-axis-title": {
+    "text": "Verticale astitel",
+    "source": "350384e51fb0"
+  },
   "sheets.ribbon.vertical-text": {
     "text": "Verticale tekst",
     "source": "623bb53bc829"
@@ -34353,6 +34877,10 @@
   "common.voice": {
     "text": "Stem",
     "source": "87bf2bc08589"
+  },
+  "common.voice-first": {
+    "text": "Stem eerst",
+    "source": "e03a9afde9bd"
   },
   "voices-dialog.voices": {
     "text": "Stemmen",
@@ -34962,6 +35490,10 @@
     "text": "Vensters",
     "source": "d598026a9cbc"
   },
+  "notify-dialog.windows-did-not-show-the-last": {
+    "text": "Windows heeft de laatste melding niet weergegeven. Controleer in Windows-instellingen, onder Systeem, Meldingen, of meldingen aanstaan voor Windows en voor Rutba Office, en of Niet storen uitstaat.",
+    "source": "8663439dc961"
+  },
   "engine.windows-keeps-this-choice-for-you": {
     "text": "Windows bewaart deze keuze voor jou: kies Rutba Office in Instellingen › Standaard-apps. De knop hieronder opent die plek.",
     "source": "954691d41579"
@@ -35014,6 +35546,14 @@
     "text": "Met tekstterugloop",
     "source": "1c19fe80875f"
   },
+  "common.with-the-voice": {
+    "text": "Met de stem",
+    "source": "a0c88e3ba266"
+  },
+  "video.spoken.with-the-words-shown-only-they": {
+    "text": "Alleen weergegeven: typen op de snelheid van de film.",
+    "source": "a1da8c430dfa"
+  },
   "talk.with-video": {
     "text": "Met video",
     "source": "d530d62be3b5"
@@ -35062,6 +35602,10 @@
     "text": "WordArt",
     "source": "ae16a048a626"
   },
+  "video.inspector.word-by-word": {
+    "text": "Woord voor woord",
+    "source": "ddbaf8c9f91a"
+  },
   "word.dialogs.word-count": {
     "text": "Aantal woorden",
     "source": "653913ac0e67"
@@ -35098,13 +35642,25 @@
     "text": "Woorden",
     "source": "0a8be89a52a8"
   },
+  "video.inspector.words-alone": {
+    "text": "Alleen woorden",
+    "source": "ddf082782ed5"
+  },
   "ui.proofing.words-for-word": {
     "text": "Woorden voor “{word}”",
     "source": "6d61efe54546"
   },
+  "video.library.words-on-a-pill": {
+    "text": "Woorden op een pil",
+    "source": "c3b9558baaef"
+  },
   "spoken.voices.words-to-say": {
     "text": "Te zeggen woorden",
     "source": "3353415dcf6a"
+  },
+  "video.library.words-typed-in-over-the-pictures": {
+    "text": "Woorden die over de beelden worden getypt, zoals je kiest: getypt, woord voor woord, regel voor regel, karaoke of in één keer.",
+    "source": "bbe7cf532cfb"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "Woorden die je hebt toegevoegd, worden nooit als fout gemarkeerd, in Documenten, Werkbladen en Presentaties.",
@@ -35230,6 +35786,10 @@
     "text": "Bijlagen van elk bericht ernaast opslaan",
     "source": "e456d4b9b1fd"
   },
+  "sheets.ribbon.write-each-value-beside-its-bar": {
+    "text": "Zet elke waarde naast de staaf of het punt.",
+    "source": "026231f2c863"
+  },
   "mail.compose.write-it-in-a-window-of": {
     "text": "Schrijven in een eigen venster",
     "source": "76eb5c9c5448"
@@ -35246,9 +35806,17 @@
     "text": "Schrijf het eerste bericht aan deze groep.",
     "source": "79c6b8f1ef84"
   },
+  "sheets.ribbon.write-the-share-of-each-slice": {
+    "text": "Zet het aandeel van elk segment erop.",
+    "source": "d494df2a096c"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "Schrijven gestopt: {reason}. Wat daarvoor is geschreven, blijft bewaard.",
     "source": "9d5b1ef54387"
+  },
+  "sheets.dialogs.written-for-the-first-cell-of": {
+    "text": "Geschreven voor de eerste cel van de selectie, zoals =$C2>100. Een dollarteken houdt een kolom of rij op zijn plaats.",
+    "source": "d7d6c2376a68"
   },
   "contacts.wrote-count-card-to-file": {
     "forms": {
@@ -35611,6 +36179,10 @@
   "video.your-title-here": {
     "text": "Je titel hier",
     "source": "66094e7e6215"
+  },
+  "video.your-web-address": {
+    "text": "Je webadres",
+    "source": "0bceb158232c"
   },
   "video.library.your-words": {
     "text": "Je eigen woorden",
@@ -37271,6 +37843,10 @@
     "text": "{calendars}, {books} · gesynchroniseerd {when}",
     "source": "e74fd34182ad"
   },
+  "sheets.cell-was-not-changed-reason": {
+    "text": "{cell} is niet gewijzigd. {reason}",
+    "source": "c6587d02f21f"
+  },
   "engine.changed-file-types-now-open-with": {
     "text": "{changed} bestandstypen worden nu geopend met Rutba Office.",
     "source": "aac86dd995be"
@@ -37888,6 +38464,10 @@
       "other": "{count} gelaten zoals ze waren"
     },
     "source": "58f6eb7ce109"
+  },
+  "video.inspector.count-letters-a-second": {
+    "text": "{count} letters per seconde",
+    "source": "8492559d17f5"
   },
   "base.documents.count-line": {
     "forms": {
@@ -38867,6 +39447,10 @@
     "text": "Aanpassing: {look}",
     "source": "eb6eabf53c50"
   },
+  "video.made-the-chapters-are-in-name": {
+    "text": "{made} De hoofdstukken staan in {name}.",
+    "source": "fe36caf0e53c"
+  },
   "video.made-the-first-go-came-out": {
     "text": "{made}. Eerste poging boven {limit}, dus lager opnieuw gecodeerd.",
     "source": "17043b2efde8"
@@ -38961,6 +39545,10 @@
     "text": "{name} wordt de naam van elke persoon. De link om te accepteren en de manier om Rutba Office te krijgen komen onder je bericht.",
     "source": "6724ae357006"
   },
+  "talk.name-called-while-you-were-on": {
+    "text": "{name} belde terwijl je live was. De oproep is als bezet geweigerd: zie Gemiste oproepen.",
+    "source": "2a0990e6e9e1"
+  },
   "video.name-cannot-be-played-on-this": {
     "text": "{name} kan op deze computer niet worden afgespeeld.",
     "source": "56c80f47dfd7"
@@ -39028,6 +39616,10 @@
   "talk-words.name-ended-the-meeting": {
     "text": "{name} heeft de vergadering beëindigd.",
     "source": "68a9df35664b"
+  },
+  "studio.guests.name-has-left-the-meeting-their": {
+    "text": "{name} heeft de vergadering verlaten. De plek is nu leeg.",
+    "source": "7ff12fec0c3b"
   },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "{name} heeft meer dan één blad. De eerste rij van het blad dat je kiest, bevat de veldnamen.",
@@ -39660,6 +40252,10 @@
     "text": "{recipient} toegevoegd aan Veilige geadresseerden",
     "source": "0b01f434a11b"
   },
+  "sheets.removed-duplicate-rows-removed-kept-rows": {
+    "text": "{removed} dubbele rijen verwijderd; {kept} rijen blijven over.",
+    "source": "7299a779b8cc"
+  },
   "calendar.words.room-is-booked-for-when": {
     "text": "{room} is geboekt voor {when}.",
     "source": "6c97b843b2c6"
@@ -39691,6 +40287,10 @@
   "common.seconds-s": {
     "text": "{seconds} s",
     "source": "fde82d3dd95e"
+  },
+  "video.inspector.seconds-s-apart": {
+    "text": "{seconds} s ertussen",
+    "source": "f04806f51dbb"
   },
   "pictures.seconds-s": {
     "text": "{seconds} s",

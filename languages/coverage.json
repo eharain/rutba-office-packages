@@ -1,5 +1,5 @@
 {
-  "office": "../.cache/office/9b19c57bfcfb29a63b448f6040a5693270e12efd",
+  "office": "work/office-699f3399",
   "places": {
     "main process": {
       "count": 491,
@@ -25,13 +25,13 @@
         "apps/desktop/renderer/apps/image.js:98  3:2",
         "apps/desktop/renderer/apps/image.js:99  16:9",
         "apps/desktop/renderer/apps/image.js:100  9:16",
-        "apps/desktop/renderer/apps/mail.js:1665  Please remove this address from the list.",
+        "apps/desktop/renderer/apps/mail.js:1667  Please remove this address from the list.",
         "apps/desktop/renderer/meeting/door-socket.js:131  A door socket sends text or bytes.",
-        "apps/desktop/renderer/print.js:487  1-5, 8"
+        "apps/desktop/renderer/print.js:548  1-5, 8"
       ]
     },
     "shared packages": {
-      "count": 274,
+      "count": 285,
       "examples": [
         "packages/database/src/access.js:41  A password has at least 4 characters.",
         "packages/database/src/base.js:333  Two fields cannot have the same name.",
@@ -50,8 +50,8 @@
   },
   "outside": {
     "release notes (docs/releases, shown in What's new)": {
-      "files": 102,
-      "words": 104148
+      "files": 103,
+      "words": 105295
     },
     "installer": "made from the catalogues by tools/make-installer-words.mjs, so its words are in the registry"
   }

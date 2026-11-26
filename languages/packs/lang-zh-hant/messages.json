@@ -207,6 +207,18 @@
     "text": "「{word}」在您的字典中。",
     "source": "b9aeb4fc656c"
   },
+  "sheets.pivot-fields.of-column-total": {
+    "text": "欄總計百分比",
+    "source": "eab72b338837"
+  },
+  "sheets.pivot-fields.of-grand-total": {
+    "text": "總計百分比",
+    "source": "ad881b0c599c"
+  },
+  "sheets.pivot-fields.of-row-total": {
+    "text": "列總計百分比",
+    "source": "97a366055762"
+  },
   "word.list-dialog.2-is-this-levels-number-1": {
     "text": "%2 是這個階層的編號；%1 是其上一個階層的編號。",
     "source": "9cbc5138d80a"
@@ -391,6 +403,10 @@
     "text": "1 天前",
     "source": "a8b499336a9e"
   },
+  "sheets.1-duplicate-row-removed-kept-rows": {
+    "text": "已移除 1 個重複的列；保留 {kept} 列。",
+    "source": "f63cb027fc81"
+  },
   "calendar.1-hour-before": {
     "text": "1 小時前",
     "source": "5104b6b7955e"
@@ -562,6 +578,10 @@
   "engine.a-pdf-with-no-pages-is": {
     "text": "沒有頁面的 PDF 不是文件。請先新增頁面。",
     "source": "df7ad0646756"
+  },
+  "video.library.a-qr-code-type-the-address": {
+    "text": "QR 碼；輸入它要開啟的網址。",
+    "source": "3c11f5898b54"
   },
   "talk.a-turn-server-you-run-offered": {
     "text": "您執行的 TURN 伺服器；在您通話時提供給對方使用",
@@ -809,6 +829,10 @@
     "text": "此處的公式可使用數字、儲存格（例如 B2 或 B2:B4）、符號 +、-、* 與 /、括號，以及對這些內容或 ABOVE、LEFT、BELOW、RIGHT 使用 SUM、AVERAGE、COUNT、MAX、MIN、PRODUCT 或 ABS，例如 =SUM(ABOVE)。",
     "source": "74a836a73c62"
   },
+  "sheets.dialogs.a-formula-is-true": {
+    "text": "公式結果為真",
+    "source": "77bbea0fd15f"
+  },
   "home.a-free-office-suite-mail-documents": {
     "text": "免費的辦公室套件：郵件、文件、工作表、簡報、相片、影像與影片，建立在我們自有的引擎上。",
     "source": "cbecbd51dbc1"
@@ -973,6 +997,10 @@
     "text": "已從標題為每欄建立名稱。名稱管理員會列出這些名稱",
     "source": "9a8020d11b5d"
   },
+  "sheets.a-name-starts-with-a-letter": {
+    "text": "名稱以字母開頭且不含空格，例如 Sales_May。位址的格式如 B7 或 B2:D9。",
+    "source": "e623278e0626"
+  },
   "review.a-name-that-says-what-is": {
     "text": "說明「{sheet}」內容的名稱：",
     "source": "818eb2db1790"
@@ -1126,6 +1154,14 @@
   "slides.a-pie-chart-draws-only-its": {
     "text": "圓形圖只會繪製其第一個數列。",
     "source": "f51e19a20a49"
+  },
+  "video.inspector.a-piece-for-each-clip": {
+    "text": "每個片段一個區段",
+    "source": "aceec9902c4c"
+  },
+  "video.inspector.a-piece-for-each-marker": {
+    "text": "每個標記一個區段",
+    "source": "cb5ab8475fd9"
   },
   "engine.a-pivot-needs-at-least-one": {
     "text": "樞紐分析表的「值」中至少需要一個欄位。",
@@ -1297,6 +1333,10 @@
     "text": "給團隊的簡短備忘：收件者、寄件者、主旨、背景與後續事項",
     "source": "7cbd8d22f139"
   },
+  "video.library.a-short-word-on-a-coloured": {
+    "text": "彩色膠囊形上的簡短文字，例如 NEW 或 SALE。",
+    "source": "440aa0204a24"
+  },
   "word.drawings.a-sidebar-stands-beside-the-story": {
     "text": "側邊欄位於內文旁，放置與其相關的文字：摘要、重點清單或給讀者的附註。",
     "source": "f84097aa22f7"
@@ -1328,6 +1368,10 @@
   "slides.export-video.a-slide-with-a-timing-of": {
     "text": "使用計時時，有自訂計時的投影片會保留其計時；其餘投影片會依上方的秒數顯示。動畫會以完成狀態顯示。",
     "source": "8e642bc4c741"
+  },
+  "video.library.a-small-line-along-the-foot": {
+    "text": "沿著畫面底部的一行小字，例如您的網址。",
+    "source": "9e6f80e3ef70"
   },
   "studio.scene-strip.a-source": {
     "text": "來源",
@@ -1590,6 +1634,10 @@
   "common.above-front-right": {
     "text": "右前上方",
     "source": "0edd0b82de7b"
+  },
+  "sheets.dialogs.above-average": {
+    "text": "高於平均",
+    "source": "98ca5f459314"
   },
   "equations.absolute-value": {
     "text": "絕對值",
@@ -2487,6 +2535,10 @@
     "text": "進階…",
     "source": "1de3a18e329f"
   },
+  "sheets.filter-panel.after": {
+    "text": "之後",
+    "source": "7b68fe551085"
+  },
   "word.ribbon.after-pt": {
     "text": "之後 (pt)",
     "source": "19ec57700505"
@@ -2694,6 +2746,10 @@
   "slides.ribbon.all-at-once": {
     "text": "一次全部",
     "source": "c9d506ca2d68"
+  },
+  "video.inspector.all-at-once": {
+    "text": "全部一次顯示",
+    "source": "f90683717cd2"
   },
   "sheets.ribbon.all-borders": {
     "text": "所有框線",
@@ -3180,6 +3236,10 @@
   "engine.another-program-opens-mail-links-on": {
     "text": "這部電腦上的郵件連結由其他程式開啟。",
     "source": "1a1b9963a277"
+  },
+  "sheets.dialogs.another-rule": {
+    "text": "其他規則",
+    "source": "35c09b4d7aef"
   },
   "common.answer": {
     "text": "接聽",
@@ -3919,6 +3979,14 @@
     "text": "離開",
     "source": "af16c830c510"
   },
+  "sheets.dialogs.axis": {
+    "text": "座標軸",
+    "source": "32b73caefac1"
+  },
+  "sheets.ribbon.axis-titles": {
+    "text": "座標軸標題",
+    "source": "900f286eac2b"
+  },
   "common.b5-176-250-mm": {
     "text": "B5：176 × 250 mm",
     "source": "344900110be7"
@@ -4035,6 +4103,10 @@
     "text": "帶狀列：依樣式每隔一列加上網底",
     "source": "f6ced0fcf385"
   },
+  "sheets.ribbon.banded-rows": {
+    "text": "帶狀列",
+    "source": "6e9aa5474c82"
+  },
   "common.banner": {
     "text": "橫幅",
     "source": "b7f4d98f98d5"
@@ -4091,6 +4163,10 @@
     "text": "嗶聲",
     "source": "4ccb3fb5330b"
   },
+  "sheets.filter-panel.before": {
+    "text": "之前",
+    "source": "9bb725005055"
+  },
   "word.ribbon.before-pt": {
     "text": "之前 (pt)",
     "source": "bba72e0923a5"
@@ -4102,6 +4178,10 @@
   "protect.before-sharing-this-file-check-it": {
     "text": "共用此檔案前，請先檢查其中是否有您不想讓他人看到的內容：註解、變更、隱藏文字與個人資訊。",
     "source": "56f7599f4157"
+  },
+  "sheets.filter-panel.begins-with": {
+    "text": "開始於",
+    "source": "853978f44eaf"
   },
   "word.ribbon.behind-text": {
     "text": "文字在前",
@@ -4122,6 +4202,10 @@
   "common.below-front-right": {
     "text": "右前下方",
     "source": "31fedbb2729e"
+  },
+  "sheets.dialogs.below-average": {
+    "text": "低於平均",
+    "source": "8f2f0fa9a074"
   },
   "common.berry": {
     "text": "莓果",
@@ -4387,9 +4471,17 @@
     "text": "下框線",
     "source": "0dc79f4813a3"
   },
+  "sheets.dialogs.bottom-items": {
+    "text": "最後的項目",
+    "source": "aa9e5db6f818"
+  },
   "common.bottom-left": {
     "text": "左下",
     "source": "f5a57b969150"
+  },
+  "sheets.dialogs.bottom-per-cent": {
+    "text": "最後百分比",
+    "source": "10bad9a09d6f"
   },
   "common.bottom-right": {
     "text": "右下",
@@ -4398,6 +4490,14 @@
   "video.layer-names.bottom-shade": {
     "text": "底部陰影",
     "source": "1dffbced0f7c"
+  },
+  "sheets.dialogs.bottom-count": {
+    "text": "最後 {count} 個項目",
+    "source": "54119ed17f6b"
+  },
+  "sheets.dialogs.bottom-count-2": {
+    "text": "最後 {count}%",
+    "source": "658e45ae01eb"
   },
   "word.ribbon.box-dashed-line": {
     "text": "方框：虛線",
@@ -4919,6 +5019,10 @@
     "text": "字幕 (.srt, .vtt)",
     "source": "1c941a0a4cea"
   },
+  "video.library.captions-and-quick-adds": {
+    "text": "字幕與快速新增",
+    "source": "d062fc34102e"
+  },
   "slides.album.captions-below-all-pictures": {
     "text": "標題在所有圖片下方",
     "source": "dd686df00caf"
@@ -5201,6 +5305,10 @@
     "text": "變更…",
     "source": "a6b4705c6883"
   },
+  "video.chapter-n": {
+    "text": "第 {n} 章",
+    "source": "816e97139189"
+  },
   "sheets.queries.character": {
     "text": "字元",
     "source": "1405a63e8a78"
@@ -5228,6 +5336,10 @@
   "sheets.ribbon.chart-design": {
     "text": "圖表設計",
     "source": "d41692080652"
+  },
+  "sheets.ribbon.chart-elements": {
+    "text": "圖表項目",
+    "source": "b2c3cce9d69c"
   },
   "sheets.ribbon.chart-title": {
     "text": "圖表標題",
@@ -5624,6 +5736,10 @@
   "image.choose-the-layer-to-clear-the": {
     "text": "請選擇要從中清除選取範圍的圖層。",
     "source": "04a21a186397"
+  },
+  "video.choose-the-logo": {
+    "text": "選擇標誌",
+    "source": "0240baf232cc"
   },
   "studio.bottom-bar.choose-the-microphone": {
     "text": "選擇麥克風",
@@ -6153,6 +6269,14 @@
     "text": "文字色彩",
     "source": "8c6ececb4c11"
   },
+  "sheets.dialogs.colour-of-those-points": {
+    "text": "這些點的色彩",
+    "source": "898998460449"
+  },
+  "sheets.dialogs.colour-scale": {
+    "text": "色階",
+    "source": "000799f1a3ef"
+  },
   "sheets.dialogs.colour-scale-green-yellow-red-low": {
     "text": "色階：綠、黃、紅（由低到高）",
     "source": "234d0c0e170a"
@@ -6410,6 +6534,10 @@
   "locker.compare": {
     "text": "比較…",
     "source": "219ddc366d9d"
+  },
+  "sheets.filter-panel.comparison": {
+    "text": "比較",
+    "source": "571527339d0e"
   },
   "word.mailings.comparison": {
     "text": "比較：",
@@ -6765,6 +6893,10 @@
     "text": "複製路徑",
     "source": "720ff4160412"
   },
+  "sheets.copy-sheet": {
+    "text": "複製工作表",
+    "source": "c9a0f392b71f"
+  },
   "sheets.ribbon.copy-the-formatting-here-to-the": {
     "text": "將此處的格式複製到下一個選取範圍",
     "source": "385e4d1fba79"
@@ -6888,6 +7020,10 @@
   "word.ribbon.count-above": {
     "text": "上方計數",
     "source": "33e9e80a1691"
+  },
+  "sheets.ribbon.count-numbers": {
+    "text": "數字計數",
+    "source": "f6b68195bdad"
   },
   "sheets.queries.count-rows": {
     "text": "計算列數",
@@ -7281,6 +7417,10 @@
     "text": "深藍色",
     "source": "6c12f1ca1641"
   },
+  "sheets.dialogs.dark-blue-grey": {
+    "text": "深藍灰色",
+    "source": "744e37be8716"
+  },
   "qrcode.dark-brown": {
     "text": "深棕色",
     "source": "f22b68958bf5"
@@ -7389,6 +7529,10 @@
     "text": "Data Files 資料庫",
     "source": "24e8c9743f1a"
   },
+  "sheets.ribbon.data-labels": {
+    "text": "資料標籤",
+    "source": "78023df4505c"
+  },
   "sheets.ribbon.data-table": {
     "text": "運算列表…",
     "source": "fedeed59d538"
@@ -7404,6 +7548,10 @@
   "sheets.ribbon.data-validation": {
     "text": "資料驗證",
     "source": "28971fd398d1"
+  },
+  "sheets.dialogs.data-bars": {
+    "text": "資料橫條",
+    "source": "e7a181724128"
   },
   "sheets.dialogs.data-bars-blue": {
     "text": "資料橫條：藍色",
@@ -7452,6 +7600,10 @@
   "slides.ribbon.date-and-time-a-date-along": {
     "text": "日期及時間：在下方顯示日期，可自動更新或固定",
     "source": "f94ad5295f5d"
+  },
+  "sheets.filter-panel.date-filters": {
+    "text": "日期篩選",
+    "source": "bacb61184a41"
   },
   "word.forms.date-picker-content-control": {
     "text": "日期選擇器內容控制項",
@@ -8125,6 +8277,10 @@
     "text": "差異化",
     "source": "4d280a451d04"
   },
+  "sheets.pivot-fields.difference-from-previous": {
+    "text": "與上一項的差異",
+    "source": "4473ab760db3"
+  },
   "slides.different-since-this-deck-was-last": {
     "text": "自上次在此開啟此簡報以來已不同",
     "source": "da4a123f25df"
@@ -8136,6 +8292,10 @@
   "shell.digits": {
     "text": "數字",
     "source": "9cd500d3d69f"
+  },
+  "video.inspector.dim": {
+    "text": "暗淡",
+    "source": "ea53b1cb304d"
   },
   "pictures.dimensions": {
     "text": "尺寸",
@@ -8316,6 +8476,14 @@
   "home.documents-mail-and-media-all-work": {
     "text": "文件、郵件和媒體都不需網路連線即可使用",
     "source": "e815503e3abf"
+  },
+  "sheets.filter-panel.does-not-contain": {
+    "text": "不包含",
+    "source": "56fe07f0e32e"
+  },
+  "sheets.filter-panel.does-not-equal": {
+    "text": "不等於",
+    "source": "e47c3280f3bf"
   },
   "calendar.does-not-repeat": {
     "text": "不重複",
@@ -8663,10 +8831,6 @@
     "text": "已移除重複的列",
     "source": "e606bafdbd22"
   },
-  "sheets.duplicate-rows-removed-the-rest-closed": {
-    "text": "已移除重複的列；其餘的列已上移補齊",
-    "source": "0827cbb28e3a"
-  },
   "slides.duplicate-slide": {
     "text": "複製投影片",
     "source": "ab7940817995"
@@ -8767,6 +8931,10 @@
     "text": "依序大聲朗讀每一行，播放其語音時顯示其文字",
     "source": "282adc866b4a"
   },
+  "studio.spoken-run.each-line-types-in-letter-by": {
+    "text": "從下一行朗讀文字開始，每一行都會逐字打出。",
+    "source": "a390f5fb2388"
+  },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "每個郵件帳戶、行事曆、通訊錄、資料庫與資料夾各有其設定，也會顯示在各自的應用程式中，錄製器 (Recorder) 亦同。在您選擇前，所有項目皆為「關閉」。不會刪除或移動任何內容，任何要傳送的內容都會先在此等候您按下按鈕。",
     "source": "0fd0a5b12aaa"
@@ -8811,6 +8979,10 @@
     "text": "每個來源各自成為一個檔案",
     "source": "87ba78fbecfd"
   },
+  "sheets.dialogs.each-sparkline-its-own-lowest-and": {
+    "text": "每個走勢圖各自的最低與最高值",
+    "source": "6a9c83cdf903"
+  },
   "sheets.objects.each-ticked-field-gets-a-panel": {
     "text": "每個勾選的欄位都會有一個按鈕面板，每個項目一個按鈕，用來篩選樞紐分析表。",
     "source": "57b495c85a7a"
@@ -8830,6 +9002,10 @@
   "slides.custom-shows.earlier-in-the-show": {
     "text": "在放映中提前",
     "source": "c75dff7e0d23"
+  },
+  "sheets.dialogs.earliest-date": {
+    "text": "最早日期",
+    "source": "82a5aebc403c"
   },
   "word.references-index.earth": {
     "text": "地球",
@@ -9323,6 +9499,10 @@
     "text": "結束",
     "source": "e98982c9f2ba"
   },
+  "sheets.filter-panel.ends-with": {
+    "text": "結尾是",
+    "source": "fc203569fa85"
+  },
   "base.links.engine": {
     "text": "引擎",
     "source": "8e75ebbdb215"
@@ -9398,6 +9578,10 @@
   "common.equal-to": {
     "text": "等於",
     "source": "6a26ff8ea94b"
+  },
+  "sheets.filter-panel.equals": {
+    "text": "等於",
+    "source": "f939ae3d30c6"
   },
   "common.equation": {
     "text": "方程式",
@@ -9535,6 +9719,10 @@
     "text": "每個按鈕只顯示圖示；指標停留在按鈕上時會顯示其名稱",
     "source": "21abdd3708ee"
   },
+  "video.inspector.every-caption-in-the-film-types": {
+    "text": "影片中的每個字幕都以此速度打出。",
+    "source": "330cbb6a15e3"
+  },
   "slides.every-comment-here-was-already-read": {
     "text": "這裡的每則註解都已讀取。",
     "source": "47ca1a3a2589"
@@ -9616,6 +9804,10 @@
   "pictures.every-picture-shown-count": {
     "text": "目前顯示的所有圖片 ({count})",
     "source": "904610f6a47a"
+  },
+  "sheets.dialogs.every-point-line-only": {
+    "text": "每個點（僅折線）",
+    "source": "88f8f754acf4"
   },
   "base.documents.every-record": {
     "text": "每筆記錄",
@@ -11083,6 +11275,10 @@
     "text": "公式：插入點所在儲存格中的功能變數，依其上方或左方的數字，或依 B2 與 B2:B4 等儲存格計算，如 Word 的 =SUM(ABOVE)",
     "source": "ac4ef0433793"
   },
+  "sheets.dialogs.formula-formula": {
+    "text": "公式：{formula}",
+    "source": "373a77366380"
+  },
   "sheets.formulas": {
     "text": "公式",
     "source": "098baf95d843"
@@ -11666,6 +11862,10 @@
   "word.mailings.greater-than-or-equal": {
     "text": "大於或等於",
     "source": "4df4f066c9c1"
+  },
+  "sheets.filter-panel.greater-than-or-equal-to": {
+    "text": "大於或等於",
+    "source": "85d08e847878"
   },
   "common.greek": {
     "text": "希臘文",
@@ -12257,6 +12457,10 @@
     "text": "隱藏投影片：此投影片在放映中已隱藏；再按一次即可顯示",
     "source": "7d777db556ab"
   },
+  "sheets.hide-columns": {
+    "text": "隱藏欄",
+    "source": "9d5c93b12237"
+  },
   "image.layers-panel.hide-its-layers": {
     "text": "隱藏其圖層",
     "source": "e3c527659d85"
@@ -12264,6 +12468,10 @@
   "protect.hide-password": {
     "text": "隱藏密碼",
     "source": "a60a56c584b3"
+  },
+  "sheets.hide-rows": {
+    "text": "隱藏列",
+    "source": "6e6875f9e909"
   },
   "talk.invite.hide-the-code": {
     "text": "隱藏代碼",
@@ -12316,6 +12524,10 @@
   "qrcode.high-30": {
     "text": "高 (30%)",
     "source": "652a05d1ae51"
+  },
+  "sheets.dialogs.high-point": {
+    "text": "高點",
+    "source": "80ab296d2b33"
   },
   "pdf.export.high-quality-225-dots-per-inch": {
     "text": "高品質（每英吋 225 點）",
@@ -12428,6 +12640,10 @@
   "slides.horizontal-out": {
     "text": "水平向外",
     "source": "51081ab58752"
+  },
+  "sheets.ribbon.horizontal-axis-title": {
+    "text": "水平座標軸標題",
+    "source": "b3c89eb1f3c0"
   },
   "common.horizontal-brick": {
     "text": "橫磚紋",
@@ -12588,6 +12804,10 @@
   "common.icon": {
     "text": "圖示",
     "source": "a35abcd6dac9"
+  },
+  "sheets.dialogs.icon-set": {
+    "text": "圖示集",
+    "source": "a3ae5ca177a0"
   },
   "common.icons": {
     "text": "圖示",
@@ -12873,6 +13093,10 @@
     "text": "在單一帳戶或封存檔中",
     "source": "be358173c89a"
   },
+  "video.inspector.in-pieces": {
+    "text": "分段",
+    "source": "786b72b37492"
+  },
   "video.in-point": {
     "text": "入點",
     "source": "9c1d42b38a85"
@@ -12918,6 +13142,10 @@
   "video.in-from-out-to": {
     "text": "入點 {from}，出點 {to}",
     "source": "9ad2ac8a59a8"
+  },
+  "sheets.dialogs.in-range-a-row-that-repeats": {
+    "text": "在 {range} 中，若某列在每個勾選的欄中都與前面某列重複，就會移除該列。每組重複中的第一列會保留。",
+    "source": "ac1519f6f42d"
   },
   "studio.shared.in-seconds-s": {
     "text": "{seconds} 秒後",
@@ -13911,6 +14139,14 @@
     "text": "斜體 (Ctrl+I)",
     "source": "ccc60dff1674"
   },
+  "sheets.filter-panel.items": {
+    "text": "項目",
+    "source": "fb8e7a1a3cb7"
+  },
+  "sheets.filter-panel.items-or-percent": {
+    "text": "項目或百分比",
+    "source": "14cded7778d2"
+  },
   "template-gallery.items-counts-and-reorder-levels-the": {
     "text": "品項、數量與再訂購量、庫存價值及需要再訂購的品項",
     "source": "a704276dd164"
@@ -13940,6 +14176,10 @@
   "slides.ribbon.its-notes": {
     "text": "其備忘稿",
     "source": "a316f96e4b04"
+  },
+  "sheets.dialogs.its-own-lowest-and-highest-shows": {
+    "text": "各自的最低與最高值可顯示每列的漲跌；所有走勢圖使用同一座標軸則可比較其大小。",
+    "source": "2a62e687c030"
   },
   "mail.smime.its-password": {
     "text": "其密碼",
@@ -14098,6 +14338,10 @@
   "word.ribbon.justify-with-kashida-stretch-the-letters": {
     "text": "Kashida 左右對齊：延伸字母以填滿整行，如阿拉伯文的對齊方式",
     "source": "b7ba4e7d59c4"
+  },
+  "video.inspector.karaoke": {
+    "text": "卡拉 OK",
+    "source": "34cd21fcc55b"
   },
   "common.keep": {
     "text": "保留",
@@ -14539,6 +14783,10 @@
     "text": "姓氏",
     "source": "7b4888049459"
   },
+  "sheets.dialogs.last-point": {
+    "text": "最後點",
+    "source": "430de8dd535b"
+  },
   "common.last-record": {
     "text": "最後一筆記錄",
     "source": "27fef2475093"
@@ -14582,6 +14830,10 @@
   "mail.compose.later-today-9pm": {
     "text": "今天稍晚，晚上 9 點",
     "source": "1c66a953a2b9"
+  },
+  "sheets.dialogs.latest-date": {
+    "text": "最晚日期",
+    "source": "a9de7221765f"
   },
   "image.layer": {
     "text": "圖層",
@@ -14851,6 +15103,10 @@
     "text": "小於或等於",
     "source": "ee8df42e1687"
   },
+  "sheets.filter-panel.less-than-or-equal-to": {
+    "text": "小於或等於",
+    "source": "ae1564a79ff3"
+  },
   "template-gallery.lesson": {
     "text": "教案",
     "source": "6e2b26d9de40"
@@ -15059,6 +15315,10 @@
     "text": "分隔線",
     "source": "1bac593d7aea"
   },
+  "video.inspector.line-by-line": {
+    "text": "逐行顯示",
+    "source": "d69a37385809"
+  },
   "sheets.dialogs.line-chart": {
     "text": "折線圖",
     "source": "22089151613f"
@@ -15118,6 +15378,10 @@
   "base.documents.lines-from": {
     "text": "明細來源",
     "source": "dc6d35c2f93b"
+  },
+  "video.inspector.lines-one-at-a-time": {
+    "text": "一次一行",
+    "source": "e30051392bb1"
   },
   "locker.lines-say-what-to-lock-a": {
     "text": "每行指定要鎖定的內容；以 ! 開頭的行表示例外。沒有任何行時，會鎖定每個檔案。",
@@ -15570,6 +15834,10 @@
   "video.export.low-smaller-file": {
     "text": "低（檔案較小）",
     "source": "e585bb7bd95c"
+  },
+  "sheets.dialogs.low-point": {
+    "text": "低點",
+    "source": "2529ac347b3d"
   },
   "video.ribbon.lower-third": {
     "text": "下方字幕條",
@@ -17001,6 +17269,10 @@
     "text": "我的連絡人",
     "source": "6add5927687d"
   },
+  "sheets.dialogs.my-data-has-headers": {
+    "text": "我的資料有標題",
+    "source": "e917f14e7d6e"
+  },
   "talk.invite.my-email-app": {
     "text": "我的郵件程式",
     "source": "c7aaaf0507c4"
@@ -17044,6 +17316,10 @@
   "broadcast.live-dialog.name-optional": {
     "text": "名稱（選填）",
     "source": "e09b37bcc4f3"
+  },
+  "sheets.name-box.name-box": {
+    "text": "名稱方塊",
+    "source": "730b51d34ee3"
   },
   "sheets.ribbon.name-manager": {
     "text": "名稱管理員",
@@ -17188,6 +17464,10 @@
   "locker.needs-you": {
     "text": "需要您處理",
     "source": "74b6abdf5969"
+  },
+  "sheets.dialogs.negative-points": {
+    "text": "負點",
+    "source": "6963e8f96ed2"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "在再次成為連絡人之前，雙方都無法傳送訊息給對方或與對方通話。您在此處的訊息已刪除。",
@@ -17821,6 +18101,10 @@
     "text": "尚無建置組塊",
     "source": "ee11b12ee206"
   },
+  "sheets.pivot-fields.no-calculation": {
+    "text": "無計算",
+    "source": "5da6f87ac7cb"
+  },
   "engine.no-calendars-or-address-books-were": {
     "text": "在該網址找不到任何行事曆或通訊錄。",
     "source": "6b303bb9fae7"
@@ -17929,9 +18213,9 @@
     "text": "此投影片沒有設計構想：請為其加上標題、一些文字或圖片。",
     "source": "1f07475c0307"
   },
-  "sheets.no-duplicate-rows-in-the-selection": {
-    "text": "選取範圍中沒有重複的列",
-    "source": "47e580620f2e"
+  "sheets.no-duplicate-rows-found-kept-rows": {
+    "text": "找不到重複的列；保留 {kept} 列。",
+    "source": "a032b583b3d3"
   },
   "word.mailings.no-duplicates": {
     "text": "沒有重複項",
@@ -18975,6 +19259,18 @@
     "text": "通知已暫停至 {time}",
     "source": "1d6521f14f4e"
   },
+  "notify-dialog.notifications-are-turned-off-in-windows": {
+    "text": "Windows 已關閉通知，因此不會顯示 Rutba Office 的任何通知。請在 Windows 設定的「系統」、「通知」中將其開啟。",
+    "source": "a652d04931a6"
+  },
+  "notify-dialog.notifications-are-turned-off-on-this": {
+    "text": "這部電腦的系統管理員已關閉通知，因此 Windows 不會顯示 Rutba Office 的任何通知。等待中的項目仍會計數並顯示在時鐘旁的圖示上。",
+    "source": "76e702238671"
+  },
+  "notify-dialog.notifications-from-rutba-office-are-turned": {
+    "text": "Windows 已關閉來自 Rutba Office 的通知。請在 Windows 設定的「系統」、「通知」、「Rutba Office」中將其開啟。",
+    "source": "e19167006214"
+  },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "目前為 {width} × {height} 公分。投影片上的所有內容都會縮放並置中，以符合新大小。",
     "source": "4e0c85185863"
@@ -18994,6 +19290,10 @@
   "common.number": {
     "text": "數字",
     "source": "bd82cf16699b"
+  },
+  "sheets.filter-panel.number-filters": {
+    "text": "數字篩選",
+    "source": "13fe0c5baab5"
   },
   "pictures.batch.number-as-001": {
     "text": "編號為 001",
@@ -19199,6 +19499,10 @@
     "text": "在新的繪圖圖層上",
     "source": "0501424bc7c7"
   },
+  "video.inspector.on-a-panel": {
+    "text": "在面板上",
+    "source": "e8787dfd4dc5"
+  },
   "studio.live-panel.on-air": {
     "text": "播出中",
     "source": "c2332b223176"
@@ -19291,6 +19595,14 @@
     "text": "一個回應包含全部",
     "source": "0670ff9a00aa"
   },
+  "video.inspector.one-bar": {
+    "text": "單一長條",
+    "source": "4bfa8b51bda1"
+  },
+  "video.inspector.one-caption-a-line-one-after": {
+    "text": "每行一個字幕，依序排列，各自位於自己的軌道上。",
+    "source": "01dc9af7bfb6"
+  },
   "slides.ribbon.one-column": {
     "text": "一欄",
     "source": "4af4c82acab4"
@@ -19310,6 +19622,10 @@
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "每行輸入一行文字。Tab 鍵移至中央，再按一次移至右側。",
     "source": "80be2d4cf6a5"
+  },
+  "video.inspector.one-line-there-is-nothing-to": {
+    "text": "只有一行：沒有可分割的內容。",
+    "source": "c2918f5eb39b"
   },
   "image.layers-panel.one-name-and-one-number-on": {
     "text": "每行一個名稱和一個數字，例如：週一, 12",
@@ -19384,6 +19700,10 @@
   "notify-dialog.only-an-installed-copy-of-rutba": {
     "text": "只有已安裝的 Rutba Office 才能隨 Windows 啟動。",
     "source": "5d376c6f923f"
+  },
+  "notify-dialog.only-an-installed-copy-of-rutba-2": {
+    "text": "只有已安裝的 Rutba Office 才會顯示 Windows 通知。等待中的項目仍會計數並顯示在時鐘旁的圖示上。",
+    "source": "5fedb6d63e92"
   },
   "word.only-certain-kinds-of-changes-can": {
     "text": "此文件只能進行特定類型的變更。請參閱校閱 → 限制編輯。",
@@ -19708,6 +20028,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "開啟 Kick 主控台",
     "source": "bf6f8e9ef858"
+  },
+  "notify-dialog.open-the-settings-of-windows": {
+    "text": "開啟 Windows 設定",
+    "source": "5af9b33ed216"
   },
   "talk.open-the-browser-again": {
     "text": "重新開啟瀏覽器",
@@ -20697,6 +21021,10 @@
     "text": "選取片段即可查看其設定。",
     "source": "6eb0903d3b41"
   },
+  "sheets.dialogs.pick-a-colour-for-the-tab": {
+    "text": "為 {name} 的索引標籤選擇色彩。",
+    "source": "e9df2741dc65"
+  },
   "slides.pick-a-comment-first-in-the": {
     "text": "請先在窗格或投影片上選取註解。",
     "source": "f5e1dbf895bc"
@@ -20716,6 +21044,14 @@
   "talk.invite-email.pick-from-contacts": {
     "text": "從連絡人挑選",
     "source": "e44028663b60"
+  },
+  "sheets.pick-from-the-list": {
+    "text": "從清單中選取",
+    "source": "a8fc191ece74"
+  },
+  "sheets.pick-one-of-list": {
+    "text": "選取下列其中之一：{list}。",
+    "source": "77094891e902"
   },
   "contacts.pick-one-on-the-left-or": {
     "text": "從左側選擇一個，或按 Ctrl+N 新增卡片。",
@@ -21858,6 +22194,10 @@
   "sheets.put-the-cursor-in-a-table": {
     "text": "將游標放在表格或樞紐分析表中。交叉分析篩選器會篩選其中之一。",
     "source": "906ca4fd2842"
+  },
+  "sheets.ribbon.put-the-legend-at-a-side": {
+    "text": "將圖例放在圖表的某一側，或將其移除。",
+    "source": "f49a59ee7c72"
   },
   "image.tools.put-the-pins-back": {
     "text": "將圖釘放回原位",
@@ -23109,6 +23449,10 @@
     "text": "移除此列",
     "source": "9b034cbd964e"
   },
+  "sheets.dialogs.remove-this-rule": {
+    "text": "移除此規則",
+    "source": "006122390887"
+  },
   "sheets.remove-this-watch": {
     "text": "移除此監看式",
     "source": "7c1c8bf08b8c"
@@ -24205,6 +24549,10 @@
     "text": "規則",
     "source": "4228aeb07c41"
   },
+  "sheets.dialogs.rules-on-this-sheet": {
+    "text": "此工作表的規則",
+    "source": "febf492f1ab9"
+  },
   "mail.rules.rules-run-when-mail-arrives-and": {
     "text": "規則會在郵件送達時執行，也可以隨時對資料夾執行。",
     "source": "6045d8d52773"
@@ -25195,6 +25543,10 @@
     "text": "第二色彩：漸層的結束位置",
     "source": "014aa91028da"
   },
+  "video.inspector.second-line": {
+    "text": "第二行",
+    "source": "c8b588f708d6"
+  },
   "video.library.second-point": {
     "text": "第二點",
     "source": "55b07a59a655"
@@ -25202,6 +25554,10 @@
   "calendar.second-time-zone": {
     "text": "第二時區",
     "source": "49755d0fec21"
+  },
+  "sheets.filter-panel.second-value": {
+    "text": "第二個值",
+    "source": "c4a53a97a697"
   },
   "slides.export-video.seconds-spent-on-each-slide": {
     "text": "每張投影片顯示的秒數",
@@ -25591,6 +25947,10 @@
     "text": "以任何方式將連結傳送給朋友。開啟連結的人接受後就會成為您的連絡人，可使用 Rutba Office，若沒有則使用免費的 Rutba 帳戶。用完後請撤回連結。",
     "source": "bd1c97fbc637"
   },
+  "talk.send-again": {
+    "text": "重新傳送",
+    "source": "feead925e260"
+  },
   "mail.send-and-receive": {
     "text": "傳送與接收",
     "source": "ffcf0846896c"
@@ -25823,9 +26183,9 @@
     "text": "以逗號分隔",
     "source": "1d7e4e1cdf8b"
   },
-  "sheets.dialogs.separated-by-commas-or-a-range": {
-    "text": "以逗號分隔，或使用範圍，例如 $H$1:$H$9。",
-    "source": "66ebf7c18623"
+  "sheets.dialogs.separated-by-commas-or-a-range-2": {
+    "text": "以逗號分隔，或輸入範圍，例如 $H$1:$H$9 或 Products!A2:A11。",
+    "source": "deed8689a130"
   },
   "word.ribbon.separated-by-tabs": {
     "text": "以定位點分隔",
@@ -25847,9 +26207,17 @@
     "text": "數列",
     "source": "a8295e08ff7a"
   },
+  "sheets.ribbon.series-colour": {
+    "text": "數列色彩",
+    "source": "3989e7fea65a"
+  },
   "sheets.dialogs.series-in": {
     "text": "數列資料取自",
     "source": "ceaab7f3e90b"
+  },
+  "sheets.ribbon.series-to-colour": {
+    "text": "要著色的數列",
+    "source": "aa8f68cf8f3b"
   },
   "slides.series-number": {
     "text": "數列 {number}",
@@ -26513,6 +26881,10 @@
     "text": "放映類型",
     "source": "5d97277b82b2"
   },
+  "sheets.pivot-fields.show-values-as": {
+    "text": "值的顯示方式",
+    "source": "bb7cc9d7da0d"
+  },
   "notify-dialog.show-what-it-says": {
     "text": "顯示訊息內容",
     "source": "01ff1c611346"
@@ -26544,6 +26916,10 @@
   "talk.meet-lines.showing-their-screen": {
     "text": "正在分享螢幕",
     "source": "1c428d39d527"
+  },
+  "studio.spoken-run.shown-only-the-words-type-at": {
+    "text": "僅顯示時，文字以標準速度打出。",
+    "source": "25a457d9d675"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "向與您交談的人顯示",
@@ -26596,6 +26972,10 @@
   "word.ribbon.shrink-font": {
     "text": "縮小字型",
     "source": "176934670a3e"
+  },
+  "video.inspector.shrink-to-fit": {
+    "text": "縮小以符合大小",
+    "source": "e65455733f3a"
   },
   "image.tools.shrink-narrow-the-selection-by-that": {
     "text": "縮減：依指定像素縮小選取範圍",
@@ -27165,6 +27545,10 @@
     "text": "上方最小值",
     "source": "b66a27b2ba69"
   },
+  "sheets.pivot-fields.smallest-first": {
+    "text": "從最小到最大",
+    "source": "4b15d87c3abc"
+  },
   "common.smartart": {
     "text": "SmartArt",
     "source": "fe46ea12fa77"
@@ -27365,6 +27749,10 @@
     "text": "排序段落：A 到 Z 或 Z 到 A；未選取任何內容時排序整份文件",
     "source": "bd64668cb009"
   },
+  "sheets.pivot-fields.sort-the-items": {
+    "text": "排序項目",
+    "source": "8f5ac57242b2"
+  },
   "sheets.ribbon.sort-the-list-a-to-z": {
     "text": "依 {name} 欄（作用中儲存格所在的欄）從 A 到 Z 排序清單；標題列保留在頂端",
     "source": "121020686363"
@@ -27509,6 +27897,10 @@
     "text": "閃耀",
     "source": "abac3d1ed392"
   },
+  "sheets.sparkline-options": {
+    "text": "走勢圖選項",
+    "source": "7660b0f99e6b"
+  },
   "sheets.ribbon.sparklines": {
     "text": "走勢圖",
     "source": "a77d2f6f62bf"
@@ -27652,6 +28044,10 @@
   "word.split-cells": {
     "text": "分割儲存格",
     "source": "ec306591839f"
+  },
+  "video.inspector.split-into-lines": {
+    "text": "分割成多行",
+    "source": "2b164901b73d"
   },
   "sheets.split-into-the-cells-to-the": {
     "text": "已分割到右側的儲存格",
@@ -27842,6 +28238,10 @@
   "word.list-dialog.start-at": {
     "text": "起始於",
     "source": "334c284f438c"
+  },
+  "sheets.dialogs.start-at-nought": {
+    "text": "從零開始",
+    "source": "8e5da7fea6e5"
   },
   "word.restrict.start-enforcement": {
     "text": "開始強制執行",
@@ -28447,6 +28847,14 @@
     "text": "定位字元分隔值 (.tsv)",
     "source": "8015e916b0d7"
   },
+  "sheets.dialogs.tab-colour": {
+    "text": "索引標籤色彩",
+    "source": "5ea3b6dde585"
+  },
+  "sheets.tab-colour": {
+    "text": "索引標籤色彩…",
+    "source": "2dc7ab1e9dc6"
+  },
   "word.tab-leader": {
     "text": "前置字元",
     "source": "4c13c6224502"
@@ -28965,6 +29373,10 @@
     "text": "文字效果：轉換",
     "source": "788f2d5eb581"
   },
+  "sheets.filter-panel.text-filters": {
+    "text": "文字篩選",
+    "source": "ab3c6a9c325c"
+  },
   "word.forms.text-form-field": {
     "text": "文字表單欄位",
     "source": "c493dd6ddde9"
@@ -29008,6 +29420,10 @@
   "slides.revisions.text-changed": {
     "text": "文字已變更",
     "source": "26c7b5775381"
+  },
+  "video.inspector.text-colour": {
+    "text": "文字色彩",
+    "source": "25e9c8090de7"
   },
   "sheets.dialogs.text-contains": {
     "text": "文字包含",
@@ -29589,6 +30005,10 @@
     "text": "您要顯示並用來開啟檔案的應用程式。",
     "source": "332e5249e305"
   },
+  "video.inspector.the-bar-covers-the-whole-film": {
+    "text": "進度列在增長時涵蓋整部影片，直到變更其長度為止。",
+    "source": "da0ae4020925"
+  },
   "video.inspector.the-bar-fills-from-where-this": {
     "text": "進度列從此片段開始處填滿至結束處。",
     "source": "01d9656a5ad1"
@@ -29596,6 +30016,10 @@
   "video.the-brand-kit-is-kept-for": {
     "text": "品牌套件已為您保存，並會套用到每個場景。",
     "source": "3180710525cd"
+  },
+  "video.inspector.the-brand-kit-logo": {
+    "text": "品牌套件標誌",
+    "source": "cee5b3c1d63e"
   },
   "word.list-dialog.the-bullet-character": {
     "text": "項目符號字元。",
@@ -29762,6 +30186,10 @@
   "talk-words.the-connection-was-lost-and-the": {
     "text": "連線已中斷，無法重新加入會議。",
     "source": "ecc583f6d5d1"
+  },
+  "sheets.the-copy-has-the-cells-and": {
+    "text": "複本包含儲存格及其格式。圖表、圖片、表格和樞紐分析表會留在原本的工作表上。",
+    "source": "dad761a634d9"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "準則範圍不可位於清單內",
@@ -30145,6 +30573,10 @@
     "text": "已儲存鎖定的複本。您可以用任何方式傳送它。",
     "source": "bbfae89220a6"
   },
+  "video.library.the-logo-from-your-brand-kit": {
+    "text": "您品牌套件中的標誌，放在角落；或您選擇的圖片。",
+    "source": "9323498bce87"
+  },
   "engine.the-mail-app-is-chosen-in": {
     "text": "郵件應用程式是在這部電腦的系統設定中選擇的。",
     "source": "5141d3af3f67"
@@ -30184,6 +30616,10 @@
   "mail.parts.the-mail-server-would-not-keep": {
     "text": "郵件伺服器拒絕在 {folder} 保留您寄出郵件的複本。此處的複本會保留。",
     "source": "59af5bb0cb8f"
+  },
+  "mail.parts.the-mail-server-would-not-keep-2": {
+    "text": "郵件伺服器沒有將草稿保留在 {folder} 中。草稿仍在這部電腦上。",
+    "source": "2304437141a3"
   },
   "mail.parts.the-mail-server-would-not-make": {
     "text": "郵件伺服器拒絕執行在此所做的變更。郵件會顯示伺服器上的內容。",
@@ -30232,6 +30668,10 @@
   "talk.meet-lines.the-meeting-is-full-on-its": {
     "text": "此會議在其通話伺服器 (Talk Server) 上已額滿。",
     "source": "a28293313806"
+  },
+  "talk.the-meeting-stays-here-reason": {
+    "text": "會議保留在此：{reason}",
+    "source": "2f8fd822d081"
   },
   "talk.meet-lines.the-meetings-talk-server-is-not": {
     "text": "會議的通話伺服器 (Talk Server) 目前不接受與會者加入。請稍後再試。",
@@ -30731,6 +31171,10 @@
     "text": "{name} 的安全複本建立於 {when}。其 {n} 個檔案會以未鎖定的形式寫入您所選資料夾內的新資料夾中。不會變更其中原有的任何內容。",
     "source": "a34f0ed2f93a"
   },
+  "sheets.dialogs.the-same-for-all-of-them": {
+    "text": "所有走勢圖相同",
+    "source": "eef1cb1cfa61"
+  },
   "locker.the-same-password-again": {
     "text": "再次輸入相同的密碼",
     "source": "cfd750367fe1"
@@ -30784,6 +31228,10 @@
   "sheets.dialogs.the-selection-holds-a-formula-in": {
     "text": "選取範圍的角落是公式，邊緣是要試算的值。每個儲存格都會填入公式在該組合下的結果。",
     "source": "fe7e0163219d"
+  },
+  "sheets.the-selection-is-now-named-name": {
+    "text": "選取範圍現已命名為 {name}。",
+    "source": "c3c614e5e0f0"
   },
   "mail.the-sender-supports-one-click-unsubscribe": {
     "text": "寄件者支援一鍵取消訂閱。只會向對方傳送一個要求，其他任何內容都不會離開這部電腦。",
@@ -30992,6 +31440,10 @@
   "engine.the-text-recognition-model-for-key": {
     "text": "無法載入 {key} 的文字辨識模型。",
     "source": "44a1288700c8"
+  },
+  "video.inspector.the-theme-colour": {
+    "text": "佈景主題色彩",
+    "source": "c9c8ab182186"
   },
   "slides.ribbon.the-themes-own-looks-filled-in": {
     "text": "佈景主題的樣式：以輔色填滿，並以同色加外框",
@@ -31424,6 +31876,10 @@
   "mail.these-accounts": {
     "text": "這些帳戶",
     "source": "0eca400d4be1"
+  },
+  "sheets.dialogs.these-apply-to-every-sparkline-made": {
+    "text": "這些設定會套用到與此走勢圖一起建立的所有走勢圖。",
+    "source": "a459084b0d0c"
   },
   "mail.these-are-imported-archives-there-is": {
     "text": "這些是匯入的封存檔，因此沒有可收取的內容。",
@@ -31876,6 +32332,10 @@
   "word.restrict.this-document-is-protected-only-comments": {
     "text": "此文件已受保護：此處只能新增註解。校閱 → 限制編輯會顯示您可編輯的區域。",
     "source": "b908b8376d8e"
+  },
+  "sheets.this-entry-does-not-match-the": {
+    "text": "輸入的值不符合此儲存格設定的規則。",
+    "source": "64430678bcb5"
   },
   "calendar.this-event-has-a-talk-meeting": {
     "text": "此活動含有通話 (Talk) 會議。連結在邀請中。",
@@ -32355,6 +32815,10 @@
     "text": "此工作表沒有可清除的大綱",
     "source": "a80699366a86"
   },
+  "sheets.dialogs.this-sheet-has-no-rules-yet": {
+    "text": "此工作表尚無規則。",
+    "source": "735960d6edfc"
+  },
   "sheets.this-sheet-is-protected-with-a": {
     "text": "此工作表受密碼保護。請輸入密碼以取消保護。",
     "source": "368023c3045c"
@@ -32474,6 +32938,10 @@
   "studio.guests.this-window-leaves-and-talk-comes": {
     "text": "此視窗將關閉，改由通話 (Talk) 接手：同樣的成員，以會議形式進行。",
     "source": "fa116fc70753"
+  },
+  "talk.this-window-leaves-the-meeting-once": {
+    "text": "另一個視窗開啟後，此視窗就會離開會議，您將在那裡管理會議。",
+    "source": "fb83b9a3480f"
   },
   "sheets.this-workbook-has-no-comments": {
     "text": "此活頁簿沒有註解。",
@@ -32875,6 +33343,10 @@
     "text": "上框線",
     "source": "79775184aaa3"
   },
+  "sheets.dialogs.top-items": {
+    "text": "最前的項目",
+    "source": "af3865aa2315"
+  },
   "common.top-left": {
     "text": "左上",
     "source": "a0eda50fb155"
@@ -32883,6 +33355,10 @@
     "text": "清單頂端的項目在最前面。拖曳即可變更順序。",
     "source": "428a0adb9e63"
   },
+  "sheets.dialogs.top-per-cent": {
+    "text": "最前百分比",
+    "source": "fa0e93898958"
+  },
   "common.top-right": {
     "text": "右上",
     "source": "d83cbef9db1b"
@@ -32890,6 +33366,14 @@
   "sheets.dialogs.top-row": {
     "text": "首列",
     "source": "5c027c33bb97"
+  },
+  "sheets.dialogs.top-count": {
+    "text": "前 {count} 個項目",
+    "source": "b6783f4fd940"
+  },
+  "sheets.dialogs.top-count-2": {
+    "text": "前 {count}%",
+    "source": "ea8f8cc99e8d"
   },
   "common.total": {
     "text": "總計",
@@ -32903,9 +33387,17 @@
     "text": "合計列：最後一列套用樣式的合計外觀",
     "source": "46fd3713529a"
   },
+  "sheets.ribbon.total-of-column-none": {
+    "text": "{column} 合計：無",
+    "source": "1676db04c840"
+  },
   "base.reports.total-of-field": {
     "text": "{field} 的總計",
     "source": "f3956fd5d7dd"
+  },
+  "sheets.ribbon.total-row": {
+    "text": "合計列",
+    "source": "3c3cb9cbf619"
   },
   "base.totals": {
     "text": "總計",
@@ -33363,6 +33855,10 @@
     "text": "輸入或貼上地址",
     "source": "ddf091a93d83"
   },
+  "video.type-or-paste-your-words-here": {
+    "text": "在此輸入或貼上您的文字。",
+    "source": "2d8717ac7291"
+  },
   "sheets.dialogs.type-part-of-a-name": {
     "text": "輸入名稱的一部分",
     "source": "7602842c7ce4"
@@ -33435,9 +33931,17 @@
     "text": "鍵入",
     "source": "bff482dbe92b"
   },
+  "common.typewriter": {
+    "text": "打字機效果",
+    "source": "b15b792b2b10"
+  },
   "video.inspector.typing": {
     "text": "打字",
     "source": "25dfb9b4b32f"
+  },
+  "video.inspector.typing-speed": {
+    "text": "打字速度",
+    "source": "9d1ff237078a"
   },
   "common.uppercase": {
     "text": "全部大寫",
@@ -33522,6 +34026,18 @@
   "sheets.unhide-name": {
     "text": "取消隱藏「{name}」",
     "source": "efad2d4bb2b6"
+  },
+  "sheets.ribbon.unhide-all-rows-and-columns": {
+    "text": "取消隱藏所有列和欄",
+    "source": "e996d6d88a04"
+  },
+  "sheets.unhide-columns": {
+    "text": "取消隱藏欄",
+    "source": "2aee4f4f679d"
+  },
+  "sheets.unhide-rows": {
+    "text": "取消隱藏列",
+    "source": "783840178245"
   },
   "sheets.ribbon.unhide-a-hidden-worksheets-window-back": {
     "text": "取消隱藏：讓已隱藏的工作表視窗回到螢幕上",
@@ -33863,6 +34379,10 @@
     "text": "更新 {style} 以符合選取範圍",
     "source": "e65ad4674254"
   },
+  "sheets.ribbon.update-style-to-match-this-cell": {
+    "text": "更新 {style} 以符合此儲存格",
+    "source": "ab2583743d9d"
+  },
   "shell.updated-from-version-what-changed-is": {
     "text": "已從 {version} 更新。按一下即可查看變更內容。",
     "source": "d4f81a14fa5f"
@@ -34149,6 +34669,10 @@
     "text": "直向社群",
     "source": "06b16b68f5bb"
   },
+  "sheets.ribbon.vertical-axis-title": {
+    "text": "垂直座標軸標題",
+    "source": "350384e51fb0"
+  },
   "sheets.ribbon.vertical-text": {
     "text": "垂直文字",
     "source": "623bb53bc829"
@@ -34276,6 +34800,10 @@
   "common.voice": {
     "text": "語音",
     "source": "87bf2bc08589"
+  },
+  "common.voice-first": {
+    "text": "語音先行",
+    "source": "e03a9afde9bd"
   },
   "voices-dialog.voices": {
     "text": "語音",
@@ -34885,6 +35413,10 @@
     "text": "視窗",
     "source": "d598026a9cbc"
   },
+  "notify-dialog.windows-did-not-show-the-last": {
+    "text": "Windows 沒有顯示上一則通知。請在 Windows 設定的「系統」、「通知」中，確認 Windows 和 Rutba Office 的通知都已開啟，且「勿擾」已關閉。",
+    "source": "8663439dc961"
+  },
   "engine.windows-keeps-this-choice-for-you": {
     "text": "Windows 會為您保存這項選擇：請在「設定 › 預設應用程式」中選擇 Rutba Office。下方按鈕會開啟該處。",
     "source": "954691d41579"
@@ -34937,6 +35469,14 @@
     "text": "文繞圖",
     "source": "1c19fe80875f"
   },
+  "common.with-the-voice": {
+    "text": "與語音同步",
+    "source": "a0c88e3ba266"
+  },
+  "video.spoken.with-the-words-shown-only-they": {
+    "text": "文字僅顯示時，會以影片本身的速度打出。",
+    "source": "a1da8c430dfa"
+  },
   "talk.with-video": {
     "text": "含視訊",
     "source": "d530d62be3b5"
@@ -34985,6 +35525,10 @@
     "text": "文字藝術師",
     "source": "ae16a048a626"
   },
+  "video.inspector.word-by-word": {
+    "text": "逐詞顯示",
+    "source": "ddbaf8c9f91a"
+  },
   "word.dialogs.word-count": {
     "text": "字數統計",
     "source": "653913ac0e67"
@@ -35021,13 +35565,25 @@
     "text": "字",
     "source": "0a8be89a52a8"
   },
+  "video.inspector.words-alone": {
+    "text": "僅文字",
+    "source": "ddf082782ed5"
+  },
   "ui.proofing.words-for-word": {
     "text": "「{word}」的同義字",
     "source": "6d61efe54546"
   },
+  "video.library.words-on-a-pill": {
+    "text": "膠囊形上的文字",
+    "source": "c3b9558baaef"
+  },
   "spoken.voices.words-to-say": {
     "text": "要朗讀的文字",
     "source": "3353415dcf6a"
+  },
+  "video.library.words-typed-in-over-the-pictures": {
+    "text": "在畫面上打出的文字，方式由您選擇：打字、逐詞、逐行、卡拉 OK 或一次全部。",
+    "source": "bbe7cf532cfb"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "您新增的字詞絕不會被標示為拼錯，在文件、工作表與簡報中皆然。",
@@ -35153,6 +35709,10 @@
     "text": "將每封郵件的附件寫在其旁邊",
     "source": "e456d4b9b1fd"
   },
+  "sheets.ribbon.write-each-value-beside-its-bar": {
+    "text": "在每個長條或點旁標示其值。",
+    "source": "026231f2c863"
+  },
   "mail.compose.write-it-in-a-window-of": {
     "text": "在其專屬的視窗中撰寫",
     "source": "76eb5c9c5448"
@@ -35169,9 +35729,17 @@
     "text": "寫下此群組的第一則訊息。",
     "source": "79c6b8f1ef84"
   },
+  "sheets.ribbon.write-the-share-of-each-slice": {
+    "text": "在每個扇區上標示其比例。",
+    "source": "d494df2a096c"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "寫入已停止：{reason}。之前已寫入的內容會保留。",
     "source": "9d5b1ef54387"
+  },
+  "sheets.dialogs.written-for-the-first-cell-of": {
+    "text": "以選取範圍的第一個儲存格為準撰寫，例如 =$C2>100。$ 符號會固定欄或列的位置。",
+    "source": "d7d6c2376a68"
   },
   "contacts.wrote-count-card-to-file": {
     "forms": {
@@ -35532,6 +36100,10 @@
   "video.your-title-here": {
     "text": "在此輸入標題",
     "source": "66094e7e6215"
+  },
+  "video.your-web-address": {
+    "text": "您的網址",
+    "source": "0bceb158232c"
   },
   "video.library.your-words": {
     "text": "自訂文字",
@@ -37183,6 +37755,10 @@
     "text": "{calendars}、{books} · 同步於 {when}",
     "source": "e74fd34182ad"
   },
+  "sheets.cell-was-not-changed-reason": {
+    "text": "{cell} 未變更。{reason}",
+    "source": "c6587d02f21f"
+  },
   "engine.changed-file-types-now-open-with": {
     "text": "{changed} 種檔案類型現在會以 Rutba Office 開啟。",
     "source": "aac86dd995be"
@@ -37726,6 +38302,10 @@
       "other": "{count} 個保持原狀"
     },
     "source": "58f6eb7ce109"
+  },
+  "video.inspector.count-letters-a-second": {
+    "text": "每秒 {count} 個字元",
+    "source": "8492559d17f5"
   },
   "base.documents.count-line": {
     "forms": {
@@ -38599,6 +39179,10 @@
     "text": "{look} 調整",
     "source": "eb6eabf53c50"
   },
+  "video.made-the-chapters-are-in-name": {
+    "text": "{made} 章節位於 {name}。",
+    "source": "fe36caf0e53c"
+  },
   "video.made-the-first-go-came-out": {
     "text": "{made}。第一次輸出超過 {limit}，因此已以較低品質重新編碼。",
     "source": "17043b2efde8"
@@ -38691,6 +39275,10 @@
     "text": "{name} 會換成每個人的名稱。接受連結及取得 Rutba Office 的方式會附在您的附註下方。",
     "source": "6724ae357006"
   },
+  "talk.name-called-while-you-were-on": {
+    "text": "{name} 在您直播期間來電。此通話已因忙碌而拒接，並列在未接來電中。",
+    "source": "2a0990e6e9e1"
+  },
   "video.name-cannot-be-played-on-this": {
     "text": "{name} 無法在這部電腦上播放。",
     "source": "56c80f47dfd7"
@@ -38758,6 +39346,10 @@
   "talk-words.name-ended-the-meeting": {
     "text": "{name} 已結束會議。",
     "source": "68a9df35664b"
+  },
+  "studio.guests.name-has-left-the-meeting-their": {
+    "text": "{name} 已離開會議。其座位現在是空的。",
+    "source": "7ff12fec0c3b"
   },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "{name} 有多個工作表。您選擇的工作表第一列會作為欄位名稱。",
@@ -39385,6 +39977,10 @@
     "text": "{recipient} 已新增至安全的收件者",
     "source": "0b01f434a11b"
   },
+  "sheets.removed-duplicate-rows-removed-kept-rows": {
+    "text": "已移除 {removed} 個重複的列；保留 {kept} 列。",
+    "source": "7299a779b8cc"
+  },
   "calendar.words.room-is-booked-for-when": {
     "text": "已為 {when} 預約 {room}。",
     "source": "6c97b843b2c6"
@@ -39416,6 +40012,10 @@
   "common.seconds-s": {
     "text": "{seconds} 秒",
     "source": "fde82d3dd95e"
+  },
+  "video.inspector.seconds-s-apart": {
+    "text": "間隔 {seconds} 秒",
+    "source": "f04806f51dbb"
   },
   "pictures.seconds-s": {
     "text": "{seconds} 秒",

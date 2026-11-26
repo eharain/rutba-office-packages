@@ -207,6 +207,18 @@
     "text": "„{word}“ je ve vašem slovníku.",
     "source": "b9aeb4fc656c"
   },
+  "sheets.pivot-fields.of-column-total": {
+    "text": "% součtu sloupce",
+    "source": "eab72b338837"
+  },
+  "sheets.pivot-fields.of-grand-total": {
+    "text": "% celkového součtu",
+    "source": "ad881b0c599c"
+  },
+  "sheets.pivot-fields.of-row-total": {
+    "text": "% součtu řádku",
+    "source": "97a366055762"
+  },
   "word.list-dialog.2-is-this-levels-number-1": {
     "text": "%2 je číslo této úrovně; %1 je číslo úrovně nad ní.",
     "source": "9cbc5138d80a"
@@ -391,6 +403,10 @@
     "text": "1 den předem",
     "source": "a8b499336a9e"
   },
+  "sheets.1-duplicate-row-removed-kept-rows": {
+    "text": "Odebrán 1 duplicitní řádek. Zůstává řádků: {kept}.",
+    "source": "f63cb027fc81"
+  },
   "calendar.1-hour-before": {
     "text": "1 hodinu předem",
     "source": "5104b6b7955e"
@@ -562,6 +578,10 @@
   "engine.a-pdf-with-no-pages-is": {
     "text": "PDF bez stránek není dokument. Nejdřív přidejte stránku.",
     "source": "df7ad0646756"
+  },
+  "video.library.a-qr-code-type-the-address": {
+    "text": "QR kód: zadejte adresu, kterou otevře.",
+    "source": "3c11f5898b54"
   },
   "talk.a-turn-server-you-run-offered": {
     "text": "Server TURN, který provozujete; nabízí se druhé straně pro vaše hovory",
@@ -812,6 +832,10 @@
     "text": "Vzorec zde tvoří čísla, buňky jako B2 nebo B2:B4, znaménka +, -, * a /, závorky a funkce SUM, AVERAGE, COUNT, MAX, MIN, PRODUCT nebo ABS z nich nebo z ABOVE, LEFT, BELOW nebo RIGHT, například =SUM(ABOVE).",
     "source": "74a836a73c62"
   },
+  "sheets.dialogs.a-formula-is-true": {
+    "text": "Vzorec je pravdivý",
+    "source": "77bbea0fd15f"
+  },
   "home.a-free-office-suite-mail-documents": {
     "text": "Bezplatná kancelářská sada: pošta, dokumenty, tabulky, prezentace, obrázky, grafika a video, na vlastním jádru.",
     "source": "cbecbd51dbc1"
@@ -976,6 +1000,10 @@
     "text": "Název pro každý sloupec podle jeho záhlaví. Uvádí je Správce názvů",
     "source": "9a8020d11b5d"
   },
+  "sheets.a-name-starts-with-a-letter": {
+    "text": "Název začíná písmenem a nemá mezery, například Sales_May. Adresa vypadá jako B7 nebo B2:D9.",
+    "source": "e623278e0626"
+  },
   "review.a-name-that-says-what-is": {
     "text": "Název vystihující obsah „{sheet}“:",
     "source": "818eb2db1790"
@@ -1132,6 +1160,14 @@
   "slides.a-pie-chart-draws-only-its": {
     "text": "Výsečový graf kreslí jen svou první řadu.",
     "source": "f51e19a20a49"
+  },
+  "video.inspector.a-piece-for-each-clip": {
+    "text": "Úsek pro každý klip",
+    "source": "aceec9902c4c"
+  },
+  "video.inspector.a-piece-for-each-marker": {
+    "text": "Úsek pro každou značku",
+    "source": "cb5ab8475fd9"
   },
   "engine.a-pivot-needs-at-least-one": {
     "text": "Kontingenční tabulka potřebuje alespoň jedno pole v oblasti Hodnoty.",
@@ -1306,6 +1342,10 @@
     "text": "Krátké sdělení pro tým: komu, od koho, předmět, souvislosti a co bude dál",
     "source": "7cbd8d22f139"
   },
+  "video.library.a-short-word-on-a-coloured": {
+    "text": "Krátké slovo na barevné kapsli, například NEW nebo SALE.",
+    "source": "440aa0204a24"
+  },
   "word.drawings.a-sidebar-stands-beside-the-story": {
     "text": "Postranní panel stojí vedle článku s textem, který k němu patří: shrnutí, seznam bodů, poznámka pro čtenáře.",
     "source": "f84097aa22f7"
@@ -1337,6 +1377,10 @@
   "slides.export-video.a-slide-with-a-timing-of": {
     "text": "Snímek s vlastním časováním si ho při použití časování ponechá; ostatní zůstanou zobrazené po počet sekund výše. Animace se zobrazí dokončené.",
     "source": "8e642bc4c741"
+  },
+  "video.library.a-small-line-along-the-foot": {
+    "text": "Malý řádek podél dolního okraje obrazu, například vaše webová adresa.",
+    "source": "9e6f80e3ef70"
   },
   "studio.scene-strip.a-source": {
     "text": "Zdroj",
@@ -1602,6 +1646,10 @@
   "common.above-front-right": {
     "text": "Shora zepředu vpravo",
     "source": "0edd0b82de7b"
+  },
+  "sheets.dialogs.above-average": {
+    "text": "Nad průměrem",
+    "source": "98ca5f459314"
   },
   "equations.absolute-value": {
     "text": "Absolutní hodnota",
@@ -2511,6 +2559,10 @@
     "text": "Upřesnit…",
     "source": "1de3a18e329f"
   },
+  "sheets.filter-panel.after": {
+    "text": "Po",
+    "source": "7b68fe551085"
+  },
   "word.ribbon.after-pt": {
     "text": "Za (b.)",
     "source": "19ec57700505"
@@ -2718,6 +2770,10 @@
   "slides.ribbon.all-at-once": {
     "text": "Vše najednou",
     "source": "c9d506ca2d68"
+  },
+  "video.inspector.all-at-once": {
+    "text": "Vše najednou",
+    "source": "f90683717cd2"
   },
   "sheets.ribbon.all-borders": {
     "text": "Všechna ohraničení",
@@ -3207,6 +3263,10 @@
   "engine.another-program-opens-mail-links-on": {
     "text": "E-mailové odkazy v tomto počítači otevírá jiný program.",
     "source": "1a1b9963a277"
+  },
+  "sheets.dialogs.another-rule": {
+    "text": "Jiné pravidlo",
+    "source": "35c09b4d7aef"
   },
   "common.answer": {
     "text": "Přijmout",
@@ -3949,6 +4009,14 @@
     "text": "Pryč",
     "source": "af16c830c510"
   },
+  "sheets.dialogs.axis": {
+    "text": "Osa",
+    "source": "32b73caefac1"
+  },
+  "sheets.ribbon.axis-titles": {
+    "text": "Názvy os",
+    "source": "900f286eac2b"
+  },
   "common.b5-176-250-mm": {
     "text": "B5: 176 × 250 mm",
     "source": "344900110be7"
@@ -4065,6 +4133,10 @@
     "text": "Pruhované řádky: každý druhý řádek stínovaný podle stylu",
     "source": "f6ced0fcf385"
   },
+  "sheets.ribbon.banded-rows": {
+    "text": "Pruhované řádky",
+    "source": "6e9aa5474c82"
+  },
   "common.banner": {
     "text": "Banner",
     "source": "b7f4d98f98d5"
@@ -4121,6 +4193,10 @@
     "text": "Pípnutí",
     "source": "4ccb3fb5330b"
   },
+  "sheets.filter-panel.before": {
+    "text": "Před",
+    "source": "9bb725005055"
+  },
   "word.ribbon.before-pt": {
     "text": "Před (b.)",
     "source": "bba72e0923a5"
@@ -4132,6 +4208,10 @@
   "protect.before-sharing-this-file-check-it": {
     "text": "Před sdílením tohoto souboru zkontrolujte, zda neobsahuje obsah, který ostatní nemají vidět: komentáře, změny, skrytá slova a osobní údaje.",
     "source": "56f7599f4157"
+  },
+  "sheets.filter-panel.begins-with": {
+    "text": "Začíná na",
+    "source": "853978f44eaf"
   },
   "word.ribbon.behind-text": {
     "text": "Za textem",
@@ -4152,6 +4232,10 @@
   "common.below-front-right": {
     "text": "Zdola zepředu vpravo",
     "source": "31fedbb2729e"
+  },
+  "sheets.dialogs.below-average": {
+    "text": "Pod průměrem",
+    "source": "8f2f0fa9a074"
   },
   "common.berry": {
     "text": "Bobule",
@@ -4417,9 +4501,17 @@
     "text": "Dolní ohraničení",
     "source": "0dc79f4813a3"
   },
+  "sheets.dialogs.bottom-items": {
+    "text": "Nejnižší položky",
+    "source": "aa9e5db6f818"
+  },
   "common.bottom-left": {
     "text": "Vlevo dole",
     "source": "f5a57b969150"
+  },
+  "sheets.dialogs.bottom-per-cent": {
+    "text": "Procento nejnižších",
+    "source": "10bad9a09d6f"
   },
   "common.bottom-right": {
     "text": "Vpravo dole",
@@ -4428,6 +4520,14 @@
   "video.layer-names.bottom-shade": {
     "text": "Spodní ztmavení",
     "source": "1dffbced0f7c"
+  },
+  "sheets.dialogs.bottom-count": {
+    "text": "Nejnižší: {count}",
+    "source": "54119ed17f6b"
+  },
+  "sheets.dialogs.bottom-count-2": {
+    "text": "Posledních {count} %",
+    "source": "658e45ae01eb"
   },
   "word.ribbon.box-dashed-line": {
     "text": "Rámeček: čárkovaná čára",
@@ -4955,6 +5055,10 @@
     "text": "Titulky (.srt, .vtt)",
     "source": "1c941a0a4cea"
   },
+  "video.library.captions-and-quick-adds": {
+    "text": "Titulky a rychlé prvky",
+    "source": "d062fc34102e"
+  },
   "slides.album.captions-below-all-pictures": {
     "text": "Titulky pod všemi obrázky",
     "source": "dd686df00caf"
@@ -5240,6 +5344,10 @@
     "text": "Změnit…",
     "source": "a6b4705c6883"
   },
+  "video.chapter-n": {
+    "text": "Kapitola {n}",
+    "source": "816e97139189"
+  },
   "sheets.queries.character": {
     "text": "Znak",
     "source": "1405a63e8a78"
@@ -5267,6 +5375,10 @@
   "sheets.ribbon.chart-design": {
     "text": "Návrh grafu",
     "source": "d41692080652"
+  },
+  "sheets.ribbon.chart-elements": {
+    "text": "Prvky grafu",
+    "source": "b2c3cce9d69c"
   },
   "sheets.ribbon.chart-title": {
     "text": "Název grafu",
@@ -5669,6 +5781,10 @@
   "image.choose-the-layer-to-clear-the": {
     "text": "Vyberte vrstvu, ze které se má vymazat výběr.",
     "source": "04a21a186397"
+  },
+  "video.choose-the-logo": {
+    "text": "Vybrat logo",
+    "source": "0240baf232cc"
   },
   "studio.bottom-bar.choose-the-microphone": {
     "text": "Vybrat mikrofon",
@@ -6198,6 +6314,14 @@
     "text": "Barva textu",
     "source": "8c6ececb4c11"
   },
+  "sheets.dialogs.colour-of-those-points": {
+    "text": "Barva těchto bodů",
+    "source": "898998460449"
+  },
+  "sheets.dialogs.colour-scale": {
+    "text": "Barevná škála",
+    "source": "000799f1a3ef"
+  },
   "sheets.dialogs.colour-scale-green-yellow-red-low": {
     "text": "Barevná škála: zelená, žlutá, červená (od nejnižší po nejvyšší)",
     "source": "234d0c0e170a"
@@ -6458,6 +6582,10 @@
   "locker.compare": {
     "text": "Porovnat…",
     "source": "219ddc366d9d"
+  },
+  "sheets.filter-panel.comparison": {
+    "text": "Porovnání",
+    "source": "571527339d0e"
   },
   "word.mailings.comparison": {
     "text": "Porovnání:",
@@ -6816,6 +6944,10 @@
     "text": "Kopírovat cestu",
     "source": "720ff4160412"
   },
+  "sheets.copy-sheet": {
+    "text": "Kopírovat list",
+    "source": "c9a0f392b71f"
+  },
   "sheets.ribbon.copy-the-formatting-here-to-the": {
     "text": "Kopírovat zdejší formátování na další výběr",
     "source": "385e4d1fba79"
@@ -6939,6 +7071,10 @@
   "word.ribbon.count-above": {
     "text": "Počet nad",
     "source": "33e9e80a1691"
+  },
+  "sheets.ribbon.count-numbers": {
+    "text": "Počet čísel",
+    "source": "f6b68195bdad"
   },
   "sheets.queries.count-rows": {
     "text": "Spočítat řádky",
@@ -7332,6 +7468,10 @@
     "text": "Tmavě modrá",
     "source": "6c12f1ca1641"
   },
+  "sheets.dialogs.dark-blue-grey": {
+    "text": "Tmavě modrošedá",
+    "source": "744e37be8716"
+  },
   "qrcode.dark-brown": {
     "text": "Tmavě hnědá",
     "source": "f22b68958bf5"
@@ -7440,6 +7580,10 @@
     "text": "Databáze Data Files",
     "source": "24e8c9743f1a"
   },
+  "sheets.ribbon.data-labels": {
+    "text": "Popisky dat",
+    "source": "78023df4505c"
+  },
   "sheets.ribbon.data-table": {
     "text": "Tabulka dat…",
     "source": "fedeed59d538"
@@ -7455,6 +7599,10 @@
   "sheets.ribbon.data-validation": {
     "text": "Ověření dat",
     "source": "28971fd398d1"
+  },
+  "sheets.dialogs.data-bars": {
+    "text": "Datové pruhy",
+    "source": "e7a181724128"
   },
   "sheets.dialogs.data-bars-blue": {
     "text": "Datové pruhy: modré",
@@ -7503,6 +7651,10 @@
   "slides.ribbon.date-and-time-a-date-along": {
     "text": "Datum a čas: datum v dolní části, aktualizované nebo pevné",
     "source": "f94ad5295f5d"
+  },
+  "sheets.filter-panel.date-filters": {
+    "text": "Filtry kalendářních dat",
+    "source": "bacb61184a41"
   },
   "word.forms.date-picker-content-control": {
     "text": "Výběr data (ovládací prvek obsahu)",
@@ -8182,6 +8334,10 @@
     "text": "Rozdíl",
     "source": "4d280a451d04"
   },
+  "sheets.pivot-fields.difference-from-previous": {
+    "text": "Rozdíl od předchozího",
+    "source": "4473ab760db3"
+  },
   "slides.different-since-this-deck-was-last": {
     "text": "Změněno od doby, kdy byla prezentace naposledy otevřena zde",
     "source": "da4a123f25df"
@@ -8193,6 +8349,10 @@
   "shell.digits": {
     "text": "Číslice",
     "source": "9cd500d3d69f"
+  },
+  "video.inspector.dim": {
+    "text": "Tlumená",
+    "source": "ea53b1cb304d"
   },
   "pictures.dimensions": {
     "text": "Rozměry",
@@ -8373,6 +8533,14 @@
   "home.documents-mail-and-media-all-work": {
     "text": "Dokumenty, pošta i média fungují bez připojení k síti",
     "source": "e815503e3abf"
+  },
+  "sheets.filter-panel.does-not-contain": {
+    "text": "Neobsahuje",
+    "source": "56fe07f0e32e"
+  },
+  "sheets.filter-panel.does-not-equal": {
+    "text": "Není rovno",
+    "source": "e47c3280f3bf"
   },
   "calendar.does-not-repeat": {
     "text": "Neopakuje se",
@@ -8723,10 +8891,6 @@
     "text": "Duplicitní řádky odebrány",
     "source": "e606bafdbd22"
   },
-  "sheets.duplicate-rows-removed-the-rest-closed": {
-    "text": "Duplicitní řádky odebrány; ostatní se přisunuly",
-    "source": "0827cbb28e3a"
-  },
   "slides.duplicate-slide": {
     "text": "Duplikovat snímek",
     "source": "ab7940817995"
@@ -8827,6 +8991,10 @@
     "text": "Každý řádek se přečte nahlas a jeho text se zobrazí, zatímco zní jeho hlas, jeden po druhém",
     "source": "282adc866b4a"
   },
+  "studio.spoken-run.each-line-types-in-letter-by": {
+    "text": "Od dalšího vysloveného řádku se každý řádek vypisuje písmeno po písmenu.",
+    "source": "a390f5fb2388"
+  },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "Každý poštovní účet, kalendář, adresář, databáze a složka má vlastní nastavení, zobrazené také v jeho aplikaci, a stejně tak aplikace Nahrávání (Recorder). Vše je vypnuto, dokud nerozhodnete. Nic se nikdy nemaže ani nepřesouvá a vše, co se má odeslat, nejprve čeká, až zde stisknete tlačítko.",
     "source": "0fd0a5b12aaa"
@@ -8871,6 +9039,10 @@
     "text": "Každý zdroj jako samostatný soubor",
     "source": "87ba78fbecfd"
   },
+  "sheets.dialogs.each-sparkline-its-own-lowest-and": {
+    "text": "Vlastní minimum a maximum každého grafu",
+    "source": "6a9c83cdf903"
+  },
   "sheets.objects.each-ticked-field-gets-a-panel": {
     "text": "Každé zaškrtnuté pole dostane panel tlačítek, jedno pro každou položku, které filtrují kontingenční tabulku.",
     "source": "57b495c85a7a"
@@ -8890,6 +9062,10 @@
   "slides.custom-shows.earlier-in-the-show": {
     "text": "Dříve v prezentaci",
     "source": "c75dff7e0d23"
+  },
+  "sheets.dialogs.earliest-date": {
+    "text": "Nejstarší datum",
+    "source": "82a5aebc403c"
   },
   "word.references-index.earth": {
     "text": "Země",
@@ -9383,6 +9559,10 @@
     "text": "Konec",
     "source": "e98982c9f2ba"
   },
+  "sheets.filter-panel.ends-with": {
+    "text": "Končí na",
+    "source": "fc203569fa85"
+  },
   "base.links.engine": {
     "text": "Stroj",
     "source": "8e75ebbdb215"
@@ -9458,6 +9638,10 @@
   "common.equal-to": {
     "text": "Rovná se",
     "source": "6a26ff8ea94b"
+  },
+  "sheets.filter-panel.equals": {
+    "text": "Je rovno",
+    "source": "f939ae3d30c6"
   },
   "common.equation": {
     "text": "Rovnice",
@@ -9595,6 +9779,10 @@
     "text": "Každé tlačítko jen jako obrázek; jeho název se zobrazí, když na něm spočine ukazatel",
     "source": "21abdd3708ee"
   },
+  "video.inspector.every-caption-in-the-film-types": {
+    "text": "Všechny titulky ve filmu se vypisují touto rychlostí.",
+    "source": "330cbb6a15e3"
+  },
   "slides.every-comment-here-was-already-read": {
     "text": "Každý komentář zde už byl přečten.",
     "source": "47ca1a3a2589"
@@ -9679,6 +9867,10 @@
   "pictures.every-picture-shown-count": {
     "text": "Všechny zobrazené obrázky ({count})",
     "source": "904610f6a47a"
+  },
+  "sheets.dialogs.every-point-line-only": {
+    "text": "Všechny body (jen spojnicový graf)",
+    "source": "88f8f754acf4"
   },
   "base.documents.every-record": {
     "text": "Každý záznam",
@@ -11161,6 +11353,10 @@
     "text": "Vzorec: pole v buňce s kurzorem spočítané z čísel nad ní nebo vlevo od ní, nebo z buněk jako B2 a B2:B4, jako =SUM(ABOVE) ve Wordu",
     "source": "ac4ef0433793"
   },
+  "sheets.dialogs.formula-formula": {
+    "text": "Vzorec: {formula}",
+    "source": "373a77366380"
+  },
   "sheets.formulas": {
     "text": "Vzorce",
     "source": "098baf95d843"
@@ -11744,6 +11940,10 @@
   "word.mailings.greater-than-or-equal": {
     "text": "Větší nebo rovno",
     "source": "4df4f066c9c1"
+  },
+  "sheets.filter-panel.greater-than-or-equal-to": {
+    "text": "Je větší nebo rovno",
+    "source": "85d08e847878"
   },
   "common.greek": {
     "text": "Řecké",
@@ -12338,6 +12538,10 @@
     "text": "Skrýt snímek: tento snímek je při promítání skrytý; dalším stiskem ho zobrazíte",
     "source": "7d777db556ab"
   },
+  "sheets.hide-columns": {
+    "text": "Skrýt sloupce",
+    "source": "9d5c93b12237"
+  },
   "image.layers-panel.hide-its-layers": {
     "text": "Skrýt její vrstvy",
     "source": "e3c527659d85"
@@ -12345,6 +12549,10 @@
   "protect.hide-password": {
     "text": "Skrýt heslo",
     "source": "a60a56c584b3"
+  },
+  "sheets.hide-rows": {
+    "text": "Skrýt řádky",
+    "source": "6e6875f9e909"
   },
   "talk.invite.hide-the-code": {
     "text": "Skrýt kód",
@@ -12397,6 +12605,10 @@
   "qrcode.high-30": {
     "text": "Vysoká (30 %)",
     "source": "652a05d1ae51"
+  },
+  "sheets.dialogs.high-point": {
+    "text": "Nejvyšší bod",
+    "source": "80ab296d2b33"
   },
   "pdf.export.high-quality-225-dots-per-inch": {
     "text": "Vysoká kvalita (225 bodů na palec)",
@@ -12509,6 +12721,10 @@
   "slides.horizontal-out": {
     "text": "Vodorovně ven",
     "source": "51081ab58752"
+  },
+  "sheets.ribbon.horizontal-axis-title": {
+    "text": "Název vodorovné osy",
+    "source": "b3c89eb1f3c0"
   },
   "common.horizontal-brick": {
     "text": "Vodorovné cihly",
@@ -12669,6 +12885,10 @@
   "common.icon": {
     "text": "Ikona",
     "source": "a35abcd6dac9"
+  },
+  "sheets.dialogs.icon-set": {
+    "text": "Sada ikon",
+    "source": "a3ae5ca177a0"
   },
   "common.icons": {
     "text": "Ikony",
@@ -12960,6 +13180,10 @@
     "text": "V jednom účtu nebo archivu",
     "source": "be358173c89a"
   },
+  "video.inspector.in-pieces": {
+    "text": "Po úsecích",
+    "source": "786b72b37492"
+  },
   "video.in-point": {
     "text": "Vstupní bod",
     "source": "9c1d42b38a85"
@@ -13008,6 +13232,10 @@
   "video.in-from-out-to": {
     "text": "Vstup {from}, výstup {to}",
     "source": "9ad2ac8a59a8"
+  },
+  "sheets.dialogs.in-range-a-row-that-repeats": {
+    "text": "V oblasti {range} se odebere každý řádek, který ve všech zaškrtnutých sloupcích opakuje dřívější řádek. První z nich zůstane.",
+    "source": "ac1519f6f42d"
   },
   "studio.shared.in-seconds-s": {
     "text": "Za {seconds} s",
@@ -14013,6 +14241,14 @@
     "text": "Kurzíva (Ctrl+I)",
     "source": "ccc60dff1674"
   },
+  "sheets.filter-panel.items": {
+    "text": "Položky",
+    "source": "fb8e7a1a3cb7"
+  },
+  "sheets.filter-panel.items-or-percent": {
+    "text": "Položky nebo procenta",
+    "source": "14cded7778d2"
+  },
   "template-gallery.items-counts-and-reorder-levels-the": {
     "text": "Položky, počty a úrovně pro doobjednání, hodnota zásob a co znovu objednat",
     "source": "a704276dd164"
@@ -14045,6 +14281,10 @@
   "slides.ribbon.its-notes": {
     "text": "Jeho poznámky",
     "source": "a316f96e4b04"
+  },
+  "sheets.dialogs.its-own-lowest-and-highest-shows": {
+    "text": "Vlastní minimum a maximum ukazuje vzestupy a poklesy každého řádku; jedna osa pro všechny porovnává jejich velikost.",
+    "source": "2a62e687c030"
   },
   "mail.smime.its-password": {
     "text": "Jeho heslo",
@@ -14206,6 +14446,10 @@
   "word.ribbon.justify-with-kashida-stretch-the-letters": {
     "text": "Do bloku s kašídou: roztáhnout písmena, aby vyplnila řádek, jak se zarovnává arabština",
     "source": "b7ba4e7d59c4"
+  },
+  "video.inspector.karaoke": {
+    "text": "Karaoke",
+    "source": "34cd21fcc55b"
   },
   "common.keep": {
     "text": "Ponechat",
@@ -14647,6 +14891,10 @@
     "text": "Příjmení",
     "source": "7b4888049459"
   },
+  "sheets.dialogs.last-point": {
+    "text": "Poslední bod",
+    "source": "430de8dd535b"
+  },
   "common.last-record": {
     "text": "Poslední záznam",
     "source": "27fef2475093"
@@ -14690,6 +14938,10 @@
   "mail.compose.later-today-9pm": {
     "text": "Později dnes, 21:00",
     "source": "1c66a953a2b9"
+  },
+  "sheets.dialogs.latest-date": {
+    "text": "Nejnovější datum",
+    "source": "a9de7221765f"
   },
   "image.layer": {
     "text": "Vrstva",
@@ -14965,6 +15217,10 @@
     "text": "Menší nebo rovno",
     "source": "ee8df42e1687"
   },
+  "sheets.filter-panel.less-than-or-equal-to": {
+    "text": "Je menší nebo rovno",
+    "source": "ae1564a79ff3"
+  },
   "template-gallery.lesson": {
     "text": "Hodina",
     "source": "6e2b26d9de40"
@@ -15173,6 +15429,10 @@
     "text": "Čára mezi",
     "source": "1bac593d7aea"
   },
+  "video.inspector.line-by-line": {
+    "text": "Po řádcích",
+    "source": "d69a37385809"
+  },
   "sheets.dialogs.line-chart": {
     "text": "Spojnicový graf",
     "source": "22089151613f"
@@ -15232,6 +15492,10 @@
   "base.documents.lines-from": {
     "text": "Řádky z tabulky",
     "source": "dc6d35c2f93b"
+  },
+  "video.inspector.lines-one-at-a-time": {
+    "text": "Řádky po jednom",
+    "source": "e30051392bb1"
   },
   "locker.lines-say-what-to-lock-a": {
     "text": "Řádky určují, co se má zamknout; řádek začínající ! označí výjimku. Bez řádků se zamknou všechny soubory.",
@@ -15684,6 +15948,10 @@
   "video.export.low-smaller-file": {
     "text": "Nízká (menší soubor)",
     "source": "e585bb7bd95c"
+  },
+  "sheets.dialogs.low-point": {
+    "text": "Nejnižší bod",
+    "source": "2529ac347b3d"
   },
   "video.ribbon.lower-third": {
     "text": "Jmenovka",
@@ -17118,6 +17386,10 @@
     "text": "Mé kontakty",
     "source": "6add5927687d"
   },
+  "sheets.dialogs.my-data-has-headers": {
+    "text": "Data obsahují záhlaví",
+    "source": "e917f14e7d6e"
+  },
   "talk.invite.my-email-app": {
     "text": "Moje e-mailová aplikace",
     "source": "c7aaaf0507c4"
@@ -17161,6 +17433,10 @@
   "broadcast.live-dialog.name-optional": {
     "text": "Název (volitelné)",
     "source": "e09b37bcc4f3"
+  },
+  "sheets.name-box.name-box": {
+    "text": "Pole názvů",
+    "source": "730b51d34ee3"
   },
   "sheets.ribbon.name-manager": {
     "text": "Správce názvů",
@@ -17311,6 +17587,10 @@
   "locker.needs-you": {
     "text": "Čeká na vás",
     "source": "74b6abdf5969"
+  },
+  "sheets.dialogs.negative-points": {
+    "text": "Záporné body",
+    "source": "6963e8f96ed2"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "Dokud nebudete znovu kontakty, nemůže nikdo z vás tomu druhému psát ani volat. Vaše zprávy zde se smažou.",
@@ -17944,6 +18224,10 @@
     "text": "Zatím žádné stavební bloky",
     "source": "ee11b12ee206"
   },
+  "sheets.pivot-fields.no-calculation": {
+    "text": "Bez výpočtu",
+    "source": "5da6f87ac7cb"
+  },
   "engine.no-calendars-or-address-books-were": {
     "text": "Na této adrese nebyly nalezeny žádné kalendáře ani adresáře.",
     "source": "6b303bb9fae7"
@@ -18052,9 +18336,9 @@
     "text": "Pro tento snímek nejsou žádné návrhy designu: přidejte název, text nebo obrázek.",
     "source": "1f07475c0307"
   },
-  "sheets.no-duplicate-rows-in-the-selection": {
-    "text": "Ve výběru nejsou žádné duplicitní řádky",
-    "source": "47e580620f2e"
+  "sheets.no-duplicate-rows-found-kept-rows": {
+    "text": "Nebyly nalezeny žádné duplicitní řádky. Zůstává řádků: {kept}.",
+    "source": "a032b583b3d3"
   },
   "word.mailings.no-duplicates": {
     "text": "Bez duplicit",
@@ -19101,6 +19385,18 @@
     "text": "Oznámení pozastavena do {time}",
     "source": "1d6521f14f4e"
   },
+  "notify-dialog.notifications-are-turned-off-in-windows": {
+    "text": "Oznámení jsou ve Windows vypnutá, proto se z Rutba Office žádná nezobrazují. Zapněte je v Nastavení Windows v části Systém, Oznámení.",
+    "source": "a652d04931a6"
+  },
+  "notify-dialog.notifications-are-turned-off-on-this": {
+    "text": "Oznámení v tomto počítači vypnul jeho správce, proto Windows z Rutba Office žádná nezobrazuje. Počet čekajících položek je dál vidět na ikoně u hodin.",
+    "source": "76e702238671"
+  },
+  "notify-dialog.notifications-from-rutba-office-are-turned": {
+    "text": "Oznámení z Rutba Office jsou ve Windows vypnutá. Zapněte je v Nastavení Windows v části Systém, Oznámení, Rutba Office.",
+    "source": "e19167006214"
+  },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "Nyní {width} × {height} cm. Vše na snímcích se přizpůsobí a vystředí podle nové velikosti.",
     "source": "4e0c85185863"
@@ -19120,6 +19416,10 @@
   "common.number": {
     "text": "Číslo",
     "source": "bd82cf16699b"
+  },
+  "sheets.filter-panel.number-filters": {
+    "text": "Filtry čísel",
+    "source": "13fe0c5baab5"
   },
   "pictures.batch.number-as-001": {
     "text": "Číslovat jako 001",
@@ -19325,6 +19625,10 @@
     "text": "Na nové vrstvě malby",
     "source": "0501424bc7c7"
   },
+  "video.inspector.on-a-panel": {
+    "text": "Na panelu",
+    "source": "e8787dfd4dc5"
+  },
   "studio.live-panel.on-air": {
     "text": "Ve vysílání",
     "source": "c2332b223176"
@@ -19417,6 +19721,14 @@
     "text": "Jedna odpověď obsahuje vše",
     "source": "0670ff9a00aa"
   },
+  "video.inspector.one-bar": {
+    "text": "Jeden pruh",
+    "source": "4bfa8b51bda1"
+  },
+  "video.inspector.one-caption-a-line-one-after": {
+    "text": "Jeden titulek na řádek, jeden po druhém, každý na vlastní stopě.",
+    "source": "01dc9af7bfb6"
+  },
   "slides.ribbon.one-column": {
     "text": "Jeden sloupec",
     "source": "4af4c82acab4"
@@ -19436,6 +19748,10 @@
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "Jeden řádek na řádek. Tabulátor posune text na střed, druhý doprava.",
     "source": "80be2d4cf6a5"
+  },
+  "video.inspector.one-line-there-is-nothing-to": {
+    "text": "Jeden řádek: není co rozdělit.",
+    "source": "c2918f5eb39b"
   },
   "image.layers-panel.one-name-and-one-number-on": {
     "text": "Na každý řádek jeden název a jedno číslo, například: Po, 12",
@@ -19513,6 +19829,10 @@
   "notify-dialog.only-an-installed-copy-of-rutba": {
     "text": "Se systémem Windows se může spouštět jen nainstalovaná kopie Rutba Office.",
     "source": "5d376c6f923f"
+  },
+  "notify-dialog.only-an-installed-copy-of-rutba-2": {
+    "text": "Oznámení Windows zobrazuje jen nainstalovaná kopie Rutba Office. Počet čekajících položek je dál vidět na ikoně u hodin.",
+    "source": "5fedb6d63e92"
   },
   "word.only-certain-kinds-of-changes-can": {
     "text": "V tomto dokumentu lze provádět jen určité druhy změn. Viz Revize → Omezit úpravy.",
@@ -19837,6 +20157,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "Otevřít nástěnku Kick",
     "source": "bf6f8e9ef858"
+  },
+  "notify-dialog.open-the-settings-of-windows": {
+    "text": "Otevřít Nastavení Windows",
+    "source": "5af9b33ed216"
   },
   "talk.open-the-browser-again": {
     "text": "Znovu otevřít prohlížeč",
@@ -20826,6 +21150,10 @@
     "text": "Vyberte klip, chcete-li zobrazit jeho nastavení.",
     "source": "6eb0903d3b41"
   },
+  "sheets.dialogs.pick-a-colour-for-the-tab": {
+    "text": "Vyberte barvu karty listu {name}.",
+    "source": "e9df2741dc65"
+  },
   "slides.pick-a-comment-first-in-the": {
     "text": "Nejprve vyberte komentář, v podokně nebo na snímku.",
     "source": "f5e1dbf895bc"
@@ -20845,6 +21173,14 @@
   "talk.invite-email.pick-from-contacts": {
     "text": "Vybrat z Kontaktů",
     "source": "e44028663b60"
+  },
+  "sheets.pick-from-the-list": {
+    "text": "Vybrat ze seznamu",
+    "source": "a8fc191ece74"
+  },
+  "sheets.pick-one-of-list": {
+    "text": "Vyberte jednu z možností: {list}.",
+    "source": "77094891e902"
   },
   "contacts.pick-one-on-the-left-or": {
     "text": "Vyberte kartu vlevo, nebo stiskněte Ctrl+N pro novou.",
@@ -21990,6 +22326,10 @@
   "sheets.put-the-cursor-in-a-table": {
     "text": "Umístěte kurzor do tabulky nebo kontingenční tabulky. Průřez filtruje jednu z nich.",
     "source": "906ca4fd2842"
+  },
+  "sheets.ribbon.put-the-legend-at-a-side": {
+    "text": "Umístěte legendu k jedné straně grafu, nebo ji odeberte.",
+    "source": "f49a59ee7c72"
   },
   "image.tools.put-the-pins-back": {
     "text": "Vrátit špendlíky",
@@ -23250,6 +23590,10 @@
     "text": "Odebrat tento řádek",
     "source": "9b034cbd964e"
   },
+  "sheets.dialogs.remove-this-rule": {
+    "text": "Odebrat toto pravidlo",
+    "source": "006122390887"
+  },
   "sheets.remove-this-watch": {
     "text": "Odebrat toto kukátko",
     "source": "7c1c8bf08b8c"
@@ -24352,6 +24696,10 @@
     "text": "Pravidla",
     "source": "4228aeb07c41"
   },
+  "sheets.dialogs.rules-on-this-sheet": {
+    "text": "Pravidla na tomto listu",
+    "source": "febf492f1ab9"
+  },
   "mail.rules.rules-run-when-mail-arrives-and": {
     "text": "Pravidla se spouštějí při doručení pošty a na složku je můžete spustit kdykoli.",
     "source": "6045d8d52773"
@@ -25345,6 +25693,10 @@
     "text": "Druhá barva: kde přechod končí",
     "source": "014aa91028da"
   },
+  "video.inspector.second-line": {
+    "text": "Druhý řádek",
+    "source": "c8b588f708d6"
+  },
   "video.library.second-point": {
     "text": "Druhý bod",
     "source": "55b07a59a655"
@@ -25352,6 +25704,10 @@
   "calendar.second-time-zone": {
     "text": "Druhé časové pásmo",
     "source": "49755d0fec21"
+  },
+  "sheets.filter-panel.second-value": {
+    "text": "Druhá hodnota",
+    "source": "c4a53a97a697"
   },
   "slides.export-video.seconds-spent-on-each-slide": {
     "text": "Počet sekund na každý snímek",
@@ -25741,6 +26097,10 @@
     "text": "Pošlete odkaz přátelům, jak chcete. Kdo ho otevře, stane se po přijetí vaším kontaktem, s Rutba Office, nebo bez něj s bezplatným účtem Rutba. Až skončíte, odkaz odvolejte.",
     "source": "bd1c97fbc637"
   },
+  "talk.send-again": {
+    "text": "Odeslat znovu",
+    "source": "feead925e260"
+  },
   "mail.send-and-receive": {
     "text": "Odeslat a přijmout",
     "source": "ffcf0846896c"
@@ -25985,9 +26345,9 @@
     "text": "Oddělené čárkami",
     "source": "1d7e4e1cdf8b"
   },
-  "sheets.dialogs.separated-by-commas-or-a-range": {
-    "text": "Oddělené čárkami, nebo oblast, například $H$1:$H$9.",
-    "source": "66ebf7c18623"
+  "sheets.dialogs.separated-by-commas-or-a-range-2": {
+    "text": "Hodnoty oddělené čárkami, nebo oblast, například $H$1:$H$9 nebo Products!A2:A11.",
+    "source": "deed8689a130"
   },
   "word.ribbon.separated-by-tabs": {
     "text": "Oddělené tabulátory",
@@ -26009,9 +26369,17 @@
     "text": "Řada",
     "source": "a8295e08ff7a"
   },
+  "sheets.ribbon.series-colour": {
+    "text": "Barva řady",
+    "source": "3989e7fea65a"
+  },
   "sheets.dialogs.series-in": {
     "text": "Řady v",
     "source": "ceaab7f3e90b"
+  },
+  "sheets.ribbon.series-to-colour": {
+    "text": "Řada k obarvení",
+    "source": "aa8f68cf8f3b"
   },
   "slides.series-number": {
     "text": "Řada {number}",
@@ -26678,6 +27046,10 @@
     "text": "Typ promítání",
     "source": "5d97277b82b2"
   },
+  "sheets.pivot-fields.show-values-as": {
+    "text": "Zobrazit hodnoty jako",
+    "source": "bb7cc9d7da0d"
+  },
   "notify-dialog.show-what-it-says": {
     "text": "Zobrazit obsah zprávy",
     "source": "01ff1c611346"
@@ -26709,6 +27081,10 @@
   "talk.meet-lines.showing-their-screen": {
     "text": "Sdílí svou obrazovku",
     "source": "1c428d39d527"
+  },
+  "studio.spoken-run.shown-only-the-words-type-at": {
+    "text": "Pouze zobrazit: vypisování standardní rychlostí.",
+    "source": "25a457d9d675"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "Vidí to lidé, se kterými komunikujete",
@@ -26761,6 +27137,10 @@
   "word.ribbon.shrink-font": {
     "text": "Zmenšit písmo",
     "source": "176934670a3e"
+  },
+  "video.inspector.shrink-to-fit": {
+    "text": "Zmenšit, aby se vešel",
+    "source": "e65455733f3a"
   },
   "image.tools.shrink-narrow-the-selection-by-that": {
     "text": "Zúžit: zmenšit výběr o zadaný počet pixelů",
@@ -27330,6 +27710,10 @@
     "text": "Nejmenší nad",
     "source": "b66a27b2ba69"
   },
+  "sheets.pivot-fields.smallest-first": {
+    "text": "Od nejmenšího",
+    "source": "4b15d87c3abc"
+  },
   "common.smartart": {
     "text": "SmartArt",
     "source": "fe46ea12fa77"
@@ -27530,6 +27914,10 @@
     "text": "Seřadit odstavce: A až Z nebo Z až A; celý dokument, když není nic vybráno",
     "source": "bd64668cb009"
   },
+  "sheets.pivot-fields.sort-the-items": {
+    "text": "Seřadit položky",
+    "source": "8f5ac57242b2"
+  },
   "sheets.ribbon.sort-the-list-a-to-z": {
     "text": "Seřadit seznam od A do Z podle sloupce {name}, sloupce aktivní buňky; řádek záhlaví zůstane nahoře",
     "source": "121020686363"
@@ -27674,6 +28062,10 @@
     "text": "Jiskra",
     "source": "abac3d1ed392"
   },
+  "sheets.sparkline-options": {
+    "text": "Možnosti mini grafu",
+    "source": "7660b0f99e6b"
+  },
   "sheets.ribbon.sparklines": {
     "text": "Mini grafy",
     "source": "a77d2f6f62bf"
@@ -27817,6 +28209,10 @@
   "word.split-cells": {
     "text": "Rozdělit buňky",
     "source": "ec306591839f"
+  },
+  "video.inspector.split-into-lines": {
+    "text": "Rozdělit na řádky",
+    "source": "2b164901b73d"
   },
   "sheets.split-into-the-cells-to-the": {
     "text": "Rozděleno do buněk vpravo",
@@ -28010,6 +28406,10 @@
   "word.list-dialog.start-at": {
     "text": "Začít od",
     "source": "334c284f438c"
+  },
+  "sheets.dialogs.start-at-nought": {
+    "text": "Začít od nuly",
+    "source": "8e5da7fea6e5"
   },
   "word.restrict.start-enforcement": {
     "text": "Zahájit vynucování",
@@ -28615,6 +29015,14 @@
     "text": "Hodnoty oddělené tabulátory (.tsv)",
     "source": "8015e916b0d7"
   },
+  "sheets.dialogs.tab-colour": {
+    "text": "Barva karty",
+    "source": "5ea3b6dde585"
+  },
+  "sheets.tab-colour": {
+    "text": "Barva karty…",
+    "source": "2dc7ab1e9dc6"
+  },
   "word.tab-leader": {
     "text": "Vodicí znak",
     "source": "4c13c6224502"
@@ -29136,6 +29544,10 @@
     "text": "Efekty: transformace",
     "source": "788f2d5eb581"
   },
+  "sheets.filter-panel.text-filters": {
+    "text": "Filtry textu",
+    "source": "ab3c6a9c325c"
+  },
   "word.forms.text-form-field": {
     "text": "Textové pole formuláře",
     "source": "c493dd6ddde9"
@@ -29179,6 +29591,10 @@
   "slides.revisions.text-changed": {
     "text": "Změna textu",
     "source": "26c7b5775381"
+  },
+  "video.inspector.text-colour": {
+    "text": "Barva textu",
+    "source": "25e9c8090de7"
   },
   "sheets.dialogs.text-contains": {
     "text": "Text obsahuje",
@@ -29772,6 +30188,10 @@
     "text": "Aplikace, které chcete vidět a ve kterých chcete otevírat své soubory.",
     "source": "332e5249e305"
   },
+  "video.inspector.the-bar-covers-the-whole-film": {
+    "text": "Pruh se při růstu roztahuje přes celý film, dokud se nezmění jeho délka.",
+    "source": "da0ae4020925"
+  },
   "video.inspector.the-bar-fills-from-where-this": {
     "text": "Pruh se plní od místa, kde tento klip začíná, až tam, kde končí.",
     "source": "01d9656a5ad1"
@@ -29779,6 +30199,10 @@
   "video.the-brand-kit-is-kept-for": {
     "text": "Sada firemního stylu je uložena a vkládá se do každé scény.",
     "source": "3180710525cd"
+  },
+  "video.inspector.the-brand-kit-logo": {
+    "text": "Logo ze sady značky",
+    "source": "cee5b3c1d63e"
   },
   "word.list-dialog.the-bullet-character": {
     "text": "Znak odrážky.",
@@ -29948,6 +30372,10 @@
   "talk-words.the-connection-was-lost-and-the": {
     "text": "Spojení se přerušilo a ke schůzce se nepodařilo znovu připojit.",
     "source": "ecc583f6d5d1"
+  },
+  "sheets.the-copy-has-the-cells-and": {
+    "text": "Kopie má buňky a jejich formáty. Grafy, obrázky, tabulky a kontingenční tabulky zůstanou na prvním listu.",
+    "source": "dad761a634d9"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "Oblast kritérií nemůže ležet uvnitř seznamu",
@@ -30340,6 +30768,10 @@
     "text": "Zamčená kopie byla uložena. Pošlete ji, jak chcete.",
     "source": "bbfae89220a6"
   },
+  "video.library.the-logo-from-your-brand-kit": {
+    "text": "Logo ze sady vaší značky v rohu, nebo obrázek, který vyberete.",
+    "source": "9323498bce87"
+  },
   "engine.the-mail-app-is-chosen-in": {
     "text": "Poštovní aplikace se volí ve vlastním nastavení systému tohoto počítače.",
     "source": "5141d3af3f67"
@@ -30379,6 +30811,10 @@
   "mail.parts.the-mail-server-would-not-keep": {
     "text": "Poštovní server odmítl uložit kopii odeslané zprávy do {folder}. Kopie zde zůstává.",
     "source": "59af5bb0cb8f"
+  },
+  "mail.parts.the-mail-server-would-not-keep-2": {
+    "text": "Koncept se nepodařilo uložit na poštovním serveru do složky {folder}. Zůstává v tomto počítači.",
+    "source": "2304437141a3"
   },
   "mail.parts.the-mail-server-would-not-make": {
     "text": "Poštovní server odmítl provést změnu provedenou zde. Pošta zobrazuje stav serveru.",
@@ -30427,6 +30863,10 @@
   "talk.meet-lines.the-meeting-is-full-on-its": {
     "text": "Schůzka je na svém serveru Hovory (Talk Server) plná.",
     "source": "a28293313806"
+  },
+  "talk.the-meeting-stays-here-reason": {
+    "text": "Schůzka zůstává zde: {reason}",
+    "source": "2f8fd822d081"
   },
   "talk.meet-lines.the-meetings-talk-server-is-not": {
     "text": "Server Hovory (Talk Server) této schůzky teď nepřijímá další lidi. Zkuste to za chvíli znovu.",
@@ -30929,6 +31369,10 @@
     "text": "Bezpečnostní kopie složky {name} byla vytvořena {when}. Její soubory (počet: {n}) se zapíší nezamčené do nové složky uvnitř složky, kterou vyberete. Nic, co tam už je, se nezmění.",
     "source": "a34f0ed2f93a"
   },
+  "sheets.dialogs.the-same-for-all-of-them": {
+    "text": "Stejné pro všechny",
+    "source": "eef1cb1cfa61"
+  },
   "locker.the-same-password-again": {
     "text": "Stejné heslo znovu",
     "source": "cfd750367fe1"
@@ -30985,6 +31429,10 @@
   "sheets.dialogs.the-selection-holds-a-formula-in": {
     "text": "Výběr obsahuje vzorec v rohu a hodnoty k vyzkoušení podél okrajů. Každá buňka se vyplní výsledkem vzorce pro danou kombinaci.",
     "source": "fe7e0163219d"
+  },
+  "sheets.the-selection-is-now-named-name": {
+    "text": "Výběr má nyní název {name}.",
+    "source": "c3c614e5e0f0"
   },
   "mail.the-sender-supports-one-click-unsubscribe": {
     "text": "Odesílatel podporuje odhlášení jedním kliknutím. Pošle se mu jediný požadavek a nic dalšího tento počítač neopustí.",
@@ -31193,6 +31641,10 @@
   "engine.the-text-recognition-model-for-key": {
     "text": "Model rozpoznávání textu pro {key} se nepodařilo načíst.",
     "source": "44a1288700c8"
+  },
+  "video.inspector.the-theme-colour": {
+    "text": "Barva motivu",
+    "source": "c9c8ab182186"
   },
   "slides.ribbon.the-themes-own-looks-filled-in": {
     "text": "Vlastní vzhledy motivu: výplň zvýrazněním a stejný obrys",
@@ -31637,6 +32089,10 @@
   "mail.these-accounts": {
     "text": "Tyto účty",
     "source": "0eca400d4be1"
+  },
+  "sheets.dialogs.these-apply-to-every-sparkline-made": {
+    "text": "Tato nastavení platí pro všechny mini grafy vytvořené spolu s tímto.",
+    "source": "a459084b0d0c"
   },
   "mail.these-are-imported-archives-there-is": {
     "text": "Jde o importované archivy, takže není co stahovat.",
@@ -32095,6 +32551,10 @@
   "word.restrict.this-document-is-protected-only-comments": {
     "text": "Tento dokument je chráněn: lze zde jen přidávat komentáře. Revize → Omezit úpravy ukáže oblasti, které můžete upravovat.",
     "source": "b908b8376d8e"
+  },
+  "sheets.this-entry-does-not-match-the": {
+    "text": "Zadaná hodnota neodpovídá pravidlu nastavenému pro tuto buňku.",
+    "source": "64430678bcb5"
   },
   "calendar.this-event-has-a-talk-meeting": {
     "text": "Událost má schůzku v Hovorech (Talk). Odkaz je v pozvánce.",
@@ -32577,6 +33037,10 @@
     "text": "Tento list nemá žádný přehled k vymazání",
     "source": "a80699366a86"
   },
+  "sheets.dialogs.this-sheet-has-no-rules-yet": {
+    "text": "Tento list zatím nemá žádná pravidla.",
+    "source": "735960d6edfc"
+  },
   "sheets.this-sheet-is-protected-with-a": {
     "text": "Tento list je zamknutý heslem. Zadáním hesla ochranu zrušíte.",
     "source": "368023c3045c"
@@ -32696,6 +33160,10 @@
   "studio.guests.this-window-leaves-and-talk-comes": {
     "text": "Okno se zavře a otevřou se Hovory (Talk): stejní lidé, jako schůzka.",
     "source": "fa116fc70753"
+  },
+  "talk.this-window-leaves-the-meeting-once": {
+    "text": "Jakmile se otevře druhé okno, toto okno opustí schůzku a dál ji řídíte tam.",
+    "source": "fb83b9a3480f"
   },
   "sheets.this-workbook-has-no-comments": {
     "text": "Tento sešit nemá žádné komentáře.",
@@ -33103,6 +33571,10 @@
     "text": "Horní ohraničení",
     "source": "79775184aaa3"
   },
+  "sheets.dialogs.top-items": {
+    "text": "Nejvyšší položky",
+    "source": "af3865aa2315"
+  },
   "common.top-left": {
     "text": "Vlevo nahoře",
     "source": "a0eda50fb155"
@@ -33111,6 +33583,10 @@
     "text": "Horní položka seznamu je vpředu. Přetažením změníte pořadí.",
     "source": "428a0adb9e63"
   },
+  "sheets.dialogs.top-per-cent": {
+    "text": "Procento nejvyšších",
+    "source": "fa0e93898958"
+  },
   "common.top-right": {
     "text": "Vpravo nahoře",
     "source": "d83cbef9db1b"
@@ -33118,6 +33594,14 @@
   "sheets.dialogs.top-row": {
     "text": "Horní řádek",
     "source": "5c027c33bb97"
+  },
+  "sheets.dialogs.top-count": {
+    "text": "Nejvyšší: {count}",
+    "source": "b6783f4fd940"
+  },
+  "sheets.dialogs.top-count-2": {
+    "text": "Prvních {count} %",
+    "source": "ea8f8cc99e8d"
   },
   "common.total": {
     "text": "Celkem",
@@ -33131,9 +33615,17 @@
     "text": "Řádek souhrnů: poslední řádek ve vzhledu souhrnu daného stylu",
     "source": "46fd3713529a"
   },
+  "sheets.ribbon.total-of-column-none": {
+    "text": "Souhrn {column}: žádný",
+    "source": "1676db04c840"
+  },
   "base.reports.total-of-field": {
     "text": "Souhrn pole {field}",
     "source": "f3956fd5d7dd"
+  },
+  "sheets.ribbon.total-row": {
+    "text": "Řádek souhrnů",
+    "source": "3c3cb9cbf619"
   },
   "base.totals": {
     "text": "Souhrny",
@@ -33591,6 +34083,10 @@
     "text": "Zadejte nebo vložte adresy",
     "source": "ddf091a93d83"
   },
+  "video.type-or-paste-your-words-here": {
+    "text": "Sem zadejte nebo vložte svůj text.",
+    "source": "2d8717ac7291"
+  },
   "sheets.dialogs.type-part-of-a-name": {
     "text": "Zadejte část názvu",
     "source": "7602842c7ce4"
@@ -33663,9 +34159,17 @@
     "text": "Psaný",
     "source": "bff482dbe92b"
   },
+  "common.typewriter": {
+    "text": "Psací stroj",
+    "source": "b15b792b2b10"
+  },
   "video.inspector.typing": {
     "text": "Psaní",
     "source": "25dfb9b4b32f"
+  },
+  "video.inspector.typing-speed": {
+    "text": "Rychlost vypisování",
+    "source": "9d1ff237078a"
   },
   "common.uppercase": {
     "text": "VELKÁ PÍSMENA",
@@ -33750,6 +34254,18 @@
   "sheets.unhide-name": {
     "text": "Zobrazit „{name}“",
     "source": "efad2d4bb2b6"
+  },
+  "sheets.ribbon.unhide-all-rows-and-columns": {
+    "text": "Zobrazit řádky a sloupce",
+    "source": "e996d6d88a04"
+  },
+  "sheets.unhide-columns": {
+    "text": "Zobrazit sloupce",
+    "source": "2aee4f4f679d"
+  },
+  "sheets.unhide-rows": {
+    "text": "Zobrazit řádky",
+    "source": "783840178245"
   },
   "sheets.ribbon.unhide-a-hidden-worksheets-window-back": {
     "text": "Zobrazit: skryté okno aplikace Tabulky zpět na obrazovku",
@@ -34091,6 +34607,10 @@
     "text": "Aktualizovat {style} podle výběru",
     "source": "e65ad4674254"
   },
+  "sheets.ribbon.update-style-to-match-this-cell": {
+    "text": "Aktualizovat {style} podle buňky",
+    "source": "ab2583743d9d"
+  },
   "shell.updated-from-version-what-changed-is": {
     "text": "Aktualizováno z verze {version}. Přehled změn je na jedno kliknutí.",
     "source": "d4f81a14fa5f"
@@ -34380,6 +34900,10 @@
     "text": "Video na výšku pro sítě",
     "source": "06b16b68f5bb"
   },
+  "sheets.ribbon.vertical-axis-title": {
+    "text": "Název svislé osy",
+    "source": "350384e51fb0"
+  },
   "sheets.ribbon.vertical-text": {
     "text": "Svislý text",
     "source": "623bb53bc829"
@@ -34507,6 +35031,10 @@
   "common.voice": {
     "text": "Hlas",
     "source": "87bf2bc08589"
+  },
+  "common.voice-first": {
+    "text": "Nejdříve hlas",
+    "source": "e03a9afde9bd"
   },
   "voices-dialog.voices": {
     "text": "Hlasy",
@@ -35116,6 +35644,10 @@
     "text": "Okna",
     "source": "d598026a9cbc"
   },
+  "notify-dialog.windows-did-not-show-the-last": {
+    "text": "Windows nezobrazil poslední oznámení. V Nastavení Windows v části Systém, Oznámení zkontrolujte, že jsou oznámení zapnutá pro Windows i pro Rutba Office a že je vypnutý režim Nerušit.",
+    "source": "8663439dc961"
+  },
   "engine.windows-keeps-this-choice-for-you": {
     "text": "Windows tuto volbu nechává na vás: vyberte Rutba Office v Nastavení › Výchozí aplikace. Tlačítko níže otevře příslušnou stránku.",
     "source": "954691d41579"
@@ -35168,6 +35700,14 @@
     "text": "S obtékáním textu",
     "source": "1c19fe80875f"
   },
+  "common.with-the-voice": {
+    "text": "Současně s hlasem",
+    "source": "a0c88e3ba266"
+  },
+  "video.spoken.with-the-words-shown-only-they": {
+    "text": "Při pouhém zobrazení se slova vypisují rychlostí filmu.",
+    "source": "a1da8c430dfa"
+  },
   "talk.with-video": {
     "text": "S videem",
     "source": "d530d62be3b5"
@@ -35216,6 +35756,10 @@
     "text": "Ozdobný text",
     "source": "ae16a048a626"
   },
+  "video.inspector.word-by-word": {
+    "text": "Po slovech",
+    "source": "ddbaf8c9f91a"
+  },
   "word.dialogs.word-count": {
     "text": "Počet slov",
     "source": "653913ac0e67"
@@ -35252,13 +35796,25 @@
     "text": "Slova",
     "source": "0a8be89a52a8"
   },
+  "video.inspector.words-alone": {
+    "text": "Jen slova",
+    "source": "ddf082782ed5"
+  },
   "ui.proofing.words-for-word": {
     "text": "Slova pro „{word}“",
     "source": "6d61efe54546"
   },
+  "video.library.words-on-a-pill": {
+    "text": "Slova na kapsli",
+    "source": "c3b9558baaef"
+  },
   "spoken.voices.words-to-say": {
     "text": "Slova k vyslovení",
     "source": "3353415dcf6a"
+  },
+  "video.library.words-typed-in-over-the-pictures": {
+    "text": "Slova vypisovaná přes obraz podle vaší volby: vypisováním, po slovech, po řádcích, karaoke nebo najednou.",
+    "source": "bbe7cf532cfb"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "Slova, která jste přidali, se nikdy neoznačí jako chybná, v Dokumentech, Tabulkách i Prezentacích.",
@@ -35384,6 +35940,10 @@
     "text": "Zapsat přílohy každé zprávy vedle ní",
     "source": "e456d4b9b1fd"
   },
+  "sheets.ribbon.write-each-value-beside-its-bar": {
+    "text": "Zapíše hodnotu u každého pruhu či bodu.",
+    "source": "026231f2c863"
+  },
   "mail.compose.write-it-in-a-window-of": {
     "text": "Psát v samostatném okně",
     "source": "76eb5c9c5448"
@@ -35400,9 +35960,17 @@
     "text": "Napište první zprávu této skupině.",
     "source": "79c6b8f1ef84"
   },
+  "sheets.ribbon.write-the-share-of-each-slice": {
+    "text": "Zapíše podíl do každé výseče.",
+    "source": "d494df2a096c"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "Zápis zastaven: {reason}. Co bylo zapsáno předtím, zůstane uloženo.",
     "source": "9d5b1ef54387"
+  },
+  "sheets.dialogs.written-for-the-first-cell-of": {
+    "text": "Zapisuje se pro první buňku výběru, například =$C2>100. Znak dolaru ponechá sloupec nebo řádek na místě.",
+    "source": "d7d6c2376a68"
   },
   "contacts.wrote-count-card-to-file": {
     "forms": {
@@ -35769,6 +36337,10 @@
   "video.your-title-here": {
     "text": "Zde váš nápis",
     "source": "66094e7e6215"
+  },
+  "video.your-web-address": {
+    "text": "Vaše webová adresa",
+    "source": "0bceb158232c"
   },
   "video.library.your-words": {
     "text": "Vlastní text",
@@ -37447,6 +38019,10 @@
     "text": "{calendars}, {books} · synchronizováno {when}",
     "source": "e74fd34182ad"
   },
+  "sheets.cell-was-not-changed-reason": {
+    "text": "Buňka {cell} nebyla změněna. {reason}",
+    "source": "c6587d02f21f"
+  },
   "engine.changed-file-types-now-open-with": {
     "text": "Typy souborů, které se teď otevírají v Rutba Office: {changed}.",
     "source": "aac86dd995be"
@@ -38212,6 +38788,10 @@
       "other": "Ponecháno beze změny: {count}"
     },
     "source": "58f6eb7ce109"
+  },
+  "video.inspector.count-letters-a-second": {
+    "text": "Písmena za sekundu: {count}",
+    "source": "8492559d17f5"
   },
   "base.documents.count-line": {
     "forms": {
@@ -39403,6 +39983,10 @@
     "text": "Úprava: {look}",
     "source": "eb6eabf53c50"
   },
+  "video.made-the-chapters-are-in-name": {
+    "text": "{made} Kapitoly jsou v souboru {name}.",
+    "source": "fe36caf0e53c"
+  },
   "video.made-the-first-go-came-out": {
     "text": "{made}. První pokus přesáhl {limit}, proto se kódovalo znovu s nižší kvalitou.",
     "source": "17043b2efde8"
@@ -39501,6 +40085,10 @@
     "text": "{name} se nahradí jménem každé osoby. Odkaz k přijetí a způsob, jak získat Rutba Office, se přidají pod vaši poznámku.",
     "source": "6724ae357006"
   },
+  "talk.name-called-while-you-were-on": {
+    "text": "Hovor od {name} během vysílání byl odmítnut (obsazeno) a je ve Zmeškaných hovorech.",
+    "source": "2a0990e6e9e1"
+  },
   "video.name-cannot-be-played-on-this": {
     "text": "{name}: v tomto počítači nelze přehrát.",
     "source": "56c80f47dfd7"
@@ -39568,6 +40156,10 @@
   "talk-words.name-ended-the-meeting": {
     "text": "{name}: schůzka byla ukončena.",
     "source": "68a9df35664b"
+  },
+  "studio.guests.name-has-left-the-meeting-their": {
+    "text": "{name} už ve schůzce není. Místo hosta je teď prázdné.",
+    "source": "7ff12fec0c3b"
   },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "{name} má více než jeden list. První řádek zvoleného listu určuje názvy polí.",
@@ -40210,6 +40802,10 @@
     "text": "Přidáno do seznamu Bezpeční příjemci: {recipient}",
     "source": "0b01f434a11b"
   },
+  "sheets.removed-duplicate-rows-removed-kept-rows": {
+    "text": "Odebrané duplicitní řádky: {removed}. Zůstává řádků: {kept}.",
+    "source": "7299a779b8cc"
+  },
   "calendar.words.room-is-booked-for-when": {
     "text": "{room}: rezervováno na {when}.",
     "source": "6c97b843b2c6"
@@ -40241,6 +40837,10 @@
   "common.seconds-s": {
     "text": "{seconds} s",
     "source": "fde82d3dd95e"
+  },
+  "video.inspector.seconds-s-apart": {
+    "text": "Odstup {seconds} s",
+    "source": "f04806f51dbb"
   },
   "pictures.seconds-s": {
     "text": "{seconds} s",

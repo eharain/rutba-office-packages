@@ -2,7 +2,7 @@
   "id": "lang-nl",
   "kind": "language",
   "format": 2,
-  "version": "2.27.0",
+  "version": "2.28.0",
   "revision": 1,
   "tag": "nl",
   "tags": [
@@ -24,7 +24,7 @@
     "one",
     "other"
   ],
-  "labels": 9768,
+  "labels": 9918,
   "status": "draft",
   "review": "machine translation, offered as a draft until its wording is settled",
   "madeFrom": "lang-en",

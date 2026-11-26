@@ -207,6 +207,18 @@
     "text": "«{word}» есть в вашем словаре.",
     "source": "b9aeb4fc656c"
   },
+  "sheets.pivot-fields.of-column-total": {
+    "text": "% от суммы по столбцу",
+    "source": "eab72b338837"
+  },
+  "sheets.pivot-fields.of-grand-total": {
+    "text": "% от общей суммы",
+    "source": "ad881b0c599c"
+  },
+  "sheets.pivot-fields.of-row-total": {
+    "text": "% от суммы по строке",
+    "source": "97a366055762"
+  },
   "word.list-dialog.2-is-this-levels-number-1": {
     "text": "%2: номер этого уровня; %1: номер уровня над ним.",
     "source": "9cbc5138d80a"
@@ -391,6 +403,10 @@
     "text": "За 1 день",
     "source": "a8b499336a9e"
   },
+  "sheets.1-duplicate-row-removed-kept-rows": {
+    "text": "Удалена 1 повторяющаяся строка; осталось строк: {kept}.",
+    "source": "f63cb027fc81"
+  },
   "calendar.1-hour-before": {
     "text": "За 1 час",
     "source": "5104b6b7955e"
@@ -562,6 +578,10 @@
   "engine.a-pdf-with-no-pages-is": {
     "text": "PDF без страниц не является документом. Сначала добавьте страницу.",
     "source": "df7ad0646756"
+  },
+  "video.library.a-qr-code-type-the-address": {
+    "text": "QR-код: введите адрес, который он открывает.",
+    "source": "3c11f5898b54"
   },
   "talk.a-turn-server-you-run-offered": {
     "text": "Сервер TURN, который вы запускаете; предлагается другой стороне для ваших звонков",
@@ -812,6 +832,10 @@
     "text": "Формула здесь состоит из чисел, ячеек вида B2 или B2:B4, знаков +, -, * и /, скобок, а также SUM, AVERAGE, COUNT, MAX, MIN, PRODUCT или ABS от них или от ABOVE, LEFT, BELOW или RIGHT, например =SUM(ABOVE).",
     "source": "74a836a73c62"
   },
+  "sheets.dialogs.a-formula-is-true": {
+    "text": "Формула возвращает истину",
+    "source": "77bbea0fd15f"
+  },
   "home.a-free-office-suite-mail-documents": {
     "text": "Бесплатный офисный пакет: почта, документы, таблицы, презентации, фотографии, изображения и видео на нашем собственном движке.",
     "source": "cbecbd51dbc1"
@@ -976,6 +1000,10 @@
     "text": "Имя для каждого столбца по его заголовку. Они есть в диспетчере имен",
     "source": "9a8020d11b5d"
   },
+  "sheets.a-name-starts-with-a-letter": {
+    "text": "Имя начинается с буквы и не содержит пробелов, например Sales_May. Адрес имеет вид B7 или B2:D9.",
+    "source": "e623278e0626"
+  },
   "review.a-name-that-says-what-is": {
     "text": "Имя, отражающее содержимое «{sheet}»:",
     "source": "818eb2db1790"
@@ -1132,6 +1160,14 @@
   "slides.a-pie-chart-draws-only-its": {
     "text": "Круговая диаграмма рисует только первый ряд.",
     "source": "f51e19a20a49"
+  },
+  "video.inspector.a-piece-for-each-clip": {
+    "text": "Часть для каждого клипа",
+    "source": "aceec9902c4c"
+  },
+  "video.inspector.a-piece-for-each-marker": {
+    "text": "Часть для каждого маркера",
+    "source": "cb5ab8475fd9"
   },
   "engine.a-pivot-needs-at-least-one": {
     "text": "В сводной таблице нужно хотя бы одно поле в «Значениях».",
@@ -1306,6 +1342,10 @@
     "text": "Короткая записка для команды: кому, от кого, тема, предыстория и что дальше",
     "source": "7cbd8d22f139"
   },
+  "video.library.a-short-word-on-a-coloured": {
+    "text": "Короткое слово на цветной капсуле, например NEW или SALE.",
+    "source": "440aa0204a24"
+  },
   "word.drawings.a-sidebar-stands-beside-the-story": {
     "text": "Боковая панель находится рядом с текстом и дополняет его: краткое изложение, список пунктов, заметка для читателя.",
     "source": "f84097aa22f7"
@@ -1337,6 +1377,10 @@
   "slides.export-video.a-slide-with-a-timing-of": {
     "text": "Слайд со своим временем сохраняет его, если используется время показа; остальные показываются указанное выше число секунд. Анимации показаны завершенными.",
     "source": "8e642bc4c741"
+  },
+  "video.library.a-small-line-along-the-foot": {
+    "text": "Небольшая строка внизу кадра, например ваш веб-адрес.",
+    "source": "9e6f80e3ef70"
   },
   "studio.scene-strip.a-source": {
     "text": "Источник",
@@ -1602,6 +1646,10 @@
   "common.above-front-right": {
     "text": "Сверху спереди справа",
     "source": "0edd0b82de7b"
+  },
+  "sheets.dialogs.above-average": {
+    "text": "Выше среднего",
+    "source": "98ca5f459314"
   },
   "equations.absolute-value": {
     "text": "Абсолютное значение",
@@ -2511,6 +2559,10 @@
     "text": "Дополнительно…",
     "source": "1de3a18e329f"
   },
+  "sheets.filter-panel.after": {
+    "text": "После",
+    "source": "7b68fe551085"
+  },
   "word.ribbon.after-pt": {
     "text": "После (пт)",
     "source": "19ec57700505"
@@ -2718,6 +2770,10 @@
   "slides.ribbon.all-at-once": {
     "text": "Все сразу",
     "source": "c9d506ca2d68"
+  },
+  "video.inspector.all-at-once": {
+    "text": "Всё сразу",
+    "source": "f90683717cd2"
   },
   "sheets.ribbon.all-borders": {
     "text": "Все границы",
@@ -3207,6 +3263,10 @@
   "engine.another-program-opens-mail-links-on": {
     "text": "На этом компьютере ссылки на почту открывает другая программа.",
     "source": "1a1b9963a277"
+  },
+  "sheets.dialogs.another-rule": {
+    "text": "Другое правило",
+    "source": "35c09b4d7aef"
   },
   "common.answer": {
     "text": "Ответить",
@@ -3949,6 +4009,14 @@
     "text": "Нет на месте",
     "source": "af16c830c510"
   },
+  "sheets.dialogs.axis": {
+    "text": "Ось",
+    "source": "32b73caefac1"
+  },
+  "sheets.ribbon.axis-titles": {
+    "text": "Названия осей",
+    "source": "900f286eac2b"
+  },
   "common.b5-176-250-mm": {
     "text": "B5 (176 × 250 мм)",
     "source": "344900110be7"
@@ -4065,6 +4133,10 @@
     "text": "Чередующиеся строки: каждая вторая строка затенена в соответствии со стилем",
     "source": "f6ced0fcf385"
   },
+  "sheets.ribbon.banded-rows": {
+    "text": "Чередующиеся строки",
+    "source": "6e9aa5474c82"
+  },
   "common.banner": {
     "text": "Баннер",
     "source": "b7f4d98f98d5"
@@ -4121,6 +4193,10 @@
     "text": "Бип",
     "source": "4ccb3fb5330b"
   },
+  "sheets.filter-panel.before": {
+    "text": "До",
+    "source": "9bb725005055"
+  },
   "word.ribbon.before-pt": {
     "text": "Перед (пт)",
     "source": "bba72e0923a5"
@@ -4132,6 +4208,10 @@
   "protect.before-sharing-this-file-check-it": {
     "text": "Перед тем как поделиться этим файлом, проверьте, нет ли в нем содержимого, которое не должны видеть другие: комментариев, исправлений, скрытого текста и личных данных.",
     "source": "56f7599f4157"
+  },
+  "sheets.filter-panel.begins-with": {
+    "text": "Начинается с",
+    "source": "853978f44eaf"
   },
   "word.ribbon.behind-text": {
     "text": "За текстом",
@@ -4152,6 +4232,10 @@
   "common.below-front-right": {
     "text": "Снизу спереди справа",
     "source": "31fedbb2729e"
+  },
+  "sheets.dialogs.below-average": {
+    "text": "Ниже среднего",
+    "source": "8f2f0fa9a074"
   },
   "common.berry": {
     "text": "Ягоды",
@@ -4417,9 +4501,17 @@
     "text": "Нижняя граница",
     "source": "0dc79f4813a3"
   },
+  "sheets.dialogs.bottom-items": {
+    "text": "Последние элементы",
+    "source": "aa9e5db6f818"
+  },
   "common.bottom-left": {
     "text": "Внизу слева",
     "source": "f5a57b969150"
+  },
+  "sheets.dialogs.bottom-per-cent": {
+    "text": "Последние в процентах",
+    "source": "10bad9a09d6f"
   },
   "common.bottom-right": {
     "text": "Внизу справа",
@@ -4428,6 +4520,14 @@
   "video.layer-names.bottom-shade": {
     "text": "Затемнение снизу",
     "source": "1dffbced0f7c"
+  },
+  "sheets.dialogs.bottom-count": {
+    "text": "Последние {count}",
+    "source": "54119ed17f6b"
+  },
+  "sheets.dialogs.bottom-count-2": {
+    "text": "Последние {count}%",
+    "source": "658e45ae01eb"
   },
   "word.ribbon.box-dashed-line": {
     "text": "Рамка: пунктирная линия",
@@ -4955,6 +5055,10 @@
     "text": "Субтитры (.srt, .vtt)",
     "source": "1c941a0a4cea"
   },
+  "video.library.captions-and-quick-adds": {
+    "text": "Субтитры и быстрые вставки",
+    "source": "d062fc34102e"
+  },
   "slides.album.captions-below-all-pictures": {
     "text": "Подписи под всеми рисунками",
     "source": "dd686df00caf"
@@ -5240,6 +5344,10 @@
     "text": "Изменить…",
     "source": "a6b4705c6883"
   },
+  "video.chapter-n": {
+    "text": "Глава {n}",
+    "source": "816e97139189"
+  },
   "sheets.queries.character": {
     "text": "Символ",
     "source": "1405a63e8a78"
@@ -5267,6 +5375,10 @@
   "sheets.ribbon.chart-design": {
     "text": "Конструктор диаграмм",
     "source": "d41692080652"
+  },
+  "sheets.ribbon.chart-elements": {
+    "text": "Элементы диаграммы",
+    "source": "b2c3cce9d69c"
   },
   "sheets.ribbon.chart-title": {
     "text": "Назв. диаграммы",
@@ -5669,6 +5781,10 @@
   "image.choose-the-layer-to-clear-the": {
     "text": "Выберите слой, в котором нужно очистить выделение.",
     "source": "04a21a186397"
+  },
+  "video.choose-the-logo": {
+    "text": "Выбрать логотип",
+    "source": "0240baf232cc"
   },
   "studio.bottom-bar.choose-the-microphone": {
     "text": "Выбрать микрофон",
@@ -6198,6 +6314,14 @@
     "text": "Цвет текста",
     "source": "8c6ececb4c11"
   },
+  "sheets.dialogs.colour-of-those-points": {
+    "text": "Цвет этих точек",
+    "source": "898998460449"
+  },
+  "sheets.dialogs.colour-scale": {
+    "text": "Цветовая шкала",
+    "source": "000799f1a3ef"
+  },
   "sheets.dialogs.colour-scale-green-yellow-red-low": {
     "text": "Цветовая шкала: зеленый, желтый, красный (от меньшего к большему)",
     "source": "234d0c0e170a"
@@ -6458,6 +6582,10 @@
   "locker.compare": {
     "text": "Сравнить…",
     "source": "219ddc366d9d"
+  },
+  "sheets.filter-panel.comparison": {
+    "text": "Условие сравнения",
+    "source": "571527339d0e"
   },
   "word.mailings.comparison": {
     "text": "Сравнение:",
@@ -6816,6 +6944,10 @@
     "text": "Копировать путь",
     "source": "720ff4160412"
   },
+  "sheets.copy-sheet": {
+    "text": "Копировать лист",
+    "source": "c9a0f392b71f"
+  },
   "sheets.ribbon.copy-the-formatting-here-to-the": {
     "text": "Копировать форматирование отсюда в следующее выделение",
     "source": "385e4d1fba79"
@@ -6939,6 +7071,10 @@
   "word.ribbon.count-above": {
     "text": "Число сверху",
     "source": "33e9e80a1691"
+  },
+  "sheets.ribbon.count-numbers": {
+    "text": "Количество чисел",
+    "source": "f6b68195bdad"
   },
   "sheets.queries.count-rows": {
     "text": "Подсчет строк",
@@ -7332,6 +7468,10 @@
     "text": "Темно-синий",
     "source": "6c12f1ca1641"
   },
+  "sheets.dialogs.dark-blue-grey": {
+    "text": "Темный серо-синий",
+    "source": "744e37be8716"
+  },
   "qrcode.dark-brown": {
     "text": "Темно-коричневый",
     "source": "f22b68958bf5"
@@ -7440,6 +7580,10 @@
     "text": "Базы данных Data Files",
     "source": "24e8c9743f1a"
   },
+  "sheets.ribbon.data-labels": {
+    "text": "Подписи данных",
+    "source": "78023df4505c"
+  },
   "sheets.ribbon.data-table": {
     "text": "Таблица данных…",
     "source": "fedeed59d538"
@@ -7455,6 +7599,10 @@
   "sheets.ribbon.data-validation": {
     "text": "Проверка данных",
     "source": "28971fd398d1"
+  },
+  "sheets.dialogs.data-bars": {
+    "text": "Гистограммы",
+    "source": "e7a181724128"
   },
   "sheets.dialogs.data-bars-blue": {
     "text": "Гистограммы: синие",
@@ -7503,6 +7651,10 @@
   "slides.ribbon.date-and-time-a-date-along": {
     "text": "Дата и время: дата внизу слайда, текущая или фиксированная",
     "source": "f94ad5295f5d"
+  },
+  "sheets.filter-panel.date-filters": {
+    "text": "Фильтры по дате",
+    "source": "bacb61184a41"
   },
   "word.forms.date-picker-content-control": {
     "text": "Элемент управления «выбор даты»",
@@ -8182,6 +8334,10 @@
     "text": "Разница",
     "source": "4d280a451d04"
   },
+  "sheets.pivot-fields.difference-from-previous": {
+    "text": "Отличие от предыдущего",
+    "source": "4473ab760db3"
+  },
   "slides.different-since-this-deck-was-last": {
     "text": "Изменено с тех пор, как презентация была открыта здесь",
     "source": "da4a123f25df"
@@ -8193,6 +8349,10 @@
   "shell.digits": {
     "text": "Цифры",
     "source": "9cd500d3d69f"
+  },
+  "video.inspector.dim": {
+    "text": "Тусклый",
+    "source": "ea53b1cb304d"
   },
   "pictures.dimensions": {
     "text": "Размеры",
@@ -8373,6 +8533,14 @@
   "home.documents-mail-and-media-all-work": {
     "text": "Документы, почта и медиа работают без подключения к сети",
     "source": "e815503e3abf"
+  },
+  "sheets.filter-panel.does-not-contain": {
+    "text": "Не содержит",
+    "source": "56fe07f0e32e"
+  },
+  "sheets.filter-panel.does-not-equal": {
+    "text": "Не равно",
+    "source": "e47c3280f3bf"
   },
   "calendar.does-not-repeat": {
     "text": "Не повторяется",
@@ -8723,10 +8891,6 @@
     "text": "Повторяющиеся строки удалены",
     "source": "e606bafdbd22"
   },
-  "sheets.duplicate-rows-removed-the-rest-closed": {
-    "text": "Повторяющиеся строки удалены, остальные сдвинуты",
-    "source": "0827cbb28e3a"
-  },
   "slides.duplicate-slide": {
     "text": "Дублировать слайд",
     "source": "ab7940817995"
@@ -8827,6 +8991,10 @@
     "text": "Строки читаются вслух одна за другой, текст каждой показывается, пока звучит ее голос",
     "source": "282adc866b4a"
   },
+  "studio.spoken-run.each-line-types-in-letter-by": {
+    "text": "Начиная со следующей произнесенной строки, каждая строка выводится побуквенно.",
+    "source": "a390f5fb2388"
+  },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "У каждой учетной записи почты, календаря, адресной книги, базы данных и папки свой параметр, который показан и в ее приложении; он есть и у «Средства записи» (Recorder). Все выключено, пока вы не выберете. Ничего никогда не удаляется и не перемещается, а все отправляемое сначала ждет, пока вы нажмете кнопку здесь.",
     "source": "0fd0a5b12aaa"
@@ -8871,6 +9039,10 @@
     "text": "Каждый источник отдельным файлом",
     "source": "87ba78fbecfd"
   },
+  "sheets.dialogs.each-sparkline-its-own-lowest-and": {
+    "text": "Свои минимум и максимум у каждого",
+    "source": "6a9c83cdf903"
+  },
   "sheets.objects.each-ticked-field-gets-a-panel": {
     "text": "Каждое отмеченное поле получает панель кнопок, по одной на элемент, которые фильтруют сводную таблицу.",
     "source": "57b495c85a7a"
@@ -8890,6 +9062,10 @@
   "slides.custom-shows.earlier-in-the-show": {
     "text": "Раньше в показе",
     "source": "c75dff7e0d23"
+  },
+  "sheets.dialogs.earliest-date": {
+    "text": "Самая ранняя дата",
+    "source": "82a5aebc403c"
   },
   "word.references-index.earth": {
     "text": "Земля",
@@ -9383,6 +9559,10 @@
     "text": "Окончание",
     "source": "e98982c9f2ba"
   },
+  "sheets.filter-panel.ends-with": {
+    "text": "Заканчивается на",
+    "source": "fc203569fa85"
+  },
   "base.links.engine": {
     "text": "СУБД",
     "source": "8e75ebbdb215"
@@ -9458,6 +9638,10 @@
   "common.equal-to": {
     "text": "Равно",
     "source": "6a26ff8ea94b"
+  },
+  "sheets.filter-panel.equals": {
+    "text": "Равно",
+    "source": "f939ae3d30c6"
   },
   "common.equation": {
     "text": "Уравнение",
@@ -9595,6 +9779,10 @@
     "text": "Все кнопки только со значками; название появляется при наведении указателя",
     "source": "21abdd3708ee"
   },
+  "video.inspector.every-caption-in-the-film-types": {
+    "text": "Все субтитры фильма выводятся с этой скоростью.",
+    "source": "330cbb6a15e3"
+  },
   "slides.every-comment-here-was-already-read": {
     "text": "Все комментарии здесь уже прочитаны.",
     "source": "47ca1a3a2589"
@@ -9679,6 +9867,10 @@
   "pictures.every-picture-shown-count": {
     "text": "Все показанные рисунки ({count})",
     "source": "904610f6a47a"
+  },
+  "sheets.dialogs.every-point-line-only": {
+    "text": "Все точки (только график)",
+    "source": "88f8f754acf4"
   },
   "base.documents.every-record": {
     "text": "Все записи",
@@ -11161,6 +11353,10 @@
     "text": "Формула: поле в ячейке с курсором, вычисляемое по числам выше или левее, либо по ячейкам вида B2 и B2:B4, как =SUM(ABOVE) в Word",
     "source": "ac4ef0433793"
   },
+  "sheets.dialogs.formula-formula": {
+    "text": "Формула: {formula}",
+    "source": "373a77366380"
+  },
   "sheets.formulas": {
     "text": "Формулы",
     "source": "098baf95d843"
@@ -11744,6 +11940,10 @@
   "word.mailings.greater-than-or-equal": {
     "text": "Больше или равно",
     "source": "4df4f066c9c1"
+  },
+  "sheets.filter-panel.greater-than-or-equal-to": {
+    "text": "Больше или равно",
+    "source": "85d08e847878"
   },
   "common.greek": {
     "text": "Греческие",
@@ -12338,6 +12538,10 @@
     "text": "Скрыть слайд: этот слайд скрыт в показе; нажмите еще раз, чтобы показать его",
     "source": "7d777db556ab"
   },
+  "sheets.hide-columns": {
+    "text": "Скрыть столбцы",
+    "source": "9d5c93b12237"
+  },
   "image.layers-panel.hide-its-layers": {
     "text": "Скрыть его слои",
     "source": "e3c527659d85"
@@ -12345,6 +12549,10 @@
   "protect.hide-password": {
     "text": "Скрыть пароль",
     "source": "a60a56c584b3"
+  },
+  "sheets.hide-rows": {
+    "text": "Скрыть строки",
+    "source": "6e6875f9e909"
   },
   "talk.invite.hide-the-code": {
     "text": "Скрыть код",
@@ -12397,6 +12605,10 @@
   "qrcode.high-30": {
     "text": "Высокий (30%)",
     "source": "652a05d1ae51"
+  },
+  "sheets.dialogs.high-point": {
+    "text": "Максимальная точка",
+    "source": "80ab296d2b33"
   },
   "pdf.export.high-quality-225-dots-per-inch": {
     "text": "Высокое качество (225 точек на дюйм)",
@@ -12509,6 +12721,10 @@
   "slides.horizontal-out": {
     "text": "По горизонтали наружу",
     "source": "51081ab58752"
+  },
+  "sheets.ribbon.horizontal-axis-title": {
+    "text": "Название горизонтальной оси",
+    "source": "b3c89eb1f3c0"
   },
   "common.horizontal-brick": {
     "text": "Горизонтальный кирпич",
@@ -12669,6 +12885,10 @@
   "common.icon": {
     "text": "Значок",
     "source": "a35abcd6dac9"
+  },
+  "sheets.dialogs.icon-set": {
+    "text": "Набор значков",
+    "source": "a3ae5ca177a0"
   },
   "common.icons": {
     "text": "Значки",
@@ -12960,6 +13180,10 @@
     "text": "В одной учетной записи или архиве",
     "source": "be358173c89a"
   },
+  "video.inspector.in-pieces": {
+    "text": "По частям",
+    "source": "786b72b37492"
+  },
   "video.in-point": {
     "text": "Точка входа",
     "source": "9c1d42b38a85"
@@ -13008,6 +13232,10 @@
   "video.in-from-out-to": {
     "text": "Вход {from}, выход {to}",
     "source": "9ad2ac8a59a8"
+  },
+  "sheets.dialogs.in-range-a-row-that-repeats": {
+    "text": "В диапазоне {range} удаляется строка, которая во всех отмеченных столбцах повторяет более раннюю. Первая из них остается.",
+    "source": "ac1519f6f42d"
   },
   "studio.shared.in-seconds-s": {
     "text": "Через {seconds} с",
@@ -14013,6 +14241,14 @@
     "text": "Курсив (Ctrl+I)",
     "source": "ccc60dff1674"
   },
+  "sheets.filter-panel.items": {
+    "text": "Элементы",
+    "source": "fb8e7a1a3cb7"
+  },
+  "sheets.filter-panel.items-or-percent": {
+    "text": "Элементы или проценты",
+    "source": "14cded7778d2"
+  },
   "template-gallery.items-counts-and-reorder-levels-the": {
     "text": "Товары, количество и уровни дозаказа, стоимость запасов и что заказать снова",
     "source": "a704276dd164"
@@ -14045,6 +14281,10 @@
   "slides.ribbon.its-notes": {
     "text": "Его заметки",
     "source": "a316f96e4b04"
+  },
+  "sheets.dialogs.its-own-lowest-and-highest-shows": {
+    "text": "Свои минимум и максимум показывают подъемы и спады каждой строки; общая ось для всех позволяет сравнить их величину.",
+    "source": "2a62e687c030"
   },
   "mail.smime.its-password": {
     "text": "Его пароль",
@@ -14206,6 +14446,10 @@
   "word.ribbon.justify-with-kashida-stretch-the-letters": {
     "text": "По ширине с кашидой: растянуть буквы на всю строку, как выравнивают арабский текст",
     "source": "b7ba4e7d59c4"
+  },
+  "video.inspector.karaoke": {
+    "text": "Караоке",
+    "source": "34cd21fcc55b"
   },
   "common.keep": {
     "text": "Оставить",
@@ -14647,6 +14891,10 @@
     "text": "Фамилия",
     "source": "7b4888049459"
   },
+  "sheets.dialogs.last-point": {
+    "text": "Последняя точка",
+    "source": "430de8dd535b"
+  },
   "common.last-record": {
     "text": "Последняя запись",
     "source": "27fef2475093"
@@ -14690,6 +14938,10 @@
   "mail.compose.later-today-9pm": {
     "text": "Позже сегодня, 21:00",
     "source": "1c66a953a2b9"
+  },
+  "sheets.dialogs.latest-date": {
+    "text": "Самая поздняя дата",
+    "source": "a9de7221765f"
   },
   "image.layer": {
     "text": "Слой",
@@ -14965,6 +15217,10 @@
     "text": "Меньше или равно",
     "source": "ee8df42e1687"
   },
+  "sheets.filter-panel.less-than-or-equal-to": {
+    "text": "Меньше или равно",
+    "source": "ae1564a79ff3"
+  },
   "template-gallery.lesson": {
     "text": "Урок",
     "source": "6e2b26d9de40"
@@ -15173,6 +15429,10 @@
     "text": "Разделитель",
     "source": "1bac593d7aea"
   },
+  "video.inspector.line-by-line": {
+    "text": "По строкам",
+    "source": "d69a37385809"
+  },
   "sheets.dialogs.line-chart": {
     "text": "График",
     "source": "22089151613f"
@@ -15232,6 +15492,10 @@
   "base.documents.lines-from": {
     "text": "Строки из",
     "source": "dc6d35c2f93b"
+  },
+  "video.inspector.lines-one-at-a-time": {
+    "text": "Строки по одной",
+    "source": "e30051392bb1"
   },
   "locker.lines-say-what-to-lock-a": {
     "text": "Строки задают, что блокировать; строка, начинающаяся с !, задает исключение. Если строк нет, блокируются все файлы.",
@@ -15684,6 +15948,10 @@
   "video.export.low-smaller-file": {
     "text": "Низкое (файл меньше)",
     "source": "e585bb7bd95c"
+  },
+  "sheets.dialogs.low-point": {
+    "text": "Минимальная точка",
+    "source": "2529ac347b3d"
   },
   "video.ribbon.lower-third": {
     "text": "Нижняя плашка",
@@ -17118,6 +17386,10 @@
     "text": "Мои контакты",
     "source": "6add5927687d"
   },
+  "sheets.dialogs.my-data-has-headers": {
+    "text": "Мои данные содержат заголовки",
+    "source": "e917f14e7d6e"
+  },
   "talk.invite.my-email-app": {
     "text": "Мое почтовое приложение",
     "source": "c7aaaf0507c4"
@@ -17161,6 +17433,10 @@
   "broadcast.live-dialog.name-optional": {
     "text": "Имя (необязательно)",
     "source": "e09b37bcc4f3"
+  },
+  "sheets.name-box.name-box": {
+    "text": "Поле имени",
+    "source": "730b51d34ee3"
   },
   "sheets.ribbon.name-manager": {
     "text": "Диспетчер имен",
@@ -17311,6 +17587,10 @@
   "locker.needs-you": {
     "text": "Требует внимания",
     "source": "74b6abdf5969"
+  },
+  "sheets.dialogs.negative-points": {
+    "text": "Отрицательные точки",
+    "source": "6963e8f96ed2"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "Никто из вас не сможет писать или звонить другому, пока вы снова не станете контактами. Ваши сообщения здесь удалены.",
@@ -17944,6 +18224,10 @@
     "text": "Стандартных блоков пока нет",
     "source": "ee11b12ee206"
   },
+  "sheets.pivot-fields.no-calculation": {
+    "text": "Без вычислений",
+    "source": "5da6f87ac7cb"
+  },
   "engine.no-calendars-or-address-books-were": {
     "text": "По этому адресу не найдено ни календарей, ни адресных книг.",
     "source": "6b303bb9fae7"
@@ -18052,9 +18336,9 @@
     "text": "Нет идей оформления для этого слайда: добавьте заголовок, текст или рисунок.",
     "source": "1f07475c0307"
   },
-  "sheets.no-duplicate-rows-in-the-selection": {
-    "text": "В выделении нет повторяющихся строк",
-    "source": "47e580620f2e"
+  "sheets.no-duplicate-rows-found-kept-rows": {
+    "text": "Повторяющиеся строки не найдены; осталось строк: {kept}.",
+    "source": "a032b583b3d3"
   },
   "word.mailings.no-duplicates": {
     "text": "Нет дубликатов",
@@ -19101,6 +19385,18 @@
     "text": "Уведомления приостановлены до {time}",
     "source": "1d6521f14f4e"
   },
+  "notify-dialog.notifications-are-turned-off-in-windows": {
+    "text": "Уведомления отключены в Windows, поэтому от Rutba Office они не показываются. Включите их в параметрах Windows, в разделе «Система», «Уведомления».",
+    "source": "a652d04931a6"
+  },
+  "notify-dialog.notifications-are-turned-off-on-this": {
+    "text": "Уведомления на этом компьютере отключены администратором, поэтому Windows не показывает уведомления от Rutba Office. Число ожидающих по-прежнему отображается на значке у часов.",
+    "source": "76e702238671"
+  },
+  "notify-dialog.notifications-from-rutba-office-are-turned": {
+    "text": "Уведомления от Rutba Office отключены в Windows. Включите их в параметрах Windows, в разделе «Система», «Уведомления», «Rutba Office».",
+    "source": "e19167006214"
+  },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "Теперь {width} на {height} см. Все на слайдах масштабировано и выровнено по центру под новый размер.",
     "source": "4e0c85185863"
@@ -19120,6 +19416,10 @@
   "common.number": {
     "text": "Число",
     "source": "bd82cf16699b"
+  },
+  "sheets.filter-panel.number-filters": {
+    "text": "Числовые фильтры",
+    "source": "13fe0c5baab5"
   },
   "pictures.batch.number-as-001": {
     "text": "Нумерация 001",
@@ -19325,6 +19625,10 @@
     "text": "На новом слое рисования",
     "source": "0501424bc7c7"
   },
+  "video.inspector.on-a-panel": {
+    "text": "На плашке",
+    "source": "e8787dfd4dc5"
+  },
   "studio.live-panel.on-air": {
     "text": "В эфире",
     "source": "c2332b223176"
@@ -19417,6 +19721,14 @@
     "text": "Один ответ содержит все",
     "source": "0670ff9a00aa"
   },
+  "video.inspector.one-bar": {
+    "text": "Одна полоса",
+    "source": "4bfa8b51bda1"
+  },
+  "video.inspector.one-caption-a-line-one-after": {
+    "text": "По одному субтитру на строку, один за другим, каждый на своей дорожке.",
+    "source": "01dc9af7bfb6"
+  },
   "slides.ribbon.one-column": {
     "text": "Одна колонка",
     "source": "4af4c82acab4"
@@ -19436,6 +19748,10 @@
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "Каждая строка отдельно. Табуляция ведет к центру, вторая к правому краю.",
     "source": "80be2d4cf6a5"
+  },
+  "video.inspector.one-line-there-is-nothing-to": {
+    "text": "Одна строка: разделять нечего.",
+    "source": "c2918f5eb39b"
   },
   "image.layers-panel.one-name-and-one-number-on": {
     "text": "По одному имени и одному числу в каждой строке, например: Пн, 12",
@@ -19513,6 +19829,10 @@
   "notify-dialog.only-an-installed-copy-of-rutba": {
     "text": "Только установленная копия Rutba Office может запускаться вместе с Windows.",
     "source": "5d376c6f923f"
+  },
+  "notify-dialog.only-an-installed-copy-of-rutba-2": {
+    "text": "Уведомления Windows показывает только установленная копия Rutba Office. Число ожидающих по-прежнему отображается на значке у часов.",
+    "source": "5fedb6d63e92"
   },
   "word.only-certain-kinds-of-changes-can": {
     "text": "В этот документ можно вносить только некоторые изменения. См. Рецензирование → Ограничить редактирование.",
@@ -19837,6 +20157,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "Открыть панель Kick",
     "source": "bf6f8e9ef858"
+  },
+  "notify-dialog.open-the-settings-of-windows": {
+    "text": "Открыть параметры Windows",
+    "source": "5af9b33ed216"
   },
   "talk.open-the-browser-again": {
     "text": "Снова открыть браузер",
@@ -20826,6 +21150,10 @@
     "text": "Выберите клип, чтобы увидеть его параметры.",
     "source": "6eb0903d3b41"
   },
+  "sheets.dialogs.pick-a-colour-for-the-tab": {
+    "text": "Выберите цвет ярлычка листа {name}.",
+    "source": "e9df2741dc65"
+  },
   "slides.pick-a-comment-first-in-the": {
     "text": "Сначала выберите комментарий в области или на слайде.",
     "source": "f5e1dbf895bc"
@@ -20845,6 +21173,14 @@
   "talk.invite-email.pick-from-contacts": {
     "text": "Выбрать из «Контактов»",
     "source": "e44028663b60"
+  },
+  "sheets.pick-from-the-list": {
+    "text": "Выбрать из списка",
+    "source": "a8fc191ece74"
+  },
+  "sheets.pick-one-of-list": {
+    "text": "Выберите одно из значений: {list}.",
+    "source": "77094891e902"
   },
   "contacts.pick-one-on-the-left-or": {
     "text": "Выберите слева или нажмите Ctrl+N для новой карточки.",
@@ -21990,6 +22326,10 @@
   "sheets.put-the-cursor-in-a-table": {
     "text": "Поместите курсор в таблицу или сводную таблицу. Срез фильтрует одну из них.",
     "source": "906ca4fd2842"
+  },
+  "sheets.ribbon.put-the-legend-at-a-side": {
+    "text": "Поместите легенду у одного из краев диаграммы или уберите ее.",
+    "source": "f49a59ee7c72"
   },
   "image.tools.put-the-pins-back": {
     "text": "Вернуть метки",
@@ -23250,6 +23590,10 @@
     "text": "Удалить эту строку",
     "source": "9b034cbd964e"
   },
+  "sheets.dialogs.remove-this-rule": {
+    "text": "Удалить это правило",
+    "source": "006122390887"
+  },
   "sheets.remove-this-watch": {
     "text": "Убрать этот контроль",
     "source": "7c1c8bf08b8c"
@@ -24352,6 +24696,10 @@
     "text": "Правила",
     "source": "4228aeb07c41"
   },
+  "sheets.dialogs.rules-on-this-sheet": {
+    "text": "Правила на этом листе",
+    "source": "febf492f1ab9"
+  },
   "mail.rules.rules-run-when-mail-arrives-and": {
     "text": "Правила выполняются при получении почты, и их можно запустить для папки в любое время.",
     "source": "6045d8d52773"
@@ -25345,6 +25693,10 @@
     "text": "Второй цвет: где заканчивается градиент",
     "source": "014aa91028da"
   },
+  "video.inspector.second-line": {
+    "text": "Вторая строка",
+    "source": "c8b588f708d6"
+  },
   "video.library.second-point": {
     "text": "Вторая точка",
     "source": "55b07a59a655"
@@ -25352,6 +25704,10 @@
   "calendar.second-time-zone": {
     "text": "Второй часовой пояс",
     "source": "49755d0fec21"
+  },
+  "sheets.filter-panel.second-value": {
+    "text": "Второе значение",
+    "source": "c4a53a97a697"
   },
   "slides.export-video.seconds-spent-on-each-slide": {
     "text": "Секунд на каждый слайд",
@@ -25741,6 +26097,10 @@
     "text": "Отправьте ссылку друзьям любым удобным способом. Тот, кто ее откроет, станет вашим контактом после принятия, с Rutba Office или, без него, с бесплатной учетной записью Rutba. Отзовите ссылку, когда закончите.",
     "source": "bd1c97fbc637"
   },
+  "talk.send-again": {
+    "text": "Отправить снова",
+    "source": "feead925e260"
+  },
   "mail.send-and-receive": {
     "text": "Отправка и получение",
     "source": "ffcf0846896c"
@@ -25985,9 +26345,9 @@
     "text": "Разделить запятыми",
     "source": "1d7e4e1cdf8b"
   },
-  "sheets.dialogs.separated-by-commas-or-a-range": {
-    "text": "Через запятую или диапазон, например $H$1:$H$9.",
-    "source": "66ebf7c18623"
+  "sheets.dialogs.separated-by-commas-or-a-range-2": {
+    "text": "Через запятую или диапазон, например $H$1:$H$9 или Products!A2:A11.",
+    "source": "deed8689a130"
   },
   "word.ribbon.separated-by-tabs": {
     "text": "С разделителями-табуляциями",
@@ -26009,9 +26369,17 @@
     "text": "Прогрессия",
     "source": "a8295e08ff7a"
   },
+  "sheets.ribbon.series-colour": {
+    "text": "Цвет ряда",
+    "source": "3989e7fea65a"
+  },
   "sheets.dialogs.series-in": {
     "text": "Расположение",
     "source": "ceaab7f3e90b"
+  },
+  "sheets.ribbon.series-to-colour": {
+    "text": "Окрашиваемый ряд",
+    "source": "aa8f68cf8f3b"
   },
   "slides.series-number": {
     "text": "Ряд {number}",
@@ -26678,6 +27046,10 @@
     "text": "Тип показа",
     "source": "5d97277b82b2"
   },
+  "sheets.pivot-fields.show-values-as": {
+    "text": "Дополнительные вычисления",
+    "source": "bb7cc9d7da0d"
+  },
   "notify-dialog.show-what-it-says": {
     "text": "Показывать текст уведомления",
     "source": "01ff1c611346"
@@ -26709,6 +27081,10 @@
   "talk.meet-lines.showing-their-screen": {
     "text": "Демонстрирует экран",
     "source": "1c428d39d527"
+  },
+  "studio.spoken-run.shown-only-the-words-type-at": {
+    "text": "Только показ: вывод с обычной скоростью.",
+    "source": "25a457d9d675"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "Виден людям, с которыми вы общаетесь",
@@ -26761,6 +27137,10 @@
   "word.ribbon.shrink-font": {
     "text": "Уменьшить шрифт",
     "source": "176934670a3e"
+  },
+  "video.inspector.shrink-to-fit": {
+    "text": "Уменьшать по размеру",
+    "source": "e65455733f3a"
   },
   "image.tools.shrink-narrow-the-selection-by-that": {
     "text": "Сузить: уменьшить выделение на указанное число пикселей",
@@ -27330,6 +27710,10 @@
     "text": "Минимум сверху",
     "source": "b66a27b2ba69"
   },
+  "sheets.pivot-fields.smallest-first": {
+    "text": "По возрастанию",
+    "source": "4b15d87c3abc"
+  },
   "common.smartart": {
     "text": "SmartArt",
     "source": "fe46ea12fa77"
@@ -27530,6 +27914,10 @@
     "text": "Сортировка абзацев: от А до Я или от Я до А; весь документ, если ничего не выделено",
     "source": "bd64668cb009"
   },
+  "sheets.pivot-fields.sort-the-items": {
+    "text": "Сортировка элементов",
+    "source": "8f5ac57242b2"
+  },
   "sheets.ribbon.sort-the-list-a-to-z": {
     "text": "Сортировка списка от А до Я по столбцу {name}, столбцу активной ячейки; строка заголовков остается вверху",
     "source": "121020686363"
@@ -27674,6 +28062,10 @@
     "text": "Блеск",
     "source": "abac3d1ed392"
   },
+  "sheets.sparkline-options": {
+    "text": "Параметры спарклайнов",
+    "source": "7660b0f99e6b"
+  },
   "sheets.ribbon.sparklines": {
     "text": "Спарклайны",
     "source": "a77d2f6f62bf"
@@ -27817,6 +28209,10 @@
   "word.split-cells": {
     "text": "Разделить ячейки",
     "source": "ec306591839f"
+  },
+  "video.inspector.split-into-lines": {
+    "text": "Разделить на строки",
+    "source": "2b164901b73d"
   },
   "sheets.split-into-the-cells-to-the": {
     "text": "Разделено по ячейкам справа",
@@ -28010,6 +28406,10 @@
   "word.list-dialog.start-at": {
     "text": "Начать с",
     "source": "334c284f438c"
+  },
+  "sheets.dialogs.start-at-nought": {
+    "text": "Начинать с нуля",
+    "source": "8e5da7fea6e5"
   },
   "word.restrict.start-enforcement": {
     "text": "Включить защиту",
@@ -28615,6 +29015,14 @@
     "text": "Значения, разделенные табуляцией (.tsv)",
     "source": "8015e916b0d7"
   },
+  "sheets.dialogs.tab-colour": {
+    "text": "Цвет ярлычка",
+    "source": "5ea3b6dde585"
+  },
+  "sheets.tab-colour": {
+    "text": "Цвет ярлычка…",
+    "source": "2dc7ab1e9dc6"
+  },
   "word.tab-leader": {
     "text": "Заполнитель",
     "source": "4c13c6224502"
@@ -29136,6 +29544,10 @@
     "text": "Эффекты: преобразование",
     "source": "788f2d5eb581"
   },
+  "sheets.filter-panel.text-filters": {
+    "text": "Текстовые фильтры",
+    "source": "ab3c6a9c325c"
+  },
   "word.forms.text-form-field": {
     "text": "Текстовое поле формы",
     "source": "c493dd6ddde9"
@@ -29179,6 +29591,10 @@
   "slides.revisions.text-changed": {
     "text": "Текст изменен",
     "source": "26c7b5775381"
+  },
+  "video.inspector.text-colour": {
+    "text": "Цвет текста",
+    "source": "25e9c8090de7"
   },
   "sheets.dialogs.text-contains": {
     "text": "Текст содержит",
@@ -29772,6 +30188,10 @@
     "text": "Приложения, которые вы хотите видеть и которыми открывать файлы.",
     "source": "332e5249e305"
   },
+  "video.inspector.the-bar-covers-the-whole-film": {
+    "text": "Полоса растет на протяжении всего фильма, пока не изменена ее длина.",
+    "source": "da0ae4020925"
+  },
   "video.inspector.the-bar-fills-from-where-this": {
     "text": "Полоса заполняется от начала этого клипа до его конца.",
     "source": "01d9656a5ad1"
@@ -29779,6 +30199,10 @@
   "video.the-brand-kit-is-kept-for": {
     "text": "Фирменный стиль сохранен для вас и добавляется в каждую сцену.",
     "source": "3180710525cd"
+  },
+  "video.inspector.the-brand-kit-logo": {
+    "text": "Фирменный логотип",
+    "source": "cee5b3c1d63e"
   },
   "word.list-dialog.the-bullet-character": {
     "text": "Знак маркера.",
@@ -29948,6 +30372,10 @@
   "talk-words.the-connection-was-lost-and-the": {
     "text": "Соединение потеряно, и снова подключиться к собранию не удалось.",
     "source": "ecc583f6d5d1"
+  },
+  "sheets.the-copy-has-the-cells-and": {
+    "text": "Копия содержит ячейки и форматы. Диаграммы, рисунки, таблицы и сводные таблицы остаются на исходном листе.",
+    "source": "dad761a634d9"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "Диапазон условий не может находиться внутри списка",
@@ -30340,6 +30768,10 @@
     "text": "Заблокированная копия сохранена. Отправьте ее любым удобным способом.",
     "source": "bbfae89220a6"
   },
+  "video.library.the-logo-from-your-brand-kit": {
+    "text": "Логотип из вашего фирменного набора в углу или выбранный вами рисунок.",
+    "source": "9323498bce87"
+  },
   "engine.the-mail-app-is-chosen-in": {
     "text": "Почтовое приложение выбирается в параметрах самой системы на этом компьютере.",
     "source": "5141d3af3f67"
@@ -30379,6 +30811,10 @@
   "mail.parts.the-mail-server-would-not-keep": {
     "text": "Почтовый сервер не сохранил копию отправленного сообщения в {folder}. Копия здесь сохранена.",
     "source": "59af5bb0cb8f"
+  },
+  "mail.parts.the-mail-server-would-not-keep-2": {
+    "text": "Почтовый сервер не сохранил черновик в папке {folder}. Он по-прежнему на этом компьютере.",
+    "source": "2304437141a3"
   },
   "mail.parts.the-mail-server-would-not-make": {
     "text": "Почтовый сервер не принял изменение, сделанное здесь. «Почта» показывает то, что есть на сервере.",
@@ -30427,6 +30863,10 @@
   "talk.meet-lines.the-meeting-is-full-on-its": {
     "text": "Собрание на сервере «Разговоров» (Talk Server) заполнено.",
     "source": "a28293313806"
+  },
+  "talk.the-meeting-stays-here-reason": {
+    "text": "Собрание остается здесь: {reason}",
+    "source": "2f8fd822d081"
   },
   "talk.meet-lines.the-meetings-talk-server-is-not": {
     "text": "Сервер «Разговоров» (Talk Server) собрания сейчас не принимает участников. Повторите позже.",
@@ -30929,6 +31369,10 @@
     "text": "Страховочная копия папки {name} создана: {when}. Ее файлы ({n}) записываются без блокировки в новую папку внутри выбранной вами. То, что уже есть там, не изменяется.",
     "source": "a34f0ed2f93a"
   },
+  "sheets.dialogs.the-same-for-all-of-them": {
+    "text": "Общие для всех",
+    "source": "eef1cb1cfa61"
+  },
   "locker.the-same-password-again": {
     "text": "Тот же пароль еще раз",
     "source": "cfd750367fe1"
@@ -30985,6 +31429,10 @@
   "sheets.dialogs.the-selection-holds-a-formula-in": {
     "text": "В выделении формула находится в углу, а значения для подстановки по краям. Каждая ячейка заполняется результатом формулы для этого сочетания.",
     "source": "fe7e0163219d"
+  },
+  "sheets.the-selection-is-now-named-name": {
+    "text": "Выделенному диапазону присвоено имя {name}.",
+    "source": "c3c614e5e0f0"
   },
   "mail.the-sender-supports-one-click-unsubscribe": {
     "text": "Отправитель поддерживает отписку в один щелчок. Ему отправляется один запрос, и больше ничего не покидает этот компьютер.",
@@ -31193,6 +31641,10 @@
   "engine.the-text-recognition-model-for-key": {
     "text": "Не удалось загрузить модель распознавания текста для {key}.",
     "source": "44a1288700c8"
+  },
+  "video.inspector.the-theme-colour": {
+    "text": "Цвет темы",
+    "source": "c9c8ab182186"
   },
   "slides.ribbon.the-themes-own-looks-filled-in": {
     "text": "Стили темы: заливка цветом акцента и контур того же цвета",
@@ -31637,6 +32089,10 @@
   "mail.these-accounts": {
     "text": "Эти учетные записи",
     "source": "0eca400d4be1"
+  },
+  "sheets.dialogs.these-apply-to-every-sparkline-made": {
+    "text": "Эти параметры применяются ко всем спарклайнам, созданным вместе с этим.",
+    "source": "a459084b0d0c"
   },
   "mail.these-are-imported-archives-there-is": {
     "text": "Это импортированные архивы, поэтому получать нечего.",
@@ -32095,6 +32551,10 @@
   "word.restrict.this-document-is-protected-only-comments": {
     "text": "Документ защищен: здесь можно только добавлять комментарии. Рецензирование → Ограничить редактирование покажет области, доступные для правки.",
     "source": "b908b8376d8e"
+  },
+  "sheets.this-entry-does-not-match-the": {
+    "text": "Это значение не соответствует правилу, заданному для этой ячейки.",
+    "source": "64430678bcb5"
   },
   "calendar.this-event-has-a-talk-meeting": {
     "text": "У события есть собрание в «Разговорах» (Talk). Ссылка в приглашении.",
@@ -32577,6 +33037,10 @@
     "text": "На этом листе нет структуры для удаления",
     "source": "a80699366a86"
   },
+  "sheets.dialogs.this-sheet-has-no-rules-yet": {
+    "text": "На этом листе пока нет правил.",
+    "source": "735960d6edfc"
+  },
   "sheets.this-sheet-is-protected-with-a": {
     "text": "Этот лист защищен паролем. Введите его, чтобы снять защиту.",
     "source": "368023c3045c"
@@ -32696,6 +33160,10 @@
   "studio.guests.this-window-leaves-and-talk-comes": {
     "text": "Это окно закроется, и откроются «Разговоры» (Talk): те же люди, в виде собрания.",
     "source": "fa116fc70753"
+  },
+  "talk.this-window-leaves-the-meeting-once": {
+    "text": "Когда откроется другое окно, это окно выйдет из собрания, и вы будете управлять собранием оттуда.",
+    "source": "fb83b9a3480f"
   },
   "sheets.this-workbook-has-no-comments": {
     "text": "В этой книге нет комментариев.",
@@ -33103,6 +33571,10 @@
     "text": "Верхняя граница",
     "source": "79775184aaa3"
   },
+  "sheets.dialogs.top-items": {
+    "text": "Первые элементы",
+    "source": "af3865aa2315"
+  },
   "common.top-left": {
     "text": "Сверху слева",
     "source": "a0eda50fb155"
@@ -33111,6 +33583,10 @@
     "text": "Верх списка на переднем плане. Перетащите, чтобы изменить порядок.",
     "source": "428a0adb9e63"
   },
+  "sheets.dialogs.top-per-cent": {
+    "text": "Первые в процентах",
+    "source": "fa0e93898958"
+  },
   "common.top-right": {
     "text": "Сверху справа",
     "source": "d83cbef9db1b"
@@ -33118,6 +33594,14 @@
   "sheets.dialogs.top-row": {
     "text": "Верхняя строка",
     "source": "5c027c33bb97"
+  },
+  "sheets.dialogs.top-count": {
+    "text": "Первые {count}",
+    "source": "b6783f4fd940"
+  },
+  "sheets.dialogs.top-count-2": {
+    "text": "Первые {count}%",
+    "source": "ea8f8cc99e8d"
   },
   "common.total": {
     "text": "Итого",
@@ -33131,9 +33615,17 @@
     "text": "Строка итогов: последняя строка с оформлением итогов стиля",
     "source": "46fd3713529a"
   },
+  "sheets.ribbon.total-of-column-none": {
+    "text": "Итог {column}: нет",
+    "source": "1676db04c840"
+  },
   "base.reports.total-of-field": {
     "text": "Итог по полю {field}",
     "source": "f3956fd5d7dd"
+  },
+  "sheets.ribbon.total-row": {
+    "text": "Строка итогов",
+    "source": "3c3cb9cbf619"
   },
   "base.totals": {
     "text": "Итоги",
@@ -33591,6 +34083,10 @@
     "text": "Введите или вставьте адреса",
     "source": "ddf091a93d83"
   },
+  "video.type-or-paste-your-words-here": {
+    "text": "Введите или вставьте текст здесь.",
+    "source": "2d8717ac7291"
+  },
   "sheets.dialogs.type-part-of-a-name": {
     "text": "Введите часть имени",
     "source": "7602842c7ce4"
@@ -33663,9 +34159,17 @@
     "text": "Набрано",
     "source": "bff482dbe92b"
   },
+  "common.typewriter": {
+    "text": "Пишущая машинка",
+    "source": "b15b792b2b10"
+  },
   "video.inspector.typing": {
     "text": "Набор текста",
     "source": "25dfb9b4b32f"
+  },
+  "video.inspector.typing-speed": {
+    "text": "Скорость набора",
+    "source": "9d1ff237078a"
   },
   "common.uppercase": {
     "text": "ВСЕ ПРОПИСНЫЕ",
@@ -33750,6 +34254,18 @@
   "sheets.unhide-name": {
     "text": "Отобразить «{name}»",
     "source": "efad2d4bb2b6"
+  },
+  "sheets.ribbon.unhide-all-rows-and-columns": {
+    "text": "Отобразить строки и столбцы",
+    "source": "e996d6d88a04"
+  },
+  "sheets.unhide-columns": {
+    "text": "Отобразить столбцы",
+    "source": "2aee4f4f679d"
+  },
+  "sheets.unhide-rows": {
+    "text": "Отобразить строки",
+    "source": "783840178245"
   },
   "sheets.ribbon.unhide-a-hidden-worksheets-window-back": {
     "text": "Отобразить: вернуть на экран скрытое окно «Таблиц»",
@@ -34091,6 +34607,10 @@
     "text": "Обновить {style} по выделенному",
     "source": "e65ad4674254"
   },
+  "sheets.ribbon.update-style-to-match-this-cell": {
+    "text": "Обновить стиль {style} по ячейке",
+    "source": "ab2583743d9d"
+  },
   "shell.updated-from-version-what-changed-is": {
     "text": "Обновлено с версии {version}. Список изменений в одном щелчке.",
     "source": "d4f81a14fa5f"
@@ -34380,6 +34900,10 @@
     "text": "Вертикальное для соцсетей",
     "source": "06b16b68f5bb"
   },
+  "sheets.ribbon.vertical-axis-title": {
+    "text": "Название вертикальной оси",
+    "source": "350384e51fb0"
+  },
   "sheets.ribbon.vertical-text": {
     "text": "Вертикальный текст",
     "source": "623bb53bc829"
@@ -34507,6 +35031,10 @@
   "common.voice": {
     "text": "Голос",
     "source": "87bf2bc08589"
+  },
+  "common.voice-first": {
+    "text": "Сначала голос",
+    "source": "e03a9afde9bd"
   },
   "voices-dialog.voices": {
     "text": "Голоса",
@@ -35116,6 +35644,10 @@
     "text": "Windows",
     "source": "d598026a9cbc"
   },
+  "notify-dialog.windows-did-not-show-the-last": {
+    "text": "Windows не удалось показать последнее уведомление. В параметрах Windows, в разделе «Система», «Уведомления», убедитесь, что уведомления включены для Windows и для Rutba Office, а режим «Не беспокоить» выключен.",
+    "source": "8663439dc961"
+  },
   "engine.windows-keeps-this-choice-for-you": {
     "text": "Windows хранит этот выбор за вами: выберите Rutba Office в разделе «Параметры» › «Приложения по умолчанию». Кнопка ниже открывает этот раздел.",
     "source": "954691d41579"
@@ -35168,6 +35700,14 @@
     "text": "С обтеканием текстом",
     "source": "1c19fe80875f"
   },
+  "common.with-the-voice": {
+    "text": "Вместе с голосом",
+    "source": "a0c88e3ba266"
+  },
+  "video.spoken.with-the-words-shown-only-they": {
+    "text": "Только показ: вывод со скоростью фильма.",
+    "source": "a1da8c430dfa"
+  },
   "talk.with-video": {
     "text": "С видео",
     "source": "d530d62be3b5"
@@ -35216,6 +35756,10 @@
     "text": "Фигурный текст",
     "source": "ae16a048a626"
   },
+  "video.inspector.word-by-word": {
+    "text": "По словам",
+    "source": "ddbaf8c9f91a"
+  },
   "word.dialogs.word-count": {
     "text": "Статистика",
     "source": "653913ac0e67"
@@ -35252,13 +35796,25 @@
     "text": "Слова",
     "source": "0a8be89a52a8"
   },
+  "video.inspector.words-alone": {
+    "text": "Только текст",
+    "source": "ddf082782ed5"
+  },
   "ui.proofing.words-for-word": {
     "text": "Слова для «{word}»",
     "source": "6d61efe54546"
   },
+  "video.library.words-on-a-pill": {
+    "text": "Слова на капсуле",
+    "source": "c3b9558baaef"
+  },
   "spoken.voices.words-to-say": {
     "text": "Слова для озвучивания",
     "source": "3353415dcf6a"
+  },
+  "video.library.words-typed-in-over-the-pictures": {
+    "text": "Слова поверх изображения, появляющиеся на выбор: побуквенно, по словам, по строкам, караоке или всё сразу.",
+    "source": "bbe7cf532cfb"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "Добавленные вами слова никогда не помечаются как ошибки ни в «Документах», ни в «Таблицах», ни в «Презентациях».",
@@ -35384,6 +35940,10 @@
     "text": "Записать вложения рядом с сообщением",
     "source": "e456d4b9b1fd"
   },
+  "sheets.ribbon.write-each-value-beside-its-bar": {
+    "text": "Подписать значения у столбцов или точек.",
+    "source": "026231f2c863"
+  },
   "mail.compose.write-it-in-a-window-of": {
     "text": "Писать в отдельном окне",
     "source": "76eb5c9c5448"
@@ -35400,9 +35960,17 @@
     "text": "Напишите первое сообщение в эту группу.",
     "source": "79c6b8f1ef84"
   },
+  "sheets.ribbon.write-the-share-of-each-slice": {
+    "text": "Подписать долю на каждом секторе.",
+    "source": "d494df2a096c"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "Запись прервана: {reason}. Записанное до этого сохранено.",
     "source": "9d5b1ef54387"
+  },
+  "sheets.dialogs.written-for-the-first-cell-of": {
+    "text": "Записывается для первой ячейки выделения, например =$C2>100. Знак доллара закрепляет столбец или строку.",
+    "source": "d7d6c2376a68"
   },
   "contacts.wrote-count-card-to-file": {
     "forms": {
@@ -35769,6 +36337,10 @@
   "video.your-title-here": {
     "text": "Ваш заголовок",
     "source": "66094e7e6215"
+  },
+  "video.your-web-address": {
+    "text": "Ваш веб-адрес",
+    "source": "0bceb158232c"
   },
   "video.library.your-words": {
     "text": "Свой текст",
@@ -37447,6 +38019,10 @@
     "text": "{calendars}, {books} · синхронизировано {when}",
     "source": "e74fd34182ad"
   },
+  "sheets.cell-was-not-changed-reason": {
+    "text": "{cell}: значение не изменено. {reason}",
+    "source": "c6587d02f21f"
+  },
   "engine.changed-file-types-now-open-with": {
     "text": "Типов файлов, которые теперь открываются в Rutba Office: {changed}.",
     "source": "aac86dd995be"
@@ -38212,6 +38788,10 @@
       "other": "Оставлено без изменений: {count}"
     },
     "source": "58f6eb7ce109"
+  },
+  "video.inspector.count-letters-a-second": {
+    "text": "Букв в секунду: {count}",
+    "source": "8492559d17f5"
   },
   "base.documents.count-line": {
     "forms": {
@@ -39403,6 +39983,10 @@
     "text": "Коррекция: {look}",
     "source": "eb6eabf53c50"
   },
+  "video.made-the-chapters-are-in-name": {
+    "text": "{made} Главы сохранены в файле {name}.",
+    "source": "fe36caf0e53c"
+  },
   "video.made-the-first-go-came-out": {
     "text": "{made}. Первая попытка превысила {limit}, файл сжат сильнее.",
     "source": "17043b2efde8"
@@ -39501,6 +40085,10 @@
     "text": "{name} заменяется именем каждого человека. Ссылка для принятия и способ получить Rutba Office добавляются под вашей запиской.",
     "source": "6724ae357006"
   },
+  "talk.name-called-while-you-were-on": {
+    "text": "Звонок от {name} во время эфира отклонен как «Занято». Он в списке «Пропущенные звонки».",
+    "source": "2a0990e6e9e1"
+  },
   "video.name-cannot-be-played-on-this": {
     "text": "Файл {name} нельзя воспроизвести на этом компьютере.",
     "source": "56c80f47dfd7"
@@ -39568,6 +40156,10 @@
   "talk-words.name-ended-the-meeting": {
     "text": "Собрание завершено пользователем {name}.",
     "source": "68a9df35664b"
+  },
+  "studio.guests.name-has-left-the-meeting-their": {
+    "text": "{name}: выход из собрания. Место гостя теперь свободно.",
+    "source": "7ff12fec0c3b"
   },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "В файле {name} больше одного листа. Первая строка выбранного листа задает имена полей.",
@@ -40210,6 +40802,10 @@
     "text": "Адрес {recipient} добавлен в «Надежные получатели»",
     "source": "0b01f434a11b"
   },
+  "sheets.removed-duplicate-rows-removed-kept-rows": {
+    "text": "Удалено повторяющихся строк: {removed}; осталось строк: {kept}.",
+    "source": "7299a779b8cc"
+  },
   "calendar.words.room-is-booked-for-when": {
     "text": "Помещение {room} забронировано на {when}.",
     "source": "6c97b843b2c6"
@@ -40241,6 +40837,10 @@
   "common.seconds-s": {
     "text": "{seconds} с",
     "source": "fde82d3dd95e"
+  },
+  "video.inspector.seconds-s-apart": {
+    "text": "Интервал {seconds} с",
+    "source": "f04806f51dbb"
   },
   "pictures.seconds-s": {
     "text": "{seconds} с",

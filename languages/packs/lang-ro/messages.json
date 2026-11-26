@@ -207,6 +207,18 @@
     "text": "„{word}” este în dicționarul dvs.",
     "source": "b9aeb4fc656c"
   },
+  "sheets.pivot-fields.of-column-total": {
+    "text": "% din totalul coloanei",
+    "source": "eab72b338837"
+  },
+  "sheets.pivot-fields.of-grand-total": {
+    "text": "% din totalul general",
+    "source": "ad881b0c599c"
+  },
+  "sheets.pivot-fields.of-row-total": {
+    "text": "% din totalul rândului",
+    "source": "97a366055762"
+  },
   "word.list-dialog.2-is-this-levels-number-1": {
     "text": "%2 este numărul acestui nivel; %1, numărul nivelului de deasupra lui.",
     "source": "9cbc5138d80a"
@@ -391,6 +403,10 @@
     "text": "Cu 1 zi înainte",
     "source": "a8b499336a9e"
   },
+  "sheets.1-duplicate-row-removed-kept-rows": {
+    "text": "1 rând dublură eliminat; rânduri rămase: {kept}.",
+    "source": "f63cb027fc81"
+  },
   "calendar.1-hour-before": {
     "text": "Cu 1 oră înainte",
     "source": "5104b6b7955e"
@@ -562,6 +578,10 @@
   "engine.a-pdf-with-no-pages-is": {
     "text": "Un PDF fără pagini nu este un document. Adăugați întâi o pagină.",
     "source": "df7ad0646756"
+  },
+  "video.library.a-qr-code-type-the-address": {
+    "text": "Un cod QR; tastați adresa pe care o deschide.",
+    "source": "3c11f5898b54"
   },
   "talk.a-turn-server-you-run-offered": {
     "text": "Un server TURN pe care îl rulați; oferit celeilalte părți la apeluri",
@@ -811,6 +831,10 @@
     "text": "O formulă aici conține numere, celule ca B2 sau B2:B4, semnele +, -, * și /, paranteze și SUM, AVERAGE, COUNT, MAX, MIN, PRODUCT sau ABS ale acestora ori ale ABOVE, LEFT, BELOW sau RIGHT, cum ar fi =SUM(ABOVE).",
     "source": "74a836a73c62"
   },
+  "sheets.dialogs.a-formula-is-true": {
+    "text": "O formulă este adevărată",
+    "source": "77bbea0fd15f"
+  },
   "home.a-free-office-suite-mail-documents": {
     "text": "O suită office gratuită: e-mail, documente, foi de calcul, prezentări, imagini, editare de imagini și video, pe un motor care ne aparține.",
     "source": "cbecbd51dbc1"
@@ -975,6 +999,10 @@
     "text": "Un nume pentru fiecare coloană, din antetul ei. Manager nume le listează",
     "source": "9a8020d11b5d"
   },
+  "sheets.a-name-starts-with-a-letter": {
+    "text": "Un nume începe cu o literă și nu are spații, de exemplu Sales_May. O adresă arată ca B7 sau B2:D9.",
+    "source": "e623278e0626"
+  },
   "review.a-name-that-says-what-is": {
     "text": "Nume care spune ce conține „{sheet}”:",
     "source": "818eb2db1790"
@@ -1130,6 +1158,14 @@
   "slides.a-pie-chart-draws-only-its": {
     "text": "O diagramă radială desenează doar prima sa serie.",
     "source": "f51e19a20a49"
+  },
+  "video.inspector.a-piece-for-each-clip": {
+    "text": "Un segment pentru fiecare clip",
+    "source": "aceec9902c4c"
+  },
+  "video.inspector.a-piece-for-each-marker": {
+    "text": "Un segment pentru fiecare marcator",
+    "source": "cb5ab8475fd9"
   },
   "engine.a-pivot-needs-at-least-one": {
     "text": "Un pivot necesită cel puțin un câmp în Valori.",
@@ -1303,6 +1339,10 @@
     "text": "O notă scurtă pentru o echipă: către, de la, subiectul, contextul și ce urmează",
     "source": "7cbd8d22f139"
   },
+  "video.library.a-short-word-on-a-coloured": {
+    "text": "Un cuvânt scurt pe o capsulă colorată, de exemplu NEW sau SALE.",
+    "source": "440aa0204a24"
+  },
   "word.drawings.a-sidebar-stands-beside-the-story": {
     "text": "O bară laterală stă lângă articol, cu textul legat de el: un rezumat, o listă de idei, o notă pentru cititor.",
     "source": "f84097aa22f7"
@@ -1334,6 +1374,10 @@
   "slides.export-video.a-slide-with-a-timing-of": {
     "text": "Un diapozitiv cu temporizare proprie o păstrează când se folosesc temporizările; restul rămân afișate secundele de mai sus. Animațiile apar terminate.",
     "source": "8e642bc4c741"
+  },
+  "video.library.a-small-line-along-the-foot": {
+    "text": "Un rând mic de-a lungul marginii de jos a cadrului, de exemplu adresa dvs. web.",
+    "source": "9e6f80e3ef70"
   },
   "studio.scene-strip.a-source": {
     "text": "O sursă",
@@ -1598,6 +1642,10 @@
   "common.above-front-right": {
     "text": "Deasupra, față dreapta",
     "source": "0edd0b82de7b"
+  },
+  "sheets.dialogs.above-average": {
+    "text": "Peste medie",
+    "source": "98ca5f459314"
   },
   "equations.absolute-value": {
     "text": "Valoare absolută",
@@ -2503,6 +2551,10 @@
     "text": "Avansat…",
     "source": "1de3a18e329f"
   },
+  "sheets.filter-panel.after": {
+    "text": "După",
+    "source": "7b68fe551085"
+  },
   "word.ribbon.after-pt": {
     "text": "După (pt)",
     "source": "19ec57700505"
@@ -2710,6 +2762,10 @@
   "slides.ribbon.all-at-once": {
     "text": "Toate odată",
     "source": "c9d506ca2d68"
+  },
+  "video.inspector.all-at-once": {
+    "text": "Dintr-odată",
+    "source": "f90683717cd2"
   },
   "sheets.ribbon.all-borders": {
     "text": "Toate bordurile",
@@ -3198,6 +3254,10 @@
   "engine.another-program-opens-mail-links-on": {
     "text": "Alt program deschide linkurile de e-mail pe acest computer.",
     "source": "1a1b9963a277"
+  },
+  "sheets.dialogs.another-rule": {
+    "text": "Altă regulă",
+    "source": "35c09b4d7aef"
   },
   "common.answer": {
     "text": "Răspuns",
@@ -3939,6 +3999,14 @@
     "text": "Plecat",
     "source": "af16c830c510"
   },
+  "sheets.dialogs.axis": {
+    "text": "Axă",
+    "source": "32b73caefac1"
+  },
+  "sheets.ribbon.axis-titles": {
+    "text": "Titluri axe",
+    "source": "900f286eac2b"
+  },
   "common.b5-176-250-mm": {
     "text": "B5 (176 × 250 mm)",
     "source": "344900110be7"
@@ -4055,6 +4123,10 @@
     "text": "Rânduri alternante: fiecare al doilea rând umbrit, după cum le marchează stilul",
     "source": "f6ced0fcf385"
   },
+  "sheets.ribbon.banded-rows": {
+    "text": "Rânduri alternante",
+    "source": "6e9aa5474c82"
+  },
   "common.banner": {
     "text": "Banner",
     "source": "b7f4d98f98d5"
@@ -4111,6 +4183,10 @@
     "text": "Bip",
     "source": "4ccb3fb5330b"
   },
+  "sheets.filter-panel.before": {
+    "text": "Înainte de",
+    "source": "9bb725005055"
+  },
   "word.ribbon.before-pt": {
     "text": "Înainte (pt)",
     "source": "bba72e0923a5"
@@ -4122,6 +4198,10 @@
   "protect.before-sharing-this-file-check-it": {
     "text": "Înainte de a partaja acest fișier, verificați dacă are conținut pe care poate nu doriți să-l vadă alții: comentarii, modificări, cuvinte ascunse și informații personale.",
     "source": "56f7599f4157"
+  },
+  "sheets.filter-panel.begins-with": {
+    "text": "Începe cu",
+    "source": "853978f44eaf"
   },
   "word.ribbon.behind-text": {
     "text": "În spatele textului",
@@ -4142,6 +4222,10 @@
   "common.below-front-right": {
     "text": "Dedesubt, față dreapta",
     "source": "31fedbb2729e"
+  },
+  "sheets.dialogs.below-average": {
+    "text": "Sub medie",
+    "source": "8f2f0fa9a074"
   },
   "common.berry": {
     "text": "Afine",
@@ -4407,9 +4491,17 @@
     "text": "Bordură jos",
     "source": "0dc79f4813a3"
   },
+  "sheets.dialogs.bottom-items": {
+    "text": "Ultimele elemente",
+    "source": "aa9e5db6f818"
+  },
   "common.bottom-left": {
     "text": "Stânga jos",
     "source": "f5a57b969150"
+  },
+  "sheets.dialogs.bottom-per-cent": {
+    "text": "Ultimele procente",
+    "source": "10bad9a09d6f"
   },
   "common.bottom-right": {
     "text": "Dreapta jos",
@@ -4418,6 +4510,14 @@
   "video.layer-names.bottom-shade": {
     "text": "Umbrire jos",
     "source": "1dffbced0f7c"
+  },
+  "sheets.dialogs.bottom-count": {
+    "text": "Ultimele {count}",
+    "source": "54119ed17f6b"
+  },
+  "sheets.dialogs.bottom-count-2": {
+    "text": "Ultimele {count}%",
+    "source": "658e45ae01eb"
   },
   "word.ribbon.box-dashed-line": {
     "text": "Chenar: linie întreruptă",
@@ -4943,6 +5043,10 @@
     "text": "Subtitrări (.srt, .vtt)",
     "source": "1c941a0a4cea"
   },
+  "video.library.captions-and-quick-adds": {
+    "text": "Legende și adăugări rapide",
+    "source": "d062fc34102e"
+  },
   "slides.album.captions-below-all-pictures": {
     "text": "Legende sub toate imaginile",
     "source": "dd686df00caf"
@@ -5227,6 +5331,10 @@
     "text": "Modificare…",
     "source": "a6b4705c6883"
   },
+  "video.chapter-n": {
+    "text": "Capitolul {n}",
+    "source": "816e97139189"
+  },
   "sheets.queries.character": {
     "text": "Caracter",
     "source": "1405a63e8a78"
@@ -5254,6 +5362,10 @@
   "sheets.ribbon.chart-design": {
     "text": "Proiectare diagramă",
     "source": "d41692080652"
+  },
+  "sheets.ribbon.chart-elements": {
+    "text": "Elemente diagramă",
+    "source": "b2c3cce9d69c"
   },
   "sheets.ribbon.chart-title": {
     "text": "Titlu diagramă",
@@ -5654,6 +5766,10 @@
   "image.choose-the-layer-to-clear-the": {
     "text": "Alegeți stratul din care să goliți selecția.",
     "source": "04a21a186397"
+  },
+  "video.choose-the-logo": {
+    "text": "Alegere siglă",
+    "source": "0240baf232cc"
   },
   "studio.bottom-bar.choose-the-microphone": {
     "text": "Alegere microfon",
@@ -6183,6 +6299,14 @@
     "text": "Culoarea cuvintelor",
     "source": "8c6ececb4c11"
   },
+  "sheets.dialogs.colour-of-those-points": {
+    "text": "Culoarea acelor puncte",
+    "source": "898998460449"
+  },
+  "sheets.dialogs.colour-scale": {
+    "text": "Scală de culori",
+    "source": "000799f1a3ef"
+  },
   "sheets.dialogs.colour-scale-green-yellow-red-low": {
     "text": "Scală de culori: verde, galben, roșu (de la mic la mare)",
     "source": "234d0c0e170a"
@@ -6442,6 +6566,10 @@
   "locker.compare": {
     "text": "Comparare…",
     "source": "219ddc366d9d"
+  },
+  "sheets.filter-panel.comparison": {
+    "text": "Comparație",
+    "source": "571527339d0e"
   },
   "word.mailings.comparison": {
     "text": "Comparație:",
@@ -6799,6 +6927,10 @@
     "text": "Copiere cale",
     "source": "720ff4160412"
   },
+  "sheets.copy-sheet": {
+    "text": "Copiere foaie",
+    "source": "c9a0f392b71f"
+  },
   "sheets.ribbon.copy-the-formatting-here-to-the": {
     "text": "Copiere formatare de aici la selecția următoare",
     "source": "385e4d1fba79"
@@ -6922,6 +7054,10 @@
   "word.ribbon.count-above": {
     "text": "Număr deasupra",
     "source": "33e9e80a1691"
+  },
+  "sheets.ribbon.count-numbers": {
+    "text": "Contorizare numere",
+    "source": "f6b68195bdad"
   },
   "sheets.queries.count-rows": {
     "text": "Numărare rânduri",
@@ -7315,6 +7451,10 @@
     "text": "Albastru închis",
     "source": "6c12f1ca1641"
   },
+  "sheets.dialogs.dark-blue-grey": {
+    "text": "Gri-albastru închis",
+    "source": "744e37be8716"
+  },
   "qrcode.dark-brown": {
     "text": "Maro închis",
     "source": "f22b68958bf5"
@@ -7423,6 +7563,10 @@
     "text": "Baze de date Data Files",
     "source": "24e8c9743f1a"
   },
+  "sheets.ribbon.data-labels": {
+    "text": "Etichete de date",
+    "source": "78023df4505c"
+  },
   "sheets.ribbon.data-table": {
     "text": "Tabel de date…",
     "source": "fedeed59d538"
@@ -7438,6 +7582,10 @@
   "sheets.ribbon.data-validation": {
     "text": "Validare date",
     "source": "28971fd398d1"
+  },
+  "sheets.dialogs.data-bars": {
+    "text": "Bare de date",
+    "source": "e7a181724128"
   },
   "sheets.dialogs.data-bars-blue": {
     "text": "Bare de date: albastru",
@@ -7486,6 +7634,10 @@
   "slides.ribbon.date-and-time-a-date-along": {
     "text": "Dată și oră: o dată în partea de jos, actualizată sau fixă",
     "source": "f94ad5295f5d"
+  },
+  "sheets.filter-panel.date-filters": {
+    "text": "Filtre dată",
+    "source": "bacb61184a41"
   },
   "word.forms.date-picker-content-control": {
     "text": "Control de conținut selector de date",
@@ -8163,6 +8315,10 @@
     "text": "Diferență",
     "source": "4d280a451d04"
   },
+  "sheets.pivot-fields.difference-from-previous": {
+    "text": "Diferență față de anterior",
+    "source": "4473ab760db3"
+  },
   "slides.different-since-this-deck-was-last": {
     "text": "Diferit de când prezentarea a fost deschisă ultima dată aici",
     "source": "da4a123f25df"
@@ -8174,6 +8330,10 @@
   "shell.digits": {
     "text": "Cifre",
     "source": "9cd500d3d69f"
+  },
+  "video.inspector.dim": {
+    "text": "Estompat",
+    "source": "ea53b1cb304d"
   },
   "pictures.dimensions": {
     "text": "Dimensiuni",
@@ -8354,6 +8514,14 @@
   "home.documents-mail-and-media-all-work": {
     "text": "Documentele, e-mailul și media funcționează fără conexiune la rețea",
     "source": "e815503e3abf"
+  },
+  "sheets.filter-panel.does-not-contain": {
+    "text": "Nu conține",
+    "source": "56fe07f0e32e"
+  },
+  "sheets.filter-panel.does-not-equal": {
+    "text": "Nu este egal cu",
+    "source": "e47c3280f3bf"
   },
   "calendar.does-not-repeat": {
     "text": "Nu se repetă",
@@ -8703,10 +8871,6 @@
     "text": "Rânduri dublate eliminate",
     "source": "e606bafdbd22"
   },
-  "sheets.duplicate-rows-removed-the-rest-closed": {
-    "text": "Rânduri dublate eliminate; restul au fost alăturate",
-    "source": "0827cbb28e3a"
-  },
   "slides.duplicate-slide": {
     "text": "Dublare diapozitiv",
     "source": "ab7940817995"
@@ -8807,6 +8971,10 @@
     "text": "Fiecare rând citit cu voce tare, cu textul afișat cât timp se aude vocea, unul după altul",
     "source": "282adc866b4a"
   },
+  "studio.spoken-run.each-line-types-in-letter-by": {
+    "text": "Fiecare rând se scrie literă cu literă, de la următorul rând rostit.",
+    "source": "a390f5fb2388"
+  },
   "ai-tools-dialog.each-mail-account-calendar-address-book": {
     "text": "Fiecare cont de e-mail, calendar, agendă de adrese, bază de date și folder are setarea sa, afișată și în aplicația sa, la fel și Înregistratorul (Recorder). Totul este Dezactivat până alegeți. Nimic nu este niciodată șters sau mutat, iar orice trimitere așteaptă mai întâi apăsarea dvs. aici.",
     "source": "0fd0a5b12aaa"
@@ -8851,6 +9019,10 @@
     "text": "Fiecare sursă în propriul fișier",
     "source": "87ba78fbecfd"
   },
+  "sheets.dialogs.each-sparkline-its-own-lowest-and": {
+    "text": "Fiecare cu propriul minim și maxim",
+    "source": "6a9c83cdf903"
+  },
   "sheets.objects.each-ticked-field-gets-a-panel": {
     "text": "Fiecare câmp bifat primește un panou de butoane, unul pentru fiecare element, care filtrează tabelul pivot.",
     "source": "57b495c85a7a"
@@ -8870,6 +9042,10 @@
   "slides.custom-shows.earlier-in-the-show": {
     "text": "Mai devreme în expunere",
     "source": "c75dff7e0d23"
+  },
+  "sheets.dialogs.earliest-date": {
+    "text": "Cea mai veche dată",
+    "source": "82a5aebc403c"
   },
   "word.references-index.earth": {
     "text": "Pământ",
@@ -9363,6 +9539,10 @@
     "text": "Se termină",
     "source": "e98982c9f2ba"
   },
+  "sheets.filter-panel.ends-with": {
+    "text": "Se termină cu",
+    "source": "fc203569fa85"
+  },
   "base.links.engine": {
     "text": "Motor",
     "source": "8e75ebbdb215"
@@ -9438,6 +9618,10 @@
   "common.equal-to": {
     "text": "Egal cu",
     "source": "6a26ff8ea94b"
+  },
+  "sheets.filter-panel.equals": {
+    "text": "Este egal cu",
+    "source": "f939ae3d30c6"
   },
   "common.equation": {
     "text": "Ecuație",
@@ -9575,6 +9759,10 @@
     "text": "Fiecare buton doar cu imaginea; numele apare când indicatorul stă pe el",
     "source": "21abdd3708ee"
   },
+  "video.inspector.every-caption-in-the-film-types": {
+    "text": "Fiecare legendă din film se scrie la această viteză.",
+    "source": "330cbb6a15e3"
+  },
   "slides.every-comment-here-was-already-read": {
     "text": "Fiecare comentariu de aici a fost deja citit.",
     "source": "47ca1a3a2589"
@@ -9658,6 +9846,10 @@
   "pictures.every-picture-shown-count": {
     "text": "Toate imaginile afișate ({count})",
     "source": "904610f6a47a"
+  },
+  "sheets.dialogs.every-point-line-only": {
+    "text": "Toate punctele (doar linie)",
+    "source": "88f8f754acf4"
   },
   "base.documents.every-record": {
     "text": "Fiecare înregistrare",
@@ -11135,6 +11327,10 @@
     "text": "Formulă: un câmp în celula curentă, calculat din numerele de deasupra sau din stânga ei ori din celule ca B2 și B2:B4, ca =SUM(ABOVE) din Word",
     "source": "ac4ef0433793"
   },
+  "sheets.dialogs.formula-formula": {
+    "text": "Formulă: {formula}",
+    "source": "373a77366380"
+  },
   "sheets.formulas": {
     "text": "Formule",
     "source": "098baf95d843"
@@ -11718,6 +11914,10 @@
   "word.mailings.greater-than-or-equal": {
     "text": "Mai mare sau egal",
     "source": "4df4f066c9c1"
+  },
+  "sheets.filter-panel.greater-than-or-equal-to": {
+    "text": "Mai mare sau egal cu",
+    "source": "85d08e847878"
   },
   "common.greek": {
     "text": "Greacă",
@@ -12311,6 +12511,10 @@
     "text": "Ascundere diapozitiv: diapozitivul este ascuns în expunere; apăsați din nou pentru a-l afișa",
     "source": "7d777db556ab"
   },
+  "sheets.hide-columns": {
+    "text": "Ascundere coloane",
+    "source": "9d5c93b12237"
+  },
   "image.layers-panel.hide-its-layers": {
     "text": "Ascunderea straturilor sale",
     "source": "e3c527659d85"
@@ -12318,6 +12522,10 @@
   "protect.hide-password": {
     "text": "Ascundere parolă",
     "source": "a60a56c584b3"
+  },
+  "sheets.hide-rows": {
+    "text": "Ascundere rânduri",
+    "source": "6e6875f9e909"
   },
   "talk.invite.hide-the-code": {
     "text": "Ascundere cod",
@@ -12370,6 +12578,10 @@
   "qrcode.high-30": {
     "text": "Ridicat (30%)",
     "source": "652a05d1ae51"
+  },
+  "sheets.dialogs.high-point": {
+    "text": "Punct maxim",
+    "source": "80ab296d2b33"
   },
   "pdf.export.high-quality-225-dots-per-inch": {
     "text": "Calitate înaltă (225 puncte pe inch)",
@@ -12482,6 +12694,10 @@
   "slides.horizontal-out": {
     "text": "Orizontal spre exterior",
     "source": "51081ab58752"
+  },
+  "sheets.ribbon.horizontal-axis-title": {
+    "text": "Titlu axă orizontală",
+    "source": "b3c89eb1f3c0"
   },
   "common.horizontal-brick": {
     "text": "Cărămidă orizontală",
@@ -12642,6 +12858,10 @@
   "common.icon": {
     "text": "Pictogramă",
     "source": "a35abcd6dac9"
+  },
+  "sheets.dialogs.icon-set": {
+    "text": "Set de pictograme",
+    "source": "a3ae5ca177a0"
   },
   "common.icons": {
     "text": "Pictograme",
@@ -12931,6 +13151,10 @@
     "text": "Într-un cont sau o arhivă",
     "source": "be358173c89a"
   },
+  "video.inspector.in-pieces": {
+    "text": "În segmente",
+    "source": "786b72b37492"
+  },
   "video.in-point": {
     "text": "Punct de intrare",
     "source": "9c1d42b38a85"
@@ -12978,6 +13202,10 @@
   "video.in-from-out-to": {
     "text": "Intrare {from}, ieșire {to}",
     "source": "9ad2ac8a59a8"
+  },
+  "sheets.dialogs.in-range-a-row-that-repeats": {
+    "text": "În {range}, un rând care repetă un rând anterior în fiecare coloană bifată este eliminat. Primul din fiecare rămâne.",
+    "source": "ac1519f6f42d"
   },
   "studio.shared.in-seconds-s": {
     "text": "În {seconds} s",
@@ -13979,6 +14207,14 @@
     "text": "Cursiv (Ctrl+I)",
     "source": "ccc60dff1674"
   },
+  "sheets.filter-panel.items": {
+    "text": "Elemente",
+    "source": "fb8e7a1a3cb7"
+  },
+  "sheets.filter-panel.items-or-percent": {
+    "text": "Elemente sau procent",
+    "source": "14cded7778d2"
+  },
   "template-gallery.items-counts-and-reorder-levels-the": {
     "text": "Articole, cantități și niveluri de recomandă, valoarea stocului și ce trebuie comandat din nou",
     "source": "a704276dd164"
@@ -14010,6 +14246,10 @@
   "slides.ribbon.its-notes": {
     "text": "Notele sale",
     "source": "a316f96e4b04"
+  },
+  "sheets.dialogs.its-own-lowest-and-highest-shows": {
+    "text": "Minimul și maximul propriu arată creșterile și scăderile fiecărui rând; o axă comună compară mărimile lor.",
+    "source": "2a62e687c030"
   },
   "mail.smime.its-password": {
     "text": "Parola sa",
@@ -14170,6 +14410,10 @@
   "word.ribbon.justify-with-kashida-stretch-the-letters": {
     "text": "Stânga-dreapta cu kashida: literele se întind pentru a umple rândul, ca în textul arab",
     "source": "b7ba4e7d59c4"
+  },
+  "video.inspector.karaoke": {
+    "text": "Karaoke",
+    "source": "34cd21fcc55b"
   },
   "common.keep": {
     "text": "Păstrare",
@@ -14611,6 +14855,10 @@
     "text": "Nume de familie",
     "source": "7b4888049459"
   },
+  "sheets.dialogs.last-point": {
+    "text": "Ultimul punct",
+    "source": "430de8dd535b"
+  },
   "common.last-record": {
     "text": "Ultima înregistrare",
     "source": "27fef2475093"
@@ -14654,6 +14902,10 @@
   "mail.compose.later-today-9pm": {
     "text": "Mai târziu astăzi, 21:00",
     "source": "1c66a953a2b9"
+  },
+  "sheets.dialogs.latest-date": {
+    "text": "Cea mai recentă dată",
+    "source": "a9de7221765f"
   },
   "image.layer": {
     "text": "Strat",
@@ -14927,6 +15179,10 @@
     "text": "Mai mic sau egal",
     "source": "ee8df42e1687"
   },
+  "sheets.filter-panel.less-than-or-equal-to": {
+    "text": "Mai mic sau egal cu",
+    "source": "ae1564a79ff3"
+  },
   "template-gallery.lesson": {
     "text": "Lecție",
     "source": "6e2b26d9de40"
@@ -15135,6 +15391,10 @@
     "text": "Linie între",
     "source": "1bac593d7aea"
   },
+  "video.inspector.line-by-line": {
+    "text": "Rând cu rând",
+    "source": "d69a37385809"
+  },
   "sheets.dialogs.line-chart": {
     "text": "Diagramă cu linii",
     "source": "22089151613f"
@@ -15194,6 +15454,10 @@
   "base.documents.lines-from": {
     "text": "Rânduri din",
     "source": "dc6d35c2f93b"
+  },
+  "video.inspector.lines-one-at-a-time": {
+    "text": "Rândurile, unul după altul",
+    "source": "e30051392bb1"
   },
   "locker.lines-say-what-to-lock-a": {
     "text": "Rândurile spun ce se blochează; un rând care începe cu ! creează o excepție. Fără rânduri, se blochează fiecare fișier.",
@@ -15646,6 +15910,10 @@
   "video.export.low-smaller-file": {
     "text": "Scăzută (fișier mai mic)",
     "source": "e585bb7bd95c"
+  },
+  "sheets.dialogs.low-point": {
+    "text": "Punct minim",
+    "source": "2529ac347b3d"
   },
   "video.ribbon.lower-third": {
     "text": "Banderolă",
@@ -17079,6 +17347,10 @@
     "text": "Contactele mele",
     "source": "6add5927687d"
   },
+  "sheets.dialogs.my-data-has-headers": {
+    "text": "Datele mele au anteturi",
+    "source": "e917f14e7d6e"
+  },
   "talk.invite.my-email-app": {
     "text": "Aplicația mea de e-mail",
     "source": "c7aaaf0507c4"
@@ -17122,6 +17394,10 @@
   "broadcast.live-dialog.name-optional": {
     "text": "Nume (opțional)",
     "source": "e09b37bcc4f3"
+  },
+  "sheets.name-box.name-box": {
+    "text": "Casetă nume",
+    "source": "730b51d34ee3"
   },
   "sheets.ribbon.name-manager": {
     "text": "Manager nume",
@@ -17270,6 +17546,10 @@
   "locker.needs-you": {
     "text": "Vă așteaptă",
     "source": "74b6abdf5969"
+  },
+  "sheets.dialogs.negative-points": {
+    "text": "Puncte negative",
+    "source": "6963e8f96ed2"
   },
   "talk.neither-of-you-can-write-to": {
     "text": "Niciunul dintre dvs. nu îi poate scrie sau apela pe celălalt până nu redeveniți contacte. Mesajele de aici se șterg.",
@@ -17903,6 +18183,10 @@
     "text": "Niciun bloc de construcție încă",
     "source": "ee11b12ee206"
   },
+  "sheets.pivot-fields.no-calculation": {
+    "text": "Fără calcul",
+    "source": "5da6f87ac7cb"
+  },
   "engine.no-calendars-or-address-books-were": {
     "text": "Nu s-au găsit calendare sau agende de adrese la acea adresă.",
     "source": "6b303bb9fae7"
@@ -18011,9 +18295,9 @@
     "text": "Nicio idee de proiectare pentru acest diapozitiv: adăugați un titlu, text sau o imagine.",
     "source": "1f07475c0307"
   },
-  "sheets.no-duplicate-rows-in-the-selection": {
-    "text": "Niciun rând dublat în selecție",
-    "source": "47e580620f2e"
+  "sheets.no-duplicate-rows-found-kept-rows": {
+    "text": "Nu s-au găsit rânduri dublură; rânduri rămase: {kept}.",
+    "source": "a032b583b3d3"
   },
   "word.mailings.no-duplicates": {
     "text": "Fără dubluri",
@@ -19059,6 +19343,18 @@
     "text": "Notificări întrerupte până la {time}",
     "source": "1d6521f14f4e"
   },
+  "notify-dialog.notifications-are-turned-off-in-windows": {
+    "text": "Notificările sunt dezactivate în Windows, deci acesta nu afișează niciuna de la Rutba Office. Activați-le în Setările Windows, la Sistem, Notificări.",
+    "source": "a652d04931a6"
+  },
+  "notify-dialog.notifications-are-turned-off-on-this": {
+    "text": "Administratorul a dezactivat notificările pe acest computer, deci Windows nu afișează niciuna de la Rutba Office. Elementele în așteptare sunt numărate în continuare pe pictograma de lângă ceas.",
+    "source": "76e702238671"
+  },
+  "notify-dialog.notifications-from-rutba-office-are-turned": {
+    "text": "Notificările de la Rutba Office sunt dezactivate în Windows. Activați-le în Setările Windows, la Sistem, Notificări, Rutba Office.",
+    "source": "e19167006214"
+  },
   "slides.slide-size.now-width-by-height-cm-everything": {
     "text": "Acum {width} pe {height} cm. Tot ce este pe diapozitive este scalat și centrat după noua dimensiune.",
     "source": "4e0c85185863"
@@ -19078,6 +19374,10 @@
   "common.number": {
     "text": "Număr",
     "source": "bd82cf16699b"
+  },
+  "sheets.filter-panel.number-filters": {
+    "text": "Filtre numerice",
+    "source": "13fe0c5baab5"
   },
   "pictures.batch.number-as-001": {
     "text": "Numerotare ca 001",
@@ -19283,6 +19583,10 @@
     "text": "Pe un strat nou de pictură",
     "source": "0501424bc7c7"
   },
+  "video.inspector.on-a-panel": {
+    "text": "Pe un panou",
+    "source": "e8787dfd4dc5"
+  },
   "studio.live-panel.on-air": {
     "text": "În emisie",
     "source": "c2332b223176"
@@ -19375,6 +19679,14 @@
     "text": "Un singur răspuns le conține pe toate",
     "source": "0670ff9a00aa"
   },
+  "video.inspector.one-bar": {
+    "text": "O singură bară",
+    "source": "4bfa8b51bda1"
+  },
+  "video.inspector.one-caption-a-line-one-after": {
+    "text": "Câte o legendă pentru fiecare rând, una după alta, fiecare pe pista ei.",
+    "source": "01dc9af7bfb6"
+  },
   "slides.ribbon.one-column": {
     "text": "O coloană",
     "source": "4af4c82acab4"
@@ -19394,6 +19706,10 @@
   "word.dialogs.one-line-per-line-a-tab": {
     "text": "Un rând pentru fiecare rând. Un Tab duce la centru, al doilea la dreapta.",
     "source": "80be2d4cf6a5"
+  },
+  "video.inspector.one-line-there-is-nothing-to": {
+    "text": "Un rând: nu există nimic de scindat.",
+    "source": "c2918f5eb39b"
   },
   "image.layers-panel.one-name-and-one-number-on": {
     "text": "Un nume și un număr pe fiecare rând, de exemplu: Lun, 12",
@@ -19470,6 +19786,10 @@
   "notify-dialog.only-an-installed-copy-of-rutba": {
     "text": "Doar o copie instalată a Rutba Office poate porni odată cu Windows.",
     "source": "5d376c6f923f"
+  },
+  "notify-dialog.only-an-installed-copy-of-rutba-2": {
+    "text": "Doar o copie instalată a Rutba Office afișează notificări Windows. Elementele în așteptare sunt numărate în continuare pe pictograma de lângă ceas.",
+    "source": "5fedb6d63e92"
   },
   "word.only-certain-kinds-of-changes-can": {
     "text": "În acest document se pot face doar anumite tipuri de modificări. Vedeți Revizuire → Restricționare editare.",
@@ -19794,6 +20114,10 @@
   "broadcast.live-dialog.open-the-kick-dashboard": {
     "text": "Deschidere tablou de bord Kick",
     "source": "bf6f8e9ef858"
+  },
+  "notify-dialog.open-the-settings-of-windows": {
+    "text": "Deschidere Setări Windows",
+    "source": "5af9b33ed216"
   },
   "talk.open-the-browser-again": {
     "text": "Redeschidere browser",
@@ -20783,6 +21107,10 @@
     "text": "Selectați un clip pentru a-i vedea setările.",
     "source": "6eb0903d3b41"
   },
+  "sheets.dialogs.pick-a-colour-for-the-tab": {
+    "text": "Alegeți o culoare pentru fila {name}.",
+    "source": "e9df2741dc65"
+  },
   "slides.pick-a-comment-first-in-the": {
     "text": "Alegeți mai întâi un comentariu, în panou sau pe diapozitiv.",
     "source": "f5e1dbf895bc"
@@ -20802,6 +21130,14 @@
   "talk.invite-email.pick-from-contacts": {
     "text": "Alegere din Contacte",
     "source": "e44028663b60"
+  },
+  "sheets.pick-from-the-list": {
+    "text": "Alegere din listă",
+    "source": "a8fc191ece74"
+  },
+  "sheets.pick-one-of-list": {
+    "text": "Alegeți una dintre: {list}.",
+    "source": "77094891e902"
   },
   "contacts.pick-one-on-the-left-or": {
     "text": "Alegeți una din stânga sau Ctrl+N pentru o fișă nouă.",
@@ -21946,6 +22282,10 @@
   "sheets.put-the-cursor-in-a-table": {
     "text": "Puneți cursorul într-un tabel sau într-un tabel pivot. Un slicer filtrează unul dintre ele.",
     "source": "906ca4fd2842"
+  },
+  "sheets.ribbon.put-the-legend-at-a-side": {
+    "text": "Plasați legenda pe o latură a diagramei sau eliminați-o.",
+    "source": "f49a59ee7c72"
   },
   "image.tools.put-the-pins-back": {
     "text": "Readucere repere",
@@ -23203,6 +23543,10 @@
     "text": "Eliminați acest rând",
     "source": "9b034cbd964e"
   },
+  "sheets.dialogs.remove-this-rule": {
+    "text": "Eliminare regulă",
+    "source": "006122390887"
+  },
   "sheets.remove-this-watch": {
     "text": "Eliminați această urmărire",
     "source": "7c1c8bf08b8c"
@@ -24303,6 +24647,10 @@
     "text": "Reguli",
     "source": "4228aeb07c41"
   },
+  "sheets.dialogs.rules-on-this-sheet": {
+    "text": "Reguli din această foaie",
+    "source": "febf492f1ab9"
+  },
   "mail.rules.rules-run-when-mail-arrives-and": {
     "text": "Regulile rulează la sosirea e-mailului și pot fi aplicate pe un folder oricând doriți.",
     "source": "6045d8d52773"
@@ -25295,6 +25643,10 @@
     "text": "A doua culoare: unde se termină un gradient",
     "source": "014aa91028da"
   },
+  "video.inspector.second-line": {
+    "text": "Al doilea rând",
+    "source": "c8b588f708d6"
+  },
   "video.library.second-point": {
     "text": "Al doilea punct",
     "source": "55b07a59a655"
@@ -25302,6 +25654,10 @@
   "calendar.second-time-zone": {
     "text": "Al doilea fus orar",
     "source": "49755d0fec21"
+  },
+  "sheets.filter-panel.second-value": {
+    "text": "A doua valoare",
+    "source": "c4a53a97a697"
   },
   "slides.export-video.seconds-spent-on-each-slide": {
     "text": "Secunde petrecute pe fiecare diapozitiv",
@@ -25691,6 +26047,10 @@
     "text": "Trimiteți un link prietenilor oricum doriți. Cine îl deschide devine contactul dvs. după ce acceptă, cu Rutba Office sau, fără el, cu un cont Rutba gratuit. Retrageți-l când ați terminat.",
     "source": "bd1c97fbc637"
   },
+  "talk.send-again": {
+    "text": "Retrimitere",
+    "source": "feead925e260"
+  },
   "mail.send-and-receive": {
     "text": "Trimitere și primire",
     "source": "ffcf0846896c"
@@ -25931,9 +26291,9 @@
     "text": "Separare cu virgule",
     "source": "1d7e4e1cdf8b"
   },
-  "sheets.dialogs.separated-by-commas-or-a-range": {
-    "text": "Separate prin virgule sau o zonă, cum ar fi $H$1:$H$9.",
-    "source": "66ebf7c18623"
+  "sheets.dialogs.separated-by-commas-or-a-range-2": {
+    "text": "Separate prin virgule sau o zonă, de exemplu $H$1:$H$9 sau Products!A2:A11.",
+    "source": "deed8689a130"
   },
   "word.ribbon.separated-by-tabs": {
     "text": "Separat prin tabulatori",
@@ -25955,9 +26315,17 @@
     "text": "Serie",
     "source": "a8295e08ff7a"
   },
+  "sheets.ribbon.series-colour": {
+    "text": "Culoare serie",
+    "source": "3989e7fea65a"
+  },
   "sheets.dialogs.series-in": {
     "text": "Serie în",
     "source": "ceaab7f3e90b"
+  },
+  "sheets.ribbon.series-to-colour": {
+    "text": "Seria de colorat",
+    "source": "aa8f68cf8f3b"
   },
   "slides.series-number": {
     "text": "Seria {number}",
@@ -26623,6 +26991,10 @@
     "text": "Tip expunere",
     "source": "5d97277b82b2"
   },
+  "sheets.pivot-fields.show-values-as": {
+    "text": "Afișare valori ca",
+    "source": "bb7cc9d7da0d"
+  },
   "notify-dialog.show-what-it-says": {
     "text": "Afișare conținut",
     "source": "01ff1c611346"
@@ -26654,6 +27026,10 @@
   "talk.meet-lines.showing-their-screen": {
     "text": "Își partajează ecranul",
     "source": "1c428d39d527"
+  },
+  "studio.spoken-run.shown-only-the-words-type-at": {
+    "text": "Doar afișare: se scriu la viteza standard.",
+    "source": "25a457d9d675"
   },
   "talk.address.shown-to-the-people-you-talk": {
     "text": "Afișată persoanelor cu care vorbiți",
@@ -26706,6 +27082,10 @@
   "word.ribbon.shrink-font": {
     "text": "Micșorare font",
     "source": "176934670a3e"
+  },
+  "video.inspector.shrink-to-fit": {
+    "text": "Potrivire prin micșorare",
+    "source": "e65455733f3a"
   },
   "image.tools.shrink-narrow-the-selection-by-that": {
     "text": "Îngustare: îngustați selecția cu atâția pixeli",
@@ -27275,6 +27655,10 @@
     "text": "Minim deasupra",
     "source": "b66a27b2ba69"
   },
+  "sheets.pivot-fields.smallest-first": {
+    "text": "Cel mai mic primul",
+    "source": "4b15d87c3abc"
+  },
   "common.smartart": {
     "text": "SmartArt",
     "source": "fe46ea12fa77"
@@ -27475,6 +27859,10 @@
     "text": "Sortare paragrafe: A la Z sau Z la A; tot documentul când nu este nimic selectat",
     "source": "bd64668cb009"
   },
+  "sheets.pivot-fields.sort-the-items": {
+    "text": "Sortare elemente",
+    "source": "8f5ac57242b2"
+  },
   "sheets.ribbon.sort-the-list-a-to-z": {
     "text": "Sortarea listei de la A la Z după coloana {name}, coloana celulei active; un rând de titluri rămâne sus",
     "source": "121020686363"
@@ -27619,6 +28007,10 @@
     "text": "Sclipire",
     "source": "abac3d1ed392"
   },
+  "sheets.sparkline-options": {
+    "text": "Opțiuni diagramă sparkline",
+    "source": "7660b0f99e6b"
+  },
   "sheets.ribbon.sparklines": {
     "text": "Diagrame sparkline",
     "source": "a77d2f6f62bf"
@@ -27762,6 +28154,10 @@
   "word.split-cells": {
     "text": "Scindare celule",
     "source": "ec306591839f"
+  },
+  "video.inspector.split-into-lines": {
+    "text": "Scindare în rânduri",
+    "source": "2b164901b73d"
   },
   "sheets.split-into-the-cells-to-the": {
     "text": "Scindat în celulele din dreapta",
@@ -27954,6 +28350,10 @@
   "word.list-dialog.start-at": {
     "text": "Începe la",
     "source": "334c284f438c"
+  },
+  "sheets.dialogs.start-at-nought": {
+    "text": "Pornire de la zero",
+    "source": "8e5da7fea6e5"
   },
   "word.restrict.start-enforcement": {
     "text": "Pornire impunere",
@@ -28559,6 +28959,14 @@
     "text": "Valori separate prin tab (.tsv)",
     "source": "8015e916b0d7"
   },
+  "sheets.dialogs.tab-colour": {
+    "text": "Culoare filă",
+    "source": "5ea3b6dde585"
+  },
+  "sheets.tab-colour": {
+    "text": "Culoare filă…",
+    "source": "2dc7ab1e9dc6"
+  },
   "word.tab-leader": {
     "text": "Caracter de umplere",
     "source": "4c13c6224502"
@@ -29079,6 +29487,10 @@
     "text": "Efecte: transformare",
     "source": "788f2d5eb581"
   },
+  "sheets.filter-panel.text-filters": {
+    "text": "Filtre text",
+    "source": "ab3c6a9c325c"
+  },
   "word.forms.text-form-field": {
     "text": "Câmp formular text",
     "source": "c493dd6ddde9"
@@ -29122,6 +29534,10 @@
   "slides.revisions.text-changed": {
     "text": "Text modificat",
     "source": "26c7b5775381"
+  },
+  "video.inspector.text-colour": {
+    "text": "Culoare text",
+    "source": "25e9c8090de7"
   },
   "sheets.dialogs.text-contains": {
     "text": "Text care conține",
@@ -29711,6 +30127,10 @@
     "text": "Aplicațiile pe care doriți să le vedeți și cu care să deschideți fișierele.",
     "source": "332e5249e305"
   },
+  "video.inspector.the-bar-covers-the-whole-film": {
+    "text": "Bara acoperă întregul film pe măsură ce crește, până când i se modifică lungimea.",
+    "source": "da0ae4020925"
+  },
   "video.inspector.the-bar-fills-from-where-this": {
     "text": "Bara se umple de la începutul acestui clip până la sfârșitul lui.",
     "source": "01d9656a5ad1"
@@ -29718,6 +30138,10 @@
   "video.the-brand-kit-is-kept-for": {
     "text": "Kitul de marcă este păstrat pentru dvs. și apare în fiecare scenă.",
     "source": "3180710525cd"
+  },
+  "video.inspector.the-brand-kit-logo": {
+    "text": "Sigla din kitul de brand",
+    "source": "cee5b3c1d63e"
   },
   "word.list-dialog.the-bullet-character": {
     "text": "Caracterul marcatorului.",
@@ -29886,6 +30310,10 @@
   "talk-words.the-connection-was-lost-and-the": {
     "text": "Conexiunea s-a pierdut și nu s-a putut reintra în întâlnire.",
     "source": "ecc583f6d5d1"
+  },
+  "sheets.the-copy-has-the-cells-and": {
+    "text": "Copia are celule și formate. Diagramele, imaginile, tabelele și rapoartele PivotTable rămân în original.",
+    "source": "dad761a634d9"
   },
   "engine.the-criteria-range-cannot-sit-inside": {
     "text": "Zona de criterii nu poate fi în interiorul listei.",
@@ -30275,6 +30703,10 @@
     "text": "Copia blocată este salvată. Trimiteți-o în orice mod doriți.",
     "source": "bbfae89220a6"
   },
+  "video.library.the-logo-from-your-brand-kit": {
+    "text": "Sigla din kitul de brand, în colț, sau o imagine aleasă de dvs.",
+    "source": "9323498bce87"
+  },
   "engine.the-mail-app-is-chosen-in": {
     "text": "Aplicația de e-mail se alege din setările sistemului de pe acest computer.",
     "source": "5141d3af3f67"
@@ -30314,6 +30746,10 @@
   "mail.parts.the-mail-server-would-not-keep": {
     "text": "Serverul de e-mail nu a păstrat o copie a mesajului trimis în {folder}. Copia de aici se păstrează.",
     "source": "59af5bb0cb8f"
+  },
+  "mail.parts.the-mail-server-would-not-keep-2": {
+    "text": "Serverul de e-mail nu a păstrat ciorna în {folder}. Este încă pe acest computer.",
+    "source": "2304437141a3"
   },
   "mail.parts.the-mail-server-would-not-make": {
     "text": "Serverul de e-mail nu a aplicat o modificare făcută aici. E-mail arată ce are serverul.",
@@ -30362,6 +30798,10 @@
   "talk.meet-lines.the-meeting-is-full-on-its": {
     "text": "Întâlnirea este completă pe Talk Server.",
     "source": "a28293313806"
+  },
+  "talk.the-meeting-stays-here-reason": {
+    "text": "Întâlnirea rămâne aici: {reason}",
+    "source": "2f8fd822d081"
   },
   "talk.meet-lines.the-meetings-talk-server-is-not": {
     "text": "Talk Server pentru această întâlnire nu primește persoane acum. Încercați din nou imediat.",
@@ -30863,6 +31303,10 @@
     "text": "Copia de siguranță pentru {name} a fost creată {when}. Fișierele sale ({n}) sunt scrise, neblocate, într-un folder nou din interiorul celui ales de dvs. Nimic din ce există deja acolo nu se modifică.",
     "source": "a34f0ed2f93a"
   },
+  "sheets.dialogs.the-same-for-all-of-them": {
+    "text": "La fel pentru toate",
+    "source": "eef1cb1cfa61"
+  },
   "locker.the-same-password-again": {
     "text": "Aceeași parolă din nou",
     "source": "cfd750367fe1"
@@ -30918,6 +31362,10 @@
   "sheets.dialogs.the-selection-holds-a-formula-in": {
     "text": "Selecția conține o formulă în colț și valorile de încercat pe margini. Fiecare celulă se umple cu rezultatul formulei pentru acea combinație.",
     "source": "fe7e0163219d"
+  },
+  "sheets.the-selection-is-now-named-name": {
+    "text": "Selecția se numește acum {name}.",
+    "source": "c3c614e5e0f0"
   },
   "mail.the-sender-supports-one-click-unsubscribe": {
     "text": "Expeditorul acceptă dezabonarea cu un clic. I se trimite o singură cerere și nimic altceva nu părăsește acest computer.",
@@ -31126,6 +31574,10 @@
   "engine.the-text-recognition-model-for-key": {
     "text": "Modelul de recunoaștere a textului pentru {key} nu a putut fi încărcat.",
     "source": "44a1288700c8"
+  },
+  "video.inspector.the-theme-colour": {
+    "text": "Culoarea temei",
+    "source": "c9c8ab182186"
   },
   "slides.ribbon.the-themes-own-looks-filled-in": {
     "text": "Stilurile proprii ale temei: umplere cu un accent, contur la fel",
@@ -31566,6 +32018,10 @@
   "mail.these-accounts": {
     "text": "Aceste conturi",
     "source": "0eca400d4be1"
+  },
+  "sheets.dialogs.these-apply-to-every-sparkline-made": {
+    "text": "Acestea se aplică fiecărei diagrame sparkline create împreună cu aceasta.",
+    "source": "a459084b0d0c"
   },
   "mail.these-are-imported-archives-there-is": {
     "text": "Acestea sunt arhive importate, deci nu există nimic de preluat.",
@@ -32022,6 +32478,10 @@
   "word.restrict.this-document-is-protected-only-comments": {
     "text": "Acest document este protejat: aici se pot adăuga doar comentarii. Revizuire → Restricționare editare arată regiunile pe care le puteți edita.",
     "source": "b908b8376d8e"
+  },
+  "sheets.this-entry-does-not-match-the": {
+    "text": "Această intrare nu respectă regula setată pentru această celulă.",
+    "source": "64430678bcb5"
   },
   "calendar.this-event-has-a-talk-meeting": {
     "text": "Evenimentul are o întâlnire Talk. Linkul este în invitație.",
@@ -32503,6 +32963,10 @@
     "text": "Această foaie nu are o schiță de golit.",
     "source": "a80699366a86"
   },
+  "sheets.dialogs.this-sheet-has-no-rules-yet": {
+    "text": "Această foaie nu are încă reguli.",
+    "source": "735960d6edfc"
+  },
   "sheets.this-sheet-is-protected-with-a": {
     "text": "Această foaie este protejată cu o parolă. Tastați-o pentru a elimina protecția.",
     "source": "368023c3045c"
@@ -32622,6 +33086,10 @@
   "studio.guests.this-window-leaves-and-talk-comes": {
     "text": "Se deschide Talk în locul ferestrei: aceleași persoane, ca întâlnire.",
     "source": "fa116fc70753"
+  },
+  "talk.this-window-leaves-the-meeting-once": {
+    "text": "Această fereastră părăsește întâlnirea după ce se deschide cealaltă, iar dvs. o organizați de acolo.",
+    "source": "fb83b9a3480f"
   },
   "sheets.this-workbook-has-no-comments": {
     "text": "Acest registru de lucru nu are comentarii.",
@@ -33027,6 +33495,10 @@
     "text": "Bordură sus",
     "source": "79775184aaa3"
   },
+  "sheets.dialogs.top-items": {
+    "text": "Primele elemente",
+    "source": "af3865aa2315"
+  },
   "common.top-left": {
     "text": "Stânga sus",
     "source": "a0eda50fb155"
@@ -33035,6 +33507,10 @@
     "text": "Primul din listă este în față. Glisați pentru a schimba ordinea.",
     "source": "428a0adb9e63"
   },
+  "sheets.dialogs.top-per-cent": {
+    "text": "Primele procente",
+    "source": "fa0e93898958"
+  },
   "common.top-right": {
     "text": "Dreapta sus",
     "source": "d83cbef9db1b"
@@ -33042,6 +33518,14 @@
   "sheets.dialogs.top-row": {
     "text": "Rândul de sus",
     "source": "5c027c33bb97"
+  },
+  "sheets.dialogs.top-count": {
+    "text": "Primele {count}",
+    "source": "b6783f4fd940"
+  },
+  "sheets.dialogs.top-count-2": {
+    "text": "Primele {count}%",
+    "source": "ea8f8cc99e8d"
   },
   "common.total": {
     "text": "Total",
@@ -33055,9 +33539,17 @@
     "text": "Rând total: ultimul rând, cu aspectul de total al stilului",
     "source": "46fd3713529a"
   },
+  "sheets.ribbon.total-of-column-none": {
+    "text": "Total {column}: niciunul",
+    "source": "1676db04c840"
+  },
   "base.reports.total-of-field": {
     "text": "Totalul pentru {field}",
     "source": "f3956fd5d7dd"
+  },
+  "sheets.ribbon.total-row": {
+    "text": "Rând total",
+    "source": "3c3cb9cbf619"
   },
   "base.totals": {
     "text": "Totaluri",
@@ -33515,6 +34007,10 @@
     "text": "Tastați sau lipiți adresele",
     "source": "ddf091a93d83"
   },
+  "video.type-or-paste-your-words-here": {
+    "text": "Tastați sau lipiți textul aici.",
+    "source": "2d8717ac7291"
+  },
   "sheets.dialogs.type-part-of-a-name": {
     "text": "Tastați o parte dintr-un nume",
     "source": "7602842c7ce4"
@@ -33587,9 +34083,17 @@
     "text": "Tastată",
     "source": "bff482dbe92b"
   },
+  "common.typewriter": {
+    "text": "Efect de mașină de scris",
+    "source": "b15b792b2b10"
+  },
   "video.inspector.typing": {
     "text": "Tastare",
     "source": "25dfb9b4b32f"
+  },
+  "video.inspector.typing-speed": {
+    "text": "Viteză de scriere",
+    "source": "9d1ff237078a"
   },
   "common.uppercase": {
     "text": "MAJUSCULE",
@@ -33674,6 +34178,18 @@
   "sheets.unhide-name": {
     "text": "Reafișare „{name}”",
     "source": "efad2d4bb2b6"
+  },
+  "sheets.ribbon.unhide-all-rows-and-columns": {
+    "text": "Reafișare rânduri și coloane",
+    "source": "e996d6d88a04"
+  },
+  "sheets.unhide-columns": {
+    "text": "Reafișare coloane",
+    "source": "2aee4f4f679d"
+  },
+  "sheets.unhide-rows": {
+    "text": "Reafișare rânduri",
+    "source": "783840178245"
   },
   "sheets.ribbon.unhide-a-hidden-worksheets-window-back": {
     "text": "Reafișare: o fereastră Foi de calcul ascunsă, din nou pe ecran",
@@ -34015,6 +34531,10 @@
     "text": "Actualizare {style} după selecție",
     "source": "e65ad4674254"
   },
+  "sheets.ribbon.update-style-to-match-this-cell": {
+    "text": "Actualizare {style} după celulă",
+    "source": "ab2583743d9d"
+  },
   "shell.updated-from-version-what-changed-is": {
     "text": "Actualizat de la {version}. Modificările sunt la un clic distanță.",
     "source": "d4f81a14fa5f"
@@ -34303,6 +34823,10 @@
     "text": "Video vertical social",
     "source": "06b16b68f5bb"
   },
+  "sheets.ribbon.vertical-axis-title": {
+    "text": "Titlu axă verticală",
+    "source": "350384e51fb0"
+  },
   "sheets.ribbon.vertical-text": {
     "text": "Text vertical",
     "source": "623bb53bc829"
@@ -34430,6 +34954,10 @@
   "common.voice": {
     "text": "Voce",
     "source": "87bf2bc08589"
+  },
+  "common.voice-first": {
+    "text": "Vocea începe întâi",
+    "source": "e03a9afde9bd"
   },
   "voices-dialog.voices": {
     "text": "Voci",
@@ -35039,6 +35567,10 @@
     "text": "Ferestre",
     "source": "d598026a9cbc"
   },
+  "notify-dialog.windows-did-not-show-the-last": {
+    "text": "Windows nu a afișat ultima notificare. În Setările Windows, la Sistem, Notificări, verificați că notificările sunt activate pentru Windows și pentru Rutba Office și că Nu deranjați este dezactivat.",
+    "source": "8663439dc961"
+  },
   "engine.windows-keeps-this-choice-for-you": {
     "text": "În Windows, această alegere vă aparține: alegeți Rutba Office în Setări › Aplicații implicite. Butonul de mai jos deschide acea pagină.",
     "source": "954691d41579"
@@ -35091,6 +35623,14 @@
     "text": "Cu încadrare text",
     "source": "1c19fe80875f"
   },
+  "common.with-the-voice": {
+    "text": "Odată cu vocea",
+    "source": "a0c88e3ba266"
+  },
+  "video.spoken.with-the-words-shown-only-they": {
+    "text": "Doar afișare: se scriu la viteza filmului.",
+    "source": "a1da8c430dfa"
+  },
   "talk.with-video": {
     "text": "Cu video",
     "source": "d530d62be3b5"
@@ -35139,6 +35679,10 @@
     "text": "WordArt",
     "source": "ae16a048a626"
   },
+  "video.inspector.word-by-word": {
+    "text": "Cuvânt cu cuvânt",
+    "source": "ddbaf8c9f91a"
+  },
   "word.dialogs.word-count": {
     "text": "Număr de cuvinte",
     "source": "653913ac0e67"
@@ -35175,13 +35719,25 @@
     "text": "Cuvinte",
     "source": "0a8be89a52a8"
   },
+  "video.inspector.words-alone": {
+    "text": "Doar cuvintele",
+    "source": "ddf082782ed5"
+  },
   "ui.proofing.words-for-word": {
     "text": "Cuvinte pentru „{word}”",
     "source": "6d61efe54546"
   },
+  "video.library.words-on-a-pill": {
+    "text": "Cuvinte pe o capsulă",
+    "source": "c3b9558baaef"
+  },
   "spoken.voices.words-to-say": {
     "text": "Cuvinte de rostit",
     "source": "3353415dcf6a"
+  },
+  "video.library.words-typed-in-over-the-pictures": {
+    "text": "Cuvinte care apar peste imagini, cum alegeți: literă cu literă, cuvânt cu cuvânt, rând cu rând, karaoke sau dintr-odată.",
+    "source": "bbe7cf532cfb"
   },
   "ui.proofing.words-you-have-added-are-never": {
     "text": "Cuvintele adăugate nu sunt marcate niciodată ca greșite, în Documente, Foi de calcul și Prezentări deopotrivă.",
@@ -35307,6 +35863,10 @@
     "text": "Scrierea atașamentelor lângă fiecare mesaj",
     "source": "e456d4b9b1fd"
   },
+  "sheets.ribbon.write-each-value-beside-its-bar": {
+    "text": "Valoarea lângă fiecare bară sau punct.",
+    "source": "026231f2c863"
+  },
   "mail.compose.write-it-in-a-window-of": {
     "text": "Scrierea mesajului într-o fereastră proprie",
     "source": "76eb5c9c5448"
@@ -35323,9 +35883,17 @@
     "text": "Scrieți primul mesaj către acest grup.",
     "source": "79c6b8f1ef84"
   },
+  "sheets.ribbon.write-the-share-of-each-slice": {
+    "text": "Procentul scris pe fiecare felie.",
+    "source": "d494df2a096c"
+  },
   "studio.window.writing-stopped-reason-what-was-written": {
     "text": "Scrierea s-a oprit: {reason}. Ce s-a scris înainte se păstrează.",
     "source": "9d5b1ef54387"
+  },
+  "sheets.dialogs.written-for-the-first-cell-of": {
+    "text": "Scrisă pentru prima celulă a selecției, de exemplu =$C2>100. Semnul dolar fixează o coloană sau un rând.",
+    "source": "d7d6c2376a68"
   },
   "contacts.wrote-count-card-to-file": {
     "forms": {
@@ -35690,6 +36258,10 @@
   "video.your-title-here": {
     "text": "Titlul dvs. aici",
     "source": "66094e7e6215"
+  },
+  "video.your-web-address": {
+    "text": "Adresa dvs. web",
+    "source": "0bceb158232c"
   },
   "video.library.your-words": {
     "text": "Cuvintele dvs.",
@@ -37359,6 +37931,10 @@
     "text": "{calendars}, {books} · sincronizat {when}",
     "source": "e74fd34182ad"
   },
+  "sheets.cell-was-not-changed-reason": {
+    "text": "Celula {cell} nu a fost modificată. {reason}",
+    "source": "c6587d02f21f"
+  },
   "engine.changed-file-types-now-open-with": {
     "text": "{changed} tipuri de fișiere se deschid acum cu Rutba Office.",
     "source": "aac86dd995be"
@@ -38050,6 +38626,10 @@
       "other": "{count} lăsate așa cum erau"
     },
     "source": "58f6eb7ce109"
+  },
+  "video.inspector.count-letters-a-second": {
+    "text": "Litere pe secundă: {count}",
+    "source": "8492559d17f5"
   },
   "base.documents.count-line": {
     "forms": {
@@ -39135,6 +39715,10 @@
     "text": "Ajustare: {look}",
     "source": "eb6eabf53c50"
   },
+  "video.made-the-chapters-are-in-name": {
+    "text": "{made} Capitolele sunt în {name}.",
+    "source": "fe36caf0e53c"
+  },
   "video.made-the-first-go-came-out": {
     "text": "{made}. Prima variantă a depășit {limit}, deci s-a recodificat mai mic.",
     "source": "17043b2efde8"
@@ -39231,6 +39815,10 @@
     "text": "{name} se înlocuiește cu numele fiecărei persoane. Linkul de acceptare și modul de obținere a Rutba Office apar sub nota dvs.",
     "source": "6724ae357006"
   },
+  "talk.name-called-while-you-were-on": {
+    "text": "{name} a sunat cât erați în emisie. Apelul, respins ca ocupat, este în Apeluri pierdute.",
+    "source": "2a0990e6e9e1"
+  },
   "video.name-cannot-be-played-on-this": {
     "text": "Fișierul {name} nu poate fi redat pe acest computer.",
     "source": "56c80f47dfd7"
@@ -39298,6 +39886,10 @@
   "talk-words.name-ended-the-meeting": {
     "text": "{name} a încheiat întâlnirea.",
     "source": "68a9df35664b"
+  },
+  "studio.guests.name-has-left-the-meeting-their": {
+    "text": "{name} a părăsit întâlnirea. Locul său este acum liber.",
+    "source": "7ff12fec0c3b"
   },
   "word.mailings.name-has-more-than-one-sheet": {
     "text": "{name} are mai multe foi. Primul rând al celei alese denumește câmpurile.",
@@ -39935,6 +40527,10 @@
     "text": "Adăugat la Destinatari siguri: {recipient}",
     "source": "0b01f434a11b"
   },
+  "sheets.removed-duplicate-rows-removed-kept-rows": {
+    "text": "Rânduri dublură eliminate: {removed}; rânduri rămase: {kept}.",
+    "source": "7299a779b8cc"
+  },
   "calendar.words.room-is-booked-for-when": {
     "text": "Sala {room} este rezervată pentru {when}.",
     "source": "6c97b843b2c6"
@@ -39966,6 +40562,10 @@
   "common.seconds-s": {
     "text": "{seconds} s",
     "source": "fde82d3dd95e"
+  },
+  "video.inspector.seconds-s-apart": {
+    "text": "La interval de {seconds} s",
+    "source": "f04806f51dbb"
   },
   "pictures.seconds-s": {
     "text": "{seconds} s",
